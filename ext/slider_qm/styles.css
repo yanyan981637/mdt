@@ -1,0 +1,1112 @@
+@charset "utf-8";
+
+.animsition-overlay-slide {
+      background-color: #ebedee;
+}
+
+
+
+/*	--------------------------------------------------
+	Owl Pagination
+	-------------------------------------------------- */
+.owl-controls2 {
+	margin-top: 25px;
+    text-align: center;
+}
+.owl-controls2 .owl-dot {
+	padding: 3px;
+	margin: 0 15px;
+    display: inline-block;
+	border: 1px solid #787878;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.owl-controls2 .owl-dot span {
+	width: 7px;
+    height: 7px;
+    background-color: #787878;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+}
+.owl-controls2 .owl-dot.active, .owl-controls2 .owl-dot:hover {
+	background-color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+}
+
+/*	--------------------------------------------------
+	Home Page
+	-------------------------------------------------- */
+#pageIndex {
+	width: 100%;
+}
+#pageIndex header{
+	margin-top: -100px;
+}
+#pageIndex h2{
+	width: 75%;
+}
+#pageIndex p{
+	line-height: 1.5;
+}
+#pageIndex .secBanner {
+	position: relative;
+	top: 35vh;
+	/*height: 85vh;*/
+	margin: 0;
+	/*padding: 80px 0;*/
+	padding:20px 0 50px 0;/*0131*/
+	overflow: hidden;
+}
+#pageIndex .secBanner li{
+	width: 100%;
+	overflow: hidden;
+}
+#pageIndex .secBanner .imgHolder {
+	position: relative;
+	width: 80%;
+	/*height: 70vh;*/
+	height: 62vh;/*0131*/
+	float: right;
+	overflow: hidden;
+	pointer-events: none;
+	opacity: 0;
+}
+#pageIndex .secBanner .imgHolder img{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+	height: auto;
+}
+#pageIndex .secBanner .contentHolder {
+	position: absolute;
+	z-index: 2;
+	top: 100%;
+    transform: translate(0%, -50%);
+	width: 35%;
+	padding: 80px 40px;
+}
+#pageIndex .secBanner .contentHolder_home {
+	position: absolute;
+	z-index: 2;
+	top: 100%;
+    transform: translate(0%, -50%);
+	width: 50%;
+	padding: 80px 80px;
+}
+#pageIndex .secBanner .contentHolder .lblHolder, #pageIndex .secBanner .contentHolder_home .lblHolder {
+	margin-bottom: 30px;
+	line-height: 1.2;
+	color: rgb(127, 127, 127);
+}
+#pageIndex .secBanner .contentHolder h1, #pageIndex .secBanner .contentHolder_home h1{
+	margin-bottom: 25px;
+}
+#pageIndex .secBanner .contentHolder p{
+	margin-bottom: 70px;
+	line-height: 1.65;
+	color: #fff;
+}
+#pageIndex .secBanner .contentHolder_home p{
+	margin-bottom: 30px;
+	line-height: 1.65;
+	color: #fff;
+}
+#pageIndex .secBanner .contentHolder .btnReadMore a, #pageIndex .secBanner .contentHolder_home .btnReadMore a{
+	display: block;
+	color: #323232;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+#pageIndex .secBanner .owl-controls2{
+	position: absolute;
+	z-index: 2;
+	bottom: -7.5vh;
+	right: 0px;
+	/*background: #fff;*/
+	width: auto;
+	padding: 25px 15px;
+	text-align: right;
+}
+
+#pageIndex .secBrief {
+	padding: 0 80px 65px 0px;
+}
+#pageIndex .secBrief h2{
+	width: 85%;
+	letter-spacing: 0px;
+}
+#pageIndex .secBrief p{
+	line-height: 2;
+	margin-bottom: 45px;
+}
+#pageIndex .secBrief .imgHolder {
+	width: 55%;
+	background: url(../images/bg-landing-about.jpg) no-repeat left top;
+	background-size: 78% 78%;
+	float: left;
+}
+#pageIndex .secBrief .imgHolder img{
+	width: 90%;
+	height: auto;
+	margin: 80px 0 0 90px;
+}
+#pageIndex .secBrief .contentHolder {
+	width: 40%;
+	background: url(../images/ly-top-right.png) no-repeat right top;
+	padding: 95px 0 80px 0px;
+	float: right;
+}
+#pageIndex .secBrief .contentHolder a{
+	display: block;
+	color: #323232;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+
+#pageIndex .secProducts {
+	padding: 0 0 95px 170px;
+}
+#pageIndex .secProducts h2{
+	width: 60%;
+}
+#pageIndex .secProducts p{
+	margin-bottom: 60px;
+	line-height: 2;
+}
+#pageIndex .secProducts a{
+	display: block;
+	color: #323232;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+#pageIndex .secProducts .contentHolder {
+	position: relative;
+	width: 39%;
+	margin-top: 90px;
+	float: left;
+}
+#pageIndex .secProducts .imgHolder {
+	width: 56%;
+	float: right;
+	overflow: hidden;
+}
+#pageIndex .secProducts .imgHolder ul{
+	margin-top: 45px;
+}
+#pageIndex .secProducts .imgHolder li{
+	width: 100%;
+	background: none;
+	background-position: center center;
+	overflow: hidden;
+}
+#pageIndex .secProducts .imgHolder li:hover{
+	width: 100%;
+	background: url(../images/ico-view-mor.png) no-repeat center center;
+	background-size: 80px;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProducts .imgHolder li:after {
+	content: "";
+  	display: block;
+  	padding-bottom: 100%;
+}
+#pageIndex .secProducts .imgHolder li a{
+	display: block;
+}
+#pageIndex .secProducts .imgHolder img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProducts .imgHolder a:hover img{
+	opacity: 0.85;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProducts .owl-controls2{
+	position: absolute;
+	z-index: 2;
+	top: -45px;
+	left: -20px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+#pageIndex .secProjects {
+	position: relative;
+	margin: 0 170px;
+}
+#pageIndex .secProjects .secTitle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 23%;
+}
+#pageIndex .secProjects h2{
+	background: url(../images/border-project-landing.png) no-repeat 5px bottom;
+	padding-bottom: 100px;
+}
+#pageIndex .secProjects h4{
+	margin-bottom: 35px;
+	line-height: 1.2;
+	color: #7f7f7f;
+}
+#pageIndex .secProjects h5{
+	line-height: 2;
+}
+#pageIndex .secProjects p{
+	line-height: 1.2;
+	letter-spacing: 2px;
+}
+#pageIndex .secProjects a{
+	display: block;
+	color: inherit;
+}
+#pageIndex .secProjects li{
+	display: block;
+	clear: both;
+}
+#pageIndex .secProjects li a{
+	position: relative;
+	width: 100%;
+}
+#pageIndex .secProjects .imgHolder {
+	width: 41%;
+	display: inline-block;
+}
+#pageIndex .secProjects .imgHolder img{
+	width: 100%;
+	height: auto;
+	display: block;
+	opacity: 1;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProjects a:hover .imgHolder img{
+	opacity: 0.85;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProjects .contentHolder {
+	position: absolute;
+	top: 50%;
+    transform: translate(0%, -50%);
+	width: 25%;
+	left: 44%;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProjects li:nth-child(even) {
+	text-align: right;
+}
+#pageIndex .secProjects li:nth-child(even) .contentHolder {
+	text-align: right;
+	left: 31%;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProjects a:hover .contentHolder {
+	left: 46%;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProjects  li:nth-child(even) a:hover .contentHolder {
+	left: 28%;
+	transition: all 0.3s ease-out;
+}
+#pageIndex .secProjects .btnViewMore {
+	margin: 60px auto 0 auto;
+	clear: both;
+	text-align: center;
+}
+#pageIndex .secProjects .btnViewMore a{
+	padding: 8px 30px 10px 30px;
+  	color: rgb(50, 50, 50);
+	display: block;
+	border: 2px solid #181514;
+}
+#pageIndex .secProjects .btnViewMore a:hover{
+  	color: rgb(0, 0, 0);
+	border: 2px solid #000000;
+}
+
+
+#pageProduct .secCustomized .imgHolder {
+	margin-right: 16%;
+}
+#pageProduct .secCustomized .imgHolder img{
+	width: 100%;
+	height: auto;
+}
+#pageProduct .secCustomized .contentHolder {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 42%;
+	background-color: #f9f9f9;
+	padding: 60px 0 25px 60px;
+}
+#pageProduct .secListing li .imgHolder {
+	position: relative;
+	width: 100%;
+	background: none;
+	background-position: center center;
+	background-size: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	transition: all 0.2s ease-out;
+}
+#pageProduct .secListing li a:hover .imgHolder {
+	background: url(../images/ico-view-mor.png) no-repeat center center;
+	background-size: 80px;
+	transition: all 0.2s ease-out;
+}
+#pageProduct .secListing li .imgHolder:after {
+	content: "";
+  	display: block;
+  	padding-bottom: 100%;
+}
+#pageProduct .secListing li .imgHolder img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	pointer-events: none;
+	transition: all 0.2s ease-out;
+}
+#pageProduct .secListing li a:hover .imgHolder img{
+	width: 108%;
+	opacity: 0.5;
+	transition: all 0.2s ease-out;
+}
+#pageProduct .secDetails .imgHolder {
+	position: relative;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#pageProduct .secDetails .imgHolder:after {
+	content: "";
+  	display: block;
+  	padding-bottom: 100%;
+}
+#pageProduct .secDetails .imgHolder img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+	height: auto;
+	display: none;
+}
+#pageProduct .secDetails .imgHolder img:first-child{
+	display: block;
+}
+
+#pageProduct .secDetails .contentHolder {
+	width: 40%;
+	margin-top: 30px;
+	float: right;
+}
+#pageProduct .secDetails .contentHolder h1{
+	margin-bottom: 5px;
+}
+#pageProduct .secDetails .contentHolder h5{
+	margin-bottom: 45px;
+}
+#pageProduct .secDetails .contentHolder p{
+	margin-bottom: 25px;
+}
+#pageProduct .secDetails .contentHolder li{
+	margin-bottom: 15px;
+	line-height: 1.2;
+}
+#pageProduct .secDetails .contentHolder li img{
+	margin: 3px 0 0 0px;
+}
+
+/*	--------------------------------------------------
+	Customization Page
+	-------------------------------------------------- */
+
+#pageCustom .secBrief .contentHolder {
+	position: absolute;
+	top: 50%;
+    transform: translate(0%, -50%);
+	width: 28%;
+}
+#pageCustom .secBrief .imgHolder {
+	width: 64%;
+	float: right;
+}
+#pageCustom .secBrief .imgHolder img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#pageCustom .secBrief .owl-controls2{
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	right: 0px;
+	background: #f9f9f9;
+	width: 49%;
+	padding: 35px 5px;
+	text-align: left;
+}
+
+#pageCustom .secMakeQuote .imgHolder {
+	height: 78vh;
+	margin-right: 16%;
+	overflow: hidden;
+}
+#pageCustom .secMakeQuote .imgHolder img{
+	width: 100%;
+	height: auto;
+}
+
+#pageProject .secListing li .imgHolder {
+	width: 97%;
+	background: none;
+	background-position: center center;
+	margin-bottom: 15px;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+}
+#pageProject .secListing li a:hover .imgHolder {
+	background: url(../images/ico-view-mor.png) no-repeat center center;
+	background-size: 80px;
+	transition: all 0.3s ease-out;
+}
+#pageProject .secListing li .imgHolder img{
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	
+	transition: all 0.3s ease-out;
+}
+#pageProject .secListing li a:hover .imgHolder img{
+	opacity: 0.65;
+	transition: all 0.3s ease-out;
+}
+
+#pageProject .secDetails .contentHolder {
+	width: 25%;
+	margin-top: 25px;
+	float: left;
+}
+#pageProject .secDetails .contentHolder h1{
+	margin-bottom: 30px;
+}
+#pageProject .secDetails .contentHolder h5{
+	margin-bottom: 60px;
+	color: #373737;
+}
+#pageProject .secDetails .contentHolder p{
+	margin-bottom: 40px;
+}
+#pageProject .secDetails .contentHolder li{
+	margin: 15px 0 0 0px;
+	padding: 15px 0 0 0px;
+	line-height: 1.2;
+	border-top: 1px solid #ebedee;
+}
+#pageProject .secDetails .contentHolder li .colLeft {
+	width: 35%;
+	float: left;
+}
+#pageProject .secDetails .contentHolder li .colRight {
+	width: 60%;
+	float: right;
+	color: #7f7f7f;
+}
+#pageProject .secDetails .imgHolder {
+	width: 72%;
+	float: right;
+}
+#pageProject .secDetails .imgHolder li{
+	position: relative;
+	height: 72vh;
+	overflow: hidden;
+}
+#pageProject .secDetails .imgHolder img{
+	width: 100%;
+	height: auto;
+}
+#pageProject .secDetails .owl-controls2{
+	position: absolute;
+	z-index: 2;
+	bottom: -45px;
+	right: 0px;
+	width: auto;
+	padding: 0px;
+	text-align: left;
+}
+
+
+#pagePromotion .secListing li .imgHolder {
+	background: none;
+	background-position: center center;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#pagePromotion .secListing li a:hover .imgHolder {
+	background: url(../images/ico-view-mor.png) no-repeat center center;
+	background-size: 80px;
+	transition: all 0.3s ease-out;
+}
+#pagePromotion .secListing li .imgHolder img{
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	transition: all 0.3s ease-out;
+}
+#pagePromotion .secListing li a:hover .imgHolder img{
+	opacity: 0.65;
+	transition: all 0.3s ease-out;
+}
+
+#pagePromotion .secDetails .imgHolder img{
+	width: 100%;
+	height: auto;
+}
+#pagePromotion .secDetails .contentHolder {
+	padding-bottom: 50px;
+}
+#pagePromotion .secDetails .contentHolder h1{
+	margin-bottom: 3px;
+}
+#pagePromotion .secDetails .contentHolder h5{
+	margin-bottom: 20px;
+}
+#pagePromotion .secDetails .contentHolder p{
+	margin-bottom: 25px;
+}
+
+#pageAbout .secBrief .imgHolder {
+	width: 65%;
+	float: left;
+}
+#pageAbout .secBrief .imgHolder img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#pageAbout .secBrief .contentHolder {
+	width: 25%;
+	margin-right: 90px;
+	padding-top: 5%;
+	float: right;
+}
+
+#pageAbout .secDescriptions .imgHolder {
+	margin-right: -170px;
+}
+#pageAbout .secDescriptions .imgHolder img{
+	width: 100%;
+	height: auto;
+}
+
+#pageContact .secBrief .contentHolder {
+	width: 32%;
+	float: right;
+	margin-top: 5%;
+}
+#pageContact .secBrief .contentHolder h1{
+	margin-bottom: 45px;
+}
+#pageContact .contentHolder h3{
+	margin-bottom: 20px;
+}
+#pageContact .contentHolder p{
+	margin-bottom: 25px;
+}
+
+/*	--------------------------------------------------
+	For Mobile Portrait
+	-------------------------------------------------- */
+@media screen and (min-width: 200px) and (max-width: 959px) {
+	.widthWrapper {
+		margin: 0 30px;
+	}
+	
+	#pageIndex h2{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#pageIndex .secBanner {
+		height: auto;
+		margin: 0;
+		/*padding: 60px 0 60px 0px;*/
+		padding: 20px 0 0 0;/*iPad*/
+		overflow: hidden;
+	}
+	#pageIndex .secBanner .imgHolder {
+		width: 100%;
+		height: 185px;
+		/*margin-bottom: 35px;*/
+		float: none;
+	}
+	#pageIndex .secBanner .contentHolder {
+		position: relative;
+		top: 0;
+		transform: translate(0%, 0%);
+		width: 100%;
+	}
+	#pageIndex .secBanner .contentHolder_home {
+		position: relative;
+		top: 0;
+		transform: translate(0%, 0%);
+		width: 100%;
+	}
+	#pageIndex .secBanner .contentHolder .lblHolder, #pageIndex .secBanner .contentHolder_home .lblHolder{
+		margin-bottom: 20px;
+	}
+	#pageIndex .secBanner .contentHolder h1, #pageIndex .secBanner .contentHolder_home h1{
+		margin-bottom: 10px;
+	}
+	#pageIndex .secBanner .contentHolder p, #pageIndex .secBanner .contentHolder_home p{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	#pageIndex .secBanner .owl-controls2{
+		right: -5px;
+		top: 0px;
+		bottom: auto;
+		padding: 15px 15px;
+		margin: 0;
+		text-align: left;
+	}
+
+	#pageIndex .secBrief {
+		padding: 0 30px 65px 0px;
+	}
+	#pageIndex .secBrief h2{
+		width: 100%;
+	}
+	#pageIndex .secBrief p{
+		line-height: 2;
+		margin-bottom: 60px;
+	}
+	#pageIndex .secBrief .imgHolder {
+		width: 100%;
+		float: none;
+	}
+	#pageIndex .secBrief .imgHolder img{
+		width: 90%;
+		margin: 30px 0 0 30px;
+	}
+	#pageIndex .secBrief .contentHolder {
+		width: auto;
+		background: none;
+		padding: 20px 30px 30px 30px;
+		float: none;
+	}
+	#pageIndex .secProducts {
+		padding: 0 0 75px 30px;
+	}
+	#pageIndex .secProducts h2{
+		width: 100%;
+	}
+	#pageIndex .secProducts p{
+		margin-bottom: 50px;
+	}
+	#pageIndex .secProducts .contentHolder {
+		width: 100%;
+		margin-top: 0px;
+		float: none;
+	}
+	#pageIndex .secProducts .imgHolder {
+		width: 100%;
+		float: none;
+	}
+	#pageIndex .secProducts .owl-controls2{
+		position: relative;
+		z-index: 2;
+		top: auto;
+		left: auto;
+		width: 100%;
+		margin: 0;
+		padding: 20px 0 0 0px;
+		text-align: left;
+	}
+	#pageIndex .secProducts .owl-dot:first-child {
+		margin: 0 20px 0 0px;
+	}
+	#pageIndex .secProjects {
+		margin: 0 30px;
+	}
+	#pageIndex .secProjects .secTitle {
+		position: relative;
+		top: auto;
+		right: auto;
+		width: 100%;
+	}
+	#pageIndex .secProjects h2{
+		background: none;
+		padding-bottom: 0px;
+	}
+	#pageIndex .secProjects h4{
+		margin-bottom: 15px;
+	}
+	#pageIndex .secProjects h5{
+		display: none;
+	}
+	#pageIndex .secProjects a{
+		display: block;
+		color: inherit;
+	}
+	#pageIndex .secProjects li{
+		margin-bottom: 70px;
+	}
+	#pageIndex .secProjects .imgHolder {
+		width: 100%;
+		margin-bottom: 20px;
+		display: block;
+	}
+	#pageIndex .secProjects .contentHolder {
+		position: relative;
+		top: auto;
+		transform: translate(0%, 0%);
+		width: 100%;
+		left: auto;
+	}
+	#pageIndex .secProjects li:nth-child(even) {
+		text-align: left;
+	}
+	#pageIndex .secProjects li:nth-child(even) .contentHolder {
+		text-align: left;
+		left: auto;
+	}
+	
+	#pageProduct .secCustomized {
+		margin: 30px 30px 20px 30px;
+	}
+	#pageProduct .secCustomized .imgHolder {
+		margin-right: 0;
+	}
+	#pageProduct .secCustomized .contentHolder {
+		position: relative;
+		right: auto;
+		bottom: auto;
+		width: 100%;
+		padding: 0px;
+		margin-top: 30px;
+	}
+
+	#pageProduct .secDetails .imgHolder {
+		margin-bottom: 10px;
+	}
+	#pageProduct .secDetails .contentHolder {
+		width: 100%;
+		float: none;
+	}
+
+	#pageCustom .secBrief .contentHolder {
+		position: relative;
+		top: auto;
+		transform: translate(0%, 0%);
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#pageCustom .secBrief .imgHolder {
+		width: 100%;
+		float: none;
+	}
+	#pageCustom .secBrief .owl-controls2{
+		position: relative;
+		background: none;
+		width: 100%;
+		padding: 0px;
+	}
+	#pageCustom .secBrief .owl-dot:first-child {
+		margin: 0 20px 0 0px;
+	}
+
+	#pageCustom .secMakeQuote .imgHolder {
+		display: none;
+	}
+
+	#pageProject .secListing li .imgHolder {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#pageProject .secDetails .contentHolder {
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 35px;
+		float: none;
+	}
+	#pageProject .secDetails .contentHolder h1{
+		margin-bottom: 20px;
+	}
+	#pageProject .secDetails .contentHolder h5{
+		margin-bottom: 45px;
+	}
+	
+	#pageProject .secDetails .imgHolder {
+		width: 100%;
+		float: none;
+	}
+	#pageProject .secDetails .imgHolder li{
+		height: 350px;
+		overflow: hidden;
+	}
+	#pageProject .secDetails .owl-controls2{
+		position: relative;
+		bottom: auto;
+		right: auto;
+	}
+	
+	#pageProject .secDetails .owl-dot:first-child {
+		margin: 0 20px 0 0px;
+	}
+
+	#pagePromotion .secDetails .contentHolder {
+		padding-bottom: 20px;
+	}
+
+	#pageAbout .secBrief .imgHolder {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	#pageAbout .secBrief .contentHolder {
+		width: auto;
+		margin-right: 0px;
+		margin-left: 30px;
+		padding-top: 0px;
+		float: none;
+	}
+	#pageAbout .secDescriptions .imgHolder {
+		display: none;
+	}
+	#pageContact .secBrief .contentHolder {
+		width: 100%;
+		margin-top: 0;
+		float: none;
+	}
+	#pageContact .secBrief .contentHolder h1{
+		margin-bottom: 25px;
+	}
+}
+
+
+/*	--------------------------------------------------
+	For Mobile Landscape
+	-------------------------------------------------- */
+@media screen and (min-width: 600px) and (max-width: 959px) {
+	.sidenav .secBottom {
+		display: none;
+	}
+	#pageIndex .secBanner .imgHolder {
+		height: 400px;
+	}
+	#pageIndex .secBrief {
+		padding: 0 30px 65px 30px;
+	}
+	#pageIndex .secBrief .imgHolder {
+		width: 100%;
+		background: none;
+	}
+	#pageIndex .secBrief .imgHolder img{
+		width: inherit;
+		margin: 0px;
+	}
+	#pageIndex .secBrief .contentHolder {
+		padding: 20px 0 30px 0px;
+	}
+	#pageIndex .secProducts .contentHolder h2{
+		margin-bottom: 10px;
+	}
+	#pageIndex .secProducts .contentHolder p{
+		display: none;
+	}
+	#pageIndex .secProducts .contentHolder a{
+		display: none;
+	}
+	#pageIndex .secProducts .imgHolder ul{
+		margin-top: 10px;
+	}
+	#pageIndex .secProjects li{
+		width: 48%;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 50px;
+	}
+	#pageIndex .secProjects li:nth-child(even) {
+		float: right;
+	}
+}
+
+
+/*	--------------------------------------------------
+	For Tablet Landscape
+	-------------------------------------------------- */
+@media screen and (min-width: 960px) and (max-width: 1299px) {
+	
+	#pageIndex .secBanner {
+		height: auto;
+		margin: 0;
+		/*padding: 80px 0;*/
+		padding: 0 0 40px 0;/*iPad pro*/
+	}
+	#pageIndex .secBanner .owl-controls2{
+		bottom: 5vh;/*iPad pro*/
+		padding: 40px 15px;
+	}
+	#pageIndex .secBrief {
+		padding: 0 35px 70px 0px;
+	}
+	#pageIndex .secBrief p{
+		margin-bottom: 35px;
+	}
+	#pageIndex .secBrief .imgHolder {
+		width: 55%;
+	}
+	#pageIndex .secBrief .imgHolder img{
+		width: 89%;
+		margin: 35px 0 0 35px;
+	}
+	#pageIndex .secBrief .contentHolder {
+		width: 43%;
+		padding: 35px 0 0 0px;
+	}
+	#pageIndex .secProducts {
+		padding: 0 0 95px 35px;
+	}
+	#pageIndex .secProjects {
+		margin: 0 35px;
+	}
+	#pageProduct .secDetails .contentHolder {
+		width: 46%;
+		margin-top: 0px;
+	}
+	#pageCustom .secBrief .contentHolder {
+		position: relative;
+		top: auto;
+		transform: translate(0%, 0%);
+		width: 32%;
+		float: left;
+	}
+	#pageCustom .secBrief .imgHolder {
+		width: 65%;
+	}
+	#pageProject .secDetails .contentHolder {
+		width: 33%;
+	}
+	
+	#pageProject .secDetails .imgHolder {
+		width: 62%;
+	}
+	#pageProject .secDetails .imgHolder li{
+		height: 75vh;
+	}
+	#pagePromotion .secDetails .contentHolder {
+		padding-bottom: 20px;
+	}
+	#pageAbout .secBrief .imgHolder {
+		width: 63%;
+	}
+	#pageAbout .secBrief .contentHolder {
+		width: 33%;
+		margin-right: 0px;
+	}
+	#pageAbout .secDescriptions .imgHolder {
+		margin-right: -35px;
+	}
+	#pageContact .secBrief .contentHolder{
+		margin-top: 3%;
+	}
+}
+
+/*	--------------------------------------------------
+	Vic
+	-------------------------------------------------- */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	#pageIndex .secBanner .owl-controls2{
+		bottom: -1.5vh;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) and (height: 1366px) {
+	#pageIndex .secBanner .owl-controls2{
+		bottom: -7vh;/*0220*/
+	}
+	#pageIndex .secBanner .imgHolder {
+		height: 36vh;/*0131*/
+	}
+}
+
+/*	--------------------------------------------------
+	For Screen 1280
+	-------------------------------------------------- */
+@media screen and (min-width: 1200px) and (max-width: 1360px) {
+	#pageIndex .secBanner {
+		height: auto;
+		margin: 0;
+		padding: 0 0 80px 0;
+	}
+	#pageIndex .secBanner .owl-controls2{
+		bottom: -5.5vh;/**/
+		padding: 35px 15px;
+	}
+	#pageIndex .secBrief {
+		padding: 0 35px 70px 0px;
+	}
+	#pageIndex .secBrief .contentHolder {
+		padding: 70px 0 0 0px;
+	}
+	#pageIndex .secProjects {
+		margin: 0 70px;
+	}
+	#pageProject .secDetails .contentHolder {
+		width: 28%;
+	}
+	#pageProject .secDetails .imgHolder li{
+		height: 85vh;
+	}
+	#pageProject .secDetails .contentHolder h5{
+		margin-bottom: 30px;
+	}
+	#pageProject .secDetails .imgHolder {
+		width: 68%;
+	}
+	#pageCustom .secBrief .contentHolder {
+		position: absolute;
+		top: 50%;
+		transform: translate(0%, -50%);
+		width: 28%;
+	}
+	
+}
+
+/*	--------------------------------------------------
+	Vic
+	-------------------------------------------------- */
+@media (min-height: 1070px) {
+	#pageIndex .secBanner .owl-controls2 {
+		bottom: -5vh;
+	}
+}
+@media screen and (min-width: 1361px) and (max-width: 1599px) {
+	#pageIndex .secBanner .owl-controls2{
+		bottom: -11vh;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1360px) and (max-height: 910px) {
+	#pageIndex .secBanner .owl-controls2{
+		/*bottom: 0;*/
+	}
+}
+@media (max-width: 767px) {
+	#pageIndex .secBanner .contentHolder_home {padding:20px;}
+}
