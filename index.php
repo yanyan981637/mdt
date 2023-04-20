@@ -11,6 +11,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <?php
-    header('Location: https://www.mitacmdt.com/tw/index.php');
-    exit;
+#    header('Location: https://www.mitacmdt.com/tw/index.php');
+#    exit;
 ?>
