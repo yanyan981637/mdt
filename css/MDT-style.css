@@ -3742,7 +3742,7 @@ figure.vimeo a img, figure.youtube a img {
 	height: 400px;
 }
 .mid-height-incNav {
-	height: 380px;
+	height: 500px;
 	margin-top: 85px;
 }
 .padding-top-1st {
@@ -9601,7 +9601,7 @@ a:hover{text-decoration:none;}
 }
 
 .SecTopNav{
-	position: fixed;
+	/*position: fixed;*/
     width: 100%;
     z-index: 4000;
     margin: 0 auto;
