@@ -1,15 +1,3 @@
-	<?php if(preg_match("/connected-dashcam/i", $cfg['file_name'])) { ?>
-		<div class="b2b_btm_mobile">
-			<div class="container tr">
-				<a href="connected-dashcam.php" class="v-accept btn btn-fill-black btn-round btn-sm" style="margin-right:20px;">Connected Dashcam</a>
-				<a href="connected-dashcam-K220.php" class="v-accept btn btn-blue btn-round btn-sm">K220</a>
-				<a href="connected-dashcam-K145-K245.php" class="v-accept btn btn-blue btn-round btn-sm">K145/K245</a>
-				<a href="connected-dashcam-K145C-K245C.php" class="btn btn-blue btn-round btn-sm">K145C/K245C</a>
-				<a href="connected-dashcam-K165-K265.php" class="btn btn-blue btn-round btn-sm">K165/K265</a>
-			</div>
-		</div>
-	<?php } ?>
-
 	<!-- start projects nav -->
 	<?php if($Current_Menu_Father_Id != null){//sub menu ?>
 	
@@ -210,20 +198,6 @@
 	<?php 
 		if(preg_match("/connected-dashcam/i", $cfg['file_name'])) {
 	?>
-
-		<div class="b2b_btm_menu">
-			<div id="b2b_nav" class="v-bar v-yellow-alert v-bottom">
-				<div class="container">
-					<div class="v-actions">
-						<a href="connected-dashcam.php" class="v-accept btn btn-fill-black btn-round btn-sm" style="margin-right:20px;">Connected Dashcam</a>
-						<a href="connected-dashcam-K220.php" class="v-accept btn btn-blue btn-round btn-sm">K220</a>
-						<a href="connected-dashcam-K145-K245.php" class="v-accept btn btn-blue btn-round btn-sm">K145/K245</a>
-						<a href="connected-dashcam-K145C-K245C.php" class="btn btn-blue btn-round btn-sm">K145C/K245C</a>
-						<a href="connected-dashcam-K165-K265.php" class="btn btn-blue btn-round btn-sm">K165/K265</a>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<a class="pccflightbox" href="./general-inquiry.php?class=2">Inquiry Form</a>
 	

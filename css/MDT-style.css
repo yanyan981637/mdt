@@ -9601,7 +9601,7 @@ a:hover{text-decoration:none;}
 }
 
 .SecTopNav{
-	/*position: fixed;*/
+	position: fixed;
     width: 100%;
     z-index: 4000;
     margin: 0 auto;
