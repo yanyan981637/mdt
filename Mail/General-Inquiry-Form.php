@@ -1,5 +1,10 @@
 <?php
-	
+	/*-------------
+	$class：訪客來源類別
+	1: 一般
+	2: Video Telematics
+	---------------*/
+
 	if($class==1){
 		$class = "General";
 		$subject = "[Contact Message - General] from MDT Website";
