@@ -9600,28 +9600,6 @@ a:hover{text-decoration:none;}
 	color: #313139;
 }
 
-.SecTopNav{
-	position: fixed;
-    width: 100%;
-    z-index: 4000;
-    margin: 0 auto;
-    top: 85px;
-    left: 0;
-	text-align:center;
-	background-blend-mode: multiply;
-	background-color: #04497fde;
-}
-.SecTopNav span {
-    /*float: left;*/
-	display: inline-block;
-    margin: 20px 60px 20px 0;
-}
-.SecTopNav span  a{
-	font-size: 1.2rem;
-	color:#fff;
-}
-.SecTopNav span  a:hover, .SecTopNav span  a.active{color: #62dcff;}
-
 .c-card-carousel__next, .c-card-carousel__prev {
     background-color: #313139;
     cursor: pointer;

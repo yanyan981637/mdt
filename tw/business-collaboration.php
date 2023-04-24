@@ -1,7 +1,7 @@
 <?php
 	include 'inc/HEADER.php';
 ?>
-
+	<div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav">
 		<div class="container">
 			<div class="row">

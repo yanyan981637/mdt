@@ -18,14 +18,14 @@
 
 	//Menu On Hover
 		
-	$('body').on('mouseenter mouseleave','.nav-item.dropdown',function(e){
-			if ($(window).width() > 991) {
-	  var _d=$(e.target).closest('.nav-item.dropdown');_d.addClass('show');
-	  setTimeout(function(){
-		_d[_d.is(':hover')?'addClass':'removeClass']('show');
-	  },1);
-			}
-	});		
+	// $('body').on('mouseenter mouseleave','.nav-item.dropdown',function(e){
+	// 		if ($(window).width() > 991) {
+	//   var _d=$(e.target).closest('.nav-item.dropdown');_d.addClass('show');
+	//   setTimeout(function(){
+	// 	_d[_d.is(':hover')?'addClass':'removeClass']('show');
+	//   },1);
+	// 		}
+	// });		
 
 	
 	//Parallax & fade on scroll	

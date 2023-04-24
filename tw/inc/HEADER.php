@@ -118,6 +118,7 @@
 	<link rel="stylesheet" href="../css/owl.transitions.css"/>
 	<link rel="stylesheet" href="../css/colors/color-mitac.css"/>
 	<link rel="stylesheet" href="../css/fonts.css"/>
+	<link rel="stylesheet" href="../css/mdt-global-style.css">
 	
 	<!-- Favicons
 	================================================== -->
