@@ -1,0 +1,64 @@
+/* 去除鼠標點擊頁面時 出現的光標 */
+div, span, p {
+  caret-color: transparent;
+}
+
+/* submanu 樣式 end */
+.SecTopNav{
+    width: 100%;
+    z-index: 4000;
+    margin: 0 auto;
+	text-align:center;
+	background-blend-mode: multiply;
+	background-color: rgba(215, 215, 215, 1);
+}
+.SecTopNav.fixed {
+	position: fixed;
+  top: 87px;
+  left: 0;
+}
+.SecTopNav span {
+    /*float: left;*/
+	display: inline-block;
+  margin: 20px 0;
+  padding: 0 15px;
+  position: relative;
+}
+.SecTopNav .container>.row>div span:not(:last-child)::after{
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: rgb(51, 51, 51);
+  position: absolute;
+  right: 0;
+}
+.SecTopNav span  a{
+	font-size: 1.2rem;
+	color:rgb(51, 51, 51);
+  position: relative;
+}
+.SecTopNav span  a::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #62dcff;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  -webkit-transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  -moz-transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  -o-transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  
+}
+.SecTopNav span  a:hover::after, .SecTopNav span  a.active::after{
+  width: 100%;
+  text-decoration: none;
+}
+
+.SecTopNavPlaceholder { 
+  width: 100%;
+  height: 0;
+}
+
+/* submanu 樣式 end */
