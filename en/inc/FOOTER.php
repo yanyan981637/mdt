@@ -1,4 +1,9 @@
 	<!-- start projects nav -->
+	<?php
+	echo 123;
+	echo $Current_Menu_Father_Id;
+	echo $Current_Menu_Order;
+	?>
 	<?php if($Current_Menu_Father_Id != null){//sub menu ?>
 	
 		<div class='container'>

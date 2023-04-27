@@ -91,9 +91,7 @@ a:focus, a:hover {
   height: 400px;
   position: relative;
 }
-.second-bannner .bg-img img {
-  max-height:400px;
-}
+
 .second-bannner .bg-img >.container, .second-bannner .bg-img >.container>.row {
   height: 100%;
 }
@@ -126,33 +124,3 @@ a:focus, a:hover {
   font-weight: bold;
 }
 
-
-
-/* 其它 */
-
-#motobike_smart_cam{
-  margin-top: -30px;
-}
-
-/* banner */
-#motobike_smart_cam_banner .hero-text img {
-  width: auto;
-}
-@media (max-width: 991px) {
-  .parallax {
-    z-index: -1;
-  }
-  #motobike_smart_cam_banner .hero-text img {
-    width: auto;
-    height: 200px;
-    padding: 0;
-  }
-  #motobike_smart_cam_banner .hero-center-wrap {
-    position:static;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
