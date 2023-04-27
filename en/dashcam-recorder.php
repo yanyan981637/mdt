@@ -22,10 +22,10 @@
 	</div>
 
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav hidden-xs">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
+				<div class="col-md-12">
 					<span><a href="#single-cam-dashcam">Single-cam Dashcam</a></span>
 					<span><a href="#multi-views-dashcam">Multi-View Dashcam</a></span>
 					<span><a href="#e-mirror-dashcam">E-Mirror Dashcam</a></span>

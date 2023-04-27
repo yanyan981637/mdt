@@ -111,6 +111,7 @@
 	<!-- CSS
 	================================================== -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/bootstrap-grid.min.css"/>
 	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="../css/mind-icons-line.css"/>
 	<link rel="stylesheet" href="../css/MDT-style.css"/>

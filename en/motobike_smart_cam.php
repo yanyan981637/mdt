@@ -13,7 +13,7 @@
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
           <div class="col-md-4 align-self-center">
-            <img class="img-fluid mx-auto d-block rounded" src="../images/motobike_smart_cam/Motobike-Smart-Cam-banner-product.png" alt="">
+            <img class="img-fluid mx-auto d-block rounded" src="../images/motobike_smart_cam/Motobike-Smart-Cam-banner-product.png" alt="Motobike Smart Cam">
           </div>
 					<div class="col-md-8 align-self-center">	
 						<h1 class="color-white mb-xl-5">Motobike Smart Cam</h1>
