@@ -110,6 +110,7 @@
 	<!-- CSS
 	================================================== -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/bootstrap-grid.min.css"/>
 	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="../css/mind-icons-line.css"/>
 	<link rel="stylesheet" href="../css/MDT-style.css"/>
@@ -117,7 +118,7 @@
 	<link rel="stylesheet" href="../css/owl.transitions.css"/>
 	<link rel="stylesheet" href="../css/colors/color-mitac.css"/>
 	<link rel="stylesheet" href="../css/fonts.css"/>
-	
+	<link rel="stylesheet" href="../css/mdt-global-style.css">
 	<!-- Favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="../favicon-16x16.png">

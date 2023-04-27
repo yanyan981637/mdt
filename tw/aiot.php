@@ -51,7 +51,7 @@
 		</div>
 	</div>
 	
-	<div class="section over-hide pt_3r" id="connected_car">
+	<div class="section over-hide mt_3r" id="connected_car">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-6 align-items-stretch padding-top-small background-grey">	
@@ -100,7 +100,7 @@
 		</div>	
 	</div>
 	
-	<div class="section over-hide pt_3r" id="smart_city">
+	<div class="section over-hide mt_3r" id="smart_city">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-6 align-items-stretch padding-top-small background-grey">	

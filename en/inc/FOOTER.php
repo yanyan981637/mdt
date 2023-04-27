@@ -1,4 +1,9 @@
 	<!-- start projects nav -->
+	<?php
+	echo 123;
+	echo $Current_Menu_Father_Id;
+	echo $Current_Menu_Order;
+	?>
 	<?php if($Current_Menu_Father_Id != null){//sub menu ?>
 	
 		<div class='container'>
@@ -23,8 +28,9 @@
 											</a>
 										</div>";
 						}
-						
-
+						echo 123;
+						echo $Current_Menu_Father_Id;
+						echo $Current_Menu_Order;
 						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='en' and father_menu_id=".$Current_Menu_Father_Id." and menu_order > ".$Current_Menu_Order." order by menu_order limit 1";
 						$result = mysqli_query($MysqlConn, $sql);
 						$nextAry = mysqli_fetch_array($result);

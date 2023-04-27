@@ -1,21 +1,6 @@
 <?php
 	include 'inc/HEADER.php';
 ?>
-
-	<div class="SecTopNav">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 hidden-sm">
-					<span><a href="smart-dashcam.php">Smart Dash Cam</a></span>
-					<span><a href="fleet-management.php">Fleet Management</a></span>
-					<span><a href="safefy-enhancement.php">Safety Enhancement</a></span>
-					<span><a href="efficiency-improvement.php">Efficiency Improvement</a></span>
-					<span><a href="business-collaboration.php">Business Collaboration</a></span>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- Primary Page Layout
 	================================================== -->
 	<!-- Hero Block
@@ -37,6 +22,21 @@
 		</div>	
 	</div>
 	
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 hidden-sm">
+					<span><a href="smart-dashcam.php">Smart Dash Cam</a></span>
+					<span><a href="fleet-management.php">Fleet Management</a></span>
+					<span><a href="safefy-enhancement.php">Safety Enhancement</a></span>
+					<span><a href="efficiency-improvement.php">Efficiency Improvement</a></span>
+					<span><a href="business-collaboration.php">Business Collaboration</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="section padding-top-small padding-bottom-smaller">
 		<div class="container padding-top-bottom-smaller background-video background-image-cover">
 			<div class="row justify-content-center">
