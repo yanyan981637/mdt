@@ -2,22 +2,23 @@
 	include 'inc/HEADER.php';
 ?>
 
+<!-- 更換banner -->
 
 	<!-- Primary Page Layout
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-	<div class="section mid-height-incNav over-hide" id="motobike_smart_cam_banner">	
+	<div class="section mid-height-incNav over-hide" id="handy-terminal_banner">	
 		<div class="parallax" style="background-image: url('../images/dashcam_recorder/dashcam_recorder-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
-          <div class="col-md-4 align-self-center">
+          <!-- <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/motobike_smart_cam/Motobike-Smart-Cam-banner-product.png" alt="Motobike Smart Cam">
-          </div>
-					<div class="col-md-8 align-self-center">	
-						<h1 class="color-white mb-xl-5">Motobike Smart Cam</h1>
-            <h3 class="h4">Never miss any important moments while riding</h3>
+          </div> -->
+					<div class="col-md-12 align-self-center">	
+						<h1 class="color-white mb-xl-5">Handy Terminal</h1>
+            <h3 class="h4">Compact and Rugged Mobile Computer</h3>
 					</div>	
 				</div>		
 			</div>			
@@ -30,7 +31,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">As a global leader in drive video recorders, MiTAC has developed a new generation of rider cameras that are exceptionally user-friendly, redefining the standard for effortless operation.</p>
+						<p class="ContGen">The powerful handheld devices offer compact solutions for a wide range of commercial applications, all in a device the size of a smartphone. Ideal for various industries including Logistics, Hospitality, Field Services, Inventory Management and Healthcare to streamline operations, enhance efficiency, and improve customer service.</p>
 					</div>
 				</div>
 			</div>	
@@ -38,47 +39,48 @@
 	</div>
 
 
-  <div class="section" id="motobike_smart_cam">
+  <div class="section" id="handy-terminal">
     <div class="container">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/Dual-Camera-Sync-Record-for-moto.png" alt="Evidence recording">
-            <p>Evidence recording</p>
+            <img class="rounded img-fluid" src="../images/handy-terminal/android_security_green.png" alt="GMS-certified device">
+            <p>GMS-certified device</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/One-click-Emergency-Recording.png" alt="Event recording">
-            <p>Event recording</p>
+            <img class="rounded img-fluid" src="../images/handy-terminal/efficient_data.png" alt="Efficient data capture">
+            <p>Efficient data capture</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/One-click-Lock.png" alt="One-click for locking event file">
-            <p>One-click for locking event file</p>
+            <img class="rounded img-fluid" src="../images/handy-terminal/wproof_green.png" alt="Real business durability">
+            <p>Real business durability</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/Real-time-Event-Backup.png" alt="Video sharing">
-            <p>Video sharing</p>
+            <img class="rounded img-fluid" src="../images/handy-terminal/power_through.png" alt="User replaceable battery design">
+            <p>User replaceable battery design</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/WIFI_OTA.png" alt="WIFI OTA update">
-            <p>WIFI OTA update</p>
+            <img class="rounded img-fluid" src="../images/handy-terminal/barcode_data_capture.png" alt="1D/2D barcode scanner">
+            <p>1D/2D barcode scanner</p>
           </div>
         </div>
+        <!-- 更換圖片 -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/256G-SD-Card.png" alt="Supports up to 256GB SD card">
-            <p>Supports up to 256GB SD card</p>
+            <img class="rounded img-fluid" src="../images/handy-terminal/256G-SD-Card.png" alt="Antimicrobial housing">
+            <p>Antimicrobial housing</p>
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/en_eu/products/dash-cameras/rider-camera/mivue-m-series" target="_blank">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/miowork/handhelds" target="_blank">Learn More</a>
         </div>
       </div>
     </div>
