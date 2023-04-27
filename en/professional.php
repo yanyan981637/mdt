@@ -32,8 +32,6 @@
 		</div>
 	</div>
 	
-
-	
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">

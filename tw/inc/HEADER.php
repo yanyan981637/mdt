@@ -115,6 +115,7 @@
 	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="../css/mind-icons-line.css"/>
 	<link rel="stylesheet" href="../css/MDT-style.css"/>
+	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/owl.carousel.css"/>
 	<link rel="stylesheet" href="../css/owl.transitions.css"/>
 	<link rel="stylesheet" href="../css/colors/color-mitac.css"/>

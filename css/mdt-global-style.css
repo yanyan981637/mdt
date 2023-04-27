@@ -47,32 +47,15 @@ a:focus, a:hover {
   background-color: #62dcff;
   bottom: -5px;
   left: 0;
+  width: 0;
+  -webkit-transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  -moz-transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  -o-transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  transition: all 900ms cubic-bezier(0.175,0.885,0.32,1.275);
+  
+}
+.SecTopNav span  a:hover::after, .SecTopNav span  a.active::after{
   width: 100%;
-  -webkit-transition: transform .5s ease-in-out;
-  -moz-transition: transform .5s ease-in-out;
-  -o-transition: transform .5s ease-in-out;
-  transition: transform .5s ease-in-out;
-  transform-origin: right;
-  -webkit-transform-origin: right;
-  -moz-transform-origin: right;
-  -o-transform-origin: right;
-  transform: scaleX(0);
-  -webkit-transform: scaleX(0);
-  -moz-transform: scaleX(0);
-  -o-transform: scaleX(0);
-}
-.SecTopNav span  a:hover{
-  color: #1034a5;
-}
-.SecTopNav span  a.active::after{
-  transform-origin: left;
-  -webkit-transform-origin: left;
-  -moz-transform-origin: left;
-  -o-transform-origin: left;
-  transform: scaleX(1);
-  -webkit-transform: scaleX(1);
-  -moz-transform: scaleX(1);
-  -o-transform: scaleX(1);
   text-decoration: none;
 }
 
@@ -115,11 +98,11 @@ a:focus, a:hover {
 /* 第二級別的banner 樣式結束 */
 
 /* icon */
-.dashcam-recorder-icon img {
+.dashcam-recorder-icon img,.auxiliary-software-icon img{
   max-width: 100px;
   width: 100%;
 }
-.dashcam-recorder-icon p {
+.dashcam-recorder-icon p, .auxiliary-software-icon p {
   margin-top:20px;
   font-weight: bold;
 }

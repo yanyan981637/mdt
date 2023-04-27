@@ -76,7 +76,7 @@ a.lowl:hover{color:#888;}
 .section.productDetail .pdt_img .swiper-slide{
 	height:auto !important;
 }
-.home_slider_tw_desk_1{background-image:url(../images/Home_slider/video_cover.jpg);}
+.home_slider_tw_desk_1{background-image:url(../images/Home_slider/video_cover.png);}
 .swiper-slide .swiTxtArea{box-sizing: border-box; margin-top:20%;}
 .swiper-slide.video{width:100% !important; }
 .video{width: 100% !important; object-fit: cover !important;}
@@ -98,7 +98,7 @@ a.lowl:hover{color:#888;}
 	perspective: 1000px;
 	z-index: 2;
 }
-.slide-textWrap .slider-title{
+/* .slide-textWrap .slider-title{
 	width: auto;
     margin: 0 0 5px 0;
     height: auto;
@@ -108,7 +108,7 @@ a.lowl:hover{color:#888;}
     padding: 0;
     position: relative;
     z-index: 1;
-}
+} */
 .slide-textWrap .slider-btn{margin-top: 80px;}
 
 table.tb_titL tr{border:1px #cccccc solid;}
@@ -3745,6 +3745,7 @@ figure.vimeo a img, figure.youtube a img {
 	max-height: 500px;
 	height: calc(100vh - 87px - 63px);
 	margin-top: 85px;
+	/* margin-top: 148px; */
 }
 .padding-top-1st {
 	padding-top:240px;
@@ -4648,7 +4649,8 @@ figure.vimeo a img, figure.youtube a img {
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
+	width:100%;
+	height: 500px;
 }
 @media only screen and (min-width: 1930px) {
 	 .parallax { background-size: cover; }
@@ -4973,7 +4975,7 @@ figure.vimeo a img, figure.youtube a img {
 .hero-center-wrap{
 	position:absolute;
 	width:100%;
-	top:55%;
+	top:27%;
 	left:0;
 	z-index:20;
 	-webkit-transform: translateY(-50%);

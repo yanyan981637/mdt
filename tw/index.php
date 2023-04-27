@@ -5,105 +5,20 @@
 	<!--home slider-->
 	<!-- Swiper -->
 	<div class="fix-slider"></div><!--to solve not full width-->
-	<div class="swiper-container">
-		<div class="swiper-wrapper">
 
-			<!--<div class="swiper-slide">-->
-				<?php
-					/*if(!isMobile()){//desktop
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/auto_tronics_taipei_2023.jpg);'>
-										<div class='container'>
-											<div class='swiTxtArea'>
-												<div class='row txt'>
-													<div class='col-sm-12' style='padding-top: 220px;'>
-														<h2 class='mb-20'></h2>
-
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>";
-					}else{//mobile
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/auto_tronics_taipei_2023_mobile.jpg);'>
-										<div class='container'>
-											<div class='swiTxtArea'>
-												<div class='row txt'>
-													<div class='col-sm-10' style='padding-top: 372px;'>
-														<h2 class='mb-20'></h2>
-
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>";
-					}*/
-				?>
-			<!--</div>-->
-
-			<div class="swiper-slide video">
-				<?php
-					if(!isMobile()){
-						echo "<div class='swiper-slide home_slider_tw_desk_1'></div>
-									<div class='slide-textWrap'>
-										<div class='textCont'>
-											<h2 class='slider-title h_1'>追求創新 持續成長</h2>
-											<div class='slider-btn'>
-												<a class='btn btn-blue btn-round btn-long' href='https://www.youtube.com/watch?v=ppfIsR6fDqI' target='_blank' tabindex='0'>了解更多</a>
-											</div>
-										</div>
-									</div>";
-					}else{//mobile
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/video_cover_mobile.jpg);'></div>
-									<div class='slide-textWrap'>
-										<div class='textCont'>
-											<h2 class='slider-title h_1'>追求創新<br>持續成長</h2>
-											<div class='slider-btn'>
-												<a class='btn btn-blue btn-round btn-long' href='https://www.youtube.com/watch?v=ppfIsR6fDqI' target='_blank' tabindex='0'>了解更多</a>
-											</div>
-										</div>
-									</div>";
-					}
-				?>				
+	<!-- home -->
+	<div class="section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="home_banner ">
+					<img src="../images/Home_slider/video_cover.png" alt="" class="img-fluid">
+					<a href="https://www.youtube.com/watch?v=ppfIsR6fDqI&feature=youtu.be" target="_blank">
+					  <div class="btn btn-blue btn-round btn-long home_btn hidden-xs">了解更多</div>
+					</a>
+				</div>
 			</div>
-			
 		</div>
-		<!-- Add Pagination -->
-		<!--<div class="swiper-pagination"></div>-->
-		<!-- Add Arrows -->
-		<!--<div class="swiper-button-next"></div>-->
-		<!--<div class="swiper-button-prev"></div>-->
 	</div>
-
-	<!-- Swiper JS -->
-	<script src="../ext/swiper/js/swiper.min.js"></script>
-	<!-- Initialize Swiper -->
-	<script>
-		var swiper = new Swiper('.swiper-container', {
-			slidesPerView: 1,
-			loop: true,
-			spaceBetween: 1000,
-			effect: 'fade',
-			centeredSlides: true,
-			//autoHeight: true,
-			//height : window.innerHeight,//
-			autoplay: {
-				delay: 6000,
-				disableOnInteraction: true,
-			},
-			pagination: {
-				el: '.swiper-pagination',
-				type: 'fraction',
-				clickable: true,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		});
-	</script>
-	<!--home slider END-->
-
-
 
 <div class="section padding-top-bottom background-white">
 	<div class="container">
@@ -128,42 +43,56 @@
 				<div class="item item--itokin">
 					<a href="automotive.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 車用電子</h2><span></span></h3>
+							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2><span></span></h3>
 							<p class="leads">
-								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境。我們創建整合軟硬體的完整解決方案，包含行車記錄器，智慧攝影機，導航系統，車用影像應用，先進駕駛輔助系統等。憑藉著堅強的R&D 設計能力與豐富的製造經驗，神達數位已成為世界級客戶信賴的ODM夥伴。</span>
+								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">了解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_1.jpg" alt="車用電子"></span>
+						<span class="img"><img src="../ext/3screen/images/3screen_1.jpg" alt="智慧交通"></span>
 					</a>
 				</div>
 
 				<div class="item item--mizuno">
 					<a href="aiot.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智聯網</h2><span></span></h3>
+							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧車載資通訊</h2><span></span></h3>
 							<p class="leads">
-								<span>科技革命已經對汽車產業造成巨大的影響，神達數位的智聯網解決方案可創造更安全、更舒適的駕駛行車經驗。神達數位兼具資通訊與汽車產業領導者角色，以車載視訊管理解決方案和智慧城市解決方案，不斷與時並進持續創新，利用使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析，改變商業領域的管理機制。</span>
+								<span>神達數位兼具資通訊與汽車產業領導者角色，以車聯網解決方案，不斷與時並進持續創新，提供使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析。</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">了解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智聯網"></span>
+						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智慧車載資通訊"></span>
+					</a>
+				</div>
+
+				<div class="item item--second">
+					<a href="aiot.php" data-track-category="" data-track-action="">
+						<div class="txt-wrap">
+							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧工業</h2><span></span></h3>
+							<p class="leads">
+								<span>為了滿足現今商業模式之需求，神達數位開發出一系列專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療和工業領域，能節省成本並提升工作效率。</span>
+							</p>
+							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">了解更多</span>
+							<p class="more"><span></span></p>
+						</div>
+						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智慧工業"></span>
 					</a>
 				</div>
 
 				<div class="item item--enfold">
-					<a href="professional.php" data-track-category="" data-track-action="">
+					<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 專業平板</h2><span></span></h3>
+							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧物聯</h2><span></span></h3>
 							<p class="leads">
-								<span>為了滿足現今商業模式之需求，神達數位開發出一系列涵蓋五吋手持式、七吋及十吋專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療、超商、車隊管理和工業領域，能節省成本並提升工作效率。我們的專業平版解決方案能取代傳統的工作模式-紙筆與非強固型裝置，增加工作精準度與生產力。</span>
+								<span>配備了智慧控制元件、彈性靈活的傳感器和攝影機，我們的定位型戶外照明解決方案實現了照明、監控、追蹤和感測的整合。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="professional.php">了解更多</span>
+							<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">了解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_3.jpg" alt="工業平板"></span>
+						<span class="img"><img src="../ext/3screen/images/3screen_3.jpg" alt="智慧物聯"></span>
 					</a>
 				</div>
 			</div>
@@ -171,6 +100,7 @@
 			<ul class="imgs">
 				<li class="img--itokin"><span><img src="../ext/3screen/images/3screen_1.jpg" alt="車用電子"></span></li>
 				<li class="img--mizuno"><span><img src="../ext/3screen/images/3screen_2.jpg" alt="智聯網"></span></li>
+				<li class="img--second"><span><img src="../ext/3screen/images/3screen_2.jpg" alt="智聯網"></span></li>
 				<li class="img--enfold"><span><img src="../ext/3screen/images/3screen_3.jpg" alt="工業平板"></span></li>
 			</ul>
 		</div>

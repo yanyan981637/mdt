@@ -1,0 +1,14 @@
+a{
+text-decoration: none;
+}
+/* home-banner  start */
+.home_banner{
+  position: relative;
+  /* margin-top: 40px */
+}
+.home_btn{
+  position: absolute;
+  top: 80%;
+  right: 40%;
+}
+/* home-banner end */

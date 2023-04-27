@@ -5,104 +5,20 @@
 	<!--home slider-->
 	<!-- Swiper -->
 	<div style="background: #000; height:1px; "></div><!--to solve not full width-->
-	<div class="swiper-container">
-		<div class="swiper-wrapper">
-
-			<!--<div class="swiper-slide">-->
-				<?php
-					/*if(!isMobile()){//desktop
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/auto_tronics_taipei_2023.jpg);'>
-										<div class='container'>
-											<div class='swiTxtArea'>
-												<div class='row txt'>
-													<div class='col-sm-12' style='padding-top: 220px;'>
-														<h2 class='mb-20'></h2>
-
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>";
-					}else{//mobile
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/auto_tronics_taipei_2023_mobile.jpg);'>
-										<div class='container'>
-											<div class='swiTxtArea'>
-												<div class='row txt'>
-													<div class='col-sm-10' style='padding-top: 372px;'>
-														<h2 class='mb-20'></h2>
-
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>";
-					}*/
-				?>
-				<!--</div>-->
-			
-			<div class="swiper-slide">
-				<?php
-					if(!isMobile()){
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/video_cover.jpg);'></div>
-									<div class='slide-textWrap'>
-										<div class='textCont'>
-											<h2 class='slider-title h_1'>Growing Through Innovation</h2>
-											<div class='slider-btn'>
-												<a class='btn btn-blue btn-round btn-long' href='https://www.youtube.com/watch?v=ppfIsR6fDqI' target='_blank' tabindex='1'>More</a>
-											</div>
-										</div>
-									</div>";
-					}else{//mobile
-						echo "<div class='swiper-slide' style='background-image:url(../images/Home_slider/video_cover_mobile.jpg);'></div>
-									<div class='slide-textWrap'>
-										<div class='textCont'>
-											<h2 class='slider-title h_1'>Growing<br>Through Innovation</h2>
-											<div class='slider-btn'>
-												<a class='btn btn-blue btn-round btn-long' href='https://www.youtube.com/watch?v=ppfIsR6fDqI' target='_blank' tabindex='1'>More</a>
-											</div>
-										</div>
-									</div>";
-					}
-				?>				
+	<!-- home -->
+	<div class="section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="home_banner parallax">
+					<img src="../images/Home_slider/video_cover.png" alt="" class="img-fluid">
+					<a href="https://www.youtube.com/watch?v=ppfIsR6fDqI&feature=youtu.be" target="_blank">
+					  <div class="btn btn-blue btn-round btn-long home_btn hidden-xs">了解更多</div>
+					</a>
+				</div>
 			</div>
-
 		</div>
-		<!-- Add Pagination -->
-		<!--暫<div class="swiper-pagination"></div>-->
-		<!-- Add Arrows -->
-		<!--暫<div class="swiper-button-next"></div>-->
-		<!--暫<div class="swiper-button-prev"></div>-->
 	</div>
 	
-	<!-- Swiper JS -->
-	<script src="../ext/swiper/js/swiper.min.js"></script>
-	<!-- Initialize Swiper -->
-	<script>
-		var swiper = new Swiper('.swiper-container', {
-			slidesPerView: 1,
-			loop: true,
-			spaceBetween: 1000,
-			effect: 'fade',
-			centeredSlides: true,
-			//autoHeight: true,
-			//height : window.innerHeight,//
-			autoplay: {
-				delay: 6000,
-				disableOnInteraction: true,
-			},
-			pagination: {
-				el: '.swiper-pagination',
-				type: 'fraction',
-				clickable: true,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		});
-	</script>
-	<!--home slider END-->
-
 	
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
@@ -126,7 +42,7 @@
 					<div class="item item--itokin">
 						<a href="automotive.php" data-track-category="トップページ" data-track-action="ITOKIN CORPORATE SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Automotive Electronics</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Mobility</h2><span></span></h3>
 								<p class="leads">
 									<span>As a leading innovator in automotive electronics, MDT provides comfort and safety to drivers and their passengers.</span>
 								</p>
@@ -140,9 +56,9 @@
 					<div class="item item--mizuno">
 						<a href="aiot.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> AIOT</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Telematics</h2><span></span></h3>
 								<p class="leads">
-									<span>The technology revolution has had a tremendous impact on the automotive industry, offering infinite opportunities for a safer and more comfortable driving and travelling experience.</span>
+									<span>A pioneer in both information technology and the automotive fields, MDT continues to move ahead with connected car solution to provide users with instant information sharing, remote monitoring, cloud storage, and user behavior analysis.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">Discover More</span>
 								<p class="more"><span></span></p>
@@ -151,14 +67,28 @@
 						</a>
 					</div>
 					
-					<div class="item item--enfold">
+					<div class="item item--third">
 						<a href="professional.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Professional Tablet</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  Industrialt</h2><span></span></h3>
 								<p class="leads">
 									<span>To meet the demands of doing business today, MDT has developed a range devices and device management platforms that make transport, retail, hospitality, healthcare, and industrial processes more efficient and cost-effective.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long hidden-xs" href="professional.php">Discover More</span>
+								<p class="more"><span></span></p>
+							</div>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span>
+						</a>
+					</div>
+
+					<div class="item item--enfold">
+						<a href="outdoor-luminaires.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
+							<div class="txt-wrap" style="opacity: 1;">
+								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  IOT</h2><span></span></h3>
+								<p class="leads">
+									<span>Equipped with a smart control unit, flexible sensors, and a camera, our location-based outdoor luminaire solution realizes the integration of lighting, monitoring, tracking, and sensing</span>
+								</p>
+								<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
 							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span>
@@ -169,6 +99,7 @@
 				<ul class="imgs">
 					<li class="img--itokin"><span><img src="../ext/3screen/images/3screen_1.jpg" alt="Automotive electronics"></span></li>
 					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/3screen_2.jpg" alt="AIOT"></span></li>
+					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span></li>
 					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span></li>
 				</ul>
 			</div>

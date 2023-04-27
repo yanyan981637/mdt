@@ -1,0 +1,319 @@
+<?php
+	include 'inc/HEADER.php';
+?>
+
+<div class="section mid-height-incNav over-hide">	
+		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_auxiliary_software.jpg')"></div>
+		<div class="hero-center-wrap move-bottom z-bigger">
+			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+				<div class="row">
+					<div class="col-md-12 mg-auto">	
+						<h1 class="color-white mb-xl-3">Auxiliary Software</h1>
+					</div>	
+				</div>		
+			</div>			
+		</div>	
+	</div>
+</div>
+
+<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 hidden-xs">
+					<span><a href="#miovue-pro">MiVue™ Pro</a></span>
+					<span><a href="#miovue-manager">MiVue™ Manager</a></span>
+					<span><a href="#mionext">MioNext™</a></span>
+					<span><a href="#mioshare">MioShare™</a></span>
+			</div>
+		</div>
+	</div>
+</div>	
+
+	<!-- miovue-pro-->
+	<div class="section over-hide" id="miovue-pro">
+		<div class="container">
+			<div class="row">	
+				<div>
+					<h2 class="h2 mt-30">MiVue™ Pro App</h2>
+					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
+					<p class="ContGen">MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
+				</div>
+				<div class="col-md-7 mt-20 align-items-stretch">
+					<div class="row">
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Backup_to_Cloud.png" alt="Sent on impact, seen on mobile">
+								<p>Sent on impact, seen on mobile</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Live_view.png" alt="Live View and video organizer ">
+								<p>Live View and video organizer </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Allow_incoming_calls.png" alt="Allow incoming calls during the video backup">
+								<p>Allow incoming calls during the video backup</p>
+							</div>
+						</div>
+
+		
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="Set up your dash cam through the MiVue™ Pro app ">
+								<p>Set up your dash cam through the MiVue™ Pro app </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/WIFI_OTA.png" alt="WIFI OTA(Over-the-Air) update ">
+								<p>WIFI OTA(Over-the-Air) update </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/download_videos_to_smartphone.png" alt="Download videos to smartphone">
+								<p>Download videos to smartphone</p>
+							</div>
+						</div>
+
+					</div>
+        </div>
+				<div class="col-md-5 mt-30 align-items-stretch">
+					<img src="../images/auxiliary_software/MiVue_Pro-banner.png" alt="" class="col-xl-10 col-lg-6 col-md-4 col-sm-2 col-sm-2 col-4 rounded img-fluid">
+			  </div>	
+
+			<div class="col-md-12 mt-30">
+        <a class="btn btn-primary btn-lg btn-round m-5" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
+				<a class="btn btn-fill-black-b  btn-round" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam(WIFI models only)</a>
+
+				<hr class="mt-40">
+      </div>
+
+			
+		</div>	
+	</div>
+
+	
+	<!-- miovue-manager -->
+	<div class="section over-hide" id="miovue-manager">
+		<div class="container">
+			<div class="row">	
+				<div>
+					<h2 class="h2 mt-30">MiVue™ Manager Web Tool</h2>
+					<h5>Convenient PC tool for clips review and management</h5>
+					<p class="ContGen">Using MiVue Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
+				</div>
+				<div class="col-md-7 mt-20">
+					<div class="row">
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/MiVue_Manager_PC_Suite.png" alt="Full HD Video Playback">
+								<p>Full HD Video Playback</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Real-time_Event_Backup.png" alt="Video Sharing ">
+								<p>Video Sharing </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/GPS_overlay.png" alt="GPS Overlay in Google Maps">
+								<p>GPS Overlay in Google Maps</p>
+							</div>
+						</div>
+
+		
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Video_Organizer.png" alt="Video Organizer">
+								<p>Video Organizer</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Direction_analyzer.png" alt="Direction Analyzer">
+								<p>Direction Analyzer</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Multi_languages.png" alt="Multi-languages support">
+								<p>Multi-languages support</p>
+							</div>
+						</div>
+
+					</div>
+        </div>
+				<div class="col-md-5 col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+					<img src="../images/auxiliary_software/MiVue_Manager-banner.png" alt="">
+			  </div>	
+
+			<div class="col-md-12 mt-30">
+        <a class="btn btn-primary btn-lg btn-round m-5" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
+				<a class="btn btn-fill-black-b  btn-round" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
+
+				<hr class="mt-40">
+      </div>
+
+			
+		</div>	
+	</div>
+
+	<!-- mionext -->
+	<div class="section over-hide" id="mionext">
+		<div class="container">
+			<div class="row">	
+				<div>
+					<h2 class="h2 mt-30">MioNext™ App </h2>
+					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
+					<p class="ContGen">Together with the MiTAC connected dashcam, the MioNext App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
+				</div>
+				<div class="col-md-7 mt-20">
+					<div class="row">
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Backup_to_Cloud.png" alt="Smart Parking guard">
+								<p>Smart Parking guard</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Live_view.png" alt="Live view watching">
+								<p>Live view watching</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Allow_incoming_calls.png" alt="Real-time event notification">
+								<p>Real-time event notification</p>
+							</div>
+						</div>
+
+		
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="Real-time GPS tracking / parked car location finding">
+								<p>Real-time GPS tracking / parked car location finding</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/WIFI_OTA.png" alt="OTA update">
+								<p>OTA update</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/download_videos_to_smartphone.png" alt="One-click video cloud backup and saving">
+								<p>One-click video cloud backup and saving</p>
+							</div>
+						</div>
+
+					</div>
+        </div>
+				<div class="col-md-5">
+					<img src="../images/auxiliary_software/MiVue_Pro-banner.png" alt="" class="col-xl-10 col-lg-5 col-md-6 col-sm-2 col-4 mt-30">
+			  </div>	
+
+			<div class="col-md-12 mt-30">
+        <a class="btn btn-primary btn-lg btn-round m-5" href="https://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
+				<a class="btn btn-fill-black-b  btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
+
+				<hr class="mt-40">
+      </div>
+
+			
+		</div>	
+	</div>
+
+	<!-- mioshare -->
+	<div class="section over-hide" id="mioshare">
+		<div class="container">
+			<div class="row">	
+				<div>
+					<h2 class="h2 mt-30">MiVue™ Pro App</h2>
+					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
+					<p class="ContGen">MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
+				</div>
+				<div class="col-md-7 mt-20">
+					<div class="row">
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Backup_to_Cloud.png" alt="Sent on impact, seen on mobile">
+								<p>Sent on impact, seen on mobile</p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Live_view.png" alt="Live View and video organizer ">
+								<p>Live View and video organizer </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Allow_incoming_calls.png" alt="Allow incoming calls during the video backup">
+								<p>Allow incoming calls during the video backup</p>
+							</div>
+						</div>
+
+		
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="Set up your dash cam through the MiVue™ Pro app ">
+								<p>Set up your dash cam through the MiVue™ Pro app </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/WIFI_OTA.png" alt="WIFI OTA(Over-the-Air) update ">
+								<p>WIFI OTA(Over-the-Air) update </p>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
+							<div class="auxiliary-software-icon text-center">
+								<img class="rounded img-fluid" src="../images/auxiliary_software/download_videos_to_smartphone.png" alt="Download videos to smartphone">
+								<p>Download videos to smartphone</p>
+							</div>
+						</div>
+
+					</div>
+        </div>
+				<div class="col-md-5">
+					<img src="../images/auxiliary_software/MiVue_Pro-banner.png" alt="" class="col-xl-10 col-lg-5 col-md-6 col-sm-2 col-4 mt-30">
+			  </div>	
+
+			<div class="col-md-12 mt-30">
+        <a class="btn btn-primary btn-lg btn-round m-5" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
+				<a class="btn btn-fill-black-b  btn-round" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
+
+				<hr class="mt-40">
+      </div>
+
+			
+		</div>	
+	</div>
+<?php
+include 'inc/FOOTER.php';
+?>
