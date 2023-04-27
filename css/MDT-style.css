@@ -3742,7 +3742,8 @@ figure.vimeo a img, figure.youtube a img {
 	height: 400px;
 }
 .mid-height-incNav {
-	height: 500px;
+	max-height: 500px;
+	height: calc(100vh - 87px - 63px);
 	margin-top: 85px;
 }
 .padding-top-1st {
