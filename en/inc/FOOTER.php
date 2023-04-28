@@ -62,60 +62,33 @@
 	<div class="section padding-top-smaller dark background-dark over-hide footer-1 z-bigger-2">
 		<div class="container">
 			<div class="row fItem">
-				<div class="hidden-xs col-md-2 col-sm-4 col-6 mb-20">
-					<h6>Product</h6>
+				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
+					<h6>Product&Solution</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=2 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='en' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
-					</ul>
-				</div>
-				<div class="hidden-xs col-md-2 col-sm-4 col-6 mb-20">
-					<h6>Solution</h6>
-					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=64 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='en' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+						<li><a href="./dashcam-recorder.php" target="_bank">Smart Mobility</a></li>
+						<li><a href="./video-telematics.php">Smart Telematics</a></li>
+						<li><a href="./tablet.php">Smart Industrial</a></li>
+						<li><a href="./outdoor-luminaires.php">Smart IOT</a></li>
 					</ul>
 				</div>
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
 					<h6>Capability</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=3 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='en' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+					  <li><a href="./core-competence.php">Core Competence</a></li>
+					  <li><a href="./innovative-engineering.php">Innvovative Engineering</a></li>
+					  <li><a href="./quality-management.php">Quqlyity Management</a></li>
+					  <li><a href="./manufacturing-excellence.php">Manufacturing Ecxellence</a></li>
 					</ul>
 				</div>
-				<div class="hidden-xs col-md-2 col-sm-4 col-6 mb-20">
+				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
 					<h6>Discover MDT</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=7 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='en' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+					  <li><a href="./company-overview.php">Company Overview</a></li>
+					  <li><a href="./MiTAC-holdings.php">MiTAC Holdings</a></li>
+					  <li><a href="./own-brands.php">Own Brands</a></li>
+					  <li><a href="./global-glory.php">Global Glory</a></li>
+					  <li><a href="./crs.php">CSR</a></li>
+					  <li><a href="./press-events-list.php">Press</a></li>
 					</ul>
 				</div>
 				

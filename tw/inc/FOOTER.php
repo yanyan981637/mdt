@@ -56,46 +56,33 @@
 	<div class="section padding-top-smaller dark background-dark over-hide footer-1 z-bigger-2">
 		<div class="container">
 			<div class="row fItem">
-				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>產品</h6>
+			  <div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
+					<h6>產品&解決方案</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=32
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='tw' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+						<li><a href="./dashcam-recorder.php">智慧交通</a></li>
+						<li><a href="./video-telematics.php">智慧車載資通訊</a></li>
+						<li><a href="./tablet.php">智慧工業</a></li>
+						<li><a href="./outdoor-luminaires.php">智慧物聯</a></li>
 					</ul>
 				</div>
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
 					<h6>技術支援</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=33 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='tw' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+					  <li><a href="./core-competence.php">核心能力</a></li>
+					  <li><a href="./innovative-engineering.php">創新研發</a></li>
+					  <li><a href="./quality-management.php">品質管理</a></li>
+					  <li><a href="./manufacturing-excellence.php">生產製造</a></li>
 					</ul>
 				</div>
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
 					<h6>關於我們</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=37 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='tw' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+					  <li><a href="./company-overview.php">公司簡介</a></li>
+					  <li><a href="./MiTAC-holdings.php">聯華神通集團</a></li>
+					  <li><a href="./own-brands.php">品牌介紹</a></li>
+					  <li><a href="./global-glory.php">得獎記錄</a></li>
+					  <li><a href="./crs.php">企業社會責任</a></li>
+					  <li><a href="./press-events-list.php">最新消息</a></li>
 					</ul>
 				</div>
 				
