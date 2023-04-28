@@ -13,9 +13,9 @@
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
-          <!-- <div class="col-md-4 align-self-center pt-70">
+          <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/outdoor-navigation/Outdoor_Navigation-banner-product.png" alt="">
-          </div> -->
+          </div>
 					<div class="col-md-8 align-self-center">	
 						<h1 class="color-white mb-xl-5">Cyclo自行車導航</h1>
             <h3 class="h4">全方位的自行車導航解決方案，讓您的旅程更加精采</h3>
@@ -28,8 +28,8 @@
 
   <div class="section padding-top-bottom background-white outdoor_navigation_banner">
 		<div class="container">
-			<div class="row justify-content-left">
-				<div class="col-md-12">	
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
 					<div class="call-box-8">
 						<p class="ContGen">小巧的體積，強大的功能。神達數位Cyclo自行車導航讓您能夠與您的親友一同享受乘風的樂趣，提升您的騎乘體驗。</p>
 					</div>
@@ -79,7 +79,7 @@
           </div>
         </div>
 
-        <div class="col-md-12 mt-60 text-center mb-30">
+        <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/en_eu/products/category-outdoors" target="_blank">Learn More</a>
         </div>
       </div>

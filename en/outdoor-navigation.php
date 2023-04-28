@@ -13,9 +13,9 @@
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
-          <!-- <div class="col-md-4 align-self-center pt-70">
+          <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/outdoor-navigation/Outdoor_Navigation-banner-product.png" alt="">
-          </div> -->
+          </div>
 					<div class="col-md-8 align-self-center">	
 						<h1 class="color-white mb-xl-5">Bicycle Navigation</h1>
             <h3 class="h4">A holistic bike navigation solution for your journey</h3>
@@ -28,8 +28,8 @@
 
   <div class="section padding-top-bottom background-white outdoor_navigation_banner">
 		<div class="container">
-			<div class="row justify-content-left">
-				<div class="col-md-12">	
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
 					<div class="call-box-8">
 						<p class="ContGen">Compact size with powerful insights, MiTAC Cyclo™ cycling computer allows you to  enjoy the ride with your loved ones and  level up your next trip.</p>
 					</div>
@@ -79,7 +79,7 @@
           </div>
         </div>
 
-        <div class="col-md-12 mt-60 text-center mb-30">
+        <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/en_eu/products/category-outdoors" target="_blank">Learn More</a>
         </div>
       </div>
