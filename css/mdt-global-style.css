@@ -117,11 +117,13 @@ a:focus, a:hover {
 /* 第二級別的banner 樣式結束 */
 
 /* icon */
-.dashcam-recorder-icon img {
+.dashcam-recorder-icon img,
+.outdoor-navigation-icon img {
   max-width: 100px;
   width: 100%;
 }
-.dashcam-recorder-icon p {
+.dashcam-recorder-icon p,
+.outdoor-navigation-icon p{
   margin-top:20px;
   font-weight: bold;
 }
@@ -130,25 +132,28 @@ a:focus, a:hover {
 
 /* 其它 */
 
-#motobike_smart_cam, #handy-terminal, #kiosk{
+#motobike_smart_cam, #handy-terminal, #kiosk, #outdoor-navigation{
   margin-top: -30px;
 }
 
 
 /* banner */
-#motobike_smart_cam_banner .hero-text img {
+#motobike_smart_cam_banner .hero-text img,
+#outdoor_navigation_banner .hero-text img {
   width: auto;
 }
 @media (max-width: 991px) {
   .parallax {
     z-index: -1;
   }
-  #motobike_smart_cam_banner .hero-text img {
+  #motobike_smart_cam_banner .hero-text img,
+  #outdoor_navigation_banner .hero-text img {
     width: auto;
     height: 200px;
     padding: 0;
   }
-  #motobike_smart_cam_banner .hero-center-wrap {
+  #motobike_smart_cam_banner .hero-center-wrap,
+  #outdoor_navigation_banner .hero-center-wrap{
     position:static;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -156,4 +161,8 @@ a:focus, a:hover {
     -o-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+.outdoor_navigation_banner .ContGen{
+  margin-left: 40px !important;
 }
