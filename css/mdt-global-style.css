@@ -118,11 +118,13 @@ a:focus, a:hover {
 
 /* icon */
 .dashcam-recorder-icon img,
+.auxiliary-software-icon img,
 .outdoor-navigation-icon img {
   max-width: 100px;
   width: 100%;
 }
 .dashcam-recorder-icon p,
+.auxiliary-software-icon p,
 .outdoor-navigation-icon p{
   margin-top:20px;
   font-weight: bold;
