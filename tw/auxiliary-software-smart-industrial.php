@@ -101,7 +101,7 @@
 
 	
 	<!-- MiLock™ -->
-	<div class="section over-hide portfolio-box" id="#milock">
+	<div class="section over-hide portfolio-box" id="milock">
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
