@@ -14,66 +14,157 @@ a:focus, a:hover {
 	background-blend-mode: multiply;
 	background-color: #efefef;
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
+
 .SecTopNav.fixed {
 	position: fixed;
   top: 87px;
   left: 0;
+  z-index: 3999;
 }
-.SecTopNav span {
-    /*float: left;*/
-	display: inline-block;
-  margin: 20px 0;
-  padding: 0 15px;
-  position: relative;
-}
-.SecTopNav .container>.row>div span:not(:last-child)::after{
-  content: "";
-  width: 1px;
-  height: 100%;
-  background-color: rgb(51, 51, 51);
+.SecTopNav ul{
+  margin: 0;
   position: absolute;
-  right: 0;
-}
-.SecTopNav span  a{
-	font-size: 1.2rem;
-	color:rgb(51, 51, 51);
-  position: relative;
-}
-.SecTopNav span  a::after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  background-color: #62dcff;
-  bottom: -5px;
+  top: 100%;
   left: 0;
-  width: 100%;
-  -webkit-transition: transform .5s ease-in-out;
-  -moz-transition: transform .5s ease-in-out;
-  -o-transition: transform .5s ease-in-out;
-  transition: transform .5s ease-in-out;
-  transform-origin: right;
-  -webkit-transform-origin: right;
-  -moz-transform-origin: right;
-  -o-transform-origin: right;
-  transform: scaleX(0);
-  -webkit-transform: scaleX(0);
-  -moz-transform: scaleX(0);
-  -o-transform: scaleX(0);
+  background-color: #f7f7f7;
+  z-index: 3999;
 }
-.SecTopNav span  a:hover{
-  color: #1034a5;
+.SecTopNav ul li{
+  list-style: none;
 }
-.SecTopNav span  a.active::after{
-  transform-origin: left;
-  -webkit-transform-origin: left;
-  -moz-transform-origin: left;
-  -o-transform-origin: left;
-  transform: scaleX(1);
-  -webkit-transform: scaleX(1);
-  -moz-transform: scaleX(1);
-  -o-transform: scaleX(1);
-  text-decoration: none;
+.SecTopNav li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 10px;
+  position: relative;
+}
+.SecTopNav li a {
+  color:rgb(51, 51, 51);
+}
+.SecTopNav .SecTopNav_title{
+  line-height: 62px;
+  font-size: 18px;
+  /* border-bottom: 1px solid #62dcff; */
+  text-align: center;
+  display: block;
+  color:rgb(51, 51, 51);
+  font-weight: bold;
+  position: relative;
+  z-index: 3999;
+}
+.SecTopNav .SecTopNav_title::after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.3em;
+    vertical-align: middle;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-left: 0.3em solid transparent;
+    -webkit-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+.SecTopNav.show .SecTopNav_title {
+  color: #62dcff;
+}
+.SecTopNav.show ul li a.active {
+  color: #62dcff;
+}
+.SecTopNav.show  .SecTopNav_title:after {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.SecTopNav.show ul {
+  display: block;
+}
+.SecTopNav.show .bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3998;
+}
+@media (max-width: 991px) {
+  .SecTopNav .container {
+    width: 100vw;
+    max-width: 100%;
+  }
+  .SecTopNav ul {
+    display: none;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding: 0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  }
+  .SecTopNav ul li:not(:last-child){
+    border-bottom: 1px solid #bbb;
+  }
+}
+@media (min-width: 992px) {
+  .SecTopNav li {
+      /*float: left;*/
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 15px;
+    position: relative;
+  }
+  .SecTopNav .container>.row>div li:not(:last-child)::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    right: 0;
+  }
+  .SecTopNav ul {
+    position: static;
+    background-color: transparent;
+  }
+  .SecTopNav li  a::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #62dcff;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    -webkit-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transform-origin: right;
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -o-transform-origin: right;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -o-transform: scaleX(0);
+  }
+  .SecTopNav li  a:hover{
+    color: #1034a5;
+  }
+  .SecTopNav li  a.active::after{
+    transform-origin: left;
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -o-transform-origin: left;
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    text-decoration: none;
+  }
 }
 
 .SecTopNavPlaceholder { 
@@ -119,13 +210,17 @@ a:focus, a:hover {
 /* icon */
 .dashcam-recorder-icon img,
 .outdoor-navigation-icon img,
-.outdoor-luminaires-icon img {
+.outdoor-luminaires-icon img,
+.auxiliary-software-icon img,
+.outdoor-navigation-icon img {
   max-width: 100px;
   width: 100%;
 }
 .dashcam-recorder-icon p,
 .outdoor-navigation-icon p,
-.outdoor-luminaires-icon p{
+.outdoor-luminaires-icon p,
+.auxiliary-software-icon p,
+.outdoor-navigation-icon p{
   margin-top:20px;
   font-weight: bold;
 }

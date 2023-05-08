@@ -6,14 +6,19 @@
 				<div class='c-card-carousel__controller o-animate-in-element js-animate-in-element' style='opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);'>	
 						
 					<?php
-						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=".$Current_Menu_Father_Id." and menu_order < ".$Current_Menu_Order." order by menu_order DESC limit 1";
-						$result = mysqli_query($MysqlConn, $sql);
+						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order < ? order by menu_order DESC limit 1";
+
+						$stmt = mysqli_prepare($MysqlConn, $sql);
+						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
+						mysqli_stmt_execute($stmt);
+						$result = mysqli_stmt_get_result($stmt);
 						$prevAry = mysqli_fetch_array($result);
-						$prev_menu_name 	= $prevAry['menu_name'];
-						$prev_file_name 			= $prevAry['file_name'];
-						$prev_href_target 		= $prevAry['href_target'];
-						
+
 						if(!empty($prevAry)){
+							$prev_menu_name		= $prevAry['menu_name'];
+							$prev_file_name		= $prevAry['file_name'];
+							$prev_href_target	= $prevAry['href_target'];
+
 							echo "<div class='proj-prev'>
 											<a href='".$prev_file_name."' target='".$prev_href_target."'>
 												<div class='l-flex l-flex--center-middle c-card-carousel__prev' style='float: left;'>
@@ -23,16 +28,21 @@
 											</a>
 										</div>";
 						}
-						
 
-						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=".$Current_Menu_Father_Id." and menu_order > ".$Current_Menu_Order." order by menu_order limit 1";
-						$result = mysqli_query($MysqlConn, $sql);
+
+						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
+
+						$stmt = mysqli_prepare($MysqlConn, $sql);
+						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
+						mysqli_stmt_execute($stmt);
+						$result = mysqli_stmt_get_result($stmt);
 						$nextAry = mysqli_fetch_array($result);
-						$next_menu_name 		= $nextAry['menu_name'];
-						$next_file_name 			= $nextAry['file_name'];
-						$next_href_target 		= $nextAry['href_target'];
-						
+
 						if(!empty($nextAry)){
+							$next_menu_name		= $nextAry['menu_name'];
+							$next_file_name		= $nextAry['file_name'];
+							$next_href_target	= $nextAry['href_target'];
+
 							echo "<div class='proj-next'>
 											<a href='".$next_file_name."' target='".$next_href_target."'>
 												<div class='l-flex l-flex--center-middle c-card-carousel__next' style='float: right;'>
@@ -56,46 +66,33 @@
 	<div class="section padding-top-smaller dark background-dark over-hide footer-1 z-bigger-2">
 		<div class="container">
 			<div class="row fItem">
-				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>產品</h6>
+			  <div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
+					<h6>產品&解決方案</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=32
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='tw' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+						<li><a href="./dashcam-recorder.php">智慧交通</a></li>
+						<li><a href="./video-telematics.php">智慧車載資通訊</a></li>
+						<li><a href="./tablet.php">智慧工業</a></li>
+						<li><a href="./outdoor-luminaires.php">智慧物聯</a></li>
 					</ul>
 				</div>
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
 					<h6>技術支援</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=33 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='tw' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+					  <li><a href="./core-competence.php">核心能力</a></li>
+					  <li><a href="./innovative-engineering.php">創新研發</a></li>
+					  <li><a href="./quality-management.php">品質管理</a></li>
+					  <li><a href="./manufacturing-excellence.php">生產製造</a></li>
 					</ul>
 				</div>
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
 					<h6>關於我們</h6>
 					<ul class="list-style">
-					<?php
-						$sqlFM ="SELECT b.menu_name, b.file_name, b.href_target from ows_menu a, ows_menu b 
-											where a.menu_id=37 
-											and b.menu_class='main' and a.menu_id = b.father_menu_id and b.is_online = 1 and b.lang='tw' order by b.menu_order asc ";
-						$resultFM = mysqli_query($MysqlConn, $sqlFM);
-						while ($menuFM = mysqli_fetch_array($resultFM, MYSQLI_ASSOC)) {
-							echo "<li><a href='".$menuFM['file_name']."' target='".$menuFM['href_target']."'>".$menuFM['menu_name']."</a></li>";
-						}
-					?>
+					  <li><a href="./company-overview.php">公司簡介</a></li>
+					  <li><a href="./MiTAC-holdings.php">聯華神通集團</a></li>
+					  <li><a href="./own-brands.php">品牌介紹</a></li>
+					  <li><a href="./global-glory.php">得獎記錄</a></li>
+					  <li><a href="./crs.php">企業社會責任</a></li>
+					  <li><a href="./press-events-list.php">最新消息</a></li>
 					</ul>
 				</div>
 				
@@ -205,11 +202,13 @@
 
 	<script src="../js/extra.js"></script>
 	<script>
+		<?php if (isset($_COOKIE["mdt_policy"])) { ?>
 		$(function(){
 			<?php if($_COOKIE["mdt_policy"] == 'all' || $_COOKIE["mdt_policy"] == 'essential' || $_POST["ckType"] == 'all' || $_POST["ckType"] == 'essential' ){ ?>
 				$("#v-cookielaw").hide();
 			<?php } ?>
 		});
+		<?php } ?>
 
 		function cookieAccept(v){
 			var ck = v;	

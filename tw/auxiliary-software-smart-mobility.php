@@ -8,7 +8,7 @@
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="color-white mb-xl-3">Auxiliary Software</h1>
+						<h1 class="color-white mb-xl-3">搭配軟體</h1>
 					</div>	
 				</div>		
 			</div>			
@@ -35,30 +35,30 @@
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
-					<h3 class="h3 mt-30">MiVue™ Pro App</h3>
-					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
-					<p>MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
+					<h3 class="h3 mt-30">MiVue™ Pro 手機應用程式</h3>
+					<h5>WIFI連接 - 快速、無線傳輸</h5>
+					<p>MiVue™ Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
 				</div>
 				<div class="col-md-7 mt-20 align-items-stretch">
 					<div class="row">
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Backup_to_Cloud.png" alt="Sent on impact, seen on mobile">
-								<p>Sent on impact, seen on mobile</p>
+								<p>影片上傳雲端&下載至手機</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Live_view.png" alt="Live View and video organizer ">
-								<p>Live View and video organizer </p>
+								<p>直播與影片整理</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Allow_incoming_calls.png" alt="Allow incoming calls during the video backup">
-								<p>Allow incoming calls during the video backup</p>
+								<p>影片備份時可接聽來電</p>
 							</div>
 						</div>
 
@@ -66,21 +66,21 @@
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="Set up your dash cam through the MiVue™ Pro app ">
-								<p>Set up your dash cam through the MiVue™ Pro app </p>
+								<p>用MiVue Pro App設定行車記錄器</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/WIFI_OTA.png" alt="WIFI OTA(Over-the-Air) update ">
-								<p>WIFI OTA(Over-the-Air) update </p>
+								<p>WIFI OTA無線更新</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/download_videos_to_smartphone.png" alt="Download videos to smartphone">
-								<p>Download videos to smartphone</p>
+								<p>下載影片至手機</p>
 							</div>
 						</div>
 
@@ -91,8 +91,8 @@
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam(WIFI models only)</a>
+        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=gS4_jQsa2Lw" target="_blank">了解更多</a>
+				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series?use_situation_dvr=248" target="_blank">Apply to Dashcam(WIFI models only)</a>
 
 				<hr class="mt-40">
       </div>
@@ -107,30 +107,30 @@
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
-					<h2 class="h3 mt-30">MiVue™ Manager Web Tool</h2>
-					<h5>Convenient PC tool for clips review and management</h5>
-					<p>Using MiVue Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
+					<h2 class="h3 mt-30">MiVue™ Manager</h2>
+					<h5>方便影片觀看與管理的電腦工具</h5>
+					<p>利用MiVue Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
 				</div>
 				<div class="col-md-7 mt-20">
 					<div class="row">
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/MiVue_Manager_PC_Suite.png" alt="Full HD Video Playback">
-								<p>Full HD Video Playback</p>
+								<p>Full HD 影片播放</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Real-time_Event_Backup.png" alt="Video Sharing ">
-								<p>Video Sharing </p>
+								<p>影片分享 </p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/GPS_overlay.png" alt="GPS Overlay in Google Maps">
-								<p>GPS Overlay in Google Maps</p>
+								<p>GPS軌跡顯示於Google地圖</p>
 							</div>
 						</div>
 
@@ -138,21 +138,21 @@
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Video_Organizer.png" alt="Video Organizer">
-								<p>Video Organizer</p>
+								<p>影片整理 方向分析 支援多種語言</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Direction_analyzer.png" alt="Direction Analyzer">
-								<p>Direction Analyzer</p>
+								<p>方向分析 支援多種語言</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Multi_languages.png" alt="Multi-languages support">
-								<p>Multi-languages support</p>
+								<p>支援多種語言</p>
 							</div>
 						</div>
 
@@ -163,8 +163,8 @@
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
+        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=gS4_jQsa2Lw" target="_blank">了解更多</a>
+				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/category-car-camera" target="_blank">Apply to Dashcam</a>
 
 				<hr class="mt-40">
       </div>
@@ -178,30 +178,30 @@
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
-					<h2 class="h3 mt-30">MioNext™ App </h2>
-					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
-					<p>Together with the MiTAC connected dashcam, the MioNext App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
+					<h2 class="h3 mt-30">MioNext™ 手機應用程式</h2>
+					<h5>智慧停車保全 - 智慧防盜保全</h5>
+					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
 				</div>
 				<div class="col-md-7 mt-20">
 					<div class="row">
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/icon_Smart_Parking_Guard.png" alt="Smart Parking guard">
-								<p>Smart Parking guard</p>
+								<p>智慧停車保全</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Live_view.png" alt="Live view watching">
-								<p>Live view watching</p>
+								<p>觀看直播</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/icon_Find_Parked_Car_Location.png" alt="Real-time event notification">
-								<p>Real-time event notification</p>
+								<p>即時事件通知</p>
 							</div>
 						</div>
 
@@ -209,21 +209,21 @@
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/icon_Real_Time_Event_Notification.png" alt="Real-time GPS tracking / parked car location finding">
-								<p>Real-time GPS tracking / parked car location finding</p>
+								<p>即時GPS軌跡/停車位置找尋</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/WIFI_OTA.png" alt="OTA update">
-								<p>OTA update</p>
+								<p>WIFI OTA無線更新</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Backup_to_Cloud.png" alt="One-click video cloud backup and saving">
-								<p>One-click video cloud backup and saving</p>
+								<p>一鍵影片雲端備份與保存</p>
 							</div>
 						</div>
 
@@ -234,7 +234,7 @@
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
+        <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">了解更多</a>
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
 
 				<hr class="mt-40">
@@ -249,30 +249,30 @@
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
-					<h2 class="h2 mt-30">MioShare ™ Web Tool & App </h2>
-					<h5>Easily find routes and view history records on smartphone</h5>
-					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
+					<h2 class="h2 mt-30">MioShare™ 電腦工具 & 手機應用程式</h2>
+					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
+					<p>透過 MioShare™ 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div>
 				<div class="col-md-7 mt-20">
 					<div class="row">
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Create_search_Upload.png" alt="Create, search, or Upload tracks">
-								<p>Create, search, or Upload tracks</p>
+								<p>建立、搜尋、上傳路線</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Record_overview.png" alt="Record overview">
-								<p>Record overview</p>
+								<p>查看記錄</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Tour_Place_organizer.png" alt="Tour/Place organizer">
-								<p>Tour/Place organizer</p>
+								<p>旅程/地點整理</p>
 							</div>
 						</div>
 
@@ -280,35 +280,36 @@
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/cyclo_icon_routeyou_Komoot_integration.png" alt="Third-party service connection">
-								<p>Third-party service connection</p>
+								<p>第三方服務連結</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/Backup_to_Cloud.png" alt="Update and back up your device">
-								<p>Update and back up your device</p>
+								<p>更新與備份</p>
 							</div>
 						</div>
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
 								<img class="rounded img-fluid" src="../images/auxiliary_software/take_photos_along with_recorded_track.png" alt="Take photos along with recorded track">
-								<p>Take photos along with recorded track</p>
+								<p>旅程拍照</p>
 							</div>
 						</div>
 
+            <div class="col-md-12 mt-30">
+              <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">了解更多</a>
+              <a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to App Cyclo™ Navigation</a>
+            </div>
+            
 					</div>
         </div>
 				<div class="col-md-5  mt-30">
 					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 
-			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to App Cyclo™ Navigation</a>
-
-      </div>
+			
 			
 		</div>	
 	</div>

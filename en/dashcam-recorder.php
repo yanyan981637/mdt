@@ -22,17 +22,23 @@
 	</div>
 
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav hidden-xs">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<span><a href="#single-cam-dashcam">Single-cam Dashcam</a></span>
-					<span><a href="#multi-views-dashcam">Multi-View Dashcam</a></span>
-					<span><a href="#e-mirror-dashcam">E-Mirror Dashcam</a></span>
-          <span><a href="#radar-combo-dashcam">Radar Combo Dashcam</a></span>
-          <span><a href="#connected-dashcam">Connected Dashcam</a></span>
-          <span><a href="#dop-type-dashcam">DOP-Type Dashcam</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+          Dashcam Recorder
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#single-cam-dashcam">Single-cam</a></li>
+					<li><a href="#multi-views-dashcam">Multi-View</a></li>
+					<li><a href="#e-mirror-dashcam">E-Mirror</a></li>
+          <li><a href="#radar-combo-dashcam">Radar Combo</a></li>
+          <li><a href="#connected-dashcam">Connected</a></li>
+          <li><a href="#dop-type-dashcam">DOP-Type Dashcam</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
@@ -184,7 +190,7 @@
         <div class="container text-center color-white center">
           <div class="row">
             <div class="align-self-center col-md-12">	
-              <h2>E- mirror Dashcam</h2>
+              <h2>E-Mirror Dashcam</h2>
               <h4>Perfect integration of safety, convenience, clarity, and aesthetics</h4>
             </div>	
           </div>		
