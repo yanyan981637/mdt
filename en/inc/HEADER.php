@@ -1,30 +1,44 @@
 <?php
 	require_once('../Conf/Config.inc.php');
 	ini_set("session.cookie_httponly", 1);
+
 	if(isset($_POST['ckType'])){
 		setcookie("mdt_policy", $_POST['ckType'], time()+3600*24*365, "/", "mitacmdt.com", TRUE, TRUE);
 	}
-	$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
+	if(isset($_POST['MsgFormSend'])){
+		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
+	}
 
 	//Menu
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' And file_name = '".$cfg['file_name']."' limit 1 ";
-	$resultM = mysqli_query($MysqlConn, $sqlM);
+	if ($cfg['file_name'] == '404.php') {
+		$cfg['file_name'] = "index.php";
+	}
+
+	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' And file_name = ? limit 1 ";
+	$stmt = mysqli_prepare($MysqlConn, $sqlM);
+	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
+	mysqli_stmt_execute($stmt);
+	$resultM = mysqli_stmt_get_result($stmt);
 	$menuAry = mysqli_fetch_array($resultM);
-	$Current_Menu_Id 					= $menuAry['menu_id'];
-	$Current_Menu_Father_Id 	= $menuAry['father_menu_id'];
-	$Current_Menu_Order		 	= $menuAry['menu_order'];
-	$Current_Menu_Name 			= $menuAry['menu_name'];
-	$Current_Menu_File_Name 	= $menuAry['file_name'];
-	//print '<pre>'. print_r($Current_Menu_Id, TRUE) .'</pre>';
+
+	$Current_Menu_Id					= $menuAry['menu_id'];
+	$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
+	$Current_Menu_Order				= $menuAry['menu_order'];
+	$Current_Menu_Name				= $menuAry['menu_name'];
+	$Current_Menu_File_Name		= $menuAry['file_name'];
 
 	//Meta
-	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id='".$Current_Menu_Id."' ";
-	$resultT = mysqli_query($MysqlConn, $sqlT);
+	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id=? ";
+	$stmt = mysqli_prepare($MysqlConn, $sqlT);
+	mysqli_stmt_bind_param($stmt, "s", $Current_Menu_Id);
+	mysqli_stmt_execute($stmt);
+	$resultT = mysqli_stmt_get_result($stmt);
 	$metaAry = mysqli_fetch_array($resultT);
+
 	$Current_Meta_Title				= $metaAry['meta_title'];
 	$Current_Meta_Description	= $metaAry['meta_description'];
 	$Current_Meta_Keywords		= $metaAry['meta_keywords'];
-	$default_meta_description = "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
+	$default_meta_description	= "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
 	$Current_Meta_Description = ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
 	
 	//判斷是否為手機
