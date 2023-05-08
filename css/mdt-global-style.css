@@ -209,23 +209,30 @@ a:focus, a:hover {
 
 /* icon */
 .dashcam-recorder-icon img,
+.outdoor-navigation-icon img,
+.outdoor-luminaires-icon img,
 .auxiliary-software-icon img,
 .outdoor-navigation-icon img {
   max-width: 100px;
   width: 100%;
 }
 .dashcam-recorder-icon p,
+.outdoor-navigation-icon p,
+.outdoor-luminaires-icon p,
 .auxiliary-software-icon p,
 .outdoor-navigation-icon p{
   margin-top:20px;
   font-weight: bold;
 }
 
+.outdoor-luminaires-second{
+  letter-spacing: -0.5pt;
+}
 
 
 /* 其它 */
 
-#motobike_smart_cam, #handy-terminal, #kiosk, #outdoor-navigation{
+#motobike_smart_cam, #handy-terminal, #kiosk, #outdoor-navigation, #outdoor-luminaires{
   margin-top: -30px;
 }
 
