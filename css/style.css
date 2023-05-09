@@ -16,3 +16,12 @@ text-decoration: none;
 .auxiliary_software_img{
   width: 70%;
 }
+
+/* vt-solution  start*/
+.embed-responsive video{
+  height: 600px !important;
+}
+.embed-responsive-16by9::before {
+  padding-top: 34%;
+}
+/* vt-solution end */
