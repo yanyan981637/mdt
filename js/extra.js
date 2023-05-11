@@ -39,6 +39,14 @@
 			}
 		});
 
+		$("area[href^='#']:not(area[href='#'])").on("click",function(){
+			const targetId = $(this).attr('href');
+			if($(targetId).length > 0) {
+				scrollToEl(targetId)
+				window.location.hash = targetId
+				return false;
+			}
+		})
 		// 加載頁面後滑動到錨點位置
 		if (window.location.hash){
 			scrollToEl(window.location.hash)
