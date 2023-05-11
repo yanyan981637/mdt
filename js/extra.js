@@ -20,7 +20,7 @@
 
 			if ($(el).length > 0) {
 				var target_top = $(el).offset().top - header_height - submenu_height + 1;
-
+				$(".SecTopNav").removeClass('show')
 				$('html,body').animate({
 					scrollTop:target_top
 				}, 300);
@@ -54,7 +54,7 @@
 
 		// 獲取所有的錨點元素
 		var target_el_list = []
-		$('.SecTopNav a').each(function(){
+		$('.SecTopNav ul a').each(function(){
      	var target_el = $(this).attr('href');
 			if (target_el.length > 0 && target_el.indexOf('#') === 0) {
 				target_el_list.push({
@@ -102,10 +102,19 @@
 		$(window).on('resize', function(){
 			// console.log(1)
 			SecTopNav(target_el_list)
+			$(".SecTopNav").removeClass('show')
 		})
 		
 		$(window).on('scroll', function() {
 			SecTopNav(target_el_list)
+		})
+
+		$('.SecTopNav .SecTopNav_title').on('click', function(){
+			$(".SecTopNav").toggleClass('show')
+		})
+
+		$('.SecTopNav .bg').on('click', function(){
+			$(".SecTopNav").removeClass('show')
 		})
 
 	});
