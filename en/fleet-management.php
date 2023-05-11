@@ -2,7 +2,6 @@
 	include 'inc/HEADER.php';
 ?>
 
-
 	<!-- Primary Page Layout
 	================================================== -->
 	<!-- Hero Block
@@ -22,6 +21,29 @@
 	</div>
 
   <div class="section padding-top-bottom background-white">
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Video Telematics
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="smart-dashcam.php">Smart Dash Cam</a></li>
+					<li><a href="fleet-management.php" class="active">Fleet Management</a></li>
+					<li><a href="safefy-enhancement.php">Safety Enhancement</a></li>
+					<li><a href="efficiency-improvement.php">Efficiency Improvement</a></li>
+					<li><a href="business-collaboration.php">Business Collaboration</a></li>
+        </ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="section padding-top-bottom-smaller background-white">
 		<div class="container">
 			<div class="row justify-content-center">
 			   <div class="col-md-12 mt-30">

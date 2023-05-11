@@ -5,14 +5,22 @@
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-	<div class="SecTopNav">
+
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#pdt_detail">Detailed Views</a></span>
-					<span><a href="#pdt_spec">Specifications</a></span>
-					<span><a href="#pdt_accs">Accessories</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					K145/K245
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#pdt_detail">Detailed Views</a></li>
+					<li><a href="#pdt_spec">Specifications</a></li>
+					<li><a href="#pdt_accs">Accessories</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

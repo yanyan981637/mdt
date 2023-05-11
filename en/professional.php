@@ -18,16 +18,23 @@
 		</div>	
 	</div>
 	</div>
+
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#industrial_tablet">Industrial Tablet</a></span>
-					<span><a href="#industrial_handy_terminal">Industrial Handy Terminal</a></span>
-					<span><a href="#fleet_management">Fleet Management _ Return to Route</a></span>
-					<span><a href="#mobile_device">MiTAC (Mobile) Device Management</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Professional
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#industrial_tablet">Industrial Tablet</a></li>
+					<li><a href="#industrial_handy_terminal">Industrial Handy Terminal</a></li>
+					<li><a href="#fleet_management">Fleet Management _ Return to Route</a></li>
+					<li><a href="#mobile_device">MiTAC (Mobile) Device Management</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

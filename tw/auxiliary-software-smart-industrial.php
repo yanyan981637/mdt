@@ -17,16 +17,22 @@
 </div>
 
 <div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#midm">MiDM™</a></span>
-					<span><a href="#milock">MiLock™</a></span>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					搭配軟體
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#midm">MiDM™</a></li>
+					<li><a href="#milock">MiLock™</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
-</div>	
 
 	<!-- MiDM™-->
 	<div class="section over-hide" id="midm">

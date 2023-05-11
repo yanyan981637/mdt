@@ -2,19 +2,6 @@
 	include 'inc/HEADER.php';
 ?>
 
-	<div class="SecTopNav">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 hidden-sm">
-					<span><a href="smart-dashcam.php">智能行車記錄器</a></span>
-					<span><a href="fleet-management.php">車隊管理</a></span>
-					<span><a href="safefy-enhancement.php" class="active">強化安全</a></span>
-					<span><a href="efficiency-improvement.php">提升效率</a></span>
-					<span><a href="business-collaboration.php">商業合作</a></span>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<!-- Primary Page Layout
 	================================================== -->
@@ -35,6 +22,27 @@
 				</div>		
 			</div>			
 		</div>	
+	</div>
+
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					車載視訊管理解決方案
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="smart-dashcam.php">智能行車記錄器</a></li>
+					<li><a href="fleet-management.php">車隊管理</a></li>
+					<li><a href="safefy-enhancement.php">強化安全</a></li>
+					<li><a href="efficiency-improvement.php" class="active">提升效率</a></li>
+					<li><a href="business-collaboration.php">商業合作</a></li>
+        </ul>
+			</div>
+		</div>
 	</div>
 	
 	

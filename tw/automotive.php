@@ -19,14 +19,19 @@
 	</div>
 	
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#dashcam_recorder">行車紀錄器</a></span>
-					<span><a href="#navigation">導航系統與軟體</a></span>
-					<span><a href="#smart_camera">智慧攝影機</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					車用電子
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#connected_car">車載視訊管理解決方案</a></li>
+					<li><a href="#smart_city">智慧城市</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

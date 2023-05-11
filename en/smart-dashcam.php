@@ -2,20 +2,6 @@
 	include 'inc/HEADER.php';
 ?>
 
-	<div class="SecTopNav">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 hidden-sm">
-					<span><a href="smart-dashcam.php" class="active">Smart Dash Cam</a></span>
-					<span><a href="fleet-management.php">Fleet Management</a></span>
-					<span><a href="safefy-enhancement.php">Safety Enhancement</a></span>
-					<span><a href="efficiency-improvement.php">Efficiency Improvement</a></span>
-					<span><a href="business-collaboration.php">Business Collaboration</a></span>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- Primary Page Layout
 	================================================== -->
 	<!-- Hero Block
@@ -35,6 +21,27 @@
 				</div>		
 			</div>	
 		</div>	
+	</div>
+
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Video Telematics
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="smart-dashcam.php" class="active">Smart Dash Cam</a></li>
+					<li><a href="fleet-management.php">Fleet Management</a></li>
+					<li><a href="safefy-enhancement.php">Safety Enhancement</a></li>
+					<li><a href="efficiency-improvement.php">Efficiency Improvement</a></li>
+					<li><a href="business-collaboration.php">Business Collaboration</a></li>
+        </ul>
+			</div>
+		</div>
 	</div>
 	
 	<div class="section padding-top-bottom-smaller background-white">

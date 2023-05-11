@@ -18,13 +18,21 @@
 		</div>	
 	</div>
 	</div>
-	<div class="SecTopNav">
+
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#system_certificates">System Certificates</a></span>
-					<span><a href="#lab_facility">Lab &amp; Facility</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Quality Management
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#system_certificates">System Certificates</a></li>
+					<li><a href="#lab_facility">Lab &amp; Facility</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

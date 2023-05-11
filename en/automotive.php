@@ -18,14 +18,20 @@
 		</div>	
 	</div>
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#dashcam_recorder">Dashcam Recorder</a></span>
-					<span><a href="#navigation">Navigation</a></span>
-					<span><a href="#smart_camera">Smart Camera</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Automotive
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#dashcam_recorder">Dashcam Recorder</a></li>
+					<li><a href="#navigation">Navigation</a></li>
+					<li><a href="#smart_camera">Smart Camera</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

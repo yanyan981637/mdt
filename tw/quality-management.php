@@ -19,13 +19,21 @@
 		</div>	
 	</div>
 	</div>
-	<div class="SecTopNav">
+
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#system_certificates">系統認證</a></span>
-					<span><a href="#lab_facility">實驗室 &amp; 設備</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					品質管理
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#system_certificates">系統認證</a></li>
+					<li><a href="#lab_facility">實驗室 &amp; 設備</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

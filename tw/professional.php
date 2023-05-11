@@ -18,16 +18,23 @@
 		</div>	
 	</div>
 	</div>
+
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#industrial_tablet">工業用平板</a></span>
-					<span><a href="#industrial_handy_terminal">工業用手持終端機</a></span>
-					<span><a href="#fleet_management">車隊管理 _ 返回路徑導航</a></span>
-					<span><a href="#mobile_device">MiTAC (移動式) 裝置管理系統</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					專業平板
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#industrial_tablet">工業用平板</a></li>
+					<li><a href="#industrial_handy_terminal">工業用手持終端機</a></li>
+					<li><a href="#fleet_management">車隊管理 _ 返回路徑導航</a></li>
+					<li><a href="#mobile_device">MiTAC (移動式) 裝置管理系統</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

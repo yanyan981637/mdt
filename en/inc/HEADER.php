@@ -11,7 +11,7 @@
 
 
 	
-	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw'";
+	$sql_menu = "Select * From `ows_menu1` Where menu_class='main' and is_online=1 And lang='tw'";
 
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
@@ -58,7 +58,7 @@
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu1` Where menu_class='main' and is_online=1 And lang='tw' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -483,7 +483,7 @@ height="0" width="0"></iframe></noscript>
 								<?php
 								
 								//取得他語系網頁
-								$sqlL ="Select * From `ows_menu` Where is_online=1 And lang='en' And file_name = '".$Current_Menu_File_Name."' ";
+								$sqlL ="Select * From `ows_menu1` Where is_online=1 And lang='en' And file_name = '".$Current_Menu_File_Name."' ";
 								$resultL = mysqli_query($MysqlConn, $sqlL);
 								$tspgAry = mysqli_fetch_array($resultL);
 								if($tspgAry){

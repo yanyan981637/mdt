@@ -26,13 +26,19 @@
 	</div>
 
   <div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav hidden-xs">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<span><a href="#industrial-tablet">工業平板</a></span>
-					<span><a href="#fleet-tablet">車隊平板</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+          平板
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+          <li><a href="#industrial-tablet">工業平板</a></li>
+					<li><a href="#fleet-tablet">車隊平板</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

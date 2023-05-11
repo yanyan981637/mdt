@@ -18,13 +18,19 @@
 		</div>		
 	</div>
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#connected_car">Video Telematics Solutions</a></span>
-					<span><a href="#smart_city">Smart City</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+          AIOT
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#connected_car">Video Telematics Solutions</a></li>
+					<li><a href="#smart_city">Smart City</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

@@ -17,20 +17,26 @@
 			</div>			
 		</div>	
 	</div>
+	
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#k220">K220</a></span>
-					<span><a href="#k145">K145/K245</a></span>
-					<span><a href="#k145c">K145C/K245C</a></span>
-					<span><a href="#k165">K165/K265</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Connected Dashcam
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#k220">K220</a></li>
+					<li><a href="#k145">K145/K245</a></li>
+					<li><a href="#k145c">K145C/K245C</a></li>
+					<li><a href="#k165">K165/K265</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
-	
 	
 	
 	<div class="section padding-top-bottom background-white">

@@ -18,18 +18,7 @@
 			</div>			
 		</div>	
 	</div>
-	<!--<div class="SecTopNav">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#global_rd_resource">全球研發資源</a></span>
-				</div>
-			</div>
-		</div>
-	</div>-->
-	
-	
-	<div class="SecTopNavPlaceholder"></div>
+
 	<div class="section padding-top background-white">
 		<div class="container">
 			<div class="row justify-content-center">
