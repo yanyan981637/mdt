@@ -159,6 +159,7 @@
 	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
 	<script type="text/javascript" src="../js/tether.min.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/header.js"></script>
 	<script type="text/javascript" src="../js/plugins.js"></script> 
 	<script type="text/javascript" src="../js/custom/custom-creative-agency.js"></script>  
 

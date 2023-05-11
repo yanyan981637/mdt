@@ -9,12 +9,58 @@
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
 
+
+	
+	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw'";
+
+	$result_menu = mysqli_query($MysqlConn, $sql_menu);
+
+	$all_menu = [];
+
+	$current_menu = null;
+
+	$Current_Menu_Id 					= null;
+	$Current_Menu_Father_Id 	= null;
+	$Current_Menu_Order		 	= null;
+	$Current_Menu_Name 			= null;
+	$Current_Menu_File_Name 	= null;
+
+	$first_menu = [];
+
+	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
+  {
+		if ( $row['file_name'] != 'index.php') {
+			array_push($all_menu, $row);
+		}
+		if ($row['file_name'] == $cfg['file_name']) {
+			$current_menu = $row;
+			$Current_Menu_Id 					= $row['menu_id'];
+			$Current_Menu_Father_Id 	= $row['father_menu_id'];
+			$Current_Menu_Order		 	= $row['menu_order'];
+			$Current_Menu_Name 			= $row['menu_name'];
+			$Current_Menu_File_Name 	= $row['file_name'];
+		}
+
+		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
+			array_push($first_menu, $row);
+		}
+
+  }
+
+	var_dump($current_menu);
+
 	//Menu
+
+	//Meta
+	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id='".$current_menu['menu_id']."';";
+
+	$resultT = mysqli_query($MysqlConn, $sqlT);
+	$metaAry = mysqli_fetch_array($resultT, MYSQLI_ASSOC);
 	if ($cfg['file_name'] == '404.php') {
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -134,6 +180,7 @@
 	<link rel="stylesheet" href="../css/colors/color-mitac.css"/>
 	<link rel="stylesheet" href="../css/fonts.css"/>
 	<link rel="stylesheet" href="../css/mdt-global-style.css">
+	<link rel="stylesheet" href="../css/header.css">
 	<!-- Favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="../favicon-16x16.png">
@@ -347,82 +394,95 @@ height="0" width="0"></iframe></noscript>
 			<div class="row">
 				<div class="col-md-12">	
 					<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
-						<?php
-							if(isMobile()){
-								echo "<button class='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarNavMenuMain' aria-controls='navbarNavMenuMain' aria-expanded='false' aria-label='Toggle navigation'>
-												<span class='navbar-toggler-icon'></span>
-											</button>";
-							}
-						?>
-						<a class="navbar-brand" href="index.php" title="MiTAC Digital Technology Corporation">
-							<img src="../images/MDT_logo_light@2x.png" alt="MiTAC Digital Technology Corporation" class="">
+						<!-- <?php
+							// if(isMobile()){
+							// 	echo "";
+							// }
+						?> -->
+						<button class='navbar-toggle navbar-toggler-right d-lg-none' type='button' data-target='#navbarNavMenuMain'>
+							<span class='navbar-toggle-icon'></span>
+						</button>
+						<a class="navbar-brand" href="index.php" title="神達數位股份有限公司">
+							<img src="../images/MDT_logo_light@2x.png" alt="神達數位股份有限公司" class="">
 						</a>
-						<div class="collapse navbar-collapse justify-content-end" id="navbarNavMenuMain">
+						<div class="navbar-collapse justify-content-end" id="navbarNavMenuMain">
 							<ul class="navbar-nav">
 								<!-- get Menu -->
+
 								<?php
-								$sql1 ="Select * From `ows_menu` Where menu_class='main' And father_menu_id is NULL And is_online=1 And lang='en' And menu_id !=1 Order By menu_order ASC ";
-								$result1 = mysqli_query($MysqlConn, $sql1);
-								while ($menu1 = mysqli_fetch_array($result1, MYSQLI_ASSOC)) {
-									
-									if($menu1['file_name'] == NULL){//有sub menu
-										//第一層
-										if($Current_Menu_Father_Id == $menu1['menu_id']){$AC="active";}else{$AC="";}
-										echo "<li class='nav-item dropdown ".$AC." '>
-														<a class='nav-link dropdown-toggle' href='#' id='navbarDropdownMenuLink-mainNav-".$menu1['menu_id']."' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-															".$menu1['menu_name']."
-															<span class='nav-uline'></span>
-														</a>";
-														
-											//第二層
-											echo "<div class='dropdown-menu menu-on-hover' aria-labelledby='navbarDropdownMenuLink-mainNav-".$menu1['menu_id']."'>";
-											
-												$sql2 ="Select * From `ows_menu` Where menu_class='main' And father_menu_id is not NULL And is_online=1 And lang='en' Order By menu_order ASC";
-												$result2 = mysqli_query($MysqlConn, $sql2);
-												while ($menu2 = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
-													if($menu2['father_menu_id'] == $menu1['menu_id']){
-														
-														if($Current_Menu_Id == $menu2['menu_id'] && $Current_Menu_Father_Id == $menu2['father_menu_id']){$AC="active";}else{$AC="";}
-														echo "<a class='dropdown-item ".$AC." ' href='".$menu2['file_name']."' target='".$menu2['href_target']."'>".$menu2['menu_name']."</a>";
-													}
-												}
-											echo "</div>";
-											//第二層 end
-														
-										echo "</li>";
-										//第一層 end
+									function getChildrenItems($father_menu_id, $all_menu, $render_link_el, $level = 0){
 
-									}else{//無sub menu
-									
-										if($Current_Menu_Id == $menu1['menu_id']){$AC="active";}else{$AC="";}
-										echo "<li class='nav-item dropdown ".$AC." '>
-														<a class='nav-link' href='".$menu1['file_name']."' id='navbarDropdownMenuLink-mainNav-".$menu1['menu_id']."'>
-															".$menu1['menu_name']."
-															<span class='nav-uline'></span>
-														</a>
-													</li>";
+										$class = [ 'second_menu', 'third_menu', 'fourth_menu' ];
+
+										$filterFunc = function($item) use ($father_menu_id){
+												return $item['father_menu_id'] == $father_menu_id;
+										};
+
+										// $a
+										$all_children_menu = array_filter($all_menu, $filterFunc);
+
+										if (count($all_children_menu) > 0) {
+
+											usort($all_children_menu, function($a, $b) {
+												return (int)$a['menu_order'] - (int)$b['menu_order'];
+											});
+											echo "<ul class='{$class[$level]}'>";
+											foreach ($all_children_menu as $child_menu) {
+												echo '<li>';
+												echo $render_link_el($child_menu);
+												
+												getChildrenItems($child_menu['menu_id'], $all_menu, $render_link_el, $level+1);
+								
+												echo '</li>';
+											}
+											echo '</ul>';
+										}
+
+										return $all_children_menu;
+
+									};
+
+									$render_link_el = function ($menu) use ($Current_Menu_File_Name) {
+										$href = $menu['file_name'] ? $menu['file_name'] : '#';
+
+										$target = $menu['href_target'];
+										$class  = $menu['file_name'] === $Current_Menu_File_Name ? 'active' : '';
+										if($target == '_self') {
+											return "<a href='{$href}' class='nav-link'>{$menu['menu_name']}</a>";
+										}
+										
+										return "<a href='{$href}' class='nav-link {$class}' target='{$target}'>{$menu['menu_name']}</a>";
+
+									};
+
+									foreach($first_menu as $menu){
+										echo '<li class="first_menu">';
+										echo $render_link_el($menu);
+										getChildrenItems($menu['menu_id'], $all_menu, $render_link_el);
+										echo '</li>';
 									}
-								}
-
+									?>
+								<?php
+								
 								//取得他語系網頁
-								$sqlL ="Select * From `ows_menu` Where is_online=1 And lang='tw' And file_name = '".$Current_Menu_File_Name."' ";
+								$sqlL ="Select * From `ows_menu` Where is_online=1 And lang='en' And file_name = '".$Current_Menu_File_Name."' ";
 								$resultL = mysqli_query($MysqlConn, $sqlL);
 								$tspgAry = mysqli_fetch_array($resultL);
 								if($tspgAry){
-									$transferPageUrl = $RootPath."tw/".$Current_Menu_File_Name;
+									$transferPageUrl = $RootPath."en/".$Current_Menu_File_Name;
 								}else{
-									$transferPageUrl =	$RootPath."tw/";
+									$transferPageUrl =	$RootPath."en/";
 								}
-
+								
 								?>
-								<li class="nav-item dropdown lang">
-									<a class="nav-link" href="#" id="navbarDropdownMenuLink-lng" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<li class="first_menu lang">
+									<a class="nav-link" href="#">
 										<i class="fa fa-globe"></i>
 									</a>
-									<div class="dropdown-menu menu-on-hover" aria-labelledby="navbarDropdownMenuLink-lng">
-										<a class="dropdown-item" href="<?php echo $transferPageUrl; ?>">中文</a>
-										<a class="dropdown-item active" href="#">English</a>
-									</div>
+									<ul class="second_menu">
+										<li><a href="#">中文</a></li>
+										<li><a class="active" href="<?php echo $transferPageUrl; ?>">English</a></li>
+									</ul>
 								</li>
 								<!--<li class="nav-item icons-item-menu modal-search">
 									<a class="nav-link" href="#" data-toggle="modal" data-target="#Modal-search"><i class="fa fa-search"></i></a>
@@ -435,7 +495,7 @@ height="0" width="0"></iframe></noscript>
 			</div>	
 		</div>		
 	</div>
-	
+	<?= $Current_Menu_File_Name ?>
 	<!-- Search -->
 	<!--<div class="modal fade default search-modal" id="Modal-search" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog" role="document">

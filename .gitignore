@@ -4,3 +4,5 @@
 /XmasCard/*
 .htaccess
 nginx.htaccess
+/css/node_modules
+/css/dist/
