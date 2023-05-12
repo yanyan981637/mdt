@@ -7,18 +7,21 @@
 	<div class="fix-slider"></div><!--to solve not full width-->
 
 	<!-- home -->
-	<div class="section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="home_banner ">
-					<img src="../images/Home_slider/video_cover.png" alt="" class="img-fluid">
-					<a href="https://www.youtube.com/watch?v=ppfIsR6fDqI&feature=youtu.be" target="_blank">
-					  <div class="btn btn-blue btn-round btn-long home_btn hidden-xs">了解更多</div>
-					</a>
-				</div>
-			</div>
-		</div>
+<div class="section">
+  <div class="embed-responsive embed-responsive-16by9">
+		<video controls="controls"> 
+			<source src="https://www.youtube.com/watch?v=ppfIsR6fDqI"></source>
+		</video>
 	</div>
+</div>
+<!-- 在手机端显示 -->
+<div class="section d-block d-sm-none">
+  <div class="embed-responsive embed-responsive-4by3">
+		<video controls="controls"> 
+			<source src="https://www.youtube.com/watch?v=ppfIsR6fDqI"></source>
+		</video>
+	</div>
+</div>
 
 <div class="section padding-top-bottom background-white">
 	<div class="container">

@@ -16,7 +16,7 @@
 	</div>
 </div>
 
-<div class="SecTopNavPlaceholder"></div>
+  <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -103,7 +103,7 @@
 				<hr class="mt-40">
       </div>
 
-			
+			</div>
 		</div>	
 	</div>
 
@@ -174,7 +174,7 @@
 
 				<hr class="mt-40">
       </div>
-
+			</div>
 			
 		</div>	
 	</div>
@@ -315,7 +315,7 @@
 					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 
-			
+				</div>
 			
 		</div>	
 	</div>

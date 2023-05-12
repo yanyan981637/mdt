@@ -56,8 +56,8 @@ li{font-size: 1.2rem; line-height: 1.5; font-weight: 400;}
     margin-top: 1rem !important;
 }
 .error{color: #bf2020;}
-.btn-primary{background-color: #62dcff;}
-.btn-primary:hover {background-color: #333333;}
+.btn-primary{background-color: #333333;}
+.btn-primary:hover {background-color: #62dcff;}
 .g-recaptcha{display: inline-block;}
 a.lowl{color:#888; text-decoration: underline;}
 a.lowl:hover{color:#888;}
@@ -1006,7 +1006,7 @@ body.royal_preloader {
     box-shadow: none;
 }
 .btn-primary {
-    color: #000000;
+    color: #ffffff;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1016,8 +1016,8 @@ body.royal_preloader {
 .btn-primary:active:hover,
 .btn-primary.active:focus,
 .btn-primary.active:hover {
-    color: #fff;
-}
+    color: #000;
+} 
 .btn-round {
     border-radius: 4px;
 }

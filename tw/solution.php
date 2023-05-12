@@ -21,13 +21,19 @@
 	</div>
 
   <div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav hidden-xs">
+  <div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<span><a href="#vt-solution">VT Solution-VisionMax™</a></span>
-					<span><a href="#routecomplete">RouteComplete™</a></span>
-         </div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+        解決方案
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#vt-solution">車載視訊解決方案</a></li>
+					<li><a href="#routecomplete">路徑返回解決方案</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
@@ -40,6 +46,7 @@
 					<p>神達數位車載資訊解決方案協助車隊提升安全、效率和永續發展性。能讓依賴實體運作的企業有效利用遠端監控資料來獲取有意義的商業洞見，並優化營運。</p>
 				</div>
 			</div>	
+      
 		</div>		
 	</div>
 
@@ -49,11 +56,14 @@
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/VT_Solution-banner.jpg')">
         <div class="container text-center color-white center">
           <div class="row">
-            <div class="align-self-center col-md-12 mg-auto">	
-              <h2>VisonMax™</h2>
-              <h4>強大的全景監控、領先的安全保障</h4>
+            <div class="col-md-4 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
+            </div>
+            <div class="col-md-8 align-self-center">	
+              <h1 class="color-white mb-xl-5">VisonMax™</h1>
+              <h3 class="h4">強大的全景監控、領先的安全保障</h3>
             </div>	
-          </div>		
+          </div>	
         </div>
       </div>
     </div>
@@ -65,42 +75,42 @@
 
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
-              <img class="rounded img-fluid" src="../images/smart_telematics_solution/4k-ultra-hd-2160p.png" alt="穩定連線傳輸">
+              <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_4G+BT.png" alt="穩定連線傳輸">
               <p>穩定連線傳輸</p>
             </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/HDR.png" alt="多路即時錄影">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_ECU_telematics_data.png" alt="多路即時錄影">
             <p>多路即時錄影</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/WIFI_OTA.png" alt="可信賴及穩定的平台">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_Qualcom_Android.png" alt="可信賴及穩定的平台">
             <p>可信賴及穩定的平台</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/6-in-1-speedcam-alert.png" alt="提供有效解決方案">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_Affordable.png" alt="提供有效解決方案">
             <p>提供有效解決方案</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_supermp4.png" alt="路線即時監控">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_ADR.png" alt="路線即時監控">
             <p>路線即時監控</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/Wide-Angle-Camera.png" alt="線上軟體更新 (OTA)">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/real_time_route_completion _monitoring.png" alt="線上軟體更新 (OTA)">
             <p>線上軟體更新 (OTA)</p>
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="#" target="_blank">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="./vt-solution.php" target="_blank">Learn More</a>
         </div>
       </div>
     </div>
@@ -111,9 +121,12 @@
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/Return_to_Route-banner.jpg')">
         <div class="container text-center color-white center">
           <div class="row">
-            <div class="align-self-center col-md-12 mg-auto">	
-              <h2>路徑返回</h2>
-              <h4>路線規劃, 管理, 監控與執行</h4>
+            <div class="col-md-4 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="">
+            </div>
+            <div class="col-md-8 align-self-center">	
+              <h1 class="color-white mb-xl-5">路徑返回</h1>
+              <h3 class="h4">路線規劃, 管理, 監控與執行</h3>
             </div>	
           </div>		
         </div>

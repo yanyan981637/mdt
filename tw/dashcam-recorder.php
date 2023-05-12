@@ -22,17 +22,23 @@
 	</div>
 
 	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+  <div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#single-cam-dashcam">單鏡頭行車記錄器</a></span>
-					<span><a href="#multi-views-dashcam">多鏡頭行車記錄器</a></span>
-					<span><a href="#e-mirror-dashcam">電子後視鏡型行車記錄器</a></span>
-          <span><a href="#radar-combo-dashcam">雷達二合一行車記錄器</a></span>
-          <span><a href="#connected-dashcam">聯網行車記錄器</a></span>
-          <span><a href="#dop-type-dashcam">經銷選配型行車記錄器</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+          汽車行車記錄器
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#single-cam-dashcam">單鏡頭</a></li>
+					<li><a href="#multi-views-dashcam">多鏡頭</a></li>
+					<li><a href="#e-mirror-dashcam">電子後視鏡型</a></li>
+          <li><a href="#radar-combo-dashcam">雷達二合一</a></li>
+          <li><a href="#connected-dashcam">聯網型</a></li>
+          <li><a href="#dop-type-dashcam">經銷選配型</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>

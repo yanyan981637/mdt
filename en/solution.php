@@ -21,13 +21,19 @@
 	</div>
 
   <div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav hidden-xs">
+  <div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<span><a href="#vt-solution">VT Solution-VisionMax™</a></span>
-					<span><a href="#routecomplete">RouteComplete™</a></span>
-         </div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+        Solution
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#vt-solution">VT Solution-VisionMax™</a></li>
+					<li><a href="#routecomplete">RouteComplete™</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
@@ -49,9 +55,12 @@
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/VT_Solution-banner.jpg')">
         <div class="container text-center color-white center">
           <div class="row">
-            <div class="align-self-center col-md-12 mg-auto">	
-              <h2>VisonMax™</h2>
-              <h4>Powerful Panoramic Perception  for Leading Safety and Security</h4>
+            <div class="col-md-4 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
+            </div>
+            <div class="col-md-8 align-self-center">	
+              <h1 class="color-white mb-xl-5">VisonMax™</h1>
+              <h3 class="h4">Powerful Panoramic Perception  for Leading Safety and Security</h3>
             </div>	
           </div>		
         </div>
@@ -65,42 +74,42 @@
 
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
-              <img class="rounded img-fluid" src="../images/smart_telematics_solution/4k-ultra-hd-2160p.png" alt="Always connected">
+              <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_4G+BT.png" alt="Always connected">
               <p>Always connected</p>
             </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/HDR.png" alt="Get the full picture of your vehicles">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_ECU_telematics_data.png" alt="Get the full picture of your vehicles">
             <p>Get the full picture of your vehicles</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/WIFI_OTA.png" alt="Reliable and flexible platform">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_Qualcom_Android.png" alt="Reliable and flexible platform">
             <p>Reliable and flexible platform</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/6-in-1-speedcam-alert.png" alt="Affordable Solution">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_Affordable.png" alt="Affordable Solution">
             <p>Affordable Solution</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_supermp4.png" alt="Track your fleets in real-time">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_ADR.png" alt="Track your fleets in real-time">
             <p>Track your fleets in real-time</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/smart_telematics_solution/Wide-Angle-Camera.png" alt="Software update on-line (OTA)">
+            <img class="rounded img-fluid" src="../images/smart_telematics_solution/real_time_route_completion _monitoring.png" alt="Software update on-line (OTA)">
             <p>Software update on-line (OTA)</p>
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="vt-solution.php" target="_blank">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="./vt-solution.php" target="_blank">Learn More</a>
         </div>
       </div>
     </div>
@@ -111,9 +120,12 @@
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/Return_to_Route-banner.jpg')">
         <div class="container text-center color-white center">
           <div class="row">
-            <div class="align-self-center col-md-12 mg-auto">	
-              <h2>RouteComplete™</h2>
-              <h4>Route planning, management, monitoring, and execution</h4>
+            <div class="col-md-4 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="">
+            </div>
+            <div class="col-md-8 align-self-center">	
+              <h1 class="color-white mb-xl-5">RouteComplete™</h1>
+              <h3 class="h4">Route planning, management, monitoring, and execution</h3>
             </div>	
           </div>		
         </div>
