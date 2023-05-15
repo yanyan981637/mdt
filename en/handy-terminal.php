@@ -76,7 +76,7 @@
         <!-- 更換圖片 -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/handy-terminal/256G-SD-Card.png" alt="Antimicrobial housing">
+            <img class="rounded img-fluid" src="../images/handy-terminal/antibacterial_case_tablet.png" alt="Antimicrobial housing">
             <p>Antimicrobial housing</p>
           </div>
         </div>

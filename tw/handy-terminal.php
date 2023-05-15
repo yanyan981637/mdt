@@ -76,7 +76,7 @@
         <!-- 更換圖片 -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/handy-terminal/256G-SD-Card.png" alt="抗菌外殼">
+            <img class="rounded img-fluid" src="../images/handy-terminal/antibacterial_case_tablet.png" alt="抗菌外殼">
             <p>抗菌外殼</p>
           </div>
         </div>

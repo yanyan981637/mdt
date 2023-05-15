@@ -55,7 +55,7 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/motobike_smart_cam/One-click Lock.png" alt="一鍵鎖檔">
+            <img class="rounded img-fluid" src="../images/motobike_smart_cam/One-click-Lock.png" alt="一鍵鎖檔">
             <p>一鍵鎖檔</p>
           </div>
         </div>

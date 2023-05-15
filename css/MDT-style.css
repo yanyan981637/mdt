@@ -3614,8 +3614,8 @@ figure.vimeo a img, figure.youtube a img {
 	padding-bottom:200px;
 }
 .padding-top-bottom {
-	padding-top:130px;
-	padding-bottom:130px;
+	padding-top:60px;
+	padding-bottom:60px;
 }
 .padding-top {
 	padding-top:130px;
@@ -4509,7 +4509,7 @@ figure.vimeo a img, figure.youtube a img {
 	bottom: 0;
 	z-index: 1;
 	width:100%;
-	height: 500px;
+	/* height: 500px; */
 }
 @media only screen and (min-width: 1930px) {
 	 .parallax { background-size: cover; }
