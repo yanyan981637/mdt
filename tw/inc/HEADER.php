@@ -11,7 +11,7 @@
 
 
 	
-	$sql_menu = "Select * From `ows_menu1` Where menu_class='main' and is_online=1 And lang='tw'";
+	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw'";
 
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 

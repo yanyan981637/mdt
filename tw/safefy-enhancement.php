@@ -37,8 +37,8 @@
 				<ul class="col-12">
 					<li><a href="smart-dashcam.php">智能行車記錄器</a></li>
 					<li><a href="fleet-management.php">車隊管理</a></li>
-					<li><a href="safefy-enhancement.php">強化安全</a></li>
-					<li><a href="efficiency-improvement.php" class="active">提升效率</a></li>
+					<li><a href="safefy-enhancement.php" class="active">強化安全</a></li>
+					<li><a href="efficiency-improvement.php">提升效率</a></li>
 					<li><a href="business-collaboration.php">商業合作</a></li>
         </ul>
 			</div>
