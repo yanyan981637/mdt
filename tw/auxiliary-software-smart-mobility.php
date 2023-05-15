@@ -27,8 +27,8 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="#miovue-pro">MiVue™ Pro</a></li>
-					<li><a href="#miovue-manager">MiVue™ Manager</a></li>
+					<li><a href="#mivue-pro">MiVue™ Pro</a></li>
+					<li><a href="#mivue-manager">MiVue™ Manager</a></li>
 					<li><a href="#mionext">MioNext™</a></li>
 					<li><a href="#mioshare">MioShare™</a></li>
         </ul>
@@ -36,8 +36,8 @@
 		</div>
 	</div>
 
-	<!-- miovue-pro-->
-	<div class="section over-hide" id="miovue-pro">
+	<!-- mivue-pro-->
+	<div class="section over-hide" id="mivue-pro">
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
@@ -108,8 +108,8 @@
 	</div>
 
 	
-	<!-- miovue-manager -->
-	<div class="section over-hide portfolio-box" id="miovue-manager">
+	<!-- mivue-manager -->
+	<div class="section over-hide portfolio-box" id="mivue-manager">
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">

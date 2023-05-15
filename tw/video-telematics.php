@@ -1,119 +1,227 @@
 <?php
 	include 'inc/HEADER.php';
 ?>
-
 	<!-- Primary Page Layout
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_video_telematics.jpg')"></div>
-		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text parallax-fade-top">
+	<div class="section mid-height-incNav over-hide" id="up">	
+		<div class="parallax" style="background-image: url('../images/video-telematics/Video_Telematics-banner.jpg')"></div>
+		<div class="hero-center-wrap move-bottom z-bigger">
+			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
-					<div class="col-md-8 pl-50">	
-						<h1 class="color-white mb-xl-5">車載視訊管理解決方案</h1>
-						<h3 class="h4">利用車載視訊管理解決方案，改變您商業領域的管理機制</h3>
-					</div>
-					<div class="col-md-4 hidden-xs">
-						<img src="../images/solution/CDR_award.png" alt="CDR產品通過AWS認證" class="pdtImg">
-					</div>
+					<div class="col-md-12 mg-auto">	
+						<h1 class="color-white mb-xl-3">聯網型行車紀錄器</h1>
+						<h3 class="h4">多合一車隊互聯鏡頭解決方案</h3>
+					</div>	
 				</div>		
 			</div>			
 		</div>	
 	</div>
+</div>
 
-	<div class="SecTopNavPlaceholder"></div>
+  <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
         <div class="col-12 d-lg-none">
         <a class="SecTopNav_title" href="javascript:void(0);">
-					車載視訊管理解決方案
+					AConnected Dashcam
         </a>
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="smart-dashcam.php">智能行車記錄器</a></li>
-					<li><a href="fleet-management.php">車隊管理</a></li>
-					<li><a href="safefy-enhancement.php">強化安全</a></li>
-					<li><a href="efficiency-improvement.php" class="active">提升效率</a></li>
-					<li><a href="business-collaboration.php">商業合作</a></li>
+					<li><a href="#premiumK165_K265">Premium - K165/K265</a></li>
+					<li><a href="#advancedK145_K245">Advanced - K145/K245</a></li>
+					<li><a href="#proK145C_K245C">Pro - K145C/K245C</a></li>
+					<li><a href="#entryK220">Entry - K220</a></li>
         </ul>
 			</div>
 		</div>
 	</div>
-	
-	<div class="section padding-top-small padding-bottom-smaller">
-		<div class="container padding-top-bottom-smaller background-video background-image-cover">
-			<div class="row justify-content-center">
-				<div class="col-md-10">	
-					<div class="embed-container"><iframe src="//www.youtube.com/embed/GWJkqY0ZU2k?autoplay=1" frameborder="0" allow="autoplay" allowfullscreen></iframe></div>
-				</div>
-			</div>
-		</div>		
-	</div>
-	
-	<div class="section padding-top-bottom-smaller background-white">
+
+	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
-					<div class="call-box-4 tc">
-						<p>透過整合多個攝影機系統為商用車輛使用情境建立各種影像解決方案，是目前車隊智慧車載系統領域最炙手可熱的趨勢之一。在車輛上安裝 MiTAC 智慧行車記錄器後，可將交通事故發生前、中、後的視訊畫面上傳至雲端儲存空間，為車隊管理員提供事故與結果的清晰畫面。這可讓關鍵的利害關係人區分事故是否為駕駛員失誤或外部因素所導致。除此之外，駕駛行為分析與事故趨勢報告對企業而言是珍貴的工具，有助於其執行駕駛員風險管理並節省營運成本。</p>
+					<div class="call-box-4">
+					<p>Connected Dashcam 系列是一款一體式車隊互聯鏡頭解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm® 處理器和 Android™ 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
 					</div>
 				</div>
-			</div>
+			</div>	
 		</div>		
 	</div>
 
-	<div class="section padding-top-bottom-smaller background-white">
-		<div class="container">
+	<!-- Premium - K165/K265 -->
+  <div class="section  productDetail" id="premiumK165_K265">
+    <div class="container">
+      <div class="row col-md-12">
+			  <div class="col-md-6 mt-30">
+					<img src="../images/video-telematics/K165_K265_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+			  </div>	
+			  <div class="col-md-6">	
+				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2>
+					<ul>
+						<li>雙向前置和車內Full HD鏡頭，142°視角</li>
+						<li>可擴展至額外5個鏡頭輸入</li>
+						<li>內置4G LTE Cat.4和雙頻WiFi</li>
+						<li>低功耗藍芽5.0 BLE，NFC/HF RFID</li>
+						<li>Qualcomm八核心處理器和Android 10（無GMS）</li>
+						<li>雙Micro SD卡槽（每個槽最高可支援至512GB）</li>
+						<li>GPS，GLONASS，Galileo，QZSS（ADR可選）</li>
+						<li>6軸加速度計和陀螺儀,汽車電瓶放電防護</li>
+						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
+					</ul>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/ATT.png" />
+						<img src="../images/connected_dashcam/PTCRB.png" />
+						<img src="../images/connected_dashcam/verizon.png" />
+					</div>
+
+					<div>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K165-K265.php" target="_blank">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">Apply to Dashcam</a>
+					</div>
+				</div>
+				<div class="col-md-12 mt-30">
+				   <hr class="mt-40">
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Advanced - K145/K245 -->
+  <div class="section  productDetail" id="advancedK145_K245">
+	  <div class="container">
+      <div class="row col-md-12">
+			  <div class="col-md-6 mt-30">
+					<img src="../images/video-telematics/K145_K245_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+			  </div>	
+			  <div class="col-md-6">	
+					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2>
+					<ul>
+						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
+						<li>內置4G LTE Cat.6和雙頻WiFi</li>
+						<li>藍牙4.2 BLE，NFC/HF RFID</li>
+						<li>Qualcomm八核處理器和Android 9</li>
+						<li>單個Micro SD卡槽（最高512GB）</li>
+						<li>GPS，GLONASS，Galileo，QZSS</li>
+						<li>6軸加速度計和陀螺儀</li>
+						<li>汽車電瓶放電防護</li>
+					</ul>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/aws.png" />
+					</div>
+
+					<div>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K145-K245.php%C2%A0" target="_blank">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					</div>
+				</div>
+				<div class="col-md-12 mt-30">
+				   <hr class="mt-40">
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pro - K145C/K245C -->
+  <div class="section  productDetail" id="proK145C_K245C">
+	  <div class="container">
+      <div class="row col-md-12">
+			  <div class="col-md-6 mt-30">
+					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+			  </div>	
+			  <div class="col-md-6">	
+				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2>
+					<ul>
+						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
+						<li>內建4G LTE Cat.6和雙頻WiFi</li>
+						<li>低功耗藍芽4.2 BLE</li>
+						<li>Qualcomm八核心處理器, Android 9</li>
+						<li>Micro SD卡槽（最高可支援至512GB）</li>
+						<li>GPS，GLONASS，Galileo，QZSS（可選配ADR）</li>
+						<li>6軸加速計和陀螺儀</li>
+						<li>汽車電瓶放電防護</li>
+						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
+					</ul>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/aws.png" />
+						<img src="../images/connected_dashcam/ATT.png" />
+						<img src="../images/connected_dashcam/firstnet.png" />
+						<img src="../images/connected_dashcam/firstnet.png" />
+					</div>
+
+					<div>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K145C-K245C.php%C2%A0" target="_blank">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					</div>
+				</div>
+				<div class="col-md-12 mt-30">
+				   <hr class="mt-40">
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Entry - K220 -->
+  <div class="section  productDetail" id="entryK220">
+	  <div class="container">
+      <div class="row col-md-12">
+			  <div class="col-md-6 mt-30">
+					<img src="../images/video-telematics/K220_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+			  </div>	
+			  <div class="col-md-6">	
+				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2>
+					<ul>
+						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
+						<li>內置4G LTE Cat.6和雙頻WiFi</li>
+						<li>藍牙4.2 BLE，NFC/HF RFID</li>
+						<li>Qualcomm八核處理器和Android 9</li>
+						<li>單個Micro SD卡槽（最高512GB）</li>
+						<li>GPS，GLONASS，Galileo，QZSS</li>
+						<li>6軸加速度計和陀螺儀</li>
+						<li>汽車電瓶放電防護</li>
+					</ul>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+					</div>
+
+					<div>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K220.php%C2%A0" target="_blank">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href="#up"><img src="../images/video-telematics/up.svg" alt=""  class="rounded d-block img-fluid float-right" ></a>
+				</div>
+				<div class="col-md-12">
+				   <hr class="mt-40">
+         </div>
+      </div>
+    </div>
+  </div>
+
+	<div class="section">
+	  <div class="container">
 			<div class="row">
-				<div class="col-md-4 solu-box">	
-					<div class="tc">
-						<a href="./smart-dashcam.php"><img src="../images/icons/ico_dashcam.png" alt="智能行車記錄器"></a>
-						<a href="./smart-dashcam.php"><h2 class="h4">智能行車記錄器</h2></a>
-						<p>商用車隊專用行車記錄器 - 車隊影像管理系統</p>
+				<div class="align-self-center col-md-12 mg-auto mt-30">	
+					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
+					<h4 class="h5" style="color:#2449a8;">Frequently asked questions about Viedo Telematics and VisionMax for your reference.</h4>
+					<div>
+						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" target="_blank" width=20%>FAQs</a>
 					</div>
-				</div>
-				<div class="col-md-4 solu-box">	
-					<div class="tc">
-						<a href="./fleet-management.php"><img src="../images/icons/ico_fleetManagement.png" alt="車隊管理"></a>
-						<a href="./fleet-management.php"><h2 class="h4">車隊管理</h2></a>
-						<p>管理團隊的最佳車隊管理系統</p>
-					</div>
-				</div>
-				<div class="col-md-4 solu-box">	
-					<div class="tc">
-						<a href="./safefy-enhancement.php"><img src="../images/icons/ico_safety.png" alt="強化安全"></a>
-						<a href="./safefy-enhancement.php"><h2 class="h4">強化安全</h2></a>
-						<p>最佳車隊駕駛安全系統解決方案</p>
-					</div>
-				</div>
-			</div>
-		</div>		
+				</div>	
+			</div>	
+		</div>	
 	</div>
-	<div class="section padding-top-bottom-smaller background-white">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 solu-box">	
-					<div class="tc">
-						<a href="./efficiency-improvement.php"><img src="../images/icons/ico_efficiency.png" alt="提升效率"></a>
-						<a href="./efficiency-improvement.php"><h2 class="h4">提升效率</h2></a>
-						<p>有效提升效率的最佳駕駛行為分析系統</p>
-					</div>
-				</div>
-				<div class="col-md-4 solu-box">	
-					<div class="tc">
-						<a href="./business-collaboration.php"><img src="../images/icons/ico_business.png" alt="商業合作"></a>
-						<a href="./business-collaboration.php"><h2 class="h4">商業合作</h2></a>
-						<p>車載視訊管理解決方案的最佳夥伴</p>
-					</div>
-				</div>
-			</div>
-		</div>		
-	</div>
-	
 
 <?php
 	include 'inc/FOOTER.php';

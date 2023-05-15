@@ -27,8 +27,8 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="#miovue-pro">MiVue™ Pro</a></li>
-					<li><a href="#miovue-manager">MiVue™ Manager</a></li>
+					<li><a href="#mivue-pro">MiVue™ Pro</a></li>
+					<li><a href="#mivue-manager">MiVue™ Manager</a></li>
 					<li><a href="#mionext">MioNext™</a></li>
 					<li><a href="#mioshare">MioShare™</a></li>
         </ul>
@@ -36,8 +36,8 @@
 		</div>
 	</div>
 
-	<!-- miovue-pro-->
-	<div class="section over-hide" id="miovue-pro">
+	<!-- mivue-pro-->
+	<div class="section over-hide" id="mivue-pro">
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
@@ -107,8 +107,8 @@
 		</div>	
 	</div>
 	
-	<!-- miovue-manager -->
-	<div class="section over-hide portfolio-box" id="miovue-manager">
+	<!-- mivue-manager -->
+	<div class="section over-hide portfolio-box" id="mivue-manager">
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
@@ -238,12 +238,12 @@
 					<img src="../images/auxiliary_software/MioNext-banner.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
 
-			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
+				<div class="col-md-12 mt-30">
+					<a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
+					<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
 
-				<hr class="mt-40">
-      </div>
+					<hr class="mt-40">
+				</div>
 
 			</div>
 		</div>	
@@ -309,14 +309,13 @@
 					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 
-			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to App Cyclo™ Navigation</a>
-
-      </div>
-			</div>
-		</div>	
-	</div>
+				<div class="col-md-12 mt-30">
+					<a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
+					<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to App Cyclo™ Navigation</a>
+				</div>
+		  </div>
+	  </div>	
+  </div>
 
 <?php
 include 'inc/FOOTER.php';
