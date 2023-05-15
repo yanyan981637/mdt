@@ -8339,9 +8339,9 @@ input[type=number]::-webkit-outer-spin-button{
 	height: 100%;
 }
 
-.section.productDetail{
+/* .section.productDetail{
     padding-top: 160px;
-}
+} */
 .section.productDetail img{max-width: 100%;}
 .section.productDetail .pdt_img img{
     width: 100%;
@@ -8365,7 +8365,7 @@ input[type=number]::-webkit-outer-spin-button{
 	padding: 10px;
 }
 .section.productDetail .pdt_desc_ico img{
-	max-width: 125px;
+	max-width: 110px;
     padding: 8px;
 }
 .section.productDetail ul li{

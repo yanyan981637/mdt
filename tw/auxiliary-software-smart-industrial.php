@@ -91,9 +91,9 @@
 					</div>
         </div>
 				<div class="col-md-5 mt-30">
-					<img src="../images/auxiliary-software-smart-industrial/MiDM™-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img" style="width: 70%;">
+					<img src="../images/auxiliary-software-smart-industrial/MiDM™-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
-
+      </div>
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">了解更多</a>
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">Apply to Tablet</a>
@@ -163,9 +163,9 @@
 					</div>
         </div>
 				<div class="col-md-5 mt-30">
-					<img src="../images/auxiliary-software-smart-industrial/MiLock-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/auxiliary-software-smart-industrial/MiLock-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid" style="width: 70%;">
 			  </div>	
-
+      </div>
 			<div class="col-md-12 mt-30">
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://enterprise.mio.com/en_eu/" target="_blank">Apply to Tablet</a>
       </div>
