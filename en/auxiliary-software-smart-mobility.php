@@ -3,7 +3,7 @@
 ?>
 
 <div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_auxiliary_software.jpg')"></div>
+	<div class="parallax" style="background-image: url('../images/Hero_slider/hero_auxiliary_software.jpg')"></div>
 		<div class="hero-center-wrap move-bottom z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
@@ -16,7 +16,7 @@
 	</div>
 </div>
 
-<div class="SecTopNavPlaceholder"></div>
+  <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -102,11 +102,10 @@
 
 				<hr class="mt-40">
       </div>
-
-			
+     
+		</div>
 		</div>	
 	</div>
-
 	
 	<!-- miovue-manager -->
 	<div class="section over-hide portfolio-box" id="miovue-manager">
@@ -175,7 +174,7 @@
 				<hr class="mt-40">
       </div>
 
-			
+			</div>
 		</div>	
 	</div>
 
@@ -246,7 +245,7 @@
 				<hr class="mt-40">
       </div>
 
-			
+			</div>
 		</div>	
 	</div>
 
@@ -315,9 +314,10 @@
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to App Cyclo™ Navigation</a>
 
       </div>
-			
+			</div>
 		</div>	
 	</div>
+
 <?php
 include 'inc/FOOTER.php';
 ?>

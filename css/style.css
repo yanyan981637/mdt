@@ -1,17 +1,9 @@
 a{
 text-decoration: none;
 } 
-
-/* home-banner  start */
-.home_banner{
-  position: relative;
+.mt-100{
+  margin-top: 100px;
 }
-.home_btn{
-  position: absolute;
-  top: 80%;
-  right: 40%;
-}
-/* home-banner end */
 
 /* auxiliary_software */
 .auxiliary_software_img{

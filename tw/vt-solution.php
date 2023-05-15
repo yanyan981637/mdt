@@ -9,6 +9,14 @@
 		</video>
 	</div>
 </div>
+<!-- 手机显示 -->
+<div class="section d-block d-sm-none">
+  <div class="embed-responsive embed-responsive-4by3">
+		<video controls="controls"> 
+			<source src="https://www.youtube.com/watch?v=q2Z9ys2_hA4"></source>
+		</video>
+	</div>
+</div>
 
 <div class="section">
 		<div class="container">
@@ -16,7 +24,7 @@
 				<div class="col-md-12 tc align-items-stretch padding-top-bottom-smaller hr">	
 					<h3 class="mb-20">VisionMax 車隊管理系統</h3>
 					<p class="mb-30">強大的全景監控引領安全保障</p>
-					<a class="btn btn-primary  btn-round" href="https://staging.visionmaxfleet.com/dashboard" target="_blank">
+					<a class="btn btn-fill-black-b  btn-round" href="https://staging.visionmaxfleet.com/dashboard" target="_blank">
 						<img src="../images/smart_telematics_solution/u20.svg" alt="box-arrow-in-right" width="19" height="17">
 						&nbsp;&nbsp;
 						使用者登入</a>

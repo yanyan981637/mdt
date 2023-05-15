@@ -8,7 +8,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/dashcam_recorder/dashcam_recorder-banner.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/navigation/Navigation-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
@@ -20,17 +20,24 @@
 		</div>	
 	</div>
 
-	<div class="SecTopNavPlaceholder"></div>
-	<div class="SecTopNav">
+  <div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 hidden-xs">
-					<span><a href="#car-navigation">汽車導航</a></span>
-					<span><a href="#off-road-navigation">越野導航</a></span>
-				</div>
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+        導航
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#car-navigation">汽車導航</a></li>
+					<li><a href="#off-road-navigation">越野導航</a></li>
+        </ul>
 			</div>
 		</div>
 	</div>
+
 
   <div class="section padding-top-bottom background-white">
 		<div class="container">
@@ -44,12 +51,15 @@
   <!-- Car Navigation -->
   <div class="section" id="car-navigation">
     <div class="second-bannner">
-      <div class="bg-img" style="background-image: url('../images/dashcam_recorder/singlecam-banner.jpg')">
-        <div class="container text-center color-white center">
-          <div class="row">
-            <div class="align-self-center col-md-12 mg-auto">	
+      <div class="bg-img" style="background-image: url('../images/navigation/Car_Navigation-banner.jpg')">
+        <div class="container text-left color-white center">
+          <div class="row column-2">
+            <div class="col-md-6 order-3 order-md-1 align-self-center">	
               <h2>汽車導航</h2>
               <h4>自信地駕駛,更快到達目的地</h4>
+            </div>
+            <div class="col-md-6 order-1 order-md-2 align-self-center">	
+              <img class="img-fluid mx-auto d-block rounded " src="../images/navigation/Car_Navigation-banner-product.png" alt="多鏡頭行車記錄器">
             </div>	
           </div>		
         </div>
@@ -107,12 +117,15 @@
   <!-- Off Road Navigation -->
   <div class="section mt-10vh" id="off-road-navigation">
     <div class="second-bannner">
-      <div class="bg-img" style="background-image: url('../images/dashcam_recorder/multi-views-DVR-banner.jpg')">
+      <div class="bg-img" style="background-image: url('../images/navigation/Off_Road_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
-          <div class="row">
-            <div class="align-self-center col-md-12 mg-auto">	
+          <div class="row column-2">
+            <div class="col-md-6 order-3 order-md-1 align-self-center">	
               <h2>越野導航</h2>
               <h4>越野GPS導航帶您探索更多可能性</h4>
+            </div>
+            <div class="col-md-6 order-1 order-md-2 align-self-center">	
+              <img class="img-fluid mx-auto d-block rounded " src="../images/navigation/Off_Road_Navigation-banner-product.png" alt="多鏡頭行車記錄器">
             </div>	
           </div>		
         </div>

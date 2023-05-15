@@ -76,7 +76,7 @@
 
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
-								<img class="rounded img-fluid" src="../images/auxiliary-software-smart-industrial/schedule_planning1.png" alt="Significant Cost Reduction">
+								<img class="rounded img-fluid" src="../images/auxiliary-software-smart-industrial/costdown.png" alt="Significant Cost Reduction">
 								<p>Significant Cost Reduction</p>
 							</div>
 						</div>
@@ -163,7 +163,7 @@
 					</div>
         </div>
 				<div class="col-md-5 mt-30">
-					<img src="../images/auxiliary-software-smart-industrial/MiLock-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/auxiliary-software-smart-industrial/MiLock-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid" style="width: 70%;">
 			  </div>	
 
 			<div class="col-md-12 mt-30">

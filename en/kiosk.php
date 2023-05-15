@@ -8,21 +8,22 @@
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-	<div class="section mid-height-incNav over-hide" id="kiosk_banner">	
-		<div class="parallax" style="background-image: url('../images/dashcam_recorder/dashcam_recorder-banner.jpg')"></div>
-		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+
+  <div class="section mid-height-incNav over-hide">	
+		<div class="parallax" style="background-image: url('../images/kiosk/Kiosk-banner.jpg')"></div>
+    <div class="hero-center-wrap z-bigger mt-100">
+			<div class="container color-white  big-text text-center parallax-fade-top">
 				<div class="row">
-          <!-- <div class="col-md-4 align-self-center">
-            <img class="img-fluid mx-auto d-block rounded" src="../images/motobike_smart_cam/Motobike-Smart-Cam-banner-product.png" alt="Motobike Smart Cam">
-          </div> -->
-					<div class="col-md-12 align-self-center">	
+					<div class="col-md-8 align-self-center">	
 						<h1 class="color-white mb-xl-5">Self-Service Kiosk</h1>
             <h3 class="h4">Take Your Business to the Next Level</h3>
 					</div>	
+          <div class="col-md-4 align-self-center">
+            <img class="img-fluid mx-auto d-block rounded" src="../images/handy-terminal/Handy_Terminal-product.png" alt="">
+          </div>
 				</div>		
 			</div>			
-		</div>	
+		</div>
 	</div>
 
 
@@ -44,37 +45,37 @@
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/kiosk/android_security_green.png" alt="Android open platform">
+            <img class="rounded img-fluid" src="../images/kiosk/android_platform.png" alt="Android open platform">
             <p>Android open platform</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/kiosk/efficient_data.png" alt="Cloud database">
+            <img class="rounded img-fluid" src="../images/kiosk/cloud_database.png" alt="Cloud database">
             <p>Cloud database</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/kiosk/wproof_green.png" alt="Self-scan & checkout">
+            <img class="rounded img-fluid" src="../images/kiosk/self_scan_checkout.png" alt="Self-scan & checkout">
             <p>Self-scan & checkout</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/kiosk/power_through.png" alt="Multiple payment options">
+            <img class="rounded img-fluid" src="../images/kiosk/payment_options.png" alt="Multiple payment options">
             <p>Multiple payment options</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/kiosk/barcode_data_capture.png" alt="Receipt printing on the go">
+            <img class="rounded img-fluid" src="../images/kiosk/receipt_printing.png" alt="Receipt printing on the go">
             <p>Receipt printing on the go</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/kiosk/256G-SD-Card.png" alt="24/7 Non-stop operations">
+            <img class="rounded img-fluid" src="../images/kiosk/24_7_nonstop.png" alt="24/7 Non-stop operations">
             <p>24/7 Non-stop operations</p>
           </div>
         </div>

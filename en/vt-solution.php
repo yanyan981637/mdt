@@ -9,6 +9,16 @@
 		</video>
 	</div>
 </div>
+<!-- 手机显示 -->
+<div class="section d-block d-sm-none">
+  <div class="embed-responsive embed-responsive-4by3">
+		<video controls="controls"> 
+			<source src="https://www.youtube.com/watch?v=q2Z9ys2_hA4"></source>
+		</video>
+	</div>
+</div>
+
+
 
 <div class="section">
 		<div class="container">
@@ -16,7 +26,7 @@
 				<div class="col-md-12 tc align-items-stretch padding-top-bottom-smaller hr">	
 					<h3 class="mb-20">VisionMax™</h3>
 					<p class="mb-30">Powerful Panoramic Perception  for Leading Safety and Security</p>
-					<a class="btn btn-primary  btn-round" href="https://staging.visionmaxfleet.com/dashboard" target="_blank">
+					<a class="btn btn-fill-black-b btn-round" href="https://staging.visionmaxfleet.com/dashboard" target="_blank">
 					  <img src="../images/smart_telematics_solution/u20.svg" alt="box-arrow-in-right" width="19" height="17">
 						&nbsp;&nbsp;
 						User Login</a>
@@ -160,7 +170,7 @@
 				  <h3 class="mb-20">Product Information</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block" style="background: black;"  alt="" class="img-fluid 	d-none d-xl-block" usemap="#product-info-xl">
+						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-xl-block" usemap="#product-info-xl">
 					</div>
 					<map name="product-info-xl">
 						<area shape="rect" coords="25,170, 215, 191" alt="" href="#connected_CDR"></area>
@@ -177,7 +187,7 @@
 					</map>
            <!-- 在 lg 尺寸的屏幕上显示 -->
 					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block" style="background: black;"  alt="" class="img-fluid 	d-none d-lg-block d-xl-none" usemap="#product-info-lg">
+						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"   alt="" class="img-fluid 	d-none d-lg-block d-xl-none" usemap="#product-info-lg">
 						<!-- <p style="position:absolute; width: 190px; height: 30px; background:red; left:0; top: 0; margin:0;"></p>
 						<p style="position:absolute;width: 164px;height: 164px;left: 0; top: 0;margin: 0;border-radius: 50%;border: solid 1px red;"></p> -->
 					</div>
@@ -196,9 +206,7 @@
 					</map>
 					<!-- md 尺寸的屏幕上显示 -->
 					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block" style="background: black;"  alt="" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
-						<!-- <p style="position:absolute; width: 100px; height: 30px; background:red; left:0; top: 0; margin:0;"></p> -->
-						<!-- <p style="position:absolute;width: 118px;height: 118px;left: 0; top: 0;margin: 0;border-radius: 50%;border: solid 1px red;"></p> -->
+						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
 					</div>
 					<map name="product-info-md">
 						<area shape="rect" coords="16,106, 130, 120" alt="" href="#connected_CDR"></area>
@@ -215,8 +223,8 @@
 					</map>
            <!-- 在手机端显示 -->
 					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block" style="background: black;"  alt="" class="img-fluid 	d-block d-sm-none">
-						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block" style="background: black;"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
+						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-block d-sm-none">
+						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
 					</div>
 				</div>
 			</div>
