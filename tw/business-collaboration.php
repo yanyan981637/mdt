@@ -1,7 +1,7 @@
 <?php
 	include 'inc/HEADER.php';
 ?>
-	<div class="SecTopNavPlaceholder"></div>
+	<!-- <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -20,7 +20,7 @@
         </ul>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Primary Page Layout
 	================================================== -->

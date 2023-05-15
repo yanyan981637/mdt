@@ -33,7 +33,7 @@
         </div>
 				<ul class="col-12">
 					<li><a href="#single-cam-dashcam">單鏡頭</a></li>
-					<li><a href="#multi-views-dashcam">多鏡頭</a></li>
+					<li><a href="#multi-view-dashcam">多鏡頭</a></li>
 					<li><a href="#e-mirror-dashcam">電子後視鏡型</a></li>
           <li><a href="#radar-combo-dashcam">雷達二合一</a></li>
           <li><a href="#connected-dashcam">聯網型</a></li>
@@ -118,7 +118,7 @@
   </div>
 
   <!-- Multi-Views Dashcam -->
-  <div class="section mt-10vh" id="multi-views-dashcam">
+  <div class="section mt-10vh" id="multi-view-dashcam">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/dashcam_recorder/multi-views-DVR-banner.jpg')">
         <div class="container text-left color-white center">

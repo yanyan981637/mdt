@@ -24,7 +24,7 @@
 		</div>	
 	</div>
 
-	<div class="SecTopNavPlaceholder"></div>
+	<!-- <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 	</div>
-	
+	 -->
 	
 	<div class="section padding-top-bottom-smaller background-white">
 		<div class="container">
