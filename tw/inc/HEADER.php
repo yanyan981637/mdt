@@ -74,25 +74,25 @@
 	// 當前菜單
 
 
-	function get_active_menu($current_menu, $all_menu, $active_menu) {
-		$active = $active_menu;
+// 	function get_active_menu($current_menu, $all_menu, $active_menu) {
+// 		$active = $active_menu;
 
-		array_push($active, $current_menu["menu_id"]);
+// 		array_push($active, $current_menu["menu_id"]);
 		
-		if ($current_menu['father_menu_id']){
+// 		if ($current_menu['father_menu_id']){
 
-			$father_menu_id = $current_menu['father_menu_id'];
+// 			$father_menu_id = $current_menu['father_menu_id'];
 
-			$parent_menu = array_filter($all_menu, function($item) use ($father_menu_id){
-				return $item['menu_id'] == $father_menu_id;
-			});
+// 			$parent_menu = array_filter($all_menu, function($item) use ($father_menu_id){
+// 				return $item['menu_id'] == $father_menu_id;
+// 			});
 			
-			return get_active_menu(array_values($parent_menu)[0], $all_menu, $active);
-		}
-		return $active;
+// 			return get_active_menu(array_values($parent_menu)[0], $all_menu, $active);
+// 		}
+// 		return $active;
 
-	};
-$active_menu = get_active_menu($current_menu,$all_menu, []);
+// 	};
+// $active_menu = get_active_menu($current_menu,$all_menu, []);
 	//Meta
 	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id=? ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlT);
@@ -462,11 +462,11 @@ height="0" width="0"></iframe></noscript>
 
 									};
 
-									$render_link_el = function ($menu) use( $Current_Menu_Id, $active_menu) {
+									$render_link_el = function ($menu) use( $Current_Menu_Id) {
 										$href = $menu['file_name'] ? $menu['file_name'] : '#';
 
 										$target = $menu['href_target'];
-										$active = in_array($menu['menu_id'], $active_menu) ? ' active' : '';
+										$active = $menu['menu_id'] == $Current_Menu_Id ? ' active' : '';
 										if($target == '_self') {
 											return "<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>";
 										}
@@ -500,8 +500,8 @@ height="0" width="0"></iframe></noscript>
 										<i class="fa fa-globe"></i>
 									</a>
 									<ul class="second_menu">
-										<li><a class="active" href="#">中文</a></li>
-										<li><a href="<?php echo $transferPageUrl; ?>">English</a></li>
+										<li><a class="active nav-link" href="#">中文</a></li>
+										<li><a class="nav-link" href="<?php echo $transferPageUrl; ?>">English</a></li>
 									</ul>
 								</li>
 								<!--<li class="nav-item icons-item-menu modal-search">

@@ -30,7 +30,7 @@
 						}
 
 
-						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
+						$sql ="SELECT menu_name ,file_name ,href_target FROM mitac_mdt.ows_menu where menu_class='main' and is_online=1 and lang='en' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
 
 						$stmt = mysqli_prepare($MysqlConn, $sql);
 						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);

@@ -58,7 +58,7 @@
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu1` Where menu_class='main' and is_online=1 And lang='tw' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -72,25 +72,27 @@
 	$Current_Menu_File_Name		= $menuAry['file_name'];
 
 
-	function get_active_menu($current_menu, $all_menu, $active_menu) {
-		$active = $active_menu;
 
-		array_push($active, $current_menu["menu_id"]);
+
+// 	function get_active_menu($current_menu, $all_menu, $active_menu) {
+// 		$active = $active_menu;
+
+// 		array_push($active, $current_menu["menu_id"]);
 		
-		if ($current_menu['father_menu_id']){
+// 		if ($current_menu['father_menu_id']){
 
-			$father_menu_id = $current_menu['father_menu_id'];
+// 			$father_menu_id = $current_menu['father_menu_id'];
 
-			$parent_menu = array_filter($all_menu, function($item) use ($father_menu_id){
-				return $item['menu_id'] == $father_menu_id;
-			});
+// 			$parent_menu = array_filter($all_menu, function($item) use ($father_menu_id){
+// 				return $item['menu_id'] == $father_menu_id;
+// 			});
 			
-			return get_active_menu(array_values($parent_menu)[0], $all_menu, $active);
-		}
-		return $active;
+// 			return get_active_menu(array_values($parent_menu)[0], $all_menu, $active);
+// 		}
+// 		return $active;
 
-	};
-$active_menu = get_active_menu($current_menu,$all_menu, []);
+// 	};
+// $active_menu = get_active_menu($current_menu,$all_menu, []);
 	//Meta
 	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id=? ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlT);
@@ -98,7 +100,7 @@ $active_menu = get_active_menu($current_menu,$all_menu, []);
 	mysqli_stmt_execute($stmt);
 	$resultT = mysqli_stmt_get_result($stmt);
 	$metaAry = mysqli_fetch_array($resultT);
-
+	
 	$Current_Meta_Title				= $metaAry['meta_title'];
 	$Current_Meta_Description	= $metaAry['meta_description'];
 	$Current_Meta_Keywords		= $metaAry['meta_keywords'];
@@ -460,11 +462,11 @@ height="0" width="0"></iframe></noscript>
 
 									};
 
-									$render_link_el = function ($menu) use( $Current_Menu_Id, $active_menu) {
+									$render_link_el = function ($menu) use( $Current_Menu_Id) {
 										$href = $menu['file_name'] ? $menu['file_name'] : '#';
 
 										$target = $menu['href_target'];
-										$active = in_array($menu['menu_id'], $active_menu) ? ' active' : '';
+										$active = $menu['menu_id'] == $Current_Menu_Id ? ' active' : '';
 										if($target == '_self') {
 											return "<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>";
 										}
@@ -483,13 +485,13 @@ height="0" width="0"></iframe></noscript>
 								<?php
 								
 								//取得他語系網頁
-								$sqlL ="Select * From `ows_menu1` Where is_online=1 And lang='en' And file_name = '".$Current_Menu_File_Name."' ";
+								$sqlL ="Select * From `ows_menu` Where is_online=1 And lang='en' And file_name = '".$Current_Menu_File_Name."' ";
 								$resultL = mysqli_query($MysqlConn, $sqlL);
 								$tspgAry = mysqli_fetch_array($resultL);
 								if($tspgAry){
-									$transferPageUrl = $RootPath."en/".$Current_Menu_File_Name;
+									$transferPageUrl = $RootPath."tw/".$Current_Menu_File_Name;
 								}else{
-									$transferPageUrl =	$RootPath."en/";
+									$transferPageUrl =	$RootPath."tw/";
 								}
 								
 								?>
@@ -498,8 +500,8 @@ height="0" width="0"></iframe></noscript>
 										<i class="fa fa-globe"></i>
 									</a>
 									<ul class="second_menu">
-										<li><a href="#">中文</a></li>
-										<li><a class="active" href="<?php echo $transferPageUrl; ?>">English</a></li>
+										<li><a class="nav-link" href="<?php echo $transferPageUrl; ?>">中文</a></li>
+										<li><a class="active nav-link" href="#">English</a></li>
 									</ul>
 								</li>
 								<!--<li class="nav-item icons-item-menu modal-search">

@@ -142,6 +142,7 @@
     -o-transform: rotate(-180deg);
     border-color: #62dcff;
   }
+  #menu-wrap .navbar-collapse ul li a.active,
   #menu-wrap .navbar-collapse ul li.open>a{
     color: #62dcff;
   }
@@ -378,7 +379,12 @@
     -ms-transition: all var(--var-animate-time) linear;
     transition: all var(--var-animate-time) linear;
   }
-
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu>li>a.active {
+    background-color: #000;
+    border-radius: 8px;
+    border: 1px solid #000;
+    color: #ffffff;
+  }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open>.second_menu {
     opacity: 1;
     visibility: visible;
@@ -416,6 +422,10 @@
     border: 1px solid rgba(30, 152, 215, 1);
     color: #ffffff;
     margin-bottom: 5px;
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li >a.active {
+    background-color: #000;
+    border-color: #000;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li >a:hover {
     background-color: transparent;
