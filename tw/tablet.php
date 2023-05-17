@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/miowork/industrial-tablets/" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/miowork/industrial-tablets/" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>
@@ -184,7 +184,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_gb/miowork/fleet-tablets" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_gb/miowork/fleet-tablets" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>

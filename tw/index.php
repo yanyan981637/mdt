@@ -50,7 +50,7 @@
 							<p class="leads">
 								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">了解更多</span>
+							<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/3screen_1.jpg" alt="智慧交通"></span>
@@ -64,7 +64,7 @@
 							<p class="leads">
 								<span>神達數位兼具資通訊與汽車產業領導者角色，以車聯網解決方案，不斷與時並進持續創新，提供使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">了解更多</span>
+							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智慧車載資通訊"></span>
@@ -78,7 +78,7 @@
 							<p class="leads">
 								<span>為了滿足現今商業模式之需求，神達數位開發出一系列專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療和工業領域，能節省成本並提升工作效率。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">了解更多</span>
+							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智慧工業"></span>
@@ -92,7 +92,7 @@
 							<p class="leads">
 								<span>配備了智慧控制元件、彈性靈活的傳感器和攝影機，我們的定位型戶外照明解決方案實現了照明、監控、追蹤和感測的整合。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">了解更多</span>
+							<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/3screen_3.jpg" alt="智慧物聯"></span>
@@ -133,7 +133,7 @@
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">研發實力</h3>
 								<p>在提升於智慧攝影機和連網服務領域的企業識別度後，神達數位持續打造在汽車安全領域領導者的名聲，同時開創在智聯網領域之研發，引領創新科技，滿足客戶的需求。</p>
-								<a class="btn btn-lg" href="engineering.php">了解更多</a>
+								<a class="btn btn-lg" href="engineering.php">瞭解更多</a>
 							</div>
 						</li>
 						<li>
@@ -142,7 +142,7 @@
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">品質管理</h3>
 								<p>我們運用六個程序在嚴謹的品質管理準則中- DQE(設計品質)，CE(零件品質)，SQA(軟體品質)，PQA(程序品質)，OQA(成品品質)，Service(服務)，以確保所有神達位的產品在送達客戶端之前皆已通過最嚴格的把關標準。</p>
-								<a class="btn btn-lg" href="quality-management.php">了解更多</a>
+								<a class="btn btn-lg" href="quality-management.php">瞭解更多</a>
 							</div>
 						</li>
 						<li>
@@ -151,7 +151,7 @@
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">生產製造</h3>
 								<p>神達數位位於中國的生產製造基地占地一百七十萬九千平方英尺，擁有ISO9001、ISO14001、IHSAS18000、IATF16949、ISO13485、GMP等多項國際認證，先進的自動化生產設備及嚴謹的品管系統，能夠提供高品質產品，滿足客戶特殊需求。</p>
-								<a class="btn btn-lg" href="manufacturing-excellence.php">了解更多</a>
+								<a class="btn btn-lg" href="manufacturing-excellence.php">瞭解更多</a>
 							</div>
 						</li>
 					</ul>
@@ -275,7 +275,7 @@
 			<div class="col-md-6">
 				<p class="ContGen FC_W">神達數位是世界知名的車用電子產品領導廠商，以GPS和影像處理核心技術，結合熱情、積極、正向的態度與決心，滿足客戶實際需求。</p>
 				<div class="tc mt-30">
-					<a href="company-overview.php" class="btn btn-blue btn-round btn-lg"><h6>了解更多</h6></a>
+					<a href="company-overview.php" class="btn btn-blue btn-round btn-lg"><h6>瞭解更多</h6></a>
 				</div>
 			</div>
 		</div>

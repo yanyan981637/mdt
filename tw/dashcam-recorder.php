@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/single?channel=171064&product_list_order=position" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/single?channel=171064&product_list_order=position" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>
@@ -177,7 +177,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/dual?channel=171064&product_list_order=position" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/dual?channel=171064&product_list_order=position" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>
@@ -241,7 +241,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/rearview" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/rearview" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>
@@ -308,7 +308,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/ru/products/dash-cameras/combo-device/i-series" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/ru/products/dash-cameras/combo-device/i-series" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>
@@ -372,7 +372,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>

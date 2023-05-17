@@ -105,11 +105,11 @@
 							<p class="FC_W mb-30">我們的任務是創造深具意義且高效率的產品，替公司的永續經營奠定深厚基石。</p>
 							<div class="hidden-xs">
 								<span class="more">
-									<a href="https://raykuo4.wixsite.com/website" target="_blank" class="FC_mdtB2">了解更多 <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
+									<a href="https://raykuo4.wixsite.com/website" target="_blank" class="FC_mdtB2">瞭解更多 <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 								</span>
 							</div>
 							<div class="hidden-xl hidden-lg hidden-md hidden-sm show-xs">
-								<a href="https://raykuo4.wixsite.com/website" target="_blank" class="btn btn-fill-lightBlue btn-round mb-20" style="width: 225px;">了解更多 <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
+								<a href="https://raykuo4.wixsite.com/website" target="_blank" class="btn btn-fill-lightBlue btn-round mb-20" style="width: 225px;">瞭解更多 <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 							</div>
 						</div>
 					</div>

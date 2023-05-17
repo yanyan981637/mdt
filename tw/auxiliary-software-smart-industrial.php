@@ -95,7 +95,7 @@
 			  </div>	
       </div>
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">了解更多</a>
+        <a class="btn btn-primary btn-lg btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">瞭解更多</a>
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">Apply to Tablet</a>
 
 				<hr class="mt-40">

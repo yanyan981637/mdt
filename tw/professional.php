@@ -89,7 +89,7 @@
 								<p class="st1">搭載4G LTE、WiFi、BT、NFC，任何時間與地點都可存取資料</p>
 								<p class="st1">多樣配件設計供不同應用選擇</p>
 							</div>
-							<span class="more mt-30"><a href="https://enterprise.mio.com/en_gb/miowork/" target="_blank">了解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+							<span class="more mt-30"><a href="https://enterprise.mio.com/en_gb/miowork/" target="_blank">瞭解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
 						</div>
 					</div>
 				</div>
@@ -129,7 +129,7 @@
 								<p class="st1">4G LTE &amp; 語音通話</p>
 								<p class="st1">統一的專業配件生態系統</p>
 							</div>
-							<span class="more mt-30"><a href="https://enterprise.mio.com/en_gb/miocare/" target="_blank">了解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+							<span class="more mt-30"><a href="https://enterprise.mio.com/en_gb/miocare/" target="_blank">瞭解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
 						</div>
 					</div>
 				</div>
@@ -166,7 +166,7 @@
 								<p class="st1">路徑創造 (以網際網路為基礎)</p>
 								<p class="st1">返回路徑裝置軟體(Android)</p>
 							</div>
-							<span class="more mt-30"><a href="https://www.magellangps.com/fleet/return-to-route-winter-fleet-solutions" target="_blank">了解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+							<span class="more mt-30"><a href="https://www.magellangps.com/fleet/return-to-route-winter-fleet-solutions" target="_blank">瞭解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
 						</div>
 					</div>
 				</div>
@@ -224,7 +224,7 @@
 									</div>
 								</div>
 							</div>
-							<span class="more mt-30"><a href="https://enterprise.mio.com/en_gb/midm" target="_blank">了解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+							<span class="more mt-30"><a href="https://enterprise.mio.com/en_gb/midm" target="_blank">瞭解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
 						</div>
 					</div>
 				</div>

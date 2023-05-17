@@ -89,7 +89,7 @@
 									汽車改裝市場型行車紀錄器<br><span> - 金電容，客製化設計</span>
 								</p>
 							</div>
-							<span class="more mt-30"><a href="https://www.mio.com/tw/products/dash-cameras" target="_blank">了解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+							<span class="more mt-30"><a href="https://www.mio.com/tw/products/dash-cameras" target="_blank">瞭解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
 						</div>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 									二合一導航<br><span> - 衛星導航+ 行車紀錄器功能</span>
 								</p>
 							</div>
-							<span class="more mt-30"><a href="https://www.mio.com/en_gb/products/category-navigation" target="_blank">了解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+							<span class="more mt-30"><a href="https://www.mio.com/en_gb/products/category-navigation" target="_blank">瞭解更多 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
 						</div>
 					</div>
 				</div>

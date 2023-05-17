@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">了解更多</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>

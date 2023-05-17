@@ -82,7 +82,7 @@
 
 					<div>
 					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K165-K265.php" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">Apply to Dashcam</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">應用於行車記錄器</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">

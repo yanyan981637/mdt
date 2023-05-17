@@ -134,7 +134,7 @@
 	<div class="fixed-bottom">
 		<div id="v-cookielaw" class="v-bar v-yellow-alert v-bottom">
 			<div class="v-message">
-				本網站使用必要性和數據分析cookies。您可透過選擇"接受全部"或"接受必要性"做為您的cookies偏好。欲了解更多我們使用cookies的詳細資訊，請參考我們的Cookie政策。
+				本網站使用必要性和數據分析cookies。您可透過選擇"接受全部"或"接受必要性"做為您的cookies偏好。欲瞭解更多我們使用cookies的詳細資訊，請參考我們的Cookie政策。
 			</div>
 			<div class="v-actions">
 				<form method='POST' name='form_CKaccept'  id='form_CKaccept' action=''>
