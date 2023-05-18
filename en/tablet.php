@@ -178,7 +178,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_gb/miowork/fleet-tablets" target="_blank">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets" target="_blank">Learn More</a>
         </div>
       </div>
     </div>

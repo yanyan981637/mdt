@@ -306,7 +306,7 @@
 
             <div class="col-md-12 mt-30">
               <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">瞭解更多</a>
-              <a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於CycloTM 自行車導航</a>
+              <a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
             </div>
             
 					</div>
