@@ -311,7 +311,7 @@
 
 				<div class="col-md-12 mt-30">
 					<a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
-					<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to App Cyclo™ Navigation</a>
+					<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo™ Navigation</a>
 				</div>
 		  </div>
 	  </div>	

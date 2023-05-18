@@ -307,3 +307,27 @@ a svg {
 .section.padding-top-bottom.background-white p{
   margin:0;
 }
+
+/* faq */
+.faq_content ol>li>a{
+  color:rgb(49, 49, 57);
+}
+
+.faq_content ul li>a {
+  text-decoration: underline;
+}
+.faq_content ul {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+}
+.faq_content ol {
+  padding-left: 20px;
+}
+.faq_content ol > li {
+  margin-top: 30px;
+}
+/* faq */
