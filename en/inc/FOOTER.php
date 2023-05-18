@@ -169,7 +169,8 @@
 		<script src="../ext/3screen/bundle.min.js"></script>
 		<script src="../ext/3screen/common.min.js"></script>
 			
-	<?php }elseif($Current_Menu_File_Name == 'engineering.php'){ ?>
+	<?php }
+		//elseif($Current_Menu_File_Name == 'engineering.php'){ ?>
 		<!--關 Responsive Video Slider JS
 		<script src="../ext/rvslider/js/rvslider.min.js"></script>
 		<script>
@@ -178,28 +179,46 @@
 			//});
 		</script>-->
 		
+		<?php 
+		// }elseif($Current_Menu_File_Name == 'video-telematics.php' 
+		// 			|| $Current_Menu_File_Name == 'smart-dashcam.php' 
+		// 			|| $Current_Menu_File_Name == 'fleet-management.php' 
+		// 			|| $Current_Menu_File_Name == 'safefy-enhancement.php' 
+		// 			|| $Current_Menu_File_Name == 'efficiency-improvement.php' 
+		// 			|| $Current_Menu_File_Name == 'business-collaboration.php'
+		// 			|| $Current_Menu_File_Name == 'connected-dashcam.php'){ 
+		// <a class="pccflightbox" href="./general-inquiry.php?class=2">Inquiry Form</a>
+
+		// 			}
+	?>
+	
+	
+	<?php // } ?>
+
+
 	<?php 
-		}elseif($Current_Menu_File_Name == 'video-telematics.php' 
-					|| $Current_Menu_File_Name == 'smart-dashcam.php' 
-					|| $Current_Menu_File_Name == 'fleet-management.php' 
-					|| $Current_Menu_File_Name == 'safefy-enhancement.php' 
-					|| $Current_Menu_File_Name == 'efficiency-improvement.php' 
-					|| $Current_Menu_File_Name == 'business-collaboration.php'
-					|| $Current_Menu_File_Name == 'connected-dashcam.php'){ 
+		// if(preg_match("/connected-dashcam/i", $cfg['file_name'])) {
+		// <a class="pccflightbox" href="./general-inquiry.php?class=2">Inquiry Form</a>
+
 	?>
 
-		<a class="pccflightbox" href="./general-inquiry.php?class=2">Inquiry Form</a>
-	
-	<?php } ?>
-
 	
 	<?php 
-		if(preg_match("/connected-dashcam/i", $cfg['file_name'])) {
-	?>
-
-		<a class="pccflightbox" href="./general-inquiry.php?class=2">Inquiry Form</a>
 	
-	<?php } ?>
+	if($Current_Menu_File_Name != 'general-inquiry.php') {
+		if ($Current_Menu_Inquiry_type == 1 || !$Current_Menu_Inquiry_type) {
+
+			echo '<a class="pccflightbox" href="./general-inquiry.php">Inquiry Form</a>';
+
+		} else {
+
+			echo '<a class="pccflightbox" href="./general-inquiry.php?class='. $Current_Menu_Inquiry_type .'">Inquiry Form</a>';
+
+		}
+
+	}
+
+	?>
 
 	<script src="../js/extra.js"></script>
 	<script>

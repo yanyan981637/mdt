@@ -24,7 +24,7 @@
 	$Current_Menu_Order		 	= null;
 	$Current_Menu_Name 			= null;
 	$Current_Menu_File_Name 	= null;
-
+	$Current_Menu_Inquiry_type 	= 1;
 	$first_menu = [];
 
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
@@ -39,6 +39,7 @@
 			$Current_Menu_Order		 	= $row['menu_order'];
 			$Current_Menu_Name 			= $row['menu_name'];
 			$Current_Menu_File_Name 	= $row['file_name'];
+			$Current_Menu_Inquiry_type 	= $row['inquiry_type'];
 		}
 
 		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
@@ -70,7 +71,7 @@
 	$Current_Menu_Order				= $menuAry['menu_order'];
 	$Current_Menu_Name				= $menuAry['menu_name'];
 	$Current_Menu_File_Name		= $menuAry['file_name'];
-
+	$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
 
 
 
