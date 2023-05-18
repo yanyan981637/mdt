@@ -9,10 +9,10 @@
 		<div class="section mid-height-incNav over-hide">	
 			<div class="parallax" style="background-image: url('../images/Hero_slider/hero_contact.jpg')"></div>
 			<div class="hero-center-wrap z-bigger">
-				<div class="container color-white hero-text big-text text-center parallax-fade-top">
+				<div class="container color-white hero-text big-text text-center">
 					<div class="row">
 						<div class="col-md-12 mg-auto">	
-							<h1 class="color-white mb-xl-5">Global Operation</h1>
+							<h1 class="color-white">Global Operation</h1>
 						</div>	
 					</div>		
 				</div>			

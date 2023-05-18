@@ -9,10 +9,10 @@
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_video_telematics.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text parallax-fade-top">
+			<div class="container color-white hero-text big-text">
 				<div class="row">
 					<div class="col-md-8 pl-50">	
-						<h1 class="color-white mb-xl-5">Video Telematics</h1>
+						<h1 class="color-white">Video Telematics</h1>
 						<h3 class="h4">Change the way your business operates with video telematics</h3>
 					</div>
 					<div class="col-md-4 hidden-xs">

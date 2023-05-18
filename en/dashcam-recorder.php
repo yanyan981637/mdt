@@ -10,10 +10,10 @@
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/dashcam_recorder/dashcam_recorder-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12">	
-						<h1 class="color-white mb-xl-5">Dashcam Recorder</h1>
+						<h1 class="color-white">Dashcam Recorder</h1>
             <h3 class="h4">Begin your journey with a peace of mind</h3>
 					</div>	
 				</div>		
@@ -123,12 +123,12 @@
       <div class="bg-img" style="background-image: url('../images/dashcam_recorder/multi-views-DVR-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2">
-            <div class="col-md-6 order-3 order-md-1 align-self-center">	
+            <div class="col-md-12 img mg-auto">
+              <img src="../images/dashcam_recorder/Multi-Views-DVR-product.png" alt="Multi-Views Dashcam">
+            </div>
+            <div class="col-md-12 align-self-center mg-auto">	
               <h2>Multi-Views Dashcam</h2>
               <h4>All-round vision for optimum protection</h4>
-            </div>
-            <div class="col-md-6 order-1 order-md-2 align-self-center">	
-              <img class="img-fluid mx-auto d-block rounded " src="../images/dashcam_recorder/Multi-Views-DVR-product.png" alt="Multi Views DVR">
             </div>	
           </div>		
         </div>
@@ -251,12 +251,12 @@
   <div class="section mt-10vh" id="radar-combo-dashcam">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/dashcam_recorder/Redar-Combo-Dashcam-banner.jpg')">
-        <div class="container text-left color-blank center">
+        <div class="container text-left color-white center">
           <div class="row column-2">
-            <div class="col-md-6 align-self-center">
-              <img class="img-fluid mx-auto d-block rounded" src="../images/dashcam_recorder/Redar-Combo-Dashcam-product.png" alt="Redar Combo Dashcam">
+            <div class="col-md-12 img mg-auto">
+              <img src="../images/dashcam_recorder/Redar-Combo-Dashcam-product.png" alt="Radar Combo Dashcam">
             </div>
-            <div class="col-md-6 align-self-center">	
+            <div class="col-md-12 align-self-center mg-auto">	
               <h2>Radar Combo Dashcam</h2>
               <h4>A perfect combination of dashcam & radar detection</h4>
             </div>	

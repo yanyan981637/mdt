@@ -7,11 +7,11 @@
 	================================================== -->
 	<div class="section mid-height-incNav over-hide" id="up">	
 		<div class="parallax" style="background-image: url('../images/video-telematics/Video_Telematics-banner.jpg')"></div>
-		<div class="hero-center-wrap move-bottom z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+		<div class="hero-center-wrap z-bigger">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="color-white mb-xl-3">聯網型行車紀錄器</h1>
+						<h1 class="color-white">聯網型行車紀錄器</h1>
 						<h3 class="h4">多合一車隊互聯鏡頭解決方案</h3>
 					</div>	
 				</div>		

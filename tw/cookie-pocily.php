@@ -4,8 +4,8 @@
 	<!-- Primary Page Layout
 	================================================== -->
 	<div class="section pgHero policyPage" >	
-		<div class="hero-center-wrap move-bottom z-bigger">
-			<div class="container hero-text big-text text-center parallax-fade-top">
+		<div class="hero-center-wrap z-bigger">
+			<div class="container hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
 						<h1 class="mb-xl-5 FC_mdtB">Cookie Policy</h1>

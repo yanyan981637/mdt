@@ -7,11 +7,11 @@
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/video-telematics/Video_Telematics-banner.jpg')"></div>
-		<div class="hero-center-wrap move-bottom z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+		<div class="hero-center-wrap z-bigger">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="align-self-center col-md-12 mg-auto">	
-						<h1 class="color-white mb-xl-3">FAQS</h1>
+						<h1 class="color-white">FAQS</h1>
 						<h3 class="h4">Connected Dashcam & VisionMax FAQs</h3>
 					</div>	
 				</div>		

@@ -10,10 +10,10 @@
 	<div class="section mid-height-incNav over-hide" id="motobike_smart_cam_banner">	
 		<div class="parallax" style="background-image: url('../images/tablet/Tablet-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-      <div class="container color-white hero-text big-text text-center parallax-fade-top">
+      <div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12">	
-						<h1 class="color-white mb-xl-5">Tablet</h1>
+						<h1 class="color-white">Tablet</h1>
             <h3 class="h4">Rugged, versatile, and durable!</h3>
 					</div>	
 				</div>		
@@ -58,10 +58,10 @@
       <div class="bg-img" style="background-image: url('../images/tablet/Industrial-Tablet-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2">
-            <div class="col-md-6 align-self-center">
-              <img class="img-fluid mx-auto d-block rounded" src="../images/tablet/Industrial-Tablet-product.png" alt="Industrial Tablet">
+            <div class="col-md-12 img mg-auto">
+              <img src="../images/tablet/Industrial-Tablet-product.png" alt="Industrial Tablet">
             </div>
-            <div class="align-self-center col-md-6">	
+            <div class="col-md-12 align-self-center mg-auto">	
               <h2>Industrial Tablet</h2>
               <h4>Powerful and Durable for Challenging Workplaces</h4>
             </div>	
@@ -123,12 +123,10 @@
   <div class="section mt-10vh" id="fleet-tablet">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/tablet/Fleet-Tablet-banner.jpg')">
-        <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-6 align-self-center">	
-              <img class="img-fluid mx-auto d-block rounded " src="../images/tablet/Handy-Terminal-product.png" alt="Multi Views DVR">
-            </div>	
-            <div class="align-self-center col-md-6">	
+        <div class="container color-white center">
+          <div class="row">
+
+            <div class="align-self-center col-md-12 mg-auto">	
               <h2>Fleet Tablet</h2>
               <h4>Keeping Track of Teams on The Move</h4>
             </div>	

@@ -10,13 +10,13 @@
 	<div class="section mid-height-incNav over-hide" id="motobike_smart_cam_banner">	
 		<div class="parallax" style="background-image: url('../images/motobike_smart_cam/Motobike-Smart-Cam-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
           <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/motobike_smart_cam/Motobike-Smart-Cam-banner-product.png" alt="Motobike Smart Cam">
           </div>
 					<div class="col-md-8 align-self-center">	
-						<h1 class="color-white mb-xl-5">Motobike Smart Cam</h1>
+						<h1 class="color-white">Motobike Smart Cam</h1>
             <h3 class="h4">Never miss any important moments while riding</h3>
 					</div>	
 				</div>		

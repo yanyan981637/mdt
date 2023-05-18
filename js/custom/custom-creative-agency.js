@@ -30,15 +30,15 @@
 	
 	//Parallax & fade on scroll	
 	
-	function scrollBanner() {
-	  $(document).on('scroll', function(){
-		var scrollPos = $(this).scrollTop();
-		$('.parallax-fade-top').css({
-		  'top' : (scrollPos/4)+'px'
-		});
-	  });    
-	}
-	scrollBanner();
+	// function scrollBanner() {
+	//   $(document).on('scroll', function(){
+	// 	var scrollPos = $(this).scrollTop();
+	// 	$('.parallax-fade-top').css({
+	// 	  'top' : (scrollPos/4)+'px'
+	// 	});
+	//   });    
+	// }
+	// scrollBanner();
 
 	
 	$(document).ready(function() {

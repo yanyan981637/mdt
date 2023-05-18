@@ -10,10 +10,10 @@
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/smart_telematics_solution/Solution-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 align-self-center">	
-						<h1 class="color-white mb-xl-5">Telematics Solution</h1>
+						<h1 class="color-white">Telematics Solution</h1>
 					</div>	
 				</div>		
 			</div>			
@@ -53,14 +53,14 @@
   <div class="section" id="vt-solution">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/VT_Solution-banner.jpg')">
-        <div class="container text-center color-white center">
-          <div class="row">
-            <div class="col-md-4 align-self-center">
-              <img class="img-fluid mx-auto d-block rounded" src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
+        <div class="container text-left color-white center">
+          <div class="row column-2">
+            <div class="col-md-12 img mg-auto left">
+              <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
             </div>
-            <div class="col-md-8 align-self-center">	
-              <h1 class="color-white mb-xl-5">VisonMax™</h1>
-              <h3 class="h4">Powerful Panoramic Perception  for Leading Safety and Security</h3>
+            <div class="col-md-12 align-self-center mg-auto">	
+              <h2>VisonMax™</h2>
+              <h4>Powerful Panoramic Perception  for Leading Safety and Security</h4>
             </div>	
           </div>		
         </div>
@@ -118,14 +118,14 @@
   <div class="section mt-10vh" id="routecomplete">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/Return_to_Route-banner.jpg')">
-        <div class="container text-center color-white center">
-          <div class="row">
-            <div class="col-md-4 align-self-center">
-              <img class="img-fluid mx-auto d-block rounded" src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="">
+        <div class="container text-left color-white center">
+          <div class="row column-2">
+            <div class="col-md-12 img mg-auto left">
+              <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="RouteComplete™">
             </div>
-            <div class="col-md-8 align-self-center">	
-              <h1 class="color-white mb-xl-5">RouteComplete™</h1>
-              <h3 class="h4">Route planning, management, monitoring, and execution</h3>
+            <div class="col-md-12 align-self-center mg-auto">	
+              <h2>RouteComplete™</h2>
+              <h4>Route planning, management, monitoring, and execution</h4>
             </div>	
           </div>		
         </div>

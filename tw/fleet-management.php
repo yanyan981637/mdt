@@ -9,11 +9,11 @@
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/fleet-management/Fleet_Management-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-black hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12">	
-						<h1 class="color-white mb-xl-5">車隊平板</h1>
-						<p class="font_content">有效掌握車隊的行蹤</p>
+						<h1 class="color-black">車隊平板</h1>
+						<h3 class="h4 color-black">有效掌握車隊的行蹤</h3>
 					</div>	
 				</div>		
 			</div>			

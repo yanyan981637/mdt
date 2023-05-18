@@ -18,10 +18,10 @@
 			}
 		?>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="color-white mb-xl-5">General Inquiry</h1>
+						<h1 class="color-white">General Inquiry</h1>
 					</div>	
 				</div>		
 			</div>			

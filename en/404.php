@@ -5,7 +5,7 @@
 		<div class="parallax hidden-xs" style="background-image: url('../images/404.jpg')"></div>
 		<div class="parallax show-xs" style="background-image: url('../images/404_mobile.jpg'); display:none;"></div>
 		<div class="hero-center-top-wrap  z-bigger">
-			<div class="container color-white big-text text-center parallax-fade-top">
+			<div class="container color-white big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
 						<h1 class="color-black mb-20">Sorry!</h1>

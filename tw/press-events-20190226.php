@@ -5,7 +5,7 @@
 	================================================== -->
 	<div id="press_events" class="section pgHero" >	
 		<div class="hero-center-wrap move-bottom z-bigger">
-			<div class="container hero-text big-text text-center parallax-fade-top">
+			<div class="container hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
 						<h1 class="mb-xl-5 FC_mdtB">最新消息</h1>

@@ -18,10 +18,10 @@
 			}
 		?>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="color-white mb-xl-5">聯絡我們</h1>
+						<h1 class="color-white">聯絡我們</h1>
 					</div>	
 				</div>		
 			</div>			

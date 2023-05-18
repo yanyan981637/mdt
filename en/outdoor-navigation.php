@@ -11,13 +11,13 @@
 	<div class="section mid-height-incNav over-hide" id="outdoor_navigation_banner">	
 		<div class="parallax" style="background-image: url('../images/outdoor-navigation/Outdoor_Navigation-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger mt-100">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
           <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/outdoor-navigation/Outdoor_Navigation-banner-product.png" alt="">
           </div>
 					<div class="col-md-8 align-self-center">	
-						<h1 class="color-white mb-xl-5">Bicycle Navigation</h1>
+						<h1 class="color-white">Bicycle Navigation</h1>
             <h3 class="h4">A holistic bike navigation solution for your journey</h3>
 					</div>	
 				</div>		

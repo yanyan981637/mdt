@@ -11,13 +11,13 @@
 	<div class="section mid-height-incNav over-hide" id="outdoor_navigation_banner">	
 		<div class="parallax" style="background-image: url('../images/outdoor-navigation/Outdoor_Navigation-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger mt-100">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
           <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/outdoor-navigation/Outdoor_Navigation-banner-product.png" alt="">
           </div>
 					<div class="col-md-8 align-self-center">	
-						<h1 class="color-white mb-xl-5">Cyclo自行車導航</h1>
+						<h1 class="color-white">Cyclo自行車導航</h1>
             <h3 class="h4">全方位的自行車導航解決方案，讓您的旅程更加精采</h3>
 					</div>	
 				</div>		
