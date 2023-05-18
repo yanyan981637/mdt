@@ -11,8 +11,8 @@
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="color-white mb-xl-3">聯網型行車紀錄器</h1>
-						<h3 class="h4">多合一車隊互聯鏡頭解決方案</h3>
+						<h1 class="color-white mb-xl-3">Connected dashcam</h1>
+						<h3 class="h4">All-in-one fleet connected camera solution</h3>
 					</div>	
 				</div>		
 			</div>			
@@ -26,7 +26,7 @@
 			<div class="row">
         <div class="col-12 d-lg-none">
         <a class="SecTopNav_title" href="javascript:void(0);">
-					AConnected Dashcam
+					Connected dashcam
         </a>
         <div class="bg"></div>
         </div>
@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-					<p>Connected Dashcam 系列是一款一體式車隊互聯鏡頭解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm® 處理器和 Android™ 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
+					<p>Connected Dashcam Series can provide an all-in-one fleet connected camera solution which helps fleet managers evolve their solutions into forward-thinking video telematics. Built on a powerful Qualcomm® processor platform, it offers not only outstanding processing performance, but also a high degree of flexibility with a suite of APIs & SDK for system and cloud integration.</p>
 					</div>
 				</div>
 			</div>	
@@ -57,32 +57,36 @@
     <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K165_K265_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K165_K265_image_1.png" alt="K165/K265" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K165/K265</h2>
+						<p>Multi-Channel cam support</p>
+					</div>
 					<ul>
-					<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
-						<li>Extend to additional 4 camera input</li>
+						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
+						<li>Expandable with additional 5 camera inputs</li>
 						<li>Built-in 4G LTE Cat.4 & dual-band WiFi</li>
 						<li>Bluetooth 5.0 BLE, NFC/HF RFID</li>
 						<li>Qualcomm Octa-core & Android 10 (non-GMS)</li>
 						<li>Dual Micro SD slots (up to 512GB/slot)</li>
 						<li>GPS, GLONASS, Galileo, QZSS (ADR optional)</li>
 						<li>6-axis Accelerometer & Gyro</li>
-						<li>Battery discharge prevention</li>
+						<li>Battery discharge protection</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/PTCRB.png" />
-						<img src="../images/connected_dashcam/verizon.png" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/PTCRB.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/verizon.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K165-K265.php" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">Apply to Dashcam</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K165-K265.php">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -97,10 +101,13 @@
 	  <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145_K245_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145/K245</h2>
+						<p>Exquisite Appearancet</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
@@ -111,15 +118,15 @@
 						<li>6-axis Accelerometer & Gyro</li>
 						<li>Battery discharge prevention</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K145-K245.php%C2%A0" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145-K245.php">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -134,10 +141,13 @@
 	  <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145C/K245C</h2>
+						<p>Carrier Certification</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
@@ -149,18 +159,19 @@
 						<li>Battery discharge prevention</li>
 						<li>Carrier certification by Verizon and AT&T</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
+
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/firstnet.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K145C-K245C.php%C2%A0" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145C-K245C.php">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -175,10 +186,13 @@
 	  <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K220_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K220_image_1.png" alt="K220" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K220</h2>
+						<p>cost-effective</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
@@ -195,13 +209,11 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K220.php%C2%A0" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K220.php">Learn More</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
-				<div class="col-md-12">
-					<a href="#up"><img src="../images/video-telematics/up.svg" alt=""  class="rounded d-block img-fluid float-right" ></a>
-				</div>
+
 				<div class="col-md-12">
 				   <hr class="mt-40">
          </div>
@@ -216,7 +228,7 @@
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
 					<h4 class="h5" style="color:#2449a8;">Frequently asked questions about Viedo Telematics and VisionMax for your reference.</h4>
 					<div>
-						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" target="_blank" width=20%>FAQs</a>
+						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
 						</div>
 				</div>	
 			</div>	

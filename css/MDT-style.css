@@ -9163,6 +9163,7 @@ a:hover{text-decoration:none;}
 .FC_mdtB2{color:#62dcff!important;}
 .FC_mdtG{color:#313139!important;}
 .FC_W{color:#fff!important;}
+.mt-20{margin-top:20px;}
 .mt-30{margin-top:30px;}
 .mt-60{margin-top:60px;}
 .mt-70{margin-top:70px;}
@@ -9177,16 +9178,22 @@ a:hover{text-decoration:none;}
 .mb-100{margin-bottom:100px;}
 .mg-10{margin:10px;}
 .mt_3r{margin-top: 3rem!important;}
-
+.mt-85{margin-top: 85px!important;}
 .pd-0{padding:0;}
 .pb-30{padding-bottom:30px;}
 .pb-60{padding-bottom:60px;}
+.pt-30{padding-top:30px;}
+.pt-60{padding-top:60px;}
 .pl-50{padding-left:50px!important;}
 .pt_pb_1r{padding: 1rem 1rem!important;}
 .pt_pb_3r{padding: 3rem!important;}
 .pt_3r{padding-top: 3rem!important;}
 .pb_3r{padding-bottom: 3rem!important;}
 
+.border-top-bottom{
+	border-top: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
 
 .hero-actions {
     display: flex;

@@ -49,7 +49,7 @@
             </div>
 
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card card-body">
                 <ul>
                   <li>Normal indicator light: Blue light flashes once every minute, press the Emergency button and the red light will stay on</li>
                   <li>Machine malfunction: Blue light flashes twice every minute, "No SD Card" then the red light flashes once every minute</li>

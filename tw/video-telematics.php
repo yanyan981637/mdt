@@ -26,7 +26,7 @@
 			<div class="row">
         <div class="col-12 d-lg-none">
         <a class="SecTopNav_title" href="javascript:void(0);">
-					AConnected Dashcam
+					聯網型行車紀錄器
         </a>
         <div class="bg"></div>
         </div>
@@ -57,10 +57,13 @@
     <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K165_K265_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K165_K265_image_1.png" alt="K165/K265" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K165/K265</h2>
+						<p>多通道錄影支援</p>
+					</div>
 					<ul>
 						<li>雙向前置和車內Full HD鏡頭，142°視角</li>
 						<li>可擴展至額外5個鏡頭輸入</li>
@@ -72,17 +75,18 @@
 						<li>6軸加速度計和陀螺儀,汽車電瓶放電防護</li>
 						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/PTCRB.png" />
-						<img src="../images/connected_dashcam/verizon.png" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/PTCRB.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/verizon.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K165-K265.php" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">應用於行車記錄器</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K165-K265.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -97,10 +101,13 @@
 	  <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145_K245_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145/K245</h2>
+						<p>外型精巧</p>
+					</div>
 					<ul>
 						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內置4G LTE Cat.6和雙頻WiFi</li>
@@ -111,15 +118,15 @@
 						<li>6軸加速度計和陀螺儀</li>
 						<li>汽車電瓶放電防護</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K145-K245.php%C2%A0" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145-K245.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -134,10 +141,13 @@
 	  <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145C/K245C</h2>
+						<p>電信商認證</p>
+					</div>
 					<ul>
 						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內建4G LTE Cat.6和雙頻WiFi</li>
@@ -149,18 +159,19 @@
 						<li>汽車電瓶放電防護</li>
 						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
+
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/firstnet.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K145C-K245C.php%C2%A0" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145C-K245C.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -175,10 +186,13 @@
 	  <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K220_image_1.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K220_image_1.png" alt="K220" class="rounded mx-auto d-block img-fluid">
 			  </div>	
-			  <div class="col-md-6">	
-				<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2>
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K220</h2>
+						<p>具成本效益的</p>
+					</div>
 					<ul>
 						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內置4G LTE Cat.6和雙頻WiFi</li>
@@ -195,13 +209,11 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K220.php%C2%A0" target="_blank">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php" target="_blank">VT Solution</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K220.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
-				<div class="col-md-12">
-					<a href="#up"><img src="../images/video-telematics/up.svg" alt=""  class="rounded d-block img-fluid float-right" ></a>
-				</div>
+
 				<div class="col-md-12">
 				   <hr class="mt-40">
          </div>
@@ -214,10 +226,10 @@
 			<div class="row">
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
-					<h4 class="h5" style="color:#2449a8;">Frequently asked questions about Viedo Telematics and VisionMax for your reference.</h4>
+					<h4 class="h5" style="color:#2449a8;">關於車載視訊和VisionMax的常見問題，供您參考。</h4>
 					<div>
-						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" target="_blank" width=20%>FAQs</a>
-					</div>
+						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
+						</div>
 				</div>	
 			</div>	
 		</div>	

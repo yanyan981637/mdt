@@ -10,18 +10,14 @@
 	<div class="section mid-height-incNav over-hide" id="motobike_smart_cam_banner">	
 		<div class="parallax" style="background-image: url('../images/tablet/Tablet-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
-			<div class="container color-white hero-text big-text text-center parallax-fade-top">
+      <div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">
-        <div class="col-md-4 align-self-center order-md-2">
-            <img class="img-fluid mx-auto d-block rounded" src="../images/tablet/Industrial-Tablet-product.png" alt="Tablet">
-          </div>
-					<div class="col-md-8 align-self-center">	
+					<div class="col-md-12">	
 						<h1 class="color-white mb-xl-5">平板</h1>
-            <h3 class="h4">堅固耐用多功能</h3>
-					</div>
-
+            <h3 class="h4">堅固耐用多功能!</h3>
+					</div>	
 				</div>		
-			</div>			
+			</div>		
 		</div>	
 	</div>
 

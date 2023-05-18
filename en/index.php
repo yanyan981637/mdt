@@ -4,24 +4,29 @@
 
 	<!--home slider-->
 	<!-- Swiper -->
-<div style="background: #000; height:1px; "></div><!--to solve not full width-->
 	<!-- home -->
-		<div class="section">
-			<div class="embed-responsive embed-responsive-16by9">
-				<video controls="controls"> 
-					<source src="https://www.youtube.com/watch?v=ppfIsR6fDqI"></source>
-				</video>
+	<div class="section mt-85">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?ref=0&autoplay=1&enablejsapi=1" frameborder="0"></iframe>
+			<script src="https://www.youtube.com/iframe_api"></script>
+			<script>
+				var player;
+
+				function onYouTubeIframeAPIReady() {
+						player = new YT.Player('ytplayer', {
+								events: {
+										'onReady': onPlayerReady
+								}
+						});
+				}
+				function onPlayerReady(event) {
+						player.mute();
+						player.playVideo();
+				}
+			</script>
 		</div>
 </div>
 
-<!-- 在手机端显示 -->
-<div class="section d-block d-sm-none">
-  <div class="embed-responsive embed-responsive-4by3">
-		<video controls="controls"> 
-			<source src="https://www.youtube.com/watch?v=ppfIsR6fDqI"></source>
-		</video>
-	</div>
-</div>
 
 	
 	
@@ -54,7 +59,7 @@
 								<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/3screen_1.jpg" alt="Automotive electronics"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_01.jpg" alt="Automotive electronics"></span>
 						</a>
 					</div>
 					
@@ -68,7 +73,7 @@
 								<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/3screen_2.jpg" alt="AIOT"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="AIOT"></span>
 						</a>
 					</div>
 					
@@ -82,7 +87,7 @@
 								<span class="btn btn-blue btn-round btn-long hidden-xs" href="professional.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Semi-rugged tablet"></span>
 						</a>
 					</div>
 
@@ -96,16 +101,16 @@
 								<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_04.jpg" alt="Semi-rugged tablet"></span>
 						</a>
 					</div>
 				</div>
 				
 				<ul class="imgs">
-					<li class="img--itokin"><span><img src="../ext/3screen/images/3screen_1.jpg" alt="Automotive electronics"></span></li>
-					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/3screen_2.jpg" alt="AIOT"></span></li>
-					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span></li>
-					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/3screen_3.jpg" alt="Semi-rugged tablet"></span></li>
+					<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="Automotive electronics"></span></li>
+					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/product_02.jpg" alt="AIOT"></span></li>
+					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/product_03.jpg" alt="Semi-rugged tablet"></span></li>
+					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/product_04.jpg" alt="Semi-rugged tablet"></span></li>
 				</ul>
 			</div>
 		</div>

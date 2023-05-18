@@ -7,7 +7,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/dashcam_recorder/dashcam_recorder-banner.jpg')"></div>
+    <div class="parallax" style="background-image: url('../images/fleet-management/Fleet_Management-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">

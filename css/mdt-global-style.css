@@ -5,6 +5,10 @@ div, span, p {
 a:focus, a:hover {
   text-decoration: none;
 }
+a svg {
+  fill: currentcolor;
+  vertical-align: middle;
+}
 /* submanu 樣式 end */
 .SecTopNav{
   width: 100%;
@@ -261,4 +265,20 @@ a:focus, a:hover {
     -o-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+.vt-solution-section .content {
+  margin-top: 15px;
+}
+.vt-solution-section .content h3 {
+  color: #1034a5;
+  font-weight: bold;
+}
+.vt-solution-section .content ul {
+  padding-left: 20px;
+}
+
+
+.section.padding-top-bottom.background-white p{
+  margin:0;
 }

@@ -8,7 +8,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide" id="motobike_smart_cam_banner">	
-		<div class="parallax" style="background-image: url('../images/dashcam_recorder/dashcam_recorder-banner.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/motobike_smart_cam/Motobike-Smart-Cam-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center parallax-fade-top">
 				<div class="row">

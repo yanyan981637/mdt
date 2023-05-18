@@ -18,24 +18,8 @@ text-decoration: none;
   padding-top: 34%;
 }
 
-.hr{
-  border-bottom: solid 1px #d1d1d1;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
 
-.padding-top-bottom-smaller1{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.product{
-  width: 30%;
-  height: 30%;
-  vertical-align: top;
-}
-.product_text{
-  display: inline-block;
-}
+
 .img_icon{
   width:32px;
   height:32px;
@@ -46,30 +30,19 @@ text-decoration: none;
   line-height:32px;
   display:inline-block; 
   color: #ffffff;
-  
+  margin-right: 5px;;
 }
 
-#connected_CDR p{
-  display: block;
+.vt-slolution-product .product_info .product_img {
+  width: 30%;
+  height: auto;
+  margin-right: 20px;
 }
-.product_title_pc{
-  font-size: 1.3rem;
-  line-height: 1.4;
-  font-weight: 700;
+
+.vt-slolution-product h4 .h5{
+  color: #00519c;
 }
-.product_title{
-  font-size: 1rem;
-  line-height: 0.6;
-  font-weight: 700;
-  /* margin-bottom: 0px */
-}
-.product_content{
-   font-size: 1rem;
-   margin-top: 15px
-}
-.h5_color{
-  color:#00519c;;
-}
+
 /* vt-solution end */
 
 /* faq start */
@@ -80,5 +53,16 @@ text-decoration: none;
   border: none;
 }
 .card{
+  border: none;
+}
+
+
+
+/* video telematics */
+
+.section.productDetail .pdt_name{
+  border-bottom: solid 3px #313139;
+}
+.section.productDetail .pdt_name h2 {
   border: none;
 }

@@ -7,20 +7,26 @@
 	<div class="fix-slider"></div><!--to solve not full width-->
 
 	<!-- home -->
-<div class="section">
-  <div class="embed-responsive embed-responsive-16by9">
-		<video controls="controls"> 
-			<source src="https://www.youtube.com/watch?v=ppfIsR6fDqI"></source>
-		</video>
-	</div>
-</div>
-<!-- 在手机端显示 -->
-<div class="section d-block d-sm-none">
-  <div class="embed-responsive embed-responsive-4by3">
-		<video controls="controls"> 
-			<source src="https://www.youtube.com/watch?v=ppfIsR6fDqI"></source>
-		</video>
-	</div>
+	<div class="section mt-85">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?ref=0&autoplay=1&enablejsapi=1" frameborder="0"></iframe>
+			<script src="https://www.youtube.com/iframe_api"></script>
+			<script>
+				var player;
+
+				function onYouTubeIframeAPIReady() {
+						player = new YT.Player('ytplayer', {
+								events: {
+										'onReady': onPlayerReady
+								}
+						});
+				}
+				function onPlayerReady(event) {
+						player.mute();
+						player.playVideo();
+				}
+			</script>
+		</div>
 </div>
 
 <div class="section padding-top-bottom background-white">
@@ -53,7 +59,7 @@
 							<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_1.jpg" alt="智慧交通"></span>
+						<span class="img"><img src="../ext/3screen/images/product_01.jpg" alt="智慧交通"></span>
 					</a>
 				</div>
 
@@ -67,7 +73,7 @@
 							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智慧車載資通訊"></span>
+						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="智慧車載資通訊"></span>
 					</a>
 				</div>
 
@@ -81,7 +87,7 @@
 							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_2.jpg" alt="智慧工業"></span>
+						<span class="img"><img src="../ext/3screen/images/product_03.jpg" alt="智慧工業"></span>
 					</a>
 				</div>
 
@@ -95,16 +101,16 @@
 							<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/3screen_3.jpg" alt="智慧物聯"></span>
+						<span class="img"><img src="../ext/3screen/images/product_04.jpg" alt="智慧物聯"></span>
 					</a>
 				</div>
 			</div>
 
 			<ul class="imgs">
-				<li class="img--itokin"><span><img src="../ext/3screen/images/3screen_1.jpg" alt="車用電子"></span></li>
-				<li class="img--mizuno"><span><img src="../ext/3screen/images/3screen_2.jpg" alt="智聯網"></span></li>
-				<li class="img--second"><span><img src="../ext/3screen/images/3screen_2.jpg" alt="智聯網"></span></li>
-				<li class="img--enfold"><span><img src="../ext/3screen/images/3screen_3.jpg" alt="工業平板"></span></li>
+				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="智慧交通"></span></li>
+				<li class="img--mizuno"><span><img src="../ext/3screen/images/product_02.jpg" alt="智慧車載資通訊"></span></li>
+				<li class="img--second"><span><img src="../ext/3screen/images/product_03.jpg" alt="智慧工業"></span></li>
+				<li class="img--enfold"><span><img src="../ext/3screen/images/product_04.jpg" alt="智慧物聯"></span></li>
 			</ul>
 		</div>
 	</div>
