@@ -97,7 +97,7 @@
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
+        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=Eih0I6GpGoo" target="_blank">Learn More</a>
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam(WIFI models only)</a>
 
 				<hr class="mt-40">

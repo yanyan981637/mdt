@@ -93,7 +93,7 @@
 					</div>
         </div>
 				<div class="col-md-5 mt-30">
-					<img src="../images/auxiliary_software/MiVue_Pro-banner.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
+					<img src="../images/auxiliary_software/MiVue_Pro-banner_ch.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
 
 			<div class="col-md-12 mt-30">
@@ -169,7 +169,7 @@
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=gS4_jQsa2Lw" target="_blank">瞭解更多</a>
+        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=naxGqR8oG2k" target="_blank">瞭解更多</a>
 				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/category-car-camera" target="_blank">應用於行車記錄器</a>
 
 				<hr class="mt-40">
