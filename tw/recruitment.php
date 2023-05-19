@@ -6,7 +6,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_recruitment.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/Hero_slider/work_at_mdt-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">

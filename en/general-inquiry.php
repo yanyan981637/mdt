@@ -8,15 +8,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">
-		<?php
-			if($class==2){
-				echo "<div class='parallax' style='background-image: url(../images/Hero_slider/hero_video_telematics.jpg)'></div>";
-			}elseif($class==3){
-				echo "<div class='parallax' style='background-image: url(../images/Hero_slider/hero_contact.jpg)'></div>";
-			}else{
-				echo "<div class='parallax' style='background-image: url(../images/Hero_slider/hero_contact.jpg)'></div>";
-			}
-		?>
+		<div class='parallax' style='background-image: url(../images/Hero_slider/general_inquiry-banner.jpg)'></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
