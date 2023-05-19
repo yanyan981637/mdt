@@ -6,7 +6,9 @@
 #menu-wrap .navbar-collapse ul li{
   list-style: none;
 }
-
+#menu-wrap .navbar-collapse ul li a[href='#'] {
+  cursor: default;
+}
 @media (max-width:991px) {
 
   #menu-wrap {

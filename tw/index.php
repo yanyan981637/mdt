@@ -9,7 +9,7 @@
 	<!-- home -->
 	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?ref=0&autoplay=1&enablejsapi=1" frameborder="0"></iframe>
+			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
 			<script>
 				var player;
@@ -17,13 +17,19 @@
 				function onYouTubeIframeAPIReady() {
 						player = new YT.Player('ytplayer', {
 								events: {
-										'onReady': onPlayerReady
+										'onReady': onPlayerReady,
+										'onStateChange': onPlayerStateChange
 								}
 						});
 				}
 				function onPlayerReady(event) {
 						player.mute();
 						player.playVideo();
+				}
+				function onPlayerStateChange(event){
+					if(event.data === 0) {
+						player.playVideo();
+					}
 				}
 			</script>
 		</div>

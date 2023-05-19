@@ -4,22 +4,28 @@
 
 <div class="section mt-85">
   <div class="embed-responsive embed-responsive-16by9">
-		<iframe id="vt-solution-ytplayer" type="text/html" src="https://www.youtube.com/embed/q2Z9ys2_hA4?ref=0&autoplay=1&enablejsapi=1" frameborder="0"></iframe>
+		<iframe id="vt-solution-ytplayer" type="text/html" src="https://www.youtube.com/embed/q2Z9ys2_hA4?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 		<script src="https://www.youtube.com/iframe_api"></script>
     <script>
       var player;
 
       function onYouTubeIframeAPIReady() {
           player = new YT.Player('vt-solution-ytplayer', {
-              events: {
-                  'onReady': onPlayerReady
-              }
-          });
-      }
-      function onPlayerReady(event) {
-          player.mute();
-          player.playVideo();
-      }
+								events: {
+										'onReady': onPlayerReady,
+										'onStateChange': onPlayerStateChange
+								}
+						});
+				}
+				function onPlayerReady(event) {
+						player.mute();
+						player.playVideo();
+				}
+				function onPlayerStateChange(event){
+					if(event.data === 0) {
+						player.playVideo();
+					}
+				}
     </script>
 	</div>
 </div>
