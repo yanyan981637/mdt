@@ -209,7 +209,7 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mitacmdt.com/en/connected-dashcam-K220.php">Learn More</a>
+					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K220.php">Learn More</a>
 				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>

@@ -6,7 +6,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide" id="manufacturing_excellence">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_ME.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/innovative-engineering/manufacturing_excellence-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
@@ -18,16 +18,29 @@
 		</div>	
 	</div>
 	
-	<div class="section padding-top-bottom background-grey">
+	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<h5 class="ContGen">MDT’s 1,790,000-square-foot manufacturing site in China is certified to ISO 9001, ISO14001, IHSAS18000,IATF16949, ISO13485, and GMP standards. Our advanced automated production facilities and quality management system allow MDT to efficiently output high-quality products that fulfill our customers’ unique demands.</h5>
+						<p class="ContGen">MDT’s 1,790,000-square-foot manufacturing site in China is certified to ISO 9001, ISO14001, IHSAS18000,IATF16949, ISO13485, and GMP standards. Our advanced automated production facilities and quality management system allow MDT to efficiently output high-quality products that fulfill our customers’ unique demands.</p>
+						<p class="ContGen">MiTAC's state-of-the-art automatic inspection and production facility shortens the production cycle, increases accuracy, and eliminates errors . It reduces labor costs, increases efficiency, guarantees stable quality with a high yield rate, and high efficient mass production.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="section mb-60">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12">
+						<a href="https://youtu.be/HA9DD0AbxUg" target="_blank">
+							<img src="/images/innovative-engineering/manufacturing_excellence_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+						</a>
+				</div>
+			</div>	
+		</div>		
 	</div>
 	
 	

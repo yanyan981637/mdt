@@ -166,7 +166,7 @@
 						<div class="g-recaptcha" data-sitekey="6LcbXpEUAAAAAOHJWB6fn_yhRRmk9ZpR7r5aEnow"></div>
 						<div class="g-recaptcha-message-area"></div>
 						<div class="send-message-area" style="margin:10px;"></div>
-						<input type="submit" value="Submit" name="MsgFormSend" id="submit_btn" class="btn btn-primary btn-lg btn-round" />
+						<input type="submit" value="Submit" name="MsgFormSend" id="submit_btn" class="btn btn-blue1 btn-lg btn-round" />
 						<input type="reset" value="Reset" name="MsgFormSend" class="btn btn-primary btn-lg btn-round" style="background-color:#aaa;margin-left:6px;" />
 					</div>
 				</div>

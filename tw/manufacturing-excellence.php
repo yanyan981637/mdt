@@ -6,7 +6,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide" id="manufacturing_excellence">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_ME.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/innovative-engineering/manufacturing_excellence-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
@@ -18,16 +18,29 @@
 		</div>	
 	</div>
 	
-	<div class="section padding-top-bottom background-grey">
+	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<h5 class="ContGen">神達數位位於中國的生產製造基地占地一百七十萬九千平方英尺，擁有ISO9001、ISO14001、IHSAS18000、IATF16949、ISO13485、GMP等多項國際認證，先進的自動化生產設備及嚴謹的品管系統，能夠提供高品質產品，滿足客戶特殊需求。</h5>
+						<p class="ContGen">神達數位位於中國的生產製造基地占地一百七十萬九千平方英尺，擁有ISO9001、ISO14001、IHSAS18000、IATF16949、ISO13485、GMP等多項國際認證，先進的自動化生產設備及嚴謹的品管系統，能夠提供高品質產品，滿足客戶特殊需求。</p>
+						<p class="ContGen">神達數位先進的自動檢測和生產設施，可以縮短生產週期，提高準確性，並消除錯誤。並可以降低人工成本，提高生產效率，保證穩定的高良率和高效的大規模生產。</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="section mb-60">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12">
+						<a href="https://youtu.be/HA9DD0AbxUg" target="_blank">
+							<img src="/images/innovative-engineering/manufacturing_excellence_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+						</a>
+				</div>
+			</div>	
+		</div>		
 	</div>
 	
 	

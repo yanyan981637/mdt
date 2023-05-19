@@ -7,7 +7,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_QM.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/innovative-engineering/quality_management-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
@@ -19,7 +19,7 @@
 		</div>	
 	</div>
 	</div>
-
+<!-- 
 	<div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
@@ -36,20 +36,31 @@
         </ul>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<h5 class="ContGen">我們運用六個程序在嚴謹的品質管理準則中- DQE(設計品質)，CE(零件品質)，SQA(軟體品質)，PQA(程序品質)，OQA(成品品質)，Service(服務)，以確保所有神達位的產品在送達客戶端之前皆已通過最嚴格的把關標準。</h5>
+						<h5 class="ContGen">我們將DQ、CE、SQA、PQA、OQA和服務等六個流程應用於我們嚴格的品質管理，以確保所有神達數位的產品在交付給客戶之前都符合最嚴格的標準。</h5>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<div class="section mb-60">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12">
+						<a href="https://youtu.be/Nip7oQ1-bVw" target="_blank">
+							<img src="/images/innovative-engineering/quality_management_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+						</a>
+				</div>
+			</div>	
+		</div>		
+	</div>
 
 	<div class="section over-hide" id="system_certificates">
 		<div class="container">
@@ -82,21 +93,21 @@
 				
 				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
 					<div class="qmBox">
-						<img src="../images/certificates/ISO_2005.png" alt="OHSAS18001認證">
+						<img src="../images/certificates/ISO_2005.png" alt="ISO45001認證">
 						<div class="txt">
 							<p>2005</p>
-							<span>OHSAS18001</span>
-							<span>Ver.2007</span>
+							<span>ISO45001</span>
+							<span>Ver.2018</span>
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
 					<div class="qmBox">
-						<img src="../images/certificates/ISO_2007.png" alt="ISO/IATF16949認證">
+						<img src="../images/certificates/ISO_2007.png" alt="IATF16949認證">
 						<div class="txt">
 							<p>2007</p>
-							<span>ISO/IATF16949</span>
+							<span>IATF16949</span>
 							<span>Ver.2016</span>
 						</div>
 					</div>
@@ -203,90 +214,6 @@
 		</div>
 	</div>
 			
-			
-	<div class="section" id="lab_facility" style="margin-top:100px;">
-		<div class="container">
-			<div class="row"><div class="col-md-10"><h2 class="FC_mdtB">實驗室 &amp; 設備</h2></div></div>
-			<div class="row">
-				<div id="pageIndex" class="animsition-overlay">
-
-					<div class="secBanner" data-450="opacity: 1;" data-600="opacity: 0;">
-						<ul id="bannerListing">
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Mechanical_Stress_Test.jpg" alt="機構壓力測試"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>機構壓力測試</h4>
-									<p>複合式溫度與震動</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Material_Test.jpg" alt="材料測試"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>材料測試</h4>
-									<p>耐化學測試</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/IPXX_and_ATM_Test.jpg" alt="防水測試"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>防水測試</h4>
-									<p>多種不同層級</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Telecom_Test.jpg" alt="通訊測試"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>通訊測試</h4>
-									<p>射頻系統驗證測試</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/EMC_LAB_Facility.jpg" alt="10米EMC實驗室"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>電磁相容實驗室</h4>
-									<p>EMC驗證和認證測試服務<br>
-									已通過ISO/IEC 17025:2017 ; CNS 17025:2018實驗室認證標準.</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Acoustics_Testing.jpg" alt="聲學實驗室"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>聲學實驗室</h4>
-									<p>物理及心理聲學 驗證和認證測試服務<br>
-									已通過ISO/IEC 17025:2017 ; CNS 17025:2018實驗室認證標準.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-<!--@@-->
-<script src="../ext/slider_qm/owl.carousel.js"></script>
-<script src="../ext/slider_qm/animsition.min.js" charset="utf-8"></script>
-
-<script>
-	jQuery(window).load(function() {
-		$(".secBanner").delay(100).animate({top:'0px'},{duration:1000});
-		$(".secBanner .imgHolder").delay(500).animate({opacity:'1'},{duration:800}, "linear");
-		$(".secBanner .contentHolder").delay(100).animate({top:'50%'},{duration:1000}, "linear");
-		//$("header").delay(0).animate({marginTop:'0px'},{duration:800}, "linear");
-	})
-	
-	var owl = $('#bannerListing');
-	owl.owlCarousel({
-		dots: true,
-		autoplay: true,
-		autoplayTimeout: 10000,
-		loop:true,
-		margin: 100,
-		items:1
-	})
-</script>
 
 
 

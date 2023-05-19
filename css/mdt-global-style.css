@@ -9,6 +9,15 @@ a svg {
   fill: currentcolor;
   vertical-align: middle;
 }
+
+.btn-blue1,.btn-blue1:focus {
+  background-color: #1034a5;
+  color: #ffffff;
+}
+.btn-blue1:hover {
+  background-color: #62dcff;
+  color: #313139;
+}
 /* submanu 樣式 end */
 .SecTopNav{
   width: 100%;
@@ -308,6 +317,10 @@ a svg {
   margin:0;
 }
 
+.section.padding-top-bottom.background-white p + p{
+  margin-top:30px;
+}
+
 /* faq */
 .faq_content ol>li>a{
   color:rgb(49, 49, 57);
@@ -331,3 +344,22 @@ a svg {
   margin-top: 30px;
 }
 /* faq */
+
+/* csr */
+.csr-content h3 {
+  color: #1034a5;
+}
+.csr-content h3 + p {
+  margin-top: 30px;
+}
+.csr-content p + img {
+  margin-top: 30px;
+}
+
+.csr-content h5 {
+  text-decoration: underline;
+}
+
+.csr-content h5 {
+  margin-top: 30px;
+}

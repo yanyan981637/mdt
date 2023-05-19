@@ -81,8 +81,8 @@
 		
 		//Parallax
 		
-		$('.parallax').parallax("50%", 0.3);
-		$('.parallax-1').parallax("50%", 0.3);
+		// $('.parallax').parallax("50%", 0.3);
+		// $('.parallax-1').parallax("50%", 0.3);
 
 		
 		/* Testimonials Carousel */		

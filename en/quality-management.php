@@ -6,7 +6,7 @@
 	<!-- Hero Block
 	================================================== -->
 	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/Hero_slider/hero_QM.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/innovative-engineering/quality_management-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
@@ -19,7 +19,7 @@
 	</div>
 	</div>
 
-	<div class="SecTopNavPlaceholder"></div>
+	<!-- <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -35,7 +35,7 @@
         </ul>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
@@ -47,6 +47,18 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="section mb-60">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12">
+						<a href="https://youtu.be/Nip7oQ1-bVw" target="_blank">
+							<img src="/images/innovative-engineering/quality_management_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+						</a>
+				</div>
+			</div>	
+		</div>		
 	</div>
 
 
@@ -81,21 +93,21 @@
 				
 				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
 					<div class="qmBox">
-						<img src="../images/certificates/ISO_2005.png" alt="OHSAS18001 Certification">
+						<img src="../images/certificates/ISO_2005.png" alt="ISO45001 Certification">
 						<div class="txt">
 							<p>2005</p>
-							<span>OHSAS18001</span>
-							<span>Ver.2007</span>
+							<span>ISO45001</span>
+							<span>Ver.2018</span>
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
 					<div class="qmBox">
-						<img src="../images/certificates/ISO_2007.png" alt="ISO/IATF16949 Certification">
+						<img src="../images/certificates/ISO_2007.png" alt="IATF16949 Certification">
 						<div class="txt">
 							<p>2007</p>
-							<span>ISO/IATF16949</span>
+							<span>IATF16949</span>
 							<span>Ver.2016</span>
 						</div>
 					</div>
@@ -201,92 +213,6 @@
 			
 		</div>
 	</div>
-			
-			
-	<div class="section" id="lab_facility" style="margin-top:100px;">
-		<div class="container">
-			<div class="row"><div class="col-md-10"><h2 class="FC_mdtB">Lab &amp; Facility</h2></div></div>
-			<div class="row">
-				<div id="pageIndex" class="animsition-overlay">
-
-					<div class="secBanner" data-450="opacity: 1;" data-600="opacity: 0;">
-						<ul id="bannerListing">
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Mechanical_Stress_Test.jpg" alt="mechanical stress test"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>Mechanical Stress Test</h4>
-									<p>Composite Temp &amp; Vibration</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Material_Test.jpg" alt="material test"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>Material Test</h4>
-									<p>Chemical Resistance Simulation Test</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/IPXX_and_ATM_Test.jpg" alt="IPXX and ATM test"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>IPXX and ATM Test</h4>
-									<p>Various Level Test</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Telecom_Test.jpg" alt="Telecom test"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>Telecom Test</h4>
-									<p>For development, production performance verification of RF System</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/EMC_LAB_Facility.jpg" alt="EMC lab dacility"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>Electromagnetic Compatibility Laboratory</h4>
-									<p>EMC verification &amp; certification testing service.<br>
-									Is accredited with ISO/IEC 17025:2017 ; CNS 17025:2018 accreditation criteria.</p>
-								</div>
-							</li>
-							<li>
-								<div class="imgHolder"><img src="../images/lab_facility/Acoustics_Testing.jpg" alt="Acoustics testing"/></div>
-								<div class="contentHolder" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
-									<h4>Acoustics Validation Laboratory</h4>
-									<p>Physical &amp; Psychological acoustics verification &amp; certification testing service.<br>
-									Is accredited with ISO/IEC 17025:2017 ; CNS 17025:2018 accreditation criteria.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-<!--@@-->
-<script src="../ext/slider_qm/owl.carousel.js"></script>
-<script src="../ext/slider_qm/animsition.min.js" charset="utf-8"></script>
-
-<script>
-	jQuery(window).load(function() {
-		$(".secBanner").delay(100).animate({top:'0px'},{duration:1000});
-		$(".secBanner .imgHolder").delay(500).animate({opacity:'1'},{duration:800}, "linear");
-		$(".secBanner .contentHolder").delay(100).animate({top:'50%'},{duration:1000}, "linear");
-		//$("header").delay(0).animate({marginTop:'0px'},{duration:800}, "linear");
-	})
-	
-	var owl = $('#bannerListing');
-	owl.owlCarousel({
-		dots: true,
-		autoplay: true,
-		autoplayTimeout: 10000,
-		loop:true,
-		margin: 100,
-		items:1
-	})
-</script>
-
 
 
 <?php
