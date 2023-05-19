@@ -346,10 +346,10 @@ a svg {
 /* faq */
 
 /* csr */
-.csr-content h3 {
+.csr-content h2 {
   color: #1034a5;
 }
-.csr-content h3 + p {
+.csr-content h2 + p {
   margin-top: 30px;
 }
 .csr-content p + img {

@@ -22,7 +22,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h3>Corporate Social Responsibility Rooted in Mio's Belief – Safety</h3>
+					<h2>Corporate Social Responsibility Rooted in Mio's Belief – Safety</h2>
 					<p>MiTAC is a world-class leader in automotive electronics, and safety is our core value. We strive to provide products and services that improve safe driving through innovative design, high-standard inspection, and manufacturing. Our offerings include 4K ultra-high-definition/starlight-grade night vision driving recorders, Advanced Driver Assistance Systems, six-in-one safety camera warnings, and driver behavior analysis.  In the future, we will continue to deepen our innovation and quality strength in the field of smart IoT and automotive electronics. We aim to establish a leading position in the industry ecosystem and bring safe and convenient interconnected living to people.</p>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h3>Business Philosophy: "F.I.R.S.T." - Establishing a Sustainable Company Full of Happiness</h3>
+					<h2>Business Philosophy: "F.I.R.S.T." - Establishing a Sustainable Company Full of Happiness</h2>
 					<p>We value talent and are committed to creating a positive and friendly working environment that encourages employees to challenge themselves and achieve their goals. Our passionate, innovative, and responsible professional team transforms technology into services that meet customer needs, providing forward-looking and complete solutions that are key to gaining the trust of our partners. By creating a win-win situation for customers, employees, and the company, we aim to establish a happy and sustainable enterprise that contributes to the stable growth, profits, and sustainable development of society and the environment. 'F.I.R.S.T.' is the principle we follow to achieve our goals.</p>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h3>Green Product</h3>
+					<h2>Green Product</h2>
 					<p>Faced with increasingly severe challenges of global warming and energy and resource depletion, MiTAC is committed to product eco-design to reduce the environmental impact of our products. We base our design principles on international environmental protection laws and regulations, as well as customer requirements. Our eco-design approach includes energy conservation, materials reduction, ease of disassembly, and waste recovery simplification. To control hazardous chemical substances, we set short- and medium-term goals for their reduction, and strive to reduce environmental impacts during the manufacturing process. We have established an environmental management system and various environmental management SOPs to control waste production, as well as energy and material consumption </p>
 					<img src="../images/csr/CSR_image_en.jpg" class="img-fluid rounded mx-auto d-block">
 				</div>
@@ -57,7 +57,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h3>MDT ESG Items</h3>
+					<h2>MDT ESG Items</h2>
 					<h5>Package materials</h5>
 					<ul>
 						<li>Comply with the Packaging and Packaging Waste Directive (94/62/EC)</li>
@@ -97,7 +97,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h3>Download MiTAC sustainability report: </h3>
+					<h2>Download MiTAC sustainability report: </h2>
 					<p>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_Sustainability_2021_EN_Final-AA1000-update.pdf" target="_blank">2021</a>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_CSR_2020_TW_final_Eng.pdf" target="_blank">2020</a>
