@@ -349,7 +349,7 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Find_Parked_Car_Location.png" alt="Smart Parking Guard">
+          <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Smart_Parking_Guard.png" alt="Smart Parking Guard">
             <p>Smart Parking Guard</p>
           </div>
         </div>
@@ -367,7 +367,7 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Smart_Parking_Guard.png" alt="GPS parked car location finding">
+            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Find_Parked_Car_Location.png" alt="GPS parked car location finding">
             <p>GPS parked car location finding</p>
           </div>
         </div>

@@ -142,7 +142,7 @@
 					<button type='button' onclick="cookieAccept('essential')" class='v-accept btn btn-blue btn-round btn-sm'>Accept Essential</button>
 					<input type="hidden" id="ckType" name="ckType" value="" />
 				</form>
-				<a href="./privacy-policy.php" class="btn btn-blue btn-round btn-sm">Privacy Policy</a>
+				<a href="./privacy-policy.php" class="btn btn-blue btn-round btn-sm inline">Privacy Policy</a>
 			</div>
 		</div>
 	</div>

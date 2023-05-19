@@ -267,7 +267,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 mt-30">
-            <p>神大數位雷達二合一行車記錄器是完美的行車紀錄器與雷達偵測器整合, 提供多種保護，確保您全方位的安全。</p>
+            <p>神達數位雷達二合一行車記錄器是完美的行車紀錄器與雷達偵測器整合, 提供多種保護，確保您全方位的安全。</p>
         </div>
 
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
@@ -349,7 +349,8 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Find_Parked_Car_Location.png" alt="智慧停車保全">
+            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Smart_Parking_Guard.png" alt="智慧停車保全">
+            
             <p>智慧停車保全</p>
           </div>
         </div>
@@ -367,7 +368,7 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Smart_Parking_Guard.png" alt="GPS 停車位置找尋">
+            <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_Find_Parked_Car_Location.png" alt="GPS 停車位置找尋">
             <p>GPS 停車位置找尋</p>
           </div>
         </div>

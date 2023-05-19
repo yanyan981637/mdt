@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="./vt-solution.php">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="./vt-solution.php">瞭解更多</a>
         </div>
       </div>
     </div>
@@ -176,7 +176,7 @@
         </div>
         
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.magellangps.com/fleet/return-to-route-solution-for-snow" target="_blank">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.magellangps.com/fleet/return-to-route-solution-for-snow" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>

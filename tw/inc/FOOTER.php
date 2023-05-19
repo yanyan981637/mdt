@@ -142,7 +142,7 @@
 					<button type='button' onclick="cookieAccept('essential')" class='v-accept btn btn-blue btn-round btn-sm'>接受必要性</button>
 					<input type="hidden" id="ckType" name="ckType" value="" />
 				</form>
-				<a href="./privacy-policy.php" class="btn btn-blue btn-round btn-sm">隱私權條款</a>
+				<a href="./privacy-policy.php" class="btn btn-blue btn-round btn-sm inline">隱私權條款</a>
 			</div>
 		</div>
 	</div>

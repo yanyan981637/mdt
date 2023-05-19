@@ -80,7 +80,7 @@
         </div>
 
         <div class="col-md-12 mt-30 text-center">
-          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/en_eu/products/category-outdoors" target="_blank">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/en_eu/products/category-outdoors" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>
