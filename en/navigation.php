@@ -41,7 +41,7 @@
   <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12 mt-30">
+			   <div class="col-md-12">
             <p>Our dependable and comprehensive GPS navigation systems for cars eliminate any uncertainty while driving. Whether you are commuting to work or embarking on an off-road journey, our navigators are here to assist you. You can effortlessly reach your destination with the aid of our specialized GPS devices designed specifically for cars.</p>
         </div>
 			</div>	

@@ -42,17 +42,17 @@
 	</div> -->
 	
 	
-	<div class="section padding-top-bottom-smaller background-white">
+	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12 mt-30">
+			   <div class="col-md-12">
             <p>Effective Fleet Management means knowing their wherabouts and status of your assets at any given time. MiTAC Fleet Tablets are purpose-built for the toughest automotive environments. Extensive connectivity capabilities and a dedicated fleet cradle for Telematics integration ensures effortless tracking and data capture. MiTAC Fleet Tablets offer the technology needed to get the most out of your business.</p>
         </div>
 			</div>	
 		</div>		
 	</div>
 
-	<div class="section">
+	<div class="section" id="fleet-management">
 	  <div class="container">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">

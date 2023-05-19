@@ -42,7 +42,7 @@
   <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12 mt-30">
+			   <div class="col-md-12">
             <p>我們可靠且全方位的GPS 導航系統能夠消除行車時的不確定性因素。無論您是上下班通勤還是越野旅程，我們專為汽車設計的 GPS導航系統能夠讓您輕鬆到達目的地。</p>
         </div>
 			</div>	
