@@ -6,7 +6,7 @@
 	<!-- Hero Block
 	================================================== -->
 
-	<div class="SecTopNavPlaceholder"></div>
+	<!-- <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -23,10 +23,30 @@
         </ul>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Connected dashcam
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="connected-dashcam-K165-K265.php">Premium - K165/K265</a></li>
+					<li><a href="connected-dashcam-K145-K245.php">Advanced - K145/K245</a></li>
+					<li><a href="connected-dashcam-K145C-K245C.php">Pro - K145C/K245C</a></li>
+					<li><a href="connected-dashcam-K220.php">Entry - K220</a></li>
+        </ul>
+			</div>
+		</div>
 	</div>
 
 
-	<div class="section productDetail background-white">
+	<div class="section productDetail background-white mt-90">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">	
@@ -103,6 +123,7 @@
 						<img src="../images/connected_dashcam/ATT.png" />
 						<img src="../images/connected_dashcam/PTCRB.png" />
 						<img src="../images/connected_dashcam/verizon.png" />
+						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 					</div>
 				</div>
 			</div>	
@@ -111,93 +132,29 @@
 
 	<!--Detailed Views-->
 	<div class="section productDetail over-hide pt_3r" id="pdt_detail">
-		<div class="container">
+		<div class="container">	
 			<div class="row">	
-				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
-						<div class="productGrid section justify-content-center text-left">
-							<h4 class="FC_mdt1 tc"><span>Detailed Views</span></h4>
-						</div>	
+			  <div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
+					<div class="productGrid section justify-content-center text-left">
+						<h4 class="FC_mdt1 tc"><span>Detailed Views</span></h4>
+					</div>	
 				</div>
-				<div class="col-md-5 align-items-stretch background-grey">	
+				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/connected_dashcam/pdt/P.20.png" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_01.png" />
 					</div>
 				</div>
-				<div class="col-md-7 align-items-stretch background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>NFC</h5>
-								<p class="st2">
-									For driver ID verification & instant pairing with other Devices
-								</p>
-								<h5>EMERGENCY RECORDING BUTTON</h5>
-								<p class="st2">
-									Manually press button to protect the clip from being Overwritten
-								</p>
-								<h5>LED STATUS INDICATORS X 2</h5>
-								<p class="st2">
-									Blue – LTE<br/>
-									Green – WiFi
-								</p>
-								<h5>INWARD CAMERA</h5>
-								<p class="st2">
-									Full HD 1920 x 1080 pixels<br/>
-									Wide 142° FOV<br/>
-									IR LED *4 for low light visibility<br/>
-									45⁰ tiltable camera angle
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-
-			<div class="row">	
-				<div class="col-md-5 align-items-stretch padding-bottom-small background-grey">	
+				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/connected_dashcam/pdt/P.21.png" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_02.png" />
 					</div>
 				</div>
-				<div class="col-md-7 align-items-stretch padding-bottom-small background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>WINDSHIELD MOUNTING</h5>
-								<p class="st2">
-									Easy to install in minutes
-								</p>
-								<h5>NANO SIM OR eSIM AS OPTION</h5>
-								<p class="st2">
-									LTE Cat. 4
-								</p>
-								<h5>ROAD FACING CAMERA</h5>
-								<p class="st2">
-									Full HD 1920 x 1080 pixels<br/>
-									Wide 142° FOV
-								</p>
-								<h5>DUAL SD CARD SLOT</h5>
-								<p class="st2">
-									Storage up to 512GB/ slot
-								</p>
-								<h5>USB TYE C</h5>
-								<p class="st2">
-									For data transfer, debug, and USB cam option
-								</p>
-								<h5>MINI USB</h5>
-								<p class="st2">
-									4 optional cams connection
-								</p>
-								<h5>ALL-IN-ONE CONNECTOR</h5>
-								<p class="st2">
-									Connect to vehicle battery<br/>
-									Optional ECU integration
-								</p>
-							</div>
-						</div>
+				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
+					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
+						<img src="../images/video-telematics/K165-K265_detailed_views_03.png" />
 					</div>
 				</div>
-			</div>		
+			</div>
 
 		</div>	
 	</div>
@@ -278,6 +235,7 @@
 							<td class="data tc" colspan="2">
 								<ul>
 									<li>Dual Micro SD Slots (Support up to 512 GB/slot)</li>
+									<li>Nano SIM Slot (SIM 1) and eSIM** (SIM 2)</li>
 									<li>Mini USB x 1 (for Ext. Cameras), USB Type C x 1 (for de-bug)</li>
 									<li>Build-in microphone x 2</li>
 									<li>Build-in Speaker x 1</li>
@@ -299,12 +257,70 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon, WEEE, ROHS</td>
+							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, WEEE, ROHS</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
 							<td class="data">124 x 88.6 x 72mm ( 4.88 x 3.48 x 2.8'')</td>
 							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'</td>
+						</tr>
+						<tr>
+							<th class="label">Platform</th>
+							<td class="data tc" colspan="2">Qualcomm® Snapdragon™ SDM450 Octa core, 1.8GHz	</td>
+						</tr>
+						<tr>
+							<th class="label">OS</th>
+							<td class="data tc" colspan="2">Android™ 9.0</td>
+						</tr>
+						<tr>
+							<th class="label">Memory</th>
+							<td class="data tc" colspan="2">2GB RAM / 16GB internal storage	</td>
+						</tr>
+						<tr>
+							<th class="label">Expansion</th>
+							<td class="data tc" colspan="2">MicroSD slot (up to 512GB support)	</td>
+						</tr>
+						<tr>
+							<th class="label">Wireless Interface</th>
+							<td class="data tc" colspan="2">
+								<ul>
+									<li>IEEE 802.11 a/b/g/n/ac (2.4GHz & 5GHz)</li>
+									<li>Bluetooth® 4.2 BLE</li>
+									<li>GPS, QZSS, GLONASS, Galileo (supports ADR**)</li>
+								</ul>							                                                                             
+							</td>
+						</tr>
+						<tr>
+							<th class="label">Camera</th>
+							<td class="data tc" colspan="2">
+								<ul>
+									<li>MicroSD slot (up to 512GB capacity)</li>
+									<li> Mini USB x1 (supports external cam, USB type)</li>
+									<li>Built-in mic x1 </li>
+									<li>Built-in speaker x1</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th class="label">Buttons</th>
+							<td class="data tc" colspan="2">Emergency recording button	</td>
+						</tr>
+						<tr>
+							<th class="label">Environment</th>
+							<td class="data tc" colspan="2">
+								<ul>
+									<li>-20° to +70°C (-4° to +158°F) operating temperature </li>
+									<li>-30° to +85°C (-22° to +185°F) storage</li>    
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th class="label">Certification*</th>
+							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, WEEE, ROHS</td>
+						</tr>
+						<tr>
+							<th class="label">Dimensions</th>
+							<td class="data tc" colspan="2">112 x 70 x 47.9mm</td>
 						</tr>
 					</tbody>
 				</table>
@@ -326,45 +342,7 @@
 			</div>
 
 			<div class="row">	
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>OBD POWER CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/obd_cable.png" />
-						<p class="st2">
-							Standard accessory
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>ENTRY CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-2.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>PREMIUM CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-3A.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">	
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>CABLE CAP</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-4.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch tc">	
+			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>EXTERNAL CAMERA</h5>
 						<img src="../images/connected_dashcam/pdt/P.26-5.png" />
@@ -382,9 +360,18 @@
 						</p>
 					</div>
 				</div>
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>SmartGO</h5>
+						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="row">	
-				<div class="col-md-4 align-items-stretch tc">	
+			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PANIC BUTTON</h5>
 						<img src="../images/connected_dashcam/pdt/P.27-1.png" />
@@ -395,13 +382,44 @@
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>SMART CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<h5>ENTRY CABLE</h5>
+						<img src="../images/connected_dashcam/pdt/P.26-2.png" />
 						<p class="st2">
 							Sold separately
 						</p>
 					</div>
 				</div>
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>OBD POWER CABLE</h5>
+						<img src="../images/connected_dashcam/pdt/obd_cable.png" />
+						<p class="st2">
+							Standard accessory
+						</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">	
+			  <div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>PREMIUM CABLE</h5>
+						<img src="../images/connected_dashcam/pdt/P.26-3A.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
+			  <div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>CABLE CAP</h5>
+						<img src="../images/connected_dashcam/pdt/P.26-4.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
+				
 			</div>
 					<div class="pdt_btn tc">
 						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>

@@ -5,7 +5,7 @@
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-	<div class="SecTopNavPlaceholder"></div>
+	<!-- <div class="SecTopNavPlaceholder"></div>
 	<div class="SecTopNav shadow">
 		<div class="container">
 			<div class="row">
@@ -22,10 +22,28 @@
         </ul>
 			</div>
 		</div>
+	</div> -->
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					Connected dashcam
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="connected-dashcam-K165-K265.php">Premium - K165/K265</a></li>
+					<li><a href="connected-dashcam-K145-K245.php">Advanced - K145/K245</a></li>
+					<li><a href="connected-dashcam-K145C-K245C.php">Pro - K145C/K245C</a></li>
+					<li><a href="connected-dashcam-K220.php">Entry - K220</a></li>
+        </ul>
+			</div>
+		</div>
 	</div>
 
-
-	<div class="section productDetail background-white">
+	<div class="section productDetail background-white mt-90">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">	
@@ -102,132 +120,29 @@
 
 	<!--Detailed Views-->
 	<div class="section productDetail over-hide pt_3r" id="pdt_detail">
-		<div class="container">
+		<div class="container">	
 			<div class="row">	
-				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
-						<div class="productGrid section justify-content-center text-left">
-							<h4 class="FC_mdt1 tc"><span>Detailed Views</span></h4>
-						</div>	
+			  <div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
+					<div class="productGrid section justify-content-center text-left">
+						<h4 class="FC_mdt1 tc"><span>Detailed Views</span></h4>
+					</div>	
 				</div>
-				<div class="col-md-4 align-items-stretch background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>4G LTE / WIFI INDICATOR</h5>
-								<p class="st2">
-									Blue – LTE<br/>
-									Green – WiFi
-								</p>
-								<h5>INWARD CAMERA</h5>
-								<p class="st2">
-										Full HD 1920 x 1080 pixels<br/>
-										Wide 142° FOV<br/>
-										IR for low light visibility
-								</p>
-								<h5>ALL-IN-ONE CONNECTOR</h5>
-								<p class="st2">
-										Connect to vehicle battery<br/>
-										Optional ECU integration
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch background-grey">	
+				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/connected_dashcam/pdt/P.10.png" />
+						<img src="../images/video-telematics/K220_detailed_views_01.png" />
 					</div>
 				</div>
-				<div class="col-md-4 align-items-stretch background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>CABLE COVER USB CABLE</h5>
-								<p class="st2">
-									For data transfer and external camera connection
-								</p>
-								<h5>MICRO SD</h5>
-								<p class="st2">
-										Storage up to 512GB
-								</p>
-								<h5>NANO SIM</h5>
-								<p class="st2">
-										LTE Cat.6<br/>
-										(3G/2G fallback)
-								</p>
-								<h5>EMERGENCY RECORDING BUTTON</h5>
-								<p class="st2">
-									Manually press button to protect the clip from being overwritten
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-
-			<div class="row">	
-				<div class="col-md-4 align-items-stretch background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>WINDSHIELD MOUNTING</h5>
-								<p class="st2">
-									Easy to install in minutes
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch background-grey">	
+				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/connected_dashcam/pdt/P.11-1.png" />
+						<img src="../images/video-telematics/K220_detailed_views_02.png" />
 					</div>
 				</div>
-				<div class="col-md-4 align-items-stretch background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>FORWARD CAMERA</h5>
-								<p class="st2">
-									Full HD 1920 x 1080 pixels Wide 142° FOV
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-
-			<div class="row">	
-				<div class="col-md-4 align-items-stretch padding-bottom-small background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch padding-bottom-small background-grey">	
+				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/connected_dashcam/pdt/P.11-2.png" />
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch padding-bottom-small background-grey">	
-					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid">
-						<div class="section text-left">	
-							<div class="txtBox">	
-								<h5>TAMPER PROOF COVER</h5>
-								<p class="st2">
-									Prevents any unauthorized Removal
-								</p>
-								<h5>NANO SIM</h5>
-								<p class="st2">
-									LTE Cat.6 (3G/2G fallback)
-								</p>
-							</div>
-						</div>
+						<img src="../images/video-telematics/K220_detailed_views_03.png" />
 					</div>
 				</div>
 			</div>
-
 		</div>	
 	</div>
 
@@ -323,6 +238,46 @@
 			</div>
 
 			<div class="row">	
+			  <div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>EXTERNAL CAMERA</h5>
+						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>EXTERNAL CAMERA</h5>
+						<img src="../images/video-telematics/P.26-5.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>SmartGO</h5>
+						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class="row">	
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>PANIC BUTTON</h5>
+						<img src="../images/connected_dashcam/pdt/P.23-5.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>OBD POWER CABLE</h5>
@@ -336,35 +291,6 @@
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/p23-2.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>SMART CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">	
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>EXTERNAL CAMERA</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>PANIC BUTTON</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-5.png" />
 						<p class="st2">
 							Sold separately
 						</p>
