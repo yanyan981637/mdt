@@ -7,7 +7,7 @@
 	<!-- home -->
 	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
+			<!-- <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
 			<script>
 				var player;
@@ -29,7 +29,7 @@
 						player.playVideo();
 					}
 				}
-			</script>
+			</script> -->
 		</div>
 </div>
 
@@ -62,7 +62,7 @@
 								<p class="leads">
 									<span>As a leading innovator in automotive electronics, MDT provides comfort and safety to drivers and their passengers.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="automotive.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
 							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_01.jpg" alt="Automotive electronics"></span>
@@ -76,7 +76,7 @@
 								<p class="leads">
 									<span>A pioneer in both information technology and the automotive fields, MDT continues to move ahead with connected car solution to provide users with instant information sharing, remote monitoring, cloud storage, and user behavior analysis.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="aiot.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
 							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="AIOT"></span>
@@ -90,7 +90,7 @@
 								<p class="leads">
 									<span>To meet the demands of doing business today, MDT has developed a range devices and device management platforms that make transport, retail, hospitality, healthcare, and industrial processes more efficient and cost-effective.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long hidden-xs" href="professional.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="professional.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
 							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Semi-rugged tablet"></span>
@@ -104,7 +104,7 @@
 								<p class="leads">
 									<span>Equipped with a smart control unit, flexible sensors, and a camera, our location-based outdoor luminaire solution realizes the integration of lighting, monitoring, tracking, and sensing</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
 							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_04.jpg" alt="Semi-rugged tablet"></span>

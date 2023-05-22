@@ -9,7 +9,7 @@
 	<!-- home -->
 	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
+			<!-- <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
 			<script>
 				var player;
@@ -31,7 +31,7 @@
 						player.playVideo();
 					}
 				}
-			</script>
+			</script> -->
 		</div>
 </div>
 
@@ -62,7 +62,7 @@
 							<p class="leads">
 								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="automotive.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="automotive.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_01.jpg" alt="智慧交通"></span>
@@ -76,7 +76,7 @@
 							<p class="leads">
 								<span>神達數位兼具資通訊與汽車產業領導者角色，以車聯網解決方案，不斷與時並進持續創新，提供使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="aiot.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="智慧車載資通訊"></span>
@@ -90,7 +90,7 @@
 							<p class="leads">
 								<span>為了滿足現今商業模式之需求，神達數位開發出一系列專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療和工業領域，能節省成本並提升工作效率。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="aiot.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="aiot.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_03.jpg" alt="智慧工業"></span>
@@ -104,7 +104,7 @@
 							<p class="leads">
 								<span>配備了智慧控制元件、彈性靈活的傳感器和攝影機，我們的定位型戶外照明解決方案實現了照明、監控、追蹤和感測的整合。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long hidden-xs" href="outdoor-luminaires.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_04.jpg" alt="智慧物聯"></span>
