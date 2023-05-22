@@ -26,21 +26,15 @@
 	$Current_Menu_File_Name 	= null;
 	$Current_Menu_Inquiry_type 	= 1;
 	$first_menu = [];
+	$Current_Menu_Is_Online 	= 1;
+
 
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
   {
 		if ( $row['file_name'] != 'index.php') {
 			array_push($all_menu, $row);
 		}
-		if ($row['file_name'] == $cfg['file_name']) {
-			$current_menu = $row;
-			$Current_Menu_Id 					= $row['menu_id'];
-			$Current_Menu_Father_Id 	= $row['father_menu_id'];
-			$Current_Menu_Order		 	= $row['menu_order'];
-			$Current_Menu_Name 			= $row['menu_name'];
-			$Current_Menu_File_Name 	= $row['file_name'];
-			$Current_Menu_Inquiry_type 	= $row['inquiry_type'];
-		}
+
 
 		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
 			array_push($first_menu, $row);
@@ -59,7 +53,7 @@
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu` Where menu_class='main' and lang='en' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -72,7 +66,7 @@
 	$Current_Menu_Name				= $menuAry['menu_name'];
 	$Current_Menu_File_Name		= $menuAry['file_name'];
 	$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
-
+	$Current_Menu_Is_Online = $menuAry['is_online'];
 
 
 // 	function get_active_menu($current_menu, $all_menu, $active_menu) {

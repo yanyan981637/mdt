@@ -25,22 +25,13 @@
 	$Current_Menu_Name 			= null;
 	$Current_Menu_File_Name 	= null;
 	$Current_Menu_Inquiry_type 	= 1;
-
+	$Current_Menu_Is_Online 	= 1;
 	$first_menu = [];
 
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
   {
 		if ( $row['file_name'] != 'index.php') {
 			array_push($all_menu, $row);
-		}
-		if ($row['file_name'] == $cfg['file_name']) {
-			$current_menu = $row;
-			$Current_Menu_Id 					= $row['menu_id'];
-			$Current_Menu_Father_Id 	= $row['father_menu_id'];
-			$Current_Menu_Order		 	= $row['menu_order'];
-			$Current_Menu_Name 			= $row['menu_name'];
-			$Current_Menu_File_Name 	= $row['file_name'];
-			$Current_Menu_Inquiry_type 	= $row['inquiry_type'];
 		}
 
 		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
@@ -73,6 +64,7 @@
 	$Current_Menu_Name				= $menuAry['menu_name'];
 	$Current_Menu_File_Name		= $menuAry['file_name'];
 	$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
+	$Current_Menu_Is_Online = $menuAry['is_online'];
 	// 當前菜單
 
 

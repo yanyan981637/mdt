@@ -1,5 +1,5 @@
 	<!-- start projects nav -->
-	<?php if($Current_Menu_Father_Id != null){//sub menu ?>
+	<?php if($Current_Menu_Father_Id != null & $Current_Menu_Is_Online != 0){//sub menu ?>
 	
 		<div class='container'>
 			<div class='proj-nav'>
