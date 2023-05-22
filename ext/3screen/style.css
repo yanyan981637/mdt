@@ -192,7 +192,7 @@
 
 @media screen and (max-width: 768px) {
   .p-case-list-index .item {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .p-case-list-index .item a {
     position: relative;
@@ -209,8 +209,8 @@
       background: rgba(0, 0, 0, .4);
       z-index: 22;
     }
-  .p-case-list-index .item.disp .txt-wrap .leads {
-    opacity: 0 !important; }
+  /* .p-case-list-index .item.disp .txt-wrap .leads {
+    opacity: 0 !important; } */
   .p-case-list-index .item.disp .txt-wrap .more span {
     display: none;
     opacity: 0 !important;

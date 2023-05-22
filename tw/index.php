@@ -9,7 +9,7 @@
 	<!-- home -->
 	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
-			<!-- <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
+			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
 			<script>
 				var player;
@@ -31,7 +31,7 @@
 						player.playVideo();
 					}
 				}
-			</script> -->
+			</script>
 		</div>
 </div>
 
@@ -56,13 +56,13 @@
 		<div class="p-case-list-index _load">
 			<div class="areas">
 				<div class="item item--itokin">
-					<a href="automotive.php" data-track-category="" data-track-action="">
+					<a href="dashcam-recorder.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2><span></span></h3>
 							<p class="leads">
 								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long" href="automotive.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="dashcam-recorder.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_01.jpg" alt="智慧交通"></span>
@@ -70,13 +70,13 @@
 				</div>
 
 				<div class="item item--mizuno">
-					<a href="aiot.php" data-track-category="" data-track-action="">
+					<a href="video-telematics.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧車載資通訊</h2><span></span></h3>
 							<p class="leads">
 								<span>神達數位兼具資通訊與汽車產業領導者角色，以車聯網解決方案，不斷與時並進持續創新，提供使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long" href="aiot.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="智慧車載資通訊"></span>
@@ -84,13 +84,13 @@
 				</div>
 
 				<div class="item item--second">
-					<a href="aiot.php" data-track-category="" data-track-action="">
+					<a href="tablet.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧工業</h2><span></span></h3>
 							<p class="leads">
 								<span>為了滿足現今商業模式之需求，神達數位開發出一系列專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療和工業領域，能節省成本並提升工作效率。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long" href="aiot.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="tablet.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_03.jpg" alt="智慧工業"></span>

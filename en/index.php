@@ -7,7 +7,7 @@
 	<!-- home -->
 	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
-			<!-- <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
+			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
 			<script>
 				var player;
@@ -29,7 +29,7 @@
 						player.playVideo();
 					}
 				}
-			</script> -->
+			</script>
 		</div>
 </div>
 
@@ -56,44 +56,44 @@
 			<div class="p-case-list-index _load">
 				<div class="areas">
 					<div class="item item--itokin">
-						<a href="automotive.php" data-track-category="トップページ" data-track-action="ITOKIN CORPORATE SITE">
+						<a href="dashcam-recorder.php" data-track-category="トップページ" data-track-action="ITOKIN CORPORATE SITE">
 							<div class="txt-wrap" style="opacity: 1;">
 								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Mobility</h2><span></span></h3>
 								<p class="leads">
 									<span>As a leading innovator in automotive electronics, MDT provides comfort and safety to drivers and their passengers.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long" href="automotive.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="dashcam-recorder.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_01.jpg" alt="Automotive electronics"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_01.jpg" alt="Smart Mobility"></span>
 						</a>
 					</div>
 					
 					<div class="item item--mizuno">
-						<a href="aiot.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
+						<a href="video-telematics.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
 							<div class="txt-wrap" style="opacity: 1;">
 								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Telematics</h2><span></span></h3>
 								<p class="leads">
 									<span>A pioneer in both information technology and the automotive fields, MDT continues to move ahead with connected car solution to provide users with instant information sharing, remote monitoring, cloud storage, and user behavior analysis.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long" href="aiot.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="AIOT"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Telematics"></span>
 						</a>
 					</div>
 					
 					<div class="item item--third">
-						<a href="professional.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
+						<a href="tablet.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
 							<div class="txt-wrap" style="opacity: 1;">
 								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  Industrialt</h2><span></span></h3>
 								<p class="leads">
 									<span>To meet the demands of doing business today, MDT has developed a range devices and device management platforms that make transport, retail, hospitality, healthcare, and industrial processes more efficient and cost-effective.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long" href="professional.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="tablet.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Semi-rugged tablet"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industrialt"></span>
 						</a>
 					</div>
 
@@ -107,16 +107,16 @@
 								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_04.jpg" alt="Semi-rugged tablet"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span>
 						</a>
 					</div>
 				</div>
 				
 				<ul class="imgs">
-					<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="Automotive electronics"></span></li>
-					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/product_02.jpg" alt="AIOT"></span></li>
-					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/product_03.jpg" alt="Semi-rugged tablet"></span></li>
-					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/product_04.jpg" alt="Semi-rugged tablet"></span></li>
+					<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="Smart Mobility"></span></li>
+					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/product_02.jpg" alt="Smart Telematics"></span></li>
+					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industrialt"></span></li>
+					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span></li>
 				</ul>
 			</div>
 		</div>
