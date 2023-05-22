@@ -7,13 +7,12 @@
 	================================================== -->
   <!-- TODO banner 待補  -->
 	<div class="section mid-height-incNav over-hide">	
-		<div class="parallax" style="background-image: url('../images/video-telematics/Video_Telematics-banner.jpg')"></div>
+		<div class="parallax" style="background-image: url('../images/Hero_slider/FAQ-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="align-self-center col-md-12 mg-auto">	
 						<h1 class="color-white">FAQS</h1>
-						<h3 class="h4">Connected Dashcam & VisionMax FAQs</h3>
 					</div>	
 				</div>		
 			</div>			
@@ -24,9 +23,9 @@
 <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-10">	
+				<div class="col-12">	
 					<div class="call-box-4">
-            <h2 class="h3 text-center">Connected Dashcam & VisionMax FAQs</h2>
+            <h2 class="h3">Connected Dashcam & VisionMax FAQs</h2>
 						<p class="ContGen">Frequently asked questions about products for your reference</p>
 					</div>
 				</div>

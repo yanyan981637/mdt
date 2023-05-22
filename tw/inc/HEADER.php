@@ -43,15 +43,12 @@
 	//Menu
 
 	//Meta
-	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id='".$current_menu['menu_id']."';";
 
-	$resultT = mysqli_query($MysqlConn, $sqlT);
-	$metaAry = mysqli_fetch_array($resultT, MYSQLI_ASSOC);
 	if ($cfg['file_name'] == '404.php') {
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu` Where menu_class='main'  And lang='tw' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -479,7 +476,7 @@ height="0" width="0"></iframe></noscript>
 								<?php
 								
 								//取得他語系網頁
-								$sqlL ="Select * From `ows_menu` Where is_online=1 And lang='en' And file_name = '".$Current_Menu_File_Name."' ";
+								$sqlL ="Select * From `ows_menu` Where lang='en' And file_name = '".$Current_Menu_File_Name."' ";
 								$resultL = mysqli_query($MysqlConn, $sqlL);
 								$tspgAry = mysqli_fetch_array($resultL);
 								if($tspgAry){
