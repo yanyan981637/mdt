@@ -159,7 +159,7 @@
 					<div class="pdtBox section justify-content-center rwd-padding-on-grid mb-30">
 						<a href="connected-dashcam-K220.php"><img class="border_W" src="../images/connected_dashcam/pdt/K220.png" /></a>
 					</div>
-					<a href="connected-dashcam-K220.php" class="btn btn-fill-black-b btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
+					<a href="connected-dashcam-K220.php" class="btn btn-fill-black-b btn-lg btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 				</div>
 			</div>
 			<div class="row">
@@ -242,7 +242,7 @@
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-12 align-items-stretch background-white mb-30 tc">	
-					<a href="connected-dashcam-K145-K245.php" class="btn btn-fill-black-b btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
+					<a href="connected-dashcam-K145-K245.php" class="btn btn-fill-black-b btn-lg btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 				</div>
 			</div>
 			<div class="row">
@@ -316,7 +316,7 @@
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-12 align-items-stretch background-grey mb-30 tc">
-					<a href="connected-dashcam-K145C-K245C.php" class="btn btn-fill-black-b btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
+					<a href="connected-dashcam-K145C-K245C.php" class="btn btn-fill-black-b btn-lg btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 				</div>
 			</div>
 			<div class="row">
@@ -390,7 +390,7 @@
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-12 align-items-stretch background-white mb-30 tc">
-					<a href="connected-dashcam-K165-K265.php" class="btn btn-fill-black-b btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
+					<a href="connected-dashcam-K165-K265.php" class="btn btn-fill-black-b btn-lg btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 				</div>
 			</div>
 

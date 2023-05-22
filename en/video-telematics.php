@@ -86,7 +86,7 @@
 
 					<div>
 					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K165-K265.php">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -126,7 +126,7 @@
 
 					<div>
 					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145-K245.php">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -171,7 +171,7 @@
 
 					<div>
 					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145C-K245C.php">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
@@ -210,7 +210,7 @@
 
 					<div>
 					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K220.php">Learn More</a>
-				    <a class="btn btn-fill-black-b  btn-round m-3" href="./vt-solution.php">VT Solution</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">VT Solution</a>
 					</div>
 				</div>
 

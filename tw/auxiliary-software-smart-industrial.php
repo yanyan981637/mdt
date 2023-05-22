@@ -96,7 +96,7 @@
       </div>
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">應用於平板</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">應用於平板</a>
 
 				<hr class="mt-40">
       </div>
@@ -167,7 +167,7 @@
 			  </div>	
       </div>
 			<div class="col-md-12 mt-30">
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://enterprise.mio.com/en_eu/" target="_blank">應用於平板</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://enterprise.mio.com/en_eu/" target="_blank">應用於平板</a>
       </div>
 			
 		</div>	

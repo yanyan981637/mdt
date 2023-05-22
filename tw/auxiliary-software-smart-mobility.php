@@ -98,7 +98,7 @@
 
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=gS4_jQsa2Lw" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series?use_situation_dvr=248" target="_blank">應用於行車記錄器(僅限WIFI機型)</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series?use_situation_dvr=248" target="_blank">應用於行車記錄器(僅限WIFI機型)</a>
 
 				<hr class="mt-40">
       </div>
@@ -170,7 +170,7 @@
 
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=naxGqR8oG2k" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/category-car-camera" target="_blank">應用於行車記錄器</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/category-car-camera" target="_blank">應用於行車記錄器</a>
 
 				<hr class="mt-40">
       </div>
@@ -241,7 +241,7 @@
 
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">應用於聯網型行車記錄器</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">應用於聯網型行車記錄器</a>
 
 				<hr class="mt-40">
       </div>
@@ -307,7 +307,7 @@
 
             <div class="col-md-12 mt-30">
               <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">瞭解更多</a>
-              <a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
+              <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
             </div>
             
 					</div>

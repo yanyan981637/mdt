@@ -98,7 +98,7 @@
 
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=Eih0I6GpGoo" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras?use_situation_dvr=248" target="_blank">Apply to Dashcam(WIFI models only)</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras?use_situation_dvr=248" target="_blank">Apply to Dashcam(WIFI models only)</a>
 
 				<hr class="mt-40">
       </div>
@@ -169,7 +169,7 @@
 
 			<div class="col-md-12 mt-30">
         <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
 
 				<hr class="mt-40">
       </div>
@@ -240,7 +240,7 @@
 
 				<div class="col-md-12 mt-30">
 					<a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
-					<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
+					<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
 
 					<hr class="mt-40">
 				</div>
@@ -311,7 +311,7 @@
 
 				<div class="col-md-12 mt-30">
 					<a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
-					<a class="btn btn-fill-black-b  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo™ Navigation</a>
+					<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo™ Navigation</a>
 				</div>
 		  </div>
 	  </div>	
