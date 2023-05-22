@@ -105,7 +105,11 @@
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145/K245</h2>
+						<p>外型精巧</p>
+					</div>
 					<ul>
           <li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內置4G LTE Cat.6和雙頻WiFi</li>
@@ -122,12 +126,37 @@
 						<img src="../images/connected_dashcam/aws.png" />
 					</div>
 				</div>
+				
 			</div>	
 		</div>		
 	</div>
 
+	<div>
+		
+	</div>
+	<!-- <div class="SecTopNavPlaceholder"></div>
+	<div class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-lg-none">
+				<a class="SecTopNav1_title" href="javascript:void(0);">
+					K145/K245
+				</a>
+				<div class="bg"></div>
+				</div>
+				<ul class="col-12">
+					<li><a href="#pdt_detail">Detailed Views</a></li>
+					<li><a href="#pdt_spec">Specifications</a></li>
+					<li><a href="#pdt_accs">Accessories</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> -->
+
+	
+
 	<!--Detailed Views-->
-	<div class="section productDetail over-hide pt_3r" id="pdt_detail">
+	<div class="section productDetail over-hide pt_3r et-slide" id="pdt_detail">
 		<div class="container">	
 			<div class="row">	
 			  <div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
@@ -156,7 +185,7 @@
 
 
 	<!--Specifications-->
-	<div class="section productDetail over-hide pt_3r" id="pdt_spec">
+	<div class="section productDetail over-hide pt_3r et-slide" id="pdt_spec">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
@@ -263,7 +292,7 @@
 
 
 	<!--Accessories-->
-	<div class="section productDetail over-hide pt_3r" id="pdt_accs">
+	<div class="section productDetail over-hide pt_3r et-slide" id="pdt_accs">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
@@ -335,7 +364,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>集線套</h5>
-						<img src="../images/video-telematics/Premium_Cable_new.png" />
+						<img src="../images/video-telematics/P.24-5.png" />
 						<p class="st2">
 						  Standard accessory
 						</p>

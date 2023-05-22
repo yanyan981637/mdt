@@ -105,7 +105,11 @@
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K165/K265</h2>
+						<p>多通道錄影支援</p>
+					</div>
 					<ul>
             <li>雙向前置和車內Full HD鏡頭，142°視角</li>
 						<li>可擴展至額外5個鏡頭輸入</li>

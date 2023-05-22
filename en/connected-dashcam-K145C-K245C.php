@@ -104,7 +104,11 @@
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145C/K245C</h2>
+						<p>Carrier Certification</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
@@ -276,6 +280,15 @@
 			</div>
 
 			<div class="row">	
+			 <div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>EXTERNAL CAMERA</h5>
+						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>EXTERNAL CAMERA</h5>
@@ -285,15 +298,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 align-items-stretch tc">	
-					<div class="accsBox">	
-						<h5>EXTERNAL CAMERA</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
-						<p class="st2">
-							Sold separately
-						</p>
-					</div>
-				</div>
+				
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>SmartGO</h5>

@@ -98,7 +98,11 @@
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K220</h2>
+						<p>cost-effective</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
@@ -117,6 +121,8 @@
 			</div>	
 		</div>		
 	</div>
+
+	
 
 	<!--Detailed Views-->
 	<div class="section productDetail over-hide pt_3r" id="pdt_detail">

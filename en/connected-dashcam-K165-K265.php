@@ -105,7 +105,11 @@
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K165/K265</h2>
+						<p>Multi-Channel cam support</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Extend to additional 4 camera input</li>

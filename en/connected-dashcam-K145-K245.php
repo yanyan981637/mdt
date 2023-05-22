@@ -100,12 +100,16 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf"   class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_blank"  class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145/K245</h2>
+						<p>Exquisite Appearancet</p>
+					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
 						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
@@ -335,7 +339,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>CABLE CAP</h5>
-						<img src="../images/video-telematics/Premium_Cable_new.png" />
+						<img src="../images/video-telematics/P.24-5.png" />
 						<p class="st2">
 						  Standard accessory
 						</p>

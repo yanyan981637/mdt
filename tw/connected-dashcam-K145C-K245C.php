@@ -104,7 +104,11 @@
 					</div>
 				</div>
 				<div class="col-md-6">	
-					<h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2>
+					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145C/K245C</h2> -->
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145C/K245C</h2>
+						<p>電信商認證</p>
+					</div>
 					<ul>
             <li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內建4G LTE Cat.6和雙頻WiFi</li>
@@ -290,10 +294,10 @@
 			</div>
 
 			<div class="row">	
-			  <div class="col-md-4 align-items-stretch tc">	
+				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>外置鏡頭</h5>
-						<img src="../images/video-telematics/P.26-5.png" />
+						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -302,7 +306,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>外置鏡頭</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
+						<img src="../images/video-telematics/P.26-5.png" />
 						<p class="st2">
 							Sold separately
 						</p>
