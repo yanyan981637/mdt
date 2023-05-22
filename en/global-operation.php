@@ -45,14 +45,27 @@
 					
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
-							<h5>MiTAC Computer (KunShan) Co., Ltd.</h5>
+							<h5>MiTAC (Kunshan) Ltd.</h5>
 							<ul class="list-style">
 								<li><i class="fa fa-map-marker"></i>No.269, 2nd Road, Export Processing Zone, Changjiang South Road, Kunshan, Jiangsu, China, P.R.C</li>
 								<li><i class="fa fa-phone"></i>86-512-5736-7777</li>
 								<li><i class="fa fa-fax"></i>86-512-5736-8585</li>
 							</ul>
 							<div class="locateMap">
-								<img src="../images/operation/MiTAC_Computer_KunShan.jpg" alt="MiTAC Computer (KunShan) Co., Ltd.">
+								<img src="../images/operation/MiTAC_Computer_KunShan.jpg" alt="MiTAC (Kunshan) Ltd.">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="locateBox pt_pb_1r ">
+							<h5>MiTAC Information Systems (KunShan) Co., Ltd</h5>
+							<ul class="list-style">
+								<li><i class="fa fa-map-marker"></i>No. 789 , Changjiang South Road, Kunshan, Jiangsu, China, P.R.C</li>
+								<li><i class="fa fa-phone"></i>86-512-5736-7777</li>
+							</ul>
+							<div class="locateMap">
+								<img src="../images/operation/MiTAC_Information_Systems.jpg" alt="MiTAC Information Systems (KunShan) Co., Ltd">
 							</div>
 						</div>
 					</div>
@@ -73,13 +86,13 @@
 					
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
-							<h5>MiTAC Digital Corporation.</h5>
+							<h5>MiTAC Digital Corp. (USA)</h5>
 							<ul class="list-style">
 								<li><i class="fa fa-map-marker"></i>21660 E. Copley Drive, Suite 170, Diamond Bar, CA 91765</li>
 								<li><i class="fa fa-phone"></i>1-909-394-5000</li>
 							</ul>
 							<div class="locateMap">
-								<img src="../images/operation/MDC.jpg" alt="MiTAC Japan Corp.">
+								<img src="../images/operation/MDC.jpg" alt="MiTAC Digital Corp. (USA)">
 							</div>
 						</div>
 					</div>
@@ -98,21 +111,21 @@
 					
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
-							<h5>MiTAC Europe Ltd. (Poland Branch)</h5>
+							<h5>MiTAC Europe Poland</h5>
 							<ul class="list-style">
 								<li><i class="fa fa-map-marker"></i>ul. Puławska 405A, 02-801 Warsaw, PL</li>
 								<li><i class="fa fa-phone"></i>48-2-2544-0765</li>
 								<li><i class="fa fa-fax"></i>48-2-2544-0763</li>
 							</ul>
 							<div class="locateMap">
-								<img src="../images/operation/MiTAC_Europe_PL.jpg" alt="MiTAC Europe Ltd. Poland Office">
+								<img src="../images/operation/MiTAC_Europe_PL.jpg" alt="MiTAC Europe Poland">
 							</div>
 						</div>
 					</div>
 					
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
-							<h5>MiTAC Australia Pty Ltd.</h5>
+							<h5>MiTAC Australia</h5>
 							<ul class="list-style">
 								<li><i class="fa fa-map-marker"></i>5, 43-51 College St, Gladesville, NSW 2111, Australia.</li>
 								<li><i class="fa fa-phone"></i>61-2-9879-9000</li>
