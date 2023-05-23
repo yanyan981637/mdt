@@ -100,8 +100,8 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230322.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
-						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
+						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230322.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
 				<div class="col-md-6">	
@@ -111,23 +111,24 @@
 						<p>多通道錄影支援</p>
 					</div>
 					<ul>
-            <li>雙向前置和車內Full HD鏡頭，142°視角</li>
+						<li>雙向前置和車內Full HD鏡頭，142°視角</li>
 						<li>可擴展至額外5個鏡頭輸入</li>
 						<li>內置4G LTE Cat.4和雙頻WiFi</li>
 						<li>低功耗藍芽5.0 BLE，NFC/HF RFID</li>
 						<li>Qualcomm八核心處理器和Android 10（無GMS）</li>
 						<li>雙Micro SD卡槽（每個槽最高可支援至512GB）</li>
 						<li>GPS，GLONASS，Galileo，QZSS（ADR可選）</li>
-						<li>6軸加速度計和陀螺儀,汽車電瓶放電防護</li>
-						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
+						<li>6軸加速度計和陀螺儀</li>
+						<li>汽車電瓶放電防護</li>
+						<!-- <li>通過Verizon, AT&T, T-Mobile 等運營商認證</li> -->
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/PTCRB.png" />
-						<img src="../images/connected_dashcam/verizon.png" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/PTCRB.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/verizon.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 				</div>
 			</div>	
@@ -340,7 +341,7 @@
 				
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
 					</div>
 		</div>
 	</div>

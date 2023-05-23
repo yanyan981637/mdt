@@ -120,10 +120,10 @@
 						<li>6-axis Accelerometer & Gyro</li>
 						<li>Battery discharge prevention</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
 					</div>
 				</div>
 			</div>	

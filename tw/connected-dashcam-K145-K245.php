@@ -100,8 +100,8 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
-						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
+						<a href="../Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
 				<div class="col-md-6">	
@@ -111,7 +111,7 @@
 						<p>外型精巧</p>
 					</div>
 					<ul>
-          <li>雙向前置和車內Full HD 鏡頭，142°視角</li>
+						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內置4G LTE Cat.6和雙頻WiFi</li>
 						<li>藍牙4.2 BLE，NFC/HF RFID</li>
 						<li>Qualcomm八核處理器和Android 9</li>
@@ -120,10 +120,10 @@
 						<li>6軸加速度計和陀螺儀</li>
 						<li>汽車電瓶放電防護</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
 					</div>
 				</div>
 				
@@ -381,7 +381,7 @@
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
 					</div>
 		</div>
 	</div>

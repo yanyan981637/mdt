@@ -120,13 +120,14 @@
 						<li>Battery discharge prevention</li>
 						<li>Carrier certification by Verizon and AT&T</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/firstnet.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 				</div>
 			</div>	

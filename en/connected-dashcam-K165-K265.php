@@ -112,23 +112,24 @@
 					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
-						<li>Extend to additional 4 camera input</li>
+						<li>Expandable with additional 5 camera inputs</li>
 						<li>Built-in 4G LTE Cat.4 & dual-band WiFi</li>
 						<li>Bluetooth 5.0 BLE, NFC/HF RFID</li>
 						<li>Qualcomm Octa-core & Android 10 (non-GMS)</li>
 						<li>Dual Micro SD slots (up to 512GB/slot)</li>
 						<li>GPS, GLONASS, Galileo, QZSS (ADR optional)</li>
 						<li>6-axis Accelerometer & Gyro</li>
-						<li>Battery discharge prevention</li>
+						<li>Battery discharge protection</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/PTCRB.png" />
-						<img src="../images/connected_dashcam/verizon.png" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/PTCRB.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/verizon.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
+
 				</div>
 			</div>	
 		</div>		

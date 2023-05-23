@@ -99,8 +99,8 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145C-245C_Datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
-						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
+						<a href="../Downloads/202304/Mitac_K145C-245C_Datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
 				<div class="col-md-6">	
@@ -110,7 +110,7 @@
 						<p>電信商認證</p>
 					</div>
 					<ul>
-            <li>雙向前置和車內Full HD 鏡頭，142°視角</li>
+						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
 						<li>內建4G LTE Cat.6和雙頻WiFi</li>
 						<li>低功耗藍芽4.2 BLE</li>
 						<li>Qualcomm八核心處理器, Android 9</li>
@@ -120,36 +120,44 @@
 						<li>汽車電瓶放電防護</li>
 						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
 					</ul>
-					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+
+					<div class="row">
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/aws.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/firstnet.png" /></div>
+						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 				</div>
 			</div>	
 		</div>		
 	</div>
 
-	<div class="container">
-	  <div class="row">
-			<div class="col-12 d-lg-none">
-			<!-- <a class="SecTopNav_title" href="javascript:void(0);">
-				行車記錄器
-			</a> -->
-			<div class="bg"></div>
+	<!-- <div class="SecTopNavPlaceholder"></div> -->
+	<div class="product-nav">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+					K145C/K245C
+        </a>
+          <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#pdt_detail">Detailed Views</a></li>|
+					<li><a href="#pdt_spec">Specifications</a></li>|
+					<li><a href="#pdt_accs">Accessories</a></li>
+        </ul>
 			</div>
-			<ul class="col-12">
-			  <li><a href="#pdt_detail">Detailed Views</a></li>
-				<li><a href="#pdt_spec">Specifications</a></li>
-				<li><a href="#pdt_accs">Accessories</a></li>
-			</ul>
 		</div>
 	</div>
+
+
+
+
 	<!--Detailed Views-->
-	<div class="section productDetail over-hide pt_3r" id="pdt_detail">
+	<div class="section productDetail over-hide mt-10" id="pdt_detail">
 		<div class="container">	
 			<div class="row">	
 			  <div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
@@ -177,7 +185,7 @@
 	</div>
 
 	<!--Specifications-->
-	<div class="section productDetail over-hide pt_3r" id="pdt_spec">
+	<div class="section productDetail over-hide mt-10" id="pdt_spec">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
@@ -283,7 +291,7 @@
 	</div>
 
 	<!--Accessories-->
-	<div class="section productDetail over-hide pt_3r" id="pdt_accs">
+	<div class="section productDetail over-hide mt-10" id="pdt_accs">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
@@ -363,7 +371,7 @@
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
 					</div>
 		</div>
 	</div>

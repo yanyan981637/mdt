@@ -72,8 +72,9 @@
 						<li>Qualcomm八核心處理器和Android 10（無GMS）</li>
 						<li>雙Micro SD卡槽（每個槽最高可支援至512GB）</li>
 						<li>GPS，GLONASS，Galileo，QZSS（ADR可選）</li>
-						<li>6軸加速度計和陀螺儀,汽車電瓶放電防護</li>
-						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
+						<li>6軸加速度計和陀螺儀</li>
+						<li>汽車電瓶放電防護</li>
+						<!-- <li>通過Verizon, AT&T, T-Mobile 等運營商認證</li> -->
 					</ul>
 					<div class="row pt_pb_1r">
 						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
