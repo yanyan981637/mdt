@@ -192,7 +192,7 @@
 
 @media screen and (max-width: 768px) {
   .p-case-list-index .item {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .p-case-list-index .item a {
     position: relative;

@@ -88,11 +88,11 @@
 						<div class="locateBox pt_pb_1r ">
 							<h5>MiTAC Digital Corp. (USA)</h5>
 							<ul class="list-style">
-								<li><i class="fa fa-map-marker"></i>21660 E. Copley Drive, Suite 170, Diamond Bar, CA 91765</li>
+								<li><i class="fa fa-map-marker"></i>39889 Eureka Dr., Newark, CA 94560, U.S.A</li>
 								<li><i class="fa fa-phone"></i>1-909-394-5000</li>
 							</ul>
 							<div class="locateMap">
-								<img src="../images/operation/MDC.jpg" alt="MiTAC Japan Corp.">
+								<img src="../images/operation/MIS.jpg" alt="MiTAC Digital Corp. (USA)">
 							</div>
 						</div>
 					</div>

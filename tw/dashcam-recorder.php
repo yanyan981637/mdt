@@ -321,7 +321,7 @@
         <div class="container text-center color-blank center">
           <div class="row">
             <div class="col-md-12 align-self-center">	
-              <h2>聯網行車記錄器</h2>
+              <h2>聯網型行車記錄器</h2>
               <h4>智慧停車保全-您的智慧防盜保全</h4>
             </div>	
           </div>		

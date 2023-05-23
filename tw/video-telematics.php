@@ -11,7 +11,7 @@
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="color-white">聯網型行車紀錄器</h1>
+						<h1 class="color-white">聯網型行車記錄器</h1>
 						<h3 class="h4">多合一車隊互聯鏡頭解決方案</h3>
 					</div>	
 				</div>		
@@ -26,7 +26,7 @@
 			<div class="row">
         <div class="col-12 d-lg-none">
         <a class="SecTopNav_title" href="javascript:void(0);">
-					聯網型行車紀錄器
+					聯網型行車記錄器
         </a>
         <div class="bg"></div>
         </div>
