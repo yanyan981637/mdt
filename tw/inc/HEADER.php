@@ -438,6 +438,9 @@ height="0" width="0"></iframe></noscript>
 												return (int)$a['menu_order'] - (int)$b['menu_order'];
 											});
 											echo "<ul class='{$class[$level]}'>";
+											if ($level === 0) {
+												echo '<li class="close">X</li>';
+											}
 											foreach ($all_children_menu as $child_menu) {
 												echo '<li>';
 												echo $render_link_el($child_menu);
@@ -446,6 +449,7 @@ height="0" width="0"></iframe></noscript>
 								
 												echo '</li>';
 											}
+									
 											echo '</ul>';
 										}
 

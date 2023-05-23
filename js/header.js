@@ -171,13 +171,20 @@
   })
 
   $("#menu-wrap .first_menu .second_menu").hover(function(e) {
-    if (e.type === "mouseover" || e.type === "mouseenter") {
-      $(this).parent().addClass('open');
-    } else {
-      $(this).parent().removeClass('open');
+    if (window_width >= 992) {
+      if (e.type === "mouseover" || e.type === "mouseenter") {
+        $(this).parent().addClass('open');
+      } else {
+        $(this).parent().removeClass('open');
+      }
     }
+
   })
 
+  $('#menu-wrap .navbar-collapse .navbar-nav .first_menu .second_menu > li.close').on('click', function(){
+    $(this).parent().parent().removeClass('open');
+  })
+  
   init();
   
 

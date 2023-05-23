@@ -438,6 +438,9 @@ height="0" width="0"></iframe></noscript>
 												return (int)$a['menu_order'] - (int)$b['menu_order'];
 											});
 											echo "<ul class='{$class[$level]}'>";
+											if ($level === 0) {
+												echo '<li class="close">X</li>';
+											}
 											foreach ($all_children_menu as $child_menu) {
 												echo '<li>';
 												echo $render_link_el($child_menu);
@@ -491,6 +494,7 @@ height="0" width="0"></iframe></noscript>
 										<i class="fa fa-globe"></i>
 									</a>
 									<ul class="second_menu">
+										<li class="close">X</li>
 										<li><a class="nav-link" href="<?php echo $transferPageUrl; ?>">中文</a></li>
 										<li><a class="active nav-link" href="#">English</a></li>
 									</ul>
