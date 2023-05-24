@@ -4994,7 +4994,7 @@ figure.vimeo a img, figure.youtube a img {
 	width:90px;
 	display:block;
 	margin:0 auto;
-	padding-bottom:50px;
+	/* padding-bottom:50px; */
 }
 .hero-text img.pdtImg{
 	width: 100%;

@@ -52,11 +52,11 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/navigation/Car_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-12 img mg-auto">
+          <div class="row column-2-no-position align-content-center">
+            <div class="col-md-4 img mg-auto">
               <img src="../images/navigation/Car_Navigation-banner-product.png" alt="Car Navigation">
             </div>
-            <div class="col-md-12 align-self-center mg-auto">	
+            <div class="col-md-8 align-self-center mg-auto">	
               <h2>Car Navigation</h2>
               <h4>A perfect combination of dashcam & radar detection</h4>
             </div>	
@@ -118,11 +118,11 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/navigation/Off_Road_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-12 img mg-auto left">
+          <div class="row column-2-no-position align-content-center">
+            <div class="col-md-4 img mg-auto">
               <img src="../images/navigation/Off_Road_Navigation-banner-product.png" alt="Off Road Navigation">
             </div>
-            <div class="col-md-12 align-self-center mg-auto">	
+            <div class="col-md-8 align-self-center mg-auto">	
               <h2>Off Road Navigation</h2>
               <h4>Explore more with the ultimate all – terrain GPS navigators</h4>
             </div>	
