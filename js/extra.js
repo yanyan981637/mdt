@@ -13,13 +13,20 @@
 
 			var submenu_height = 0; // submenu 的高度
 
+			var product_nav_height = 0;
+
 			if ($('.SecTopNav').length > 0) {
 
 				submenu_height = $('.SecTopNav').innerHeight()
 			}
 
+			if ($('.product-nav').length > 0) {
+
+				product_nav_height = $('.product-nav').innerHeight()
+			}
+
 			if ($(el).length > 0) {
-				var target_top = $(el).offset().top - header_height - submenu_height + 1;
+				var target_top = $(el).offset().top - header_height - submenu_height - product_nav_height + 1;
 				$(".SecTopNav").removeClass('show')
 				$('html,body').animate({
 					scrollTop:target_top

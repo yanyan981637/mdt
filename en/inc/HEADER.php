@@ -142,8 +142,6 @@
 	<?php
 		if(preg_match("/press-events/i", $cfg['file_name'])) {
 			$Current_Menu_Name = "Discover MDT - Events and Press";
-		}elseif(preg_match("/connected-dashcam/i", $cfg['file_name'])) {
-				$Current_Menu_Name = "Connected Dashcam";
 		}elseif($cfg['file_name'] == '404.php'){
 			$Current_Menu_Name = "404";
 		}

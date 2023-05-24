@@ -221,6 +221,9 @@
 	?>
 
 	<script src="../js/extra.js"></script>
+	<?php if(preg_match("/connected-dashcam/i", $cfg['file_name'])): ?>
+		<script src="../js/product.js"></script>
+	<? endif; ?>
 	<script>
 		<?php if (isset($_COOKIE["mdt_policy"])) { ?>
 		$(function(){

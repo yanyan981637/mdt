@@ -48,7 +48,7 @@
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main'  And lang='tw' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu` Where menu_class='main' and lang='tw' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -142,8 +142,6 @@
 	<?php
 		if(preg_match("/press-events/i", $cfg['file_name'])) {
 			$Current_Menu_Name = "最新消息 - MiTAC Digital Technology 神達數位";
-		}elseif(preg_match("/connected-dashcam/i", $cfg['file_name'])) {
-				$Current_Menu_Name = "Connected Dashcam";
 		}elseif($cfg['file_name'] == '404.php'){
 			$Current_Menu_Name = "404";
 		}

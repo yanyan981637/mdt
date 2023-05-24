@@ -121,6 +121,24 @@
 			</div>	
 		</div>		
 	</div>
+	<div class="ProdcuctNavPlaceholder"></div>
+	<div class="product-nav">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="product-nav_title" href="javascript:void(0);">
+					K220
+        </a>
+          <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#pdt_detail">Detailed Views</a></li>
+					<li><a href="#pdt_spec">Specifications</a></li>
+					<li><a href="#pdt_accs">Accessories</a></li>
+        </ul>
+			</div>
+		</div>
+	</div>
 
 	
 

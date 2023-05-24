@@ -121,18 +121,36 @@
 						<li>6-axis Accelerometer & Gyro</li>
 						<li>Battery discharge protection</li>
 					</ul>
-					<div class="row">
-						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/ATT.png" /></div>
-						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/PTCRB.png" /></div>
-						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/verizon.png" /></div>
-						<div class="col-4 col-md-3 mb-20"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
+					<div class="row pt_pb_1r">
+						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
+						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/ATT.png" /></div>
+						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/PTCRB.png" /></div>
+						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/verizon.png" /></div>
+						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
 					</div>
 
 				</div>
 			</div>	
 		</div>		
+	</div>
+	<div class="ProdcuctNavPlaceholder"></div>
+	<div class="product-nav">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="product-nav_title" href="javascript:void(0);">
+					K165/K265
+        </a>
+          <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#pdt_detail">Detailed Views</a></li>
+					<li><a href="#pdt_spec">Specifications</a></li>
+					<li><a href="#pdt_accs">Accessories</a></li>
+        </ul>
+			</div>
+		</div>
 	</div>
 
 	<!--Detailed Views-->
