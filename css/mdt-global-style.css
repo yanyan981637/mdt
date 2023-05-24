@@ -214,17 +214,23 @@ a svg {
 .second-bannner .bg-img >.container h4 {
   font-weight: normal;
 }
+.second-bannner .column-2-no-position .img,
 .second-bannner .column-2 .img {
   height: 200px;
 }
+.second-bannner .column-2-no-position .img img,
 .second-bannner .column-2 .img img {
   height: 100%;
   width: auto;
 }
+
 @media (max-width: 991px) {
   .second-bannner .column-2 {
     align-content:center;
     -ms-flex-line-pack: center;
+  }
+  .second-bannner .column-2-no-position{
+    text-align: center;
   }
   /* .second-bannner .column-2 img {
     height: 200px;
@@ -237,8 +243,11 @@ a svg {
   .second-bannner .column-2 {
     position: relative;
   }
+  .second-bannner .column-2-no-position .img {
+    height: 350px;
+  }
   .second-bannner .column-2 .img {
-    height: 300px;
+    height: 350px;
     width: auto;
     position: absolute;
     top: 50%;
@@ -376,4 +385,16 @@ a svg {
 
 .csr-content h5 {
   margin-top: 30px;
+}
+
+
+/* banner style */
+.second-bannner h2,
+.second-bannner h4,
+.hero-text h1,
+.hero-text h3 {
+  text-shadow: 0px 4px 8px rgb(133 133 133 / 60%), 0px 8px 13px rgb(121 121 121 / 10%), 0px 18px 23px rgb(114 114 114 / 10%);
+}
+#e-mirror-dashcam .second-bannner .col-md-12 {
+  margin-top: 170px;
 }

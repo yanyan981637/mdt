@@ -54,11 +54,11 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/VT_Solution-banner.jpg')">
         <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-12 img mg-auto left">
-              <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
+          <div class="row column-2-no-position align-content-center">
+            <div class="col-md-5 img mg-auto">
+            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
             </div>
-            <div class="col-md-12 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto">	
               <h2>VisonMax™</h2>
               <h4>Powerful Panoramic Perception  for Leading Safety and Security</h4>
             </div>	
@@ -119,11 +119,11 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/Return_to_Route-banner.jpg')">
         <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-12 img mg-auto left">
-              <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="RouteComplete™">
+          <div class="row column-2-no-position align-content-center">
+            <div class="col-md-5 img mg-auto">
+            <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="RouteComplete™">
             </div>
-            <div class="col-md-12 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto">	
               <h2>RouteComplete™</h2>
               <h4>Route planning, management, monitoring, and execution</h4>
             </div>	

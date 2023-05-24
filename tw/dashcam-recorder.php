@@ -251,12 +251,12 @@
   <div class="section mt-10vh" id="radar-combo-dashcam">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/dashcam_recorder/Redar-Combo-Dashcam-banner.jpg')">
-        <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-12 img mg-auto">
+        <div class="container text-left color-blank center">
+          <div class="row column-2-no-position align-content-center">
+            <div class="col-md-4 img mg-auto">
               <img src="../images/dashcam_recorder/Redar-Combo-Dashcam-product.png" alt="雷達二合一行車記錄器">
             </div>
-            <div class="col-md-12 align-self-center mg-auto">	
+            <div class="col-md-8 align-self-center ">	
               <h2>雷達二合一行車記錄器</h2>
               <h4>行車記錄器和雷達偵測器的完美結合</h4>
             </div>	

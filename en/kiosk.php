@@ -11,7 +11,7 @@
 
   <div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/kiosk/Kiosk-banner.jpg')"></div>
-    <div class="hero-center-wrap z-bigger mt-100">
+    <div class="hero-center-wrap z-bigger">
 			<div class="container color-white  big-text text-center">
 				<div class="row">
 					<div class="col-md-8 align-self-center">	
