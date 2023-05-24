@@ -225,7 +225,7 @@
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
             <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_user-friendly-UI.png" alt="Intelligent & Innovative User Interface Design">
-            <p>Intelligent & Innovative User Interface Design</p>
+            <p>Intelligent & Innovative user Interface design</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
