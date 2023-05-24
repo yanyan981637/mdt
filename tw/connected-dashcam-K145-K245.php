@@ -153,7 +153,7 @@
 	
 
 	<!--Detailed Views-->
-	<div class="section productDetail over-hide pt_3r et-slide" id="pdt_detail">
+	<div class="section productDetail over-hide mt-10" id="pdt_detail">
 		<div class="container">	
 			<div class="row">	
 			  <div class="col-md-12 align-items-stretch padding-top-bottom-smaller background-grey">
@@ -182,7 +182,7 @@
 
 
 	<!--Specifications-->
-	<div class="section productDetail over-hide pt_3r et-slide" id="pdt_spec">
+	<div class="section productDetail over-hide mt-10" id="pdt_spec">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
@@ -289,7 +289,7 @@
 
 
 	<!--Accessories-->
-	<div class="section productDetail over-hide pt_3r et-slide" id="pdt_accs">
+	<div class="section productDetail over-hide mt-10" id="pdt_accs">
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
