@@ -13,7 +13,7 @@
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 align-self-center">	
-						<h1 class="color-white">Telematics Solution</h1>
+						<h1 class="color-white">Solution</h1>
 					</div>	
 				</div>		
 			</div>			
@@ -59,7 +59,7 @@
             <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax™">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>VisonMax™</h2>
+              <h2>VT Solution - VisionMax™</h2>
               <h4>Powerful Panoramic Perception  for Leading Safety and Security</h4>
             </div>	
           </div>		

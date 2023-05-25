@@ -350,7 +350,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>全功能線 (含所有功能訊號與電源的線材)</h5>
-						<img src="../images/video-telematics/Premium_Cable_new.png" />
+						<img src="../images/video-telematics/Premium_Cable_20230524.png" />
 						<p class="st2">
 						  Sold separately
 						</p>

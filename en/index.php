@@ -102,7 +102,7 @@
 							<div class="txt-wrap" style="opacity: 1;">
 								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  IOT</h2><span></span></h3>
 								<p class="leads">
-									<span>Equipped with a smart control unit, flexible sensors, and a camera, our location-based outdoor luminaire solution realizes the integration of lighting, monitoring, tracking, and sensing</span>
+									<span>Equipped with a smart control unit, flexible sensors, and a camera, our location-based outdoor luminaire solution realizes the integration of lighting, monitoring, tracking, and sensing.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>

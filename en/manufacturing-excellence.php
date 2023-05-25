@@ -36,7 +36,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://youtu.be/HA9DD0AbxUg" target="_blank">
-							<img src="/images/innovative-engineering/manufacturing_excellence_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/manufacturing_excellence_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	

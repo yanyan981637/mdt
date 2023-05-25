@@ -61,7 +61,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://www.youtube.com/watch?v=6zBMLzcV02c" target="_blank">
-							<img src="/images/innovative-engineering/camera_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/camera_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	
@@ -99,7 +99,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://www.youtube.com/watch?v=6zBMLzcV02c" target="_blank">
-							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	
@@ -137,7 +137,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://youtu.be/ar_BvaA9WRo" target="_blank">
-							<img src="/images/innovative-engineering/software_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/software_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	

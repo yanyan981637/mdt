@@ -17,7 +17,7 @@
             <img class="img-fluid mx-auto d-block rounded" src="../images/outdoor-navigation/Outdoor_Navigation-banner-product.png" alt="">
           </div>
 					<div class="col-md-7 align-self-center order-1 order-md-2">	
-						<h1 class="color-white">Bicycle Navigation</h1>
+						<h1 class="color-white">Cyclo Cycling Computer</h1>
             <h3 class="h4">A holistic bike navigation solution for your journey</h3>
 					</div>	
 				</div>		

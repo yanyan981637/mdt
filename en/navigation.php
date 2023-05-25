@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>Car Navigation</h2>
-              <h4>A perfect combination of dashcam & radar detection</h4>
+              <h4>Drive with confidence  & Get there faster</h4>
             </div>	
           </div>		
         </div>

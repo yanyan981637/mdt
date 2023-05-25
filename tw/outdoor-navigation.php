@@ -18,7 +18,7 @@
           </div>
 					<div class="col-md-7 align-self-center order-1 order-md-2">	
 						<h1 class="color-white">Cyclo自行車導航</h1>
-            <h3 class="h4">全方位的自行車導航解決方案，讓您的旅程更加精采</h3>
+            <h3 class="h4">全方位的自行車導航解決方案，讓您的旅程更加精彩</h3>
 					</div>	
 				</div>		
 			</div>			

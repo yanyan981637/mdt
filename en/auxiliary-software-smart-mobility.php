@@ -114,7 +114,7 @@
 				<div class="col-12">
 					<h2 class="h3 mt-30">MiVue™ Manager Web Tool</h2>
 					<h5>Convenient PC tool for clips review and management</h5>
-					<p>Using MiVue Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
+					<p>Using MiVue™ Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
 				</div>
 				<div class="col-md-6 col-lg-7 mt-20">
 					<div class="row">
@@ -185,7 +185,7 @@
 				<div class="col-12">
 					<h2 class="h3 mt-30">MioNext™ App </h2>
 					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
-					<p>Together with the MiTAC connected dashcam, the MioNext App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
+					<p>Together with the MiTAC connected dashcam, the MioNext™ App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
 				</div>
 				<div class="col-md-6 col-lg-7 mt-20">
 					<div class="row">
@@ -254,7 +254,7 @@
 		<div class="container">
 			<div class="row">	
 				<div class="col-12">
-					<h2 class="h2 mt-30">MioShare ™ Web Tool & App </h2>
+					<h2 class="h2 mt-30">MioShare™ Web Tool & App </h2>
 					<h5>Easily find routes and view history records on smartphone</h5>
 					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
 				</div>

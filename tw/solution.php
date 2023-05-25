@@ -13,7 +13,7 @@
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="col-md-12 align-self-center">	
-						<h1 class="color-white">車載資訊解決方案</h1>
+						<h1 class="color-white">解決方案</h1>
 					</div>	
 				</div>		
 			</div>			
@@ -59,8 +59,8 @@
             <div class="col-md-5 img mg-auto order-2 order-md-1">
             <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax™">
             </div>
-            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>VisonMax™</h2>
+            <div class="col-md-7 align-self-center mg-auto">	
+              <h2>車載視訊解決方案 - VisionMax™</h2>
               <h4>強大的全景監控、領先的安全保障</h4>
             </div>	
           </div>		
@@ -70,7 +70,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 mt-30">
-            <p>VisionMax著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建並建立強大的安全系統，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
+            <p>VisionMax™著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建並建立強大的安全系統，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
         </div>
 
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
@@ -125,7 +125,7 @@
             <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="路徑返回">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>路徑返回</h2>
+              <h2>路徑返回解決方案</h2>
               <h4>路線規劃, 管理, 監控與執行</h4>
             </div>	
           </div>		

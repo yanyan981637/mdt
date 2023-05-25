@@ -62,7 +62,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://www.youtube.com/watch?v=6zBMLzcV02c" target="_blank">
-							<img src="/images/innovative-engineering/camera_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/camera_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	
@@ -100,7 +100,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://www.youtube.com/watch?v=6zBMLzcV02c" target="_blank">
-							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	
@@ -126,7 +126,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">神達數位在軟體開發領域擁有豐富的專業知識，包括廣泛的設備驅動程式、支援多種作業系統、客製化的軟體架構、各種應用程式和智慧雲端及後台服務</p>
+						<p class="ContGen">神達數位在軟體開發領域擁有豐富的專業知識，包括廣泛的設備驅動程式、支援多種作業系統、客製化的軟體架構、各種應用程式和智慧雲端及後台服務。</p>
 					</div>
 				</div>
 			</div>	
@@ -138,7 +138,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://youtu.be/ar_BvaA9WRo" target="_blank">
-							<img src="/images/innovative-engineering/software_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/software_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	

@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-md-12">	
 						<h1 class="color-white">Tablet</h1>
-            <h3 class="h4">Rugged, versatile, and durable!</h3>
+            <h3 class="h4">Rugged, versatile, and durable</h3>
 					</div>	
 				</div>		
 			</div>	

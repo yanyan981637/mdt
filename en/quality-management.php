@@ -54,7 +54,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://youtu.be/Nip7oQ1-bVw" target="_blank">
-							<img src="/images/innovative-engineering/quality_management_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block">
+							<img src="/images/innovative-engineering/quality_management_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	

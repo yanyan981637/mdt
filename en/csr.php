@@ -46,7 +46,7 @@
 			<div class="row">
 				<div class="col-12">
 					<h2>Green Product</h2>
-					<p>Faced with increasingly severe challenges of global warming and energy and resource depletion, MiTAC is committed to product eco-design to reduce the environmental impact of our products. We base our design principles on international environmental protection laws and regulations, as well as customer requirements. Our eco-design approach includes energy conservation, materials reduction, ease of disassembly, and waste recovery simplification. To control hazardous chemical substances, we set short- and medium-term goals for their reduction, and strive to reduce environmental impacts during the manufacturing process. We have established an environmental management system and various environmental management SOPs to control waste production, as well as energy and material consumption </p>
+					<p>Faced with increasingly severe challenges of global warming and energy and resource depletion, MiTAC is committed to product eco-design to reduce the environmental impact of our products. We base our design principles on international environmental protection laws and regulations, as well as customer requirements. Our eco-design approach includes energy conservation, materials reduction, ease of disassembly, and waste recovery simplification. To control hazardous chemical substances, we set short- and medium-term goals for their reduction, and strive to reduce environmental impacts during the manufacturing process. We have established an environmental management system and various environmental management SOPs to control waste production, as well as energy and material consumption during the manufacturing process. </p>
 					<img src="../images/csr/CSR_image_en.jpg" class="img-fluid rounded mx-auto d-block">
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2>Download MiTAC sustainability report: </h2>
+					<h2>Download MiTAC sustainability report</h2>
 					<p>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_Sustainability_2021_EN_Final-AA1000-update.pdf" target="_blank">2021</a>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_CSR_2020_TW_final_Eng.pdf" target="_blank">2020</a>

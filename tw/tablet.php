@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-md-12">	
 						<h1 class="color-white">平板</h1>
-            <h3 class="h4">堅固耐用多功能!</h3>
+            <h3 class="h4">堅固耐用多功能</h3>
 					</div>	
 				</div>		
 			</div>		
@@ -32,8 +32,8 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-          <li><a href="#industrial-tablet">工業平板</a></li>
-					<li><a href="#fleet-tablet">車隊平板</a></li>
+          <li><a href="#industrial-tablet">工業用平板</a></li>
+					<li><a href="#fleet-tablet">車隊用平板</a></li>
         </ul>
 			</div>
 		</div>
@@ -60,7 +60,7 @@
           <div class="row column-2">
             <div class="col-md-12 align-self-center mg-auto">	
               <h2>工業平板</h2>
-              <h4>强大耐用，適用於環境嚴苛的工作場所。</h4>
+              <h4>强大耐用，適用於環境嚴苛的工作場所</h4>
             </div>
             <div class="col-md-12 img mg-auto">
               <img src="../images/tablet/Industrial-Tablet-product.png" alt="工業平板">

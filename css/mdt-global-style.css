@@ -266,8 +266,6 @@ a svg {
     left: 0;
     right: unset;
   }
-
-
 }
 /* 第二級別的banner 樣式結束 */
 
@@ -385,14 +383,17 @@ a svg {
 }
 
 .csr-content h5 {
-  text-decoration: underline;
-}
-
-.csr-content h5 {
   margin-top: 30px;
 }
 
+ .csr-content img{
+  width: 500px;
+  height: auto;
+}
 
+.csr-content p a{
+  margin: 0 5px;
+}
 /* banner style */
 .second-bannner h2,
 .second-bannner h4,
@@ -402,4 +403,15 @@ a svg {
 }
 #e-mirror-dashcam .second-bannner .col-md-12 {
   margin-top: 170px;
+}
+
+/* youtube图片 */
+.video_img{
+  width: 750px;
+}
+
+/* fleet-management */
+#fleet-management h1,
+#fleet-management h3{
+  text-shadow: none;
 }
