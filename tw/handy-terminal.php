@@ -12,13 +12,13 @@
 		<div class="parallax" style="background-image: url('../images/handy-terminal/Handy_Terminal-banner.jpg')"></div>
 
     <div class="hero-center-wrap z-bigger">
-			<div class="container color-white  big-text text-center">
+			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
-					<div class="col-md-8 align-self-center">	
+					<div class="col-md-7 align-self-center">	
 						<h1 class="color-white">手持終端機</h1>
             <h3 class="h4">簡約耐用的行動電腦</h3>
 					</div>	
-          <div class="col-md-4 align-self-center">
+          <div class="col-md-5 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/handy-terminal/Handy_Terminal-product.png" alt="">
           </div>
 				</div>		

@@ -293,24 +293,26 @@ a svg {
 
 /* 其它 */
 
-#motobike_smart_cam, #handy-terminal, #kiosk, #outdoor-navigation, #outdoor-luminaires, #fleet-management, #premiumK165_K265{
+#motobike_smart_cam,#handy-terminal, #kiosk, #outdoor-navigation, #outdoor-luminaires, #fleet-management, #premiumK165_K265{
   margin-top: -30px;
 }
 
 
 /* banner */
-#motobike_smart_cam_banner .hero-text img,
+/* #motobike_smart_cam_banner .hero-text img,
 #outdoor_navigation_banner .hero-text img {
   width: auto;
-}
-@media (max-width: 991px) {
+} */
+@media (max-width: 767px) {
   .parallax {
     z-index: -1;
   }
   #motobike_smart_cam_banner .hero-text img,
-  #outdoor_navigation_banner .hero-text img {
-    width: auto;
-    height: 200px;
+  #outdoor_navigation_banner .hero-text img,
+  #handy-terminal_banner .hero-text img,
+  #kiosk_banner .hero-text img {
+    width: 200px;
+    height: auto;
     padding: 0;
   }
   /* #motobike_smart_cam_banner .hero-center-wrap,
