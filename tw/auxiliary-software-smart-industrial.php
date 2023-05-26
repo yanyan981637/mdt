@@ -36,14 +36,23 @@
 
 	<!-- MiDM™-->
 	<div class="section over-hide" id="midm">
-		<div class="container">
-			<div class="row">	
-				<div class="col-12">
-					<h3 class="h3 mt-30">神達數位移動設備管理</h3>
+		<div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+				<h3 class="h3">神達數位移動設備管理</h3>
 					<h5>遠端無縫配置、管理、部署裝置的設定、應用程式或裝置更新</h5>
 					<p>神達數位移動設備管理（MiDM™）是一款全面而經濟實惠的移動設備管理解決方案，可以讓企業安全的在遠端部署多個不同位置的移動設備，進行管理、配置、應用程序或設備更新。</p>
 				</div>
-				<div class="col-md-7 mt-20 align-items-stretch">
+			</div>	
+		</div>
+		<div class="container">
+			<div class="row">	
+				<!-- <div class="col-12">
+					<h3 class="h3 mt-30">神達數位移動設備管理</h3>
+					<h5>遠端無縫配置、管理、部署裝置的設定、應用程式或裝置更新</h5>
+					<p>神達數位移動設備管理（MiDM™）是一款全面而經濟實惠的移動設備管理解決方案，可以讓企業安全的在遠端部署多個不同位置的移動設備，進行管理、配置、應用程序或設備更新。</p>
+				</div> -->
+				<div class="col-md-7 mt_30_ align-items-stretch">
 					<div class="row">
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -90,7 +99,7 @@
 
 					</div>
         </div>
-				<div class="col-md-5 mt-30">
+				<div class="col-md-5">
 					<img src="../images/auxiliary-software-smart-industrial/MiDM™-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
       </div>
@@ -108,14 +117,23 @@
 	
 	<!-- MiLock™ -->
 	<div class="section over-hide portfolio-box" id="milock">
-		<div class="container">
-			<div class="row">	
-				<div class="col-12">
-					<h2 class="h3 mt-30">MiLock™ 應用程式</h2>
+	  <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+				<h2 class="h3">MiLock™ 應用程式</h2>
 					<h5>將設備轉換為單一應用程式 Kiosk模式</h5>
 					<p>MiLock™ 是由 神達數位 開發的專有 Kiosk 模式應用程式。它取代了預設的 Android™ Launcher 應用程式，並可增加員工生產力和設備可用性。使用 MiLock™，可將特定使用者權限限制為“kiosk-mode”中的單個應用程式，或是一組經過核准後應用程式。他能取代傳統的主介面, 適用於車隊管理、餐桌點餐、倉儲、物流等應用領域。</p>
 				</div>
-				<div class="col-md-7 mt-20">
+			</div>	
+		</div>
+		<div class="container">
+			<div class="row">	
+				<!-- <div class="col-12">
+					<h2 class="h3 mt-30">MiLock™ 應用程式</h2>
+					<h5>將設備轉換為單一應用程式 Kiosk模式</h5>
+					<p>MiLock™ 是由 神達數位 開發的專有 Kiosk 模式應用程式。它取代了預設的 Android™ Launcher 應用程式，並可增加員工生產力和設備可用性。使用 MiLock™，可將特定使用者權限限制為“kiosk-mode”中的單個應用程式，或是一組經過核准後應用程式。他能取代傳統的主介面, 適用於車隊管理、餐桌點餐、倉儲、物流等應用領域。</p>
+				</div> -->
+				<div class="col-md-7 mt_30_">
 					<div class="row">
 						<div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -162,7 +180,7 @@
 
 					</div>
         </div>
-				<div class="col-md-5 mt-30">
+				<div class="col-md-5">
 					<img src="../images/auxiliary-software-smart-industrial/MiLock-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid" style="width: 70%;">
 			  </div>	
       </div>

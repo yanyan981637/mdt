@@ -42,7 +42,7 @@
   <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-12">	
+				<div class="col-md-10">	
 					<p>MiTAC Telematics solution assists fleets in enhancing safety, efficiency, and sustainability. It empowers businesses reliant on physical operations to utilize telematics data to derive meaningful business insights and optimize their operations. </p>
 				</div>
 			</div>	
@@ -66,12 +66,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>VisionMax™ focuses on driving safety event monitoring and data management and storage, provides immediate safety event reminders and subsequent safety event reconstruction, and establishes a powerful eco-system to ensure the best safety guarantee and round-the-clock protection for drivers and fleets.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>VisionMax™ focuses on driving safety event monitoring and data management and storage, provides immediate safety event reminders and subsequent safety event reconstruction, and establishes a powerful eco-system to ensure the best safety guarantee and round-the-clock protection for drivers and fleets.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_4G+BT.png" alt="Always connected">
@@ -131,12 +134,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>Overcome your most challenging safety, cost and service issues with MiTAC RouteComplete solution—designed specifically for snowplow and salt-spreading fleets operating in volatile weather conditions.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>Overcome your most challenging safety, cost and service issues with MiTAC RouteComplete solution—designed specifically for snowplow and salt-spreading fleets operating in volatile weather conditions.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/smart_telematics_solution/Locked_On_Route.png" alt="Locked On Route">

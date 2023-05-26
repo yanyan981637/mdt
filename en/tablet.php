@@ -69,12 +69,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>Designed to withstand the demands of work environments where ruggedness and reliability are essential including Transport and Logistics, Field Services, Warehousing, Retail and Hospitality and Fleet Management. Lightweight and customizable to meet your unique needs and requirements.</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
       <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>Designed to withstand the demands of work environments where ruggedness and reliability are essential including Transport and Logistics, Field Services, Warehousing, Retail and Hospitality and Fleet Management. Lightweight and customizable to meet your unique needs and requirements.</p>
-        </div>
-
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/tablet/android_security_green.png" alt="AER-certified device">
@@ -135,12 +138,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>Effective Fleet Management means knowing their whereabouts and status of your assets at any given time. MiTAC Fleet Tablets are purpose-built for the toughest automotive environments. Robust connectivity capabilities and a dedicated fleet cradle for telematics integration ensures effortless tracking and data capture. MiTAC Fleet Tablets offer the technology needed to get the most out of your business.</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
       <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>Effective Fleet Management means knowing their whereabouts and status of your assets at any given time. MiTAC Fleet Tablets are purpose-built for the toughest automotive environments. Robust connectivity capabilities and a dedicated fleet cradle for telematics integration ensures effortless tracking and data capture. MiTAC Fleet Tablets offer the technology needed to get the most out of your business.</p>
-        </div>
-
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/tablet/android_security_green.png" alt="GMS-certified device">

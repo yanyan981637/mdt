@@ -28,8 +28,7 @@ $(function(){
     // sec top nav fixed
     if ($('.ProdcuctNavPlaceholder').length > 0) {
       product_nav_offset_height = $('.ProdcuctNavPlaceholder').offset().top
-      console.log(product_nav_offset_height);
-      console.log(scroll_top)
+
       if (scroll_top >= product_nav_offset_height) {
         $('.product-nav').addClass('fixed');
         $('.ProdcuctNavPlaceholder').height(product_nav_height + 'px');

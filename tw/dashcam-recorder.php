@@ -68,12 +68,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>神達數位多功能行車記錄器設計精巧優雅, 提供高解析度的行車錄影、全面性的駕駛輔助警示和無縫資料傳輸，確保駕駛人的絕對安全。</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>神達數位多功能行車記錄器設計精巧優雅, 提供高解析度的行車錄影、全面性的駕駛輔助警示和無縫資料傳輸，確保駕駛人的絕對安全。</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/4k-ultra-hd-2160p.png" alt="頂級4K高畫質">
@@ -134,12 +137,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>可擴展的後鏡頭、車內鏡頭和側鏡頭擴大行車視野範圍，提供駕駛人和乘客無與倫比的保護。</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>可擴展的後鏡頭、車內鏡頭和側鏡頭擴大行車視野範圍，提供駕駛人和乘客無與倫比的保護。</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/4+2K_dualcam.png" alt="4K+2K雙鏡錄影">
@@ -197,12 +203,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>配備大螢幕和窄邊框設計，神達數位多功能整合式電子後視鏡型行車記錄器是您專屬的行車助手</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>配備大螢幕和窄邊框設計，神達數位多功能整合式電子後視鏡型行車記錄器是您專屬的行車助手</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_all-in-one.png" alt="全方位整合式設計">
@@ -264,12 +273,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>神達數位雷達二合一行車記錄器是完美的行車紀錄器與雷達偵測器整合, 提供多種保護，確保您全方位的安全。</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>神達數位雷達二合一行車記錄器是完美的行車紀錄器與雷達偵測器整合, 提供多種保護，確保您全方位的安全。</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/Multiple-Safety-Cams.png" alt="豐富的測速照相資料庫">
@@ -328,12 +340,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>神達數位聯網型行車記錄器實現了全方位的即時遠端監控, 包括行駛中的車前與車後影像, 停車時的車前,車後, 車內影像, 為您提供極致的多重保護。</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>神達數位聯網型行車記錄器實現了全方位的即時遠端監控, 包括行駛中的車前與車後影像, 停車時的車前,車後, 車內影像, 為您提供極致的多重保護。</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_LTE_Telemonitoring.png" alt="4G LTE 即時監控">
@@ -393,12 +408,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>簡約隱藏式設計， 神達數位經銷商選配型行車記錄器提供針對不同品牌車廠的客製化設計, 實現與車內內裝無縫整合</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>簡約隱藏式設計， 神達數位經銷商選配型行車記錄器提供針對不同品牌車廠的客製化設計, 實現與車內內裝無縫整合</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/Seamless.png" alt="車內整合設計">

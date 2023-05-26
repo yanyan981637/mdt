@@ -68,12 +68,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>Featuring a compact and elegant design, MiTAC's multi-functional dashcams offer high-resolution video capture, comprehensive driver assistance alerts, and seamless data connectivity, all of which ensure the utmost safety for drivers.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>Featuring a compact and elegant design, MiTAC's multi-functional dashcams offer high-resolution video capture, comprehensive driver assistance alerts, and seamless data connectivity, all of which ensure the utmost safety for drivers.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/4k-ultra-hd-2160p.png" alt="Premium 4K resolution">
@@ -134,12 +137,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>The expandable channels for rear, in-cabin, and side areas of the vehicle provide unparalleled protection for drivers and passengers by allowing for greater visibility and coverage of the surrounding environment. </p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+           <p>The expandable channels for rear, in-cabin, and side areas of the vehicle provide unparalleled protection for drivers and passengers by allowing for greater visibility and coverage of the surrounding environment. </p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/4+2K_dualcam.png" alt="4K+2K dual recording">
@@ -197,12 +203,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>Equipped with a large screen and a narrow bezel design, the MiTAC multifunctional integrated E-mirror type dashcam serves as your exclusive driving assistant.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>Equipped with a large screen and a narrow bezel design, the MiTAC multifunctional integrated E-mirror type dashcam serves as your exclusive driving assistant.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_all-in-one.png" alt="All-in-one design">
@@ -264,12 +273,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>A perfect combination of dashcam and radar detection, MiTAC radar combo dashcam provides multiple layers of protection to ensure all-around safety.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>A perfect combination of dashcam and radar detection, MiTAC radar combo dashcam provides multiple layers of protection to ensure all-around safety.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/Multiple-Safety-Cams.png" alt="Extended camera database">
@@ -328,12 +340,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>MiTAC connected dashcam realizes comprehensive remote monitoring :  front / rear cam recording while driving & front / rear / in-cabin cam recording when parked for the ultimate protection.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>MiTAC connected dashcam realizes comprehensive remote monitoring :  front / rear cam recording while driving & front / rear / in-cabin cam recording when parked for the ultimate protection.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/icon_LTE_Telemonitoring.png" alt="4G LTE real-time monitoring">
@@ -392,12 +407,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>With its compact and discreet design, the MiTAC DOP-type (dealer option) dashcam can be customized to seamlessly integrate with specific car brands.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>With its compact and discreet design, the MiTAC DOP-type (dealer option) dashcam can be customized to seamlessly integrate with specific car brands.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/dashcam_recorder/Seamless.png" alt="Designed for seamless car integration">

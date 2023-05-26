@@ -69,12 +69,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>在嚴苛的工作環境中，堅固性和可靠性至關重要。神達數位工業平板是專門為工作環境所設計, 適用領域包括運輸和物流、現場服務、倉儲、零售和酒店業以及車隊管理等。我們的產品設計輕巧簡約,並可根據不同產業的具體需求進行客制化設計。</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
       <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>在嚴苛的工作環境中，堅固性和可靠性至關重要。神達數位工業平板是專門為工作環境所設計, 適用領域包括運輸和物流、現場服務、倉儲、零售和酒店業以及車隊管理等。我們的產品設計輕巧簡約,並可根據不同產業的具體需求進行客制化設計。</p>
-        </div>
-
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/tablet/android_security_green.png" alt="AER認證設備">
@@ -134,12 +137,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>有效的車隊管理意味著隨時掌握資產的位置和狀態。神達數位車隊平板電腦專為車隊行車環境所設計。廣泛的連網功能整合了車載資訊，確保效率的行程追蹤和數據管理。MiTAC 車隊平板提供了車隊管理所需要的工具，充分展現車隊管理的商務價值。</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
       <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>有效的車隊管理意味著隨時掌握資產的位置和狀態。神達數位車隊平板電腦專為車隊行車環境所設計。廣泛的連網功能整合了車載資訊，確保效率的行程追蹤和數據管理。MiTAC 車隊平板提供了車隊管理所需要的工具，充分展現車隊管理的商務價值。</p>
-        </div>
-
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/tablet/android_security_green.png" alt="GMS認證設備">

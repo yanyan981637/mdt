@@ -42,11 +42,10 @@
   <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-12">	
+				<div class="col-md-10">	
 					<p>神達數位車載資訊解決方案協助車隊提升安全、效率和永續發展性。能讓依賴實體運作的企業有效利用遠端監控資料來獲取有意義的商業洞見，並優化營運。</p>
 				</div>
-			</div>	
-      
+			</div>	  
 		</div>		
 	</div>
 
@@ -67,12 +66,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>VisionMax™著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建並建立強大的安全系統，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
       <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>VisionMax™著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建並建立強大的安全系統，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
-        </div>
-
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_4G+BT.png" alt="穩定連線傳輸">
@@ -132,12 +134,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>使用神達數位 RTR解決方案，您可以克服最具挑戰性的安全、成本和服務問題——此解決方案專門為在多變天氣條件下運行的鏟雪車隊和撒鹽車隊而設計。</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
       <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>使用神達數位 RTR解決方案，您可以克服最具挑戰性的安全、成本和服務問題——此解決方案專門為在多變天氣條件下運行的鏟雪車隊和撒鹽車隊而設計。</p>
-        </div>
-
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/smart_telematics_solution/Locked_On_Route.png" alt="鎖定路線">

@@ -42,7 +42,7 @@
   <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12">
+			   <div class="col-md-10">
             <p>我們可靠且全方位的GPS 導航系統能夠消除行車時的不確定性因素。無論您是上下班通勤還是越野旅程，我們專為汽車設計的 GPS導航系統能夠讓您輕鬆到達目的地。</p>
         </div>
 			</div>	
@@ -65,12 +65,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>神達數位汽車導航系統搭配高效GPS導航軟體，配備先進的路徑規劃算法，能快速、正確地計算出您的行駛路線且提供簡單清楚的視覺和語音引導，幫助您輕鬆到達目的地。</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>神達數位汽車導航系統搭配高效GPS導航軟體，配備先進的路徑規劃算法，能快速、正確地計算出您的行駛路線且提供簡單清楚的視覺和語音引導，幫助您輕鬆到達目的地。</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/navigation/Lifetime_Map_Update.png" alt="終身地圖更新">
@@ -131,12 +134,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>神達數位越野導航為您提供一切必要的內容及逐步導航，讓您自信地探索越野小徑或市區街道。我們的TRX和TR系列導航機預裝了完整且高解析的美國地圖和超過6百萬個景點。我們的TRX Trailhead是美國最大的路徑數據庫，包括超過160,000條路徑，並且仍在持續更新擴大中。</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>神達數位越野導航為您提供一切必要的內容及逐步導航，讓您自信地探索越野小徑或市區街道。我們的TRX和TR系列導航機預裝了完整且高解析的美國地圖和超過6百萬個景點。我們的TRX Trailhead是美國最大的路徑數據庫，包括超過160,000條路徑，並且仍在持續更新擴大中。</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/navigation/Voice_Guidance.png" alt="逐項路徑 &街道導航預先安裝路徑">

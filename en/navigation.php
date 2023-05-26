@@ -41,7 +41,7 @@
   <div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12">
+			   <div class="col-md-10">
             <p>Our dependable and comprehensive GPS navigation systems for cars eliminate any uncertainty while driving. Whether you are commuting to work or embarking on an off-road journey, our navigators are here to assist you. You can effortlessly reach your destination with the aid of our specialized GPS devices designed specifically for cars.</p>
         </div>
 			</div>	
@@ -64,12 +64,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>Designed with an integrated, award-winning GPS navigation software powered by advanced routing algorithms, the MiTAC car navigation system quickly and effortlessly calculates your route. With simple, clear, visual, and audio guidance, the device helps you reach your destination with ease.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>Designed with an integrated, award-winning GPS navigation software powered by advanced routing algorithms, the MiTAC car navigation system quickly and effortlessly calculates your route. With simple, clear, visual, and audio guidance, the device helps you reach your destination with ease.</p>
         </div>
-
+			</div>	
+		</div>	
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/navigation/Lifetime_Map_Update.png" alt="Lifetime map updates">
@@ -130,12 +133,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mt-30">
-            <p>MiTAC off-road navigators provide everything you need to confidently explore OHV trails or city streets with turn-by-turn navigation. Our TRX and TR series navigators come preloaded with a high-resolution US base map and over 6 million points of interest. The TRX Trailhead, the largest navigable US trail database ever assembled, includes over 160,000 trails and is still growing.</p>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+			   <div class="col-md-10">
+         <p>MiTAC off-road navigators provide everything you need to confidently explore OHV trails or city streets with turn-by-turn navigation. Our TRX and TR series navigators come preloaded with a high-resolution US base map and over 6 million points of interest. The TRX Trailhead, the largest navigable US trail database ever assembled, includes over 160,000 trails and is still growing.</p>
         </div>
-
+			</div>	
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
             <div class="dashcam-recorder-icon text-center">
               <img class="rounded img-fluid" src="../images/navigation/Voice_Guidance.png" alt="Simple turn by turn trail & street navigation ">
