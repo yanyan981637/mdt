@@ -71,8 +71,8 @@
 		
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
-								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="用MiVue Pro App設定行車記錄器">
-								<p>用MiVue Pro App設定行車記錄器</p>
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="用MiVue™ Pro App設定行車記錄器">
+								<p>用MiVue™ Pro App設定行車記錄器</p>
 							</div>
 						</div>
 
