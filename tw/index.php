@@ -58,7 +58,10 @@
 				<div class="item item--itokin">
 					<a href="dashcam-recorder.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2><span></span></h3>
+							<h3 class="FC_W ttl">
+								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2>
+								<span></span>
+							</h3>
 							<p class="leads">
 								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境。</span>
 							</p>

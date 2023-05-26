@@ -32,8 +32,8 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-          <li><a href="#industrial-tablet">工業用平板</a></li>
-					<li><a href="#fleet-tablet">車隊用平板</a></li>
+          <li><a href="#industrial-tablet">工業平板</a></li>
+					<li><a href="#fleet-tablet">車隊平板</a></li>
         </ul>
 			</div>
 		</div>

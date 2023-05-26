@@ -260,3 +260,9 @@ text-decoration: underline;
     text-decoration: none;
   }
 }
+
+/* index */
+.p-case-list-index .areas .item .txt-wrap .h3{
+  font-size: 2.5rem;
+  height: 70px;
+}
