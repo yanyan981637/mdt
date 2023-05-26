@@ -55,7 +55,7 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K145c_W.png" />
+										<img src="../images/video-telematics/K145C_K245C_image_1.png" />
 									</div>
 
 									<div class='swiper-slide'>

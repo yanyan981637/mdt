@@ -415,3 +415,7 @@ a svg {
 #fleet-management h3{
   text-shadow: none;
 }
+
+.productDetail .swiper-slide:not(.swiper-slide-active) {
+  opacity: 0!important;
+}

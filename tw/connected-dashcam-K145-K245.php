@@ -57,7 +57,7 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K145_W.png" />
+										<img src="../images/video-telematics/K145_K245_image_1.png" />
 									</div>
 
 									<div class='swiper-slide'>
@@ -350,7 +350,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>電源線 (含ACC訊號)</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-1.png" />
+						<img src="../images/video-telematics/Premium_Cable_20230524.png" />
 						<p class="st2">
 							Standard accessory
 						</p>
