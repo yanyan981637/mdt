@@ -53,10 +53,10 @@
       <div class="bg-img" style="background-image: url('../images/navigation/Car_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
-            <div class="col-md-4 img mg-auto">
-              <img src="../images/navigation/Car_Navigation-banner-product.png" alt="Car Navigation">
+            <div class="col-md-5 img mg-auto order-2 order-md-1">
+              <img src="../images/navigation/Car_Navigation-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="Car Navigation">
             </div>
-            <div class="col-md-8 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>Car Navigation</h2>
               <h4>A perfect combination of dashcam & radar detection</h4>
             </div>	
@@ -119,10 +119,10 @@
       <div class="bg-img" style="background-image: url('../images/navigation/Off_Road_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
-            <div class="col-md-4 img mg-auto">
-              <img src="../images/navigation/Off_Road_Navigation-banner-product.png" alt="Off Road Navigation">
+            <div class="col-md-5 img mg-auto order-2 order-md-1">
+              <img src="../images/navigation/Off_Road_Navigation-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="Off Road Navigation">
             </div>
-            <div class="col-md-8 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>Off Road Navigation</h2>
               <h4>Explore more with the ultimate all – terrain GPS navigators</h4>
             </div>	

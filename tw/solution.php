@@ -56,10 +56,10 @@
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/VT_Solution-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
-            <div class="col-md-5 img mg-auto">
-            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" alt="VisonMax™">
+            <div class="col-md-5 img mg-auto order-2 order-md-1">
+            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax™">
             </div>
-            <div class="col-md-7 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>VisonMax™</h2>
               <h4>強大的全景監控、領先的安全保障</h4>
             </div>	
@@ -121,10 +121,10 @@
       <div class="bg-img" style="background-image: url('../images/smart_telematics_solution/Return_to_Route-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
-            <div class="col-md-5 img mg-auto">
-            <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" alt="路徑返回">
+            <div class="col-md-5 img mg-auto order-2 order-md-1">
+            <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="路徑返回">
             </div>
-            <div class="col-md-7 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>路徑返回</h2>
               <h4>路線規劃, 管理, 監控與執行</h4>
             </div>	

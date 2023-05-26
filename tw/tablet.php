@@ -58,13 +58,13 @@
       <div class="bg-img" style="background-image: url('../images/tablet/Industrial-Tablet-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2">
-            <div class="col-md-12 img mg-auto">
-              <img src="../images/tablet/Industrial-Tablet-product.png" alt="工業平板">
-            </div>
             <div class="col-md-12 align-self-center mg-auto">	
               <h2>工業平板</h2>
               <h4>强大耐用，適用於環境嚴苛的工作場所。</h4>
-            </div>	
+            </div>
+            <div class="col-md-12 img mg-auto">
+              <img src="../images/tablet/Industrial-Tablet-product.png" alt="工業平板">
+            </div>
           </div>		
         </div>
       </div>

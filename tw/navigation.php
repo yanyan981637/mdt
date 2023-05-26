@@ -54,10 +54,10 @@
       <div class="bg-img" style="background-image: url('../images/navigation/Car_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
-            <div class="col-md-4 img mg-auto">
-              <img src="../images/navigation/Car_Navigation-banner-product.png" alt="汽車導航">
+            <div class="col-md-4 img mg-auto order-2 order-md-1">
+              <img src="../images/navigation/Car_Navigation-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="汽車導航">
             </div>
-            <div class="col-md-8 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>汽車導航</h2>
               <h4>自信地駕駛,更快到達目的地</h4>
             </div>	
@@ -120,10 +120,10 @@
       <div class="bg-img" style="background-image: url('../images/navigation/Off_Road_Navigation-banner.jpg')">
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
-            <div class="col-md-4 img mg-auto">
-              <img src="../images/navigation/Off_Road_Navigation-banner-product.png" alt="越野導航">
+            <div class="col-md-5 img mg-auto order-2 order-md-1">
+              <img src="../images/navigation/Off_Road_Navigation-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="越野導航">
             </div>
-            <div class="col-md-8 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>越野導航</h2>
               <h4>越野GPS導航帶您探索更多可能性</h4>
             </div>	
