@@ -266,11 +266,11 @@
 					<img src="../images/auxiliary_software/MioNext-banner_ch.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
 
-			<div class="col-md-12 mt-30">
+			<div class="col-md-12 ">
         <!-- <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">瞭解更多</a>
 				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">應用於聯網型行車記錄器</a> -->
 
-				<hr class="mt-40">
+				<hr class="mt-40 hr">
       </div>
 
 			</div>

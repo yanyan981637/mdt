@@ -265,7 +265,7 @@
 					<img src="../images/auxiliary_software/MioNext-banner.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
 
-				<div class="col-md-12 mt-30">
+				<div class="col-md-12">
 					<!-- <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
 					<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a> -->
 

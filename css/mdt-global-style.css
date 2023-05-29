@@ -486,6 +486,13 @@ a svg {
 .hr{
   margin: 60px 0 0 0
 }
-.section .container .col-md-12 a {
+.section .container .col-md-12 a,
+.productDetail .container .row .btn {
   margin: 0 10px;
-} 
+}
+.hr_{
+  margin: 30px 0 0 0;
+}
+.csr-content ul li{
+  font-size: 1.4rem;
+}

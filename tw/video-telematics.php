@@ -86,12 +86,12 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K165-K265.php">瞭解更多</a>
-				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
+					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K165-K265.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
-				<div class="col-md-12 mt-30">
-				   <hr class="mt-40 hr">
+				<div class="col-md-12 ">
+				   <hr class="mt-40 hr_">
          </div>
       </div>
     </div>
@@ -126,12 +126,12 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145-K245.php">瞭解更多</a>
-				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
+					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K145-K245.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
-				<div class="col-md-12 mt-30">
-				   <hr class="mt-40 hr">
+				<div class="col-md-12 ">
+				   <hr class="mt-40 hr_">
          </div>
       </div>
     </div>
@@ -171,12 +171,12 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K145C-K245C.php">瞭解更多</a>
-				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
+					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K145C-K245C.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
-				<div class="col-md-12 mt-30">
-				   <hr class="mt-40 hr">
+				<div class="col-md-12 ">
+				   <hr class="mt-40 hr_">
          </div>
       </div>
     </div>
@@ -210,13 +210,13 @@
 					</div>
 
 					<div>
-					  <a class="btn btn-primary btn-lg btn-round m-3" href="connected-dashcam-K220.php">瞭解更多</a>
-				    <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="./vt-solution.php">車載視訊解決方案</a>
+					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K220.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>
 
 				<div class="col-md-12">
-				   <hr class="mt-40 hr">
+				   <hr class="mt-40 hr_">
          </div>
       </div>
     </div>
