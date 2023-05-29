@@ -37,7 +37,7 @@
 					<li><a href="connected-dashcam-K165-K265.php">Premium - K165/K265</a></li>
 					<li><a href="connected-dashcam-K145-K245.php">Advanced - K145/K245</a></li>
 					<li><a href="connected-dashcam-K145C-K245C.php">Pro - K145C/K245C</a></li>
-					<li><a href="connected-dashcam-K220.php">Entry - K220</a></li>
+					<li><a href="connected-dashcam-K220.php" class="active">Entry - K220</a></li>
         </ul>
 			</div>
 		</div>

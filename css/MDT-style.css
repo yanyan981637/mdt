@@ -8370,8 +8370,9 @@ input[type=number]::-webkit-outer-spin-button{
 	padding: 10px;
 }
 .section.productDetail .pdt_desc_ico img{
-	max-width: 110px;
     padding: 8px;
+		height: 50px;
+		width: auto;
 }
 .section.productDetail ul li{
     font-size: 1.4rem;
