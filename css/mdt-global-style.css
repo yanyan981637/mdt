@@ -447,7 +447,7 @@ a svg {
 }
 
 .csr-content p a{
-  margin: 0 5px;
+  margin: 0 20px 0 0;
 }
 /* banner style */
 .second-bannner h2,
@@ -490,9 +490,9 @@ a svg {
 .productDetail .container .row .btn {
   margin: 0 10px;
 }
-.hr_{
+/* .hr_{
   margin: 30px 0 0 0;
-}
+} */
 .csr-content ul li{
   font-size: 1.4rem;
 }

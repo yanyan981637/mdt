@@ -90,7 +90,7 @@
 					</div>
 				</div>
 				<div class="col-md-12">
-				   <hr class="mt-40 hr_">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
@@ -99,7 +99,7 @@
   <!-- Advanced - K145/K245 -->
   <div class="section  productDetail" id="advancedK145_K245">
 	  <div class="container">
-      <div class="row col-md-12">
+      <div class="row col-md-12 mt-30">
 			  <div class="col-md-6 mt-30">
 					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245" class="rounded mx-auto d-block img-fluid">
 			  </div>	
@@ -130,7 +130,7 @@
 					</div>
 				</div>
 				<div class="col-md-12 ">
-				   <hr class="mt-40 hr_">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
@@ -139,7 +139,7 @@
   <!-- Pro - K145C/K245C -->
   <div class="section  productDetail" id="proK145C_K245C">
 	  <div class="container">
-      <div class="row col-md-12">
+      <div class="row col-md-12 mt-30">
 			  <div class="col-md-6 mt-30">
 					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C" class="rounded mx-auto d-block img-fluid">
 			  </div>	
@@ -175,7 +175,7 @@
 					</div>
 				</div>
 				<div class="col-md-12 ">
-				   <hr class="mt-40 hr_">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
@@ -184,7 +184,7 @@
   <!-- Entry - K220 -->
   <div class="section  productDetail" id="entryK220">
 	  <div class="container">
-      <div class="row col-md-12">
+      <div class="row col-md-12 mt-30">
 			  <div class="col-md-6 mt-30">
 					<img src="../images/video-telematics/K220_image_1.png" alt="K220" class="rounded mx-auto d-block img-fluid">
 			  </div>	
@@ -215,13 +215,13 @@
 				</div>
 
 				<div class="col-md-12">
-				   <hr class="mt-40 hr_">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
   </div>
 
-	<div class="section">
+	<div class="section mt-30">
 	  <div class="container">
 			<div class="row">
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
