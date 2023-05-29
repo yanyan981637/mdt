@@ -58,7 +58,7 @@
             <div class="col-md-5 img mg-auto order-2 order-md-1">
             <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax™">
             </div>
-            <div class="col-md-7 align-self-center mg-auto">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>車載視訊解決方案 - VisionMax™</h2>
               <h4>強大的全景監控、領先的安全保障</h4>
             </div>	
