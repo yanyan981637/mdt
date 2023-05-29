@@ -29,7 +29,7 @@
 			<div class="row">
         <div class="col-12 d-lg-none">
         <a class="SecTopNav_title" href="javascript:void(0);">
-					Connected dashcam
+				聯網型行車記錄器
         </a>
         <div class="bg"></div>
         </div>
@@ -93,7 +93,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K220_datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="../Downloads/202304/Mitac_K220_datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
@@ -113,9 +113,9 @@
 						<li>6軸加速度計和陀螺儀</li>
 						<li>汽車電瓶放電防護</li>
 					</ul>
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
 					</div>
 				</div>
 			</div>	
@@ -180,7 +180,7 @@
 						</div>	
 				</div>
 			</div>
-			<div class="data-table product-specs-table">
+			<div class="data-table product-specs-table table-responsive">
 				<table>
 					<tbody>
 						<tr>
@@ -266,7 +266,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -275,7 +275,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/video-telematics/P.26-5.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -284,7 +284,7 @@
 						<h5>改良式供電車載資料傳輸接頭</h5>
 						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -297,7 +297,7 @@
 						<h5>遠端手動錄影觸發按鈕</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-5.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -306,7 +306,7 @@
 						<h5>OBD電源供應線</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-1.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -315,13 +315,13 @@
 						<h5>電源線 (含ACC訊號)</h5>
 						<img src="../images/connected_dashcam/pdt/p23-2.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載配件規格書</a>
 					</div>
 		</div>
 	</div>

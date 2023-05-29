@@ -76,7 +76,7 @@
 							var swiper = new Swiper('.swiper-container', {
 								slidesPerView: 1,
 								loop: true,
-								spaceBetween: 1000,
+								// spaceBetween: 1000,
 								effect: 'fade',
 								centeredSlides: true,
 								//autoHeight: true,
@@ -120,10 +120,10 @@
 						<li>6-axis Accelerometer & Gyro</li>
 						<li>Battery discharge prevention</li>
 					</ul>
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/aws.png" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/aws.png" />
 					</div>
 				</div>
 			</div>	
@@ -187,7 +187,7 @@
 						</div>	
 				</div>
 			</div>
-			<div class="data-table product-specs-table">
+			<div class="data-table product-specs-table table-responsive">
 				<table>
 					<tbody>
 						<tr>
@@ -215,9 +215,19 @@
 							<th class="label">Wireless Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>IEEE 802.11 a/b/g/n/ac (2.4GHz & 5GHz)</li>
+									<li>IEEE 802.11 a/ b/ g/ n/ ac (2.4 GHz & 5 GHz)</li>
 									<li>Bluetooth® 4.2 BLE</li>
-									<li>GPS, QZSS, GLONASS, Galileo (supports ADR**)</li>
+									<li>GPS, QZSS, GLONASS, Galileo</li>
+									<li>LTE Cat. 6 (3G/ 2G fallback*)</li>
+									<li>EMEA & Australia</li>
+									<li>Australia LTE FDD Band: 1/ 2/ 3/ 4/ 5/ 7/ 8/ 20/ 28;</li>
+									<li>LTE TDD Band: 38/ 39/ 40/ 41;	</li>
+									<li>WCDMA Band: 1/ 2/ 4/ 5/ 8;</li>
+									<li>GSM: 850/ 900/ 1800/ 1900 MHz</li>
+									<li>North America</li>
+									<li>LTE FDD Band: 2/ 4/ 5/ 7/ 12/ 13/ 14/ 17/ 25/ 26/ 66/ 71;</li>
+									<li>LTE TDD Band: 41;</li>
+									<li>WCDMA Band: 2/ 4/ 5;</li>
 								</ul>
 							</td>
 						</tr>

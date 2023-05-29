@@ -38,7 +38,9 @@ text-decoration: none;
   height: auto;
   margin-right: 20px;
 }
-
+.vt-slolution-product .product_info .product_desc a {
+  font-size: 1.2rem;
+}
 .vt-slolution-product h4 .h5{
   color: #00519c;
 }
@@ -220,6 +222,7 @@ text-decoration: underline;
   .product-nav ul {
     position: static;
     background-color: transparent;
+    text-align: center;
   }
   .product-nav li  a{
     position: relative;

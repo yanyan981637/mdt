@@ -121,13 +121,13 @@
 						<li>6-axis Accelerometer & Gyro</li>
 						<li>Battery discharge protection</li>
 					</ul>
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/ATT.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/PTCRB.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/verizon.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/ATT.png" />
+						<img src="../images/connected_dashcam/PTCRB.png" />
+						<img src="../images/connected_dashcam/verizon.png" />
+						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 					</div>
 
 				</div>
@@ -193,7 +193,7 @@
 						</div>	
 				</div>
 			</div>
-			<div class="data-table product-specs-table">
+			<div class="data-table product-specs-table table-responsive">
 				<table>
 					<tbody>
 						<tr>
@@ -406,7 +406,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-2.png" />
+						<img src="../images/connected_dashcam/pdt/145_Entry_cable.png" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -427,7 +427,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PREMIUM CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-3A.png" />
+						<img src="../images/connected_dashcam/pdt/Premium_Cable_20230524.png" />
 						<p class="st2">
 							Sold separately
 						</p>

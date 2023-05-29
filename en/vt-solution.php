@@ -170,43 +170,24 @@
 				<div class="col-md-12 tc pt-60 pb-60 border-top-bottom">
 				  <h3 class="mb-40">Product Information</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
-					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-xl-block" usemap="#product-info-xl">
+					<div>
+						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
 					</div>
 					<map name="product-info-xl">
-						<area shape="rect" coords="25,170, 215, 191" alt="" href="#connected_CDR"></area>
-						<area shape="rect" coords="286,10, 422, 30" alt="" href="#dms_cdr"></area>
-						<area shape="rect" coords="627,10, 755, 30" alt="" href="#rear_cam"></area>
-						<area shape="rect" coords="865,50, 990, 70" alt="" href="#side_cam"></area>
-						<area shape="rect" coords="130,590, 280, 615" alt="" href="#accessory"></area>
-						<area shape="circle" coords="119,307,97"  alt="" href="#connected_CDR">
-						<area shape="circle" coords="359,139,97"  alt="" href="#dms_cdr">
-						<area shape="circle" coords="693,139,97"  alt="" href="#rear_cam">
-						<area shape="circle" coords="928,185,97"  alt="" href="#side_cam">
-						<area shape="circle" coords="187,712,97"  alt="" href="#accessory">
-						<area shape="circle" coords="553,693,97"  alt="" href="#accessory">
-					</map>
-           <!-- 在 lg 尺寸的屏幕上显示 -->
-					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"   alt="" class="img-fluid 	d-none d-lg-block d-xl-none" usemap="#product-info-lg">
-						<!-- <p style="position:absolute; width: 190px; height: 30px; background:red; left:0; top: 0; margin:0;"></p>
-						<p style="position:absolute;width: 164px;height: 164px;left: 0; top: 0;margin: 0;border-radius: 50%;border: solid 1px red;"></p> -->
-					</div>
-					<map name="product-info-lg">
-						<area shape="rect" coords="20,143, 178, 160" alt="" href="#connected_CDR"></area>
-						<area shape="rect" coords="244,8, 351,24" alt="" href="#dms_cdr"></area>
-						<area shape="rect" coords="528,8, 634, 24" alt="" href="#rear_cam"></area>
-						<area shape="rect" coords="726,46, 830, 62" alt="" href="#side_cam"></area>
-						<area shape="rect" coords="112,498, 220, 515" alt="" href="#accessory"></area>
-						<area shape="circle" coords="102,259,82"  alt="" href="#connected_CDR">
-						<area shape="circle" coords="300,117,82"  alt="" href="#dms_cdr">
-						<area shape="circle" coords="590,117,82"  alt="" href="#rear_cam">
-						<area shape="circle" coords="779,154,82"  alt="" href="#side_cam">
-						<area shape="circle" coords="168,602,82"  alt="" href="#accessory">
-						<area shape="circle" coords="462,590,82"  alt="" href="#accessory">
+						<area shape="rect" coords="18,129,163,149" alt="" href="#connected_CDR"></area>
+						<area shape="rect" coords="210,5,338,25" alt="" href="#dms_cdr"></area>
+						<area shape="rect" coords="475,5,592,25" alt="" href="#rear_cam"></area>
+						<area shape="rect" coords="664,39, 757,59" alt="" href="#side_cam"></area>
+						<area shape="rect" coords="124,451, 184, 475" alt="" href="#accessory"></area>
+						<area shape="circle" coords="91,235,75"  alt="" href="#connected_CDR">
+						<area shape="circle" coords="274,107,75"  alt="" href="#dms_cdr">
+						<area shape="circle" coords="530,107,75"  alt="" href="#rear_cam">
+						<area shape="circle" coords="710,141,75"  alt="" href="#side_cam">
+						<area shape="circle" coords="153,552,75"  alt="" href="#accessory">
+						<area shape="circle" coords="423,530,75"  alt="" href="#accessory">
 					</map>
 					<!-- md 尺寸的屏幕上显示 -->
-					<div style="position: relative;">
+					<div>
 						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
 					</div>
 					<map name="product-info-md">
@@ -241,9 +222,9 @@
 						<span class="h5 h5_color">Connected CDR</span>
 					</h4>
 					<div class="row product_info">
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img src="../images/smart_telematics_solution/u110.png" class="img-fluid rounded" alt="K265(Dual cam)/K165(Single cam)">
+								<img src="../images/smart_telematics_solution/k165_k265_200x200.png" class="img-fluid rounded" alt="K265(Dual cam)/K165(Single cam)">
 							</div>
 							<div class="product_desc">
 								<h5>K265(Dual cam)/K165(Single cam)</h5>
@@ -265,9 +246,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img class="img-fluid rounded" src="../images/smart_telematics_solution/Gemini_SE_Dual_Cam_3.png" alt="K245c(Dual cam)/K145c(Single cam)">
+								<img class="img-fluid rounded" src="../images/smart_telematics_solution/k245c_200x200.png" alt="K245c(Dual cam)/K145c(Single cam)">
 							</div>
 							<div class="product_desc">
 								<h5>K245c(Dual cam)/K145c(Single cam)</h5>
@@ -289,9 +270,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img class="img-fluid rounded" src="../images/smart_telematics_solution/MioEYE_K245-01.jpg" alt="K245(Dual cam)/K145(Single cam)">
+								<img class="img-fluid rounded" src="../images/smart_telematics_solution/MioEYE_K245_200x200.png" alt="K245(Dual cam)/K145(Single cam)">
 							</div>
 							<div class="product_desc">
 								<h5>K245(Dual cam)/K145(Single cam)</h5>
@@ -313,9 +294,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img class="img-fluid rounded" src="../images/smart_telematics_solution/00_ID_MAIN_SPRINT_A_1129.asm.1088b.png" alt="K220(Dual cam)">
+								<img class="img-fluid rounded" src="../images/smart_telematics_solution/k220_200x200.png" alt="K220(Dual cam)">
 							</div>
 							<div class="product_desc">
 								<h5>K220(Dual cam)</h5>
@@ -346,9 +327,9 @@
 						<span class="h5 h5_color">DMS CDR</span>
 					</h4>
 					<div class="row product_info">
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img src="../images/smart_telematics_solution/i15.jpg" class="img-fluid rounded" alt="I15">
+								<img src="../images/smart_telematics_solution/i15_i25_200x200.png" class="img-fluid rounded" alt="I15">
 							</div>
 							<div class="product_desc">
 								<h5>I15</h5>
@@ -370,9 +351,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img class="img-fluid rounded" src="../images/smart_telematics_solution/i25.jpg" alt="K245c(Dual cam)/K145c(Single cam)">
+								<img class="img-fluid rounded" src="../images/smart_telematics_solution/i15_i25_200x200.png" alt="I25">
 							</div>
 							<div class="product_desc">
 								<h5>I25</h5>
@@ -403,9 +384,9 @@
 						<span class="h5 h5_color">Rear Cam</span>
 					</h4>
 					<div class="row product_info">
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img src="../images/smart_telematics_solution/a50.jpg" class="img-fluid rounded" alt="A50">
+								<img src="../images/smart_telematics_solution/A50_camera_200x200.png" class="img-fluid rounded" alt="A50">
 							</div>
 							<div class="product_desc">
 								<h5>A50</h5>
@@ -427,9 +408,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img class="img-fluid rounded" src="../images/smart_telematics_solution/Navman_A60_camera_angle-L45.jpg" alt="A60">
+								<img class="img-fluid rounded" src="../images/smart_telematics_solution/A60_camera_200x200.png" alt="A60">
 							</div>
 							<div class="product_desc">
 								<h5>A60</h5>
@@ -460,9 +441,9 @@
 						<span class="h5 h5_color">Side cam</span>
 					</h4>
 					<div class="row product_info">
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img src="../images/smart_telematics_solution/untitled.748.png" class="img-fluid rounded" alt="S10">
+								<img src="../images/smart_telematics_solution/s10_200x200.png" class="img-fluid rounded" alt="S10">
 							</div>
 							<div class="product_desc">
 								<h5>S10</h5>
@@ -493,9 +474,9 @@
 						<span class="h5 h5_color">Accessory</span>
 					</h4>
 					<div class="row product_info">
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img src="../images/smart_telematics_solution/20211229_per.1500all.png" class="img-fluid rounded" alt="SmartGO">
+								<img src="../images/smart_telematics_solution/smartgo_new_200x200.png" class="img-fluid rounded" alt="SmartGO">
 							</div>
 							<div class="product_desc">
 								<h5>SmartGO</h5>
@@ -517,9 +498,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex mt-30">
+						<div class="col-md-6 d-flex align-items-center mt-30">
 							<div class="product_img">
-								<img class="img-fluid rounded" src="../images/smart_telematics_solution/Panic_button_0228.1103a.png" alt="K245c(Dual cam)/K145c(Single cam)">
+								<img class="img-fluid rounded" src="../images/smart_telematics_solution/Panic button_200x200.png" alt="Panic button">
 							</div>
 							<div class="product_desc">
 								<h5>Panic button</h5>

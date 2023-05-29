@@ -76,13 +76,13 @@
 						<li>汽車電瓶放電防護</li>
 						<!-- <li>通過Verizon, AT&T, T-Mobile 等運營商認證</li> -->
 					</ul>
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/ATT.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/PTCRB.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/verizon.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/ATT.png" />
+						<img src="../images/connected_dashcam/PTCRB.png" />
+						<img src="../images/connected_dashcam/verizon.png" />
+						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 					</div>
 
 					<div>
@@ -119,10 +119,10 @@
 						<li>6軸加速度計和陀螺儀</li>
 						<li>汽車電瓶放電防護</li>
 					</ul>
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/aws.png" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/aws.png" />
 					</div>
 
 					<div>
@@ -161,13 +161,13 @@
 						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
 					</ul>
 
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/aws.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/ATT.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/firstnet.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/aws.png" />
+						<img src="../images/connected_dashcam/ATT.png" />
+						<img src="../images/connected_dashcam/firstnet.png" />
+						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 					</div>
 
 					<div>
@@ -204,9 +204,9 @@
 						<li>6軸加速度計和陀螺儀</li>
 						<li>汽車電瓶放電防護</li>
 					</ul>
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
 					</div>
 
 					<div>

@@ -470,7 +470,7 @@ span.more{
   -webkit-writing-mode: vertical-lr;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  z-index: 999;
+  z-index: 1030;
   top: 45%;
   left: 0;
   line-height: 25px;

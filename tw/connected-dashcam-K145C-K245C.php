@@ -29,7 +29,7 @@
 			<div class="row">
         <div class="col-12 d-lg-none">
         <a class="SecTopNav_title" href="javascript:void(0);">
-					行車記錄器
+				聯網型行車記錄器
         </a>
         <div class="bg"></div>
         </div>
@@ -98,7 +98,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145C-245C_Datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="../Downloads/202304/Mitac_K145C-245C_Datasheet_20230419.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
@@ -120,13 +120,13 @@
 						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
 					</ul>
 
-					<div class="row pt_pb_1r">
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/android.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/Qualcomm.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/aws.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/ATT.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/firstnet.png" /></div>
-						<div class="col-4 col-md-3"><img src="../images/connected_dashcam/T-Mobile.jpg" /></div>
+					<div class="pdt_desc_ico">
+						<img src="../images/connected_dashcam/android.png" />
+						<img src="../images/connected_dashcam/Qualcomm.png" />
+						<img src="../images/connected_dashcam/aws.png" />
+						<img src="../images/connected_dashcam/ATT.png" />
+						<img src="../images/connected_dashcam/firstnet.png" />
+						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 					</div>
 				</div>
 			</div>	
@@ -192,7 +192,7 @@
 						</div>	
 				</div>
 			</div>
-			<div class="data-table product-specs-table">
+			<div class="data-table product-specs-table table-responsive">
 				<table>
 					<tbody>
 						<tr>
@@ -305,7 +305,7 @@
 						<h5>外置鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -314,7 +314,7 @@
 						<h5>外置鏡頭</h5>
 						<img src="../images/video-telematics/P.26-5.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -323,7 +323,7 @@
 						<h5>改良式供電車載資料傳輸接頭</h5>
 						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
@@ -334,25 +334,25 @@
 						<h5>遠端手動錄影觸發按鈕</h5>
 						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>電源線 (含ACC訊號)</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-1.png" />
+						<img src="../images/connected_dashcam/pdt/145_Entry_cable.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>全功能線 (含所有功能訊號與電源的線材)</h5>
+						<h5>全功能線 (含所有功能訊號與電源)</h5>
 						<img src="../images/video-telematics/Premium_Cable_20230524.png" />
 						<p class="st2">
-						  Sold separately
+						  可單獨販售
 						</p>
 					</div>
 				</div>
@@ -363,13 +363,13 @@
 						<h5>集線套</h5>
 						<img src="../images/connected_dashcam/pdt/P.24-5.png" />
 						<p class="st2">
-							Sold separately
+							可單獨販售
 						</p>
 					</div>
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載資料表</a>
+						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載配件規格書</a>
 					</div>
 		</div>
 	</div>

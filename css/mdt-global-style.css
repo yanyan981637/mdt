@@ -19,6 +19,10 @@ a svg {
   color: #313139;
 }
 
+.max-850 {
+  max-width: 850px;
+}
+
 @media (max-width: 767px) {
   div a.btn:not(.inline){
     display: block;
@@ -44,7 +48,7 @@ a svg {
 	position: fixed;
   top: 87px;
   left: 0;
-  z-index: 998;
+  z-index: 4000;
 }
 .SecTopNav ul{
   margin: 0;
@@ -52,7 +56,7 @@ a svg {
   top: 100%;
   left: 0;
   background-color: #f7f7f7;
-  z-index: 3999;
+  z-index: 4000;
 }
 .SecTopNav ul li{
   list-style: none;
@@ -335,9 +339,11 @@ a svg {
   font-weight: bold;
 }
 .vt-solution-section .content ul {
-  padding-left: 20px;
+  padding-left: 0;
 }
-
+.vt-solution-section .content ul li{
+  font-size: 1.3rem;
+}
 
 .section.padding-top-bottom.background-white p{
   margin:0;

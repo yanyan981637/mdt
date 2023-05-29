@@ -182,7 +182,7 @@
 						</div>	
 				</div>
 			</div>
-			<div class="data-table product-specs-table">
+			<div class="data-table product-specs-table table-responsive">
 				<table>
 					<tbody>
 						<tr>
