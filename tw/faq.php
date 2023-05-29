@@ -5,7 +5,7 @@
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-  <!-- TODO banner 待補  -->
+
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/Hero_slider/FAQ-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
@@ -25,7 +25,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">	
 					<div class="call-box-4">
-            <h2 class="h3">聯網型行車記錄器 & VisionMax 常見問題</h2>
+            <h2 class="h3">聯網型行車記錄器 & VisionMax™ 常見問題</h2>
 						<p class="ContGen">請參考下列聯網型行車紀錄器的常見問題</p>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq3" role="button" aria-expanded="false" aria-controls="faq3">Car Mount要如何安裝才是最佳方法 ?</a>
+              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq3" role="button" aria-expanded="false" aria-controls="faq3">車架要如何安裝才是最佳方法 ?</a>
               <div class="collapse"  id="faq3">
                 <ul class="card card-body">
                   <li>安裝後要靜置建議24小時在安裝設備（至少1小時）</li>
@@ -81,7 +81,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">	
-        <h3 class="h4 FC_mdtB">軟體：VisionMax</h3>
+        <h3 class="h4 FC_mdtB">軟體：VisionMax™</h3>
         <ol>
           <li>
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq4" role="button" aria-expanded="false" aria-controls="faq4">當我遇到設備不能上網如何處置？</a>
@@ -140,7 +140,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">How do I log in to the VisionMax backend management software？</a>
+              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">如何登入VisionMax™後台管理軟體?</a>
               <div class="collapse"  id="faq9">
                 <ul class="card card-body">
                   <li>請參閱 <a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a> 附錄</li>
@@ -152,7 +152,7 @@
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq10" role="button" aria-expanded="false" aria-controls="faq10">如果機器事件錄影過於敏感(或遲鈍)該如何處置 ?</a>
               <div class="collapse"  id="faq10">
                 <ul class="card card-body">
-                  <li>進入VisionMax設定，將事件觸發靈敏度進行調整（可調Low到High）</li>
+                  <li>進入VisionMax™設定，將事件觸發靈敏度進行調整（可調Low到High）</li>
                 </ul>
               </div>
           </li>

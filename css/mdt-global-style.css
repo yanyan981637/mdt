@@ -356,8 +356,40 @@ a svg {
 /* faq */
 .faq_content ol>li>a{
   color:rgb(49, 49, 57);
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  transition: all .3s linear;
 }
-
+.faq_content ol>li>a::after{
+  content: "";
+  border-color: #fff;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-left: 8px;
+  -webkit-transition: transform .3s linear;
+  -moz-transition: transform .3s linear;
+  -o-transition: transform .3s linear;
+  -ms-transition: transform .3s linear;
+  transition: transform .3s linear;
+}
+.faq_content ol>li>a[aria-expanded=true]::after{
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+.faq_content ol>li>a[aria-expanded=true],
+.faq_content ol>li:hover > a{
+  color: #62dcff;
+  text-decoration: underline;
+}
 .faq_content ul li>a {
   text-decoration: underline;
 }
@@ -367,14 +399,16 @@ a svg {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .faq_content ol {
   padding-left: 20px;
 }
 .faq_content ol > li {
-  margin-top: 30px;
+  margin-top: 15px;
+  
 }
+
 /* faq */
 
 /* csr */

@@ -5,7 +5,6 @@
 	================================================== -->
 	<!-- Hero Block
 	================================================== -->
-  <!-- TODO banner 待補  -->
 	<div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/Hero_slider/FAQ-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
@@ -25,7 +24,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">	
 					<div class="call-box-4">
-            <h2 class="h3">Connected Dashcam & VisionMax FAQs</h2>
+            <h2 class="h3">Connected Dashcam & VisionMax™ FAQs</h2>
 						<p class="ContGen">Frequently asked questions about products for your reference</p>
 					</div>
 				</div>
@@ -81,7 +80,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">	
-        <h3 class="h4 FC_mdtB">Software：VisionMax</h3>
+        <h3 class="h4 FC_mdtB">Software：VisionMax™</h3>
         <ol>
           <li>
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq4" role="button" aria-expanded="false" aria-controls="faq4">What should I do if the device cannot access the internet？</a>
@@ -140,7 +139,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">How do I log in to the VisionMax backend management software？</a>
+              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">How do I log in to the VisionMax™ backend management software？</a>
               <div class="collapse"  id="faq9">
                 <ul class="card card-body">
                   <li>Please refer to the appendix of the <a href="/Downloads/faq/VisionMax_Quick_start_Guide_English_20230218.pdf" target="_blank">Quick Start Guide</a></li>
@@ -152,7 +151,7 @@
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq10" role="button" aria-expanded="false" aria-controls="faq10">What should be done if the machine's event recording sensitivity is too high (or too low)？</a>
               <div class="collapse"  id="faq10">
                 <ul class="card card-body">
-                  <li>Go into the settings of VisionMax and adjust the event trigger sensitivity (can be adjusted from Low to High).</li>
+                  <li>Go into the settings of VisionMax™ and adjust the event trigger sensitivity (can be adjusted from Low to High).</li>
                 </ul>
               </div>
           </li>

@@ -227,7 +227,7 @@
 			<div class="row">
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
-					<h4 class="h5" style="color:#2449a8;">關於車載視訊和VisionMax的常見問題，供您參考。</h4>
+					<h4 class="h5" style="color:#2449a8;">關於車載視訊和VisionMax™的常見問題，供您參考。</h4>
 					<div>
 						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
 						</div>
