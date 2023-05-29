@@ -45,7 +45,7 @@
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12">
+			   <div class="col-md-10">
             <p>Effective Fleet Management means knowing their wherabouts and status of your assets at any given time. MiTAC Fleet Tablets are purpose-built for the toughest automotive environments. Extensive connectivity capabilities and a dedicated fleet cradle for Telematics integration ensures effortless tracking and data capture. MiTAC Fleet Tablets offer the technology needed to get the most out of your business.</p>
         </div>
 			</div>	

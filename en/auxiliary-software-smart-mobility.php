@@ -40,7 +40,7 @@
 	<div class="section over-hide" id="mivue-pro">
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-12">
 				<h3 class="h3">MiVue™ Pro App</h3>
 					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
 					<p>MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
@@ -54,7 +54,7 @@
 					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
 					<p>MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
 				</div> -->
-				<div class="col-md-6 col-lg-7 align-items-stretch mt_20_">
+				<div class="col-md-6 col-lg-7 align-items-stretch mt_30_">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -106,10 +106,10 @@
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=Eih0I6GpGoo" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras?use_situation_dvr=248" target="_blank">Apply to Dashcam(WIFI models only)</a>
+        <a class="btn btn-primary btn-lg btn-round" href="https://www.youtube.com/watch?v=Eih0I6GpGoo" target="_blank">Learn More</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras?use_situation_dvr=248" target="_blank">Apply to Dashcam(WIFI models only)</a>
 
-				<hr class="mt-40">
+				<hr class="mt-40 hr">
       </div>
      
 		</div>
@@ -120,7 +120,7 @@
 	<div class="section over-hide portfolio-box" id="mivue-manager">
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-12">
 				  <h2 class="h3">MiVue™ Manager Web Tool</h2>
 					<h5>Convenient PC tool for clips review and management</h5>
 					<p>Using MiVue™ Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
@@ -182,14 +182,14 @@
 					</div>
         </div>
 				<div class="col-md-6 col-lg-5">
-					<img src="../images/auxiliary_software/MiVue_Manager-banner.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/auxiliary_software/MiVue_Manager-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_">
 			  </div>	
 
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
+        <a class="btn btn-primary btn-lg btn-round" href="https://www.youtube.com/watch?v=eenDXz1cF5U" target="_blank">Learn More</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/dash-cameras/car-cameras" target="_blank">Apply to Dashcam</a>
 
-				<hr class="mt-40">
+				<hr class="mt-40 hr">
       </div>
 
 			</div>
@@ -200,7 +200,7 @@
 	<div class="section over-hide" id="mionext">
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-12">
 				  <h2 class="h3">MioNext™ App </h2>
 					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
 					<p>Together with the MiTAC connected dashcam, the MioNext™ App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
@@ -269,7 +269,7 @@
 					<a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">Learn More</a>
 					<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Apply to Connected Dashcam</a>
 
-					<hr class="mt-40">
+					<hr class="mt-40 hr">
 				</div>
 
 			</div>
@@ -280,7 +280,7 @@
 	<div class="section over-hide" id="mioshare">
 		<div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-12">
 				<h2 class="h2">MioShare™ Web Tool & App </h2>
 					<h5>Easily find routes and view history records on smartphone</h5>
 					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
@@ -342,12 +342,12 @@
 					</div>
         </div>
 				<div class="col-md-6 col-lg-5">
-					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_">
 			  </div>	
 
 				<div class="col-md-12 mt-30">
-					<a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
-					<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo™ Navigation</a>
+					<a class="btn btn-primary btn-lg btn-round" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
+					<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo™ Navigation</a>
 				</div>
 		  </div>
 	  </div>	

@@ -44,7 +44,7 @@
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
-			   <div class="col-md-12">
+			   <div class="col-md-10">
             <p>有效的車隊管理意味著隨時掌握資產的位置和狀態。神達數位車隊平板電腦專為車隊行車環境所設計。廣泛的連網功能整合了車載資訊，確保效率的行程追蹤和數據管理。神達數位車隊平板提供了車隊管理所需要的工具，充分展現車隊管理的商務價值。</p>
         </div>
 			</div>	

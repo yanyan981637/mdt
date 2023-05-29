@@ -90,7 +90,7 @@
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
-				   <hr class="mt-40">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
@@ -130,7 +130,7 @@
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
-				   <hr class="mt-40">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
@@ -175,7 +175,7 @@
 					</div>
 				</div>
 				<div class="col-md-12 mt-30">
-				   <hr class="mt-40">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>
@@ -215,7 +215,7 @@
 				</div>
 
 				<div class="col-md-12">
-				   <hr class="mt-40">
+				   <hr class="mt-40 hr">
          </div>
       </div>
     </div>

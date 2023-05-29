@@ -38,7 +38,7 @@
 	<div class="section over-hide" id="midm">
 		<div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-12">
 				<h3 class="h3">神達數位移動設備管理</h3>
 					<h5>遠端無縫配置、管理、部署裝置的設定、應用程式或裝置更新</h5>
 					<p>神達數位移動設備管理（MiDM™）是一款全面而經濟實惠的移動設備管理解決方案，可以讓企業安全的在遠端部署多個不同位置的移動設備，進行管理、配置、應用程序或設備更新。</p>
@@ -104,10 +104,10 @@
 			  </div>	
       </div>
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://enterprise.mio.com/en_eu/midm" target="_blank">應用於平板</a>
+        <a class="btn btn-primary btn-lg btn-round " href="https://enterprise.mio.com/en_eu/midm" target="_blank">瞭解更多</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round " href="https://enterprise.mio.com/en_eu/midm" target="_blank">應用於平板</a>
 
-				<hr class="mt-40">
+				<hr class="mt-40 hr">
       </div>
 
 			
@@ -119,7 +119,7 @@
 	<div class="section over-hide portfolio-box" id="milock">
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-12">
 				<h2 class="h3">MiLock™ 應用程式</h2>
 					<h5>將設備轉換為單一應用程式 Kiosk模式</h5>
 					<p>MiLock™ 是由 神達數位 開發的專有 Kiosk 模式應用程式。它取代了預設的 Android™ Launcher 應用程式，並可增加員工生產力和設備可用性。使用 MiLock™，可將特定使用者權限限制為“kiosk-mode”中的單個應用程式，或是一組經過核准後應用程式。他能取代傳統的主介面, 適用於車隊管理、餐桌點餐、倉儲、物流等應用領域。</p>
@@ -185,7 +185,7 @@
 			  </div>	
       </div>
 			<div class="col-md-12 mt-30">
-				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://enterprise.mio.com/en_eu/" target="_blank">應用於平板</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round " href="https://enterprise.mio.com/en_eu/" target="_blank">應用於平板</a>
       </div>
 			
 		</div>	

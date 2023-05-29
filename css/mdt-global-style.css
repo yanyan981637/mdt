@@ -310,8 +310,11 @@ a svg {
 
 /* 其它 */
 
-#motobike_smart_cam,#handy-terminal, #kiosk, #outdoor-navigation, #outdoor-luminaires, #fleet-management, #premiumK165_K265{
+#motobike_smart_cam,#handy-terminal, #kiosk, #outdoor-navigation, #outdoor-luminaires, #fleet-management{
   margin-top: -30px;
+}
+#premiumK165_K265{
+  margin-top: -40px;
 }
 
 
@@ -474,3 +477,15 @@ a svg {
 .mt_30_{
   margin-top: -30px;
 }
+.mt_10_{
+  margin-top: -10px;
+}
+.section .padding-top-bottom .row p{
+  margin: 0px;
+}
+.hr{
+  margin: 60px 0 0 0
+}
+.section .container .col-md-12 a {
+  margin: 0 10px;
+} 
