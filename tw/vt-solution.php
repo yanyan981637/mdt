@@ -229,7 +229,7 @@
 							<div class="product_desc">
 								<h5>K265(Dual cam)/K165(Single cam)</h5>
 								<p>多通道支援(最高到7通道)</p>
-								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230322.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230505.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -253,7 +253,7 @@
 							<div class="product_desc">
 								<h5>K245c(Dual cam)/K145c(Single cam)</h5>
 								<p>電信商認證</p>
-								<a href="/Downloads/202304/Mitac_K145C-245C_Datasheet_20230419.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K145C+245C_Datasheet_20230505.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
