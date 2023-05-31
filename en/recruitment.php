@@ -24,7 +24,7 @@
 		<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">MDT encourages a welcoming, respectful, and diverse working environment. We are seeking energetic and talented elites who are looking for challenging opportunities. We invite you to build your career and grow with us!</p>
+						<p class="ContGen">MiTAC encourages a welcoming, respectful, and diverse working environment. We are seeking energetic and talented elites who are looking for challenging opportunities. We invite you to build your career and grow with us!</p>
 					</div>
 				</div>
 			</div>

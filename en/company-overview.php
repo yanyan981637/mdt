@@ -83,7 +83,7 @@
 					</div>
 					<div class="txtBox-2">
 						<h4 class="FC_mdtB2 mb-30">Mission</h4>
-						<p class="ContGen FC_W">Our customers look to us as trusted partners, whether they are individuals or enterprises. We have dedicated ourselves to taking them in new and exciting directions with thoughtful designs that reflect highest principles of quality and innovation.</p>
+						<p class="ContGen FC_W">Through thoughtful and meticulous designs, we provide exceptional products and services for a safer and more convenient life.</p>
 					</div>
 				</div>
 				
@@ -91,12 +91,12 @@
 					<div class="rwdBox">
 						<div class="txtBox-3">
 							<h4 class="FC_mdtB2 mb-30">Vision</h4>
-							<p class="ContGen FC_W">We embrace the promise of AIoT and automotive electronics evolution, innovating next-wave enterprise technologies, connecting customers to convenience and security.</p>
+							<p class="ContGen FC_W">We aim to become a leading provider of automotive electronics and AIoT solutions.</p>
 						</div>
 					</div>
 					<div class="txtBox-4">
 						<h4 class="FC_mdtB2 mb-30">Value</h4>
-						<p class="ContGen FC_W">Our meticulous attention to product quality, continuous pursuit of innovation, and promotion of workplace accountability are fully reflected in the solutions we provide and allow us to become a trusted business partner.</p>
+						<p class="ContGen FC_W">With high quality and innovative spirit, we value ourselves as a trustworthy partner for our customers.</p>
 					</div>
 				</div>
 				
@@ -134,9 +134,9 @@
 				<div class="col-md-3 col-6 mt-30">	
 					<h5>Employees</h5>
 					<ul class="list-style">
-						<li>Grand Total: 2800+</li>
-						<li>Global Operation Member: 900+</li>
-						<li>Global Engineer Resources: 600+</li>
+						<li>Grand Total: 2400+</li>
+						<li>Global Operation Member: 800+</li>
+						<li>Global Engineer Resources: 400+</li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-6 mt-30">	

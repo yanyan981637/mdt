@@ -70,6 +70,7 @@ a svg {
 }
 .SecTopNav li {
   font-size: 1.2rem;
+  font-weight: 700;
   line-height: 1.5;
   padding: 10px;
   position: relative;
@@ -310,7 +311,7 @@ a svg {
 
 /* 其它 */
 
-#motobike_smart_cam,#handy-terminal, #kiosk, #outdoor-navigation, #outdoor-luminaires, #fleet-management{
+#motobike_smart_cam, #kiosk, #outdoor-navigation, #outdoor-luminaires, #fleet-management{
   margin-top: -30px;
 }
 #premiumK165_K265{
@@ -330,7 +331,9 @@ a svg {
   #motobike_smart_cam_banner .hero-text img,
   #outdoor_navigation_banner .hero-text img,
   #handy-terminal_banner .hero-text img,
-  #kiosk_banner .hero-text img {
+  #kiosk_banner .hero-text img,
+  #industrial-tablet .hero-text img,
+  #multi-view-dashcam .hero-text img {
     width: 200px;
     height: auto;
     padding: 0;
@@ -486,13 +489,13 @@ a svg {
 .hr{
   margin: 60px 0 0 0
 }
-.section .container .col-md-12 a,
+.section .container .col-md-12, a.btn,
 .productDetail .container .row .btn {
   margin: 0 10px;
 }
-/* .hr_{
-  margin: 30px 0 0 0;
-} */
 .csr-content ul li{
   font-size: 1.4rem;
 }
+/* a:not(:only-child){
+  margin: 0 10px;
+} */

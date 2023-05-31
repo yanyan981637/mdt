@@ -23,7 +23,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">Throughout the years, MDT has earned a number of technology patents as it continued to create value differentiation in the fields of automotive electronics and AIoT. As we remained resolute in the pursuit of innovation and discovering breakthroughs, we have also earned the trust of many business partners by providing superior and reliable products to meet their special needs.</p>
+						<p class="ContGen">Throughout the years, MiTAC has earned a number of technology patents as it continued to create value differentiation in the fields of automotive electronics and AIoT. As we remained resolute in the pursuit of innovation and discovering breakthroughs, we have also earned the trust of many business partners by providing superior and reliable products to meet their special needs.</p>
 					</div>
 				</div>
 			</div>	
@@ -98,7 +98,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12">
-						<a href="https://www.youtube.com/watch?v=6zBMLzcV02c" target="_blank">
+						<a href="https://www.youtube.com/watch?v=ar_BvaA9WRo&t=31s" target="_blank">
 							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
@@ -163,7 +163,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">With several hundred engineers well-versed in circuit and electronics systems design, a strong background in the radio frequency domain (such as GPS and connectivity), and years of experience in consumer electronics, MDT is able to provide clients with optimal product specifications through our solid cross-platform development strategies and rapid integration capabilities in a number of related fields including automotive electronics, driver monitoring, satellite navigation, and IoT. Complete vertical integration is ensured from performing feasibility studies, research and design, testing, to production. Our quick response time allows us to become the perfect partner for business clients seeking exceptional quality and dependable products.</p>
+						<p class="ContGen">With several hundred engineers well-versed in circuit and electronics systems design, a strong background in the radio frequency domain (such as GPS and connectivity), and years of experience in consumer electronics, MiTAC is able to provide clients with optimal product specifications through our solid cross-platform development strategies and rapid integration capabilities in a number of related fields including automotive electronics, driver monitoring, satellite navigation, and IoT. Complete vertical integration is ensured from performing feasibility studies, research and design, testing, to production. Our quick response time allows us to become the perfect partner for business clients seeking exceptional quality and dependable products.</p>
 						<p class="ContGen">Our customized  and flexible framework and software development kit (SDK) allows high compatibility and quick integration with different platforms, accelerating the product development process. From hardware to software, and from edge to cloud, MiTAC provides a one stop shop experience with an integrated solution for both hardware and software.</p>
 					</div>
 				</div>

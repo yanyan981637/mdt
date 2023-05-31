@@ -86,14 +86,14 @@
 					<div class="item item--third">
 						<a href="tablet.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  Industrialt</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  Industrialts</h2><span></span></h3>
 								<p class="leads">
 									<span>To meet the demands of doing business today, MDT has developed a range devices and device management platforms that make transport, retail, hospitality, healthcare, and industrial processes more efficient and cost-effective.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="tablet.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industrialt"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industrialts"></span>
 						</a>
 					</div>
 

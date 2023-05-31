@@ -83,7 +83,7 @@
 					</div>
 					<div class="txtBox-2">
 						<h4 class="FC_mdtB2 mb-30">使命</h4>
-						<p class="ContGen FC_W">秉持著創新的技術、嚴謹的品質、體貼入微的設計，提出卓越的產品服務，滿足企業用戶及消費者的使用需求。</p>
+						<p class="ContGen FC_W">以體貼入微的設計、提出卓越的產品服務，讓客戶享受安全便利的生活。</p>
 					</div>
 				</div>
 				
@@ -91,12 +91,12 @@
 					<div class="rwdBox">
 						<div class="txtBox-3">
 							<h4 class="FC_mdtB2 mb-30">願景</h4>
-							<p class="ContGen FC_W">持續深耕智慧物聯、車用電子領域的創新能力與品質實力，奠定在產業生態鏈上的領先地位，帶給人們安全便利的互聯生活。</p>
+							<p class="ContGen FC_W">成為車用電子及智聯網解決方案的領導廠商。</p>
 						</div>
 					</div>
 					<div class="txtBox-4">
 						<h4 class="FC_mdtB2 mb-30">價值</h4>
-						<p class="ContGen FC_W">我們重視品質、持續創新、以當責的工作態度，讓客戶充分感受到我們對產品的用心，信任我們提出的解決方案，成為客戶信賴的夥伴。</p>
+						<p class="ContGen FC_W">以高品質及創新精神，成為值得客戶信賴的夥伴。</p>
 					</div>
 				</div>
 				
@@ -134,9 +134,9 @@
 				<div class="col-md-3 col-6 mt-30">	
 					<h5>員工</h5>
 					<ul class="list-style">
-						<li>全球：2800+</li>
-						<li>全球營運人數：900+</li>
-						<li>全球研發人員：600+</li>
+						<li>全球：2400+</li>
+						<li>全球營運人數：800+</li>
+						<li>全球研發人員：400+</li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-6 mt-30">	

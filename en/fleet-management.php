@@ -13,7 +13,7 @@
 				<div class="row">
 					<div class="col-md-12">	
 						<h1 class="color-black">Fleet Tablet</h1>
-						<h3 class="h4 color-black">Keeping Track of Teams on The Move</h3>
+						<h3 class="h4 color-black">Keeping track of teams on the move</h3>
 					</div>	
 				</div>		
 			</div>			

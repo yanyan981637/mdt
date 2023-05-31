@@ -27,10 +27,10 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="#mivue-pro">MiVue™ Pro</a></li>
-					<li><a href="#mivue-manager">MiVue™ Manager</a></li>
-					<li><a href="#mionext">MioNext™</a></li>
-					<li><a href="#mioshare">MioShare™</a></li>
+					<li><a href="#mivue-pro">Dashcam App</a></li>
+					<li><a href="#mivue-manager">Dashcam PC Tool</a></li>
+					<li><a href="#mionext">Connected Dashcam App</a></li>
+					<li><a href="#mioshare">Cyclo PC Tool & App</a></li>
         </ul>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h3 class="h3">MiVue™ Pro App</h3>
+				<h3 class="h3">Dashcam App - MiVue™  Pro</h3>
 					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
 					<p>MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
 				</div>
@@ -121,7 +121,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">MiVue™ Manager Web Tool</h2>
+				  <h2 class="h3">Dashcam PC Tool - MiVue™  Manager</h2>
 					<h5>Convenient PC tool for clips review and management</h5>
 					<p>Using MiVue™ Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
 				</div>
@@ -201,7 +201,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">MioNext™ App </h2>
+				  <h2 class="h3">Connected Dashcam App - MioNext™ </h2>
 					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
 					<p>Together with the MiTAC connected dashcam, the MioNext™ App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
 				</div>
@@ -281,7 +281,7 @@
 		<div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h2">MioShare™ Web Tool & App </h2>
+				<h2 class="h2">Cyclo PC Tool & App – MioShare™ </h2>
 					<h5>Easily find routes and view history records on smartphone</h5>
 					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
 				</div>

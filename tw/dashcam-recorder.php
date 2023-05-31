@@ -62,7 +62,7 @@
           <div class="row">
             <div class="align-self-center col-md-12 mg-auto">	
               <h2>單鏡頭行車記錄器</h2>
-              <h4>完美的圖像和無縫連接</h4>
+              <h4>完美的影像與無縫聯網</h4>
             </div>	
           </div>		
         </div>
@@ -124,15 +124,15 @@
   <div class="section mt-10vh" id="multi-view-dashcam">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/dashcam_recorder/multi-views-DVR-banner.jpg')">
-        <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-5 img mg-auto order-2">
-              <img src="../images/dashcam_recorder/Multi-Views-DVR-product.png" class="img-fluid mx-auto d-block rounded" alt="多鏡頭行車記錄器">
-            </div>
-            <div class="col-md-12 align-self-center mg-auto order-1">	
-              <h2>多鏡頭行車記錄器</h2>
-              <h4>提供最佳保護的全方位視野</h4>
+        <div class="container color-white hero-text big-text text-center">
+          <div class="row">
+            <div class="col-md-7 align-self-center">	
+              <h2 class="color-white">多鏡頭行車記錄器</h2>
+              <h4 class="h4">提供最佳保護的全方位視野</h4>
             </div>	
+            <div class="col-md-5 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/dashcam_recorder/Multi-Views-DVR-product.png" alt="多鏡頭行車記錄器">
+            </div>
           </div>		
         </div>
       </div>
@@ -206,7 +206,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 			   <div class="col-md-10">
-           <p>配備大螢幕和窄邊框設計，神達數位多功能整合式電子後視鏡型行車記錄器是您專屬的行車助手</p>
+           <p>配備大螢幕和窄邊框設計，神達數位多功能整合式電子後視鏡型行車記錄器是您專屬的行車助手。</p>
         </div>
 			</div>	
 		</div>
@@ -265,7 +265,7 @@
             <div class="col-md-5 img mg-auto order-2 order-md-1">
               <img src="../images/dashcam_recorder/Redar-Combo-Dashcam-product.png" class="img-fluid mx-auto d-block rounded" alt="雷達二合一行車記錄器">
             </div>
-            <div class="col-md-7 align-self-center order-1 order-md-2">	
+            <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>雷達二合一行車記錄器</h2>
               <h4>行車記錄器和雷達偵測器的完美結合</h4>
             </div>	
@@ -411,7 +411,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 			   <div class="col-md-10">
-           <p>簡約隱藏式設計， 神達數位經銷商選配型行車記錄器提供針對不同品牌車廠的客製化設計, 實現與車內內裝無縫整合</p>
+           <p>簡約隱藏式設計， 神達數位經銷商選配型行車記錄器提供針對不同品牌車廠的客製化設計, 實現與車內內裝無縫整合。</p>
         </div>
 			</div>	
 		</div>

@@ -12,7 +12,7 @@
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="align-self-center col-md-12 mg-auto">	
-						<h1 class="color-white">FAQS</h1>
+						<h1 class="color-white">FAQ</h1>
 					</div>	
 				</div>		
 			</div>			
@@ -37,7 +37,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">	
-        <h3 class="h4 FC_mdtB">硬體：聯網型行車紀錄器</h3>
+        <h3 class="h4 FC_mdtB">硬體：聯網型行車記錄器</h3>
         <ol>
           <li>
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq1" role="button" aria-expanded="false" aria-controls="faq1">當我看到燈號不當閃爍要如何處置 ?</a>
@@ -45,7 +45,7 @@
                 <ul class="card card-body">
                   <li>燈號正常時 ：藍燈一分鐘閃爍一次、按壓Emergency Button則紅燈恆亮</li>
                   <li>機器故障時 ：藍燈一分鐘閃爍二次、No SD Card則紅燈一分鐘閃爍一次</li> 
-                  <li>欲機器故障時則重新開機，依舊無效則通知一分鐘閃爍一次</li>
+                  <li>欲機器故障時則重新開機，依舊無效請通知維修中心</li>
                 </ul>
               </div>
           </li>

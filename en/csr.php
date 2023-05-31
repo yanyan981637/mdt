@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2>Business Philosophy: "F.I.R.S.T." - Establishing a Sustainable Company Full of Happiness</h2>
+					<h2>Establishing a Sustainable Company Full of Happiness</h2>
 					<p>We value talent and are committed to creating a positive and friendly working environment that encourages employees to challenge themselves and achieve their goals. Our passionate, innovative, and responsible professional team transforms technology into services that meet customer needs, providing forward-looking and complete solutions that are key to gaining the trust of our partners. By creating a win-win situation for customers, employees, and the company, we aim to establish a happy and sustainable enterprise that contributes to the stable growth, profits, and sustainable development of society and the environment. 'F.I.R.S.T.' is the principle we follow to achieve our goals.</p>
 				</div>
 			</div>

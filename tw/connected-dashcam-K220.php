@@ -101,7 +101,7 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K220</h2>
-						<p>具成本效益的</p>
+						<p>高性價比</p>
 					</div>
 					<ul>
 						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>

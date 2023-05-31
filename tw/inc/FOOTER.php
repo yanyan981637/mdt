@@ -91,7 +91,7 @@
 					  <li><a href="./MiTAC-holdings.php">聯華神通集團</a></li>
 					  <li><a href="./own-brands.php">品牌介紹</a></li>
 					  <li><a href="./global-glory.php">得獎記錄</a></li>
-					  <li><a href="./crs.php">企業社會責任</a></li>
+					  <li><a href="./csr.php">企業社會責任</a></li>
 					  <li><a href="./press-events-list.php">最新消息</a></li>
 					</ul>
 				</div>

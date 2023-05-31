@@ -11,7 +11,7 @@
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
 					<div class="align-self-center col-md-12 mg-auto">	
-						<h1 class="color-white">FAQS</h1>
+						<h1 class="color-white">FAQ</h1>
 					</div>	
 				</div>		
 			</div>			

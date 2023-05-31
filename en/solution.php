@@ -31,8 +31,8 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="#vt-solution">VT Solution-VisionMax™</a></li>
-					<li><a href="#routecomplete">RouteComplete™</a></li>
+					<li><a href="#vt-solution">VT Solution</a></li>
+					<li><a href="#routecomplete">Route Management Platform</a></li>
         </ul>
 			</div>
 		</div>
@@ -60,7 +60,7 @@
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>VT Solution - VisionMax™</h2>
-              <h4>Powerful Panoramic Perception  for Leading Safety and Security</h4>
+              <h4>Powerful panoramic perception  for leading safety and security</h4>
             </div>	
           </div>		
         </div>
@@ -113,6 +113,7 @@
         </div>
         <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="./vt-solution.php">Learn More</a>
+          <a class="btn btn-primary btn-lg btn-round" href="./video-telematics.php">Apply to Connected Dashcam </a>
         </div>
       </div>
     </div>
@@ -127,7 +128,7 @@
             <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="RouteComplete™">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>RouteComplete™</h2>
+              <h2>Route Management Platform</h2>
               <h4>Route planning, management, monitoring, and execution</h4>
             </div>	
           </div>		

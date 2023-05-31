@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-md-12 mg-auto">	
 						<h1 class="color-white">聯網型行車記錄器</h1>
-						<h3 class="h4">多合一車隊互聯鏡頭解決方案</h3>
+						<h3 class="h4">多功能車隊聯網視訊解決方案</h3>
 					</div>	
 				</div>		
 			</div>			
@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-					<p>Connected Dashcam 系列是一款一體式車隊互聯鏡頭解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm® 處理器和 Android™ 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
+					<p>Connected Dashcam 系列是多功能車隊聯網視訊解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm® 處理器和 Android™ 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
 					</div>
 				</div>
 			</div>	
@@ -62,7 +62,7 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>多通道錄影支援</p>
+						<p>支援多路攝影</p>
 					</div>
 					<ul>
 						<li>雙向前置和車內Full HD鏡頭，142°視角</li>
@@ -192,7 +192,7 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K220</h2>
-						<p>具成本效益的</p>
+						<p>高性價比</p>
 					</div>
 					<ul>
 						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>

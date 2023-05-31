@@ -191,7 +191,7 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K220</h2>
-						<p>cost-effective</p>
+						<p>Cost-effective</p>
 					</div>
 					<ul>
 						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>

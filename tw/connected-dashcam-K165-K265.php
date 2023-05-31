@@ -108,7 +108,7 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>多通道錄影支援</p>
+						<p>支援多路攝影</p>
 					</div>
 					<ul>
 						<li>雙向前置和車內Full HD鏡頭，142°視角</li>

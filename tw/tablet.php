@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-md-12">	
 						<h1 class="color-white">平板</h1>
-            <h3 class="h4">堅固耐用多功能</h3>
+            <h3 class="h4">堅固耐用, 兼具消費性產品可用性</h3>
 					</div>	
 				</div>		
 			</div>		
@@ -34,6 +34,7 @@
 				<ul class="col-12">
           <li><a href="#industrial-tablet">工業平板</a></li>
 					<li><a href="#fleet-tablet">車隊平板</a></li>
+					<li><a href="#handy-terminal">手持終端機</a></li>
         </ul>
 			</div>
 		</div>
@@ -56,14 +57,14 @@
   <div class="section" id="industrial-tablet">
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/tablet/Industrial-Tablet-banner.jpg')">
-        <div class="container text-left color-white center">
-          <div class="row column-2">
-            <div class="col-md-12 align-self-center mg-auto">	
-              <h2>工業平板</h2>
-              <h4>强大耐用，適用於環境嚴苛的工作場所</h4>
-            </div>
-            <div class="col-md-12 img mg-auto">
-              <img src="../images/tablet/Industrial-Tablet-product.png" alt="工業平板">
+        <div class="container color-white hero-text big-text text-center">
+          <div class="row">
+            <div class="col-md-7 align-self-center">	
+              <h2 class="color-white">工業平板</h2>
+              <h4 class="h4">强大耐用，適用於環境嚴苛的工作場所</h4>
+            </div>	
+            <div class="col-md-5 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/tablet/Industrial-Tablet-product.png" alt="工業平板">
             </div>
           </div>		
         </div>
@@ -184,6 +185,76 @@
         </div>
         <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets" target="_blank">瞭解更多</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Handy Terminal -->
+  <div class="section mt-10vh" id="handy-terminal">
+    <div class="second-bannner">
+      <div class="bg-img" style="background-image: url('../images/tablet/Industrial-Tablet-banner.jpg')">
+        <div class="container color-white hero-text big-text text-center">
+          <div class="row">
+            <div class="col-md-7 align-self-center">	
+              <h2 class="color-white">手持終端機</h2>
+              <h4 class="h4">簡約耐用的行動電腦</h4>
+            </div>	
+            <div class="col-md-5 align-self-center">
+              <img class="img-fluid mx-auto d-block rounded" src="../images/tablet/Handy_Terminal-product.png" alt="Handy Terminal">
+            </div>
+          </div>		
+        </div>
+      </div>
+    </div>
+    <div class="container padding-top-bottom background-white">
+			<div class="row justify-content-center">
+				<div class="col-md-10">	
+          <p>神達數位強大的手持終端機設計簡約, 尺寸與智慧手機相當, 能提供完整的解決方案,適用於廣泛的商業應用如物流、酒店、現場服務、庫存管理和醫療保健等多種行業，以簡化操作、提高效率和改善客戶服務。</p>
+				</div>
+			</div>	  
+		</div>
+    <div class="container mt_30_">
+      <div class="row">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="dashcam-recorder-icon text-center">
+            <img class="rounded img-fluid" src="../images/tablet/android_security_green.png" alt="GMS認證設備">
+            <p>GMS認證設備</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="dashcam-recorder-icon text-center">
+            <img class="rounded img-fluid" src="../images/tablet/efficient_data.png" alt="高效資料擷取">
+            <p>高效資料擷取</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="dashcam-recorder-icon text-center">
+            <img class="rounded img-fluid" src="../images/tablet/wproof_green.png" alt="全方位堅固耐用">
+            <p>全方位堅固耐用</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="dashcam-recorder-icon text-center">
+            <img class="rounded img-fluid" src="../images/tablet/power_through.png" alt="使用者可更換電池式設計">
+            <p>使用者可更換電池式設計</p>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="dashcam-recorder-icon text-center">
+            <img class="rounded img-fluid" src="../images/tablet/barcode_data_capture.png" alt="1D/2D條碼掃描器">
+            <p>1D/2D條碼掃描器</p>
+          </div>
+        </div>
+        <!-- 更換圖片 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="dashcam-recorder-icon text-center">
+            <img class="rounded img-fluid" src="../images/tablet/antibacterial_case_tablet.png" alt="抗菌外殼">
+            <p>抗菌外殼</p>
+          </div>
+        </div>
+        <div class="col-md-12 mt-30 text-center">
+          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/miowork/handhelds" target="_blank">瞭解更多</a>
         </div>
       </div>
     </div>

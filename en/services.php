@@ -26,7 +26,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">MDT has more than 30 years of well-established after-sales experiences. Our service coverage includes every continent in the world, providing technical support, product repairs, and spare parts offering. We provide diversified services to fulfill customers’ unique business demands and goal.</p>
+						<p class="ContGen">MiTAC has more than 30 years of well-established after-sales experiences. Our service coverage includes every continent in the world, providing technical support, product repairs, and spare parts offering. We provide diversified services to fulfill customers’ unique business demands and goal.</p>
 						<p class="ContGen">For our own brand service, Mio, Navman, and Magellan, we have contact centers and fulfillment centers in Europe, America, Oceania, and Asia to provide users with in-time technical supports. We also have regional service centers to provide complete and convenient services. Thru our advanced CRM system, we offer easy-to-access supports to users, at the same time, fully understanding their needs and what they care. Not only be close to our users, we continue to improve our overall quality and pursue excellence, which is our commitment and insistence.</p>
 						<p class="ContGen">For our business partners, we provide education training and related documents, including product specification training, maintenance training, and service parts offering. We help partners serve end customers quickly and effectively and continue to grow with us. Meanwhile, we also provide partners with a diverse service portfolio to meet their strategic business needs and goal.</p>
 					</div>
@@ -40,7 +40,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="pgTit FC_mdtB">MDT Worldwide Service Centers</h2>
+					<h2 class="pgTit FC_mdtB">MiTAC Worldwide Service Centers</h2>
 				</div>
 			</div>
 			<div class="row mb-60">	

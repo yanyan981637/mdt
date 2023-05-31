@@ -42,7 +42,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<h5 class="ContGen">We apply six processes to our rigorous quality control principles — DQ, CE, SQA, PQA, OQA, and Service — to ensure all MDT products meet the strictest standards before delivery to our customer.</h5>
+						<h5 class="ContGen">We apply six processes to our rigorous quality control principles — DQ, CE, SQA, PQA, OQA, and Service — to ensure all MiTAC products meet the strictest standards before delivery to our customer.</h5>
 					</div>
 				</div>
 			</div>
