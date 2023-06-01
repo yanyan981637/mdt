@@ -102,7 +102,7 @@
 					<div class="">
 						<div class="txtBox">
 							<h3 class="FC_W mb-30">The Design Expert Blog</h3>
-							<p class="FC_W mb-30">Our mission is to create and deliver the best user experience through product. We bring meaningful and effective design solutions for MDT’s sustainability.</p>
+							<p class="FC_W mb-30">Our mission is to create and deliver the best user experience through product. We bring meaningful and effective design solutions for MiTAC’s sustainability.</p>
 							<div class="hidden-xs">
 								<span class="more">
 									<a href="https://raykuo4.wixsite.com/website" target="_blank" class="FC_mdtB2">View Blog <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>

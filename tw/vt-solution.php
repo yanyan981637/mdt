@@ -219,7 +219,7 @@
 				<div class="col-12 mt-60" id="connected_CDR">
 					<h4>
 						<span class="img_icon">1</span>
-						<span class="h5 h5_color">智能行車紀錄器</span>
+						<span class="h5 h5_color">智慧行車記錄器</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -227,7 +227,7 @@
 								<img src="../images/smart_telematics_solution/k165_k265_200x200.png" class="img-fluid rounded" alt="K265(Dual cam)/K165(Single cam)">
 							</div>
 							<div class="product_desc">
-								<h5>K265(Dual cam)/K165(Single cam)</h5>
+								<h5>K265(雙鏡頭)/K165(單鏡頭)</h5>
 								<p>多通道支援(最高到7通道)</p>
 								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230505.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
@@ -251,7 +251,7 @@
 								<img class="img-fluid rounded" src="../images/smart_telematics_solution/k245c_200x200.png" alt="K245c(Dual cam)/K145c(Single cam)">
 							</div>
 							<div class="product_desc">
-								<h5>K245c(Dual cam)/K145c(Single cam)</h5>
+								<h5>K245c(雙鏡頭)/K145c(單鏡頭)</h5>
 								<p>電信商認證</p>
 								<a href="/Downloads/202304/Mitac_K145C+245C_Datasheet_20230505.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
@@ -275,7 +275,7 @@
 								<img class="img-fluid rounded" src="../images/smart_telematics_solution/MioEYE_K245_200x200.png" alt="K245(Dual cam)/K145(Single cam)">
 							</div>
 							<div class="product_desc">
-								<h5>K245(Dual cam)/K145(Single cam)</h5>
+								<h5>K245(雙鏡頭)/K145(單鏡頭)</h5>
 								<p>外型較輕巧</p>
 								<a href="/Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
@@ -299,7 +299,7 @@
 								<img class="img-fluid rounded" src="../images/smart_telematics_solution/k220_200x200.png" alt="K220(Dual cam)">
 							</div>
 							<div class="product_desc">
-								<h5>K220(Dual cam)</h5>
+								<h5>K220(雙鏡頭)</h5>
 								<p>具成本效益的</p>
 								<a href="/Downloads/202304/Mitac_K220_datasheet_20230419.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
@@ -324,7 +324,7 @@
 				<div class="col-12 mt-60" id="dms_cdr">
 					<h4>
 						<span class="img_icon">2</span>
-						<span class="h5 h5_color">智能警示鏡頭</span>
+						<span class="h5 h5_color">智慧警示鏡頭</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -333,7 +333,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>I15</h5>
-								<p>智能警示鏡頭</p>
+								<p>智慧警示鏡頭</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -381,7 +381,7 @@
 				<div class="col-12 mt-60" id="rear_cam">
 					<h4>
 						<span class="img_icon">3</span>
-						<span class="h5 h5_color">Rear Cam</span>
+						<span class="h5 h5_color">後鏡頭</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -438,7 +438,7 @@
 				<div class="col-12 mt-60" id="side_cam">
 					<h4>
 						<span class="img_icon">4</span>
-						<span class="h5 h5_color">Side cam</span>
+						<span class="h5 h5_color">側置鏡頭</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -471,7 +471,7 @@
 				<div class="col-12 mt-60" id="accessory">
 					<h4>
 						<span class="img_icon">5</span>
-						<span class="h5 h5_color">Accessory</span>
+						<span class="h5 h5_color">配件</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -479,7 +479,7 @@
 								<img src="../images/smart_telematics_solution/smartgo_new_200x200.png" class="img-fluid rounded" alt="SmartGO">
 							</div>
 							<div class="product_desc">
-								<h5>SmartGO</h5>
+								<h5>改良式供電車載資料傳輸接頭</h5>
 								<p>供電, 車載資料傳送,可支援緊急按鈕</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
@@ -503,7 +503,7 @@
 								<img class="img-fluid rounded" src="../images/smart_telematics_solution/Panic button_200x200.png" alt="Panic button">
 							</div>
 							<div class="product_desc">
-								<h5>Panic button</h5>
+								<h5>緊急按鈕</h5>
 								<p>觸發求救需求</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">

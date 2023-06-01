@@ -54,7 +54,7 @@
 					<h5>WIFI連接 - 快速、無線傳輸</h5>
 					<p>MiVue™ Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
 				</div> -->
-				<div class="col-md-6 col-lg-7 align-items-stretch mt_30_">
+				<div class="col-md-6 col-lg-7 align-items-stretch mt_30_ order-2 order-md-1">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -101,17 +101,15 @@
 
 					</div>
         </div>
-				<div class="col-md-6 col-lg-5 ">
+				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
 					<img src="../images/auxiliary_software/MiVue_Pro-banner_ch.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
-
+			</div>
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round " href="https://www.youtube.com/watch?v=gS4_jQsa2Lw" target="_blank">瞭解更多</a>
+				<a class="btn btn-primary btn-lg btn-round " href="https://www.youtube.com/watch?v=gS4_jQsa2Lw" target="_blank">瞭解更多</a>
 				<a class="btn btn-fill-black-b btn-lg  btn-round " href="https://www.mio.com/tw/products/car-camera/all-series?use_situation_dvr=248" target="_blank">應用於行車記錄器(僅限WIFI機型)</a>
 
 				<hr class="mt-40 hr">
-      </div>
-
 			</div>
 		</div>	
 	</div>
@@ -135,7 +133,7 @@
 					<h5>方便影片觀看與管理的電腦工具</h5>
 					<p>利用MiVue™ Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
 				</div> -->
-				<div class="col-md-6 col-lg-7 mt_30_">
+				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -182,16 +180,15 @@
 
 					</div>
         </div>
-				<div class="col-md-6 col-lg-5">
+				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
 					<img src="../images/auxiliary_software/MiVue_Manager-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_">
 			  </div>	
-
+			</div>
 			<div class="col-md-12 mt-30">
-        <a class="btn btn-primary btn-lg btn-round " href="https://www.youtube.com/watch?v=naxGqR8oG2k" target="_blank">瞭解更多</a>
+				<a class="btn btn-primary btn-lg btn-round " href="https://www.youtube.com/watch?v=naxGqR8oG2k" target="_blank">瞭解更多</a>
 				<a class="btn btn-fill-black-b btn-lg  btn-round " href="https://www.mio.com/tw/products/category-car-camera" target="_blank">應用於行車記錄器</a>
 
 				<hr class="mt-40 hr">
-      </div>
 			</div>
 			
 		</div>	
@@ -215,7 +212,7 @@
 					<h5>智慧停車保全 - 智慧防盜保全</h5>
 					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext™ 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
 				</div> -->
-				<div class="col-md-6 col-lg-7 mt_30_">
+				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -262,18 +259,16 @@
 
 					</div>
         </div>
-				<div class="col-md-6 col-lg-5">
+				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
 					<img src="../images/auxiliary_software/MioNext-banner_ch.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
-
+			</div>
 			<div class="col-md-12 ">
         <!-- <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">瞭解更多</a>
 				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">應用於聯網型行車記錄器</a> -->
 
 				<hr class="mt-40 hr">
       </div>
-
-			</div>
 			
 		</div>	
 	</div>
@@ -296,7 +291,7 @@
 					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
 					<p>透過 MioShare™ 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div> -->
-				<div class="col-md-6 col-lg-7 mt_30_">
+				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
@@ -340,20 +335,17 @@
 								<p>旅程拍照</p>
 							</div>
 						</div>
-
-            <div class="col-md-12 mt-30">
-              <a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/zh-tw/landing" target="_blank">瞭解更多</a>
-              <a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
-            </div>
             
 					</div>
         </div>
-				<div class="col-md-6 col-lg-5">
-					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_">
+				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
+					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_" style="width:87%">
 			  </div>	
-
-				</div>
-			
+			</div>
+			<div class="col-md-12 mt-30">
+				<a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/zh-tw/landing" target="_blank">瞭解更多</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
+      </div>
 		</div>	
 	</div>
 <?php

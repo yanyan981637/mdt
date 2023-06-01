@@ -47,7 +47,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-7 align-items-stretch mt_30_">
+      <div class="col-md-7 align-items-stretch mt_30_ order-2 order-md-1">
         <div class="row">
           <div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
             <div class="auxiliary-software-icon text-center">
@@ -93,7 +93,7 @@
 
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 order-1 order-md-2 mb-30">
         <img src="../images/auxiliary-software-smart-industrial/MiDM™-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
       </div>
     </div>
@@ -124,7 +124,7 @@
 				<h5>Turn your device into Single App Kiosk mode</h5>
 				<p>MiLock™ is a proprietary kiosk mode app developed by MiTAC. It replaces the default Android™ Launcher App, and provides businesses with a tool to enhance employee productivity and device usability. With MiLock™, user access can be restricted to a single application in 'kiosk-mode', or to a group of approved applications that will replace the traditional homescreen. MiLock™ is ideal for scenario's where devices are utilized for specific use cases, such as Fleet Management, Table ordering, Warehousing, Logistics, etc. </p>
 			</div> -->
-      <div class="col-md-7 align-items-stretch mt_30_">
+      <div class="col-md-7 align-items-stretch mt_30_ order-2 order-md-1">
         <div class="row">
           <div class="col-xl-4 col-lg-3 col-md-4 col-sm-2 col-6 mt-30">
             <div class="auxiliary-software-icon text-center">
@@ -171,7 +171,7 @@
 
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 order-1 order-md-2 mb-30">
       <img src="../images/auxiliary-software-smart-industrial/MiLock-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid" style="width: 70%;">
       </div>
     </div>
