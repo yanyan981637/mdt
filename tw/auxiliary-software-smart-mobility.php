@@ -41,7 +41,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h3 class="h3">行車記錄器手機應用程式 - MiVue™ Pro</h3>
+				<h3 class="h3">行車記錄器應用程式 - MiVue™ Pro </h3>
 					<h5>WIFI連接 - 快速、無線傳輸</h5>
 					<p>MiVue™ Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
 				</div>
@@ -202,7 +202,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">聯網型行車記錄器手機應用程式 - MioNext™</h2>
+				<h2 class="h3">聯網型行車記錄器應用程式 - MioNext™</h2>
 					<h5>智慧停車保全 - 智慧防盜保全</h5>
 					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext™ 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
 				</div>
@@ -283,7 +283,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h2">自行車導航電腦工具&手機應用程式 – MioShare™</h2>
+				<h2 class="h2">自行車導航電腦工具&應用程式 – MioShare™</h2>
 					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
 					<p>透過 MioShare™ 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div>

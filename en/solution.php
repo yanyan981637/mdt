@@ -113,7 +113,7 @@
         </div>
         <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="./vt-solution.php">Learn More</a>
-          <a class="btn btn-primary btn-lg btn-round" href="./video-telematics.php">Apply to Connected Dashcam </a>
+          <a class="btn btn-fill-black-b btn-lg  btn-round" href="./video-telematics.php">Apply to Connected Dashcam </a>
         </div>
       </div>
     </div>
@@ -183,6 +183,7 @@
         
         <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="https://www.magellangps.com/fleet/return-to-route-solution-for-snow" target="_blank">Learn More</a>
+          <a class="btn btn-fill-black-b btn-lg  btn-round" href="./video-telematics.php">Apply to Fleet Tablet</a>
         </div>
       </div>
     </div>

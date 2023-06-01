@@ -114,8 +114,9 @@
 						<li>汽車電瓶放電防護</li>
 					</ul>
 					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
+					  <img src="../images/connected_dashcam/android.jpg" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" />
+						<img src="../images/connected_dashcam/aws.jpg" />
 					</div>
 				</div>
 			</div>	

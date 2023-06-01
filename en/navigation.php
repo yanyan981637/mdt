@@ -127,7 +127,7 @@
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>Off Road Navigation</h2>
-              <h4>Explore more with the ultimate all terrain GPS navigators</h4>
+              <h4>Explore more with the ultimate all-terrain GPS navigators</h4>
             </div>	
           </div>		
         </div>

@@ -122,12 +122,13 @@
 						<li>Battery discharge protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/PTCRB.png" />
-						<img src="../images/connected_dashcam/verizon.png" />
+					  <img src="../images/connected_dashcam/android.jpg" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" />
+						<img src="../images/connected_dashcam/ATT.jpg" />
+						<img src="../images/connected_dashcam/PTCRB.jpg" />
+						<img src="../images/connected_dashcam/verizon.jpg" />
 						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+						<img src="../images/connected_dashcam/aws.jpg" />
 					</div>
 
 				</div>

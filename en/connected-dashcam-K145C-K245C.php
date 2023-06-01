@@ -122,11 +122,11 @@
 					</ul>
 
 					<div class="pdt_desc_ico">
-						<img src="../images/connected_dashcam/android.png" />
-						<img src="../images/connected_dashcam/Qualcomm.png" />
-						<img src="../images/connected_dashcam/aws.png" />
-						<img src="../images/connected_dashcam/ATT.png" />
-						<img src="../images/connected_dashcam/firstnet.png" />
+					  <img src="../images/connected_dashcam/android.jpg" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" />
+						<img src="../images/connected_dashcam/aws.jpg" />
+						<img src="../images/connected_dashcam/ATT.jpg" />
+						<img src="../images/connected_dashcam/firstnet.jpg" />
 						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 					</div>
 				</div>

@@ -109,7 +109,7 @@
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq6" role="button" aria-expanded="false" aria-controls="faq6">當ADAS不提供警示該如何處置？</a>
               <div class="collapse"  id="faq6">
                 <ul class="card card-body">
-                  <li>檢查安裝位置 (安裝位置請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a> )</li>
+                  <li>檢查安裝位置 (安裝位置請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>)</li>
                   <li>檢查左右駕是否設定正確</li>
                   <li>檢查安裝Location是否正確</li>
                   <li>檢查機器是否完成校正</li>
@@ -122,7 +122,7 @@
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq7" role="button" aria-expanded="false" aria-controls="faq7">當DMS不提供警示該如何處置？</a>
               <div class="collapse"  id="faq7">
                 <ul class="card card-body">
-                  <li>檢查安裝位置 (安裝位置請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a> )</li>
+                  <li>檢查安裝位置 (安裝位置請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>)</li>
                   <li>檢查左右駕是否設定正確</li>
                   <li>檢查安裝Location是否正確</li>
                   <li>完成以上動作重開機進行校正</li>
@@ -134,7 +134,7 @@
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq8" role="button" aria-expanded="false" aria-controls="faq8">我的APN要如何設定 ?</a>
               <div class="collapse"  id="faq8">
                 <ul class="card card-body">
-                  <li>請參閱 <a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a> 附錄</li>
+                  <li>請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>附錄</li>
                 </ul>
               </div>
           </li>
@@ -143,7 +143,7 @@
               <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">如何登入VisionMax™後台管理軟體?</a>
               <div class="collapse"  id="faq9">
                 <ul class="card card-body">
-                  <li>請參閱 <a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a> 附錄</li>
+                  <li>請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>附錄</li>
                 </ul>
               </div>
           </li>

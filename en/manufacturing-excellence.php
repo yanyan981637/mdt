@@ -23,7 +23,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">MiTAC’s 1,790,000-square-foot manufacturing site in China is certified to 『ISO 9001, ISO 14001,ISO 45001,IATF 16949, ISO 13485,』and GMP standards. Our advanced automated production facilities and quality management system allow MiTAC to efficiently output high-quality products that fulfill our customers’ unique demands.</p>
+						<p class="ContGen">MiTAC’s 1,790,000-square-foot manufacturing site in China is certified to ISO 9001, ISO 14001, ISO 45001, IATF 16949, ISO 13485, and GMP standards. Our advanced automated production facilities and quality management system allow MiTAC to efficiently output high-quality products that fulfill our customers’ unique demands.</p>
 						<p class="ContGen">MiTAC's state-of-the-art automatic inspection and production facility shortens the production cycle, increases accuracy, and eliminates errors . It reduces labor costs, increases efficiency, guarantees stable quality with a high yield rate, and high efficient mass production.</p>
 					</div>
 				</div>
