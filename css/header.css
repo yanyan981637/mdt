@@ -449,9 +449,9 @@
     margin-bottom: 5px;
     width: 100%;
   }
-  #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel > .second_menu > li > .third_menu > li > .fourth_menu > li a.nav-link {
+  /* #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel > .second_menu > li > .third_menu > li > .fourth_menu > li a.nav-link {
     padding: 0.4em 0;
-  }
+  } */
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel > .second_menu > li > .third_menu > li > a.active {
     background-color: #1034a5;
     border-color: #1034a5;
