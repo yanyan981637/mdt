@@ -128,7 +128,7 @@
             <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="RouteComplete™">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>Route Management Platform</h2>
+              <h2>Route Management Platform – RouteComplete™</h2>
               <h4>Route planning, management, monitoring, and execution</h4>
             </div>	
           </div>		

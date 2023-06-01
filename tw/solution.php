@@ -128,8 +128,8 @@
             <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="路徑返回">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>路徑返回解決方案</h2>
-              <h4>路線規劃, 管理, 監控與執行</h4>
+              <h2>路徑返回解決方案 – RouteComplete™</h2>
+              <h4>強大的全景監控引領安全保障</h4>
             </div>	
           </div>		
         </div>
