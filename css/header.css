@@ -293,6 +293,9 @@
  #menu-wrap .navbar .navbar-nav .first_menu.lang a::before{
     display: none;
   }
+  #menu-wrap .navbar .navbar-nav .first_menu.lang>a.nav-link{
+    padding: 0;
+  }
   #menu-wrap .navbar-collapse .second_menu {
     position: fixed;
     left: 0;
@@ -473,7 +476,7 @@
     cursor: pointer;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu:not(.multilevel) > .second_menu > li {
-    text-align: center;
+    text-align: left;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu:not(.multilevel) > .second_menu > li a.active {
     display: block;
