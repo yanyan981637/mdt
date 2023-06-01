@@ -6,9 +6,20 @@
 #menu-wrap .navbar-collapse ul li{
   list-style: none;
 }
-
+#menu-wrap .navbar-collapse ul li a[href='#'] {
+  cursor: default;
+}
+#menu-wrap, #menu-wrap .navbar  {
+  padding: 0;
+  height: 87px;
+}
+#menu-wrap {
+  height: 87px;
+}
 @media (max-width:991px) {
-
+  #menu-wrap, #menu-wrap .navbar {
+    justify-content: center;
+  }
   #menu-wrap {
     position: fixed;
     top: 0;
@@ -142,6 +153,7 @@
     -o-transform: rotate(-180deg);
     border-color: #62dcff;
   }
+  #menu-wrap .navbar-collapse ul li a.active,
   #menu-wrap .navbar-collapse ul li.open>a{
     color: #62dcff;
   }
@@ -238,10 +250,13 @@
     display: block!important;
   }
 
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu .second_menu > li.close {
+    display: none;
+  }
 
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   #menu-wrap .navbar-collapse ul.navbar-nav {
     max-width: 540px;
   }
@@ -250,7 +265,7 @@
   #menu-wrap .navbar-collapse ul.navbar-nav {
     max-width: 720px
   }
-}
+} */
 @media (min-width: 992px) {
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu {
     /* max-width: 960px; */
@@ -267,12 +282,7 @@
 }
 
 @media (min-width: 992px) {
-  #menu-wrap, #menu-wrap .navbar  {
-    padding: 0;
-  }
-  #menu-wrap {
-    height: 87px;
-  }
+
 
   #menu-wrap .navbar-collapse .second_menu {
     position: fixed;
@@ -310,7 +320,7 @@
     transition: all var(--var-animate-time) linear;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>a  {
-    line-height: 87px;
+    line-height: 1.2;
     padding-top: 0;
     padding-bottom: 0;
     position: relative;
@@ -325,9 +335,9 @@
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu>li a{
     position: relative;
     display: inline-block;
-    color: #333333;
+    color: #313139;
   }
-  #menu-wrap .navbar-collapse .navbar-nav .first_menu.active>a,
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu a.active,
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open>a,
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>a:hover,
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu>li a:hover {
@@ -343,6 +353,16 @@
     bottom: 3px;
     left: 0.8em;
   }
+
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu>li a:not(.active):hover {
+    color: #1034a5;
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li>a:hover{
+    color: #313139;
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu>li a::after{
+    background-color: #1034a5;
+  }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open>a::after {
     transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
@@ -352,7 +372,7 @@
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.active>a::before,
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open>a::before,
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>a::before {
-    bottom: 30px;
+    bottom: -3px;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.active>a::before,
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open>a::before,
@@ -378,13 +398,19 @@
     -ms-transition: all var(--var-animate-time) linear;
     transition: all var(--var-animate-time) linear;
   }
-
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu>li>a.active {
+    background-color: #1034a5;
+    border-radius: 6px;
+    border: 1px solid #1034a5;
+    color: #ffffff;
+  }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open>.second_menu {
     opacity: 1;
     visibility: visible;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu {
     display: grid;
+    gap: 10px;
   }
 
   #menu-wrap .navbar-collapse .navbar-nav .first_menu>.second_menu {
@@ -397,9 +423,9 @@
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li>a {
     position: relative;
-    border-left: 3px solid rgba(30, 152, 215, 1);
+    border-left: 3px solid #62dcff;
     font-weight: bolder;
-    color: #333;
+    color: #313139;
     margin-bottom: 15px;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li {
@@ -411,18 +437,64 @@
     display: none;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li >a {
-    background-color: rgba(30, 152, 215, 1);
-    border-radius: 8px;
-    border: 1px solid rgba(30, 152, 215, 1);
+    background-color: #313139;
+    border-radius: 6px;
+    border: 1px solid #313139;
     color: #ffffff;
     margin-bottom: 5px;
+    width: 100%;
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li >.fourth_menu > li a.nav-link{
+    padding: 0.4em 0;
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li >a.active {
+    background-color: #1034a5;
+    border-color: #1034a5;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu > li > .third_menu>li >a:hover {
     background-color: transparent;
-    color: rgba(30, 152, 215, 1);
+    color: #1034a5;
+    border-color: #1034a5;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu ul {
     padding-left: 0;
   }
 
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu .second_menu > li.close {
+    content: 'x';
+    position: absolute;
+    top: 20px;
+    right: calc((50vw - 480px) / 2 - 20px);
+    color: #949497;
+    font-size: 40px;
+    line-height: 1.1;
+    display: block;
+    cursor: pointer;
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu:not(.multilevel)>.second_menu>li {
+    text-align: center;
+    
+  }
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu:not(.multilevel)>.second_menu>li a.active{
+    display: block;
+
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+  #menu-wrap .navbar-collapse .navbar-nav .first_menu .second_menu > li.close {
+    right: calc((50vw - 540px) / 2 - 20px);
+  }
+}
+
+#menu-wrap .navbar-collapse .navbar-nav .first_menu .second_menu>li a {
+  font-size: 15px;
+}
+
+#menu-wrap .navbar-collapse .navbar-nav .first_menu>a,
+#menu-wrap .navbar-collapse .navbar-nav .first_menu:not(.multilevel)>.second_menu>li a,
+#menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel>.second_menu>li>a {
+  font-size: 16px;
 }

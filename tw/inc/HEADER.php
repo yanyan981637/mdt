@@ -414,7 +414,7 @@ height="0" width="0"></iframe></noscript>
 						<a class="navbar-brand" href="index.php" title="神達數位股份有限公司">
 							<img src="../images/MDT_logo_light@2x.png" alt="神達數位股份有限公司" class="">
 						</a>
-						<div class="navbar-collapse justify-content-end" id="navbarNavMenuMain">
+						<div class="navbar-collapse" id="navbarNavMenuMain">
 							<ul class="navbar-nav">
 								<!-- get Menu -->
 
