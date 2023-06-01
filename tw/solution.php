@@ -183,7 +183,7 @@
         
         <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="https://www.magellangps.com/fleet/return-to-route-solution-for-snow" target="_blank">瞭解更多</a>
-          <a class="btn btn-fill-black-b btn-lg  btn-round" href="./video-telematics.php">應用於車隊平板</a>
+          <a class="btn btn-fill-black-b btn-lg  btn-round" href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets" target="_blank">應用於車隊平板</a>
         </div>
       </div>
     </div>
