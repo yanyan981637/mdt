@@ -129,7 +129,7 @@
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>路徑返回解決方案 – RouteComplete™</h2>
-              <h4>強大的全景監控引領安全保障</h4>
+              <h4>路線規劃, 管理, 監控與執行</h4>
             </div>	
           </div>		
         </div>
