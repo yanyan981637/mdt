@@ -193,7 +193,7 @@
   <!-- Handy Terminal -->
   <div class="section mt-10vh" id="handy-terminal">
     <div class="second-bannner">
-      <div class="bg-img" style="background-image: url('../images/tablet/Industrial-Tablet-banner.jpg')">
+      <div class="bg-img" style="background-image: url('../images/tablet/Handy_Terminal-banner.jpg')">
         <div class="container color-white hero-text big-text text-center">
           <div class="row">
             <div class="col-md-7 align-self-center">	

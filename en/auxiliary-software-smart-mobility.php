@@ -275,7 +275,7 @@
 		<div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h2">Cyclo PC Tool & App – MioShare™ </h2>
+				<h2 class="h3">Cyclo PC Tool & App – MioShare™ </h2>
 					<h5>Easily find routes and view history records on smartphone</h5>
 					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
 				</div>

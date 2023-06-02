@@ -278,7 +278,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h2">自行車導航電腦工具&應用程式 – MioShare™</h2>
+				<h2 class="h3">自行車導航電腦工具&應用程式 – MioShare™</h2>
 					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
 					<p>透過 MioShare™ 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div>
