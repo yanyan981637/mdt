@@ -138,7 +138,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
-          <p>使用神達數位 RTR解決方案，您可以克服最具挑戰性的安全、成本和服務問題——此解決方案專門為在多變天氣條件下運行的鏟雪車隊和撒鹽車隊而設計。</p>
+          <p>使用神達數位路徑返回解決方案，您可以克服最具挑戰性的安全、成本和服務問題——此解決方案專門為在多變天氣條件下運行的鏟雪車隊和撒鹽車隊而設計。</p>
 				</div>
 			</div>	  
 		</div>
