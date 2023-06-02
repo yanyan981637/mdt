@@ -16,7 +16,7 @@
 				<div class="row">
 					<div class="col-md-7 align-self-center">	
 						<h1 class="color-white">Self-Service Kiosk</h1>
-            <h3 class="h4">Take Your Business to the Next Level</h3>
+            <h3 class="h4">Take your business to the next level</h3>
 					</div>	
           <div class="col-md-5 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="">
