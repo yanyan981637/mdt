@@ -60,7 +60,7 @@
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>車載視訊解決方案 - VisionMax™</h2>
-              <h4>強大的全景監控、領先的安全保障</h4>
+              <h4>強大的全景監控引領安全保障</h4>
             </div>	
           </div>		
         </div>
