@@ -83,7 +83,7 @@
 						</a>
 					</div>
 					
-					<div class="item item--third">
+					<div class="item item--second">
 						<a href="tablet.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
 							<div class="txt-wrap" style="opacity: 1;">
 								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  Industrials</h2><span></span></h3>
