@@ -333,7 +333,8 @@ a svg {
   #handy-terminal_banner .hero-text img,
   #kiosk_banner .hero-text img,
   #industrial-tablet .hero-text img,
-  #multi-view-dashcam .hero-text img {
+  #multi-view-dashcam .hero-text img,
+  #handy-terminal .hero-text img {
     width: 200px;
     height: auto;
     padding: 0;

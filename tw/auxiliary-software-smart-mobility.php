@@ -263,9 +263,9 @@
 					<img src="../images/auxiliary_software/MioNext-banner_ch.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
 			</div>
-			<div class="col-md-12 ">
-        <!-- <a class="btn btn-primary btn-lg btn-round m-3" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">應用於聯網型行車記錄器</a> -->
+			<div class="col-md-12 mt-30">
+        <a class="btn btn-primary btn-lg btn-round" href="hhttps://www.mio.com/tw/products/mionextapp" target="_blank">瞭解更多</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/tw/misentry-12t" target="_blank">應用於聯網型行車記錄器</a>
 
 				<hr class="mt-40 hr">
       </div>
@@ -343,8 +343,8 @@
 			  </div>	
 			</div>
 			<div class="col-md-12 mt-30">
-				<a class="btn btn-primary btn-lg btn-round m-3" href="https://www.mioshare.com/zh-tw/landing" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round m-3" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
+				<a class="btn btn-primary btn-lg btn-round" href="https://www.mioshare.com/zh-tw/landing" target="_blank">瞭解更多</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
       </div>
 		</div>	
 	</div>

@@ -386,9 +386,9 @@
             <p>GPS parked car location finding</p>
           </div>
         </div>
-        <!-- <div class="col-md-12 mt-30 text-center">
+        <div class="col-md-12 mt-30 text-center">
           <a class="btn btn-primary btn-lg btn-round" href="https://www.mio.com/tw/products/car-camera/all-series/misentry-12t" target="_blank">Learn More</a>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
