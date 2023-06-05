@@ -145,8 +145,8 @@
     -webkit-transform: translateX(-25%);
             transform: translateX(-25%); }
   .p-case-list-index .areas .item.item--second .img img {
-    -webkit-transform: translateX(-27%);
-            transform: translateX(-27%); }
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%); }
   
   .p-case-list-index .areas .item.item--enfold .img img {
     -webkit-transform: translateX(-60%);
