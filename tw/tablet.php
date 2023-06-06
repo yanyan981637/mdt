@@ -58,7 +58,7 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/tablet/Industrial-Tablet-banner.jpg')">
         <div class="container color-white hero-text big-text text-center">
-          <div class="row">
+          <div class="row align-content-center">
             <div class="col-md-7 align-self-center">	
               <h2 class="color-white">工業平板</h2>
               <h4 class="h4">强大耐用，適用於環境嚴苛的工作場所</h4>
@@ -195,7 +195,7 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/tablet/Handy_Terminal-banner.jpg')">
         <div class="container color-white hero-text big-text text-center">
-          <div class="row">
+          <div class="row align-content-center">
             <div class="col-md-7 align-self-center">	
               <h2 class="color-white">手持終端機</h2>
               <h4 class="h4">簡約耐用的行動電腦</h4>

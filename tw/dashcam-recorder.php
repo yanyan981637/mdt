@@ -125,7 +125,7 @@
     <div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/dashcam_recorder/multi-views-DVR-banner.jpg')">
         <div class="container color-white hero-text big-text text-center">
-          <div class="row">
+          <div class="row align-content-center">
             <div class="col-md-7 align-self-center">	
               <h2 class="color-white">多鏡頭行車記錄器</h2>
               <h4 class="h4">提供最佳保護的全方位視野</h4>
