@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-md-12">	
 						<h1 class="color-white">平板</h1>
-            <h3 class="h4">堅固耐用, 兼具消費性產品可用性</h3>
+            <h3 class="h4">專為企業應用打造的強固型行動裝置</h3>
 					</div>	
 				</div>		
 			</div>		
@@ -33,8 +33,8 @@
         </div>
 				<ul class="col-12">
           <li><a href="#industrial-tablet">工業平板</a></li>
-					<li><a href="#fleet-tablet">車隊平板</a></li>
-					<li><a href="#handy-terminal">手持終端機</a></li>
+					<li><a href="#fleet-tablet">車用平板</a></li>
+					<li><a href="#handy-terminal">手持行動裝置</a></li>
         </ul>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">神達數位平板裝置具有堅固耐用與多功能等特點，並與全球領導的車隊管理、物流、現場服務、醫療保健和零售領域的合作夥伴緊密合作開發。我們的目標是為組織和團隊提供必要的工具，提高生產力。</p>
+						<p class="ContGen">神達數位一直致力於開發堅固、多功能且耐用的行動裝置，並與全球頂尖的車隊管理、物流、現場服務、醫療及零售產業夥伴建立緊密的合作關係。神達數位的目標是為企業組織和工作團隊提供強而有力的工具，讓工作生產力能更上一層樓。</p>
 					</div>
 				</div>
 			</div>	
@@ -73,7 +73,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
-          <p>在嚴苛的工作環境中，堅固性和可靠性至關重要。神達數位工業平板是專門為工作環境所設計, 適用領域包括運輸和物流、現場服務、倉儲、零售和酒店業以及車隊管理等。我們的產品設計輕巧簡約,並可根據不同產業的具體需求進行客制化設計。</p>
+          <p>在嚴苛的工作環境中，堅固和可靠程度格外重要。為特殊工作環境所設計的工業平板，適用於多種場域，包括運輸和物流、現場服務、倉儲、零售、餐旅以及車隊管理等。工業平板不僅輕巧、便於攜帶，亦可針對不同產業的需求提供客製化的設計。</p>
 				</div>
 			</div>	  
 		</div>
@@ -94,7 +94,7 @@
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
             <img class="rounded img-fluid" src="../images/tablet/icon_LTE_Telemonitoring.png" alt="隨時隨地無縫連網">
-            <p>隨時隨地無縫連網</p>
+            <p>無時無刻保持連網</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
@@ -130,8 +130,8 @@
         <div class="container color-white center">
           <div class="row column-2">
             <div class="align-self-center col-md-12 mg-auto">	
-              <h2>車隊平板</h2>
-              <h4>有效掌握車隊的行蹤</h4>
+              <h2>車用平板</h2>
+              <h4>隨時隨地掌握車隊最新動態</h4>
             </div>	
             
           </div>		
@@ -141,7 +141,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
-          <p>有效的車隊管理意味著隨時掌握資產的位置和狀態。神達數位車隊平板電腦專為車隊行車環境所設計。廣泛的連網功能整合了車載資訊，確保效率的行程追蹤和數據管理。MiTAC 車隊平板提供了車隊管理所需要的工具，充分展現車隊管理的商務價值。</p>
+          <p>高效率的車隊管理系統讓您能隨時掌握車隊的當前位置和最新狀態。神達數位車用平板電腦專為嚴苛的車用環境打造，其高度可靠的連網能力以及能整合車載資訊的專用車架讓管理者能輕鬆地追蹤車隊動態和資訊收集，神達數位車用平板具備了車隊管理所需的一切技術與功能。</p>
 				</div>
 			</div>	  
 		</div>
@@ -156,7 +156,7 @@
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
             <img class="rounded img-fluid" src="../images/tablet/efficient_data_capture.png" alt="NFC駕駛辨認">
-            <p>NFC駕駛辨認</p>
+            <p>駕駛身份驗證</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
@@ -197,7 +197,7 @@
         <div class="container color-white hero-text big-text text-center">
           <div class="row align-content-center">
             <div class="col-md-7 align-self-center">	
-              <h2 class="color-white">手持終端機</h2>
+              <h2 class="color-white">手持行動裝置</h2>
               <h4 class="h4">簡約耐用的行動電腦</h4>
             </div>	
             <div class="col-md-5 align-self-center">
@@ -210,7 +210,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
-          <p>神達數位強大的手持終端機設計簡約, 尺寸與智慧手機相當, 能提供完整的解決方案,適用於廣泛的商業應用如物流、酒店、現場服務、庫存管理和醫療保健等多種行業，以簡化操作、提高效率和改善客戶服務。</p>
+          <p>神達數位手持行動裝置具備輕巧、與一般智慧手機尺寸相當的設計，為第一線工作者簡化作業流程、提高工作效率並提升客戶服務，使其能適用於多樣化的商業應用中，如物流、餐旅、現場服務、庫存管理和醫療保健等產業。</p>
 				</div>
 			</div>	  
 		</div>

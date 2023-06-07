@@ -71,7 +71,7 @@
 					<ul class="list-style">
 						<li><a href="./dashcam-recorder.php" target="_bank">Smart Mobility</a></li>
 						<li><a href="./video-telematics.php">Smart Telematics</a></li>
-						<li><a href="./tablet.php">Smart Industrials</a></li>
+						<li><a href="./tablet.php">Smart Industries</a></li>
 						<li><a href="./outdoor-luminaires.php">Smart IOT</a></li>
 					</ul>
 				</div>

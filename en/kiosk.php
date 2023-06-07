@@ -32,7 +32,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">MiTAC Self-Service Kiosk is a stylish, highly interactive and state-of-the-art self-service solution that provides modular hardware design with powerful computing platform and industrial-grade reliability. The future-proof kiosk enables intuitive and efficient access to services, reduce wait times greatly and improve the overall customer experience for a wide range of industries including QSR, retail, hospitality, healthcare.</p>
+						<p class="ContGen">MiTAC Self-Service Kiosk is a stylish, highly interactive and state-of-the-art self-service solution that provides modular hardware design, cloud management platform and industrial-grade reliability. The future-proof kiosk enables intuitive and efficient access to services, reduce wait times greatly and improve the overall customer experience for a wide range of industries including QSR, retail, hospitality, healthcare.</p>
 					</div>
 				</div>
 			</div>	
@@ -46,7 +46,7 @@
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
             <img class="rounded img-fluid" src="../images/kiosk/android_platform.png" alt="Android open platform">
-            <p>Android open platform</p>
+            <p>Android & Windows</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">

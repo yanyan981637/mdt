@@ -31,7 +31,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">神達數位自助服務機是一個時尚、高度互動且先進的自助服務解決方案，提供模組化硬體設計、強大的演算平台和工業級可靠性。具有未來感的自助服務機提供直覺和高效率的服務，大幅減少顧客等待時間，並改善包括速食業、零售業、觀光業和醫療業等多種產業的整體顧客體驗。</p>
+						<p class="ContGen">神達數位自助服務機是一款外型時尚、具備高度互動性、採用先進技術的自助服務解決方案，提供了彈性模組化硬體設計、雲端管理平台和工業等級的可靠性。這款嶄新的自助服務機能為顧客創造更加直覺且高效率的服務體驗並大幅減少等待時間，適用於多種產業中，包括速食、零售、餐旅和醫療產業等。</p>
 					</div>
 				</div>
 			</div>	
@@ -45,7 +45,7 @@
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
             <img class="rounded img-fluid" src="../images/kiosk/android_platform.png" alt="Android開放平台">
-            <p>Android開放平台</p>
+            <p>Android & Windows</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">

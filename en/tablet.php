@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-md-12">	
 						<h1 class="color-white">Tablet</h1>
-            <h3 class="h4">All the usability of consumer-grade products with extra ruggedness</h3>
+            <h3 class="h4">Rugged mobile devices designed for enterprise applications</h3>
 					</div>	
 				</div>		
 			</div>	
@@ -46,7 +46,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-						<p class="ContGen">MiTAC's mobile devices are rugged, versatile, and durable, and they have been created in close partnership with global leaders in fleet management, logistics, field services, healthcare, and retail. Our goal is to provide organizations and teams with the tools they need to be more productive.</p>
+						<p class="ContGen">MiTAC has developed rugged, versatile, and durable mobile devices in collaboration with leading global experts in fleet management, logistics, field services, healthcare, and retail. Our objective is to equip organizations and teams with the powerful tools to bring their productivity to the next levels.</p>
 					</div>
 				</div>
 			</div>	
