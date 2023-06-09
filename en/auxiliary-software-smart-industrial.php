@@ -34,14 +34,14 @@
 		</div>
 	</div>
 
-	<!-- MiDM™-->
+	<!-- MiDM<sup>&trade;</sup>-->
 <div class="section over-hide" id="midm">
   <div class="container padding-top-bottom background-white">
     <div class="row justify-content-center">
       <div class="col-md-12">
-        <h3 class="h3">Mobile Device Management - MiDM™</h3>
+        <h3 class="h3">Mobile Device Management - MiDM<sup>&trade;</sup></h3>
 				<h5>Seamlessly configure, manage, deploy device configurations, files and application or device updates - all remotely.</h5>
-				<p>MiTAC (Mobile) Device Management (MiDM™) is a comprehensive and cost-effective MDM suite that enables business to securely deploy  mobile devices in multiple user groups over-the air from a single management console - regardless of geographical location.</p>
+				<p>MiTAC (Mobile) Device Management (MiDM<sup>&trade;</sup>) is a comprehensive and cost-effective MDM suite that enables business to securely deploy  mobile devices in multiple user groups over-the air from a single management console - regardless of geographical location.</p>
       </div>
     </div>	
   </div>
@@ -94,7 +94,7 @@
         </div>
       </div>
       <div class="col-md-5 order-1 order-md-2 mb-30">
-        <img src="../images/auxiliary-software-smart-industrial/MiDM™-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
+        <img src="../images/auxiliary-software-smart-industrial/MiDM<sup>&trade;</sup>-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
       </div>
     </div>
     <div class="col-md-12 mt-30">
@@ -106,23 +106,23 @@
 </div>
 
 	
-	<!-- MiLock™ -->
+	<!-- MiLock<sup>&trade;</sup> -->
 <div class="section over-hide" id="milock">
  <div class="container padding-top-bottom background-white">
     <div class="row justify-content-center">
       <div class="col-md-12">
-      <h3 class="h3">Tablet App - MiLock™</h3>
+      <h3 class="h3">Tablet App - MiLock<sup>&trade;</sup></h3>
 				<h5>Turn your device into Single App Kiosk mode</h5>
-				<p>MiLock™ is a proprietary kiosk mode app developed by MiTAC. It replaces the default Android™ Launcher App, and provides businesses with a tool to enhance employee productivity and device usability. With MiLock™, user access can be restricted to a single application in 'kiosk-mode', or to a group of approved applications that will replace the traditional homescreen. MiLock™ is ideal for scenario's where devices are utilized for specific use cases, such as Fleet Management, Table ordering, Warehousing, Logistics, etc. </p>
+				<p>MiLock<sup>&trade;</sup> is a proprietary kiosk mode app developed by MiTAC. It replaces the default Android<sup>&trade;</sup> Launcher App, and provides businesses with a tool to enhance employee productivity and device usability. With MiLock<sup>&trade;</sup>, user access can be restricted to a single application in 'kiosk-mode', or to a group of approved applications that will replace the traditional homescreen. MiLock<sup>&trade;</sup> is ideal for scenario's where devices are utilized for specific use cases, such as Fleet Management, Table ordering, Warehousing, Logistics, etc. </p>
       </div>
     </div>	
   </div>
   <div class="container">
     <div class="row">
       <!-- <div class="col-12">
-				<h3 class="h3">MiLock™  App</h3>
+				<h3 class="h3">MiLock<sup>&trade;</sup>  App</h3>
 				<h5>Turn your device into Single App Kiosk mode</h5>
-				<p>MiLock™ is a proprietary kiosk mode app developed by MiTAC. It replaces the default Android™ Launcher App, and provides businesses with a tool to enhance employee productivity and device usability. With MiLock™, user access can be restricted to a single application in 'kiosk-mode', or to a group of approved applications that will replace the traditional homescreen. MiLock™ is ideal for scenario's where devices are utilized for specific use cases, such as Fleet Management, Table ordering, Warehousing, Logistics, etc. </p>
+				<p>MiLock<sup>&trade;</sup> is a proprietary kiosk mode app developed by MiTAC. It replaces the default Android<sup>&trade;</sup> Launcher App, and provides businesses with a tool to enhance employee productivity and device usability. With MiLock<sup>&trade;</sup>, user access can be restricted to a single application in 'kiosk-mode', or to a group of approved applications that will replace the traditional homescreen. MiLock<sup>&trade;</sup> is ideal for scenario's where devices are utilized for specific use cases, such as Fleet Management, Table ordering, Warehousing, Logistics, etc. </p>
 			</div> -->
       <div class="col-md-7 align-items-stretch mt_30_ order-2 order-md-1">
         <div class="row">

@@ -36,8 +36,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 tc align-items-stretch padding-top-bottom-smaller hr">	
-					<h3 class="mb-20">Video Telematics Solution - VisionMax™</h3>
-					<p class="mb-30">VisionMax™ focuses   on driving safety event monitoring and data management and storage, provides   immediate safety event reminders and subsequent safety event reconstruction,   and establishes a powerful eco-system to ensure the best safety guarantee and   round-the-clock protection for drivers and fleets.</p>
+					<h3 class="mb-20">Video Telematics Solution - VisionMax<sup>&trade;</sup></h3>
+					<p class="mb-30">VisionMax<sup>&trade;</sup> focuses   on driving safety event monitoring and data management and storage, provides   immediate safety event reminders and subsequent safety event reconstruction,   and establishes a powerful eco-system to ensure the best safety guarantee and   round-the-clock protection for drivers and fleets.</p>
 					<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">
 						<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="17px" xmlns="http://www.w3.org/2000/svg">
 							<g transform="matrix(1 0 0 1 -597 -811 )">

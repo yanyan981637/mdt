@@ -31,7 +31,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-8">
-						<p class="ContGen">Compact size with powerful insights, MiTAC Cyclo™ cycling computer allows you to  enjoy the ride with your loved ones and  level up your next trip.</p>
+						<p class="ContGen">Compact size with powerful insights, MiTAC Cyclo<sup>&trade;</sup> cycling computer allows you to  enjoy the ride with your loved ones and  level up your next trip.</p>
 					</div>
 				</div>
 			</div>	
@@ -44,8 +44,8 @@
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-navigation-icon text-center">
-            <img class="rounded img-fluid" src="../images/outdoor-navigation/cyclo_icon_NeverMiss.png" alt="NeverMiss™">
-            <p>NeverMiss™</p>
+            <img class="rounded img-fluid" src="../images/outdoor-navigation/cyclo_icon_NeverMiss.png" alt="NeverMiss<sup>&trade;</sup>">
+            <p>NeverMiss<sup>&trade;</sup></p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
@@ -56,8 +56,8 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-navigation-icon text-center">
-            <img class="rounded img-fluid" src="../images/outdoor-navigation/Surpriese.png" alt="Surprise Me™">
-            <p>Surprise Me™</p>
+            <img class="rounded img-fluid" src="../images/outdoor-navigation/Surpriese.png" alt="Surprise Me<sup>&trade;</sup>">
+            <p>Surprise Me<sup>&trade;</sup></p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">

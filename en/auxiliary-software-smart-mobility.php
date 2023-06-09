@@ -41,18 +41,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h3 class="h3">Dashcam App - MiVue™  Pro</h3>
+				<h3 class="h3">Dashcam App - MiVue<sup>&trade;</sup>  Pro</h3>
 					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
-					<p>MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
+					<p>MiVue<sup>&trade;</sup> Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h3 class="h3">MiVue™ Pro App</h3>
+					<h3 class="h3">MiVue<sup>&trade;</sup> Pro App</h3>
 					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
-					<p>MiVue™ Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
+					<p>MiVue<sup>&trade;</sup> Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 align-items-stretch mt_30_  order-2 order-md-1">
 					<div class="row">
@@ -80,8 +80,8 @@
 		
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
-								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="Set up your dash cam through the MiVue™ Pro app ">
-								<p>Set up your dash cam through the MiVue™ Pro app </p>
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="Set up your dash cam through the MiVue<sup>&trade;</sup> Pro app ">
+								<p>Set up your dash cam through the MiVue<sup>&trade;</sup> Pro app </p>
 							</div>
 						</div>
 
@@ -119,18 +119,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">Dashcam PC Tool - MiVue™  Manager</h2>
+				  <h2 class="h3">Dashcam PC Tool - MiVue<sup>&trade;</sup>  Manager</h2>
 					<h5>Convenient PC tool for clips review and management</h5>
-					<p>Using MiVue™ Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
+					<p>Using MiVue<sup>&trade;</sup> Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h2 class="h3">MiVue™ Manager Web Tool</h2>
+					<h2 class="h3">MiVue<sup>&trade;</sup> Manager Web Tool</h2>
 					<h5>Convenient PC tool for clips review and management</h5>
-					<p>Using MiVue™ Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
+					<p>Using MiVue<sup>&trade;</sup> Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -197,18 +197,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">Connected Dashcam App - MioNext™ </h2>
+				  <h2 class="h3">Connected Dashcam App - MioNext<sup>&trade;</sup> </h2>
 					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
-					<p>Together with the MiTAC connected dashcam, the MioNext™ App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
+					<p>Together with the MiTAC connected dashcam, the MioNext<sup>&trade;</sup> App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h2 class="h3">MioNext™ App </h2>
+					<h2 class="h3">MioNext<sup>&trade;</sup> App </h2>
 					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
-					<p>Together with the MiTAC connected dashcam, the MioNext™ App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
+					<p>Together with the MiTAC connected dashcam, the MioNext<sup>&trade;</sup> App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -275,18 +275,18 @@
 		<div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">Cyclo PC Tool & App – MioShare™ </h2>
+				<h2 class="h3">Cyclo PC Tool & App – MioShare<sup>&trade;</sup> </h2>
 					<h5>Easily find routes and view history records on smartphone</h5>
-					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
+					<p>With the MioShare<sup>&trade;</sup> web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h2 class="h2">MioShare™ Web Tool & App </h2>
+					<h2 class="h2">MioShare<sup>&trade;</sup> Web Tool & App </h2>
 					<h5>Easily find routes and view history records on smartphone</h5>
-					<p>With the MioShare™ web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
+					<p>With the MioShare<sup>&trade;</sup> web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -341,7 +341,7 @@
 		  </div>
 			<div class="col-md-12 mt-30">
 				<a class="btn btn-primary btn-lg btn-round" href="https://www.mioshare.com/landing" target="_blank">Learn More</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo™ Navigation</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">Apply to Cyclo<sup>&trade;</sup> Navigation</a>
 			</div>
 	  </div>	
   </div>

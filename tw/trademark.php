@@ -68,7 +68,7 @@
 						</tr>
 					  </tbody>
 					</table>
-				<P>*當使用®，請向您當地的行銷聯繫窗口洽詢。 </P>
+				<P>*當使用<sup>&reg;</sup>，請向您當地的行銷聯繫窗口洽詢。 </P>
 				<br/>
 				<P CLASS="b">Mio DigiWalker與神達</P>
 				<P>神達使用Mio DigiWalker商標銷售其產品。</P>

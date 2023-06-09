@@ -56,10 +56,10 @@
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
             <div class="col-md-5 img mg-auto order-2 order-md-1">
-            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax™">
+            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax<sup>&trade;</sup>">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>車載視訊解決方案 - VisionMax™</h2>
+              <h2>車載視訊解決方案 - VisionMax<sup>&trade;</sup></h2>
               <h4>強大的全景監控引領安全保障</h4>
             </div>	
           </div>		
@@ -69,7 +69,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
-          <p>VisionMax™著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建並建立強大的安全系統，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
+          <p>VisionMax<sup>&trade;</sup>著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建並建立強大的安全系統，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
 				</div>
 			</div>	  
 		</div>
@@ -128,7 +128,7 @@
             <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="路徑返回">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>路徑返回解決方案 – RouteComplete™</h2>
+              <h2>路徑返回解決方案 – RouteComplete<sup>&trade;</sup></h2>
               <h4>路線規劃, 管理, 監控與執行</h4>
             </div>	
           </div>		

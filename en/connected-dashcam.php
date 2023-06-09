@@ -45,7 +45,7 @@
 				<div class="col-md-10">	
 					<h2 class="pgTit FC_mdtB tc">About Connected Dashcam</h2>
 					<div class="call-box-4">
-						<p class="ContGen">Connected Dashcam Series is an all-in-one fleet connected camera solution which helps fleet managers evolve their solutions to forward-thinking video telematics. Built on a powerful Qualcomm® processor and Android™ platform, it not only provides outstanding processing performance, but also a high degree of flexibility with a suite of APIs &amp; SDK for system and cloud integration.</p>
+						<p class="ContGen">Connected Dashcam Series is an all-in-one fleet connected camera solution which helps fleet managers evolve their solutions to forward-thinking video telematics. Built on a powerful Qualcomm<sup>&reg;</sup> processor and Android<sup>&trade;</sup> platform, it not only provides outstanding processing performance, but also a high degree of flexibility with a suite of APIs &amp; SDK for system and cloud integration.</p>
 					</div>
 				</div>
 			</div>	
@@ -172,7 +172,7 @@
 					<ul>
 						<li>Built-in 4G LTE Cat.6 & dual-band WIFI</li>
 						<li>Over-the-Air firmware & setting updates</li>
-						<li>Bluetooth® 4.2 BLE</li>
+						<li>Bluetooth<sup>&reg;</sup> 4.2 BLE</li>
 					</ul>
 				</div>
 				<div class="col-md-4 feat-box">	
@@ -192,7 +192,7 @@
 							<h5>Reliable and flexible platform</h5>
 						</div>
 						<ul>
-							<li>Qualcomm® Octa-core & Android™ 9.0</li>
+							<li>Qualcomm<sup>&reg;</sup> Octa-core & Android<sup>&trade;</sup> 9.0</li>
 							<li>Open APIs & SDK for seamless integration with fleet management solutions</li>
 						</ul>
 				</div>
@@ -255,7 +255,7 @@
 					<ul>
 						<li>Built-in 4G LTE Cat.6 & dual-band WIFI</li>
 						<li>Over-the-Air firmware & setting updates</li>
-						<li>Bluetooth® 4.2 BLE, NFC / HF RFID</li>
+						<li>Bluetooth<sup>&reg;</sup> 4.2 BLE, NFC / HF RFID</li>
 					</ul>
 				</div>
 				<div class="col-md-4 feat-box">	
@@ -264,7 +264,7 @@
 						<h5>Reliable and flexible platform</h5>
 					</div>
 					<ul>
-						<li>Qualcomm® Octa-core & Android™ 9.0</li>
+						<li>Qualcomm<sup>&reg;</sup> Octa-core & Android<sup>&trade;</sup> 9.0</li>
 						<li>Open APIs & SDK for seamless integration with fleet management solutions</li>
 					</ul>
 				</div>
@@ -329,7 +329,7 @@
 					<ul>
 						<li>Built-in 4G LTE Cat.6 & dual-band WIFI</li>
 						<li>Over-the-Air firmware & setting updates</li>
-						<li>Bluetooth® 4.2 BLE, NFC / HF RFID</li>
+						<li>Bluetooth<sup>&reg;</sup> 4.2 BLE, NFC / HF RFID</li>
 					</ul>
 				</div>
 				<div class="col-md-4 feat-box">	
@@ -348,7 +348,7 @@
 						<h5>Reliable and flexible platform</h5>
 					</div>
 					<ul>
-						<li>Qualcomm® Octa-core & Android™ 9.0</li>
+						<li>Qualcomm<sup>&reg;</sup> Octa-core & Android<sup>&trade;</sup> 9.0</li>
 						<li>Open APIs & SDK for seamless integration with fleet management solutions</li>
 					</ul>
 				</div>
@@ -403,7 +403,7 @@
 					<ul>
 						<li>Built-in 4G LTE Cat.4 & dual-band WIFI</li>
 						<li>Over-the-Air firmware & setting updates</li>
-						<li>Bluetooth® 5.0 BLE, NFC / HF RFID</li>
+						<li>Bluetooth<sup>&reg;</sup> 5.0 BLE, NFC / HF RFID</li>
 					</ul>
 				</div>
 				<div class="col-md-4 feat-box">	
@@ -423,9 +423,9 @@
 						<h5>Reliable and flexible platform</h5>
 					</div>
 					<ul>
-						<li>Qualcomm® Octa-core & Android™ 10.0</li>
+						<li>Qualcomm<sup>&reg;</sup> Octa-core & Android<sup>&trade;</sup> 10.0</li>
 						<li>Powerful octa-core SoC with edge intelligence, using AI and machine learning for fleet management applications.</li>
-						<li>Android™ 10 and open APIs & SDK for seamless integration with fleet management solutions.</li>
+						<li>Android<sup>&trade;</sup> 10 and open APIs & SDK for seamless integration with fleet management solutions.</li>
 					</ul>
 				</div>
 				<div class="col-md-4 feat-box">	

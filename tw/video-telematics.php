@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-					<p>Connected Dashcam 系列是多功能車隊聯網視訊解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm® 處理器和 Android™ 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
+					<p>Connected Dashcam 系列是多功能車隊聯網視訊解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm<sup>&reg;</sup> 處理器和 Android<sup>&trade;</sup> 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
 					</div>
 				</div>
 			</div>	
@@ -229,7 +229,7 @@
 			<div class="row">
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
-					<h4 class="h5" style="color:#2449a8;">關於車載視訊和VisionMax™的常見問題，供您參考。</h4>
+					<h4 class="h5" style="color:#2449a8;">關於車載視訊和VisionMax<sup>&trade;</sup>的常見問題，供您參考。</h4>
 					<div>
 						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
 						</div>

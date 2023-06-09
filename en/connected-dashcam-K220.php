@@ -185,11 +185,11 @@
 					<tbody>
 						<tr>
 							<th class="label">Platform</th>
-							<td class="data">Qualcomm® Snapdragon™ SDM450 Octa core, 1.8GHz</td>
+							<td class="data">Qualcomm<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450 Octa core, 1.8GHz</td>
 						</tr>
 						<tr>
 							<th class="label">OS</th>
-							<td class="data">Android™ 9.0</td>
+							<td class="data">Android<sup>&trade;</sup> 9.0</td>
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
@@ -204,7 +204,7 @@
 							<td class="data">
 								<ul>
 									<li>IEEE 802.11 a/b/g/n/ac (2.4GHz & 5GHz)</li>
-									<li>Bluetooth® 4.2 BLE</li>
+									<li>Bluetooth<sup>&reg;</sup> 4.2 BLE</li>
 									<li>GPS, QZSS, GLONASS, Galileo (supports ADR**)</li>
 								</ul>
 							</td>

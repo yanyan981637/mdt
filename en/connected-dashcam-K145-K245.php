@@ -193,11 +193,11 @@
 						</tr>
 						<tr>
 							<th class="label">Platform</th>
-							<td class="data tc" colspan="2">Qualcomm® Snapdragon™ SDM450 Octa core, 1.8GHz</td>
+							<td class="data tc" colspan="2">Qualcomm<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450 Octa core, 1.8GHz</td>
 						</tr>
 						<tr>
 							<th class="label">OS</th>
-							<td class="data tc" colspan="2">Android™ 9.0 or Android™ 10	</td>
+							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 9.0 or Android<sup>&trade;</sup> 10	</td>
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
@@ -212,7 +212,7 @@
 							<td class="data tc" colspan="2">
 								<ul>
 									<li>IEEE 802.11 a/ b/ g/ n/ ac (2.4 GHz & 5 GHz)</li>
-									<li>Bluetooth® 4.2 BLE</li>
+									<li>Bluetooth<sup>&reg;</sup> 4.2 BLE</li>
 									<li>GPS, QZSS, GLONASS, Galileo</li>
 									<li>LTE Cat. 6 (3G/ 2G fallback*)</li>
 									<li>EMEA & Australia</li>
@@ -229,7 +229,7 @@
 						</tr>
 						<tr>
 							<th class="label">NFC</th>
-							<td class="data tc" colspan="2">NFC: MiFare®, FeliCa | RFID (HF): ISO14443A&B, ISO15693</td>
+							<td class="data tc" colspan="2">NFC: MiFare<sup>&reg;</sup>, FeliCa | RFID (HF): ISO14443A&B, ISO15693</td>
 						</tr>
 						<tr>
 							<th class="label">Camera</th>

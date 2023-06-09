@@ -34,7 +34,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 tc align-items-stretch padding-top-bottom-smaller hr">	
-					<h3 class="mb-20">車載視訊解決方案 - VisionMax™</h3>
+					<h3 class="mb-20">車載視訊解決方案 - VisionMax<sup>&trade;</sup></h3>
 					<p class="mb-30">強大的全景監控引領安全保障</p>
 					<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">
 						<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="17px" xmlns="http://www.w3.org/2000/svg">

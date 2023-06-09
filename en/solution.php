@@ -56,10 +56,10 @@
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
             <div class="col-md-5 img mg-auto order-2 order-md-1">
-            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax™">
+            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax<sup>&trade;</sup>">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>VT Solution - VisionMax™</h2>
+              <h2>VT Solution - VisionMax<sup>&trade;</sup></h2>
               <h4>Powerful panoramic perception  for leading safety and security</h4>
             </div>	
           </div>		
@@ -69,7 +69,7 @@
     <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 			   <div class="col-md-10">
-         <p>VisionMax™ focuses on driving safety event monitoring and data management and storage, provides immediate safety event reminders and subsequent safety event reconstruction, and establishes a powerful eco-system to ensure the best safety guarantee and round-the-clock protection for drivers and fleets.</p>
+         <p>VisionMax<sup>&trade;</sup> focuses on driving safety event monitoring and data management and storage, provides immediate safety event reminders and subsequent safety event reconstruction, and establishes a powerful eco-system to ensure the best safety guarantee and round-the-clock protection for drivers and fleets.</p>
         </div>
 			</div>	
 		</div>
@@ -125,10 +125,10 @@
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
             <div class="col-md-5 img mg-auto order-2 order-md-1">
-            <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="RouteComplete™">
+            <img src="../images/smart_telematics_solution/Return_to_Route-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="RouteComplete<sup>&trade;</sup>">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
-              <h2>Route Management Platform – RouteComplete™</h2>
+              <h2>Route Management Platform – RouteComplete<sup>&trade;</sup></h2>
               <h4>Route planning, management, monitoring, and execution</h4>
             </div>	
           </div>		

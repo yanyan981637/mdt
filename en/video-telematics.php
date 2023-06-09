@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-					<p>MiTAC Connected Dashcam Series presents an all-in-one connected fleet camera solution that enables fleet managers to adopt forward-thinking video telematics. Powered by Qualcomm® processor platform, it not only delivers outstanding processing performance but also provides a high degree of flexibility through a comprehensive suite of APIs and SDKs for seamless system and cloud integration.</p>
+					<p>MiTAC Connected Dashcam Series presents an all-in-one connected fleet camera solution that enables fleet managers to adopt forward-thinking video telematics. Powered by Qualcomm<sup>&reg;</sup> processor platform, it not only delivers outstanding processing performance but also provides a high degree of flexibility through a comprehensive suite of APIs and SDKs for seamless system and cloud integration.</p>
 					</div>
 				</div>
 			</div>	
@@ -215,7 +215,7 @@
 			<div class="row">
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
-					<h4 class="h5" style="color:#2449a8;">Frequently asked questions about Viedo Telematics and VisionMax™ for your reference.</h4>
+					<h4 class="h5" style="color:#2449a8;">Frequently asked questions about Viedo Telematics and VisionMax<sup>&trade;</sup> for your reference.</h4>
 					<div>
 						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
 						</div>

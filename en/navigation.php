@@ -105,8 +105,8 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/navigation/Vehicle _racking.png" alt="LearnMe Pro™">
-            <p>LearnMe Pro™</p>
+            <img class="rounded img-fluid" src="../images/navigation/Vehicle _racking.png" alt="LearnMe Pro<sup>&trade;</sup>">
+            <p>LearnMe Pro<sup>&trade;</sup></p>
           </div>
         </div>
         <div class="col-md-12 mt-30 text-center">

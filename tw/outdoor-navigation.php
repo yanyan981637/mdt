@@ -44,8 +44,8 @@
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-navigation-icon text-center">
-            <img class="rounded img-fluid" src="../images/outdoor-navigation/cyclo_icon_NeverMiss.png" alt="NeverMiss™ 絕不錯過有趣的景點™">
-            <p>NeverMiss™ 絕不錯過有趣的景點</p>
+            <img class="rounded img-fluid" src="../images/outdoor-navigation/cyclo_icon_NeverMiss.png" alt="NeverMiss<sup>&trade;</sup> 絕不錯過有趣的景點<sup>&trade;</sup>">
+            <p>NeverMiss<sup>&trade;</sup> 絕不錯過有趣的景點</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
@@ -56,8 +56,8 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-navigation-icon text-center">
-            <img class="rounded img-fluid" src="../images/outdoor-navigation/Surpriese.png" alt="Surprise Me™ 路線推薦">
-            <p>Surprise Me™ 路線推薦</p>
+            <img class="rounded img-fluid" src="../images/outdoor-navigation/Surpriese.png" alt="Surprise Me<sup>&trade;</sup> 路線推薦">
+            <p>Surprise Me<sup>&trade;</sup> 路線推薦</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">

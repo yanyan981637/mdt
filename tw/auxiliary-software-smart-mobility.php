@@ -41,18 +41,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h3 class="h3">行車記錄器應用程式 - MiVue™ Pro </h3>
+				<h3 class="h3">行車記錄器應用程式 - MiVue<sup>&trade;</sup> Pro </h3>
 					<h5>WIFI連接 - 快速、無線傳輸</h5>
-					<p>MiVue™ Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
+					<p>MiVue<sup>&trade;</sup> Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h3 class="h3">MiVue™ Pro 手機應用程式</h3>
+					<h3 class="h3">MiVue<sup>&trade;</sup> Pro 手機應用程式</h3>
 					<h5>WIFI連接 - 快速、無線傳輸</h5>
-					<p>MiVue™ Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
+					<p>MiVue<sup>&trade;</sup> Pro App是神達數位獨家專利手機應用程式，除具備事件影片備份功能外，更新增了可即時觀看校正鏡頭水平、還可透過手機格式化行車記錄器記憶卡、更新韌體等功能，優化使用者經驗。</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 align-items-stretch mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -80,8 +80,8 @@
 		
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
 							<div class="auxiliary-software-icon text-center">
-								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="用MiVue™ Pro App設定行車記錄器">
-								<p>用MiVue™ Pro App設定行車記錄器</p>
+								<img class="rounded img-fluid" src="../images/auxiliary_software/Set_up_your_dash.png" alt="用MiVue<sup>&trade;</sup> Pro App設定行車記錄器">
+								<p>用MiVue<sup>&trade;</sup> Pro App設定行車記錄器</p>
 							</div>
 						</div>
 
@@ -120,18 +120,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">行車記錄器電腦工具 - MiVue™ Manager </h2>
+				  <h2 class="h3">行車記錄器電腦工具 - MiVue<sup>&trade;</sup> Manager </h2>
 					<h5>方便影片觀看與管理的電腦工具</h5>
-					<p>利用MiVue™ Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
+					<p>利用MiVue<sup>&trade;</sup> Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h2 class="h3">MiVue™ Manager</h2>
+					<h2 class="h3">MiVue<sup>&trade;</sup> Manager</h2>
 					<h5>方便影片觀看與管理的電腦工具</h5>
-					<p>利用MiVue™ Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
+					<p>利用MiVue<sup>&trade;</sup> Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -199,18 +199,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">聯網型行車記錄器應用程式 - MioNext™</h2>
+				<h2 class="h3">聯網型行車記錄器應用程式 - MioNext<sup>&trade;</sup></h2>
 					<h5>智慧停車保全 - 智慧防盜保全</h5>
-					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext™ 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
+					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext<sup>&trade;</sup> 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h2 class="h3">MioNext™ 手機應用程式</h2>
+					<h2 class="h3">MioNext<sup>&trade;</sup> 手機應用程式</h2>
 					<h5>智慧停車保全 - 智慧防盜保全</h5>
-					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext™ 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
+					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext<sup>&trade;</sup> 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -278,18 +278,18 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">自行車導航電腦工具&應用程式 – MioShare™</h2>
+				<h2 class="h3">自行車導航電腦工具&應用程式 – MioShare<sup>&trade;</sup></h2>
 					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
-					<p>透過 MioShare™ 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
+					<p>透過 MioShare<sup>&trade;</sup> 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div>
 			</div>	
 		</div>
 		<div class="container">
 			<div class="row">	
 				<!-- <div class="col-12">
-					<h2 class="h2">MioShare™ 電腦工具 & 手機應用程式</h2>
+					<h2 class="h2">MioShare<sup>&trade;</sup> 電腦工具 & 手機應用程式</h2>
 					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
-					<p>透過 MioShare™ 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
+					<p>透過 MioShare<sup>&trade;</sup> 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div> -->
 				<div class="col-md-6 col-lg-7 mt_30_ order-2 order-md-1">
 					<div class="row">
@@ -344,7 +344,7 @@
 			</div>
 			<div class="col-md-12 mt-30">
 				<a class="btn btn-primary btn-lg btn-round" href="https://www.mioshare.com/zh-tw/landing" target="_blank">瞭解更多</a>
-				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo™ 自行車導航</a>
+				<a class="btn btn-fill-black-b btn-lg  btn-round" href="https://www.mio.com/en_eu/products/outdoors/cycling-navigation" target="_blank">應用於Cyclo<sup>&trade;</sup> 自行車導航</a>
       </div>
 		</div>	
 	</div>

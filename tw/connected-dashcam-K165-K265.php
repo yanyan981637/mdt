@@ -205,11 +205,11 @@
 						</tr>
 						<tr>
 							<th class="label">Platform</th>
-							<td class="data tc" colspan="2">高通® Snapdragon™ SDM450八核1.8GHz處理器</td>
+							<td class="data tc" colspan="2">高通<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450八核1.8GHz處理器</td>
 						</tr>
 						<tr>
 							<th class="label">OS</th>
-							<td class="data tc" colspan="2">Android™ 9.0</td>
+							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 9.0</td>
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
@@ -224,7 +224,7 @@
 							<td class="data tc" colspan="2">
 								<ul>
 									<li>IEEE 802.11 a/b/g/n/ac（2.4GHz和5GHz）</li>
-									<li>藍牙® 4.2 BLE</li>
+									<li>藍牙<sup>&reg;</sup> 4.2 BLE</li>
 									<li>GPS、QZSS、GLONASS、Galileo衛星定位系統（支持ADR**)</li>
 								</ul>
 							</td>

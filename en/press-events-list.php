@@ -120,7 +120,7 @@
 				</div>
 				<div class="cont col-lg-7 col-md-5 col-sm-6">
 					<h5><a class="FC_mdtG" href="press-events-20190226.php">MiTAC Digital Technology exhibits its professional tablets and backend MDM solution at Embedded World 2019</a></h5>
-					<p class="brf">MiTAC Digital Technology Corporation (MDT) exhibits its full product range of professional tablet and backend mobile device management (MDM) solution at Embedded World 2019. With extra ruggedness, MioCARE™ and MioWORK™ semi-rugged tablets are designed to resist multiple drops, shocks, spills and splashes, offering high protection while remaining lightweight, easily portable and attractive.</p>
+					<p class="brf">MiTAC Digital Technology Corporation (MDT) exhibits its full product range of professional tablet and backend mobile device management (MDM) solution at Embedded World 2019. With extra ruggedness, MioCARE<sup>&trade;</sup> and MioWORK<sup>&trade;</sup> semi-rugged tablets are designed to resist multiple drops, shocks, spills and splashes, offering high protection while remaining lightweight, easily portable and attractive.</p>
 					<span class="more"><a href="press-events-20190226.php">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 				</div>
 			</div>

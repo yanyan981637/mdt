@@ -73,7 +73,7 @@
 						<div class="section text-left">	
 							<div class="txtBox">	
 								<h5>主要應用</h5>
-								<p class="st1">Qualcomm® QCS610 搭配邊緣 AI 運算與機器學習引擎，是 MiTAC 為車載視訊管理解決方案所開發的最佳 AI 平台。</p>
+								<p class="st1">Qualcomm<sup>&reg;</sup> QCS610 搭配邊緣 AI 運算與機器學習引擎，是 MiTAC 為車載視訊管理解決方案所開發的最佳 AI 平台。</p>
 							</div>
 						</div>
 					</div>
@@ -96,7 +96,7 @@
 						<div class="section text-left">	
 							<div class="txtBox">	
 								<h5>主要應用</h5>
-								<p class="st1">MiTAC 車隊行車記錄器採用超廣角的 Full HD 影像錄製功能，清楚掌握車體內外的狀況。領先業界的 STARVIS™ 感光元件在低光源環境中，也能拍攝出極為清晰的影像，迅速適應各種照明條件。</p>
+								<p class="st1">MiTAC 車隊行車記錄器採用超廣角的 Full HD 影像錄製功能，清楚掌握車體內外的狀況。領先業界的 STARVIS<sup>&trade;</sup> 感光元件在低光源環境中，也能拍攝出極為清晰的影像，迅速適應各種照明條件。</p>
 							</div>
 						</div>
 					</div>
