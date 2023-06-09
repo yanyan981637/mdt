@@ -101,17 +101,14 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K220</h2>
-						<p>高性價比</p>
+						<p>經濟實惠的選擇</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
-						<li>內置4G LTE Cat.6和雙頻WiFi</li>
-						<li>藍牙4.2 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核處理器和Android 9</li>
-						<li>單個Micro SD卡槽（最高512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
+						<li>4G LTE 聯網</li>
+						<li>資料同步儲存於本機SD 卡和雲端</li>
+						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -177,7 +174,7 @@
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
 						<div class="productGrid section justify-content-center text-left">
-							<h4 class="FC_mdt1 tc"><span>規格</span></h4>
+							<h4 class="FC_mdt1 tc"><span>Specifications</span></h4>
 						</div>	
 				</div>
 			</div>
@@ -185,8 +182,8 @@
 				<table>
 					<tbody>
 						<tr>
-							<th class="label">Platform</th>
-							<td class="data">高通<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450八核1.8GHz處理器</td>
+							<th class="label">Product</th>
+							<td class="data">Qualcomm<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450 Octa core, 1.8GHz</td>
 						</tr>
 						<tr>
 							<th class="label">OS</th>
@@ -194,19 +191,19 @@
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
-							<td class="data">2GB RAM / 16GB內存空間</td>
+							<td class="data">2GB RAM / 16GB internal storage</td>
 						</tr>
 						<tr>
 							<th class="label">Expansion</th>
-							<td class="data">MicroSD插槽（支持最高512GB）</td>
+							<td class="data">MicroSD slot (up to 512GB support)</td>
 						</tr>
 						<tr>
 							<th class="label">Wireless Interface</th>
 							<td class="data">
 								<ul>
 									<li>IEEE 802.11 a/b/g/n/ac (2.4GHz & 5GHz)</li>
-									<li>藍牙<sup>&reg;</sup> 4.2 BLE</li>
-									<li>GPS、QZSS、GLONASS、Galileo衛星定位系統（支持ADR**)</li>
+									<li>Bluetooth<sup>&reg;</sup> 4.2 BLE</li>
+									<li>GPS, QZSS, GLONASS, Galileo (supports ADR**)</li>
 								</ul>
 							</td>
 						</tr>
@@ -214,23 +211,23 @@
 							<th class="label">Camera</th>
 							<td class="data">
 								<ul>
-									<li>MicroSD插槽（支援最高512GB容量）</li>
-									<li>Mini USB x1（支援USB外接鏡頭）</li>
-									<li>內置麥克風x1</li>
-									<li>內置揚聲器x1</li>
+									<li>MicroSD slot (up to 512GB capacity)</li>
+									<li>Mini USB x1 (supports external cam, USB type)</li>
+									<li>Built-in mic x1</li>
+									<li>Built-in speaker x1</li>
 								</ul>
 							</td>
 						</tr>
 						<tr>
 							<th class="label">Buttons</th>
-							<td class="data">手動錄像按鈕</td>
+							<td class="data">Emergency recording button</td>
 						</tr>
 						<tr>
 							<th class="label">Environment</th>
 							<td class="data">
 								<ul>
-									<li>-20° to +70°C (-4° to +158°F) 操作溫度</li>
-									<li>-30° to +85°C (-22° to +185°F) 儲存溫度</li>
+									<li>-20° to +70°C (-4° to +158°F) operating temperature</li>
+									<li>-30° to +85°C (-22° to +185°F) storage temperature</li>
 								</ul>
 							</td>
 						</tr>
@@ -240,7 +237,7 @@
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
-							<td class="data">112 x 70 x 47.9釐米</td>
+							<td class="data">112 x 70 x 47.9mm</td>
 						</tr>
 					</tbody>
 				</table>

@@ -35,7 +35,7 @@
 			<div class="row">
 				<div class="col-md-12 tc align-items-stretch padding-top-bottom-smaller hr">	
 					<h3 class="mb-20">車載視訊解決方案 - VisionMax<sup>&trade;</sup></h3>
-					<p class="mb-30">強大的全景監控引領安全保障</p>
+					<p class="mb-30">VisionMax<sup>&trade;</sup>著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
 					<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">
 						<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="17px" xmlns="http://www.w3.org/2000/svg">
 							<g transform="matrix(1 0 0 1 -597 -811 )">

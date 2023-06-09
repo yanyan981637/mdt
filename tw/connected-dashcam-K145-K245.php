@@ -108,17 +108,14 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K145/K245</h2>
-						<p>外型精巧</p>
+						<p>精緻的外觀</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
-						<li>內置4G LTE Cat.6和雙頻WiFi</li>
-						<li>藍牙4.2 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核處理器和Android 9</li>
-						<li>單個Micro SD卡槽（最高512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
+						<li>4G LTE 聯網</li>
+						<li>資料同步儲存於本機SD卡和雲端</li>
+						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -187,7 +184,7 @@
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
 						<div class="productGrid section justify-content-center text-left">
-							<h4 class="FC_mdt1 tc"><span>規格</span></h4>
+							<h4 class="FC_mdt1 tc"><span>Specifications</span></h4>
 						</div>	
 				</div>
 			</div>
@@ -195,33 +192,43 @@
 				<table>
 					<tbody>
 						<tr>
-							<th class="label">Platform</th>
+							<th class="label">Product</th>
 							<td class="data tc"><h5>K145</h5></td>
 							<td class="data tc"><h5>K245</h5></td>
 						</tr>
 						<tr>
 							<th class="label">Platform</th>
-							<td class="data tc" colspan="2">高通<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450八核1.8GHz處理器	</td>
+							<td class="data tc" colspan="2">Qualcomm<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450 Octa core, 1.8GHz</td>
 						</tr>
 						<tr>
 							<th class="label">OS</th>
-							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 9.0	</td>
+							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 9.0 or Android<sup>&trade;</sup> 10	</td>
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
-							<td class="data tc" colspan="2">2GB RAM / 16GB 內存空間	</td>
+							<td class="data tc" colspan="2">2GB RAM / 16GB internal storage</td>
 						</tr>
 						<tr>
 							<th class="label">Expansion</th>
-							<td class="data tc" colspan="2">MicroSD 插槽（支援最高512GB）	</td>
+							<td class="data tc" colspan="2">MicroSD slot (up to 512GB support)</td>
 						</tr>
 						<tr>
 							<th class="label">Wireless Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>IEEE 802.11 a/b/g/n/ac (2.4GHz & 5GHz)</li>
+									<li>IEEE 802.11 a/ b/ g/ n/ ac (2.4 GHz & 5 GHz)</li>
 									<li>Bluetooth<sup>&reg;</sup> 4.2 BLE</li>
-									<li>GPS, QZSS, GLONASS, Galileo (supports ADR**)</li>
+									<li>GPS, QZSS, GLONASS, Galileo</li>
+									<li>LTE Cat. 6 (3G/ 2G fallback*)</li>
+									<li>EMEA & Australia</li>
+									<li>LTE FDD Band: 1/ 2/ 3/ 4/ 5/ 7/ 8/ 20/ 28;</li>
+									<li>LTE TDD Band: 38/ 39/ 40/ 41;	</li>
+									<li>WCDMA Band: 1/ 2/ 4/ 5/ 8;</li>
+									<li>GSM: 850/ 900/ 1800/ 1900 MHz</li>
+									<li>North America</li>
+									<li>LTE FDD Band: 2/ 4/ 5/ 7/ 12/ 13/ 14/ 17/ 25/ 26/ 66/ 71;</li>
+									<li>LTE TDD Band: 41;</li>
+									<li>WCDMA Band: 2/ 4/ 5;</li>
 								</ul>
 							</td>
 						</tr>
@@ -233,16 +240,16 @@
 							<th class="label">Camera</th>
 							<td class="data">
 								<ul>
-									<li>前置：視角（FOV）：水平（H）116° / 垂直（V）60°，對角線（D）142°（±5%）</li>
-									<li>FullHD 1920 x 1080 @ 30fps（可配置）</li>
+									<li>Forward: FOV: D: 142° / H: 116°/ V: 60° (±5%)</li>
+									<li>Full HD 1920 x 1080 @ 30fps (configurable)</li>
 								</ul>
 							</td>
 							<td class="data">
 								<ul>
-									<li>前置：視角（FOV）：水平（H）116° / 垂直（V）60°，對角線（D）142°（±5%）</li>
-									<li>FullHD 1920 x 1080 @ 30fps（可配置）</li>
-									<li>內置（紅外）：視角（FOV）：水平（H）116° / 垂直（V）60°，對角線（D）142°（±5%）</li>
-									<li>FullHD 1920 x 1080 @ 30fps（可配置）</li>
+									<li>Forward: FOV: D: 142° / H: 116°/ V: 60° (±5%)</li>
+									<li>Full HD 1920 x 1080 @ 30fps (configurable)</li>
+									<li>Inward (IR): FOV: D: 142° / H: 116°/ V: 60° (±5%)</li>
+									<li>Full HD 1920 x 1080 @ 30fps (configurable)</li>
 								</ul>
 							</td>
 						</tr>
@@ -250,24 +257,24 @@
 							<th class="label">Physical Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>MicroSD插槽（最大容量為512GB）</li>
-									<li>NanoSIM卡槽（SIM1）和eSIM **（SIM2）</li>
-									<li>Mini USB x1（支援第三個鏡頭）</li>
-									<li>內置麥克風x2</li>
-                  <li>內置揚聲器x1</li>
+									<li>MicroSD slot (up to 512GB capacity)</li>
+									<li>NanoSIM slot (SIM 1) and eSIM** (SIM 2)</li>
+									<li>Mini USB x1 (supports 3rd cam, USB type)</li>
+									<li>Built-in mic x2</li>
+									<li>Built-in speaker x1</li>
 								</ul>
 							</td>
 						</tr>
 						<tr>
 							<th class="label">Buttons</th>
-							<td class="data tc" colspan="2">手動錄像按鈕，可手動錄製60秒不被覆寫的影像（可調整5~30秒之前和之後的時間）</td>
+							<td class="data tc" colspan="2">Emergency recording button for driver to manually trigger 60s recording (5 ˜ 30s before and 5 ˜ 30s after, adjustable)</td>
 						</tr>
 						<tr>
 							<th class="label">Environment</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>-20° to +60°C (-4° to +140°F)  運行溫度範圍</li>
-									<li>-30° to +85°C (-22° to +185°F) 保存溫度範圍</li>
+									<li>-20° to +60°C (-4° to +140°F) operating temperature</li>
+									<li>-30° to +85°C (-22° to +185°F) storage temperature</li>
 								</ul>
 							</td>
 						</tr>
@@ -277,8 +284,8 @@
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
-							<td class="data">98 x 61.2 x 39.2釐米 (3.86 x 2.41 x 1.54")</td>
-							<td class="data">122.8 x 61.2 x 44.2釐米 (4.83 x 2.41 x 1.74")</td>
+							<td class="data">98 x 61.2 x 39.2mm (3.86 x 2.41 x 1.54")</td>
+							<td class="data">122.8 x 61.2 x 44.2mm (4.83 x 2.41 x 1.74")</td>
 						</tr>
 					</tbody>
 				</table>
@@ -305,7 +312,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -314,7 +321,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.26-5.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>	
@@ -323,7 +330,7 @@
 						<h5>改良式供電車載資料傳輸接頭</h5>
 						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -334,7 +341,7 @@
 						<h5>遠端手動錄影觸發按鈕</h5>
 						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -343,7 +350,7 @@
 						<h5>電源線 (含ACC訊號)</h5>
 						<img src="../images/connected_dashcam/pdt/P.24-2.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -372,7 +379,7 @@
 						<h5>OBD電源供應線</h5>
 						<img src="../images/video-telematics/P.24-1.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>

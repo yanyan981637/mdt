@@ -111,7 +111,7 @@
 					</div>
 					<ul>
 						<li>Always connected via the built-in 4G LTE modem</li>
-						<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS.</li>
+						<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
@@ -190,7 +190,7 @@
 				<table>
 					<tbody>
 						<tr>
-							<th class="label">Platform</th>
+							<th class="label">Product</th>
 							<td class="data tc"><h5>K145C</h5></td>
 							<td class="data tc"><h5>K245C</h5></td>
 						</tr>
@@ -219,7 +219,7 @@
 									<li>GPS, QZSS, GLONASS, Galileo</li>
 									<li>LTE Cat. 6 (3G/ 2G fallback*)</li>
 									<li>EMEA & Australia</li>
-									<li>Australia LTE FDD Band: 1/ 2/ 3/ 4/ 5/ 7/ 8/ 20/ 28;</li>
+									<li>LTE FDD Band: 1/ 2/ 3/ 4/ 5/ 7/ 8/ 20/ 28;</li>
 									<li>LTE TDD Band: 38/ 39/ 40/ 41;	</li>
 									<li>WCDMA Band: 1/ 2/ 4/ 5/ 8;</li>
 									<li>GSM: 850/ 900/ 1800/ 1900 MHz</li>

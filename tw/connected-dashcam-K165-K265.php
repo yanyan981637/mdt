@@ -108,19 +108,17 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>支援多路攝影</p>
+						<p>一體式7路攝影聯網行車紀錄器</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD鏡頭，142°視角</li>
-						<li>可擴展至額外5個鏡頭輸入</li>
-						<li>內置4G LTE Cat.4和雙頻WiFi</li>
-						<li>低功耗藍芽5.0 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核心處理器和Android 10（無GMS）</li>
-						<li>雙Micro SD卡槽（每個槽最高可支援至512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS（ADR可選）</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
-						<!-- <li>通過Verizon, AT&T, T-Mobile 等運營商認證</li> -->
+						<li>最高支援同時7路錄影</li>
+						<li>4G LTE聯網</li>
+						<li>高存儲容量 (最高支援共2TB存儲空間)</li>
+						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>支援Android 與Linux 作業系統</li>
+						<li>Verizon, AT&T, T-Mobile, Telstra等電信商與AWS認證</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -191,7 +189,7 @@
 			<div class="row">	
 				<div class="col-md-12 align-items-stretch padding-top-bottom-smaller">
 						<div class="productGrid section justify-content-center text-left">
-							<h4 class="FC_mdt1 tc"><span>規格</span></h4>
+							<h4 class="FC_mdt1 tc"><span>Specifications</span></h4>
 						</div>	
 				</div>
 			</div>
@@ -205,51 +203,78 @@
 						</tr>
 						<tr>
 							<th class="label">Platform</th>
-							<td class="data tc" colspan="2">高通<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450八核1.8GHz處理器</td>
+							<td class="data tc" colspan="2">Qualcomm<sup>&reg;</sup> QCS610 Octa Core CPU, 2+6 Kryo, 2.2GHz/ 1.8GHz</td>
 						</tr>
 						<tr>
 							<th class="label">OS</th>
-							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 9.0</td>
+							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 10 (non GMS)</td>
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
-							<td class="data tc" colspan="2">2GB RAM / 16GB內存空間</td>
+							<td class="data tc" colspan="2">3GB RAM/ 32GB Internal Storage</td>
 						</tr>
 						<tr>
-							<th class="label">Expansion</th>
-							<td class="data tc" colspan="2">MicroSD插槽（支持最高512GB）</td>
+							<th class="label">Storage</th>
+							<td class="data tc" colspan="2">Dual Micro SD Slots (Support up to 512 GB/ slot)</td>
 						</tr>
 						<tr>
 							<th class="label">Wireless Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>IEEE 802.11 a/b/g/n/ac（2.4GHz和5GHz）</li>
-									<li>藍牙<sup>&reg;</sup> 4.2 BLE</li>
-									<li>GPS、QZSS、GLONASS、Galileo衛星定位系統（支持ADR**)</li>
+									<li>IEEE 802.11 a/ b/ g/ n/ ac (2.4 GHz & 5 GHz)</li>
+									<li>Bluetooth<sup>&reg;</sup> 5.0 BLE</li>
+									<li>Non ADR: Qualcomm<sup>&reg;</sup> Internal GPS/ ADR: U-Blox NEO-M8L</li>
+									<li>LTE Cat. 4</li>
 								</ul>
 							</td>
 						</tr>
 						<tr>
+							<th class="label">NFC</th>
+							<td class="data tc" colspan="2">NFC: MiFare<sup>&reg;</sup>, FeliCa | RFID (HF): ISO14443A&B, ISO15693</td>
+						</tr>
+						<tr>
 							<th class="label">Camera</th>
+							<td class="data">
+								<ul>
+									<li>Forward: FOV: D 142.8°/ H 120.4°/ V 63.8° (±5%)</li>
+									<li>Full HD 1920 x 1080 @ 30 fps (configurable)</li>
+								</ul>
+							</td>
+							<td class="data">
+								<ul>
+									<li>Forward: FOV: D 142.8°/ H 120.4°/ V 63.8° (±5%)</li>
+									<li>Full HD 1920 x 1080 @ 30 fps (configurable)</li>
+									<li>Inward (IR): FOV: D 142.8°/ H 120.4°/ V 63.8° (±5%)</li>
+									<li>Full HD 1920 x 1080 @ 30 fps (configurable)</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th class="label">Expandible Cameras</th>
+							<td class="data tc" colspan="2">TVI x 4, USB x 1</td>
+						</tr>
+						<tr>
+							<th class="label">Physical Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>MicroSD插槽（支援最高512GB容量）</li>
-									<li>Mini USB x1（支援USB外接鏡頭）</li>
-									<li>內置麥克風x1</li>
-									<li>內置揚聲器x1</li>
+									<li>Dual Micro SD Slots (Support up to 512 GB/slot)</li>
+									<li>Nano SIM Slot (SIM 1) and eSIM** (SIM 2)</li>
+									<li>Mini USB x 1 (for Ext. Cameras), USB Type C x 1 (for de-bug)</li>
+									<li>Build-in microphone x 2</li>
+									<li>Build-in Speaker x 1</li>
 								</ul>
 							</td>
 						</tr>
 						<tr>
 							<th class="label">Buttons</th>
-							<td class="data tc" colspan="2">手動錄像按鈕</td>
+							<td class="data tc" colspan="2">Emergency recording button for driver to manually trigger 60s recording (5 ˜ 30s before and 5 ˜ 30s after, adjustable)</td>
 						</tr>
 						<tr>
 							<th class="label">Environment</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>-20° to +70°C (-4° to +158°F) 操作溫度</li>
-									<li>-30° to +85°C (-22° to +185°F) 儲存溫度</li>    
+									<li>-20° to +70°C (-4° to +158°F) Operating Temperature</li>
+									<li>-30° to +85°C (-22° to +185°F) Storage Temperature</li>
 								</ul>
 							</td>
 						</tr>
@@ -259,7 +284,8 @@
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
-							<td class="data tc" colspan="2">112 x 70 x 47.9釐米</td>
+							<td class="data">124 x 88.6 x 72mm ( 4.88 x 3.48 x 2.8'')</td>
+							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'</td>
 						</tr>
 					</tbody>
 				</table>

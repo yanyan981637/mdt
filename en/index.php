@@ -204,9 +204,9 @@
 				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 					<div class="pricing pt_pb_1r background-white borderTop_B">
 						<div class="pn_p p">Press</div>
-						<div class="pricing-sub p mb_1">2021.11.24</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20211124.php">MiTAC Digital Tech. wins Taiwan Excellence Award</a></h6>
-						<div class="pricing-img"><a href="press-events-20211124.php"><img src="../images/press_news/press-room-new-pic-20211124-w920.jpg" alt="A trusted leader in automotive electronics, MiTAC Digital Technology Corporation (MDT) announces two industry awards in the company’s milestone. The winning products of the 30th Taiwan Excellence Awards are the Mio Cyclo Discover Pal and the MioEYE K Series."></a></div>
+						<div class="pricing-sub p mb_1">2023.05.15</div>
+						<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/en/press-events-20230515.php">Mio MiVue R850D wins the iF DESIGN AWARD 2023</a></h6>
+						<div class="pricing-img"><a href="https://www.mitacmdt.com/en/press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="Mio MiVue R850D win the iF DESIGN AWARD 2023"></a></div>
 					</div>
 				</div>
 				<div class="clearfix hidden-xs"></div>
@@ -214,32 +214,22 @@
 				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 					<div class="pricing pt_pb_1r background-white borderTop_B">
 						<div class="pn_p p">Press</div>
-						<div class="pricing-sub p mb_1">2019.04.11</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20190411.php">MiTAC Digital Technology announces partnership with UK InsurTech company to launch fully integrated telematics dash cam</a></h6>
-						<div class="pricing-img"><a href="press-events-20190411.php"><img src="../images/press_news/MiVue_733_merge.png" alt="Mio dashcam - MiVue series "></a></div>
+						<div class="pricing-sub p mb_1">2022.11.23</div>
+						<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/en/press-events-20221123.php">Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award</a></h6>
+						<div class="pricing-img"><a href="https://www.mitacmdt.com/en/press-events-20221123.php"><img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" alt="Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award"></a></div>
 					</div>
 				</div>
 				<div class="clearfix hidden-xs"></div>
 			
 				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-					<div class="pricing pt_pb_1r background-white borderTop_O">
-						<div class="pn_e p">Event</div>
-						<div class="pricing-sub p mb_1">2019.02.26</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20190226.php">MiTAC Digital Technology exhibits its professional tablets and backend MDM solution at Embedded World 2019</a></h6>
-						<div class="pricing-img"><a href="press-events-20190226.php"><img src="../images/press_news/Embedded_World_2019-1.jpg" alt="Mio @ 2019 embedded world"></a></div>
+					<div class="pricing pt_pb_1r background-white borderTop_B">
+						<div class="pn_p p">Press</div>
+						<div class="pricing-sub p mb_1">2022.05.24</div>
+						<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/en/press-events-20220524.php">MiTAC Digital Technology Corporation Named Winner in 2022 Computex Best Choice Awards</a></h6>
+						<div class="pricing-img"><a href="https://www.mitacmdt.com/en/press-events-20220524.php"><img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png" alt="MiTAC Digital Technology Corporation Named Winner in 2022 Computex Best Choice Awards"></a></div>
 					</div>
 				</div>
 				<div class="clearfix hidden-xs"></div>
-			
-				<!--<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-					<div class="pricing pt_pb_1r background-white borderTop_B">
-						<div class="pn_p p">Press</div>
-						<div class="pricing-sub p mb_1">2017.08.21</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20170821.php">MiTAC Holdings Corp. Expands Its Electronics Manufacturing to India With Infopower Investment</a></h6>
-						<div class="pricing-img"><a href="press-events-20170821.php"><img src="../images/press_news/India_With_Infopower.jpg" alt="MiTAC Holdings Corp. Expands Its Electronics Manufacturing to India With Infopower Investment"></a></div>
-					</div>
-				</div>
-				<div class="clearfix hidden-xs"></div>-->
 
 			</div>
 			<div class="row justify-content-center mt_6">

@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-					<p>Connected Dashcam 系列是多功能車隊聯網視訊解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理。基於強大的 Qualcomm<sup>&reg;</sup> 處理器和 Android<sup>&trade;</sup> 平台構建，不僅提供出色的處理性能，且提供APIs及SDK能高度靈活地與客戶系統及雲端做整合。</p>
+					<p>神達數位的聯網行車記錄器系列產品提供功能強大的車隊聯網視訊解決方案，協助車隊經理更有效率地處理遠程視訊信息。搭載 Qualcomm<sup>&reg;</sup> 強大的處理器和 Android<sup>&trade;</sup> 平台，以及豐富的API和SDK，我們的產品能與前台裝置和後台雲端高度彈性靈活整合，為客戶提供高度整合性的解決方案。</p>
 					</div>
 				</div>
 			</div>	
@@ -62,19 +62,17 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>支援多路攝影</p>
+						<p>一體式7路攝影聯網行車紀錄器</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD鏡頭，142°視角</li>
-						<li>可擴展至額外5個鏡頭輸入</li>
-						<li>內置4G LTE Cat.4和雙頻WiFi</li>
-						<li>低功耗藍芽5.0 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核心處理器和Android 10（無GMS）</li>
-						<li>雙Micro SD卡槽（每個槽最高可支援至512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS（ADR可選）</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
-						<!-- <li>通過Verizon, AT&T, T-Mobile 等運營商認證</li> -->
+						<li>最高支援同時7路錄影</li>
+						<li>4G LTE聯網</li>
+						<li>高存儲容量 (最高支援共2TB存儲空間)</li>
+						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>支援Android 與Linux 作業系統</li>
+						<li>Verizon, AT&T, T-Mobile, Telstra等電信商與AWS認證</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -108,18 +106,15 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K145C/K245C</h2>
-						<p>電信商認證</p>
+						<p>電信商認證的最佳選擇方案</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
-						<li>內建4G LTE Cat.6和雙頻WiFi</li>
-						<li>低功耗藍芽4.2 BLE</li>
-						<li>Qualcomm八核心處理器, Android 9</li>
-						<li>Micro SD卡槽（最高可支援至512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS（可選配ADR）</li>
-						<li>6軸加速計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
-						<li>通過Verizon, AT&T, T-Mobile 等運營商認證</li>
+						<li>4G LTE 聯網</li>
+						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra等電信商與AWS認證</li>
+						<li>資料同步儲存於本機SD卡和雲端</li>
+						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 
 					<div class="pdt_desc_ico">
@@ -153,17 +148,14 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K145/K245</h2>
-						<p>外型精巧</p>
+						<p>精緻的外觀</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
-						<li>內置4G LTE Cat.6和雙頻WiFi</li>
-						<li>藍牙4.2 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核處理器和Android 9</li>
-						<li>單個Micro SD卡槽（最高512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
+						<li>4G LTE 聯網</li>
+						<li>資料同步儲存於本機SD卡和雲端</li>
+						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -193,17 +185,14 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K220</h2>
-						<p>高性價比</p>
+						<p>經濟實惠的選擇</p>
 					</div>
 					<ul>
-						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
-						<li>內置4G LTE Cat.6和雙頻WiFi</li>
-						<li>藍牙4.2 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核處理器和Android 9</li>
-						<li>單個Micro SD卡槽（最高512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
+						<li>4G LTE 聯網</li>
+						<li>資料同步儲存於本機SD 卡和雲端</li>
+						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
+						<li>內建車輛電瓶低電壓保護功能</li>
+						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -230,8 +219,8 @@
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
 					<h4 class="h5" style="color:#2449a8;">關於車載視訊和VisionMax<sup>&trade;</sup>的常見問題，供您參考。</h4>
-					<div>
-						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
+					<div class="mt-30">
+						<a class="btn btn-primary btn-lg btn-round" href="./faq.php" width=20%>FAQ</a>
 						</div>
 				</div>	
 			</div>	

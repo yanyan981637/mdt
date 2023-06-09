@@ -423,12 +423,15 @@ a svg {
   padding-right: 15px;
   margin-top: 5px;
 }
+.faq_content ul >li{
+  font-size: 1.4rem;
+}
 .faq_content ol {
   padding-left: 20px;
 }
 .faq_content ol > li {
   margin-top: 15px;
-  
+  font-size: 1.4rem;
 }
 
 /* faq */
@@ -503,3 +506,8 @@ a svg {
 /* a:not(:only-child){
   margin: 0 10px;
 } */
+.product-specs-table .tc ul,
+.product-specs-table .data ul{
+  margin: 0;
+  padding: 0;
+}

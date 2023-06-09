@@ -116,7 +116,7 @@
 						<li>High storage capacity (up to 2TB with dual Micro SD)</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Reliable operating system - Android 10 & Linux</li>
-						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS.</li>
+						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
@@ -285,64 +285,6 @@
 							<th class="label">Dimensions</th>
 							<td class="data">124 x 88.6 x 72mm ( 4.88 x 3.48 x 2.8'')</td>
 							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'</td>
-						</tr>
-						<tr>
-							<th class="label">Platform</th>
-							<td class="data tc" colspan="2">Qualcomm<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450 Octa core, 1.8GHz	</td>
-						</tr>
-						<tr>
-							<th class="label">OS</th>
-							<td class="data tc" colspan="2">Android<sup>&trade;</sup> 9.0</td>
-						</tr>
-						<tr>
-							<th class="label">Memory</th>
-							<td class="data tc" colspan="2">2GB RAM / 16GB internal storage	</td>
-						</tr>
-						<tr>
-							<th class="label">Expansion</th>
-							<td class="data tc" colspan="2">MicroSD slot (up to 512GB support)	</td>
-						</tr>
-						<tr>
-							<th class="label">Wireless Interface</th>
-							<td class="data tc" colspan="2">
-								<ul>
-									<li>IEEE 802.11 a/b/g/n/ac (2.4GHz & 5GHz)</li>
-									<li>Bluetooth<sup>&reg;</sup> 4.2 BLE</li>
-									<li>GPS, QZSS, GLONASS, Galileo (supports ADR**)</li>
-								</ul>							                                                                             
-							</td>
-						</tr>
-						<tr>
-							<th class="label">Camera</th>
-							<td class="data tc" colspan="2">
-								<ul>
-									<li>MicroSD slot (up to 512GB capacity)</li>
-									<li> Mini USB x1 (supports external cam, USB type)</li>
-									<li>Built-in mic x1 </li>
-									<li>Built-in speaker x1</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<th class="label">Buttons</th>
-							<td class="data tc" colspan="2">Emergency recording button	</td>
-						</tr>
-						<tr>
-							<th class="label">Environment</th>
-							<td class="data tc" colspan="2">
-								<ul>
-									<li>-20° to +70°C (-4° to +158°F) operating temperature </li>
-									<li>-30° to +85°C (-22° to +185°F) storage</li>    
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, WEEE, ROHS</td>
-						</tr>
-						<tr>
-							<th class="label">Dimensions</th>
-							<td class="data tc" colspan="2">112 x 70 x 47.9mm</td>
 						</tr>
 					</tbody>
 				</table>

@@ -187,7 +187,7 @@
 				<table>
 					<tbody>
 						<tr>
-							<th class="label">Platform</th>
+							<th class="label">Product</th>
 							<td class="data tc"><h5>K145</h5></td>
 							<td class="data tc"><h5>K245</h5></td>
 						</tr>
@@ -216,7 +216,7 @@
 									<li>GPS, QZSS, GLONASS, Galileo</li>
 									<li>LTE Cat. 6 (3G/ 2G fallback*)</li>
 									<li>EMEA & Australia</li>
-									<li>Australia LTE FDD Band: 1/ 2/ 3/ 4/ 5/ 7/ 8/ 20/ 28;</li>
+									<li>LTE FDD Band: 1/ 2/ 3/ 4/ 5/ 7/ 8/ 20/ 28;</li>
 									<li>LTE TDD Band: 38/ 39/ 40/ 41;	</li>
 									<li>WCDMA Band: 1/ 2/ 4/ 5/ 8;</li>
 									<li>GSM: 850/ 900/ 1800/ 1900 MHz</li>
@@ -252,7 +252,7 @@
 							<th class="label">Physical Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>MicroSD slot (up to 256GB capacity)</li>
+									<li>MicroSD slot (up to 512GB capacity)</li>
 									<li>NanoSIM slot (SIM 1) and eSIM** (SIM 2)</li>
 									<li>Mini USB x1 (supports 3rd cam, USB type)</li>
 									<li>Built-in mic x2</li>
@@ -333,8 +333,8 @@
 			<div class="row">	
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>PANIC BUTTON</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
+						<h5>OBD POWER CABLE</h5>
+						<img src="../images/video-telematics/P.24-1.png" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -345,7 +345,7 @@
 						<h5>ENTRY CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/P.24-2.png" />
 						<p class="st2">
-							Sold separately
+						  Sold separately
 						</p>
 					</div>
 				</div>
@@ -369,10 +369,11 @@
 						</p>
 					</div>
 				</div>
+				
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>OBD POWER CABLE</h5>
-						<img src="../images/video-telematics/P.24-1.png" />
+						<h5>PANIC BUTTON</h5>
+						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
 						<p class="st2">
 							Sold separately
 						</p>

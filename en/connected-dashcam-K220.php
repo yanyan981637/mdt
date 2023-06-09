@@ -184,7 +184,7 @@
 				<table>
 					<tbody>
 						<tr>
-							<th class="label">Platform</th>
+							<th class="label">Product</th>
 							<td class="data">Qualcomm<sup>&reg;</sup> Snapdragon<sup>&trade;</sup> SDM450 Octa core, 1.8GHz</td>
 						</tr>
 						<tr>

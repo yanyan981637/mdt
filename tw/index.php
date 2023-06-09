@@ -210,14 +210,12 @@
 			</div>
 		</div>
 		<div class="row">
-
-		<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+		  <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2022.01.24</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20220124.php">神達投控與神達數位Mio捐贈桃園市政府警察局龜山分局行車記錄器</a></h6>
-					<div class="pricing-img"><a href="press-events-20220124.php"><img
-								src="../images/press_news/press-room-new-pic-20220124-cover.jpg" alt="神達投控與神達數位Mio捐贈桃園市政府警察局龜山分局行車記錄器-支援警察重要節日安全維護工作，守護地方安全"></a></div>
+					<div class="pricing-sub p mb_1">2023.05.15</div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/tw/press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！</a></h6>
+					<div class="pricing-img"><a href="https://www.mitacmdt.com/tw/press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
@@ -225,47 +223,22 @@
 			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2021.11.24</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20211124.php">MiTAC 整合性解決方案榮膺台灣精品獎肯定</a></h6>
-					<div class="pricing-img"><a href="press-events-20211124.php"><img
-								src="../images/press_news/press-room-new-pic-20211124-w920.jpg" alt="素有產業界奧斯卡獎之稱的台灣精品獎，今日(11/24)舉辦第30屆台灣精品頒獎典禮。深耕車用電子產業多年的神達數位電腦(MiTAC Digital Technology Corp.)旗下Mio品牌本次共計二款產品榮獲台灣精品殊榮，包含： Mio Cyclo Discover Pal 自行車導航解決方案以及 MioEYE K Series 車載視訊管理解決方案。"></a></div>
+					<div class="pricing-sub p mb_1">2022.11.23</div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/tw/press-events-20221123.php">MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定</a></h6>
+					<div class="pricing-img"><a href="https://www.mitacmdt.com/tw/press-events-20221123.php"><img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
-
+		
 			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2021.11.09</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20211109.php">神達數位榮獲110年度運動企業認證標章</a></h6>
-					<div class="pricing-img"><a href="press-events-20211109.php"><img
-								src="../images/press_news/press-room-new-pic-20111109.jpg" alt="神達數位總經理張樂群出席領獎。張總經理表示：員工是公司最大的資產，打造強化員工身心靈的幸福企業是神達數位不變的經營理念"></a></div>
+					<div class="pricing-sub p mb_1">2022.05.24</div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/tw/press-events-20220524.php">神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定</a></h6>
+					<div class="pricing-img"><a href="https://www.mitacmdt.com/tw/press-events-20220524.php"><img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png" alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
-
-			<!--<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-				<div class="pricing pt_pb_1r background-white borderTop_B">
-					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2020.03.30</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20200330.php">神達數位進駐新竹科學園區，發展車用電子、智聯網以及專業平板產品</a></h6>
-					<div class="pricing-img"><a href="press-events-20200330.php"><img
-								src="../images/press_news/mic_company_about.jpg" alt="神達數位進駐新竹科學園區，發展車用電子、智聯網以及專業平板產品"></a></div>
-				</div>
-			</div>
-			<div class="clearfix hidden-xs"></div>-->
-
-			<!--<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-				<div class="pricing pt_pb_1r background-white borderTop_B">
-					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2019.04.24</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20190424.php">神達數位 發表新款行車記錄器</a></h6>
-					<div class="pricing-img"><a href="press-events-20190424.php"><img
-								src="../images/press_news/MiVue_816D.jpg" alt="神達數位 發表新款行車記錄器"></a></div>
-				</div>
-			</div>
-			<div class="clearfix hidden-xs"></div>-->
-
 		</div>
 		<div class="row justify-content-center mt_6">
 			<div class="col-md-6">

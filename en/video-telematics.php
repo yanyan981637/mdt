@@ -70,7 +70,7 @@
 						<li>High storage capacity (up to 2TB with dual Micro SD)</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Reliable operating system - Android 10 & Linux</li>
-						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS.</li>
+						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
@@ -109,7 +109,7 @@
 					</div>
 					<ul>
 					<li>Always connected via the built-in 4G LTE modem</li>
-					<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS.</li>
+					<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS</li>
 					<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 					<li>Flexible platform - open APIs & SDK for seamless integration</li>
 					<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
@@ -216,8 +216,8 @@
 				<div class="align-self-center col-md-12 mg-auto mt-30">	
 					<h2 class="h3" style="color:#2449a8;">FAQ</h2>
 					<h4 class="h5" style="color:#2449a8;">Frequently asked questions about Viedo Telematics and VisionMax<sup>&trade;</sup> for your reference.</h4>
-					<div>
-						<a class="btn btn-primary btn-lg btn-round mt-30" href="./faq.php" width=20%>FAQs</a>
+					<div class="mt-30">
+						<a class="btn btn-primary btn-lg btn-round" href="./faq.php" width=20%>FAQ</a>
 						</div>
 				</div>	
 			</div>	

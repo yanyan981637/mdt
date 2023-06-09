@@ -24,7 +24,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">	
 					<div class="call-box-4">
-            <h2 class="h3">Connected Dashcam & VisionMax<sup>&trade;</sup> FAQs</h2>
+            <h2 class="h3">Connected Dashcam & VisionMax<sup>&trade;</sup> FAQ</h2>
 						<p class="ContGen">Frequently asked questions about products for your reference</p>
 					</div>
 				</div>
