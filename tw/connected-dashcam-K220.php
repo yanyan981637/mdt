@@ -267,7 +267,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -276,7 +276,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/video-telematics/P.26-5.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -285,7 +285,7 @@
 						<h5>改良式供電車載資料傳輸接頭</h5>
 						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -298,7 +298,7 @@
 						<h5>遠端手動錄影觸發按鈕</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-5.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -307,7 +307,7 @@
 						<h5>OBD電源供應線</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-1.png" />
 						<p class="st2">
-							可單獨販售
+						  標準配件
 						</p>
 					</div>
 				</div>
@@ -316,7 +316,7 @@
 						<h5>電源線 (含ACC訊號)</h5>
 						<img src="../images/connected_dashcam/pdt/p23-2.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>

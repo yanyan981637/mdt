@@ -108,18 +108,16 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>Multi-Channel cam support</p>
+						<p>Non-box Type 7-channel MDVR</p>
 					</div>
 					<ul>
-						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
-						<li>Expandable with additional 5 camera inputs</li>
-						<li>Built-in 4G LTE Cat.4 & dual-band WiFi</li>
-						<li>Bluetooth 5.0 BLE, NFC/HF RFID</li>
-						<li>Qualcomm Octa-core & Android 10 (non-GMS)</li>
-						<li>Dual Micro SD slots (up to 512GB/slot)</li>
-						<li>GPS, GLONASS, Galileo, QZSS (ADR optional)</li>
-						<li>6-axis Accelerometer & Gyro</li>
-						<li>Battery discharge protection</li>
+						<li>One device supports up to 7 channels of video recording</li>
+						<li>Always connected via the built-in 4G LTE modem</li>
+						<li>High storage capacity (up to 2TB with dual Micro SD)</li>
+						<li>Flexible platform - open APIs & SDK for seamless integration</li>
+						<li>Reliable operating system - Android 10 & Linux</li>
+						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS.</li>
+						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />

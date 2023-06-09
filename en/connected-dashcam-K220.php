@@ -101,17 +101,14 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K220</h2>
-						<p>Cost-effective</p>
+						<p>Affordable Solution</p>
 					</div>
 					<ul>
-						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
-						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
-						<li>Bluetooth 4.2 BLE</li>
-						<li>Qualcomm Octa-core & Android 9</li>
-						<li>Single Micro SD slots (up to 512GB)</li>
-						<li>GPS, GLONASS, Galileo, QZSS</li>
-						<li>6-axis Accelerometer & Gyro</li>
-						<li>Battery discharge prevention</li>
+						<li>Always connected via the built-in 4G LTE modem</li>
+						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
+						<li>Flexible platform - open APIs & SDK for seamless integration</li>
+						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
+						<li>Compact design, simple as is</li>
 					</ul>
 					<div class="pdt_desc_ico">
 					  <img src="../images/connected_dashcam/android.jpg" />
@@ -309,7 +306,7 @@
 						<h5>OBD POWER CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-1.png" />
 						<p class="st2">
-							Sold separately
+						  Standard accessory
 						</p>
 					</div>
 				</div>

@@ -32,8 +32,8 @@
         </div>
 				<ul class="col-12">
 					<li><a href="#premiumK165_K265">Premium - K165/K265</a></li>
-					<li><a href="#advancedK145_K245">Advanced - K145/K245</a></li>
 					<li><a href="#proK145C_K245C">Pro - K145C/K245C</a></li>
+					<li><a href="#advancedK145_K245">Advanced - K145/K245</a></li>		
 					<li><a href="#entryK220">Entry - K220</a></li>
         </ul>
 			</div>
@@ -98,46 +98,6 @@
     </div>
   </div>
 
-  <!-- Advanced - K145/K245 -->
-  <div class="section  productDetail" id="advancedK145_K245">
-	  <div class="container">
-      <div class="row col-md-12 mt-30">
-			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245" class="rounded mx-auto d-block img-fluid">
-			  </div>	
-			  <div class="col-md-6">
-					<div class="pdt_name mt_mb_3 pt_pb_1r">
-						<h2 class="FC_mdtB">K145/K245</h2>
-						<p>外型精巧</p>
-					</div>
-					<ul>
-						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
-						<li>內置4G LTE Cat.6和雙頻WiFi</li>
-						<li>藍牙4.2 BLE，NFC/HF RFID</li>
-						<li>Qualcomm八核處理器和Android 9</li>
-						<li>單個Micro SD卡槽（最高512GB）</li>
-						<li>GPS，GLONASS，Galileo，QZSS</li>
-						<li>6軸加速度計和陀螺儀</li>
-						<li>汽車電瓶放電防護</li>
-					</ul>
-					<div class="pdt_desc_ico">
-					  <img src="../images/connected_dashcam/android.jpg" />
-						<img src="../images/connected_dashcam/Qualcomm.jpg" />
-						<img src="../images/connected_dashcam/aws.jpg" />
-					</div>
-
-					<div>
-					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K145-K245.php">瞭解更多</a>
-				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
-					</div>
-				</div>
-				<div class="col-md-12 ">
-				   <hr class="mt-40 hr">
-         </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Pro - K145C/K245C -->
   <div class="section  productDetail" id="proK145C_K245C">
 	  <div class="container">
@@ -173,6 +133,46 @@
 
 					<div>
 					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K145C-K245C.php">瞭解更多</a>
+				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
+					</div>
+				</div>
+				<div class="col-md-12 ">
+				   <hr class="mt-40 hr">
+         </div>
+      </div>
+    </div>
+  </div>
+
+	<!-- Advanced - K145/K245 -->
+  <div class="section  productDetail" id="advancedK145_K245">
+	  <div class="container">
+      <div class="row col-md-12 mt-30">
+			  <div class="col-md-6 mt-30">
+					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245" class="rounded mx-auto d-block img-fluid">
+			  </div>	
+			  <div class="col-md-6">
+					<div class="pdt_name mt_mb_3 pt_pb_1r">
+						<h2 class="FC_mdtB">K145/K245</h2>
+						<p>外型精巧</p>
+					</div>
+					<ul>
+						<li>雙向前置和車內Full HD 鏡頭，142°視角</li>
+						<li>內置4G LTE Cat.6和雙頻WiFi</li>
+						<li>藍牙4.2 BLE，NFC/HF RFID</li>
+						<li>Qualcomm八核處理器和Android 9</li>
+						<li>單個Micro SD卡槽（最高512GB）</li>
+						<li>GPS，GLONASS，Galileo，QZSS</li>
+						<li>6軸加速度計和陀螺儀</li>
+						<li>汽車電瓶放電防護</li>
+					</ul>
+					<div class="pdt_desc_ico">
+					  <img src="../images/connected_dashcam/android.jpg" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" />
+						<img src="../images/connected_dashcam/aws.jpg" />
+					</div>
+
+					<div>
+					  <a class="btn btn-primary btn-lg btn-round " href="connected-dashcam-K145-K245.php">瞭解更多</a>
 				    <a class="btn btn-fill-black-b btn-lg  btn-round " href="./vt-solution.php">車載視訊解決方案</a>
 					</div>
 				</div>

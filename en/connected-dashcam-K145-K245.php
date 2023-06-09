@@ -108,17 +108,13 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K145/K245</h2>
-						<p>Exquisite Appearancet</p>
+						<p>Exquisite Appearance Model</p>
 					</div>
 					<ul>
-						<li>Dual forward & in-cabin facing Full HD camera with 142° FOV</li>
-						<li>Built-in 4G LTE Cat.6 & dual-band WiFi</li>
-						<li>Bluetooth 4.2 BLE, NFC/HF RFID</li>
-						<li>Qualcomm Octa-core & Android 9</li>
-						<li>Single Micro SD slots (up to 512GB)</li>
-						<li>GPS, GLONASS, Galileo, QZSS</li>
-						<li>6-axis Accelerometer & Gyro</li>
-						<li>Battery discharge prevention</li>
+						<li>Always connected via the built-in 4G LTE modem</li>
+						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
+						<li>Flexible platform - open APIs & SDK for seamless integration</li>
+						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
 						<img src="../images/connected_dashcam/android.jpg" />

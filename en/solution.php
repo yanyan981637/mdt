@@ -96,7 +96,7 @@
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
             <img class="rounded img-fluid" src="../images/smart_telematics_solution/icon_Affordable.png" alt="Affordable Solution">
-            <p>Affordable Solution</p>
+            <p>Affordable solution</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
