@@ -2,6 +2,9 @@
 div, span, p {
   caret-color: transparent;
 }
+sup{
+  font-size: .7em;
+}
 a:focus, a:hover {
   text-decoration: none;
 }
