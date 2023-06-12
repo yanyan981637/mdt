@@ -34,7 +34,7 @@ class MailSender {
 
 	public function sendMail() {
 
-		$config = (new Config())->getGeneralConfig();
+		$config = (new Config())->getMailConfig();
 		$recipients = array();
 		$postData = $this->msgContent;
 
@@ -45,37 +45,23 @@ class MailSender {
 				$class_value = "General";
 				$subject_value = "[Contact Message - General] from MDT Website";
 				$recipients[] = array(
-					'email' => 'tony.wei@mic.com.tw',
+					'email' => $config['CF_GENERAL'],
 					'name' => 'business'
 				);
 				if ($region == "au" || $region == "nz") {
 					$recipients[] = array(
-						'email' => 'weitony.tw@gmail.com',
+						'email' => $config['CF_AUNZ'],
 						'name' => 'business'
 					);
 				}
-				// $recipients[] = array(
-				// 	'email' => 'business@mitacmdt.com',
-				// 	'name' => 'business'
-				// );
-				// if ($region == "au" || $region == "nz") {
-				// 	$recipients[] = array(
-				// 		'email' => 'enquiries@mitac.com.au',
-				// 		'name' => 'business'
-				// 	);
-				// }
 				break;
 			case 2:
 				$class_value = "Video Telematics";
 				$subject_value = "[Contact Message - Video Telematics] from MDT Website";
 				$recipients[] = array(
-					'email' => 'tony.wei@mic.com.tw',
+					'email' => $config['CF_VT'],
 					'name' => 'VTSales'
 				);
-				// $recipients[] = array(
-				// 	'email' => 'VTSales@mic.com.tw',
-				// 	'name' => 'VTSales'
-				// );
 				break;
 			default:
 				$class_value = "Unknown";

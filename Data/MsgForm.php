@@ -5,11 +5,11 @@ use App\DataAccess\Config;
 use App\Logger\Log;
 use App\Mail\MailSender;
 
-$config = (new Config())->getGeneralConfig();
+$config = (new Config())->getRecaptchaConfig();
 $logger = new Log('FORM','Spam.log');
 
 // Script root path
-$RootPath = App\DataAccess\Config::initRootPath();
+// $RootPath = App\DataAccess\Config::initRootPath();
 // Script last path
 $cfg['file_name'] = substr(strrchr($_SERVER['SCRIPT_NAME'], "/" ), 1 );
 // Database singleton

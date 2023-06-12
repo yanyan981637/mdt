@@ -4,7 +4,7 @@
 	include 'inc/HEADER.php';
 
 	$class = isset($_GET['class']) ? $_GET['class'] : 1;//預設為1
-	$config = (new App\DataAccess\Config())->getGeneralConfig();
+	$config = (new App\DataAccess\Config())->getRecaptchaConfig();
 ?>
 	<!-- Primary Page Layout
 	================================================== -->

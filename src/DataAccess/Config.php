@@ -28,15 +28,25 @@ class Config {
 		return $this->env;
 	}
 
-	public function getGeneralConfig() {
+	public function getRecaptchaConfig() {
 		$config = array(
-			'MAIL_HOST' => $_ENV['DB_HOST_' . $this->env],
+			'GOOGLE_RECAPTCHA_KEY' => $_ENV['GOOGLE_RECAPTCHA_KEY_' . $this->env],
+			'GOOGLE_RECAPTCHA_SECRET' => $_ENV['GOOGLE_RECAPTCHA_SECRET_' . $this->env]
+		);
+		
+		return $config;
+	}
+
+	public function getMailConfig() {
+		$config = array(
+			'MAIL_HOST' => $_ENV['MAIL_HOST_' . $this->env],
 			'MAIL_USERNAME' => $_ENV['MAIL_USERNAME_' . $this->env],
 			'MAIL_PASSWORD' => $_ENV['MAIL_PASSWORD_' . $this->env],
 			'MAIL_ENCRYPTION' => $_ENV['MAIL_ENCRYPTION_' . $this->env],
 			'MAIL_PORT' => $_ENV['MAIL_PORT_' . $this->env],
-			'GOOGLE_RECAPTCHA_KEY' => $_ENV['GOOGLE_RECAPTCHA_KEY_' . $this->env],
-			'GOOGLE_RECAPTCHA_SECRET' => $_ENV['GOOGLE_RECAPTCHA_SECRET_' . $this->env]
+			'CF_GENERAL' => $_ENV['CF_GENERAL_' . $this->env],
+			'CF_AUNZ' => $_ENV['CF_AUNZ_' . $this->env],
+			'CF_VT' => $_ENV['CF_VT_' . $this->env]
 		);
 		
 		return $config;

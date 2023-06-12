@@ -4,7 +4,7 @@
 	// Cookie http only
 	ini_set("session.cookie_httponly", 1);
 	// Script root path
-	$RootPath = App\DataAccess\Config::initRootPath();
+	// $RootPath = App\DataAccess\Config::initRootPath();
 	// Script last path
 	$cfg['file_name'] = substr(strrchr($_SERVER['SCRIPT_NAME'], "/" ), 1 );
 	// Database singleton
@@ -492,9 +492,9 @@ height="0" width="0"></iframe></noscript>
 								$resultL = mysqli_query($MysqlConn, $sqlL);
 								$tspgAry = mysqli_fetch_array($resultL);
 								if($tspgAry){
-									$transferPageUrl = $RootPath."en/".$Current_Menu_File_Name;
+									$transferPageUrl = "/en/".$Current_Menu_File_Name;
 								}else{
-									$transferPageUrl =	$RootPath."en/";
+									$transferPageUrl = "/en/";
 								}
 								
 								?>
