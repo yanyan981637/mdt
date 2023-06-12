@@ -1,22 +1,32 @@
 <?php
-	require_once('../Conf/Config.inc.php');
-	ini_set("session.cookie_httponly", 1);
+	require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
-	if(isset($_POST['ckType'])){
-		setcookie("mdt_policy", $_POST['ckType'], time()+3600*24*365, "/", "mitacmdt.com", TRUE, TRUE);
+	// Cookie http only
+	ini_set("session.cookie_httponly", 1);
+	// Script root path
+	$RootPath = App\DataAccess\Config::initRootPath();
+	// Script last path
+	$cfg['file_name'] = substr(strrchr($_SERVER['SCRIPT_NAME'], "/" ), 1 );
+	// Database singleton
+	$MysqlInstance = App\DataAccess\Mysql::getInstance();
+	$MysqlConn = $MysqlInstance->getConnection();
+
+	session_start();
+
+	$ckType = isset($_POST['ckType']) ? htmlspecialchars($_POST['ckType'], ENT_QUOTES, 'UTF-8') : '';
+	if ((isset($ckType)) && ($ckType == 'all' || $ckType == 'essential')) {
+		if (isset($_POST['csrf_token_ck']) && $_POST['csrf_token_ck'] == $_SESSION['csrf_token_ck']) {
+			setcookie("mdt_policy", $_POST['ckType'], time()+3600*24*365, "/", $_SERVER['SERVER_NAME'], TRUE, TRUE);
+		}
 	}
-	if(isset($_POST['MsgFormSend'])){
+	if (isset($_POST['MsgFormSend'])) {
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
-
-
 	
 	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en'";
-
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
 	$all_menu = [];
-
 	$current_menu = null;
 
 	$Current_Menu_Id 					= null;
@@ -25,16 +35,14 @@
 	$Current_Menu_Name 			= null;
 	$Current_Menu_File_Name 	= null;
 	$Current_Menu_Inquiry_type 	= 1;
-	$first_menu = [];
 	$Current_Menu_Is_Online 	= 1;
-
+	$first_menu = [];
 
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
   {
 		if ( $row['file_name'] != 'index.php') {
 			array_push($all_menu, $row);
 		}
-
 
 		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
 			array_push($first_menu, $row);

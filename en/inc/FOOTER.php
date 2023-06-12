@@ -130,7 +130,11 @@
 			</div>
 		</div>	
 	</div>
-	
+
+	<?php
+	$csrfToken = bin2hex(random_bytes(32));
+	$_SESSION['csrf_token_ck'] = $csrfToken;
+	?>
 	<div class="fixed-bottom">
 		<div id="v-cookielaw" class="v-bar v-yellow-alert v-bottom">
 			<div class="v-message">
@@ -141,6 +145,7 @@
 					<button type='button' onclick="cookieAccept('all')" class='v-accept btn btn-blue btn-round btn-sm'>Accept All</button>
 					<button type='button' onclick="cookieAccept('essential')" class='v-accept btn btn-blue btn-round btn-sm'>Accept Essential</button>
 					<input type="hidden" id="ckType" name="ckType" value="" />
+					<input type="hidden" id="csrf_token_ck" name="csrf_token_ck" value="<?php echo $csrfToken; ?>" />
 				</form>
 				<a href="./privacy-policy.php" class="btn btn-blue btn-round btn-sm inline">Privacy Policy</a>
 			</div>
@@ -235,7 +240,7 @@
 	
 		function cookieAccept(v){
 			var ck = v;	
-			if (ck != ""){
+			if (ck != "" && (ck == "all" || ck == "essential")) {
 				$("#ckType").val(ck);
 				form_CKaccept.submit();
 			}

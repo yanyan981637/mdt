@@ -1,22 +1,32 @@
 <?php
-	require_once('../Conf/Config.inc.php');
-	ini_set("session.cookie_httponly", 1);
+	require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
-	if(isset($_POST['ckType'])){
-		setcookie("mdt_policy", $_POST['ckType'], time()+3600*24*365, "/", "mitacmdt.com", TRUE, TRUE);
+	// Cookie http only
+	ini_set("session.cookie_httponly", 1);
+	// Script root path
+	$RootPath = App\DataAccess\Config::initRootPath();
+	// Script last path
+	$cfg['file_name'] = substr(strrchr($_SERVER['SCRIPT_NAME'], "/" ), 1 );
+	// Database singleton
+	$MysqlInstance = App\DataAccess\Mysql::getInstance();
+	$MysqlConn = $MysqlInstance->getConnection();
+
+	session_start();
+
+	$ckType = isset($_POST['ckType']) ? htmlspecialchars($_POST['ckType'], ENT_QUOTES, 'UTF-8') : '';
+	if ((isset($ckType)) && ($ckType == 'all' || $ckType == 'essential')) {
+		if (isset($_POST['csrf_token_ck']) && $_POST['csrf_token_ck'] == $_SESSION['csrf_token_ck']) {
+			setcookie("mdt_policy", $_POST['ckType'], time()+3600*24*365, "/", $_SERVER['SERVER_NAME'], TRUE, TRUE);
+		}
 	}
-	if(isset($_POST['MsgFormSend'])){
+	if (isset($_POST['MsgFormSend'])) {
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
-
-
 	
 	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw'";
-
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
 	$all_menu = [];
-
 	$current_menu = null;
 
 	$Current_Menu_Id 					= null;
@@ -92,9 +102,9 @@
 	$resultT = mysqli_stmt_get_result($stmt);
 	$metaAry = mysqli_fetch_array($resultT);
 
-	$Current_Meta_Title				= $metaAry['meta_title'];
-	$Current_Meta_Description	= $metaAry['meta_description'];
-	$Current_Meta_Keywords		= $metaAry['meta_keywords'];
+	$Current_Meta_Title			= isset($metaAry['meta_title']) ? $metaAry['meta_title'] : "";
+	$Current_Meta_Description	= isset($metaAry['meta_description']) ? $metaAry['meta_description'] : "";
+	$Current_Meta_Keywords		= isset($metaAry['meta_keywords']) ? $metaAry['meta_keywords'] : "";
 	$default_meta_description	= "神達數位是一個廣受信賴的車用電子領導廠商，除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們以GPS和影像處理核心技術，滿足客戶實際需求，並以體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。";
 	$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
 		// mysqli_close($MysqlConn);

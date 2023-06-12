@@ -1,8 +1,9 @@
 /.vscode
 /vendor/*
-/Conf/*
 /XmasCard/*
 .htaccess
 nginx.htaccess
 /css/node_modules
 /css/dist/
+/var
+.env

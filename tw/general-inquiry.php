@@ -1,7 +1,10 @@
 <?php
+	require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+
 	include 'inc/HEADER.php';
-	
-	$class = ($_GET['class'])?$_GET['class']:1;//預設為1
+
+	$class = isset($_GET['class']) ? $_GET['class'] : 1;//預設為1
+	$config = (new App\DataAccess\Config())->getGeneralConfig();
 ?>
 	<!-- Primary Page Layout
 	================================================== -->
@@ -91,6 +94,11 @@
 					$("#MsgForm").validate();
 				});
 			</script>
+
+			<?php
+			$csrfToken = bin2hex(random_bytes(32));
+			$_SESSION['csrf_token_cform'] = $csrfToken;
+			?>
 			<form class="contact-form" id="MsgForm" method="post">
 				<div class="row justify-content-center">
 					<div class="col-md-4">
@@ -153,9 +161,10 @@
 					</div>
 					
 					<input type="hidden" id="PgLang" name="PgLang" value="tw" >
+					<input type="hidden" id="csrf_token_cform" name="csrf_token_cform" value="<?php echo $csrfToken; ?>" />
 
 					<div class="col-md-9 tc mt-30">
-						<div class="g-recaptcha" data-sitekey="6LcbXpEUAAAAAOHJWB6fn_yhRRmk9ZpR7r5aEnow"></div>
+						<div class="g-recaptcha" data-sitekey="<?= $config['GOOGLE_RECAPTCHA_KEY'] ?>"></div>
 						<div class="g-recaptcha-message-area"></div>
 						<div class="send-message-area" style="margin:10px;"></div>
 						<input type="submit" value="確定" name="MsgFormSend" id="submit_btn" class="btn btn-blue1 btn-lg btn-round" />
