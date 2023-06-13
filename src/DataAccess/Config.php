@@ -44,6 +44,7 @@ class Config {
 			'MAIL_PASSWORD' => $_ENV['MAIL_PASSWORD_' . $this->env],
 			'MAIL_ENCRYPTION' => $_ENV['MAIL_ENCRYPTION_' . $this->env],
 			'MAIL_PORT' => $_ENV['MAIL_PORT_' . $this->env],
+			'CF_FROM' => $_ENV['CF_FROM_' . $this->env],
 			'CF_GENERAL' => $_ENV['CF_GENERAL_' . $this->env],
 			'CF_AUNZ' => $_ENV['CF_AUNZ_' . $this->env],
 			'CF_VT' => $_ENV['CF_VT_' . $this->env]

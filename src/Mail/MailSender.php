@@ -34,7 +34,8 @@ class MailSender {
 
 	public function sendMail() {
 
-		$config = (new Config())->getMailConfig();
+		$initConfig = new Config();
+		$config = $initConfig->getMailConfig();
 		$recipients = array();
 		$postData = $this->msgContent;
 
@@ -96,18 +97,20 @@ class MailSender {
 			$mail->isSMTP();
 			// Specify main and backup SMTP servers
 			$mail->Host = $config['MAIL_HOST'];
-			// Enable SMTP authentication
-			$mail->SMTPAuth = true;
-			// SMTP username
-			$mail->Username = $config['MAIL_USERNAME'];
-			// SMTP password
-			$mail->Password = $config['MAIL_PASSWORD'];
-			// Enable TLS encryption, `ssl` also accepted
-			$mail->SMTPSecure = $config['MAIL_ENCRYPTION'];
-			// TCP port to connect to
+			// Secure related settings
+			if ($initConfig->getEnv() == "PROD") {
+				$mail->SMTPAuth = true;
+				$mail->Username = $config['MAIL_USERNAME'];
+				$mail->Password = $config['MAIL_PASSWORD'];
+				$mail->SMTPSecure = $config['MAIL_ENCRYPTION'];
+			} else {
+				$mail->SMTPAuth = false;
+				$mail->SMTPAutoTLS = false;
+			}
+			// TCP port to connect to mail server
 			$mail->Port = $config['MAIL_PORT'];
-			
-			$mail->From = 'business@mitacmdt.com';//已綁定，更改則無法啟用發信機制
+			// Can't change sender while in production
+			$mail->From = $config['CF_FROM'];
 			$mail->FromName = 'MDT Business';
 	
 			foreach($recipients as $recipient) {
@@ -128,7 +131,7 @@ class MailSender {
 				$this->logger->error($mensagemRetorno);
 				//echo $mensagemRetorno;
 			} else {
-				$mensagemRetorno = 'E-mail sent!';
+				$mensagemRetorno = 'The contact form has filled by '.$email.', and the E-mail sent!';
 				$this->logger->info($mensagemRetorno);
 				//echo $mensagemRetorno;
 			}
