@@ -2,7 +2,7 @@
 	include 'inc/HEADER.php';
 ?>
 
-<!-- <div class="section mt-85">
+<div class="section mt-85">
   <div class="embed-responsive embed-responsive-16by9">
 		<iframe id="vt-solution-ytplayer" type="text/html" src="https://www.youtube.com/embed/q2Z9ys2_hA4?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 		<script src="https://www.youtube.com/iframe_api"></script>
@@ -28,7 +28,7 @@
 				}
     </script>
 	</div>
-</div> -->
+</div>
 
 	<div class="section">
 		<div class="container">

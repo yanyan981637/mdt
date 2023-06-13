@@ -5,7 +5,7 @@
 	<!--home slider-->
 	<!-- Swiper -->
 	<!-- home -->
-	<!-- <div class="section mt-85">
+	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
@@ -31,7 +31,7 @@
 				}
 			</script>
 		</div>
-</div> -->
+</div>
 
 
 	
