@@ -41,8 +41,8 @@ h6, .h6{font-size: 1.3rem; line-height: 1.4; font-weight: 400;}
 	font-weight: 400;
 }
 p,.p,tr,td{font-size: 1.4rem; line-height: 1.5; font-weight: 400;}
-p:lang(zh-Hant-TW),.p:lang(zh-Hant-TW),tr:lang(zh-Hant-TW),td:lang(zh-Hant-TW){font-size: 1.4rem; line-height: 1.7; font-weight: 400;}
-li{font-size: 1.2rem; line-height: 1.5; font-weight: 400;}
+p:lang(zh-Hant-TW),.p:lang(zh-Hant-TW),tr:lang(zh-Hant-TW),td:lang(zh-Hant-TW){font-size: 1.25rem; line-height: 1.7; font-weight: 400;}
+li{font-size: 1.3rem; line-height: 1.5; font-weight: 400;}
 .inline{display: inline !important;}
 .pr-30{padding-right: 30px;}
 .pl-30{padding-left: 30px;}
@@ -971,7 +971,7 @@ body.royal_preloader {
 	/*font-family: "Roboto", "微軟正黑體","Microsoft JhengHei", sans-serif;*/
 	line-height: 1.25;
 	padding: 0.8rem 1.4rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 	letter-spacing: 1px;
 	border-radius: 0.15rem;
@@ -982,14 +982,14 @@ body.royal_preloader {
 }
 .btn-long {
 	padding: 1rem 3.5rem;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 .btn-sm {
 	padding: 0.4rem 0.7rem;
 }
 .btn-lg {
 	padding: 1rem 2.8rem;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 .btn:hover,
 .btn:focus:hover,
@@ -8109,7 +8109,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 .footer-1 h6{
 	margin-bottom: 1.6rem;
-	font-size:1.2rem;
+	font-size:1.3rem;
 }
 .footer-1.dark h6{
 	color: #b6b6b6;
@@ -8132,7 +8132,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 .footer-1 ul li a{
 	position: relative;
-	font-size: 14px;
+	font-size: 15px;
 	color: #666;
 	-webkit-transition: all 200ms linear;
 	-moz-transition: all 200ms linear;
@@ -8375,7 +8375,7 @@ input[type=number]::-webkit-outer-spin-button{
 		width: auto;
 }
 .section.productDetail ul li{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 .section.productDetail .txtBox h5{
     padding-top: 20px;
@@ -8394,7 +8394,7 @@ input[type=number]::-webkit-outer-spin-button{
 .section.productDetail .product-specs-table table th,
 .section.productDetail .product-specs-table table td{
 	padding: 4px 10px;
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	border-right: 1px #ccc solid;
 	text-align: center;
 }
@@ -8402,7 +8402,7 @@ input[type=number]::-webkit-outer-spin-button{
     background-color: #ebebeb;
 }
 .section.productDetail .product-specs-table table ul li{
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	list-style:none;
 }
 .section.productDetail#pdt_accs{
@@ -8415,9 +8415,11 @@ input[type=number]::-webkit-outer-spin-button{
 }
 .section.productDetail#pdt_accs h5{
 	color: #1034a5;
+	font-size: 1.4rem
 }
 .section.productDetail#pdt_accs p{
 	color: #787878;
+	font-size: 1.2rem;
 }
 .section.productDetail#pdt_accs img{
     max-width: 220px;
@@ -8486,8 +8488,8 @@ input[type=number]::-webkit-outer-spin-button{
 		h6, .h6{font-size: 1.3rem;}
 		.ContImp{font-size: 1.5rem;}
 		.ContGen{font-size: 1.5rem;}
-		p,.p,tr,td{font-size: 1.4rem;}
-		li{font-size: 1.2rem;}
+		/* p,.p,tr,td{font-size: 1.4rem;}
+		li{font-size: 1.2rem;} */
 		
 		.hidden-xl{display:none !important}
 		.grid-box.fifth{
@@ -8526,8 +8528,8 @@ input[type=number]::-webkit-outer-spin-button{
 		h6, .h6{font-size: 1.3rem;}
 		.ContImp{font-size: 1.4rem;}
 		.ContGen{font-size: 1.4rem;}
-		p,.p,tr,td{font-size: 1.3rem;}
-		li{font-size: 1.2rem;}
+		/* p,.p,tr,td{font-size: 1.3rem;}
+		li{font-size: 1.2rem;} */
 		
 		.hidden-lg{display:none !important}
 		.grid-box.quarter{
@@ -8577,8 +8579,8 @@ input[type=number]::-webkit-outer-spin-button{
 		h6, .h6{font-size: 1.3rem;}
 		.ContImp{font-size: 1.4rem;}
 		.ContGen{font-size: 1.4rem;}
-		p,.p,tr,td{font-size: 1.3rem;}
-		li{font-size: 1.2rem;}
+		/* p,.p,tr,td{font-size: 1.3rem;}
+		li{font-size: 1.2rem;} */
 		
 		.hidden-md{display:none !important}
 		.pgHero{height:25vh;}

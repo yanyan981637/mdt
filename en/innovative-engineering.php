@@ -18,6 +18,26 @@
 		</div>	
 	</div>
 
+	<div class="SecTopNavPlaceholder"></div>
+	<div class="SecTopNav shadow">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 d-lg-none">
+        <a class="SecTopNav_title" href="javascript:void(0);">
+        	Innovative Engineering
+        </a>
+        <div class="bg"></div>
+        </div>
+				<ul class="col-12">
+					<li><a href="#camera-tech">Camera Tech</a></li>
+					<li><a href="#ai-tech">AI Tech</a></li>
+					<li><a href="#software-development">Software Development</a></li>
+					<li><a href="#integrated-solution">Integrated Solution</a></li>
+        </ul>
+			</div>
+		</div>
+	</div>
+
 	<div class="section padding-top-bottom background-white">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -30,7 +50,7 @@
 		</div>		
 	</div>
 
-	<div class="section">
+	<div class="section" id="camera-tech">
 		<div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/innovative-engineering/Camera-Tech-banner.jpg')">
         <div class="container color-white center">
@@ -68,7 +88,7 @@
 		</div>		
 	</div>
 
-	<div class="section mt-100">
+	<div class="section mt-100" id="ai-tech">
 		<div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/innovative-engineering/AI-Tech-banner.jpg')">
         <div class="container color-white center">
@@ -106,7 +126,7 @@
 		</div>		
 	</div>
 
-	<div class="section mt-100">
+	<div class="section mt-100" id="software-development">
 		<div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/innovative-engineering/Software-banner.jpg')">
         <div class="container color-white center">
@@ -144,7 +164,7 @@
 		</div>		
 	</div>
 
-	<div class="section mt-100">
+	<div class="section mt-100" id="integrated-solution">
 		<div class="second-bannner">
       <div class="bg-img" style="background-image: url('../images/innovative-engineering/One-Stop-Shop-Integrated-Solution-banner.jpg')">
         <div class="container color-white center">

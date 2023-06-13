@@ -72,8 +72,8 @@ a svg {
   list-style: none;
 }
 .SecTopNav li {
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 600;
   line-height: 1.5;
   padding: 10px;
   position: relative;
@@ -226,9 +226,9 @@ a svg {
 .second-bannner .bg-img >.container, .second-bannner .bg-img >.container>.row {
   height: 100%;
 }
-.second-bannner .bg-img >.container h4 {
+/* .second-bannner .bg-img >.container h4 {
   font-weight: normal;
-}
+} */
 /* .second-bannner .column-2-no-position .img,
 .second-bannner .column-2 .img {
   height: 200px;
@@ -510,4 +510,25 @@ a svg {
 .product-specs-table .data ul{
   margin: 0;
   padding: 0;
+}
+
+
+#mivue-pro h3,
+#mivue-manager h3,
+#mionext h3,
+#mioshare h3{
+  font-weight: 700;
+}
+.mid-height-incNav#kiosk_banner,
+.mid-height-incNav#dshcam-recorder-banner{
+  height: 350px;
+}
+.mid-height-incNav#kiosk_banner h1,
+.mid-height-incNav#kiosk_banner h3.h4,
+.mid-height-incNav#dshcam-recorder-banner h1,
+.mid-height-incNav#dshcam-recorder-banner h3.h4{
+  font-weight: 650;
+}
+.second-bannner h2, .second-bannner h4{
+  font-weight: 600;
 }

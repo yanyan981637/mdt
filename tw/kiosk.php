@@ -17,7 +17,7 @@
 						<h1 class="color-white">自助服務機</h1>
             <h3 class="h4">將您的業務提升至更高的水準</h3>
 					</div>	
-          <div class="col-md-5 align-self-center">
+          <div class="col-md-4 offset-md-1 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="">
           </div>
 				</div>		
