@@ -2,7 +2,7 @@
 	include 'inc/HEADER.php';
 ?>
 
-<div class="section mt-85">
+<!-- <div class="section mt-85">
   <div class="embed-responsive embed-responsive-16by9">
 		<iframe id="vt-solution-ytplayer" type="text/html" src="https://www.youtube.com/embed/q2Z9ys2_hA4?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
 		<script src="https://www.youtube.com/iframe_api"></script>
@@ -28,41 +28,45 @@
 				}
     </script>
 	</div>
-</div>
+</div> -->
 
 
 
-<div class="section">
+  <div class="section">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 tc align-items-stretch padding-top-bottom-smaller hr">	
-					<h3 class="mb-20">Video Telematics Solution - VisionMax<sup>&trade;</sup></h3>
-					<p class="mb-30">VisionMax<sup>&trade;</sup> focuses   on driving safety event monitoring and data management and storage, provides   immediate safety event reminders and subsequent safety event reconstruction,   and establishes a powerful eco-system to ensure the best safety guarantee and   round-the-clock protection for drivers and fleets.</p>
-					<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">
-						<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="17px" xmlns="http://www.w3.org/2000/svg">
-							<g transform="matrix(1 0 0 1 -597 -811 )">
-								<path d="M 14.410807291666666 7.90234375  C 14.567491319444446 8.070572916666666  14.645833333333334 8.269791666666666  14.645833333333334 8.5  C 14.645833333333334 8.730208333333332  14.567491319444446 8.929427083333332  14.410807291666666 9.09765625  L 7.681640625 16.32265625  C 7.524956597222223 16.490885416666668  7.339409722222223 16.575  7.125 16.575  C 6.9105902777777795 16.575  6.7250434027777795 16.490885416666668  6.568359375 16.32265625  C 6.411675347222223 16.15442708333333  6.333333333333333 15.955208333333331  6.333333333333333 15.725000000000001  L 6.333333333333333 11.899999999999999  L 0.7916666666666666 11.899999999999999  C 0.5772569444444445 11.899999999999999  0.3917100694444444 11.815885416666667  0.23502604166666666 11.64765625  C 0.0783420138888889 11.479427083333333  0 11.280208333333333  0 11.05  L 0 5.949999999999999  C 0 5.719791666666664  0.0783420138888889 5.520572916666664  0.23502604166666666 5.352343749999999  C 0.3917100694444444 5.184114583333333  0.5772569444444445 5.1000000000000005  0.7916666666666666 5.1000000000000005  L 6.333333333333333 5.1000000000000005  L 6.333333333333333 1.2749999999999992  C 6.333333333333333 1.044791666666664  6.411675347222223 0.8455729166666639  6.568359375 0.6773437499999992  C 6.7250434027777795 0.5091145833333327  6.9105902777777795 0.4250000000000004  7.125 0.4250000000000004  C 7.339409722222223 0.4250000000000004  7.524956597222223 0.5091145833333327  7.681640625 0.6773437499999992  L 14.410807291666666 7.90234375  Z M 17.954752604166664 1.1222656250000003  C 18.65158420138889 1.8704427083333326  19 2.771354166666664  19 3.8249999999999997  L 19 13.175  C 19 14.228645833333331  18.65158420138889 15.129557291666668  17.954752604166664 15.877734375  C 17.257921006944446 16.62591145833333  16.418836805555557 17  15.4375 17  L 11.479166666666666 17  C 11.371961805555559 17  11.279188368055559 16.95794270833333  11.200846354166666 16.873828125  C 11.122504340277779 16.789713541666668  11.083333333333334 16.690104166666668  11.083333333333334 16.575  C 11.083333333333334 16.539583333333333  11.079210069444446 16.45104166666667  11.070963541666666 16.309375  C 11.06271701388889 16.16770833333333  11.060655381944446 16.050390625  11.064778645833334 15.957421875000001  C 11.068901909722221 15.864453125  11.08127170138889 15.760416666666668  11.101888020833334 15.6453125  C 11.122504340277779 15.530208333333333  11.163736979166668 15.443880208333333  11.2255859375 15.386328124999999  C 11.287434895833334 15.328776041666668  11.371961805555559 15.3  11.479166666666666 15.3  L 15.4375 15.3  C 15.981770833333334 15.3  16.44769965277778 15.091927083333331  16.835286458333336 14.67578125  C 17.22287326388889 14.259635416666663  17.416666666666664 13.759374999999999  17.416666666666664 13.175  L 17.416666666666664 3.8249999999999997  C 17.416666666666664 3.2406250000000005  17.22287326388889 2.7403645833333323  16.835286458333336 2.32421875  C 16.44769965277778 1.908072916666664  15.981770833333334 1.6999999999999997  15.4375 1.6999999999999997  L 11.875 1.6999999999999997  L 11.738932291666666 1.6999999999999997  L 11.578125 1.6999999999999997  C 11.578125000000002 1.6999999999999997  11.530707465277779 1.6955729166666647  11.435872395833334 1.6867187500000003  C 11.34103732638889 1.6778645833333323  11.293619791666666 1.664583333333333  11.293619791666666 1.6468750000000008  C 11.293619791666666 1.6291666666666647  11.260633680555555 1.6048177083333326  11.194661458333334 1.5738281249999992  C 11.128689236111112 1.542838541666664  11.09982638888889 1.5029947916666644  11.108072916666666 1.4542968750000003  C 11.116319444444446 1.4055989583333326  11.108072916666666 1.3458333333333323  11.083333333333334 1.2749999999999992  C 11.083333333333334 1.2395833333333326  11.079210069444446 1.1510416666666654  11.070963541666666 1.0093749999999992  C 11.06271701388889 0.8677083333333331  11.060655381944446 0.7503906250000008  11.064778645833334 0.6574218750000004  C 11.068901909722221 0.564453125  11.08127170138889 0.46041666666666503  11.101888020833334 0.34531249999999925  C 11.122504340277779 0.23020833333333157  11.163736979166668 0.1438802083333327  11.2255859375 0.08632812500000075  C 11.287434895833334 0.02877604166666503  11.371961805555559 0  11.479166666666666 0  L 15.4375 0  C 16.418836805555557 0  17.257921006944446 0.3740885416666643  17.954752604166664 1.1222656250000003  Z " fill-rule="nonzero" fill="currentColor" stroke="none" transform="matrix(1 0 0 1 597 811 )"/>
-							</g>
-						</svg>
-						User Login</a>
+			<div class="row justify-content-center">
+				<div class="col-md-10 hr">	
+					  <h3 class="mb-20 text-center">Video Telematics Solution - VisionMax<sup>&trade;</sup></h3>
+						<p class="ContGen">VisionMax<sup>&trade;</sup> focuses   on driving safety event monitoring and data management and storage, provides   immediate safety event reminders and subsequent safety event reconstruction,   and establishes a powerful eco-system to ensure the best safety guarantee and   round-the-clock protection for drivers and fleets.</p>
+						<div class="text-center mt-30">
+							<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">
+							<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="17px" xmlns="http://www.w3.org/2000/svg">
+								<g transform="matrix(1 0 0 1 -597 -811 )">
+									<path d="M 14.410807291666666 7.90234375  C 14.567491319444446 8.070572916666666  14.645833333333334 8.269791666666666  14.645833333333334 8.5  C 14.645833333333334 8.730208333333332  14.567491319444446 8.929427083333332  14.410807291666666 9.09765625  L 7.681640625 16.32265625  C 7.524956597222223 16.490885416666668  7.339409722222223 16.575  7.125 16.575  C 6.9105902777777795 16.575  6.7250434027777795 16.490885416666668  6.568359375 16.32265625  C 6.411675347222223 16.15442708333333  6.333333333333333 15.955208333333331  6.333333333333333 15.725000000000001  L 6.333333333333333 11.899999999999999  L 0.7916666666666666 11.899999999999999  C 0.5772569444444445 11.899999999999999  0.3917100694444444 11.815885416666667  0.23502604166666666 11.64765625  C 0.0783420138888889 11.479427083333333  0 11.280208333333333  0 11.05  L 0 5.949999999999999  C 0 5.719791666666664  0.0783420138888889 5.520572916666664  0.23502604166666666 5.352343749999999  C 0.3917100694444444 5.184114583333333  0.5772569444444445 5.1000000000000005  0.7916666666666666 5.1000000000000005  L 6.333333333333333 5.1000000000000005  L 6.333333333333333 1.2749999999999992  C 6.333333333333333 1.044791666666664  6.411675347222223 0.8455729166666639  6.568359375 0.6773437499999992  C 6.7250434027777795 0.5091145833333327  6.9105902777777795 0.4250000000000004  7.125 0.4250000000000004  C 7.339409722222223 0.4250000000000004  7.524956597222223 0.5091145833333327  7.681640625 0.6773437499999992  L 14.410807291666666 7.90234375  Z M 17.954752604166664 1.1222656250000003  C 18.65158420138889 1.8704427083333326  19 2.771354166666664  19 3.8249999999999997  L 19 13.175  C 19 14.228645833333331  18.65158420138889 15.129557291666668  17.954752604166664 15.877734375  C 17.257921006944446 16.62591145833333  16.418836805555557 17  15.4375 17  L 11.479166666666666 17  C 11.371961805555559 17  11.279188368055559 16.95794270833333  11.200846354166666 16.873828125  C 11.122504340277779 16.789713541666668  11.083333333333334 16.690104166666668  11.083333333333334 16.575  C 11.083333333333334 16.539583333333333  11.079210069444446 16.45104166666667  11.070963541666666 16.309375  C 11.06271701388889 16.16770833333333  11.060655381944446 16.050390625  11.064778645833334 15.957421875000001  C 11.068901909722221 15.864453125  11.08127170138889 15.760416666666668  11.101888020833334 15.6453125  C 11.122504340277779 15.530208333333333  11.163736979166668 15.443880208333333  11.2255859375 15.386328124999999  C 11.287434895833334 15.328776041666668  11.371961805555559 15.3  11.479166666666666 15.3  L 15.4375 15.3  C 15.981770833333334 15.3  16.44769965277778 15.091927083333331  16.835286458333336 14.67578125  C 17.22287326388889 14.259635416666663  17.416666666666664 13.759374999999999  17.416666666666664 13.175  L 17.416666666666664 3.8249999999999997  C 17.416666666666664 3.2406250000000005  17.22287326388889 2.7403645833333323  16.835286458333336 2.32421875  C 16.44769965277778 1.908072916666664  15.981770833333334 1.6999999999999997  15.4375 1.6999999999999997  L 11.875 1.6999999999999997  L 11.738932291666666 1.6999999999999997  L 11.578125 1.6999999999999997  C 11.578125000000002 1.6999999999999997  11.530707465277779 1.6955729166666647  11.435872395833334 1.6867187500000003  C 11.34103732638889 1.6778645833333323  11.293619791666666 1.664583333333333  11.293619791666666 1.6468750000000008  C 11.293619791666666 1.6291666666666647  11.260633680555555 1.6048177083333326  11.194661458333334 1.5738281249999992  C 11.128689236111112 1.542838541666664  11.09982638888889 1.5029947916666644  11.108072916666666 1.4542968750000003  C 11.116319444444446 1.4055989583333326  11.108072916666666 1.3458333333333323  11.083333333333334 1.2749999999999992  C 11.083333333333334 1.2395833333333326  11.079210069444446 1.1510416666666654  11.070963541666666 1.0093749999999992  C 11.06271701388889 0.8677083333333331  11.060655381944446 0.7503906250000008  11.064778645833334 0.6574218750000004  C 11.068901909722221 0.564453125  11.08127170138889 0.46041666666666503  11.101888020833334 0.34531249999999925  C 11.122504340277779 0.23020833333333157  11.163736979166668 0.1438802083333327  11.2255859375 0.08632812500000075  C 11.287434895833334 0.02877604166666503  11.371961805555559 0  11.479166666666666 0  L 15.4375 0  C 16.418836805555557 0  17.257921006944446 0.3740885416666643  17.954752604166664 1.1222656250000003  Z " fill-rule="nonzero" fill="currentColor" stroke="none" transform="matrix(1 0 0 1 597 811 )"/>
+								</g>
+							</svg>
+							User Login</a>
+						</div>
 				</div>
-			</div>
-		</div>	
+			</div>	
+		</div>		
 	</div>
 
 	<!-- 1 -->
-	<div class="section over-hide vt-solution-section mt-60">
+	<div class="section over-hide vt-solution-section mt-30">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6  order-md-2 img">
 					<img src="../images/smart_telematics_solution/VT-Solution-banner1.jpg" alt="Always connected" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 order-md-1 content">
-						<h3>Always connected</h3>
+						<h3>A Complete Video Telematics Solution</h3>
 						<ul class="section text-left">
-							<li>Stable 4G transmission with no disconnection</li>
-							<li>Resuming transmission from break points which ensures correct data transmission</li>
-							<li>Cloud storage prevents data loss</li>
+							<li>AI based real-time alerts</li>
+							<li>Easy integration</li>
+							<li>Fast time to market</li>
+							<li>Customer support</li>
+							<li>Cost-effective</li>
 						</ul>
 				</div>
 			</div>	
@@ -76,11 +80,12 @@
 					<img src="../images/smart_telematics_solution/VT-Solution-banner2.jpg" alt="Get The full picture of your vehicles" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 content">
-						<h3>Get The full picture of your vehicles</h3>
+						<h3>VisionMax™  Core Value</h3>
 						<ul class="section text-left">
-							<li>Real-time video recording on 7 Channel</li>
-							<li>No image is missed in real time</li>
-							<li>Real-time video recording is stored in the cloud server</li>
+              <li>Driving Safety</li>
+              <li>Incident Prevention</li>
+              <li>Incident Investigation</li>
+              <li>Cyber Security</li>
 						</ul>
 				</div>
 			</div>	
@@ -95,11 +100,14 @@
 					<img src="../images/smart_telematics_solution/VT-Solution-banner3.jpg" alt="Reliable and flexible platform" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 order-md-1 content">
-						<h3>Reliable and flexible platform</h3>
+						<h3>Incident Prevention </h3>
 						<ul class="section text-left">
-							<li>AWS server solution</li>
-							<li>Complete backend transmission records</li>
-							<li>AWS backend storage prevents data loss</li>
+							<li>Driving behavior monitoring</li>
+							<li>ADAS / DMS edge AI safety alert</li>
+							<li>Remote live tracking</li>
+							<li>Driver score and coaching flow</li>
+							<li>Incident trend analysis and report</li>
+							<li>Manage fleet risk</li>
 						</ul>
 				</div>
 			</div>	
@@ -111,14 +119,15 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6 img">
-					<img src="../images/smart_telematics_solution/VT-Solution-banner4.jpg" alt="Get The full picture of your vehicles" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/smart_telematics_solution/VT-Solution-banner5.jpg" alt="Get The full picture of your vehicles" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 content">
-						<h3>Affordable Solution</h3>
+						<h3>Incident Investigation</h3>
 						<ul class="section text-left">
-							<li>AI intelligent judgment reminder</li>
-							<li>System sensor comprehensive judgment</li>
-							<li>Implementation of navigation solutions</li>
+							<li>Sensor fusion data includes video, GPS, accelerometer</li>
+							<li>3-tiers storage – SD card, internal flash and cloud</li>
+							<li>Instant event notification</li>
+							<li>With blockchain technology integrated and prove event data integrity</li> 
 						</ul>
 				</div>
 			</div>	
@@ -128,16 +137,20 @@
 	<!-- 5 -->
 	<div class="section over-hide vt-solution-section mt-30">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row align-items-center">	
+				
 				<div class="col-md-6  order-md-2 img">
-					<img src="../images/smart_telematics_solution/VT-Solution-banner5.jpg" alt="Track your fleets in real time" class="img-fluid rounded mx-auto d-block">
-				</div>	
+					<img src="../images/smart_telematics_solution/VT-Solution-banner6.jpg" alt="Track your fleets in real time" class="img-fluid rounded mx-auto d-block">
+				</div>
 				<div class="col-md-6 order-md-1 content">
-						<h3>Track your fleets in real time</h3>
+						<h3>Cyber Security </h3>
 						<ul class="section text-left">
-							<li>Real-time event recording</li>
-							<li>Complete record of the entire event process</li>
-							<li>Data storage for up to 180 days</li>
+							<li>Prevent SIM/SD card/Cable be easier pull out</li>
+							<li>Secure boot / Security Patch</li>
+							<li>Trust Zone and Watch Dog </li>
+							<li>X509 Certificate / AES</li>
+							<li>webRTC / Signaling</li>
+							<li>TLS1.2</li>
 						</ul>
 				</div>
 			</div>	
@@ -145,7 +158,7 @@
 	</div>
 
 <!-- 6 -->
-<div class="section over-hide vt-solution-section mt-30 mb-60">
+<!-- <div class="section over-hide vt-solution-section mt-30 mb-60">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6 img">
@@ -161,14 +174,14 @@
 				</div>
 			</div>	
 		</div>	
-	</div>
+	</div> -->
 
 	<!-- Product Information -->
 	<div class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 tc pt-60 pb-60 border-top-bottom">
-				  <h3 class="mb-40">Product Information</h3>
+				  <h3 class="mb-40">VisionMax™ Supported Devices</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div>
 						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
@@ -219,7 +232,7 @@
 				<div class="col-12 mt-60" id="connected_CDR">
 					<h4>
 						<span class="img_icon">1</span>
-						<span class="h5 h5_color">Connected CDR</span>
+						<span class="h5 h5_color">Connected Dashcam</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -228,8 +241,8 @@
 							</div>
 							<div class="product_desc">
 								<h5>K265(Dual cam)/K165(Single cam)</h5>
-								<p>Multi-Channel(up to 7 camamera support)</p>
-								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230601.pdf" target="_bank">
+								<p>Non-box Type 7-channel MDVR</p>
+								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230609.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -251,8 +264,8 @@
 								<img class="img-fluid rounded" src="../images/smart_telematics_solution/k245c_200x200.png" alt="K245c(Dual cam)/K145c(Single cam)">
 							</div>
 							<div class="product_desc">
-								<h5>K245c(Dual cam)/K145c(Single cam)</h5>
-								<p>Carrier Certification</p>
+								<h5>K245C(Dual cam)/K145C(Single cam)</h5>
+								<p>The Best Choice with Carrier Certifications</p>
 								<a href="/Downloads/202304/Mitac_K145C+245C_Datasheet_20230505.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -276,7 +289,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>K245(Dual cam)/K145(Single cam)</h5>
-								<p>Reduced dimensions</p>
+								<p>The Best Choice with Carrier Certifications</p>
 								<a href="/Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -300,8 +313,8 @@
 							</div>
 							<div class="product_desc">
 								<h5>K220(Dual cam)</h5>
-								<p>cost-effective</p>
-								<a href="/Downloads/202304/Mitac_K220_datasheet_202300601.pdf" target="_bank">
+								<p>Affordable Solution</p>
+								<a href="/Downloads/202304/Mitac_K220_datasheet_202300609.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">

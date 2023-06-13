@@ -340,12 +340,13 @@
 						</p>
 					</div>
 				</div>
+			  
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/P.24-2.png" />
 						<p class="st2">
-						  Sold separately
+						  Standard accessory
 						</p>
 					</div>
 				</div>
@@ -354,7 +355,8 @@
 						<h5>PREMIUM CABLE</h5>
 						<img src="../images/video-telematics/Premium_Cable_20230524.png" />
 						<p class="st2">
-							Standard accessory
+							
+							Sold separately
 						</p>
 					</div>
 				</div>	
@@ -365,11 +367,10 @@
 						<h5>CABLE CAP</h5>
 						<img src="../images/video-telematics/P.24-5.png" />
 						<p class="st2">
-						  Standard accessory
+						  Sold separately
 						</p>
 					</div>
 				</div>
-				
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PANIC BUTTON</h5>
@@ -379,6 +380,7 @@
 						</p>
 					</div>
 				</div>
+				
 			</div>
 					<div class="pdt_btn tc">
 						<a href="../Downloads/202301/CDR_Accessory_brochure_20221031.pdf"   class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>

@@ -100,7 +100,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230601.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
+						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230609.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>一體式7路攝影聯網行車紀錄器</p>
+						<p>一體式7路攝影聯網行車記錄器</p>
 					</div>
 					<ul>
 						<li>最高支援同時7路錄影</li>
@@ -285,7 +285,7 @@
 						<tr>
 							<th class="label">Dimensions</th>
 							<td class="data">124 x 88.6 x 72mm ( 4.88 x 3.48 x 2.8'')</td>
-							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'</td>
+							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'')</td>
 						</tr>
 					</tbody>
 				</table>
@@ -312,7 +312,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.26-5.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -321,7 +321,7 @@
 						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.26-6.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -330,7 +330,7 @@
 						<h5>改良式供電車載資料傳輸接頭</h5>
 						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -341,16 +341,16 @@
 						<h5>遠端手動錄影觸發按鈕</h5>
 						<img src="../images/connected_dashcam/pdt/P.27-1.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>電源線 (含ACC訊號)</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-2.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Entry_cable.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -369,9 +369,9 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>全功能線 (含所有功能訊號與電源) </h5>
-						<img src="../images/connected_dashcam/pdt/Premium_Cable_20230524.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Preminum_new.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>
@@ -380,7 +380,7 @@
 						<h5>集線套</h5>
 						<img src="../images/connected_dashcam/pdt/P.26-4.png" />
 						<p class="st2">
-							可單獨販售
+							需另外購買
 						</p>
 					</div>
 				</div>

@@ -335,17 +335,17 @@
 			<div class="row">
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>PANIC BUTTON</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
+						<h5>OBD Power Cable</h5>
+						<img src="../images/connected_dashcam/pdt/K145C_OBD_power_power.png" />
 						<p class="st2">
-							Sold separately
+						  Standard accessory
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/145_Entry_cable.png" />
+						<img src="../images/connected_dashcam/pdt/K145C_Entry_cable.png" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -354,7 +354,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PREMIUM CABLE</h5>
-						<img src="../images/video-telematics/Premium_Cable_new.png" />
+						<img src="../images/connected_dashcam/pdt/K245C_Preminum.png" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -365,7 +365,16 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>CABLE CAP</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-5.png" />
+						<img src="../images/connected_dashcam/pdt/K145C_cable_cap.png" />
+						<p class="st2">
+							Sold separately
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>PANIC BUTTON</h5>
+						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
 						<p class="st2">
 							Sold separately
 						</p>

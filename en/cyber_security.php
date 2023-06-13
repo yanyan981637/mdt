@@ -6,11 +6,16 @@
 	<div class="section pgHero policyPage" >	
 		<div class="hero-center-wrap z-bigger">
 			<div class="container hero-text big-text text-center">
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-12 mg-auto">	
-						<h1 class="mb-xl-5 FC_mdtB">Cyber Security</h1>
+						<h1 class="mb-xl-5 FC_mdtB mt-70" >Cyber Security</h1>
 					</div>	
-				</div>		
+				</div>		 -->
+				<div class="row">
+            <div class="align-self-center col-md-12 mt-90">	
+              <h1 class="mb-xl-5 FC_mdtB" >Cyber Security</h1>
+            </div>	
+          </div>	
 			</div>			
 		</div>	
 	</div>

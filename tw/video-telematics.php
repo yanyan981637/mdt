@@ -62,7 +62,7 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>一體式7路攝影聯網行車紀錄器</p>
+						<p>一體式7路攝影聯網行車記錄器</p>
 					</div>
 					<ul>
 						<li>最高支援同時7路錄影</li>

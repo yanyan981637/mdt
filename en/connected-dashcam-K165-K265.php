@@ -100,7 +100,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230601.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230609.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -284,7 +284,7 @@
 						<tr>
 							<th class="label">Dimensions</th>
 							<td class="data">124 x 88.6 x 72mm ( 4.88 x 3.48 x 2.8'')</td>
-							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'</td>
+							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'')</td>
 						</tr>
 					</tbody>
 				</table>
@@ -347,7 +347,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/145_Entry_cable.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Entry_cable.png" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -368,7 +368,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PREMIUM CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/Premium_Cable_20230524.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Preminum_new.png" />
 						<p class="st2">
 							Sold separately
 						</p>

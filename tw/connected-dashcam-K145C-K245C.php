@@ -337,17 +337,17 @@
 			<div class="row">
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>遠端手動錄影觸發按鈕</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
+						<h5>OBD電源供應線</h5>
+						<img src="../images/connected_dashcam/pdt/K145C_OBD_power_power.png" />
 						<p class="st2">
-							需另外購買
+						  標準配件
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>電源線 (含ACC訊號)</h5>
-						<img src="../images/connected_dashcam/pdt/145_Entry_cable.png" />
+						<img src="../images/connected_dashcam/pdt/K145C_Entry_cable.png" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -356,7 +356,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>全功能線 (含所有功能訊號與電源)</h5>
-						<img src="../images/video-telematics/Premium_Cable_20230524.png" />
+						<img src="../images/connected_dashcam/pdt/K245C_Preminum.png" />
 						<p class="st2">
 						  需另外購買
 						</p>
@@ -367,7 +367,16 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>集線套</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-5.png" />
+						<img src="../images/connected_dashcam/pdt/K145C_cable_cap.png" />
+						<p class="st2">
+							需另外購買
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 align-items-stretch tc">	
+					<div class="accsBox">	
+						<h5>遠端手動錄影觸發按鈕</h5>
+						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
 						<p class="st2">
 							需另外購買
 						</p>
