@@ -23,19 +23,20 @@ a svg {
   color: #313139;
 }
 .btn-youtube {
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  color: #1034a5;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .btn-youtube:focus{
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  color: #1034a5;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
 }
 .btn-youtube:hover{
-  background: #1034a5;
-  border: 1px solid #1034a5;
+  background-color: #62dcff;
+  border: 3px solid #62dcff;
   color: #ffffff;
 }
 .absolute.btn-youtube{
