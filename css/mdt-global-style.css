@@ -553,6 +553,12 @@ a svg {
 .mid-height-incNav#dshcam-recorder-banner{
   height: 350px;
 }
+@media (min-width: 1367px) {
+  .mid-height-incNav#kiosk_banner,
+  .mid-height-incNav#dshcam-recorder-banner{
+    height: 450px;
+  }
+}
 .mid-height-incNav#kiosk_banner h1,
 .mid-height-incNav#kiosk_banner h3.h4,
 .mid-height-incNav#dshcam-recorder-banner h1,
