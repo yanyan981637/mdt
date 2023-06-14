@@ -290,6 +290,10 @@
 							<td class="data">124 x 88.6 x 72mm ( 4.88 x 3.48 x 2.8'')</td>
 							<td class="data">124 x 88.6 x 101mm ( 4.88 x 3.48 x 3.97'')</td>
 						</tr>
+						<tr>
+							<th class="label">Remark</th>
+							<td class="data tc" colspan="2">*Region Dependent, **Optional</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
