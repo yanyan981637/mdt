@@ -80,7 +80,7 @@
 					<img src="../images/smart_telematics_solution/VT-Solution-banner2.jpg" alt="Get The full picture of your vehicles" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 content">
-						<h3>VisionMax™  Core Value</h3>
+						<h3>VisionMax<sup>&trade;</sup>  Core Value</h3>
 						<ul class="section text-left">
               <li>Driving Safety</li>
               <li>Incident Prevention</li>
@@ -181,7 +181,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 tc pt-60 pb-60 border-top-bottom">
-				  <h3 class="mb-40">VisionMax™ Supported Devices</h3>
+				  <h3 class="mb-40">VisionMax<sup>&trade;</sup> Supported Devices</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div>
 						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
@@ -289,7 +289,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>K245(Dual cam)/K145(Single cam)</h5>
-								<p>The Best Choice with Carrier Certifications</p>
+								<p>Exquisite Appearance Model</p>
 								<a href="/Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -337,7 +337,7 @@
 				<div class="col-12 mt-60" id="dms_cdr">
 					<h4>
 						<span class="img_icon">2</span>
-						<span class="h5 h5_color">DMS CDR</span>
+						<span class="h5 h5_color">DMS Camera</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -345,8 +345,8 @@
 								<img src="../images/smart_telematics_solution/i15_i25_200x200.png" class="img-fluid rounded" alt="I15">
 							</div>
 							<div class="product_desc">
-								<h5>I15</h5>
-								<p>DMS cam</p>
+								<h5>i15</h5>
+								<p>DMS Camera</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -369,8 +369,8 @@
 								<img class="img-fluid rounded" src="../images/smart_telematics_solution/i15_i25_200x200.png" alt="I25">
 							</div>
 							<div class="product_desc">
-								<h5>I25</h5>
-								<p>in cabin cam</p>
+								<h5>i25</h5>
+								<p>DMS Camera</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -394,7 +394,7 @@
 				<div class="col-12 mt-60" id="rear_cam">
 					<h4>
 						<span class="img_icon">3</span>
-						<span class="h5 h5_color">Rear Cam</span>
+						<span class="h5 h5_color">Inner Camera</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -403,7 +403,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>A50</h5>
-								<p>inner cam</p>
+								<p>Inner Camera</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -427,7 +427,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>A60</h5>
-								<p>inner cam</p>
+								<p>Inner Camera</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -451,7 +451,7 @@
 				<div class="col-12 mt-60" id="side_cam">
 					<h4>
 						<span class="img_icon">4</span>
-						<span class="h5 h5_color">Side cam</span>
+						<span class="h5 h5_color">Side Camera</span>
 					</h4>
 					<div class="row product_info">
 						<div class="col-md-6 d-flex align-items-center mt-30">
@@ -493,7 +493,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>SmartGO</h5>
-								<p> TVI, IP69K, AI embedded, 720p</p>
+								<p> CAN Decoder, Power Supply for Connected Camera</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
@@ -517,7 +517,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>Panic button</h5>
-								<p>WiFi 5GHz, IP rated</p>
+								<p> Remote Panic Button</p>
 								<a href="/Downloads/202301/CDR_Accessory_brochure_20221031.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>

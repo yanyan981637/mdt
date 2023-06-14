@@ -335,7 +335,7 @@
 			<div class="row">
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>OBD Power Cable</h5>
+						<h5>OBD POWER CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/K145C_OBD_power_power.png" />
 						<p class="st2">
 						  Standard accessory
