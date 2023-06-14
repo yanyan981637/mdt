@@ -119,7 +119,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">Dashcam PC Tool - MiVue<sup>&trade;</sup>  Manager</h2>
+				  <h3 class="h3">Dashcam PC Tool - MiVue<sup>&trade;</sup>  Manager</h3>
 					<h5>Convenient PC tool for clips review and management</h5>
 					<p>Using MiVue<sup>&trade;</sup> Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
 				</div>
@@ -197,7 +197,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">Connected Dashcam App - MioNext<sup>&trade;</sup> </h2>
+				  <h3 class="h3">Connected Dashcam App - MioNext<sup>&trade;</sup> </h3>
 					<h5>Smart Parking Guard - your smart anti-theft guard</h5>
 					<p>Together with the MiTAC connected dashcam, the MioNext<sup>&trade;</sup> App allows for real-time remote monitoring of your vehicle while driving or parked, providing unparalleled protection for you and your vehicle.</p>
 				</div>
@@ -275,7 +275,7 @@
 		<div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">Cyclo PC Tool & App – MioShare<sup>&trade;</sup> </h2>
+				<h3 class="h3">Cyclo PC Tool & App – MioShare<sup>&trade;</sup> </h3>
 					<h5>Easily find routes and view history records on smartphone</h5>
 					<p>With the MioShare<sup>&trade;</sup> web tool & app, you can easily connect MiTAC Cyclo device to multiple route planning services, find routes by selecting the month and activity type, and view historical records on your smartphone.</p>
 				</div>

@@ -120,7 +120,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">平板應用程式- MiLock<sup>&trade;</sup></h2>
+				<h3 class="h3">平板應用程式- MiLock<sup>&trade;</sup></h3>
 					<h5>將設備轉換為單一應用程式 Kiosk模式</h5>
 					<p>MiLock<sup>&trade;</sup> 是由 神達數位 開發的專有 Kiosk 模式應用程式。它取代了預設的 Android<sup>&trade;</sup> Launcher 應用程式，並可增加員工生產力和設備可用性。使用 MiLock<sup>&trade;</sup>，可將特定使用者權限限制為“kiosk-mode”中的單個應用程式，或是一組經過核准後應用程式。他能取代傳統的主介面, 適用於車隊管理、餐桌點餐、倉儲、物流等應用領域。</p>
 				</div>

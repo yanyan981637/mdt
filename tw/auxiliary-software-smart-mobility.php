@@ -120,7 +120,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h2 class="h3">行車記錄器電腦工具 - MiVue<sup>&trade;</sup> Manager </h2>
+				  <h3 class="h3">行車記錄器電腦工具 - MiVue<sup>&trade;</sup> Manager </h3>
 					<h5>方便影片觀看與管理的電腦工具</h5>
 					<p>利用MiVue<sup>&trade;</sup> Manager觀看神達數位行車紀錄器所拍攝的影片與圖片，前/後鏡頭所拍攝的影片可以同時匯入，操作簡單方便，也能追蹤行車軌跡、以及將影片分享到社群或影音平台。</p>
 				</div>
@@ -199,7 +199,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">聯網型行車記錄器應用程式 - MioNext<sup>&trade;</sup></h2>
+				<h3 class="h3">聯網型行車記錄器應用程式 - MioNext<sup>&trade;</sup></h3>
 					<h5>智慧停車保全 - 智慧防盜保全</h5>
 					<p>神達數位 Mio MiSentry 聯網行車記錄器和 MioNext<sup>&trade;</sup> 應用程式實現了行車和停車時的即時遠程監控，為您和您的車輛提供無與倫比的保護。</p>
 				</div>
@@ -278,7 +278,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h2 class="h3">自行車導航電腦工具&應用程式 – MioShare<sup>&trade;</sup></h2>
+				<h3 class="h3">自行車導航電腦工具&應用程式 – MioShare<sup>&trade;</sup></h3>
 					<h5>輕鬆在智慧手機上尋找路線並查看歷史記錄</h5>
 					<p>透過 MioShare<sup>&trade;</sup> 您可以輕鬆將您的Cyclo裝置連接至多個路線規劃服務，透過選擇月份和活動類型查找路線，並在您的智慧型手機上查看歷史紀錄。</p>
 				</div>
