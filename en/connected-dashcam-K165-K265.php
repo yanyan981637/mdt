@@ -163,17 +163,20 @@
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_01.png" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_01.png" class="img-fluid mx-auto rounded d-none d-md-block" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_m_01.png" class="img-fluid mx-auto rounded d-block d-md-none" />
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_02.png" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" />
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_03.png" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" />
 					</div>
 				</div>
 			</div>

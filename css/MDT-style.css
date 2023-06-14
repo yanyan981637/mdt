@@ -8349,8 +8349,8 @@ input[type=number]::-webkit-outer-spin-button{
 } */
 .section.productDetail img{max-width: 100%;}
 .section.productDetail .pdt_img img{
-    width: 100%;
-	padding: 25px;
+    /* width: 100%; */
+	/* padding: 25px; */
 }
 .section.productDetail .pdt_img .swiper-slide img{
 	max-width: 390px;
