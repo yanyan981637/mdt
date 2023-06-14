@@ -79,7 +79,7 @@
 					<img src="../images/smart_telematics_solution/VT-Solution-banner2_ch.jpg" alt="多路即時錄影" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 content">
-						<h3>VisionMax™  核心價值</h3>
+						<h3>VisionMax<sup>&trade;</sup>  核心價值</h3>
 						<ul class="section text-left">
               <li>駕駛安全</li> 
               <li>事故預防</li> 
@@ -183,7 +183,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 tc pt-60 pb-60 border-top-bottom">
-				  <h3 class="mb-40">可支援VisionMax™相關設備</h3>
+				  <h3 class="mb-40">可支援VisionMax<sup>&trade;</sup>相關設備</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div>
 						<img src="../images/smart_telematics_solution/product-info_ch.png" class_alias="d-lg-block"  alt="" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
