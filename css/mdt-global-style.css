@@ -27,6 +27,12 @@ a svg {
   border: 1px solid #ffffff;
   color: #1034a5;
 }
+
+.btn-youtube:focus{
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #1034a5;
+}
 .btn-youtube:hover{
   background: #1034a5;
   border: 1px solid #1034a5;
