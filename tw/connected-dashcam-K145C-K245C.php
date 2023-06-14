@@ -340,7 +340,7 @@
 						<h5>OBD電源供應線</h5>
 						<img src="../images/connected_dashcam/pdt/K145C_OBD_power_power.png" />
 						<p class="st2">
-						  標準配件
+						需另外購買
 						</p>
 					</div>
 				</div>
@@ -349,7 +349,7 @@
 						<h5>電源線 (含ACC訊號)</h5>
 						<img src="../images/connected_dashcam/pdt/K145C_Entry_cable.png" />
 						<p class="st2">
-							需另外購買
+							標準配件
 						</p>
 					</div>
 				</div>

@@ -338,7 +338,7 @@
 						<h5>OBD POWER CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/K145C_OBD_power_power.png" />
 						<p class="st2">
-						  Standard accessory
+						Sold separately
 						</p>
 					</div>
 				</div>
@@ -347,7 +347,7 @@
 						<h5>ENTRY CABLE</h5>
 						<img src="../images/connected_dashcam/pdt/K145C_Entry_cable.png" />
 						<p class="st2">
-							Sold separately
+							Standard accessory
 						</p>
 					</div>
 				</div>

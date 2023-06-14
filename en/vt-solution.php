@@ -180,7 +180,7 @@
 	<div class="section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 tc pt-60 pb-60 border-top-bottom">
+				<div class="col-md-12 tc pt-60 pb-60 border-top-bottom mt-60">
 				  <h3 class="mb-40">VisionMax<sup>&trade;</sup> Supported Devices</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div>
