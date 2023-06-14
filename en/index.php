@@ -155,7 +155,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="imgHolder"><img src="../images/home_capability3.jpg" alt="MDT's products are produced in a 1,790, 000 square-foot manufacturing facility in Kunshan, China featuring automated production, a rigorous management system and international certifications including ISO 9001, ISO 14001 and IATF16949. "/></div>
+								<div class="imgHolder"><img src="../images/home_capability3_new_20230614.jpg" alt="MDT's products are produced in a 1,790, 000 square-foot manufacturing facility in Kunshan, China featuring automated production, a rigorous management system and international certifications including ISO 9001, ISO 14001 and IATF16949. "/></div>
 								<div class="contentHolder_home" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
 									<h3 class="FC_mdtB2 mb-30">Manufacturing Excellence</h3>
 									<p>MDT’s 1,790,000-square-foot manufacturing site in China is certified to ISO 9001, ISO14001, IHSAS18000,IATF16949, ISO13485, and GMP standards.</p>

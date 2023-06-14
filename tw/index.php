@@ -162,7 +162,7 @@
 							</div>
 						</li>
 						<li>
-							<div class="imgHolder"><img src="../images/home_capability3.jpg" alt="神達數位生產工廠位於華東地區，配備自動化生產設備，與嚴謹的管理系統，並擁有多項國際ISO認證" /></div>
+							<div class="imgHolder"><img src="../images/home_capability3_new_20230614.jpg" alt="神達數位生產工廠位於華東地區，配備自動化生產設備，與嚴謹的管理系統，並擁有多項國際ISO認證" /></div>
 							<div class="contentHolder_home" data-0="margin-top: 0px;" data-350="margin-top: -50px;"
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">生產製造</h3>
