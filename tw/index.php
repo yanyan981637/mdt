@@ -9,7 +9,8 @@
 	<!-- home -->
 	<div class="section mt-85">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ppfIsR6fDqI?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0"></iframe>
+			<a class="btn btn-lg btn-round btn-youtube absolute" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
+			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 			<script src="https://www.youtube.com/iframe_api"></script>
 			<script>
 				var player;

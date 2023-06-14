@@ -13,6 +13,7 @@ a svg {
   vertical-align: middle;
 }
 
+/* button */
 .btn-blue1,.btn-blue1:focus {
   background-color: #1034a5;
   color: #ffffff;
@@ -21,6 +22,29 @@ a svg {
   background-color: #62dcff;
   color: #313139;
 }
+.btn-youtube {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #1034a5;
+}
+.btn-youtube:hover{
+  background: #1034a5;
+  border: 1px solid #1034a5;
+  color: #ffffff;
+}
+.absolute.btn-youtube{
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* button end */
 
 .max-850 {
   max-width: 850px;
