@@ -47,7 +47,7 @@
 
 	<div class="section productDetail background-white mt-90">
 		<div class="container">
-			<div class="row">
+			<div class="row pt-30">
 				<div class="col-md-6">	
 					<div class="pdt_img">
 

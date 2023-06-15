@@ -3135,7 +3135,7 @@ figure.vimeo a img, figure.youtube a img {
 	list-style: none;
 }
 .list-style.footAddr{/*margin-left: 25px;*/}
-.list-style.footAddr li{font-size:12px;}
+.list-style.footAddr li{font-size:13px;}
 .list-style li:first-child{
 	margin-top: 0;
 }
@@ -8211,7 +8211,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 .footer-1 .scd-foot a{
 	color:#999999;
-	font-size: 12px;
+	font-size: 12.5px;
 }
 .footer-1 .scd-foot p{
 	letter-spacing: 0.5px;
@@ -8390,6 +8390,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 .section.productDetail .product-specs-table h5{
 	color:#1034a5;
+	margin: 0;
 }
 .section.productDetail .product-specs-table table th,
 .section.productDetail .product-specs-table table td{

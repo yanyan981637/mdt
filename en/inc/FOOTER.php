@@ -67,7 +67,7 @@
 		<div class="container">
 			<div class="row fItem">
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>Product&Solution</h6>
+					<h6>Product & Solution</h6>
 					<ul class="list-style">
 						<li><a href="./dashcam-recorder.php" target="_bank">Smart Mobility</a></li>
 						<li><a href="./video-telematics.php">Smart Telematics</a></li>

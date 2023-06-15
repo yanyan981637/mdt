@@ -67,7 +67,7 @@
 		<div class="container">
 			<div class="row fItem">
 			  <div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>產品&解決方案</h6>
+					<h6>產品 & 解決方案</h6>
 					<ul class="list-style">
 						<li><a href="./dashcam-recorder.php">智慧交通</a></li>
 						<li><a href="./video-telematics.php">智慧車載資通訊</a></li>

@@ -41,7 +41,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				<h3 class="h3">Dashcam App - MiVue<sup>&trade;</sup>  Pro</h3>
+				<h3 class="h3">Dashcam App - MiVue<sup>&trade;</sup> Pro</h3>
 					<h5>WIFI connectivity – for fast, cable-free transfers</h5>
 					<p>MiVue<sup>&trade;</sup> Pro App is MiTAC's exclusive patented app, which not only has the incident video backup function, but also adds additional features to enhance the user experience, including the ability to view and correct camera angle in real-time, format memory card through the mobile phone, and update firmware.</p>
 				</div>
@@ -119,7 +119,7 @@
 	  <div class="container padding-top-bottom background-white">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-				  <h3 class="h3">Dashcam PC Tool - MiVue<sup>&trade;</sup>  Manager</h3>
+				  <h3 class="h3">Dashcam PC Tool - MiVue<sup>&trade;</sup> Manager</h3>
 					<h5>Convenient PC tool for clips review and management</h5>
 					<p>Using MiVue<sup>&trade;</sup> Manager, a PC tool for reviewing and managing clips, you can capture videos and photos taken by your MiTAC dashcam. You can also import videos from both the front and rear cameras simultaneously. The interface is simple and user-friendly, allowing you to easily track your driving route and share your videos on social media or video platforms.</p>
 				</div>
