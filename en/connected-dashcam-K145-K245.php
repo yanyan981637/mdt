@@ -110,7 +110,7 @@
 						<h2 class="FC_mdtB">K145/K245</h2>
 						<p>Exquisite Appearance Model</p>
 					</div>
-					<ul>
+					<ul class="mt_2">
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>

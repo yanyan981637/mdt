@@ -103,7 +103,7 @@
 						<h2 class="FC_mdtB">K220</h2>
 						<p>經濟實惠的選擇</p>
 					</div>
-					<ul>
+					<ul class="mt_2">
 						<li>4G LTE 聯網</li>
 						<li>資料同步儲存於本機SD 卡和雲端</li>
 						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>

@@ -110,7 +110,7 @@
 						<h2 class="FC_mdtB">K165/K265</h2>
 						<p>一體式7路攝影聯網行車記錄器</p>
 					</div>
-					<ul>
+					<ul class="mt_2">
 						<li>最高支援同時7路錄影</li>
 						<li>4G LTE聯網</li>
 						<li>高存儲容量 (最高支援共2TB存儲空間)</li>

@@ -108,7 +108,7 @@
 						<h2 class="FC_mdtB">K145C/K245C</h2>
 						<p>電信商認證的最佳選擇方案</p>
 					</div>
-					<ul>
+					<ul class="mt_2">
 						<li>4G LTE 聯網</li>
 						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra等電信商與AWS認證</li>
 						<li>資料同步儲存於本機SD卡和雲端</li>

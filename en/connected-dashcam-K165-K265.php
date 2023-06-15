@@ -110,7 +110,7 @@
 						<h2 class="FC_mdtB">K165/K265</h2>
 						<p>Non-box Type 7-channel MDVR</p>
 					</div>
-					<ul>
+					<ul class="mt_2">
 						<li>One device supports up to 7 channels of video recording</li>
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>High storage capacity (up to 2TB with dual Micro SD)</li>

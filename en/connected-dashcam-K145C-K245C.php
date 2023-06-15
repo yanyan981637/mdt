@@ -109,7 +109,7 @@
 						<h2 class="FC_mdtB">K145C/K245C</h2>
 						<p>The Best Choice with Carrier Certifications</p>
 					</div>
-					<ul>
+					<ul class="mt_2">
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
