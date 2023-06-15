@@ -41,7 +41,7 @@ h6, .h6{font-size: 1.3rem; line-height: 1.4; font-weight: 400;}
 	font-weight: 400;
 }
 p,.p,tr,td{font-size: 1.4rem; line-height: 1.5; font-weight: 400;}
-p:lang(zh-Hant-TW),.p:lang(zh-Hant-TW),tr:lang(zh-Hant-TW),td:lang(zh-Hant-TW){font-size: 1.25rem; line-height: 1.7; font-weight: 400;}
+/* p:lang(zh-Hant-TW),.p:lang(zh-Hant-TW),tr:lang(zh-Hant-TW),td:lang(zh-Hant-TW){font-size: 1.25rem; line-height: 1.7; font-weight: 400;} */
 li{font-size: 1.3rem; line-height: 1.5; font-weight: 400;}
 .inline{display: inline !important;}
 .pr-30{padding-right: 30px;}
