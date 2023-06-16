@@ -213,6 +213,9 @@ text-decoration: underline;
   .product-nav ul li:not(:last-child){
     border-bottom: 1px solid #bbb;
   }
+  .ProdcuctNavPlaceholder, .product-nav {
+    display: none!important;
+  }
 }
 @media (min-width: 992px) {
   .product-nav li {
