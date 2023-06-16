@@ -61,7 +61,7 @@
 									</div>
 
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K245_W.png" />
+										<img src="../images/connected_dashcam/pdt/K245_W.jpg" />
 									</div>
 							</div>
 							<!-- Add Arrows -->

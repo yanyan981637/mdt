@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">	
 					<div class="call-box-4">
-					<p>神達數位的聯網行車記錄器系列產品提供功能強大的車隊聯網視訊解決方案，協助車隊經理更有效率地處理遠程視訊信息。搭載 Qualcomm<sup>&reg;</sup> 強大的處理器和 Android<sup>&trade;</sup> 平台，以及豐富的API和SDK，我們的產品能與前台裝置和後台雲端高度彈性靈活整合，為客戶提供高度整合性的解決方案。</p>
+					<p>神達數位的聯網型行車記錄器系列產品提供功能強大的車隊聯網視訊解決方案，協助車隊經理更有效率地處理遠程視訊信息。搭載 Qualcomm<sup>&reg;</sup> 強大的處理器和 Android<sup>&trade;</sup> 平台，以及豐富的API和SDK，我們的產品能與前台裝置和後台雲端高度彈性靈活整合，為客戶提供高度整合性的解決方案。</p>
 					</div>
 				</div>
 			</div>	
@@ -62,7 +62,7 @@
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
 						<h2 class="FC_mdtB">K165/K265</h2>
-						<p>一體式7路攝影聯網行車記錄器</p>
+						<p>一體式7路攝影聯網型行車記錄器</p>
 					</div>
 					<ul>
 						<li>最高支援同時7路錄影</li>

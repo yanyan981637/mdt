@@ -79,13 +79,13 @@
 					<img src="../images/smart_telematics_solution/VT-Solution-banner2_ch.jpg" alt="多路即時錄影" class="img-fluid rounded mx-auto d-block">
 				</div>	
 				<div class="col-md-6 content">
-						<h3>VisionMax<sup>&trade;</sup>  核心價值</h3>
+						<h3>VisionMax<sup>&trade;</sup> 核心價值</h3>
 						<ul class="section text-left">
               <li>駕駛安全</li> 
               <li>事故預防</li> 
               <li>事故調查</li> 
               <li>隱私與數據安全</li>
-              <li>確保網絡安全</li>
+              <li>確保網路安全</li>
 						</ul>
 				</div>
 			</div>	
@@ -244,7 +244,7 @@
 							</div>
 							<div class="product_desc">
 								<h5>K265(雙鏡頭)/K165(單鏡頭)</h5>
-								<p>一體式7路攝影聯網行車記錄器</p>
+								<p>一體式7路攝影聯網型行車記錄器</p>
 								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230609.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
