@@ -9,16 +9,16 @@
 	<!-- Hero Block
 	================================================== -->
 
-  <div class="section mid-height-incNav over-hide" id="kiosk_banner">	
+  <div class="section mid-height-incNav over-hide">	
 		<div class="parallax" style="background-image: url('../images/kiosk/Kiosk-banner.jpg')"></div>
     <div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
-					<div class="col-md-7 align-self-center">	
+					<div class="col-md-8 align-self-center">	
 						<h1 class="color-white">Self-Service Kiosk</h1>
             <h3 class="h4">Take your business to the next level</h3>
 					</div>	
-          <div class="col-md-4 offset-md-1 align-self-center">
+          <div class="col-md-4 align-self-center">
             <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="">
           </div>
 				</div>		

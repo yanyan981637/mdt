@@ -12,10 +12,10 @@
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
-          <div class="col-md-5 align-self-center order-2 order-md-1">
+          <div class="col-md-4 align-self-center order-2 order-md-1">
             <img class="img-fluid mx-auto d-block rounded" src="../images/motobike_smart_cam/Motobike-Smart-Cam-banner-product.png" alt="">
           </div>
-					<div class="col-md-7 align-self-center order-1 order-md-2">	
+					<div class="col-md-8 align-self-center order-1 order-md-2">	
 						<h1 class="color-white">機車行車記錄器</h1>
             <h3 class="h4">騎行中不會錯過任何重要時刻</h3>
 					</div>	

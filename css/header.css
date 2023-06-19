@@ -154,7 +154,7 @@
   }
   #menu-wrap .navbar-collapse ul li a.active,
   #menu-wrap .navbar-collapse ul li.open > a {
-    color: #62dcff;
+    color: #00519c;
   }
   /* 菜单按钮 */
   #menu-wrap button.navbar-toggle {
@@ -409,9 +409,9 @@
     transition: all var(--var-animate-time) linear;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu > .second_menu > li > a.active {
-    background-color: #1034a5;
+    background-color: #00519c;
     border-radius: 6px;
-    border: 1px solid #1034a5;
+    border: 1px solid #00519c;
     color: #ffffff;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open > .second_menu {
@@ -461,8 +461,8 @@
     padding: 0.4em 0;
   } */
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel > .second_menu > li > .third_menu > li > a.active {
-    background-color: #1034a5;
-    border-color: #1034a5;
+    background-color: #00519c;
+    border-color: #00519c;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel > .second_menu > li > .third_menu > li > a:hover {
     background-color: #313139;

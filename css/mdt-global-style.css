@@ -550,22 +550,29 @@ a svg {
 #mioshare h3{
   font-weight: 700;
 }
-.mid-height-incNav#kiosk_banner,
-.mid-height-incNav#dshcam-recorder-banner{
-  height: 350px;
+.mid-height-incNav{
+  margin-top: 85px;
+  height: 500px;
+}
+@media (min-width: 768px) {
+  .mid-height-incNav{
+    height: 350px;
+  }
 }
 @media (min-width: 1367px) {
-  .mid-height-incNav#kiosk_banner,
-  .mid-height-incNav#dshcam-recorder-banner{
+  .mid-height-incNav{
     height: 450px;
   }
 }
-.mid-height-incNav#kiosk_banner h1,
-.mid-height-incNav#kiosk_banner h3.h4,
-.mid-height-incNav#dshcam-recorder-banner h1,
-.mid-height-incNav#dshcam-recorder-banner h3.h4{
+.mid-height-incNav h1{
   font-weight: 650;
 }
-.second-bannner h2, .second-bannner h4{
+.mid-height-incNav h3.h4{
+  font-weight: 550;
+}
+.second-bannner h2{
   font-weight: 600;
+}
+.second-bannner h4{
+  font-weight: 500;
 }
