@@ -14,15 +14,6 @@ text-decoration: none;
 /* .embed-responsive video{
   height: 600px !important;
 } */
-.embed-responsive-16by9::before {
-  padding-top: 40%;
-}
-
-@media (max-width: 767px) {
-  .embed-responsive-16by9::before {
-    padding-top: 50%;
-  }
-}
 
 .btn-primary:focus{
   color: #ffffff;

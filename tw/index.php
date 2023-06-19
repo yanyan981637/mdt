@@ -8,33 +8,118 @@
 
 	<!-- home -->
 	<div class="section mt-85">
-		<div class="embed-responsive embed-responsive-16by9">
-			<a class="btn btn-lg btn-round btn-youtube absolute" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
-			<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-			<script src="https://www.youtube.com/iframe_api"></script>
-			<script>
-				var player;
+	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
+					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        </div>
+      </div>
+      <!-- <div class="swiper-button-next swiper-button-white"></div>
+    	<div class="swiper-button-prev swiper-button-white"></div>
+      <div class="swiper-pagination"></div> -->
+    </div>
+  </div>
+	</div>
 
-				function onYouTubeIframeAPIReady() {
-						player = new YT.Player('ytplayer', {
+
+<script>
+
+	var youtube_prefix = 'slide_youtubr_'
+  var tag = document.createElement('script');
+
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player_list = {}
+
+  function onPlayerReady(event) {
+    // console.log('ready')
+    // console.log(event)
+    var iframe_el = $('#' + event.target.g.id)
+
+    event.target.mute();
+
+    if (iframe_el.parent().hasClass('swiper-slide-active')) {
+      event.target.playVideo();
+    }else {
+      event.target.stopVideo();
+    }
+  }
+  function onPlayerStateChange(event) {
+
+		if(event.data === 0) {
+			event.target.seekTo(0).playVideo();
+		}
+  }
+
+
+  function stopAllvideo(){
+    for (var play_key in player_list) {
+      if (player_list[play_key]){
+        player_list[play_key].stopVideo()
+      }
+    }
+  }
+
+  var swiper;
+
+  swiper = new Swiper(".mySwiper", {
+    centeredSlides: true,
+		// autoplay: {
+		// 	delay: 10000,
+    //   pauseOnMouseEnter: true,
+    //   disableOnInteraction: false,
+		// },
+    autoplay: false,
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+    // loop: true,
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+    on: {
+      init: function(swiper) {
+				var __that = this;
+				window.onYouTubeIframeAPIReady =function() {
+					$(__that.slides).each(function(silde_i, silde) {
+						$(silde).find('iframe').each(function(){
+							var new_id = youtube_prefix + silde_i;
+							$(this).attr('id', new_id)
+							player_list[new_id] = new YT.Player(new_id, {
 								events: {
-										'onReady': onPlayerReady,
-										'onStateChange': onPlayerStateChange
+									'onReady': onPlayerReady,
+									'onStateChange': onPlayerStateChange
 								}
-						});
+							})
+						})
+					})
 				}
-				function onPlayerReady(event) {
-						player.mute();
-						player.playVideo();
+      },
+      slideChange: function() {
+        stopAllvideo();
+				console.log(this.activeIndex)
+				if(player_list[youtube_prefix + this.activeIndex]) {
+					player_list[youtube_prefix + this.activeIndex].playVideo()
 				}
-				function onPlayerStateChange(event){
-					if(event.data === 0) {
-						player.playVideo();
-					}
-				}
-			</script>
-		</div>
-</div>
+      }
+    }
+  });
+
+
+  // $(swiper.$el).on('mouseenter', function(){
+  //   swiper.autoplay.stop()
+  // })
+  // $(swiper.$el).on('mouseleave', function(){
+  //   swiper.autoplay.start()
+  // })
+
+  </script>
 
 <div class="section padding-top-bottom background-white">
 	<div class="container">

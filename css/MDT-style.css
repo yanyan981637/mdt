@@ -68,11 +68,11 @@ a.lowl:hover{color:#888;}
 /*:lang(en) #page_global_operation h5{font-weight: 500;}*/
 
 .fix-slider{background: #000; height:1px;}
-.swiper-slide{
+/* .swiper-slide{
 	width:100% !important;
 	height:800px !important;
 	overflow: hidden;
-}
+} */
 .section.productDetail .pdt_img .swiper-slide{
 	height:auto !important;
 }
@@ -8859,10 +8859,7 @@ input[type=number]::-webkit-outer-spin-button{
 		.ContGen{font-size: 1.4rem;}
 		p,.p,tr,td{font-size: 1.3rem;}
 		li{font-size: 1.3rem;}
-		.swiper-slide{
-			height:656px !important;
-			overflow: hidden;
-		}
+
 		.swiper-slide .swiTxtArea{margin-top:50%;}
 		.slide-textWrap{top:30%;}
 		.recM .txt p{margin-bottom: 30px;}

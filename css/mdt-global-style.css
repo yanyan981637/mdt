@@ -22,34 +22,6 @@ a svg {
   background-color: #62dcff;
   color: #313139;
 }
-.btn-youtube {
-  background-color: transparent;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-.btn-youtube:focus{
-  background-color: transparent;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-}
-.btn-youtube:hover{
-  background-color: #62dcff;
-  border: 3px solid #62dcff;
-  color: #ffffff;
-}
-.absolute.btn-youtube{
-  position: absolute;
-  bottom: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  z-index: 2;
-}
 
 /* button end */
 
@@ -575,4 +547,82 @@ a svg {
 }
 .second-bannner h4{
   font-weight: 500;
+}
+
+/* 
+ homer slide
+*/
+.embed-responsive-16by9::before {
+  padding-top: 0
+}
+.embed-responsive-16by9 {
+  height: 40vw;
+  max-height: 100vh - 80px;
+}
+@media (max-width: 767px) {
+  .embed-responsive-16by9 {
+    height: 100vw;
+  }
+}
+
+#home-slide .swiper {
+ width: 100%;
+ height: 100%;
+}
+
+#home-slide .swiper-container-horizontal>.swiper-pagination-bullets {
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+#home-slide .swiper-pagination-bullet {
+  width: 60px;
+  height: 3px;
+  background: rgba(204,204,204,0.5);
+  border-radius: 0;
+}
+#home-slide .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgba(204,204,204,1);
+}
+
+.btn-youtube {
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-youtube:focus{
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+}
+.btn-youtube:hover{
+  background-color: #62dcff;
+  border: 3px solid #62dcff;
+  color: #ffffff;
+}
+.absolute.btn-youtube{
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+@media (max-width: 767px) {
+  #home-slide .swiper-pagination-bullet{
+    display: none;
+  }
+  .absolute.btn-youtube {
+    bottom: 55px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
 }
