@@ -231,10 +231,10 @@ a:focus{color: inherit;}
 .b{font-weight:bold;}
 .pricing .tit-H{height:110px;color:#313139;}
 .proj-nav-title span{
-	font-size:2.34rem;
+	font-size:1.8rem;
 	color: #313139;
 	margin: 20px;
-	line-height: 4.6rem;
+	line-height: 5.0rem;
 }
 .proj-nav-title span:hover{text-decoration:underline;}
 .pgHero{height:34vh;}
@@ -292,6 +292,9 @@ span.more{
 	color:#1034a5;
 	font-size: 1.3rem;
     display: block;
+}
+span.more a{
+	color: #00519c;
 }
 .productGrid .txtBox p.st3{
 	display: block;
@@ -8384,7 +8387,8 @@ input[type=number]::-webkit-outer-spin-button{
     border-bottom: 1px solid #eee;
 }
 .section.productDetail .product-specs-table h5{
-	color:#1034a5;
+	/* color:#1034a5; */
+	color: #00519c;
 	margin: 0;
 }
 .section.productDetail .product-specs-table table th,
@@ -8410,7 +8414,8 @@ input[type=number]::-webkit-outer-spin-button{
     margin-bottom: 40px;
 }
 .section.productDetail#pdt_accs h5{
-	color: #1034a5;
+	/* color: #1034a5; */
+	color: #00519c;
 	font-size: 1.4rem
 }
 .section.productDetail#pdt_accs p{
@@ -9163,7 +9168,10 @@ input[type=number]::-webkit-outer-spin-button{
 
 /*============================Bantang==============================*/
 a:hover{text-decoration:none;}
-.FC_mdtB{color:#1034a5!important;}
+.FC_mdtB{
+	/* color:#1034a5!important; */
+	color: #00519c !important;
+}
 .FC_mdtB2{color:#62dcff!important;}
 .FC_mdtG{color:#313139!important;}
 .FC_W{color:#fff!important;}
@@ -9568,7 +9576,10 @@ ul.csrDL{
 .radiusBox{border-radius:0.3rem;padding: 40px 22px;}
 .locateBox{background-color: #f0f0f0;margin: 20px 0 20px 0;border-radius:0.3rem;overflow: hidden;}
 .locateBox p{margin-left:25px;/*text-indent:-36px;*/}
-.locateBox h5{color:#1034a5; height: 36px;}
+.locateBox h5{
+	/* color:#1034a5; */
+	color: #00519c;
+	 height: 36px;}
 #map_office_Taoyuan, #map_office_KunShan, #map_office_Shanghai, #map_office_US, #map_office_Europe, #map_office_Poland, #map_office_Australia, #map_office_Moscow, 
 #map_factory_KunShan, #map_factory_ShunDe, #map_factory_HsinChu, #map_factory_US, 
 #map_partner_India{
