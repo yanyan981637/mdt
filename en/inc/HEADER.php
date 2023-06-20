@@ -213,7 +213,7 @@
 		<link href="../ext/slider_qm/owl.transitions.css" rel="stylesheet">
 		<link href="../ext/slider_qm/styles.css" rel="stylesheet" type="text/css">
 		<script src="../js/jquery-2.1.3.min.js"></script>
-		
+		<script src="../ext/swiper/js/swiper.min.js"></script>
 	<?php }elseif($Current_Menu_File_Name == 'milestone.php'){ ?>
 		<!--關<link rel="stylesheet" type="text/css" href="../ext/milestone/theme.769a946fc71b22e53bc1.css">
 		<link rel="stylesheet" type="text/css" href="../ext/milestone/vendor.466c156343eadc76902d.css">-->
