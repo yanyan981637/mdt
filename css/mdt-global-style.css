@@ -15,7 +15,8 @@ a svg {
 
 /* button */
 .btn-blue1,.btn-blue1:focus {
-  background-color: #1034a5;
+  /* background-color: #1034a5; */
+  background-color: #00519c;
   color: #ffffff;
 }
 .btn-blue1:hover {
@@ -193,7 +194,8 @@ a svg {
     -o-transform: scaleX(0);
   }
   .SecTopNav li  a:hover{
-    color: #1034a5;
+    /* color: #1034a5; */
+    color: #00519c;
   }
   .SecTopNav li  a.active::after{
     transform-origin: left;
@@ -360,7 +362,8 @@ a svg {
   margin-top: 15px;
 }
 .vt-solution-section .content h3 {
-  color: #1034a5;
+  /* color: #1034a5; */
+  color: #00519c;
   font-weight: bold;
 }
 .vt-solution-section .content ul {

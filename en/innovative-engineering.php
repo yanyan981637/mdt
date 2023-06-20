@@ -132,7 +132,7 @@
         <div class="container color-white center">
           <div class="row">
             <div class="align-self-center col-md-12 mg-auto">	
-              <h2>Software</h2>
+              <h2>Software Development</h2>
             </div>	
           </div>		
         </div>
