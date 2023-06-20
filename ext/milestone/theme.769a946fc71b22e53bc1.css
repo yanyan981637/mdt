@@ -1033,8 +1033,8 @@ article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
 	align-items: center;
 	border-radius: 100%;
 	background-color: #fff;
-	color: #1034a5;
-	border: 2px solid #1034a5;
+	color: #00519c;
+	border: 2px solid #00519c;
 	height: 70px;
 	width: 70px;
 	z-index: 2
@@ -1071,7 +1071,7 @@ article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
 
 .milestone__year.owl-carousel .owl-item .milestone__year__chunk:after {
 	content: "";
-	border-top: 2px solid #1034a5;
+	border-top: 2px solid #00519c;
 	width: 100%;
 	top: 50%;
 	transform: translateY(-50%);
@@ -1098,7 +1098,7 @@ article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
 }
 
 .milestone__year .owl-nav [class*=fa-] {
-	color: #1034a5;
+	color: #00519c;
 	font-size: 2.5rem;
     line-height: 3rem;
 }
@@ -1178,7 +1178,7 @@ article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
 }
 
 .milestone__timeline__rows .card-title {
-	color: #1034a5;
+	color: #00519c;
 }
 
 @media (max-width:991.98px) {
@@ -1325,7 +1325,7 @@ article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
 }
 
 .owl-carousel-primary .owl-dots .owl-dot.active,.owl-carousel-primary .owl-dots .owl-dot:hover {
-	background-color: #1034a5
+	background-color: #00519c
 }
 
 .owl-carousel-primary .item {

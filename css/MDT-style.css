@@ -208,7 +208,7 @@ table.tb_titL tr th{background-color:#efefef;}
 }
 
 
-a{color:#1034a5;}
+a{color:#00519c;}
 a:hover{color:#62dcff;}
 a:focus{color: inherit;}
 /*解決錨點定位偏移:target{
@@ -252,7 +252,7 @@ a:focus{color: inherit;}
 .home_colorBox2{position: absolute; left: 50%;pointer-events: none; top:calc(100% / 3); z-index: 99;}
 .home_colorBox2 a{position: relative;left: -50%; color:#62dcff;text-decoration:none;}
 .home_colorBox2 i{position: relative;left: -50%;pointer-events: none;color:#62dcff;display: block;text-align: center;margin-top: calc(4vw);}
-.productGrid h2, .productGrid h3, .productGrid h5{color:#1034a5;}
+.productGrid h2, .productGrid h3, .productGrid h5{color:#00519c;}
 .productGrid .txtBox ul li{font-size:1rem;font-weight:400;}
 .feat-box{
     padding-bottom: 20px;
@@ -289,7 +289,7 @@ a:focus{color: inherit;}
 }
 .productGrid .txtBox p.st2 i{color:#787878;}
 span.more{
-	color:#1034a5;
+	color:#00519c;
 	font-size: 1.3rem;
     display: block;
 }
@@ -303,7 +303,7 @@ span.more a{
     line-height: 1.6;
     padding-bottom: 6px;
 }
-.productGrid span.more .fa.icon-default{color:#1034a5;}
+.productGrid span.more .fa.icon-default{color:#00519c;}
 .productBG{min-height:70vh;}
 
 .disCov .txtBox-1{
@@ -3756,7 +3756,7 @@ figure.vimeo a img, figure.youtube a img {
 	color:#fff;
 }
 .color-mdtB{
-	color:#1034a5;
+	color:#00519c;
 }
 .color-black {
 	color:#313139!important;
@@ -8387,7 +8387,7 @@ input[type=number]::-webkit-outer-spin-button{
     border-bottom: 1px solid #eee;
 }
 .section.productDetail .product-specs-table h5{
-	/* color:#1034a5; */
+	/* color:#00519c; */
 	color: #00519c;
 	margin: 0;
 }
@@ -8414,7 +8414,7 @@ input[type=number]::-webkit-outer-spin-button{
     margin-bottom: 40px;
 }
 .section.productDetail#pdt_accs h5{
-	/* color: #1034a5; */
+	/* color: #00519c; */
 	color: #00519c;
 	font-size: 1.4rem
 }
@@ -9166,7 +9166,7 @@ input[type=number]::-webkit-outer-spin-button{
 /*============================Bantang==============================*/
 a:hover{text-decoration:none;}
 .FC_mdtB{
-	/* color:#1034a5!important; */
+	/* color:#00519c!important; */
 	color: #00519c !important;
 }
 .FC_mdtB2{color:#62dcff!important;}
@@ -9436,7 +9436,7 @@ a:hover{text-decoration:none;}
 }
 .portfolio-box figure{margin:0;}
 .image-hover3 figcaption {
-    background-color: rgba(16,52,165,0.7);
+    background-color: rgba(0, 81, 156,0.7);
     z-index: 10;
 }
 .image-hover3 figcaption .tit{
@@ -9574,7 +9574,7 @@ ul.csrDL{
 .locateBox{background-color: #f0f0f0;margin: 20px 0 20px 0;border-radius:0.3rem;overflow: hidden;}
 .locateBox p{margin-left:25px;/*text-indent:-36px;*/}
 .locateBox h5{
-	/* color:#1034a5; */
+	/* color:#00519c; */
 	color: #00519c;
 	 height: 36px;}
 #map_office_Taoyuan, #map_office_KunShan, #map_office_Shanghai, #map_office_US, #map_office_Europe, #map_office_Poland, #map_office_Australia, #map_office_Moscow, 
@@ -9612,7 +9612,7 @@ ul.csrDL{
 .meBox .meBox-txt p{border-bottom: 1px solid #979797; margin: 0; line-height: 1.8;}
 
 ul#bannerListing{padding: 0px;}
-ul#bannerListing .contentHolder, ul#bannerListing .contentHolder_home{background:#1034a5;}
+ul#bannerListing .contentHolder, ul#bannerListing .contentHolder_home{background:#00519c;}
 ul#bannerListing .contentHolder h4,
 ul#bannerListing .contentHolder_home h4,
 ul#bannerListing .contentHolder h4 p,

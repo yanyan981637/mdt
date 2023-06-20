@@ -368,13 +368,13 @@
     left: 0.8em;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu > .second_menu > li a:not(.active):hover {
-    color: #1034a5;
+    color: #00519c;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.multilevel > .second_menu > li > a:hover {
     color: #313139;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu > .second_menu > li a::after {
-    background-color: #1034a5;
+    background-color: #00519c;
   }
   #menu-wrap .navbar-collapse .navbar-nav .first_menu.open > a::after {
     -ms-transform: rotate(-180deg);

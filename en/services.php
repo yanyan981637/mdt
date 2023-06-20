@@ -317,7 +317,7 @@
 			</div>
 
 			<div class="show-xs" style="display:none;">
-				<div class="row flowBox" style="background: #1034A5;">
+				<div class="row flowBox" style="background: #00519c;">
 					<div class="col-12">
 						<div class="txtBox">
 							<img src="../images/service/icon_customer.png" alt="Customer" class="ico"><h4>Customer</h4>

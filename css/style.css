@@ -252,7 +252,7 @@ text-decoration: underline;
     -o-transform: scaleX(0);
   }
   .product-nav li  a:hover{
-    color: #1034a5;
+    color: #00519c;
   }
   .product-nav li  a.active::after{
     transform-origin: left;
