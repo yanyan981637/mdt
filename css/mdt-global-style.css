@@ -15,8 +15,7 @@ a svg {
 
 /* button */
 .btn-blue1,.btn-blue1:focus {
-  /* background-color: #1034a5; */
-  background-color: #00519c;
+  background-color: #1034a5;
   color: #ffffff;
 }
 .btn-blue1:hover {
@@ -194,8 +193,7 @@ a svg {
     -o-transform: scaleX(0);
   }
   .SecTopNav li  a:hover{
-    /* color: #1034a5; */
-    color: #00519c;
+    color: #1034a5;
   }
   .SecTopNav li  a.active::after{
     transform-origin: left;
@@ -362,8 +360,7 @@ a svg {
   margin-top: 15px;
 }
 .vt-solution-section .content h3 {
-  /* color: #1034a5; */
-  color: #00519c;
+  color: #1034a5;
   font-weight: bold;
 }
 .vt-solution-section .content ul {
@@ -560,7 +557,7 @@ a svg {
 }
 .embed-responsive-16by9 {
   height: 40vw;
-  max-height: 100vh - 80px;
+  max-height: calc(100vh - 80px);
 }
 @media (max-width: 767px) {
   .embed-responsive-16by9 {
