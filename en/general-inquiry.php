@@ -166,9 +166,12 @@
 					<div class="col-md-9 tc mt-30">
 						<div class="g-recaptcha" data-sitekey="<?= $config['GOOGLE_RECAPTCHA_KEY'] ?>"></div>
 						<div class="g-recaptcha-message-area"></div>
-						<div class="send-message-area" style="margin:10px;"></div>
-						<input type="submit" value="Submit" name="MsgFormSend" id="submit_btn" class="btn btn-blue1 btn-lg btn-round" />
-						<input type="reset" value="Reset" name="MsgFormSend" class="btn btn-primary btn-lg btn-round" style="background-color:#aaa;margin-left:6px;" />
+						<div class="send-message-area" style="margin:20px 0px;"></div>
+						<div class="g-recaptcha-button">
+							<input type="submit" value="Submit" name="MsgFormSend" id="submit_btn" class="btn btn-primary btn-lg btn-round"/>
+							<input type="reset" value="Reset" name="MsgFormSend" class="btn btn-primary btn-lg btn-round" style="background-color:#aaa;margin-left:6px;" />
+						</div>
+						
 					</div>
 				</div>
 			</form>

@@ -33,6 +33,7 @@ a svg {
 }
 
 @media (max-width: 767px) {
+  div input.btn:not(.inline),
   div a.btn:not(.inline){
     display: block;
     width: 100%;
@@ -41,8 +42,12 @@ a svg {
     padding: 1rem;
     white-space: normal;
   }
+  
 }
 
+.g-recaptcha-button .btn{
+  width: 180px;
+}
 
 
 /* submanu 樣式 end */
