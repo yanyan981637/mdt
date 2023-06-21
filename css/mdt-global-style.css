@@ -440,7 +440,7 @@ a svg {
 /* faq */
 
 /* csr */
-.csr-content h2,
+.csr-content h3,
 .csr_des span
  {
   /* color: #1034a5; */
@@ -463,7 +463,7 @@ a svg {
 }
 
 .csr-content p a{
-  margin: 0 20px 0 0;
+  margin: 10px 20px 0 0;
 }
 .csr_des span{
   font-size:18px;
