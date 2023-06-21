@@ -440,7 +440,10 @@ a svg {
 /* faq */
 
 /* csr */
-.csr-content h2 {
+.csr-content h2,
+.csr_des span
+ {
+  /* color: #1034a5; */
   color: #00519c;
 }
 .csr-content h2 + p {
@@ -461,6 +464,46 @@ a svg {
 
 .csr-content p a{
   margin: 0 20px 0 0;
+}
+.csr_des span{
+  font-size:18px;
+  margin-left:18px;
+  font-weight: 700;
+}
+ .csr .card-title{
+  color: #00519c;
+  text-align: center;
+  margin: 20px 0px;
+}
+.csr .csr_content p{
+  margin:  15px 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.csr-table-heade{
+  padding: 32px 20px !important;
+}
+.table-mian-color{
+  background-color:#00519c;
+  color:#fff;
+}
+.table-bc1{
+  background-color:#e5edf5;
+}
+.table-bc2{
+  background-color:#b2cae1;
+}
+.csr .row .col-md-6{
+  margin: 30px 0;
+}
+.csr .row .col-md-6 .card{
+  height: 100%;
+}
+.csr .topColor1{
+  border-top: 3px solid #e2ad71;
+}
+.csr .topColor2{
+  border-top: 3px solid #56b8f6;
 }
 /* banner style */
 .second-bannner h2,
