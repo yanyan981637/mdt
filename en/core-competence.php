@@ -39,7 +39,7 @@
 			
 			<div class="row justify-content-center mb-20">
 				<div class="col-md-10">	
-					<h2 class="pgTit FC_mdtB">Leveraging Superior Core Technologies to Create Customizable Integration Solutions</h2>
+					<h3 class="pgTit FC_mdtB">Leveraging Superior Core Technologies to Create Customizable Integration Solutions</h3>
 					<p class="ContGen">
 						As an IATF16949 certification recipient, MiTAC Digital Technology (MDT) has successfully grasped current market trends by incorporating the three key technologies of Vision AI, Position, and Connectivity into the development of new and innovative core capabilities in driving safety, local services, and real-time information. As we extend the use of automotive electronics and business tablets to AIoT applications, our refined differentiation strategy will help us become the primary supplier of products and solutions in these domains.
 					</p>

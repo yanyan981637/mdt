@@ -29,7 +29,7 @@
 			
 			<div class="row justify-content-center mb-20">
 				<div class="col-md-10">	
-					<h2 class="pgTit FC_mdtB">以卓越的產業核心技術，提供整合性的客製化解決方案</h2>
+					<h3 class="pgTit FC_mdtB">以卓越的產業核心技術，提供整合性的客製化解決方案</h3>
 					<p class="ContGen">
 						神達數位在通過IATF16949認證基礎下，整合『先進AI視覺解決方案』(Vision AI)、『精準衛星定位系統』(Position)、『智慧聯網功能』(Connectivity)三大核心技術，成功掌握市場趨勢，在行車安全警示(Driving Safety)、行動定位服務(Local service)以及實時資訊監管(Real-time Information)等領域持續發展創新且新穎的核心能力。並以不斷精進的差異化實力，成為車用電子產品到專業平板延續至智聯網領域中主要的產品及系統解決方案提供者。
 					</p>

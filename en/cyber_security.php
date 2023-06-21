@@ -17,12 +17,12 @@
 	</div>
 	
 	
-	<div class="section padding-bottom-small background-white">
+	<div class="section background-white">
 		<div class="container">
 		
 			<div class="row policyCont">
 				<div class="col-md-12 mt-30">
-					<h2 class="FC_mdtB">Vulnerability Management = Your Security.</h2>
+					<h3 class="FC_mdtB">Vulnerability Management = Your Security.</h3>
 					<h5 class="mt_2">What Is Vulnerability Management?</h5>
 					<p>Vulnerability management is an ongoing process of identifying, evaluating, remediating, verifying and reporting vulnerabilities in systems and software.</p>
 					<p>Vulnerabilities Management can include issues with the underlying code as well as configurations pertaining to permissions and network capabilities. </p>
