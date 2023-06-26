@@ -185,10 +185,10 @@
 		</div>
 	</div>
 
-	<div class="section mt-60 ">
-		<div class="container">
+	<div class="section mt-60" style="background-color:#eaeef4;">
+	  <div class="container">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 mt-30">
 				<h4>人才吸引與發展</h4>
 					<ul>
 					<li>多元學習資源，打造適才環境。</li>
@@ -201,9 +201,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="section mt-30" style="background-color:#eaeef4;">
 	  <div class="container csr">
 			<div class="row">
 				<div class="col-md-6">

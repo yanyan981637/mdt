@@ -234,7 +234,8 @@
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">研發實力</h3>
 								<p>在提升於智慧攝影機和連網服務領域的企業識別度後，神達數位持續打造在汽車安全領域領導者的名聲，同時開創在智聯網領域之研發，引領創新科技，滿足客戶的需求。</p>
-								<a class="btn btn-lg" href="engineering.php">瞭解更多</a>
+								<a class="btn btn-lg" href="innovative-engineering.php">瞭解更多</a>
+								<!-- <a class="btn btn-lg" href="https://test-www.mitacmdt.com/tw/innovative-engineering.php">瞭解更多</a> -->
 							</div>
 						</li>
 						<li>

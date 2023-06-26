@@ -170,8 +170,7 @@
 						<div class="g-recaptcha-button">
 							<input type="submit" value="Submit" name="MsgFormSend" id="submit_btn" class="btn btn-primary btn-lg btn-round"/>
 							<input type="reset" value="Reset" name="MsgFormSend" class="btn btn-primary btn-lg btn-round" style="background-color:#aaa;margin-left:6px;" />
-						</div>
-						
+						</div>	
 					</div>
 				</div>
 			</form>

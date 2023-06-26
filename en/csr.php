@@ -22,7 +22,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h3>Corporate Social Responsibility Rooted in Mio's Belief – Safety</h3>
+					<h3>Corporate Social Responsibility Rooted in MiTAC's Belief – Safety</h3>
 					<p>MiTAC is a world-class leader in automotive electronics, and safety is our core value. We strive to provide products and services that improve safe driving through innovative design, high-standard inspection, and manufacturing. Our offerings include 4K ultra-high-definition/starlight-grade night vision driving recorders, Advanced Driver Assistance Systems, six-in-one safety camera warnings, and driver behavior analysis.  In the future, we will continue to deepen our innovation and quality strength in the field of smart IoT and automotive electronics. We aim to establish a leading position in the industry ecosystem and bring safe and convenient interconnected living to people.</p>
 				</div>
 			</div>
@@ -149,7 +149,7 @@
 					<h4>Customer satisfaction survey</h4>
 					<ul>
 						<li>Set up a dedicated backend customer service and repair team at headquarters and upgraded online customer service backend management system - ZOHO. This not only effectively improves customer satisfaction but also saves manpower management expenses and costs.</li>
-						<li>Customer satisfaction survey for after-sales service and repair services has consistently achieved a satisfaction rate of 80%or higher</li>
+						<li>Customer satisfaction survey for after-sales service and repair services has consistently achieved a satisfaction rate of 80%or higher.</li>
 						<li>Customer satisfaction is the core value of MiTAC in perpetual corporate development. The routine VOC evaluation (quarterly/semi-annually, or annually) is essential for improvement. MiTAC makes ceaseless efforts in continued improvement on the basis of the feedback of consumers in the market. The feedback will be taken as the indicators of product design, which includes quality, technology, price, delivery.</li>
 					</ul>
 				</div>
@@ -172,7 +172,7 @@
           <h4>Public welfare sponsored activities</h4>
 					<ul>
 						<li>Sponsored Taipei Standard Chartered Marathon for five consecutive years.</li>
-						<li>Donated Mio Dashcam to the Guishan Branch of the National Police Agency in laiwan.</li>
+						<li>Donated Mio Dashcam to the Guishan Branch of the National Police Agency in Taiwan.</li>
 						<li>Sponsored golf events in Philippines.</li>
 						<li>Sponsored solar-powered water resource projects in Philippines.</li>
 						<li>Long-term sponsorship to the Chinese Taipei Disabled Baseball Association.</li>
@@ -185,10 +185,10 @@
 		</div>
 	</div>
 
-	<div class="section mt-60 ">
-		<div class="container">
+	<div class="section mt-60" style="background-color:#eaeef4;">
+	  <div class="container">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 mt-30">
 				<h4>Talent attraction and development</h4>
 					<ul>
 						<li>Provide diverse learning resources to create an environment conducive to individual strengths.</li>
@@ -201,9 +201,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="section mt-30" style="background-color:#eaeef4;">
 	  <div class="container csr">
 			<div class="row">
 				<div class="col-md-6">
