@@ -77,8 +77,8 @@
 #pageIndex .secBanner .imgHolder img{
 	position: absolute;
 	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    transform: translate(0, -50%);
 	width: 100%;
 	height: auto;
 }
@@ -90,6 +90,7 @@
 	width: 35%;
 	padding: 80px 40px;
 }
+
 #pageIndex .secBanner .contentHolder_home {
 	position: absolute;
 	z-index: 2;
@@ -97,6 +98,26 @@
     transform: translate(0%, -50%);
 	width: 50%;
 	padding: 80px 80px;
+}
+@media (min-width: 992px) {
+	#pageIndex .secBanner .imgHolder img{
+		width: auto;
+		height: 100%;
+	}
+	#pageIndex .secBanner .contentHolder_home {
+		padding: 0 80px;
+		display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+		height: 100%;
+		flex-wrap: wrap;
+    align-content: center;
+	}
+}
+@media (min-width: 1367px) {
+	#pageIndex .secBanner .contentHolder_home {
+		height: 430px;
+	}
 }
 #pageIndex .secBanner .contentHolder .lblHolder, #pageIndex .secBanner .contentHolder_home .lblHolder {
 	margin-bottom: 30px;
