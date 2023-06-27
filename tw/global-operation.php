@@ -28,7 +28,7 @@
 						<h2 class="pgTit FC_mdtB">辦公室</h2>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row company_addr">
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
 							<h5>MiTAC Digital Technology Corporation</h5>
@@ -159,7 +159,7 @@
 						<h2 class="pgTit FC_mdtB">工廠</h2>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row company_addr">
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
 							<h5>MiTAC Computer (KunShan) Co., Ltd.</h5>
@@ -224,7 +224,7 @@
 						<h2 class="pgTit FC_mdtB">JV Partner</h2>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row company_addr">
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
 							<h5>Infopower Technologies Ltd.</h5>
