@@ -11,7 +11,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
-					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1&origin=<?= $current_domain ?>" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
       <!-- <div class="swiper-button-next swiper-button-white"></div>

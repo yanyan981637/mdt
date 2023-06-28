@@ -11,6 +11,34 @@
 	$MysqlInstance = App\DataAccess\Mysql::getInstance();
 	$MysqlConn = $MysqlInstance->getConnection();
 
+	// youtube 參數當前域名
+	function getCurrentDomain() {
+		function is_https() {
+			if ( !empty($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) !== 'off') {
+					return true;
+			} elseif ( isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https' ) {
+					return true;
+			} elseif ( !empty($_SERVER['HTTP_FRONT_END_HTTPS']) && strtolower($_SERVER['HTTP_FRONT_END_HTTPS']) !== 'off') {
+					return true;
+			}
+			return false;
+		}
+	
+		$current_url = is_https() ? 'https://' : 'http://';
+		$current_url .= $_SERVER['SERVER_NAME'];
+	
+		$CURRENT_PORT = $_SERVER['SERVER_PORT'];
+	
+		if(!(($CURRENT_PORT == '443' && is_https()) || ($CURRENT_PORT == '80' && !is_https()))){
+			$current_url .= $CURRENT_PORT;
+		}
+	
+		return $current_url;
+	
+	}
+	$current_domain = getCurrentDomain();
+
+
 	session_start();
 
 	$ckType = isset($_POST['ckType']) ? htmlspecialchars($_POST['ckType'], ENT_QUOTES, 'UTF-8') : '';

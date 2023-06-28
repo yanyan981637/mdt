@@ -316,7 +316,7 @@
 			<div class="row">	
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>外置鏡頭</h5>
+						<h5>外接鏡頭</h5>
 						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
 						<p class="st2">
 							需另外購買
@@ -325,7 +325,7 @@
 				</div>
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
-						<h5>外置鏡頭</h5>
+						<h5>外接鏡頭</h5>
 						<img src="../images/video-telematics/P.26-5.png" />
 						<p class="st2">
 							需另外購買
