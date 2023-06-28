@@ -516,7 +516,7 @@ height="0" width="0"></iframe></noscript>
 								$sqlL ="Select * From `ows_menu` Where lang='en' And file_name = '".$Current_Menu_File_Name."' ";
 								$resultL = mysqli_query($MysqlConn, $sqlL);
 								$tspgAry = mysqli_fetch_array($resultL);
-								if($tspgAry){
+								if($tspgAry && $Current_Menu_File_Name != 'cyber_security.php'){
 									$transferPageUrl = "/tw/".$Current_Menu_File_Name;
 								}else{
 									$transferPageUrl = "/tw/";
