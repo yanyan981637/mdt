@@ -507,8 +507,52 @@ a svg {
 .csr .topColor1{
   border-top: 3px solid #e2ad71;
 }
+
 .csr .topColor2{
   border-top: 3px solid #56b8f6;
+}
+.csr-list p{
+  background-color: #00519c;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+}
+.csr-table .row{
+  row-gap: 20px;
+}
+.csr-table .row .arrow>div {
+  width: 76px;
+  height: 32px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.csr-table .row .arrow>div::after {
+  content: '';
+  width: 54px;
+  height: 54px;
+  display: block;
+  background-image: linear-gradient( -350deg, #00519c,#6696c3);
+  transform: rotate(45deg);
+  position: absolute;
+  top: -33px;
+  left: 10px;
+}
+@media (min-width:992px){
+  .csr-table .row .arrow>div {
+    width: 32px;
+    height: 76px;
+  }
+  .csr-table .row .arrow>div::after {
+    top: 10px;
+    left: -33px;
+    background-image: linear-gradient(275deg, #00519c,#6696c3);
+  }
+  .card-body-h{
+    height: 426px;
+  }
 }
 /* banner style */
 .second-bannner h2,
@@ -680,3 +724,4 @@ a svg {
   font-size: 1.7rem;
   font-weight: 500;
 }
+

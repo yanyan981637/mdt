@@ -185,8 +185,8 @@
 		</div>
 	</div>
 
-	<div class="section mt-60" style="background-color:#eaeef4;">
-	  <div class="container">
+	<div class="section mt-60 padding-bottom-small" style="background-color:#eaeef4;">
+	  <div class="container" style="padding-top:40px">
 			<div class="row">
 				<div class="col-12 mt-30">
 				<h4>Talent attraction and development</h4>
@@ -201,9 +201,12 @@
 				</div>
 			</div>
 		</div>
-	  <div class="container csr">
-			<div class="row">
-				<div class="col-md-6">
+	  <div class="container csr csr-table mt-30">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-md-8 col-10 col-sm-8">
+				  <div class="csr-list">
+						<p>Establishing a mindset of transformation</p>
+					</div>
 					<div class="card topColor1">
 						<div class="card-body">
 							<h5 class="card-title">Transformation study group</h5>			
@@ -222,7 +225,14 @@
 					</div>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-lg-1 col-md-8 col-10 col-sm-8 arrow">
+					<div ></div>
+				</div>
+
+				<div class="col-lg-4 col-md-8 col-10 col-sm-8">
+				  <div class="csr-list">
+						<p>Implementing digital strategy</p>
+					</div>
 					<div class="card topColor2">
 						<div class="card-body">
 						  <h5 class="card-title">Workshop</h5>

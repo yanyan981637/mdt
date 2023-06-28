@@ -165,7 +165,7 @@
 		</div>
 	</div>
 
-	<div class="section mt-30 csr-content">
+	<div class="section mt-30 csr-content" >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 mt-30">
@@ -185,8 +185,8 @@
 		</div>
 	</div>
 
-	<div class="section mt-60" style="background-color:#eaeef4;">
-	  <div class="container">
+	<div class="section mt-60 padding-bottom-small" style="background-color:#eaeef4;">
+	  <div class="container " style="padding-top:40px">
 			<div class="row">
 				<div class="col-12 mt-30">
 				<h4>人才吸引與發展</h4>
@@ -201,11 +201,14 @@
 				</div>
 			</div>
 		</div>
-	  <div class="container csr">
-			<div class="row">
-				<div class="col-md-6">
+	  <div class="container csr csr-table mt-30">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-md-8 col-10 col-sm-8">
+					<div class="csr-list">
+						<p>建立轉型思維</p>
+					</div>
 					<div class="card topColor1">
-						<div class="card-body">
+						<div class="card-body card-body-h">
 							<h5 class="card-title">轉型讀書會</h5>			
 							<div class="text-center csr_des">
 								<img src="../images/csr/ico_5_modules.png" alt="ico_5_modules">
@@ -221,8 +224,13 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="col-md-6">
+        <div class="col-lg-1 col-md-8 col-10 col-sm-8 arrow">
+					<div ></div>
+				</div>
+				<div class="col-lg-4 col-md-8 col-10 col-sm-8">
+				  <div class="csr-list">
+						<p>開展數位策略</p>
+					</div>
 					<div class="card topColor2">
 						<div class="card-body">
 						  <h5 class="card-title">研討工作坊</h5>
