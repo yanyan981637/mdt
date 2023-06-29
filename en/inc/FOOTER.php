@@ -80,7 +80,7 @@
 					<ul class="list-style">
 					  <li><a href="./core-competence.php">Core Competence</a></li>
 					  <li><a href="./innovative-engineering.php">Innvovative Engineering</a></li>
-					  <li><a href="./quality-management.php">Quqlyity Management</a></li>
+					  <li><a href="./quality-management.php">Quality Management</a></li>
 					  <li><a href="./manufacturing-excellence.php">Manufacturing Ecxellence</a></li>
 					</ul>
 				</div>
