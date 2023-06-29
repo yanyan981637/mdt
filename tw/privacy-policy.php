@@ -3,7 +3,7 @@
 ?>
 	<!-- Primary Page Layout
 	================================================== -->
-	<div class="section pgHero policyPage" >	
+	<!-- <div class="section pgHero policyPage" >	
 		<div class="hero-center-wrap z-bigger">
 			<div class="container hero-text big-text text-center">
 				<div class="row">
@@ -13,7 +13,17 @@
 				</div>		
 			</div>			
 		</div>	
+	</div> -->
+	<div class="section" >	
+		<div class="container  privacy-policy">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="FC_mdtB">隱私權條款</h1>
+				</div>
+			</div>
+		</div>
 	</div>
+	
 	
 	
 	<div class="section padding-bottom-small background-white">

@@ -203,12 +203,12 @@
 		</div>
 	  <div class="container csr csr-table mt-30">
 			<div class="row justify-content-center">
-				<div class="col-lg-4 col-md-8 col-10 col-sm-8">
+				<div class="col-lg-5 col-md-8 col-10 col-sm-8">
 				  <div class="csr-list">
 						<p>Establishing a mindset of transformation</p>
 					</div>
 					<div class="card topColor1">
-						<div class="card-body">
+						<div class="card-body card-body-h_en">
 							<h5 class="card-title">Transformation study group</h5>			
 							<div class="text-center csr_des">
 								<img src="../images/csr/ico_5_modules.png" alt="ico_5_modules">
@@ -229,7 +229,7 @@
 					<div ></div>
 				</div>
 
-				<div class="col-lg-4 col-md-8 col-10 col-sm-8">
+				<div class="col-lg-5 col-md-8 col-10 col-sm-8">
 				  <div class="csr-list">
 						<p>Implementing digital strategy</p>
 					</div>
