@@ -94,7 +94,7 @@
         </div>
       </div>
       <div class="col-md-5 order-1 order-md-2 mb-30">
-        <img src="../images/auxiliary-software-smart-industrial/MiDM<sup>&trade;</sup>-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
+        <img src="../images/auxiliary-software-smart-industrial/MiDM™-banner.jpg" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
       </div>
     </div>
     <div class="col-md-12 mt-30">
