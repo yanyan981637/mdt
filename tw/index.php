@@ -300,8 +300,8 @@
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2023.05.15</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/tw/press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！</a></h6>
-					<div class="pricing-img"><a href="https://www.mitacmdt.com/tw/press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！</a></h6>
+					<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
@@ -310,8 +310,8 @@
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2022.11.23</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/tw/press-events-20221123.php">MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定</a></h6>
-					<div class="pricing-img"><a href="https://www.mitacmdt.com/tw/press-events-20221123.php"><img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20221123.php">MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定</a></h6>
+					<div class="pricing-img"><a href="press-events-20221123.php"><img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
@@ -320,8 +320,8 @@
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2022.05.24</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="https://www.mitacmdt.com/tw/press-events-20220524.php">神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定</a></h6>
-					<div class="pricing-img"><a href="https://www.mitacmdt.com/tw/press-events-20220524.php"><img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png" alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定"></a></div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20220524.php">神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定</a></h6>
+					<div class="pricing-img"><a href="press-events-20220524.php"><img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png" alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>

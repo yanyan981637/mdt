@@ -26,7 +26,7 @@
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
 					<div class="newsCov">
-						<a href="https://www.mitacmdt.com/en/press-events-20230515.php">
+						<a href="press-events-20230515.php">
 							<figure class="image-hover3">
 								<img src="../images/press_news/press-room-new-pic-20230515-cover.png" class="" alt="Mio MiVue R850D wins the iF DESIGN AWARD 2023">
 								<figcaption>
@@ -37,9 +37,9 @@
 					</div>
 				</div>
 				<div class="cont col-lg-7 col-md-5 col-sm-6">
-					<h5><a class="FC_mdtG" href="https://www.mitacmdt.com/en/press-events-20230515.php">Mio MiVue R850D wins the iF DESIGN AWARD 2023</a></h5>
+					<h5><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850D wins the iF DESIGN AWARD 2023</a></h5>
 					<p class="brf">(Taoyuan, May 15, 2023) – MiTAC Digital Technology Corp., announced its revolutionary e-mirror type rearview mirror dashcam – Mio MiVue R850D has been recognized in the User Interface (UI) category of the 2023 iF DESIGN AWARD, a globally renowned design competition ...</p>
-					<span class="more"><a href="https://www.mitacmdt.com/en/press-events-20230515.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+					<span class="more"><a href="press-events-20230515.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
@@ -51,7 +51,7 @@
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
 					<div class="newsCov">
-						<a href="https://www.mitacmdt.com/en/press-events-20221123.php">
+						<a href="press-events-20221123.php">
 							<figure class="image-hover3">
 								<img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" class="" alt="Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award">
 								<figcaption>
@@ -62,9 +62,9 @@
 					</div>
 				</div>
 				<div class="cont col-lg-7 col-md-5 col-sm-6">
-					<h5><a class="FC_mdtG" href="https://www.mitacmdt.com/en/press-events-20221123.php">Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award</a></h5>
+					<h5><a class="FC_mdtG" href="press-events-20221123.php">Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award</a></h5>
 					<p class="brf">(Taoyuan, Nov. 23rd, 2022) - MiTAC Digital Technology Corp., a pioneer in the automotive electronics industry for many years, announced that its new product lineup of the year, an video telematics management solution (MioEYE K series + VisionMax) and a dual-channel E-mirror dashcam with full screen touch panel - the Mio MiVue R850D. Both have been recognized at the prestigious 31st Taiwan Excellence Awards.</p>
-					<span class="more"><a href="https://www.mitacmdt.com/en/press-events-20221123.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+					<span class="more"><a href="press-events-20221123.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
