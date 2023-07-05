@@ -105,7 +105,7 @@
           menu_el.removeClass('ccollapsing').removeClass('collapsed');
   
           $(_this).removeClass('ccollapsing');
-          $('#menu-wrap').find('li.open').removeClass('open');
+          // $('#menu-wrap').find('li.open').removeClass('open');
   
         }, animate_time)
         
