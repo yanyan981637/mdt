@@ -20,6 +20,10 @@
         $(this).addClass('multilevel');
       }
     })
+
+    if(window_width < 991){
+      $('#menu-wrap').find('a.nav-link.active').parent().parent().parents('li:not(.lang)').addClass('open');
+    }
     
   }
 
