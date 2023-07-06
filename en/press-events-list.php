@@ -22,7 +22,7 @@
 		  <div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">Press</span>
-					<p class="dat">2023.05.13</p>
+					<p class="dat">2023.05.15</p>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
 					<div class="newsCov">

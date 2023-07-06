@@ -127,7 +127,7 @@
         <div class="container color-white hero-text big-text text-center">
           <div class="row align-content-center">
             <div class="col-md-7 align-self-center">	
-              <h2 class="color-white">Multi-Views Dashcam</h2>
+              <h2 class="color-white">Multi-View Dashcam</h2>
               <h4 class="h4">All-round vision for optimum protection</h4>
             </div>	
             <div class="col-md-5 align-self-center">
