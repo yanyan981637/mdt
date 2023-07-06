@@ -347,7 +347,7 @@
 							<div class="product_desc">
 								<h5>i15</h5>
 								<p>DMS Camera</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -371,7 +371,7 @@
 							<div class="product_desc">
 								<h5>i25</h5>
 								<p>DMS Camera</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -404,7 +404,7 @@
 							<div class="product_desc">
 								<h5>A50</h5>
 								<p>Inner Camera</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -428,7 +428,7 @@
 							<div class="product_desc">
 								<h5>A60</h5>
 								<p>Inner Camera</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -461,7 +461,7 @@
 							<div class="product_desc">
 								<h5>S10</h5>
 								<p>TVI, IP69K</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -494,7 +494,7 @@
 							<div class="product_desc">
 								<h5>SmartGO</h5>
 								<p> CAN Decoder, Power Supply for Connected Camera</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -518,7 +518,7 @@
 							<div class="product_desc">
 								<h5>Panic button</h5>
 								<p> Remote Panic Button</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20220629.pdf" target="_bank">
+								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
