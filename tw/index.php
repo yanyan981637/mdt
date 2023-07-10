@@ -300,7 +300,7 @@
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2023.05.15</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！</a></h6>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D系列榮獲 2023 年 iF 設計獎！</a></h6>
 					<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
 				</div>
 			</div>

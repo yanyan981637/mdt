@@ -32,7 +32,7 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="#single-cam-dashcam">Single-cam</a></li>
+					<li><a href="#single-cam-dashcam">Single-Cam</a></li>
 					<li><a href="#multi-view-dashcam">Multi-View</a></li>
 					<li><a href="#e-mirror-dashcam">E-Mirror</a></li>
           <li><a href="#radar-combo-dashcam">Radar Combo</a></li>

@@ -81,7 +81,7 @@
 					  <li><a href="./core-competence.php">Core Competence</a></li>
 					  <li><a href="./innovative-engineering.php">Innvovative Engineering</a></li>
 					  <li><a href="./quality-management.php">Quality Management</a></li>
-					  <li><a href="./manufacturing-excellence.php">Manufacturing Ecxellence</a></li>
+					  <li><a href="./manufacturing-excellence.php">Manufacturing Excellence</a></li>
 					</ul>
 				</div>
 				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">

@@ -45,7 +45,7 @@
 					
 					<div class="col-lg-6">
 						<div class="locateBox pt_pb_1r ">
-							<h5>MiTAC (Kushan ) Ltd.</h5>
+							<h5>MiTAC (Kushan) Ltd.</h5>
 							<ul class="list-style">
 								<li><i class="fa fa-map-marker"></i>江蘇省昆山綜合保稅區A區第二大道269號</li>
 								<li><i class="fa fa-phone"></i>86-512-5736-7777</li>

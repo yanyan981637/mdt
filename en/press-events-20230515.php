@@ -25,17 +25,17 @@
 					<p class="dat">2023.05.15</p>
 				</div>
 				<div class="col-lg-10 col-md-10 col-sm-10">
-					<h4 class="mb-30">Mio MiVue R850D wins the iF DESIGN AWARD 2023</h4>
+					<h4 class="mb-30">Mio MiVue R850D Series wins the iF DESIGN AWARD 2023</h4>
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
 							<img src="../images/press_news/press-room-new-pic-20230515.png" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
-							<p>(Taoyuan, May 15, 2023) – MiTAC Digital Technology Corp., announced its revolutionary e-mirror type rearview mirror dashcam – Mio MiVue R850D has been recognized in the User Interface (UI) category of the 2023 iF DESIGN AWARD, a globally renowned design competition.</p>
-							<p>The Mio MiVue R850D impressed 133 judges with its innovative integration of smartphone-like user interface into a dash cam product. It features a brand-new intuitive human-machine interface that adapts to users' mindset and interaction with the product. The horizontal scrolling interface perfectly supports a long and narrow rectangular layout, allowing users to navigate through menus by swiping left or right, and toggle functions on/off with ease. The interface also employs visual indicators for quick and direct feedback. This extends the user experience of smartphones to dash cam products, making operating the electronic rearview mirror effortless and user-friendly.</p>
+							<p>(Taoyuan, May 15, 2023) – MiTAC Digital Technology Corp., announced its revolutionary e-mirror type rearview mirror dashcam – Mio MiVue R850D Series has been recognized in the User Interface (UI) category of the 2023 iF DESIGN AWARD, a globally renowned design competition.</p>
+							<p>The Mio MiVue R850D Series impressed 133 judges with its innovative integration of smartphone-like user interface into a dash cam product. It features a brand-new intuitive human-machine interface that adapts to users' mindset and interaction with the product. The horizontal scrolling interface perfectly supports a long and narrow rectangular layout, allowing users to navigate through menus by swiping left or right, and toggle functions on/off with ease. The interface also employs visual indicators for quick and direct feedback. This extends the user experience of smartphones to dash cam products, making operating the electronic rearview mirror effortless and user-friendly.</p>
 							<p>The iF Design Award selection process was intense and highly competitive, it attracted nearly 11,000 entries from 56 countries and regions worldwide this year.</p>
-							<p>More information about Mio MiVue R850D can be found in the “ALL Winners” section on <a href="https://ifdesign.com/en/winner-ranking/project/e-mirror-mivue-r850d/549723" target="_blank">https://ifdesign.com/en/winner-ranking/project/e-mirror-mivue-r850d/549723</a></p>
+							<p>More information about Mio MiVue R850D Series can be found in the “ALL Winners” section on <a href="https://ifdesign.com/en/winner-ranking/project/e-mirror-mivue-r850d/549723" target="_blank">https://ifdesign.com/en/winner-ranking/project/e-mirror-mivue-r850d/549723</a></p>
 						</div>
 					</div>
 

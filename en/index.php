@@ -241,7 +241,7 @@
 								<div class="imgHolder"><img src="../images/home_capability3_new_20230614.jpg" alt="MDT's products are produced in a 1,790, 000 square-foot manufacturing facility in Kunshan, China featuring automated production, a rigorous management system and international certifications including ISO 9001, ISO 14001 and IATF16949. "/></div>
 								<div class="contentHolder_home" data-0="margin-top: 0px;" data-350="margin-top: -50px;" data-500="margin-top: -100px;">
 									<h3 class="FC_mdtB2 mb-30">Manufacturing Excellence</h3>
-									<p>MDT’s 1,790,000-square-foot manufacturing site in China is certified to ISO 9001, ISO14001, IHSAS18000,IATF16949, ISO13485, and GMP standards.</p>
+									<p>MDT’s 1,790,000-square-foot manufacturing site in China is certified to ISO 9001, ISO14001, IHSAS18000, IATF16949, ISO13485, and GMP standards.</p>
 									<a class="btn btn-lg" href="manufacturing-excellence.php">Discover More</a>
 								</div>
 							</li>
@@ -289,7 +289,7 @@
 					<div class="pricing pt_pb_1r background-white borderTop_B">
 						<div class="pn_p p">Press</div>
 						<div class="pricing-sub p mb_1">2023.05.15</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850D wins the iF DESIGN AWARD 2023</a></h6>
+						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850D Series wins the iF DESIGN AWARD 2023</a></h6>
 						<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="Mio MiVue R850D win the iF DESIGN AWARD 2023"></a></div>
 					</div>
 				</div>

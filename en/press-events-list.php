@@ -37,8 +37,8 @@
 					</div>
 				</div>
 				<div class="cont col-lg-7 col-md-5 col-sm-6">
-					<h5><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850D wins the iF DESIGN AWARD 2023</a></h5>
-					<p class="brf">(Taoyuan, May 15, 2023) – MiTAC Digital Technology Corp., announced its revolutionary e-mirror type rearview mirror dashcam – Mio MiVue R850D has been recognized in the User Interface (UI) category of the 2023 iF DESIGN AWARD, a globally renowned design competition ...</p>
+					<h5><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850D Series wins the iF DESIGN AWARD 2023</a></h5>
+					<p class="brf">(Taoyuan, May 15, 2023) – MiTAC Digital Technology Corp., announced its revolutionary e-mirror type rearview mirror dashcam – Mio MiVue R850D Series has been recognized in the User Interface (UI) category of the 2023 iF DESIGN AWARD, a globally renowned design competition ...</p>
 					<span class="more"><a href="press-events-20230515.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 				</div>
 			</div>
