@@ -289,8 +289,8 @@
 					<div class="pricing pt_pb_1r background-white borderTop_B">
 						<div class="pn_p p">Press</div>
 						<div class="pricing-sub p mb_1">2023.05.15</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850D Series wins the iF DESIGN AWARD 2023</a></h6>
-						<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="Mio MiVue R850D win the iF DESIGN AWARD 2023"></a></div>
+						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850 Series win the iF DESIGN AWARD 2023</a></h6>
+						<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="Mio MiVue R850 Series win the iF DESIGN AWARD 2023"></a></div>
 					</div>
 				</div>
 				<div class="clearfix hidden-xs"></div>
