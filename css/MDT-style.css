@@ -8107,7 +8107,9 @@ input[type=number]::-webkit-outer-spin-button{
 }
 .footer-1 h6{
 	margin-bottom: 1.2rem;
-	font-size:1.3rem;
+	font-size:1.25rem;
+	font-weight: 500;
+	line-height: 1.3;
 }
 .footer-1.dark h6{
 	color: #f9f9f9;
@@ -8117,7 +8119,8 @@ input[type=number]::-webkit-outer-spin-button{
 	padding-left: 0;
 }
 .footer-1 ul li{
-	margin-bottom: 0.7rem;
+	margin-bottom: 1.2rem;
+	line-height: 1.2;
 }
 .footer-1 ul li i{
 	font-size: 0.9rem;
