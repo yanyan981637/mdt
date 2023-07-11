@@ -91,6 +91,7 @@
 					  <li><a href="./MiTAC-holdings.php">MiTAC Holdings</a></li>
 					  <li><a href="./own-brands.php">Own Brands</a></li>
 					  <li><a href="./global-glory.php">Global Glory</a></li>
+						<li><a href="https://www.mitac.com/en-global/ir_information/index" target="_blank">Investor Information</a></li>
 					  <li><a href="./csr.php">CSR</a></li>
 					  <li><a href="./press-events-list.php">Press</a></li>
 					</ul>

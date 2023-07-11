@@ -8106,13 +8106,14 @@ input[type=number]::-webkit-outer-spin-button{
 	display: block;
 }
 .footer-1 h6{
-	margin-bottom: 1.6rem;
+	margin-bottom: 1.2rem;
 	font-size:1.3rem;
 }
 .footer-1.dark h6{
-	color: #b6b6b6;
+	color: #f9f9f9;
 }
 .footer-1 ul{
+	margin: 0;
 	padding-left: 0;
 }
 .footer-1 ul li{
@@ -8169,7 +8170,7 @@ input[type=number]::-webkit-outer-spin-button{
 	opacity:1;
 }
 .footer-1.dark ul li a{
-	color: #f9f9f9;
+	color: #b6b6b6;
 }
 .subscribe-wrap{
 	position: relative;
