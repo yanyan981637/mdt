@@ -70,7 +70,7 @@
 						<li>High storage capacity (up to 2TB with dual Micro SD)</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Reliable operating system - Android 10 & Linux</li>
-						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS</li>
+						<li>Multiple Certifications - Verizon, AT&T, AWS</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
@@ -79,7 +79,6 @@
 						<img src="../images/connected_dashcam/ATT.jpg" />
 						<img src="../images/connected_dashcam/PTCRB.jpg" />
 						<img src="../images/connected_dashcam/verizon.jpg" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 						<img src="../images/connected_dashcam/aws.jpg" />
 					</div>
 
@@ -122,6 +121,7 @@
 						<img src="../images/connected_dashcam/ATT.jpg" />
 						<img src="../images/connected_dashcam/firstnet.jpg" />
 						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+						<img src="../images/connected_dashcam/verizon.jpg" />
 					</div>
 
 					<div>

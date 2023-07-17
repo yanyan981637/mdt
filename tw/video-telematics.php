@@ -70,7 +70,7 @@
 						<li>高存儲容量 (最高支援共2TB存儲空間)</li>
 						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
 						<li>支援Android 與Linux 作業系統</li>
-						<li>Verizon, AT&T, T-Mobile, Telstra等電信商與AWS認證</li>
+						<li>Verizon, AT&T, Telstra等電信商與AWS認證</li>
 						<li>內建車輛電瓶低電壓保護功能</li>
 						<li>防竄改設計</li>
 					</ul>
@@ -80,7 +80,6 @@
 						<img src="../images/connected_dashcam/ATT.jpg" />
 						<img src="../images/connected_dashcam/PTCRB.jpg" />
 						<img src="../images/connected_dashcam/verizon.jpg" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 						<img src="../images/connected_dashcam/aws.jpg" />
 					</div>
 
@@ -124,6 +123,7 @@
 						<img src="../images/connected_dashcam/ATT.jpg" />
 						<img src="../images/connected_dashcam/firstnet.jpg" />
 						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+						<img src="../images/connected_dashcam/verizon.jpg" />
 					</div>
 
 					<div>

@@ -99,7 +99,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145C+245C_Datasheet_20230505.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202304/Mitac_K145C+245C_Datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -124,6 +124,7 @@
 						<img src="../images/connected_dashcam/ATT.jpg" />
 						<img src="../images/connected_dashcam/firstnet.jpg" />
 						<img src="../images/connected_dashcam/T-Mobile.jpg" />
+						<img src="../images/connected_dashcam/verizon.jpg" />
 					</div>
 				</div>
 			</div>	

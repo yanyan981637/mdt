@@ -100,7 +100,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230616.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 						<li>High storage capacity (up to 2TB with dual Micro SD)</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Reliable operating system - Android 10 & Linux</li>
-						<li>Multiple Certifications - Verizon, AT&T, T-Mobile, AWS</li>
+						<li>Multiple Certifications - Verizon, AT&T, AWS</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
 					</ul>
 					<div class="pdt_desc_ico">
@@ -125,7 +125,6 @@
 						<img src="../images/connected_dashcam/ATT.jpg" />
 						<img src="../images/connected_dashcam/PTCRB.jpg" />
 						<img src="../images/connected_dashcam/verizon.jpg" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 						<img src="../images/connected_dashcam/aws.jpg" />
 					</div>
 
@@ -275,7 +274,8 @@
 							<th class="label">Environment</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>-20° to +70°C (-4° to +158°F) Operating Temperature</li>
+									<li>-20 to +60C (-40 to +140F) Operating Temperature</li>
+									<li>-20 to +70C (-40 to +158F) Operating Temperature (Under Certain Conditions)</li>
 									<li>-30° to +85°C (-22° to +185°F) Storage Temperature</li>
 								</ul>
 							</td>

@@ -96,7 +96,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K220_datasheet_202300609.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202304/Mitac_K220_datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -234,7 +234,8 @@
 							<th class="label">Environment</th>
 							<td class="data">
 								<ul>
-									<li>-20° to +70°C (-4° to +158°F) operating temperature</li>
+									<li>-20 to +60C (-40 to +140F) operating temperature</li>
+									<li>-20 to +70C (-40 to +158F) operating temperature (under certain conditions)</li>
 									<li>-30° to +85°C (-22° to +185°F) storage temperature</li>
 								</ul>
 							</td>

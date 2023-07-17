@@ -88,7 +88,7 @@
 				</div>
 				<div class="col-md-3 col-6 portfolio-box">
 					<figure class="image-hover2">
-						<img src="../images/logo_group/logo_SYNNEX-1.png" alt="美國新聚思>
+						<img src="../images/logo_group/logo_SYNNEX-1.png" alt="美國新聚思">
 						<figcaption>
 							<a href="http://www.synnex.com/" class="h5 attachment-portfolio-3-col size-portfolio-3-col wp-post-image" sizes="(max-width: 570px) 100vw, 561px" target="_blank">
 								美國新聚思

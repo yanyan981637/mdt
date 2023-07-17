@@ -245,7 +245,7 @@
 							<div class="product_desc">
 								<h5>K265(雙鏡頭)/K165(單鏡頭)</h5>
 								<p>一體式7路攝影聯網型行車記錄器</p>
-								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230616.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230714.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -269,7 +269,7 @@
 							<div class="product_desc">
 								<h5>K245C(Dual cam)/K145C(Single cam)</h5>
 								<p>電信商認證的最佳選擇方案</p>
-								<a href="/Downloads/202304/Mitac_K145C+245C_Datasheet_20230505.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K145C+245C_Datasheet_20230714.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -293,7 +293,7 @@
 							<div class="product_desc">
 								<h5>K245(雙鏡頭)/K145(單鏡頭)</h5>
 								<p>精緻的外觀</p>
-								<a href="/Downloads/202304/Mitac_K145-245_datasheet_20230419.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K145-245_datasheet_20230714.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -317,7 +317,7 @@
 							<div class="product_desc">
 								<h5>K220(雙鏡頭)</h5>
 								<p>經濟實惠的選擇</p>
-								<a href="/Downloads/202304/Mitac_K220_datasheet_202300609.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K220_datasheet_20230714.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
