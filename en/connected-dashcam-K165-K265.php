@@ -282,7 +282,7 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, WEEE, ROHS</td>
+							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon, WEEE, ROHS</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
