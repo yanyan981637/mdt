@@ -102,10 +102,10 @@
 					</ol>
 					
 					<h5>CHANGES TO THIS PRIVACY POLICY</h5>
-					<p>MiTAC may change the terms of the Privacy Policy from time to time. In case of any changes, we will post those changes. When we change the policy in a material way, a notice will be posted on our website along with the updated Privacy Policy.</p>
+					<p>MiTAC may change the terms of the <span class="underline">Privacy Policy</span> from time to time. In case of any changes, we will post those changes. When we change the policy in a material way, a notice will be posted on our website along with the updated <span class="underline">Privacy Policy</span>.</p>
 					
 					<h5>Contact Us</h5>
-					<p>If you have any concerns as to how your personal data is collected or processed or your rights, or any question about our Privacy Policy, you can contact us.</p>
+					<p><span class="underline">If you have any concerns as to how your personal data is collected or processed or your rights, or any question about our Privacy Policy, you can contact us.</span></p>
 					<p>MiTAC Digital Technology Corporation</p>
 					<address>
 					4F, No. 1, R&D 2nd Road <br/>

@@ -12,7 +12,9 @@ a svg {
   fill: currentcolor;
   vertical-align: middle;
 }
-
+span.underline{
+  text-decoration: underline;
+}
 /* button */
 .btn-blue1,.btn-blue1:focus {
   background-color: #00519c;
