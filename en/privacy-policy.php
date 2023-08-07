@@ -48,13 +48,18 @@
 						<li>We have a variety of pages on social networking sites. If you use these pages, the hosting sites may store cookies onto your device. We do not control the setting of, and accept no liability in connection with these cookies. Please look at the third-party websites for more information about the cookies they use and how you can manage them. Please read the terms of the applicable application for more information.</li>
 						<li>Third party cookies are those that are set by a domain different to the one that the user is visiting. MiTAC uses some carefully selected third parties to provide certain services to improve the service we offer to you. Some of these third parties use cookies. Information about how we use third parties and what cookies they use and why, is given below.</li>
 						<li>MiTAC also provides links to external third party websites and you may choose to click through to these sites. If you do so, these third party sites may send cookies to your browser. We do not control the setting of, and accept no liability in connection with, these cookies. Please look at the cookies policies on the respective websites for more information about what they do with cookies and how you can manage them.</li>
-						<li>Below list includes cookies deployed by such third parties on our Website.</li>
+						<li>
+							Below list includes cookies deployed by such third parties on our Website.
+							<ul>
+								<li>
+									Google Analytics
+									<p>At MiTAC, we use Google Analytics to help us understand how our customers navigate to and through our Website. These cookies enable the function of Google analytics. This service helps us understand how long customers spend visiting different pages and how often they return to our Website. Google Analytics also helps our marketing colleagues to work out the effectiveness of our digital marketing campaigns. You can find out how to opt out of these cookies here: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a></p>
+									<p>To know more information about Cookie, please see <a href="cookie-pocily.php">Cookie Policy</a>.</p>
+								</li>
+							</ul>
+						</li>
 					</ol>
-					
-					<h5><i class="fa fa-caret-right" aria-hidden="true"></i> Google Analytics</h5>
-					<p>At MiTAC, we use Google Analytics to help us understand how our customers navigate to and through our Website. These cookies enable the function of Google analytics. This service helps us understand how long customers spend visiting different pages and how often they return to our Website. Google Analytics also helps our marketing colleagues to work out the effectiveness of our digital marketing campaigns. You can find out how to opt out of these cookies here: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a></p>
-					<p>To know more information about Cookie, please see <a href="cookie-pocily.php">Cookie Policy</a>.</p>
-					
+
 					<h5>SHARING OF YOUR PERSONAL INFORMATION</h5>
 
 					<ol>
