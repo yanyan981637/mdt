@@ -50,11 +50,15 @@
 						<li>MiTAC also provides links to external third party websites and you may choose to click through to these sites. If you do so, these third party sites may send cookies to your browser. We do not control the setting of, and accept no liability in connection with, these cookies. Please look at the cookies policies on the respective websites for more information about what they do with cookies and how you can manage them.</li>
 						<li>
 							Below list includes cookies deployed by such third parties on our Website.
-							<ul>
+							<ul class="list-style">
 								<li>
-									Google Analytics
-									<p>At MiTAC, we use Google Analytics to help us understand how our customers navigate to and through our Website. These cookies enable the function of Google analytics. This service helps us understand how long customers spend visiting different pages and how often they return to our Website. Google Analytics also helps our marketing colleagues to work out the effectiveness of our digital marketing campaigns. You can find out how to opt out of these cookies here: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a></p>
-									<p>To know more information about Cookie, please see <a href="cookie-pocily.php">Cookie Policy</a>.</p>
+									<i class="fa fa-caret-right" aria-hidden="true"></i>Google Analytics
+								</li>
+								<li>
+								At MiTAC, we use Google Analytics to help us understand how our customers navigate to and through our Website. These cookies enable the function of Google analytics. This service helps us understand how long customers spend visiting different pages and how often they return to our Website. Google Analytics also helps our marketing colleagues to work out the effectiveness of our digital marketing campaigns. You can find out how to opt out of these cookies here: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a>.
+								</li>
+								<li>
+								To know more information about Cookie, please see <a href="cookie-pocily.php">Cookie Policy</a>.
 								</li>
 							</ul>
 						</li>
