@@ -41,14 +41,14 @@
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-luminaires-icon text-center">
-            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Location_based.png" alt="定位-GPS/GLONASS/BAIDU">
-            <p>定位-GPS/GLONASS/BAIDU</p>
+            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Location_based.png" alt="定位- GPS / GLONASS / QZSS / BeiDou">
+            <p>定位 - GPS / GLONASS / QZSS / BeiDou</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-luminaires-icon text-center outdoor-luminaires-second">
-            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Flexible_connectivity.png" alt="彈性的連線 - 4G/3G/2G/LTE/NB-IoT/LoRa">
-            <p>彈性的連線 - 4G/3G/2G/LTE/ <span style="display:block"> NB-IoT/LoRa</span></p>
+            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Flexible_connectivity.png" alt="彈性的連線 - 2G / 3G / 4G/ NB-IoT / LoRa">
+            <p>彈性的連線 - 2G / 3G / 4G/ <span style="display: inline-block;">NB-IoT</span> / LoRa</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">

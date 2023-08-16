@@ -41,14 +41,14 @@
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-luminaires-icon text-center">
-            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Location_based.png" alt="Location based - GPS/GLONASS/BAIDU">
-            <p>Location based - GPS/GLONASS/BAIDU</p>
+            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Location_based.png" alt="Location based - GPS / GLONASS / QZSS / BeiDou">
+            <p>Location based - GPS / GLONASS / QZSS / BeiDou</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-luminaires-icon text-center outdoor-luminaires-second">
-            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Flexible_connectivity.png" alt="Flexible connectivity-4G/3G/2G/LTE/NB-IoT/LoRa">
-            <p>Flexible connectivity -4G/3G/2G/LTE/&nbsp;&nbsp;&nbsp;&nbsp; NB-IoT/LoRa</p>
+            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Flexible_connectivity.png" alt="Flexible connectivity - 2G / 3G / 4G/ NB-IoT / LoRa">
+            <p>Flexible connectivity - 2G / 3G / 4G/ <span style="display: inline-block;">NB-IoT</span> / LoRa</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
