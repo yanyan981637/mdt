@@ -47,8 +47,8 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="outdoor-luminaires-icon text-center outdoor-luminaires-second">
-            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Flexible_connectivity.png" alt="Flexible connectivity - 2G / 3G / 4G/ NB-IoT / LoRa">
-            <p>Flexible connectivity - 2G / 3G / 4G/ <span style="display: inline-block;">NB-IoT</span> / LoRa</p>
+            <img class="rounded img-fluid" src="../images/outdoor-luminaires/Flexible_connectivity.png" alt="Flexible connectivity - 2G / 3G / 4G / NB-IoT / LoRa">
+            <p>Flexible connectivity - 2G / 3G / 4G / <span style="display: inline-block;">NB-IoT</span> / LoRa</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
