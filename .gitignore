@@ -7,3 +7,4 @@ nginx.htaccess
 /css/dist/
 /var
 .env
+/sitemap.xml
