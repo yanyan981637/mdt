@@ -8,314 +8,494 @@
 
 
 <url>
-  <loc>https://www.mitacmdt.com/tw/index.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/index.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/tw/automotive.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/404.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/aiot.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/professional.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/core-competence.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/innovative-engineering.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/quality-management.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/manufacturing-excellence.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/services.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/csr.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/press-events-list.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/company-overview.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/MiTAC-holdings.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/own-brands.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/global-glory.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/investor-relations.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/general-inquiry.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/global-operation.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/recruitment.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/index.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/press-events-20200330.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/press-events-20190424.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/press-events-20190226.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/privacy-policy.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/terms-of-use.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/trademark.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/personal-protect.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/automotive.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/aiot.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/professional.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/core-competence.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/innovative-engineering.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/quality-management.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/manufacturing-excellence.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/services.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/csr.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/Downloads/MiTAC_CSR_2017_EN_final.pdf</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/Downloads/MiTAC_CSR_2017_TW_final.pdf</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/press-events-list.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/press_events_20171012.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/tw/press_events_20170821.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/company-overview.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/connected-dashcam.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/connected-dashcam-K220.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/MiTAC-holdings.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/connected-dashcam-K145-K245.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/own-brands.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/connected-dashcam-K145C-K245C.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/global-glory.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/connected-dashcam-K165-K265.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.mitacmdt.com/en/cookie-pocily.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/Downloads/202003/%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8109%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E9%96%8B%E6%9C%83%E9%80%9A%E7%9F%A5%E6%9B%B8.pdf</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.mitacmdt.com/en/core-competence.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/Downloads/202003/%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8109%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E5%90%84%E9%A0%85%E8%AD%B0%E6%A1%88%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99.pdf</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.mitacmdt.com/en/csr.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/Downloads/202003/%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8109%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.mitacmdt.com/en/cyber_security.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/Downloads/202004/%E3%80%90%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E3%80%91109%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84(109.3.30).pdf</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/fleet-management.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/general-inquiry.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/global-glory.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/global-operation.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/innovative-engineering.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/manufacturing-excellence.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/MiTAC-holdings.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/navigation.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/own-brands.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/press-events-20221123.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/recruitment.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mitacmdt.com/en/press_events_20190411.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/press-events-20220524.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/press-events-20190226.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/press_events_20171012.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/press-events-20171012.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/cookie_pocily.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+  <loc>https://www.mitacmdt.com/en/press-events-20170821.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/press-events-20230515.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/press-events-20211124.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/press-events-20190411.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/press-events-list.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/privacy-policy.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/quality-management.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/recruitment.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/services.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/video-telematics.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/terms-of-use.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.64</priority>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mitacmdt.com/en/trademark.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/auxiliary-software-smart-industrial.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/auxiliary-software-smart-mobility.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/dashcam-recorder.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/faq.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/kiosk.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/motobike-smart-cam.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/outdoor-luminaires.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/outdoor-navigation.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/solution.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/vt-solution.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/en/tablet.php</loc>
+    <lastmod>2023-08-15T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/index.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/404.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/auxiliary-software-smart-industrial.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/auxiliary-software-smart-mobility.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/company-overview.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/connected-dashcam-K145C-K245C.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/en/press_events_20170821.php</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://www.mitacmdt.com/tw/connected-dashcam-K145-K245.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mitacmdt.com/tw/</loc>
-  <lastmod>2021-09-01T03:18:04+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://www.mitacmdt.com/tw/connected-dashcam-K220.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/connected-dashcam-K165-K265.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/core-competence.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/csr.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/dashcam-recorder.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/faq.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/fleet-management.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/general-inquiry.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/global-glory.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/global-operation.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/innovative-engineering.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/kiosk.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/manufacturing-excellence.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/MiTAC-holdings.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/motobike-smart-cam.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/navigation.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/outdoor-navigation.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/outdoor-luminaires.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/own-brands.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/personal-protect.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20220124.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20211124.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20211109.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20200330.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20190424.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20190226.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20171012.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20170821.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20230515.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20221123.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-20220524.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/press-events-list.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/privacy-policy.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/quality-management.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/recruitment.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/services.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/solution.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/tablet.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/terms-of-use.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/trademark.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/video-telematics.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/vt-solution.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mitacmdt.com/tw/cookie-pocily.php</loc>
+    <lastmod>2023-08-15T05:10:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 </urlset>
