@@ -9,9 +9,13 @@
 	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
+			<div class="swiper-slide">
+					<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" class="show-pc" alt="">
+					<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile.jpg" class="show-mobile" alt="">
+				</div>
         <div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
-					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1&origin=<?= $current_domain ?>" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1&origin=<?= $current_domain ?>&playsinline=1&html5=1&hd=1&wmode=opaque&showinfo=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
       <!-- <div class="swiper-button-next swiper-button-white"></div>
@@ -22,102 +26,77 @@
 	</div>
 
 
-<script>
-
-	var youtube_prefix = 'slide_youtubr_'
-  var tag = document.createElement('script');
-
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  var player_list = {}
-
-  function onPlayerReady(event) {
-    // console.log('ready')
-    // console.log(event)
-    var iframe_el = $('#' + event.target.g.id)
-
-    event.target.mute();
-
-    if (iframe_el.parent().hasClass('swiper-slide-active')) {
-      event.target.playVideo();
-    }else {
-      event.target.stopVideo();
-    }
-  }
-  function onPlayerStateChange(event) {
-
-		if(event.data === 0) {
-			event.target.seekTo(0).playVideo();
-		}
-  }
+	<script>
 
 
-  function stopAllvideo(){
-    for (var play_key in player_list) {
-      if (player_list[play_key]){
-        player_list[play_key].stopVideo()
-      }
-    }
-  }
+var swiper;
 
-  var swiper;
+swiper = new Swiper(".mySwiper", {
+	centeredSlides: true,
+	autoplay: {
+		delay: 10000
+	},
+	// autoplay: false,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+	loop: true,
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+	on: {
 
-  swiper = new Swiper(".mySwiper", {
-    centeredSlides: true,
-		// autoplay: {
-		// 	delay: 10000,
-    //   pauseOnMouseEnter: true,
-    //   disableOnInteraction: false,
-		// },
-    autoplay: false,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
-    // loop: true,
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
-    on: {
-      init: function(swiper) {
-				var __that = this;
-				window.onYouTubeIframeAPIReady =function() {
-					$(__that.slides).each(function(silde_i, silde) {
-						$(silde).find('iframe').each(function(){
-							var new_id = youtube_prefix + silde_i;
-							$(this).attr('id', new_id)
-							player_list[new_id] = new YT.Player(new_id, {
-								events: {
-									'onReady': onPlayerReady,
-									'onStateChange': onPlayerStateChange
-								}
-							})
-						})
-					})
-				}
-      },
-      slideChange: function() {
-        stopAllvideo();
-				console.log(this.activeIndex)
-				if(player_list[youtube_prefix + this.activeIndex]) {
-					player_list[youtube_prefix + this.activeIndex].playVideo()
-				}
-      }
-    }
-  });
+		slideChange: function () {
+					// 暂停所有slide上的YouTube视频
+					var allIframes = document.querySelectorAll('.swiper-slide iframe');
+					allIframes.forEach((iframe) => {
+							iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+							iframe.addEventListener('onStateChange', function (event) {
+									// 0 表示视频结束
+									console.log('acv')
+									if (event.data === 0) {
+											// 重新播放视频
+											currentIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+									}
+							});
+					});
+
+					// 当前slide是包含YouTube视频的slide
+					var currentSlide =document.querySelectorAll('.swiper-slide')[this.activeIndex];
+					
+					var currentIframe = currentSlide.querySelectorAll('iframe');
+					
+					// 如果当前slide包含YouTube视频，则开始播放
+					if (currentIframe.length>0) {
+						console.log(currentIframe[0])
+						currentIframe[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+							
+							// 监听YouTube视频状态变化
+							currentIframe[0].addEventListener('onStateChange', function (event) {
+									// 0 表示视频结束
+									console.log('onStateChange')
+									if (event.data === 0) {
+											// 重新播放视频
+											currentIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+									}
+							});
+					}
+			},
+	}
+});
 
 
-  // $(swiper.$el).on('mouseenter', function(){
-  //   swiper.autoplay.stop()
-  // })
-  // $(swiper.$el).on('mouseleave', function(){
-  //   swiper.autoplay.start()
-  // })
+$(swiper.$el).on('mouseenter', function () {
+	swiper.autoplay.stop()
+})
+$(swiper.$el).on('mouseleave', function () {
+	swiper.autoplay.start()
+})
 
-  </script>
+
+</script>
 	
 	<div class="section padding-top-bottom background-white">
 		<div class="container">

@@ -688,7 +688,25 @@ span.underline{
 #home-slide .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: rgba(204,204,204,1);
 }
-
+#home-slide img{
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#home-slide img.show-pc{
+  display: none;
+}
+#home-slide img.show-mobile{
+  display: block;
+}
+@media (min-width: 415px){
+  #home-slide img.show-pc{
+    display: block;
+  }
+  #home-slide img.show-mobile{
+    display: none;
+  }
+}
 .btn-youtube {
   background-color: transparent;
   border: 3px solid #ffffff;

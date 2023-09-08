@@ -1,125 +1,108 @@
 <?php
-	include 'inc/HEADER.php';
+include 'inc/HEADER.php';
 ?>
 
-	<!--home slider-->
-	<!-- Swiper -->
-	<div class="fix-slider"></div><!--to solve not full width-->
+<!--home slider-->
+<!-- Swiper -->
+<div class="fix-slider"></div><!--to solve not full width-->
 
-	<!-- home -->
-	<div class="section mt-85">
+<!-- home -->
+<div class="section mt-85">
 	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
-					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1&origin=<?= $current_domain ?>" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-        </div>
-      </div>
-      <!-- <div class="swiper-button-next swiper-button-white"></div>
-    	<div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div> -->
-    </div>
-  </div>
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" class="show-pc" alt="">
+					<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile.jpg" class="show-mobile" alt="">
+				</div>
+				<div class="swiper-slide">
+					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI "
+						target="_blank">瞭解更多</a>
+					<iframe type="text/html" id="youtube"
+						src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1&origin=http://localhost:2020/"
+						frameborder="0" allowfullscreen
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+				</div>
+			</div>
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+			<div class="swiper-pagination"></div>
+		</div>
 	</div>
+</div>
 
-
+<script src="https://www.youtube.com/iframe_api"></script>
 <script>
 
-	var youtube_prefix = 'slide_youtubr_'
-  var tag = document.createElement('script');
 
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	var swiper;
 
-  var player_list = {}
+	swiper = new Swiper(".mySwiper", {
+		centeredSlides: true,
+		autoplay: {
+			delay: 10000
+		},
+		// autoplay: false,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		loop: true,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		on: {
 
-  function onPlayerReady(event) {
-    // console.log('ready')
-    // console.log(event)
-    var iframe_el = $('#' + event.target.g.id)
+			slideChange: function () {
+            // 暂停所有slide上的YouTube视频
+            var allIframes = document.querySelectorAll('.swiper-slide iframe');
+            allIframes.forEach((iframe) => {
+                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+								iframe.addEventListener('onStateChange', function (event) {
+                    // 0 表示视频结束
+										console.log('acv')
+                    if (event.data === 0) {
+                        // 重新播放视频
+                        currentIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                    }
+                });
+            });
 
-    event.target.mute();
-
-    if (iframe_el.parent().hasClass('swiper-slide-active')) {
-      event.target.playVideo();
-    }else {
-      event.target.stopVideo();
-    }
-  }
-  function onPlayerStateChange(event) {
-
-		if(event.data === 0) {
-			event.target.seekTo(0).playVideo();
+            // 当前slide是包含YouTube视频的slide
+            var currentSlide =document.querySelectorAll('.swiper-slide')[this.activeIndex];
+						
+            var currentIframe = currentSlide.querySelectorAll('iframe');
+						
+            // 如果当前slide包含YouTube视频，则开始播放
+            if (currentIframe.length>0) {
+							console.log(currentIframe[0])
+							currentIframe[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                
+                // 监听YouTube视频状态变化
+                currentIframe[0].addEventListener('onStateChange', function (event) {
+                    // 0 表示视频结束
+										console.log('onStateChange')
+                    if (event.data === 0) {
+                        // 重新播放视频
+                        currentIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                    }
+                });
+            }
+        },
 		}
-  }
+	});
 
 
-  function stopAllvideo(){
-    for (var play_key in player_list) {
-      if (player_list[play_key]){
-        player_list[play_key].stopVideo()
-      }
-    }
-  }
-
-  var swiper;
-
-  swiper = new Swiper(".mySwiper", {
-    centeredSlides: true,
-		// autoplay: {
-		// 	delay: 10000,
-    //   pauseOnMouseEnter: true,
-    //   disableOnInteraction: false,
-		// },
-    autoplay: false,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
-    // loop: true,
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
-    on: {
-      init: function(swiper) {
-				var __that = this;
-				window.onYouTubeIframeAPIReady =function() {
-					$(__that.slides).each(function(silde_i, silde) {
-						$(silde).find('iframe').each(function(){
-							var new_id = youtube_prefix + silde_i;
-							$(this).attr('id', new_id)
-							player_list[new_id] = new YT.Player(new_id, {
-								events: {
-									'onReady': onPlayerReady,
-									'onStateChange': onPlayerStateChange
-								}
-							})
-						})
-					})
-				}
-      },
-      slideChange: function() {
-        stopAllvideo();
-				console.log(this.activeIndex)
-				if(player_list[youtube_prefix + this.activeIndex]) {
-					player_list[youtube_prefix + this.activeIndex].playVideo()
-				}
-      }
-    }
-  });
+	$(swiper.$el).on('mouseenter', function () {
+		swiper.autoplay.stop()
+	})
+	$(swiper.$el).on('mouseleave', function () {
+		swiper.autoplay.start()
+	})
 
 
-  // $(swiper.$el).on('mouseenter', function(){
-  //   swiper.autoplay.stop()
-  // })
-  // $(swiper.$el).on('mouseleave', function(){
-  //   swiper.autoplay.start()
-  // })
-
-  </script>
+</script>
 
 <div class="section padding-top-bottom background-white">
 	<div class="container">
@@ -127,9 +110,13 @@
 			<div class="col-md-10">
 				<div class="call-box-4">
 					<h1 class="h2 tc mb-20">車用電子及智聯網解決方案</h1>
-					<p class="ContImp">神達數位是一個廣受信賴的車用電子領導廠商，帶領使用者正面熱情地找尋人生方向並持續向前邁進。除了致力於提供高品質的車用電子產業相關軟硬體設備，我們也是智聯網解決方案、強固型專業平板領域的創新先驅者，我們以GPS和影像處理核心技術，滿足客戶實際需求，並以體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。</p>
+					<p class="ContImp">
+						神達數位是一個廣受信賴的車用電子領導廠商，帶領使用者正面熱情地找尋人生方向並持續向前邁進。除了致力於提供高品質的車用電子產業相關軟硬體設備，我們也是智聯網解決方案、強固型專業平板領域的創新先驅者，我們以GPS和影像處理核心技術，滿足客戶實際需求，並以體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。
+					</p>
 					<p class="ContImp">我們擁有強大的技術支援團隊、嚴謹的品質管理六大程序以及符合ISO國際標準的生產製造流程，確保所有產品在送達客戶端之前皆已通過最嚴格的把關標準。</p>
-					<p class="ContImp">神達數位的銷售遍及全球五大洲，因應全球市場的劇烈變化快速，及加強生產佈局，2020年神達數位選擇在新竹科學園區進駐與設廠，期望在提升研發能量，提供高品質生產製造，以及加強與國內汽車供應鏈合作，在汽車產業CASE(Connected連網，Autonomous自駕，Shared分享，Electric電力)願景下，攜手共創三贏。</p>
+					<p class="ContImp">
+						神達數位的銷售遍及全球五大洲，因應全球市場的劇烈變化快速，及加強生產佈局，2020年神達數位選擇在新竹科學園區進駐與設廠，期望在提升研發能量，提供高品質生產製造，以及加強與國內汽車供應鏈合作，在汽車產業CASE(Connected連網，Autonomous自駕，Shared分享，Electric電力)願景下，攜手共創三贏。
+					</p>
 				</div>
 			</div>
 		</div>
@@ -161,7 +148,9 @@
 				<div class="item item--mizuno">
 					<a href="video-telematics.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧車載資通訊</h2><span></span></h3>
+							<h3 class="FC_W ttl">
+								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧車載資通訊</h2><span></span>
+							</h3>
 							<p class="leads">
 								<span>神達數位兼具資通訊與汽車產業領導者角色，以車聯網解決方案，不斷與時並進持續創新，提供使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析。</span>
 							</p>
@@ -175,7 +164,9 @@
 				<div class="item item--second">
 					<a href="tablet.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧工業</h2><span></span></h3>
+							<h3 class="FC_W ttl">
+								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧工業</h2><span></span>
+							</h3>
 							<p class="leads">
 								<span>為了滿足現今商業模式之需求，神達數位開發出一系列專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療和工業領域，能節省成本並提升工作效率。</span>
 							</p>
@@ -189,7 +180,9 @@
 				<div class="item item--enfold">
 					<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
-							<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧物聯</h2><span></span></h3>
+							<h3 class="FC_W ttl">
+								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧物聯</h2><span></span>
+							</h3>
 							<p class="leads">
 								<span>配備了智慧控制元件、彈性靈活的傳感器和攝影機，我們的定位型戶外照明解決方案實現了照明、監控、追蹤和感測的整合。</span>
 							</p>
@@ -202,7 +195,8 @@
 			</div>
 
 			<ul class="imgs">
-				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="智慧交通"></span></li>
+				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg"
+							alt="智慧交通"></span></li>
 				<li class="img--mizuno"><span><img src="../ext/3screen/images/product_02.jpg" alt="智慧車載資通訊"></span></li>
 				<li class="img--second"><span><img src="../ext/3screen/images/product_03.jpg" alt="智慧工業"></span></li>
 				<li class="img--enfold"><span><img src="../ext/3screen/images/product_04.jpg" alt="智慧物聯"></span></li>
@@ -242,16 +236,20 @@
 							<div class="contentHolder_home" data-0="margin-top: 0px;" data-350="margin-top: -50px;"
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">品質管理</h3>
-								<p>我們運用六個程序在嚴謹的品質管理準則中- DQE(設計品質)，CE(零件品質)，SQA(軟體品質)，PQA(程序品質)，OQA(成品品質)，Service(服務)，以確保所有神達位的產品在送達客戶端之前皆已通過最嚴格的把關標準。</p>
+								<p>我們運用六個程序在嚴謹的品質管理準則中-
+									DQE(設計品質)，CE(零件品質)，SQA(軟體品質)，PQA(程序品質)，OQA(成品品質)，Service(服務)，以確保所有神達位的產品在送達客戶端之前皆已通過最嚴格的把關標準。</p>
 								<a class="btn btn-lg" href="quality-management.php">瞭解更多</a>
 							</div>
 						</li>
 						<li>
-							<div class="imgHolder"><img src="../images/home_capability3_new_20230614.jpg" alt="神達數位生產工廠位於華東地區，配備自動化生產設備，與嚴謹的管理系統，並擁有多項國際ISO認證" /></div>
+							<div class="imgHolder"><img src="../images/home_capability3_new_20230614.jpg"
+									alt="神達數位生產工廠位於華東地區，配備自動化生產設備，與嚴謹的管理系統，並擁有多項國際ISO認證" /></div>
 							<div class="contentHolder_home" data-0="margin-top: 0px;" data-350="margin-top: -50px;"
 								data-500="margin-top: -100px;">
 								<h3 class="FC_mdtB2 mb-30">生產製造</h3>
-								<p>神達數位位於中國的生產製造基地占地一百七十萬九千平方英尺，擁有ISO9001、ISO14001、IHSAS18000、IATF16949、ISO13485、GMP等多項國際認證，先進的自動化生產設備及嚴謹的品管系統，能夠提供高品質產品，滿足客戶特殊需求。</p>
+								<p>
+									神達數位位於中國的生產製造基地占地一百七十萬九千平方英尺，擁有ISO9001、ISO14001、IHSAS18000、IATF16949、ISO13485、GMP等多項國際認證，先進的自動化生產設備及嚴謹的品管系統，能夠提供高品質產品，滿足客戶特殊需求。
+								</p>
 								<a class="btn btn-lg" href="manufacturing-excellence.php">瞭解更多</a>
 							</div>
 						</li>
@@ -296,12 +294,15 @@
 			</div>
 		</div>
 		<div class="row">
-		  <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2023.05.15</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850 系列榮獲 2023 年 iF 設計獎！</a></h6>
-					<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850 系列榮獲
+							2023 年 iF 設計獎！</a></h6>
+					<div class="pricing-img"><a href="press-events-20230515.php"><img
+								src="../images/press_news/press-room-new-pic-20230515-cover.png"
+								alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
@@ -310,18 +311,24 @@
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2022.11.23</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20221123.php">MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定</a></h6>
-					<div class="pricing-img"><a href="press-events-20221123.php"><img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20221123.php">MiTAC
+							車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定</a></h6>
+					<div class="pricing-img"><a href="press-events-20221123.php"><img
+								src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg"
+								alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
-		
+
 			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2022.05.24</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20220524.php">神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定</a></h6>
-					<div class="pricing-img"><a href="press-events-20220524.php"><img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png" alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定"></a></div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20220524.php">神達數位車載視訊管理解決方案獲Computex Best Choice
+							Award肯定</a></h6>
+					<div class="pricing-img"><a href="press-events-20220524.php"><img
+								src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png"
+								alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
@@ -349,7 +356,9 @@
 			<div class="col-md-6">
 				<p class="ContGen FC_W">神達數位是世界知名的車用電子產品領導廠商，以GPS和影像處理核心技術，結合熱情、積極、正向的態度與決心，滿足客戶實際需求。</p>
 				<div class="tc mt-30">
-					<a href="company-overview.php" class="btn btn-blue btn-round btn-lg"><h6>瞭解更多</h6></a>
+					<a href="company-overview.php" class="btn btn-blue btn-round btn-lg">
+						<h6>瞭解更多</h6>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -368,8 +377,7 @@
 				</div>
 				<a href="recruitment.php">
 					<figure class="image-hover">
-						<img src="../images/home_hr.jpg"
-							class="attachment-portfolio-3-col size-portfolio-3-col wp-post-image"
+						<img src="../images/home_hr.jpg" class="attachment-portfolio-3-col size-portfolio-3-col wp-post-image"
 							sizes="(max-width: 570px) 100vw, 561px" alt="歡迎加入神達數位大家庭">
 						<figcaption></figcaption>
 					</figure>
@@ -383,8 +391,7 @@
 				</div>
 				<a href="general-inquiry.php">
 					<figure class="image-hover">
-						<img src="../images/home_contact.jpg"
-							class="attachment-portfolio-3-col size-portfolio-3-col wp-post-image"
+						<img src="../images/home_contact.jpg" class="attachment-portfolio-3-col size-portfolio-3-col wp-post-image"
 							sizes="(max-width: 570px) 100vw, 561px" alt="神達數位＿聯絡我們">
 						<figcaption></figcaption>
 					</figure>
@@ -398,5 +405,5 @@
 
 
 <?php
-	include 'inc/FOOTER.php';
+include 'inc/FOOTER.php';
 ?>
