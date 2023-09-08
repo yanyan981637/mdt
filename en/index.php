@@ -9,9 +9,32 @@
 	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-			<div class="swiper-slide">
-					<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" class="show-pc" alt="">
-					<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile.jpg" class="show-mobile" alt="">
+				<div class="swiper-slide">
+					<div class="show-pc img">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" alt="">
+					</div>
+					<div class="show-tablet img">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_1024x1024.jpg" alt="">
+						<div class="banner-text">
+								<h5>Visit Us @ AAPEX</h5>
+								<p>All-in-one Solution for</p>
+								<p>Fleet Management</p>
+								<p>2023/10/31 ~ 11/02</p>
+								<p>THE VENETIAN EXPO, Level 1,</p>
+								<p>Booth No.J10224</p>
+						</div>
+					</div>
+					<div class="show-mobile img">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_410x410.png" class="show-mobile" alt="">
+						<div class="banner-text">
+								<h5>Visit Us @ AAPEX</h5>
+								<p>All-in-one Solution for</p>
+								<p>Fleet Management</p>
+								<p>2023/10/31 ~ 11/02</p>
+								<p>THE VENETIAN EXPO, Level 1,</p>
+								<p>Booth No.J10224</p>
+						</div>
+					</div>
 				</div>
         <div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
@@ -40,10 +63,10 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	autoplay: {
-		delay: 10000
-	},
-	// autoplay: false,
+	// autoplay: {
+	// 	delay: 10000
+	// },
+	autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
@@ -74,12 +97,12 @@ swiper = new Swiper(".mySwiper", {
 });
 
 
-$(swiper.$el).on('mouseenter', function () {
-	swiper.autoplay.stop()
-})
-$(swiper.$el).on('mouseleave', function () {
-	swiper.autoplay.start()
-})
+// $(swiper.$el).on('mouseenter', function () {
+// 	swiper.autoplay.stop()
+// })
+// $(swiper.$el).on('mouseleave', function () {
+// 	swiper.autoplay.start()
+// })
 
 
 function onYouTubeIframeAPIReady() {

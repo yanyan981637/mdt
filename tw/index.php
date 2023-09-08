@@ -12,8 +12,15 @@ include 'inc/HEADER.php';
 		<div class="swiper mySwiper">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" class="show-pc" alt="">
-					<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile.jpg" class="show-mobile" alt="">
+					<div class="show-pc img">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" alt="">
+					</div>
+					<div class="show-tablet img">
+						<img src="../images/home/slider-AAPEX_2023_bg_mio_mobile_1024x1024.jpg" alt="">
+					</div>
+					<div class="show-mobile img">
+						<img src="../images/home/slider-AAPEX_2023_bg_mio_mobile_414x414.jpg" class="show-mobile" alt="">
+					</div>
 				</div>
 				<div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI "
@@ -41,10 +48,10 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	autoplay: {
-		delay: 10000
-	},
-	// autoplay: false,
+	// autoplay: {
+	// 	delay: 10000
+	// },
+	autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
@@ -75,12 +82,12 @@ swiper = new Swiper(".mySwiper", {
 });
 
 
-$(swiper.$el).on('mouseenter', function () {
-	swiper.autoplay.stop()
-})
-$(swiper.$el).on('mouseleave', function () {
-	swiper.autoplay.start()
-})
+// $(swiper.$el).on('mouseenter', function () {
+// 	swiper.autoplay.stop()
+// })
+// $(swiper.$el).on('mouseleave', function () {
+// 	swiper.autoplay.start()
+// })
 
 
 function onYouTubeIframeAPIReady() {
