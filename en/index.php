@@ -15,18 +15,25 @@
 				</div>
         <div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
-					<iframe id="ytplayer1" data-youtube="ytplayer1" type="text/html" src="https://www.youtube.com/embed/rnKZS2D-2HA?rel=0&autoplay=1&enablejsapi=1&loop=1&origin=<?= $current_domain ?>&playsinline=1&html5=1&hd=1&wmode=opaque&showinfo=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+
+					<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
         </div>
       </div>
-      <!-- <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
     	<div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div> -->
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 	</div>
 
 
 	<script>
+ var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var youtube_prefix = 'slide_youtubr_'
 
 
 var swiper;
@@ -49,40 +56,19 @@ swiper = new Swiper(".mySwiper", {
 	on: {
 
 		slideChange: function () {
-					// 暂停所有slide上的YouTube视频
-					var allIframes = document.querySelectorAll('.swiper-slide iframe');
-					allIframes.forEach((iframe) => {
-							iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-							iframe.addEventListener('onStateChange', function (event) {
-									// 0 表示视频结束
-									console.log('acv')
-									if (event.data === 0) {
-											// 重新播放视频
-											currentIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-									}
-							});
-					});
-
-					// 当前slide是包含YouTube视频的slide
-					var currentSlide =document.querySelectorAll('.swiper-slide')[this.activeIndex];
-					
-					var currentIframe = currentSlide.querySelectorAll('iframe');
-					
-					// 如果当前slide包含YouTube视频，则开始播放
-					if (currentIframe.length>0) {
-						console.log(currentIframe[0])
-						currentIframe[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-							
-							// 监听YouTube视频状态变化
-							currentIframe[0].addEventListener('onStateChange', function (event) {
-									// 0 表示视频结束
-									console.log('onStateChange')
-									if (event.data === 0) {
-											// 重新播放视频
-											currentIframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-									}
-							});
+			var current = this.activeIndex
+				$('.swiper-slide').each(function(i, el){
+					if(current === i){
+						if(el.video){
+							el.video.mute().playVideo()
+						}
+					}else {
+						if(el.video){
+							el.video.stopVideo()
+						}
 					}
+					
+				})
 			},
 	}
 });
@@ -94,6 +80,32 @@ $(swiper.$el).on('mouseenter', function () {
 $(swiper.$el).on('mouseleave', function () {
 	swiper.autoplay.start()
 })
+
+
+function onYouTubeIframeAPIReady() {
+	$('.swiper-slide').each(function(i, el){
+		var youtube_iframe = $(el).find('.youtube_iframe');
+
+		if(youtube_iframe.length > 0){
+			$(youtube_iframe).attr('id', youtube_prefix + i);
+			el.video = new YT.Player(youtube_prefix + i, {
+          videoId: $(youtube_iframe).data('youtube'),
+          events: {
+            // 'onReady': function(){
+						// 	console.log('ready')
+						// },
+            'onStateChange': function(e){
+							if(e.data === 0){
+								e.target.playVideo()
+							}
+						}
+          }
+        });
+		}
+
+
+	})
+}
 
 
 </script>
