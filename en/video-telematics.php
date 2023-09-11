@@ -122,6 +122,7 @@
 						<img src="../images/connected_dashcam/firstnet.jpg" />
 						<img src="../images/connected_dashcam/T-Mobile.jpg" />
 						<img src="../images/connected_dashcam/verizon.jpg" />
+						<img src="../images/connected_dashcam/telstra_certified.jpg" />
 					</div>
 
 					<div>
