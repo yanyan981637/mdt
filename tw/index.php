@@ -27,7 +27,7 @@ include 'inc/HEADER.php';
 						</div>
 					</div>
 					<div class="show-mobile img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_576x576.png" class="show-mobile" alt="">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_576x576.jpg" class="show-mobile" alt="">
 						<div class="banner-text">
 								<h5>Visit Us @ AAPEX</h5>
 								<p>All-in-one Solution for</p>
@@ -84,11 +84,17 @@ swiper = new Swiper(".mySwiper", {
 				$('.swiper-slide').each(function(i, el){
 					if(current === i){
 						if(el.video){
-							el.video.mute().playVideo()
+							try{
+								el.video.mute().playVideo()
+							}catch(){}
 						}
 					}else {
 						if(el.video){
-							el.video.stopVideo()
+							try {
+								el.video.stopVideo()
+							} catch (error) {
+								
+							}
 						}
 					}
 					
@@ -115,9 +121,9 @@ function onYouTubeIframeAPIReady() {
 			el.video = new YT.Player(youtube_prefix + i, {
           videoId: $(youtube_iframe).data('youtube'),
           events: {
-            // 'onReady': function(){
-						// 	console.log('ready')
-						// },
+            'onReady': function(e){
+							el.video.mute().stopVideo()
+						},
             'onStateChange': function(e){
 							if(e.data === 0){
 								e.target.playVideo()
