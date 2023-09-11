@@ -25,7 +25,7 @@
 						</div>
 					</div>
 					<div class="show-mobile img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_410x410.png" class="show-mobile" alt="">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_576x576.png" class="show-mobile" alt="">
 						<div class="banner-text">
 								<h5>Visit Us @ AAPEX</h5>
 								<p>All-in-one Solution for</p>
@@ -63,10 +63,10 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	// autoplay: {
-	// 	delay: 10000
-	// },
-	autoplay: false,
+	autoplay: {
+		delay: 10000
+	},
+	// autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
@@ -97,12 +97,12 @@ swiper = new Swiper(".mySwiper", {
 });
 
 
-// $(swiper.$el).on('mouseenter', function () {
-// 	swiper.autoplay.stop()
-// })
-// $(swiper.$el).on('mouseleave', function () {
-// 	swiper.autoplay.start()
-// })
+$(swiper.$el).on('mouseenter', function () {
+	swiper.autoplay.stop()
+})
+$(swiper.$el).on('mouseleave', function () {
+	swiper.autoplay.start()
+})
 
 
 function onYouTubeIframeAPIReady() {

@@ -705,7 +705,7 @@ span.underline{
 #home-slide .swiper-slide .img.show-pc{
   display: none;
 }
-@media (min-width: 415px){
+@media (min-width: 577px){
   #home-slide .swiper-slide .img.show-mobile{
     display: none;
   }
@@ -727,7 +727,7 @@ span.underline{
   padding: 20px;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 35%;
   -o-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -737,28 +737,28 @@ span.underline{
 
 
 #home-slide .swiper-slide .img .banner-text h5 {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.5;
   color: #ffffff;
   font-weight: bold;
 }
 #home-slide .swiper-slide .img .banner-text p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   font-weight: bold;
   margin: 0;
 }
 
-@media (min-width: 415px){
+@media (min-width: 577px){
   #home-slide .swiper-slide .img .banner-text{
     
   }
   #home-slide .swiper-slide .img .banner-text h5 {
-    font-size: 50px;
+    font-size: 40px;
   }
   #home-slide .swiper-slide .img .banner-text p{
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
