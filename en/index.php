@@ -51,7 +51,7 @@
 
 
 	<script>
- var tag = document.createElement('script');
+	var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -85,7 +85,7 @@ swiper = new Swiper(".mySwiper", {
 						if(el.video){
 							try{
 								el.video.mute().playVideo()
-							}catch(){}
+							}catch(error){}
 						}
 					}else {
 						if(el.video){
@@ -120,9 +120,9 @@ function onYouTubeIframeAPIReady() {
 			el.video = new YT.Player(youtube_prefix + i, {
           videoId: $(youtube_iframe).data('youtube'),
           events: {
-            // 'onReady': function(){
-						// 	console.log('ready')
-						// },
+            'onReady': function(e){
+							el.video.mute().playVideo()
+						},
             'onStateChange': function(e){
 							if(e.data === 0){
 								e.target.playVideo()
