@@ -13,10 +13,10 @@ include 'inc/HEADER.php';
 			<div class="swiper-wrapper">
 			<div class="swiper-slide">
 					<div class="show-pc img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt.jpg" alt="">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_0926.jpg" alt="">
 					</div>
 					<div class="show-tablet img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_1024x1024.jpg" alt="">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_1024x1024_0926.jpg" alt="">
 						<div class="banner-text">
 								<h5>Visit Us @ AAPEX</h5>
 								<p>All-in-one Solution for</p>
@@ -27,7 +27,7 @@ include 'inc/HEADER.php';
 						</div>
 					</div>
 					<div class="show-mobile img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_empty_576x576.jpg" class="show-mobile" alt="">
+						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_576x576_0926.jpg" class="show-mobile" alt="">
 						<div class="banner-text">
 								<h5>Visit Us @ AAPEX</h5>
 								<p>All-in-one Solution for</p>
