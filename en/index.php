@@ -6,47 +6,39 @@
 	<!-- Swiper -->
 	<!-- home -->
 	<div class="section mt-85">
-	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<div class="show-pc img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_0926.jpg" alt="">
-					</div>
-					<div class="show-tablet img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_1024x1024_0926.jpg" alt="">
+		<div class="embed-responsive embed-responsive-16by9" id="home-slide">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+						<!--<div class="swiper-slide">
+							<div class="show-pc img">
+								<img src="../images/home/xxx.jpg" alt="">
+							</div>
+							<div class="show-tablet img">
+								<img src="../images/home/xxx.jpg" alt="">
+									<div class="banner-text">
+										<h5></h5>
+										<p></p>
+									</div>
+							</div>
+						<div class="show-mobile img">
+						<img src="../images/home/xxx.jpg" class="show-mobile" alt="">
 						<div class="banner-text">
-								<h5>Visit Us @ AAPEX</h5>
-								<p>All-in-one Solution for</p>
-								<p>Fleet Management</p>
-								<p>2023/10/31 ~ 11/02</p>
-								<p>THE VENETIAN EXPO, Level 1,</p>
-								<p>Booth No.J10224</p>
+						<h5></h5>
+						<p></p>
 						</div>
-					</div>
-					<div class="show-mobile img">
-						<img src="../images/home/slider-AAPEX_2023_bg_mdt_mobile_576x576_0926.jpg" class="show-mobile" alt="">
-						<div class="banner-text">
-								<h5>Visit Us @ AAPEX</h5>
-								<p>All-in-one Solution for</p>
-								<p>Fleet Management</p>
-								<p>2023/10/31 ~ 11/02</p>
-								<p>THE VENETIAN EXPO, Level 1,</p>
-								<p>Booth No.J10224</p>
 						</div>
+					</div>-->
+					<div class="swiper-slide">
+						<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
+
+						<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 					</div>
 				</div>
-        <div class="swiper-slide">
-					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
-
-					<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
-        </div>
-      </div>
-      <div class="swiper-button-next swiper-button-white"></div>
-    	<div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
+				<!--<div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-prev swiper-button-white"></div>
+				<div class="swiper-pagination"></div>-->
+			</div>
+		</div>
 	</div>
 
 
@@ -63,15 +55,15 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	autoplay: {
+	/*autoplay: {
 		delay: 10000
-	},
-	// autoplay: false,
+	},*/
+	autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-	loop: true,
+	//loop: true,
 	navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
