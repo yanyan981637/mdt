@@ -114,9 +114,9 @@
 						<li>Compact design, simple as is</li>
 					</ul>
 					<div class="pdt_desc_ico">
-					  <img src="../images/connected_dashcam/android.jpg" />
-						<img src="../images/connected_dashcam/Qualcomm.jpg" />
-						<img src="../images/connected_dashcam/aws.jpg" />
+						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
+						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 				</div>
 			</div>	

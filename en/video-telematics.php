@@ -57,7 +57,7 @@
     <div class="container">
       <div class="row col-md-12">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K165_K265_image_1.png" alt="K165/K265" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K165_K265_image_1.png" alt="K165/K265  Non-box Type 7-channel MDVR" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
@@ -99,7 +99,7 @@
 	  <div class="container">
       <div class="row col-md-12 mt-30">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C:The Best Choice with Carrier Certifications" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
@@ -142,7 +142,7 @@
 	  <div class="container">
       <div class="row col-md-12 mt-30">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245:Exquisite Appearance Model" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
@@ -178,7 +178,7 @@
 	  <div class="container">
       <div class="row col-md-12 mt-30">
 			  <div class="col-md-6 mt-30">
-					<img src="../images/video-telematics/K220_image_1.png" alt="K220" class="rounded mx-auto d-block img-fluid">
+					<img src="../images/video-telematics/K220_image_1.png" alt="K220:Affordable Solution" class="rounded mx-auto d-block img-fluid">
 			  </div>	
 			  <div class="col-md-6">
 					<div class="pdt_name mt_mb_3 pt_pb_1r">
