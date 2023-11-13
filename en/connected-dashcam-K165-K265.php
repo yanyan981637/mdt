@@ -58,10 +58,10 @@
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
 										<!-- <img src="../images/connected_dashcam/pdt/K165_W.png" /> -->
-										<img src="../images/video-telematics/K165_K265_image_1.png">
+										<img src="../images/video-telematics/K165_K265_image_1.png" alt="K165/K265  Non-box Type 7-channel MDVR">
 									</div>
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K265_W.png" />
+										<img src="../images/connected_dashcam/pdt/K265_W.png" alt="K165/K265  Non-box Type 7-channel MDVR" />
 									</div>
 							</div>
 							<!-- Add Arrows -->

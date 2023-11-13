@@ -56,11 +56,11 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-										<img src="../images/video-telematics/K145C_K245C_image_1.png" />
+										<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C:The Best Choice with Carrier Certifications" />
 									</div>
 
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K245c_W.png" />
+										<img src="../images/connected_dashcam/pdt/K245c_W.png" alt="K145C/K245C:The Best Choice with Carrier Certifications" />
 									</div>
 							</div>
 							<!-- Add Arrows -->

@@ -75,12 +75,12 @@
 						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
-					  <img src="../images/connected_dashcam/android.jpg" />
-						<img src="../images/connected_dashcam/Qualcomm.jpg" />
-						<img src="../images/connected_dashcam/ATT.jpg" />
-						<img src="../images/connected_dashcam/PTCRB.jpg" />
-						<img src="../images/connected_dashcam/verizon.jpg" />
-						<img src="../images/connected_dashcam/aws.jpg" />
+					  <img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
+						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
+						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
+						<img src="../images/connected_dashcam/verizon.jpg" alt="Verizon Certification" />
+						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 
 					<div>
@@ -117,14 +117,14 @@
 					</ul>
 
 					<div class="pdt_desc_ico">
-					  <img src="../images/connected_dashcam/android.jpg" />
-						<img src="../images/connected_dashcam/Qualcomm.jpg" />
-						<img src="../images/connected_dashcam/aws.jpg" />
-						<img src="../images/connected_dashcam/ATT.jpg" />
-						<img src="../images/connected_dashcam/firstnet.jpg" />
-						<img src="../images/connected_dashcam/T-Mobile.jpg" />
-						<img src="../images/connected_dashcam/verizon.jpg" />
-						<img src="../images/connected_dashcam/telstra_certified.jpg" />
+						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
+						<img src="../images/connected_dashcam/aws.jpg" alt="AT&amp;T Network Ready Device" />
+						<img src="../images/connected_dashcam/ATT.jpg" alt="AWS Certification" />
+						<img src="../images/connected_dashcam/firstnet.jpg" alt="FIRSTNT Certification" />
+						<img src="../images/connected_dashcam/T-Mobile.jpg" alt="T-Mobile Certification" />
+						<img src="../images/connected_dashcam/verizon.jpg" alt="Verizon Certification" />
+						<img src="../images/connected_dashcam/telstra_certified.jpg" alt="Telstra Certification" />
 					</div>
 
 					<div>
@@ -159,9 +159,9 @@
 						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
-					  <img src="../images/connected_dashcam/android.jpg" />
-						<img src="../images/connected_dashcam/Qualcomm.jpg" />
-						<img src="../images/connected_dashcam/aws.jpg" />
+						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
+						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 
 					<div>
@@ -196,9 +196,9 @@
 						<li>防竄改設計</li>
 					</ul>
 					<div class="pdt_desc_ico">
-					  <img src="../images/connected_dashcam/android.jpg" />
-						<img src="../images/connected_dashcam/Qualcomm.jpg" />
-						<img src="../images/connected_dashcam/aws.jpg" />
+						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
+						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
+						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 
 					<div>

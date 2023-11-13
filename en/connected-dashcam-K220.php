@@ -54,10 +54,10 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-										<img src="../images/video-telematics/K220_image_1.png" />
+										<img src="../images/video-telematics/K220_image_1.png" alt="K220:Affordable Solution" />
 									</div>
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K220_W.png" />
+										<img src="../images/connected_dashcam/pdt/K220_W.png" alt="K220:Affordable Solution" />
 									</div>
 							</div>
 							<!-- Add Arrows -->

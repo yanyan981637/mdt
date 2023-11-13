@@ -57,11 +57,11 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-										<img src="../images/video-telematics/K145_K245_image_1.png" />
+										<img src="../images/video-telematics/K145_K245_image_1.png" alt="K145/K245:精緻的外觀" />
 									</div>
 
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K245_W.jpg" />
+										<img src="../images/connected_dashcam/pdt/K245_W.jpg" alt="K145/K245:精緻的外觀" />
 									</div>
 							</div>
 							<!-- Add Arrows -->

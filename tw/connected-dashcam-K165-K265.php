@@ -57,11 +57,11 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-									 <img src="../images/video-telematics/K165_K265_image_1.png">
+									 <img src="../images/video-telematics/K165_K265_image_1.png" alt="K165/K265 一體式7路攝影聯網型行車記錄器">
 									</div>
 
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K265_W.png" />
+										<img src="../images/connected_dashcam/pdt/K265_W.png" alt="K165/K265 一體式7路攝影聯網型行車記錄器" />
 									</div>
 							</div>
 							<!-- Add Arrows -->

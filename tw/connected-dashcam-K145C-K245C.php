@@ -55,11 +55,11 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 									<div class='swiper-slide'>
-										<img src="../images/video-telematics/K145C_K245C_image_1.png" />
+										<img src="../images/video-telematics/K145C_K245C_image_1.png" alt="K145C/K245C:電信商認證的最佳選擇方案" />
 									</div>
 
 									<div class='swiper-slide'>
-										<img src="../images/connected_dashcam/pdt/K245c_W.png" />
+										<img src="../images/connected_dashcam/pdt/K245c_W.png" alt="K145C/K245C:電信商認證的最佳選擇方案" />
 									</div>
 							</div>
 							<!-- Add Arrows -->
