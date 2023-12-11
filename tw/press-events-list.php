@@ -22,6 +22,31 @@
 		<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">新聞</span>
+					<p class="dat">2023.12.06</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20231211.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/TW_excellence_2024-all_cover.jpg" class="" alt="MiTAC 連續四年榮獲台灣精品獎肯定 再展車用電子領域實力">
+								<figcaption>
+									<div class="tit h4">繼續閱讀 </div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20231211.php">MiTAC 連續四年榮獲台灣精品獎肯定 再展車用電子領域實力</a></h5>
+					<p class="brf">(桃園訊，2023年12月06日) – 深耕車用電子產業多年的神達數位電腦(MiTAC Digital Technology Corp.) 宣布旗下：進階版車載視訊管理解決方案 – MioEYE K series + VisionMax、聯網型行車記錄器 – Mio MiSentry 12T 以及機車用分離式行車記錄器 – Mio MiVue M820WD三項年度新品，獲得第32屆台灣精品獎肯定…</p>
+					<span class="more"><a href="press-events-20231211.php">繼續閱讀  <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
+
+		<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">新聞</span>
 					<p class="dat">2023.05.15</p>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">

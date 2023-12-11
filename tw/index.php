@@ -322,6 +322,18 @@ function onYouTubeIframeAPIReady() {
 			</div>
 		</div>
 		<div class="row">
+		<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+				<div class="pricing pt_pb_1r background-white borderTop_B">
+					<div class="pn_p p">新聞</div>
+					<div class="pricing-sub p mb_1">2023.12.06</div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20231211.php">MiTAC 連續四年榮獲台灣精品獎肯定 再展車用電子領域實力</a></h6>
+					<div class="pricing-img"><a href="press-events-20231211.php"><img
+								src="../images/press_news/TW_excellence_2024-all_cover.jpg"
+								alt="MiTAC 連續四年榮獲台灣精品獎肯定 再展車用電子領域實力"></a></div>
+				</div>
+			</div>
+			<div class="clearfix hidden-xs"></div>
+
 			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
@@ -344,19 +356,6 @@ function onYouTubeIframeAPIReady() {
 					<div class="pricing-img"><a href="press-events-20221123.php"><img
 								src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg"
 								alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
-				</div>
-			</div>
-			<div class="clearfix hidden-xs"></div>
-
-			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-				<div class="pricing pt_pb_1r background-white borderTop_B">
-					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2022.05.24</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20220524.php">神達數位車載視訊管理解決方案獲Computex Best Choice
-							Award肯定</a></h6>
-					<div class="pricing-img"><a href="press-events-20220524.php"><img
-								src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png"
-								alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>

@@ -300,6 +300,16 @@ function onYouTubeIframeAPIReady() {
 				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 					<div class="pricing pt_pb_1r background-white borderTop_B">
 						<div class="pn_p p">Press</div>
+						<div class="pricing-sub p mb_1">2023.12.06</div>
+						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20231211.php">MiTAC Continues Winning Streak at Taiwan Excellence Awards, Showcasing Continued Dominance in Automotive Electronics</a></h6>
+						<div class="pricing-img"><a href="press-events-20231211.php"><img src="../images/press_news/TW_excellence_2024-all_cover.jpg" alt="MiTAC Continues Winning Streak at Taiwan Excellence Awards, Showcasing Continued Dominance in Automotive Electronics"></a></div>
+					</div>
+				</div>
+				<div class="clearfix hidden-xs"></div>
+
+				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+					<div class="pricing pt_pb_1r background-white borderTop_B">
+						<div class="pn_p p">Press</div>
 						<div class="pricing-sub p mb_1">2023.05.15</div>
 						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850 Series win the iF DESIGN AWARD 2023</a></h6>
 						<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="Mio MiVue R850 Series win the iF DESIGN AWARD 2023"></a></div>
@@ -313,16 +323,6 @@ function onYouTubeIframeAPIReady() {
 						<div class="pricing-sub p mb_1">2022.11.23</div>
 						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20221123.php">Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award</a></h6>
 						<div class="pricing-img"><a href="press-events-20221123.php"><img src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg" alt="Double the Honor! MiTAC Video Telematics Managemnet Solution and Dual-Channel E-Mirror Dashcam with Full Screen Touch Panel Win the Taiwan Excellence Award"></a></div>
-					</div>
-				</div>
-				<div class="clearfix hidden-xs"></div>
-			
-				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-					<div class="pricing pt_pb_1r background-white borderTop_B">
-						<div class="pn_p p">Press</div>
-						<div class="pricing-sub p mb_1">2022.05.24</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20220524.php">MiTAC Digital Technology Corporation Named Winner in 2022 Computex Best Choice Awards</a></h6>
-						<div class="pricing-img"><a href="press-events-20220524.php"><img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC1.png" alt="MiTAC Digital Technology Corporation Named Winner in 2022 Computex Best Choice Awards"></a></div>
 					</div>
 				</div>
 				<div class="clearfix hidden-xs"></div>

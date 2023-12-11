@@ -19,6 +19,31 @@
 	<div class="section padding-bottom-small background-white">
 		<div class="container" style="border-top: solid 4px #313139;">
 		
+			<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">Press</span>
+					<p class="dat">2023.12.06</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20231211.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/TW_excellence_2024-all_cover.jpg" class="" alt="MiTAC Continues Winning Streak at Taiwan Excellence Awards, Showcasing Continued Dominance in Automotive Electronics">
+								<figcaption>
+									<div class="tit h4">Read More</div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20231211.php">MiTAC Continues Winning Streak at Taiwan Excellence Awards, Showcasing Continued Dominance in Automotive Electronics</a></h5>
+					<p class="brf">(Taoyuan, December 6, 2023) - MiTAC Digital Technology Corp., a long-standing player in the automotive electronics industry, proudly announces three new annual products that have received recognition at the 32nd Taiwan Excellence Awards: the Enhanced Video Telermatic Management Solution - MioEYE K series + VisionMax, the 4TG LTE Connected Dashcam - Mio MiSentry 12T, and the Separated Type Motorcycle Dashcam - Mio MiVue M820WD...</p>
+					<span class="more"><a href="press-events-20231211.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
+
 		  <div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">Press</span>
