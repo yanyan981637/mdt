@@ -269,7 +269,7 @@
 							<div class="product_desc">
 								<h5>K245C(Dual cam)/K145C(Single cam)</h5>
 								<p>電信商認證的最佳選擇方案</p>
-								<a href="/Downloads/202304/Mitac_K145C+245C_Datasheet_20230714.pdf" target="_bank">
+								<a href="/Downloads/202312/Mitac_K145C_245C_Datasheet_20231208.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -317,7 +317,7 @@
 							<div class="product_desc">
 								<h5>K220(雙鏡頭)</h5>
 								<p>經濟實惠的選擇</p>
-								<a href="/Downloads/202304/Mitac_K220_datasheet_20230714.pdf" target="_bank">
+								<a href="/Downloads/202312/Mitac_K220_datasheet_20231208.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">

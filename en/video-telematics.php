@@ -108,7 +108,7 @@
 					</div>
 					<ul>
 					<li>Always connected via the built-in 4G LTE modem</li>
-					<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS</li>
+					<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS, Rogers, Telus</li>
 					<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 					<li>Flexible platform - open APIs & SDK for seamless integration</li>
 					<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>

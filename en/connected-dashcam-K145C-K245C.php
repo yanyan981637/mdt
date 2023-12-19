@@ -99,7 +99,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145C+245C_Datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202312/Mitac_K145C_245C_Datasheet_20231208.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 					</div>
 					<ul class="mt_2">
 						<li>Always connected via the built-in 4G LTE modem</li>
-						<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS</li>
+						<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS, Rogers, Telus</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
@@ -283,7 +283,7 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE, CB, FCC/IC, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, FirstNet, WEEE, ROHS, AWS (Amazon Web Services)</td>
+							<td class="data tc" colspan="2">CE, CB, FCC/IC, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, FirstNet, WEEE, ROHS, AWS (Amazon Web Services), Telstra, Rogers, Telus</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>

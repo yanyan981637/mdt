@@ -109,7 +109,7 @@
 					</div>
 					<ul>
 						<li>4G LTE 聯網</li>
-						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra等電信商與AWS認證</li>
+						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra, Rogers, Telus等電信商與AWS認證</li>
 						<li>資料同步儲存於本機SD卡和雲端</li>
 						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
 						<li>內建車輛電瓶低電壓保護功能</li>

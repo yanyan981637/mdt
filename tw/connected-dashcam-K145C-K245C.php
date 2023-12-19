@@ -98,7 +98,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145C+245C_Datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
+						<a href="../Downloads/202312/Mitac_K145C_245C_Datasheet_20231208.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
@@ -110,7 +110,7 @@
 					</div>
 					<ul class="mt_2">
 						<li>4G LTE 聯網</li>
-						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra等電信商與AWS認證</li>
+						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra, Rogers, Telus等電信商與AWS認證</li>
 						<li>資料同步儲存於本機SD卡和雲端</li>
 						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
 						<li>內建車輛電瓶低電壓保護功能</li>
@@ -286,7 +286,7 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE, CB, FCC/IC, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, FirstNet, WEEE, ROHS, AWS (Amazon Web Services)</td>
+							<td class="data tc" colspan="2">CE, CB, FCC/IC, RCM, BQB, PTCRB, AT&T, Verizon,T-Mobile, FirstNet, WEEE, ROHS, AWS (Amazon Web Services), Telstra, Rogers, Telus</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
