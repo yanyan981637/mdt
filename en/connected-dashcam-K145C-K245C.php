@@ -392,7 +392,7 @@
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 					</div>
 		</div>
 	</div>

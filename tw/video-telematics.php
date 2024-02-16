@@ -190,6 +190,7 @@
 					</div>
 					<ul>
 						<li>4G LTE 聯網</li>
+						<li>AT&amp;T 電信商與 AWS認證</li>
 						<li>資料同步儲存於本機SD 卡和雲端</li>
 						<li>支援開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
 						<li>內建車輛電瓶低電壓保護功能</li>
@@ -199,6 +200,8 @@
 						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
 						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
 						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
+						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
+						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
 					</div>
 
 					<div>

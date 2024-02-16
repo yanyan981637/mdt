@@ -187,6 +187,7 @@
 					</div>
 					<ul>
 						<li>Always connected via the built-in 4G LTE modem</li>
+						<li>AT&amp;T and AWS certified</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
@@ -196,6 +197,8 @@
 						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
 						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
 						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
+						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
+						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
 					</div>
 
 					<div>

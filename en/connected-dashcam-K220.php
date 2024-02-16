@@ -96,7 +96,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202312/Mitac_K220_datasheet_20231208.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202402/Mitac_K220_datasheet_20240206.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -108,6 +108,7 @@
 					</div>
 					<ul>
 						<li class="mt_2">Always connected via the built-in 4G LTE modem</li>
+						<li>AT&amp;T and AWS certified</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
 						<li>Secure design - tamper-proof and vehicle battery low voltage protection</li>
@@ -117,6 +118,8 @@
 						<img src="../images/connected_dashcam/android.jpg" alt="Android platform" />
 						<img src="../images/connected_dashcam/Qualcomm.jpg" alt="Qualcomm solution" />
 						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
+						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
+						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
 					</div>
 				</div>
 			</div>	
@@ -242,7 +245,7 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data">CE, CB, FCC/IC, UKCA, BQB, PTCRB, WEEE, ROHS</td>
+							<td class="data">CE, CB, FCC/IC, UKCA, BQB, PTCRB, WEEE, ROHS, AT&amp;T Network Ready, AWS, BIS</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
@@ -332,7 +335,7 @@
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 					</div>
 		</div>
 	</div>

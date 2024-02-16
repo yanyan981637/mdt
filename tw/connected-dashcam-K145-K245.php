@@ -100,7 +100,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K145-245_datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
+						<a href="../Downloads/202402/Mitac_K145-245_datasheet_20240207.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載產品規格書</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">聯絡我們</a>
 					</div>
 				</div>
@@ -283,7 +283,7 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE, CB, FCC/IC, UKCA, RCM, BQB, ROHS, WEEE</td>
+							<td class="data tc" colspan="2">CE, CB, FCC/IC, UKCA, RCM, BQB, ROHS, WEEE, AWS, BIS</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
@@ -393,7 +393,7 @@
 				</div>
 			</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載配件規格書</a>
+						<a href="../Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">下載配件規格書</a>
 					</div>
 		</div>
 	</div>

@@ -293,7 +293,7 @@
 							<div class="product_desc">
 								<h5>K245(雙鏡頭)/K145(單鏡頭)</h5>
 								<p>精緻的外觀</p>
-								<a href="/Downloads/202304/Mitac_K145-245_datasheet_20230714.pdf" target="_bank">
+								<a href="/Downloads/202402/Mitac_K145-245_datasheet_20240207.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -317,7 +317,7 @@
 							<div class="product_desc">
 								<h5>K220(雙鏡頭)</h5>
 								<p>經濟實惠的選擇</p>
-								<a href="/Downloads/202312/Mitac_K220_datasheet_20231208.pdf" target="_bank">
+								<a href="/Downloads/202402/Mitac_K220_datasheet_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -350,7 +350,7 @@
 							<div class="product_desc">
 								<h5>i15</h5>
 								<p>智慧警示鏡頭</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -374,7 +374,7 @@
 							<div class="product_desc">
 								<h5>i25</h5>
 								<p>廣角式貨艙鏡頭</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -407,7 +407,7 @@
 							<div class="product_desc">
 								<h5>A50</h5>
 								<p>後鏡頭(車內)</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -431,7 +431,7 @@
 							<div class="product_desc">
 								<h5>A60</h5>
 								<p>後鏡頭(車內)</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -464,7 +464,7 @@
 							<div class="product_desc">
 								<h5>S10</h5>
 								<p>TVI, IP69K</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -497,7 +497,7 @@
 							<div class="product_desc">
 								<h5>改良式供電車載資料傳輸接頭</h5>
 								<p>供電, 車載資料傳送,可支援緊急按鈕</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -521,7 +521,7 @@
 							<div class="product_desc">
 								<h5>緊急按鈕</h5>
 								<p>觸發求救需求</p>
-								<a href="/Downloads/202301/CDR_Accessory_brochure_20230629.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
