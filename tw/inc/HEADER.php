@@ -500,7 +500,8 @@ height="0" width="0"></iframe></noscript>
 										$target = $menu['href_target'];
 										$active = $menu['menu_id'] == $Current_Menu_Id ? ' active' : '';
 										if($target == '_self') {
-											return "<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>";
+											//@@return "<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>";
+											return "({$menu['father_menu_id']})<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>{$menu['menu_id']}";
 										}
 										
 										return "<a href='{$href}' class='nav-link' target='{$target}'>{$menu['menu_name']}</a>";
