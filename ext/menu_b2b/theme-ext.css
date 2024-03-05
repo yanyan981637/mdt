@@ -1,0 +1,50 @@
+.tl{text-align:left !important;}
+.tc{text-align:center !important;}
+.tr{text-align:right !important;}
+.fl{float: left !important;}
+.fr{float: right !important;}
+.w50p {width: 50%;}
+.mt-10{margin-top:10px;}
+.mt-20{margin-top:20px;}
+.mt-40{margin-top:40px;}
+.mb-20{margin-bottom:20px;}
+.mb-40{margin-bottom:40px;}
+.FC_Gray{color: #666;}
+
+.customer-account-create .checkbox, 
+.partnerportal-account-create .checkbox{
+	display: inline !important;
+}
+.customer-account-create .checkbox + label,
+.partnerportal-account-create .checkbox + label{
+    max-width: 92% !important;
+}
+#terms-condition{
+	width: 100%;
+	height: 300px;
+	overflow-y: auto;
+	padding: 20px;
+	border: 1px solid #C4C4C4;
+	border-radius: 2px;
+	background-color: white;
+	font-size: .85rem;
+	color: #333;
+}
+
+@media (min-width: 1400px) {
+
+}
+@media (max-width: 1400px) {
+
+}
+@media only screen and (min-width: 759px){
+
+}
+
+@media only screen and (min-width: 500px){
+
+}
+
+@media (max-width: 767px) {
+
+}
