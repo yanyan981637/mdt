@@ -454,109 +454,1019 @@ height="0" width="0"></iframe></noscript>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">	
-					<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
-						<!-- <?php
-							// if(isMobile()){
-							// 	echo "";
-							// }
-						?> -->
-						<button class='navbar-toggle navbar-toggler-right d-lg-none' type='button' data-target='#navbarNavMenuMain'>
-							<span class='navbar-toggle-icon'></span>
-						</button>
-						<a class="navbar-brand" href="index.php" title="神達數位股份有限公司">
-							<img src="../images/MDT_logo_light@2x.png" alt="神達數位股份有限公司" class="">
+				<!--2024 menu-->
+				<header id="header" class="page-header">
+					<div class="page-header-container">
+						<a class="logo" href="https://enterprise.mio.com/en_eu/">
+							<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="Mio" class="large" width="165" height="40"/>
+							<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="Mio" class="small"  width="67" height="25"/>
+							<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="Mio" class="white"  width="165" height="40"/>
 						</a>
-						<div class="navbar-collapse" id="navbarNavMenuMain">
-							<ul class="navbar-nav">
-								<!-- get Menu -->
-
-								<?php
-									function getChildrenItems($father_menu_id, $all_menu, $render_link_el, $level = 0){
-
-										$class = [ 'second_menu', 'third_menu', 'fourth_menu' ];
-
-										$filterFunc = function($item) use ($father_menu_id){
-												return $item['father_menu_id'] == $father_menu_id;
-										};
-
-										// $a
-										$all_children_menu = array_filter($all_menu, $filterFunc);
-
-										if (count($all_children_menu) > 0) {
-
-											usort($all_children_menu, function($a, $b) {
-												return (int)$a['menu_order'] - (int)$b['menu_order'];
-											});
-											echo "<ul class='{$class[$level]}'>";
-											if ($level === 0) {
-												echo '<li class="close">X</li>';
-											}
-											foreach ($all_children_menu as $child_menu) {
-												echo '<li>';
-												echo $render_link_el($child_menu);
-												
-												getChildrenItems($child_menu['menu_id'], $all_menu, $render_link_el, $level+1);
-								
-												echo '</li>';
-											}
-									
-											echo '</ul>';
-										}
-
-										return $all_children_menu;
-
-									};
-
-									$render_link_el = function ($menu) use( $Current_Menu_Id) {
-										$href = $menu['file_name'] ? $menu['file_name'] : '#';
-
-										$target = $menu['href_target'];
-										$active = $menu['menu_id'] == $Current_Menu_Id ? ' active' : '';
-										if($target == '_self') {
-											//@@return "<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>";
-											return "({$menu['father_menu_id']})<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>{$menu['menu_id']}";
-										}
-										
-										return "<a href='{$href}' class='nav-link' target='{$target}'>{$menu['menu_name']}</a>";
-
-									};
-
-									foreach($first_menu as $menu){
-										echo '<li class="first_menu">';
-										echo $render_link_el($menu);
-										getChildrenItems($menu['menu_id'], $all_menu, $render_link_el);
-										echo '</li>';
-									}
-									?>
-								<?php
-								
-								//取得他語系網頁
-								$sqlL ="Select * From `ows_menu` Where lang='en' And file_name = '".$Current_Menu_File_Name."' ";
-								$resultL = mysqli_query($MysqlConn, $sqlL);
-								$tspgAry = mysqli_fetch_array($resultL);
-								if($tspgAry){
-									$transferPageUrl = "/en/".$Current_Menu_File_Name;
-								}else{
-									$transferPageUrl = "/en/";
-								}
-								
-								?>
-								<li class="first_menu lang">
-									<a class="nav-link" href="#">
-										<i class="fa fa-globe"></i>
-									</a>
-									<ul class="second_menu">
-										<li><a class="active nav-link" href="#">中文</a></li>
-										<li><a class="nav-link" href="<?php echo $transferPageUrl; ?>">English</a></li>
-									</ul>
-								</li>
-								<!--<li class="nav-item icons-item-menu modal-search">
-									<a class="nav-link" href="#" data-toggle="modal" data-target="#Modal-search"><i class="fa fa-search"></i></a>
-								</li>-->
-								<!-- get Menu end-->
-							</ul>
+										<!-- Account -->
+						<div id="header-account" class="d-none">
+									</div>
+						<!-- Skip Links -->
+						<div class="skip-links">
+							<a href="#header-nav" class="skip-link skip-nav">
+								<span class="icon icon-menu"></span>
+								<span class="label">Menu</span>
+							</a>
 						</div>
-					</nav>		
+
+
+						<!-- Navigation -->
+						<div id="header-nav" class="skip-content sliding-menu">
+
+							<div class="sliding-menu-inner">
+								<nav id="nav">
+									<ol class="nav-primary">
+
+										<li class="high megamenu level0 @1">
+											<a href="javascript:void(0);" class="level0 has-children disable " target="">
+												第1級 Product            
+											</a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1 @2">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 has-children" data-target-submenu="#nav-1402-sub" target="">
+														第二級 MioWORK™
+														</a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2 @3">
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																手機第3級 Handhelds                        </a>
+															</li>
+																<li class="level2">
+																<a href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets" class="level2" target="">
+																手機第3級 Fleet Tablets                        </a>
+															</li>
+															<li class="level2">
+																<a href="https://enterprise.mio.com/en_eu/miowork/industrial-tablets" class="level2" target="">
+																手機第3級 Industrial Tablets                        </a>
+															</li>
+															<li class="level2">
+																<a href="https://enterprise.mio.com/en_eu/miowork/legacy" class="level2" target="">
+																<div class="legacy-style">手機第3級 Legacy</div>                        </a>
+															</li>
+														</ul>
+													</li>
+													
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/mioeye/" class="level1 has-children" data-target-submenu="#nav-1987-sub" target="">
+															第二級 MioEYE™  
+														</a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2">
+															<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2" target="">
+																手機第3級 Fleet Cameras</a>
+															</li>
+														</ul>
+													</li>
+													
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1403-sub" target="">
+														第二級 MioCARE™                    </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2">
+															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																手機第3級 Tablets                        </a>
+															</li>
+															<li class="level2">
+																<a href="https://enterprise.mio.com/en_eu/miocare/legacy" class="level2" target="">
+																<div class="legacy-style">手機第3級 Legacy</div>                        </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/midm" class="level1" data-target-submenu="#nav-1404-sub" target="">
+														第二級 MiDM™                    </a>
+														<span class="more"></span>
+														<ul class="level1">
+														</ul>
+													</li>
+												</ul>
+
+												<div id="product-submenu" class="sub-megamenu-wrapper">
+													<div class="panel">
+														<div id="nav-1402-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																	第3級 Handhelds                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miowork/handhelds/miowork-a500s-series" class="level3 " target="">
+																			第4級 A500s Series  <span style="background-color: #f05a1e"><font color="#ffffff">&nbsp;New&nbsp;</font></span>
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets" class="level2 has-children" target="">
+																	第3級 Fleet Tablets                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets/miowork-f840" class="level3 " target="">
+																			第4級 F840 <span style="background-color: #f05a1e"><font color="#ffffff">&nbsp;New&nbsp;</font></span>                                  </a>
+																		</li>
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miowork/fleet-tablets/miowork-f740s" class="level3 " target="">
+																			第4級 F740s                                  </a>
+																		</li>
+																	</ul>
+																</li>
+
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miowork/industrial-tablets" class="level2 has-children" target="">
+																	第3級 Industrial Tablets                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miowork/industrial-tablets/miowork-L1000-series" class="level3 " target="">
+																			第4級 L1000 Series  <span style="background-color: #f05a1e"><font color="#ffffff">&nbsp;New&nbsp;</font></span>                                  </a>
+																		</li>
+																	</ul>
+																</li>
+
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miowork/legacy" class="level2 has-children" target="">
+																		<div class="legacy-style"> 第3級 Legacy</div>                              </a>
+																		<ul class="level2">
+																		</ul>
+																</li>
+
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1987-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2 has-children" target="">
+																	Fleet Cameras                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras/mioeye-k-series" class="level3 " target="">
+																			K Series <span style="background-color: #f05a1e"><font color="#ffffff">&nbsp;New&nbsp;</font></span>                                  </a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<div class="cats-title">
+																	MioEYE™
+																</div>
+																<p>Keep your fleet safe, smart, and always connected</p>
+																<a href="https://enterprise.mio.com/en_eu/" target="_blank">
+																	<img src="./Mio - All the usability of rugged commercial-grade products with extra ruggedness_files/2020101602442519091.png" alt="MioEYE™">
+																</a>
+															</div>
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1403-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Tablets                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miocare/tablets/miocare-l1000-series" class="level3 " target="">
+																			L1000 Series                                  </a>
+																		</li>
+																	</ul>
+																</li>
+																
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/legacy" class="level2 has-children" target="">
+																		<div class="legacy-style">Legacy</div>
+																	</a>
+																	<ul class="level2">
+																																																								</ul>
+																</li>
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<div class="cats-title">
+																	MioCARE™
+																</div>
+																<p>Providing the tools healthcare professionals need to deliver better patient outcomes</p>
+																<a href="https://enterprise.mio.com/en_eu/" target="_blank">
+																	<img src="./Mio - All the usability of rugged commercial-grade products with extra ruggedness_files/201911031624136148.png" alt="MioCARE™">
+																</a>
+															</div>
+														</div>
+													</div>
+
+													<div class="panel" style="display: none;">
+														<div id="nav-1404-sub" class="collapse" style="display: none;">
+															<ul class="level1">
+															</ul>
+															<div class="cats-info-wrapper">
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</li>
+
+										<!--product-->
+										<li class="high megamenu level0"><!--Products 1級-->
+											<a href="javascript:void(0);" class="level0 has-children disable " target="">
+												Products            
+											</a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 has-children" data-target-submenu="#nav-501-sub" target="">
+														Dashcam Recorder
+														</a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																Single Cam Dashcam                   </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																Multi-View Dashcam                   </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																E-Mirror Dashcam                  </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																Radar Combo                   </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+															Connected Dashcam                   </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																DOP-Type Dashcam                   </a>
+															</li>
+														</ul>
+													</li>
+													
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/mioeye/" class="level1 has-children" data-target-submenu="#nav-601-sub" target="">
+															Motobike Smart Camera
+														</a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2" target="">
+																Rider Cam</a>
+															</li>
+														</ul>
+													</li>
+													
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-701-sub" target="">
+														Outdoor                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Cyclo Cycling Computer                       </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-801-sub" target="">
+														Video Telematics                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+															Connected Dashcam                      </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-901-sub" target="">
+														Navigation                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+															Car Navigation                      </a>
+															</li>
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+															Off Road Navigation                      </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1001-sub" target="">
+														Tablet                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Industrial Tablet                      </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Fleet Tablet                     </a>
+															</li>
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Handy Terminal                    </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1101-sub" target="">
+														Edge AI System                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																XYZ                      </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1201-sub" target="">
+														Pannel PC                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																XYZ                      </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1301-sub" target="">
+														Kiosk                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Self-Service Kiosk                      </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1401-sub" target="">
+														Outdoor luminaires                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Connectivity Module                      </a>
+															</li>
+														</ul>
+													</li>
+
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1501-sub" target="">
+														第11個item                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																XYZ                      </a>
+															</li>
+														</ul>
+													</li>
+
+												</ul>
+
+												<div id="product-submenu" class="sub-megamenu-wrapper"><!--浮動mega子選單-->
+													<div class="panel">
+														<div id="nav-501-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		Single Cam Dashcam                            </a>
+																</li>
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		Multi-View Dashcam                            </a>
+																</li>
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		E-Mirror Dashcam                            </a>
+																</li>
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		Radar Combo                            </a>
+																</li>
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		Connected Dashcam                            </a>
+																</li>
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		DOP-Type Dashcam                            </a>
+																</li>
+
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™
+																</div>
+																<span class="mb-10">501</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-601-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2 has-children" target="">
+																	Rider Cam                             </a>
+																</li>
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 601
+																</div>
+																<span class="mb-10">601</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-701-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																Cyclo Cycling Computer                             </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™701
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-801-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Connected Dashcam                           </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 801
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-901-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Car Navigation                           </a>
+																</li>
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Off Road Navigation                           </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 901
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1001-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Industrial Tablet                          </a>
+																</li>
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Fleet Tablet                           </a>
+																</li>
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Handy Terminal                        </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 1001
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1101-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	XYZ                          </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 1101
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1201-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	XYZ                          </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 1201
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1301-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Self-Service Kiosk                          </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 1301
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1401-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Connectivity Module                         </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 1401
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-1401-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	xyz                         </a>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™ 1501
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+
+												</div>
+											</div>
+										</li>
+										<!--product end-->
+
+										<li class="high megamenu level0"><!--Solutions 1級-->
+											<a href="javascript:void(0);" class="level0 has-children disable " target="">
+												Solutions            
+											</a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 has-children" data-target-submenu="#nav-101-sub" target="">
+														Smart Mobility
+														</a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
+																Auxiliary Software                    </a>
+															</li>
+														</ul>
+													</li>
+													
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/mioeye/" class="level1 has-children" data-target-submenu="#nav-102-sub" target="">
+															Smart Transportation
+														</a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2" target="">
+																Solution</a>
+															</li>
+														</ul>
+													</li>
+													
+													<li class="level1"><!--2級-->
+														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-203-sub" target="">
+															Smart Industries                   </a>
+														<span class="more"></span>
+														<ul class="level1">
+															<li class="level2"><!--3級-->
+															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
+																Auxiliary Software                       </a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+
+												<div id="product-submenu" class="sub-megamenu-wrapper"><!--浮動mega子選單-->
+													<div class="panel">
+														<div id="nav-101-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																
+																<li class="level2"><!--3級-->
+																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
+																		Auxiliary Software                            </a>
+																	<ul class="level2">
+																		<li class="level3"><!--4級-->
+																			<a href="#" class="level3 " target="">
+																				Smart ADAS  <span style="background-color: #f05a1e"></span>
+																			</a>
+																		</li>
+																		<li class="level3"><!--4級-->
+																			<a href="#" class="level3 " target="">
+																				Motobike App (MiVue Pro)  <span style="background-color: #f05a1e"></span>
+																			</a>
+																		</li>
+																		<li class="level3"><!--4級-->
+																			<a href="#" class="level3 " target="">
+																				Outdoor App (MioShare)  <span style="background-color: #f05a1e"></span>
+																			</a>
+																		</li>
+																		<li class="level3"><!--4級-->
+																			<a href="#" class="level3 " target="">
+																				MioNext App  <span style="background-color: #f05a1e"></span>
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-102-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2 has-children" target="">
+																	Solution                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras/mioeye-k-series" class="level3 " target="">
+																			VT Solution<span style="background-color: #f05a1e"><font color="#ffffff">&nbsp;New&nbsp;</font></span>                                  </a>
+																		</li>
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras/mioeye-k-series" class="level3 " target="">
+																			Route Management Platform<span style="background-color: #f05a1e"><font color="#ffffff">&nbsp;New&nbsp;</font></span>                                  </a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="panel">
+														<div id="nav-203-sub" class="collapse withImg" style="display: none;">
+															<ul class="level1">
+																<li class="level2">
+																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
+																	Auxiliary Software                              </a>
+																	<ul class="level2">
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miocare/tablets/miocare-l1000-series" class="level3 " target="">
+																			Mobile Device Management                                  </a>
+																		</li>
+																		<li class="level3">
+																			<a href="https://enterprise.mio.com/en_eu/miocare/tablets/miocare-l1000-series" class="level3 " target="">
+																			Tablet App                                  </a>
+																		</li>
+																	</ul>
+																</li>
+																
+															</ul>
+
+															<div class="cats-info-wrapper">
+																<a href="#">
+																	<img src="./demo1.png" alt="">
+																</a>
+																<div class="cats-title mt-20">
+																	MioWORK™
+																</div>
+																<span class="mb-10">Rugged mobile devices designed for enterprise applications</span>
+																<a class="btn btn-sec btn-lg btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
+															</div>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</li>
+
+										<li class="megamenu level0">
+											<a href="javascript:void(0);" class="level0 has-children disable " target="">
+												技術支援
+											</a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														核心能力
+														</a>
+													</li>
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														創新研發
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														品質管理
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														生產製造
+														</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="megamenu level0">
+										<a href="#" class="level0 has-children disable " target="_blank">
+											服務
+										</a>
+										</li>
+
+										<li class="megamenu level0">
+											<a href="javascript:void(0);" class="level0 has-children disable " target="">
+												關於我們
+											</a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														公司簡介
+														</a>
+													</li>
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														聯華神通集團
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														品牌介紹
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														得獎紀錄
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														投資人資訊
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														企業社會責任
+														</a>
+													</li>
+													<li class="level1">
+														<a href="#" class="level1 ">
+														最新消息
+														</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="megamenu level0">
+											<a href="javascript:void(0);" class="level0 has-children disable " target="">
+												聯絡我們
+											</a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														聯絡我們
+														</a>
+													</li>
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														全球據點
+														</a>
+													</li>
+													<li class="level1">
+														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
+														加入神達數位
+														</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+
+									</ol>
+								</nav>
+							</div>
+
+							<script>
+							$j(document).ready(function() {
+								$j('li.level1 a').each(function(){
+									var targetSubmenu = $j(this).attr('data-target-submenu') + " ul";
+
+									if($j(targetSubmenu).children().length == 0) {
+										$j(targetSubmenu).parent().parent().hide();
+										$j(this).removeClass('has-children');
+									}
+								})
+							});
+							</script>
+						</div>
+
+						<div class="dimmer"></div>
+						<span class="dimmer-close"></span>
+					</div>
+				</header>
+				<!--2024 menu end-->
 				</div>
 			</div>	
 		</div>		
