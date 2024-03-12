@@ -4255,6 +4255,7 @@ a.skip-link{
     font-weight:500
 }
 .nav-primary a.btn-sec{color:#fff;}
+.nav-primary a.btn-xs{font-size: 1.1rem;}
 .nav-primary a.btn {display: inline-block;}
 .nav-primary a:not(.disable):active{
     /*color:#f05a1e*/
@@ -4443,7 +4444,7 @@ a.skip-link{
     }
     .nav-primary li.level0.megamenu ul.level1{
         padding-left:30px;
-        padding-top:20px;
+        padding-top:10px;
         width:300px
     }
     .nav-primary li.level0.megamenu ul.level0{
@@ -4460,7 +4461,8 @@ a.skip-link{
         margin-bottom:15px
     }
     .nav-primary li.level0.megamenu ul.level1 ul a{
-        color:#777
+        color:#888;
+        font-size: 1.2rem;
     }
     .nav-primary li.level0.megamenu ul.level1 ul a:hover{
         color:#00519c
@@ -4582,7 +4584,7 @@ a.skip-link{
         /*min-height:400px;*/
         padding-bottom: 15px;
     }
-    li.menu-active>.sub-menu-wrapper.withImg{
+    li.high.menu-active>.sub-menu-wrapper.withImg{
         width: 800px
     }
 }
@@ -4623,8 +4625,8 @@ a.skip-link{
     color:#313139;
 }
 .sub-megamenu-wrapper li.level2 a.level2{
-    font-size: 1.4rem;
-    padding: 0 0 17px;
+    /*font-size: 1.4rem;*/
+    padding: 10px 0 10px;
 }
 .sub-megamenu-wrapper li.level2 a.level3{
     /*padding-left: 1rem;*/

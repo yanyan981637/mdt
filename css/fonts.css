@@ -7,7 +7,6 @@
          url('../fonts/Roboto/Roboto-Regular.svg#RobotoRegular') format('svg'); (under the Apache Software License). 
     font-weight: normal;
 }
-
 @font-face {
     font-family: 'Roboto-Medium';
     src: url('../fonts/Roboto/Roboto-Medium.eot');
@@ -17,4 +16,13 @@
          url('../fonts/Roboto/Roboto-Medium.svg#RobotoMedium') format('svg'); (under the Apache Software License). 
     font-weight: 200;
     font-style: italic;
+}
+@font-face{
+    font-family:'newmio';
+    src:url('../fonts/newmio.woff') format("woff"),
+        url('../fonts/newmio.eot') format("embedded-opentype"),
+        url('../fonts/newmio.ttf') format("truetype"),
+        url('../fonts/newmio.svg') format("svg");
+    font-weight:400;
+    font-style:normal
 }

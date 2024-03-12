@@ -987,6 +987,10 @@ body.royal_preloader {
 	padding: 1rem 3.5rem;
 	font-size: 1.2rem;
 }
+.btn-xs {
+	padding: 0.25rem 0.55rem;
+}
+a.btn.btn-xs{font-size: 1.1rem;}
 .btn-sm {
 	padding: 0.4rem 0.7rem;
 }
