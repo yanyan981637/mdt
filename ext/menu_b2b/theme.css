@@ -871,41 +871,6 @@
 .ientypo-logo-db:before{
     content:"\f603"
 }
-@font-face{
-    font-family:newmio;
-    src:url(../fonts/newmio.woff?1543896679) format("woff"),url(../fonts/newmio.eot?1543896679) format("embedded-opentype"),url(../fonts/newmio.ttf?1543896679) format("truetype"),url(../fonts/newmio.svg?1543896679) format("svg");
-    font-weight:400;
-    font-style:normal
-}
-@font-face{
-    font-family:newmio;
-    font-display:block
-}
-[data-icon]:before{
-    font-family:newmio!important;
-    font-style:normal!important;
-    font-weight:400!important;
-    font-variant:normal!important;
-    text-transform:none!important;
-    speak:none;
-    line-height:1;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    content:attr(data-icon);
-    font-display:block
-}
-[class*=" icon-"]:before,[class^=icon-]:before{
-    font-family:newmio!important;
-    font-style:normal!important;
-    font-weight:400!important;
-    font-variant:normal!important;
-    text-transform:none!important;
-    speak:none;
-    line-height:1;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    font-display:block
-}
 .icon-left-open:before{
     content:"\e000"
 }

@@ -51,10 +51,11 @@
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
 	
-	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw'";
+	$sql_menu = "Select * From `ows_menu_test` Where menu_class='main' and is_online=1 And lang='tw' ORDER BY menu_order ASC";
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
 	$all_menu = [];
+	$all_meta = [];
 	$current_menu = null;
 
 	$Current_Menu_Id 					= null;
@@ -65,6 +66,10 @@
 	$Current_Menu_Inquiry_type 	= 1;
 	$Current_Menu_Is_Online 	= 1;
 	$first_menu = [];
+	$Current_Meta_Title = null;
+	$Current_Meta_Description = null;
+	$Current_Meta_Keywords = null;
+
 
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
   {
@@ -86,7 +91,7 @@
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and lang='tw' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu_test` Where menu_class='main' And is_online=1 And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -102,40 +107,24 @@
 	$Current_Menu_Is_Online = $menuAry['is_online'];
 	// 當前菜單
 
-
-// 	function get_active_menu($current_menu, $all_menu, $active_menu) {
-// 		$active = $active_menu;
-
-// 		array_push($active, $current_menu["menu_id"]);
-		
-// 		if ($current_menu['father_menu_id']){
-
-// 			$father_menu_id = $current_menu['father_menu_id'];
-
-// 			$parent_menu = array_filter($all_menu, function($item) use ($father_menu_id){
-// 				return $item['menu_id'] == $father_menu_id;
-// 			});
-			
-// 			return get_active_menu(array_values($parent_menu)[0], $all_menu, $active);
-// 		}
-// 		return $active;
-
-// 	};
-// $active_menu = get_active_menu($current_menu,$all_menu, []);
 	//Meta
-	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id=? ";
-	$stmt = mysqli_prepare($MysqlConn, $sqlT);
-	mysqli_stmt_bind_param($stmt, "s", $Current_Menu_Id);
-	mysqli_stmt_execute($stmt);
-	$resultT = mysqli_stmt_get_result($stmt);
-	$metaAry = mysqli_fetch_array($resultT);
+	$sqlT ="Select * From `ows_meta` where 1=1 ";
+	$resultT = mysqli_query($MysqlConn, $sqlT);
+	while($rowT = mysqli_fetch_array($resultT, MYSQLI_ASSOC))
+	{
+		array_push($all_meta, $rowT);
 
-	$Current_Meta_Title			= isset($metaAry['meta_title']) ? $metaAry['meta_title'] : "";
-	$Current_Meta_Description	= isset($metaAry['meta_description']) ? $metaAry['meta_description'] : "";
-	$Current_Meta_Keywords		= isset($metaAry['meta_keywords']) ? $metaAry['meta_keywords'] : "";
-	$default_meta_description	= "神達數位是一個廣受信賴的車用電子領導廠商，除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們以GPS和影像處理核心技術，滿足客戶實際需求，並以體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。";
-	$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
-		// mysqli_close($MysqlConn);
+		if($rowT['menu_id'] == $Current_Menu_Id){
+			$Current_Meta_Title			= isset($rowT['meta_title']) ? $rowT['meta_title'] : "";
+			$Current_Meta_Description	= isset($rowT['meta_description']) ? $rowT['meta_description'] : "";
+			$Current_Meta_Keywords		= isset($rowT['meta_keywords']) ? $rowT['meta_keywords'] : "";
+			$default_meta_description	= "神達數位是一個廣受信賴的車用電子領導廠商，除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們以GPS和影像處理核心技術，滿足客戶實際需求，並以體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。";
+			$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
+		}
+	}
+
+	// mysqli_close($MysqlConn);
+
 	//判斷是否為手機
 	function isMobile() {
 		// 若有HTTP_X_WAP_PROFILE則為移動裝置
@@ -243,8 +232,6 @@
 	<script type="text/javascript" src="../ext/menu_b2b/jquery.appear.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/styles.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/theme.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/theme-ext.css" media="all" />
 	
 	<!-- Extention -->
 	<?php if($Current_Menu_File_Name == 'index.php'){ ?>
@@ -454,835 +441,215 @@ height="0" width="0"></iframe></noscript>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">	
-				<!--2024 menu-->
-				<header id="header" class="page-header">
-					<div class="page-header-container">
-						<a class="logo" href="https://enterprise.mio.com/en_eu/">
-							<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="Mio" class="large" width="165" height="40"/>
-							<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="Mio" class="small"  width="67" height="25"/>
-							<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="Mio" class="white"  width="165" height="40"/>
-						</a>
-										<!-- Account -->
-						<div id="header-account" class="d-none">
-									</div>
-						<!-- Skip Links -->
-						<div class="skip-links">
-							<a href="#header-nav" class="skip-link skip-nav">
-								<span class="icon icon-menu"></span>
-								<span class="label">Menu</span>
+					
+					<header id="header" class="page-header">
+						<div class="page-header-container">
+							<a class="logo" href="./index.php">
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="large" width="165" height="40"/>
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="small"  width="67" height="25"/>
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="white"  width="165" height="40"/>
 							</a>
-						</div>
-
-
-						<!-- Navigation -->
-						<div id="header-nav" class="skip-content sliding-menu">
-
-							<div class="sliding-menu-inner">
-								<nav id="nav">
+							<!-- Account -->
+							<div id="header-account" class="d-none"></div>
+							<!-- Skip Links -->
+							<div class="skip-links">
+								<a href="#header-nav" class="skip-link skip-nav">
+									<span class="icon icon-menu"></span>
+									<span class="label">Menu</span>
+								</a>
+							</div>
+							<!-- Navigation -->
+							<div id="header-nav" class="skip-content sliding-menu">
+								<div class="sliding-menu-inner">
+									<nav id="nav">
 									<ol class="nav-primary">
+										<!-- get Menu -->
+										<?php
+											foreach ($first_menu as $menu) {
+												$pop = ($menu['menu_id'] == '185' || $menu['menu_id'] == '186' || $menu['menu_id'] == '187' || $menu['menu_id'] == '188' )? 'high' : '';//寫死
 
-										<!--product-->
-										<li class="high megamenu level0"><!--Products 1級-->
-											<a href="javascript:void(0);" class="level0 has-children disable " target="">
-												Products            
-											</a>
-											<span class="more"></span>
-											<div class="sub-menu-wrapper">
-												<ul class="level0">
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 has-children" data-target-submenu="#nav-501-sub" target="">
-														Dashcam Recorder
-														</a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-																Single Cam Dashcam                   </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-																Multi-View Dashcam                   </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-																E-Mirror Dashcam                  </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-																Radar Combo                   </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-															Connected Dashcam                   </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-																DOP-Type Dashcam                   </a>
-															</li>
-														</ul>
-													</li>
-													
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/mioeye/" class="level1 has-children" data-target-submenu="#nav-601-sub" target="">
-															Motobike Smart Camera
-														</a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2" target="">
-																Rider Cam</a>
-															</li>
-														</ul>
-													</li>
-													
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-701-sub" target="">
-														Outdoor                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Cyclo Cycling Computer                       </a>
-															</li>
-														</ul>
-													</li>
+												echo "<li class='{$pop} megamenu level0'>
+															<a href='{$menu['file_name']}' class='level0 has-children disable ' target='{$menu['href_target']}'>
+															{$menu['menu_name']}
+															</a>";
 
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-801-sub" target="">
-														Video Telematics                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-															Connected Dashcam                      </a>
-															</li>
-														</ul>
-													</li>
+												$level_1 = getSubItems($menu['menu_id'], $all_menu);
+												if($level_1){
+													echo "<span class='more'></span>
+																<div class='sub-menu-wrapper'>
+																	<ul class='level0'>";
 
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-901-sub" target="">
-														Navigation                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-															Car Navigation                      </a>
-															</li>
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-															Off Road Navigation                      </a>
-															</li>
-														</ul>
-													</li>
+																		foreach ($level_1 as $items1) {
 
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1001-sub" target="">
-														Tablet                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Industrial Tablet                      </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Fleet Tablet                     </a>
-															</li>
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Handy Terminal                    </a>
-															</li>
-														</ul>
-													</li>
+																			$active = ($items1['menu_id'] == $Current_Menu_Id || $items1['menu_id'] == $Current_Menu_Father_Id) ? 'active' : '';
 
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1101-sub" target="">
-														Edge AI System                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																XYZ                      </a>
-															</li>
-														</ul>
-													</li>
+																			echo "<li class='level1 {$active} @{$items1['menu_id']}'>
+																						<a href='{$items1['file_name']}' class='level1 has-children' data-target-submenu='#nav-{$items1['menu_id']}-sub' target='{$items1['href_target']}'>
+																							{$items1['menu_name']}
+																						</a>";
 
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1201-sub" target="">
-														Pannel PC                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																XYZ                      </a>
-															</li>
-														</ul>
-													</li>
+																			$level_2 = getSubItems($items1['menu_id'], $all_menu);
+																			if($level_2){
+																				echo "<span class='more'></span>
+																							<ul class='level1'>";
+																								foreach ($level_2 as $items2) {
+																									echo "<li class='level2'>
+																												<a href='{$items2['file_name']}' class='level2' target='{$items2['href_target']}'>
+																													{$items2['menu_name']}
+																												</a>
+																											</li>";
+																								}
+																				echo "</ul>";
+																			}
 
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1301-sub" target="">
-														Kiosk                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Self-Service Kiosk                      </a>
-															</li>
-														</ul>
-													</li>
-
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1401-sub" target="">
-														Outdoor luminaires                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Connectivity Module                      </a>
-															</li>
-														</ul>
-													</li>
-
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-1501-sub" target="">
-														第11個item                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																XYZ                      </a>
-															</li>
-														</ul>
-													</li>
-
-												</ul>
-
-												<div id="product-submenu" class="sub-megamenu-wrapper"><!--浮動mega子選單-->
-													<div class="panel">
-														<div id="nav-501-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		Single Cam Dashcam                            </a>
-																</li>
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		Multi-View Dashcam                            </a>
-																</li>
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		E-Mirror Dashcam                            </a>
-																</li>
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		Radar Combo                            </a>
-																</li>
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		Connected Dashcam                            </a>
-																</li>
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		DOP-Type Dashcam                            </a>
-																</li>
-
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™
-																</div>
-																<p class="mb-10">501</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-601-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2 has-children" target="">
-																	Rider Cam                             </a>
-																</li>
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/kaizoku.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																Mobile Device Management　
-																</div>
-																<p class="mb-10">Seamlessly configure, manage, deploy device configurations, files and application or device updates - all remotely.</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-701-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																Cyclo Cycling Computer                             </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™701
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-801-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Connected Dashcam                           </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 801
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-901-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Car Navigation                           </a>
-																</li>
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Off Road Navigation                           </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 901
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-1001-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Industrial Tablet                          </a>
-																</li>
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Fleet Tablet                           </a>
-																</li>
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Handy Terminal                        </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 1001
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-1101-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	XYZ                          </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 1101
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-1201-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	XYZ                          </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 1201
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-1301-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Self-Service Kiosk                          </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 1301
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-1401-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Connectivity Module                         </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 1401
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-													<div class="panel">
-														<div id="nav-1401-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	xyz                         </a>
-																</li>
-																
-															</ul>
-
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™ 1501
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
+																			echo "</li>";
+																		}
+													echo "</ul>";
 
 
-												</div>
-											</div>
-										</li>
-										<!--product end-->
+													if($pop == 'high'){
+														echo "<div id='product-submenu' class='sub-megamenu-wrapper'>";
 
-										<li class="high megamenu level0"><!--Solutions 1級-->
-											<a href="javascript:void(0);" class="level0 has-children disable " target="">
-												Solutions            
-											</a>
-											<span class="more"></span>
-											<div class="sub-menu-wrapper">
-												<ul class="level0">
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 has-children" data-target-submenu="#nav-101-sub" target="">
-														Smart Mobility
-														</a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-																<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2" target="">
-																Auxiliary Software                    </a>
-															</li>
-														</ul>
-													</li>
-													
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/mioeye/" class="level1 has-children" data-target-submenu="#nav-102-sub" target="">
-															Smart Transportation
-														</a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2" target="">
-																Solution</a>
-															</li>
-														</ul>
-													</li>
-													
-													<li class="level1"><!--2級-->
-														<a href="https://enterprise.mio.com/en_eu/miocare" class="level1 has-children" data-target-submenu="#nav-203-sub" target="">
-															Smart Industries                   </a>
-														<span class="more"></span>
-														<ul class="level1">
-															<li class="level2"><!--3級-->
-															<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2" target="">
-																Auxiliary Software                       </a>
-															</li>
-														</ul>
-													</li>
-												</ul>
+														foreach ($level_1 as $items1) {
+															echo "<div class='panel'>
+																			<div id='nav-{$items1['menu_id']}-sub' class='collapse withImg' style='display: none;'>";
 
-												<div id="product-submenu" class="sub-megamenu-wrapper"><!--浮動mega子選單-->
-													<div class="panel">
-														<div id="nav-101-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																
-																<li class="level2"><!--3級-->
-																	<a href="https://enterprise.mio.com/en_eu/miowork/handhelds" class="level2 has-children" target="">
-																		Auxiliary Software                            </a>
-																	<ul class="level2">
-																		<li class="level3"><!--4級-->
-																			<a href="#" class="level3 " target="">
-																				Smart ADAS  <span style="background-color: #f05a1e"></span>
-																			</a>
-																		</li>
-																		<li class="level3"><!--4級-->
-																			<a href="#" class="level3 " target="">
-																				Motobike App (MiVue Pro)  <span style="background-color: #f05a1e"></span>
-																			</a>
-																		</li>
-																		<li class="level3"><!--4級-->
-																			<a href="#" class="level3 " target="">
-																				Outdoor App (MioShare)  <span style="background-color: #f05a1e"></span>
-																			</a>
-																		</li>
-																		<li class="level3"><!--4級-->
-																			<a href="#" class="level3 " target="">
-																				MioNext App  <span style="background-color: #f05a1e"></span>
-																			</a>
-																		</li>
-																	</ul>
-																</li>
+															$level_2 = getSubItems($items1['menu_id'], $all_menu);
+															if($level_2){
+																echo "<ul class='level1'>";
+																foreach ($level_2 as $items2) {
+																	echo "<li class='level2'>
+																				<a href='{$items2['file_name']}' class='level2 has-children' target='{$items2['href_target']}'>
+																					{$items2['menu_name']}
+																				</a>";
 
-															</ul>
+																					$level_3 = getSubItems($items2['menu_id'], $all_menu);
+																					if($level_3){
+																						echo "<ul class='level2'>";
+																							foreach ($level_3 as $items3) {
+																								echo "<li class='level3'>
+																												<a href='{$items3['file_name']}' class='level3 ' target='{$items3['href_target']}'>
+																													{$items3['menu_name']}
+																												</a>
+																											</li>";
+																							}
+																						echo "</ul>";
+																					}
+																	echo "</li>";
+																}
+																echo "</ul>";
+															}
 
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
+															$og_info = getOgInfo($items1['menu_id'], $all_meta);
+															if($og_info){
+																echo "<div class='cats-info-wrapper'>
+																				<a href='#'>
+																					<img src='../images/menu/{$og_info['og_img']}' alt='{$og_info['og_title']}'>
+																				</a>
+																				<div class='cats-title mt-20'>
+																					{$og_info['og_title']}
+																				</div>
+																				<p class='mb-10'>{$og_info['og_alt']}</p>
+																				<a class='btn btn-fill-black-b btn-xs btn-round' href='{$items1['file_name']}' target='{$items1['href_target']}'>瞭解更多</a>
+																			</div>";
+															}
+															echo "	</div>
+																	</div>";
+														}
 
-														</div>
-													</div>
+														echo "</div>";
+													}
+													echo "</div>";
+												}
 
-													<div class="panel">
-														<div id="nav-102-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras" class="level2 has-children" target="">
-																	Solution                              </a>
-																	<ul class="level2">
-																		<li class="level3">
-																			<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras/mioeye-k-series" class="level3 " target="">
-																			VT Solution                                  </a>
-																		</li>
-																		<li class="level3">
-																			<a href="https://enterprise.mio.com/en_eu/mioeye/fleet-cameras/mioeye-k-series" class="level3 " target="">
-																			Route Management Platform                                  </a>
-																		</li>
-																	</ul>
-																</li>
-															</ul>
+												echo "</li>";
+											}//整個menu
 
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
+											//取得子item
+											function getSubItems($father_menu_id, $all_menu){
+												$sub_level_arry = [];
+												foreach ($all_menu as $k=>$items) {
+													if($items['father_menu_id'] == $father_menu_id){
+														$sub_level_arry[$k]['menu_id']				= $items['menu_id'];
+														$sub_level_arry[$k]['father_menu_id']	= $items['father_menu_id'];
+														$sub_level_arry[$k]['menu_order']		= $items['menu_order'];
+														$sub_level_arry[$k]['menu_name']		= $items['menu_name'];
+														$sub_level_arry[$k]['file_name']			= ($items['file_name'])?$items['file_name'] :'javascript:void(0);' ;
+														$sub_level_arry[$k]['href_target']			= $items['href_target'];
+													}
+												}
+												return $sub_level_arry;
+											}
 
-														</div>
-													</div>
+											function getOgInfo($menu_id, $all_meta){
+												if (count($all_meta) > 0){
+													$og_info = [];
+													foreach ($all_meta as $og) {
+														if($og['menu_id'] == $menu_id){
+															$og_info['menu_id']	= $og['menu_id'];
+															$og_info['og_title']	= $og['og_title'];
+															$og_info['og_alt']		= $og['og_alt'];
+															$og_info['og_img']	= $og['og_img'];
+														}
+													}
+												}
+												return $og_info;
+											}
 
-													<div class="panel">
-														<div id="nav-203-sub" class="collapse withImg" style="display: none;">
-															<ul class="level1">
-																<li class="level2">
-																	<a href="https://enterprise.mio.com/en_eu/miocare/tablets" class="level2 has-children" target="">
-																	Auxiliary Software                              </a>
-																	<ul class="level2">
-																		<li class="level3">
-																			<a href="https://enterprise.mio.com/en_eu/miocare/tablets/miocare-l1000-series" class="level3 " target="">
-																			Mobile Device Management                                  </a>
-																		</li>
-																		<li class="level3">
-																			<a href="https://enterprise.mio.com/en_eu/miocare/tablets/miocare-l1000-series" class="level3 " target="">
-																			Tablet App                                  </a>
-																		</li>
-																	</ul>
-																</li>
-																
-															</ul>
+											//取得他語系網頁
+											$sqlL ="Select * From `ows_menu_test` Where lang='en' And file_name = '".$Current_Menu_File_Name."' ";
+											$resultL = mysqli_query($MysqlConn, $sqlL);
+											$tspgAry = mysqli_fetch_array($resultL);
+											if($tspgAry){
+												$transferPageUrl = "/en/".$Current_Menu_File_Name;
+											}else{
+												$transferPageUrl = "/en/";
+											}
 
-															<div class="cats-info-wrapper">
-																<a href="#">
-																	<img src="../images/menu/demo1.png" alt="">
-																</a>
-																<div class="cats-title mt-20">
-																	MioWORK™
-																</div>
-																<p class="mb-10">Rugged mobile devices designed for enterprise applications</p>
-																<a class="btn btn-fill-black-b btn-xs btn-round" href="https://www.mio.com/tw/products/category-rider-camera" target="_blank">瞭解更多</a>
-															</div>
-
-														</div>
-													</div>
-
-												</div>
-											</div>
-										</li>
+										?>
 
 										<li class="megamenu level0">
-											<a href="javascript:void(0);" class="level0 has-children disable " target="">
-												技術支援
-											</a>
+											<a class="nav-link" href="#"><i class="fa fa-globe"></i></a>
 											<span class="more"></span>
 											<div class="sub-menu-wrapper">
 												<ul class="level0">
 													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														核心能力
-														</a>
+														<a href="#" class="level1 ">中文</a>
 													</li>
 													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														創新研發
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														品質管理
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														生產製造
-														</a>
+														<a href="<?php echo $transferPageUrl; ?>" class="level1 ">English</a>
 													</li>
 												</ul>
 											</div>
 										</li>
+										<!-- get Menu end-->
 
-										<li class="megamenu level0">
-										<a href="#" class="level0 has-children disable " target="_blank">
-											服務
-										</a>
-										</li>
+										</ol>
+									</nav>
+								</div>
 
-										<li class="megamenu level0">
-											<a href="javascript:void(0);" class="level0 has-children disable " target="">
-												關於我們
-											</a>
-											<span class="more"></span>
-											<div class="sub-menu-wrapper">
-												<ul class="level0">
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														公司簡介
-														</a>
-													</li>
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														聯華神通集團
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														品牌介紹
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														得獎紀錄
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														投資人資訊
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														企業社會責任
-														</a>
-													</li>
-													<li class="level1">
-														<a href="#" class="level1 ">
-														最新消息
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-
-										<li class="megamenu level0">
-											<a href="javascript:void(0);" class="level0 has-children disable " target="">
-												聯絡我們
-											</a>
-											<span class="more"></span>
-											<div class="sub-menu-wrapper">
-												<ul class="level0">
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														聯絡我們
-														</a>
-													</li>
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														全球據點
-														</a>
-													</li>
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														加入神達數位
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-
-										<li class="megamenu level0">
-											<a class="nav-link" href="#">
-												<i class="fa fa-globe"></i>
-											</a>
-											<span class="more"></span>
-											<div class="sub-menu-wrapper">
-												<ul class="level0">
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														中文
-														</a>
-													</li>
-													<li class="level1">
-														<a href="https://enterprise.mio.com/en_eu/miowork" class="level1 ">
-														English
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-
-									</ol>
-								</nav>
+								<script>
+								$j(document).ready(function() {
+									$j('li.level1 a').each(function(){
+										var targetSubmenu = $j(this).attr('data-target-submenu') + " ul";
+										if($j(targetSubmenu).children().length == 0) {
+											$j(targetSubmenu).parent().parent().hide();
+											$j(this).removeClass('has-children');
+										}
+									})
+								});
+								</script>
 							</div>
 
-							<script>
-							$j(document).ready(function() {
-								$j('li.level1 a').each(function(){
-									var targetSubmenu = $j(this).attr('data-target-submenu') + " ul";
-
-									if($j(targetSubmenu).children().length == 0) {
-										$j(targetSubmenu).parent().parent().hide();
-										$j(this).removeClass('has-children');
-									}
-								})
-							});
-							</script>
+							<div class="dimmer"></div>
+							<span class="dimmer-close"></span>
 						</div>
-
-						<div class="dimmer"></div>
-						<span class="dimmer-close"></span>
-					</div>
-				</header>
-				<!--2024 menu end-->
+					</header>
+					
 				</div>
 			</div>	
 		</div>		
 	</div>
-	
 	
 	<!-- Search -->
 	<!--<div class="modal fade default search-modal" id="Modal-search" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1310,8 +677,3 @@ height="0" width="0"></iframe></noscript>
 			</div>
 		</div>
 	</div>-->
-	
-
-	<!-- <div>
-
-	</div> -->

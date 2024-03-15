@@ -873,12 +873,6 @@
 }
 @font-face{
     font-family:newmio;
-    src:url(../fonts/newmio.woff?1543896679) format("woff"),url(../fonts/newmio.eot?1543896679) format("embedded-opentype"),url(../fonts/newmio.ttf?1543896679) format("truetype"),url(../fonts/newmio.svg?1543896679) format("svg");
-    font-weight:400;
-    font-style:normal
-}
-@font-face{
-    font-family:newmio;
     font-display:block
 }
 [data-icon]:before{
@@ -1132,229 +1126,6 @@
     content:"\e050";
     color:#fff
 }
-@font-face{
-    font-family:icomoon;
-    src:url(../fonts/icomoon.woff?1543896679) format("woff"),url(../fonts/icomoon.eot?1543896679) format("embedded-opentype"),url(../fonts/icomoon.ttf?1543896679) format("truetype"),url(../fonts/icomoon.svg?1543896679) format("svg");
-    font-weight:400;
-    font-style:normal
-}
-[class*=" icomoon-"],[class^=icomoon-]{
-    font-family:icomoon!important;
-    font-style:normal!important;
-    font-weight:400!important;
-    font-variant:normal!important;
-    text-transform:none!important;
-    speak:none;
-    line-height:1;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
-}
-.icomoon-linkedin:before{
-    content:"\e900"
-}
-.icomoon-twitter:before{
-    content:"\e901"
-}
-.icomoon-closer:before{
-    content:"\e902"
-}
-.icomoon-up-arrow:before{
-    content:"\e903"
-}
-.icomoon-question:before{
-    content:"\e904"
-}
-.icomoon-answer:before{
-    content:"\e905"
-}
-.icomoon-download-1:before{
-    content:"\e906"
-}
-.icomoon-headphone:before{
-    content:"\e907"
-}
-.icomoon-document:before{
-    content:"\e908"
-}
-.icomoon-compass:before{
-    content:"\e909"
-}
-.icomoon-star:before{
-    content:"\e90a"
-}
-.icomoon-pin:before{
-    content:"\e90b"
-}
-.icomoon-chart:before{
-    content:"\e90c"
-}
-.icomoon-download-2:before{
-    content:"\e90d"
-}
-.icomoon-phone:before{
-    content:"\e90e"
-}
-.icomoon-portfolio:before{
-    content:"\e90f"
-}
-.icomoon-notebook:before{
-    content:"\e910"
-}
-@font-face{
-    font-family:b2b;
-    src:url(../fonts/b2b.woff?1550476523) format("woff"),url(../fonts/b2b.eot?1550476523) format("embedded-opentype"),url(../fonts/b2b.ttf?1550476523) format("truetype"),url(../fonts/b2b.svg?1550476523) format("svg");
-    font-weight:400;
-    font-style:normal
-}
-[class*=" b2b-"],[class^=b2b-]{
-    font-family:b2b!important;
-    font-style:normal!important;
-    font-weight:400!important;
-    font-variant:normal!important;
-    text-transform:none!important;
-    speak:none;
-    line-height:1;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
-}
-.b2b-ambulance:before{
-    content:"\e900"
-}
-.b2b-band-aid:before{
-    content:"\e901"
-}
-.b2b-barcode:before{
-    content:"\e902"
-}
-.b2b-bed:before{
-    content:"\e903"
-}
-.b2b-box-open:before{
-    content:"\e904"
-}
-.b2b-boxes:before{
-    content:"\e905"
-}
-.b2b-briefcase-medical:before{
-    content:"\e906"
-}
-.b2b-cash-register:before{
-    content:"\e907"
-}
-.b2b-cogs:before{
-    content:"\e908"
-}
-.b2b-diagnoses:before{
-    content:"\e909"
-}
-.b2b-file-contract:before{
-    content:"\e90a"
-}
-.b2b-file-medical-alt:before{
-    content:"\e90b"
-}
-.b2b-file-medical:before{
-    content:"\e90c"
-}
-.b2b-fist-raised:before{
-    content:"\e90d"
-}
-.b2b-heartbeat:before{
-    content:"\e90e"
-}
-.b2b-home:before{
-    content:"\e90f"
-}
-.b2b-hospital-alt:before{
-    content:"\e910"
-}
-.b2b-hospital:before{
-    content:"\e911"
-}
-.b2b-id-card-alt:before{
-    content:"\e912"
-}
-.b2b-industry:before{
-    content:"\e913"
-}
-.b2b-medkit:before{
-    content:"\e914"
-}
-.b2b-mobile-alt:before{
-    content:"\e915"
-}
-.b2b-mortar-pestle:before{
-    content:"\e916"
-}
-.b2b-notes-medical:before{
-    content:"\e917"
-}
-.b2b-pagelines:before{
-    content:"\e918"
-}
-.b2b-pills:before{
-    content:"\e919"
-}
-.b2b-prescription-bottle:before{
-    content:"\e91a"
-}
-.b2b-procedures:before{
-    content:"\e91b"
-}
-.b2b-radiation-alt:before{
-    content:"\e91c"
-}
-.b2b-radiation:before{
-    content:"\e91d"
-}
-.b2b-stethoscope:before{
-    content:"\e91e"
-}
-.b2b-store-alt:before{
-    content:"\e91f"
-}
-.b2b-store:before{
-    content:"\e920"
-}
-.b2b-syringe:before{
-    content:"\e921"
-}
-.b2b-tablet-alt:before{
-    content:"\e922"
-}
-.b2b-tags:before{
-    content:"\e923"
-}
-.b2b-ticket-alt:before{
-    content:"\e924"
-}
-.b2b-toolbox:before{
-    content:"\e925"
-}
-.b2b-tools:before{
-    content:"\e926"
-}
-.b2b-truck-moving:before{
-    content:"\e927"
-}
-.b2b-user-injured:before{
-    content:"\e928"
-}
-.b2b-user-md:before{
-    content:"\e929"
-}
-.b2b-user-ninja:before{
-    content:"\e92a"
-}
-.b2b-utensils:before{
-    content:"\e92b"
-}
-.b2b-warehouse:before{
-    content:"\e92c"
-}
-.b2b-x-ray:before{
-    content:"\e92d"
-}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html{
     font-family:sans-serif;
@@ -1549,7 +1320,7 @@ input[type=search]{
     -webkit-box-sizing:border-box;
     box-sizing:border-box
 }
-@font-face{
+/*@font-face{
     font-family:"Noto Sans TC";
     font-style:normal;
     font-weight:100;
@@ -1644,7 +1415,7 @@ input[type=search]{
     src:url(../fonts/MetronicPro/MetronicProBlack.woff?1543896678) format("woff"),url(../fonts/MetronicPro/MetronicProBlack.ttf?1543896678) format("truetype"),url(../fonts/MetronicPro/MetronicProBlack.eot?1543896678) format("embedded-opentype"),url(../fonts/MetronicPro/MetronicProBlack.svg?1543896678) format("svg");
     font-weight:900;
     font-style:normal
-}
+}*/
 @-ms-viewport{
     width:device-width
 }
@@ -4153,10 +3924,10 @@ a.skip-link{
 }
 .sticky-active .page-header{
     position:fixed;
-    -webkit-animation:header-reveal .5s ease-in;
-    -moz-animation:header-reveal .5s ease-in;
-    -o-animation:header-reveal .5s ease-in;
-    animation:header-reveal .5s ease-in;
+    -webkit-animation:header-reveal .1s ease-in;
+    -moz-animation:header-reveal .1s ease-in;
+    -o-animation:header-reveal .1s ease-in;
+    animation:header-reveal .1s ease-in;
     background-color:#f05a1e
 }
 .sticky-active .page-header .logo .large,.sticky-active .page-header .logo .small{
@@ -4478,7 +4249,10 @@ a.skip-link{
         color:#fff;
         background-color:#00519c;
     }
-    .nav-primary li.level0.megamenu a.level1.has-children:after{
+    .nav-primary li.level0.megamenu .sub-menu-wrapper li.level1.active{
+        background-color:#62dcff;
+    }
+    .nav-primary li.high.level0.megamenu a.level1.has-children:after{
         font-family:newmio!important;
         font-style:normal!important;
         font-weight:400!important;
@@ -4499,7 +4273,7 @@ a.skip-link{
     display:block
 }
 @media only screen and (min-width:1230px){
-    body:not(.sticky-active) a.level0:before{
+    a.level0:before{
         display:block;
         padding:10px 0;
         /*border-radius:18px;*/
@@ -4518,10 +4292,10 @@ a.skip-link{
         -ms-transition:background-color .5s ease-out;
         transition:background-color .5s ease-out*/
     }
-    body:not(.sticky-active) li.menu-active a.level0{/**/
-        color:#62dcff
+    li.menu-active a.level0{/**/
+        color: #62dcff !important;
     }
-    body:not(.sticky-active) li.menu-active a.level0:before{
+    li.menu-active a.level0:before{
         /*background-color:#00519c;*/
         content: "";
         /* width: 0; */
@@ -7056,28 +6830,28 @@ dl#narrow-by-list dt.adj-nav-dt{
 }
 .sticky-active .toggle-content{
     position:fixed;
-    -webkit-animation:toggle-xs-reveal .5s ease-in;
-    -moz-animation:toggle-xs-reveal .5s ease-in;
-    -o-animation:toggle-xs-reveal .5s ease-in;
-    animation:toggle-xs-reveal .5s ease-in;
+    -webkit-animation:toggle-xs-reveal .25s ease-in;
+    -moz-animation:toggle-xs-reveal .25s ease-in;
+    -o-animation:toggle-xs-reveal .25s ease-in;
+    animation:toggle-xs-reveal .25s ease-in;
     animation-fill-mode:forwards;
     z-index:200
 }
 @media only screen and (min-width:760px){
     .sticky-active .toggle-content{
-        -webkit-animation:toggle-s-reveal .5s ease-in;
-        -moz-animation:toggle-s-reveal .5s ease-in;
-        -o-animation:toggle-s-reveal .5s ease-in;
-        animation:toggle-s-reveal .5s ease-in;
+        -webkit-animation:toggle-s-reveal .25ss ease-in;
+        -moz-animation:toggle-s-reveal .25ss ease-in;
+        -o-animation:toggle-s-reveal .25ss ease-in;
+        animation:toggle-s-reveal .25ss ease-in;
         animation-fill-mode:forwards
     }
 }
 @media only screen and (min-width:1230px){
     .sticky-active .toggle-content{
-        -webkit-animation:toggle-reveal .5s ease-in;
-        -moz-animation:toggle-reveal .5s ease-in;
-        -o-animation:toggle-reveal .5s ease-in;
-        animation:toggle-reveal .5s ease-in;
+        -webkit-animation:toggle-reveal .25ss ease-in;
+        -moz-animation:toggle-reveal .25ss ease-in;
+        -o-animation:toggle-reveal .25ss ease-in;
+        animation:toggle-reveal .25ss ease-in;
         animation-fill-mode:forwards
     }
 }
