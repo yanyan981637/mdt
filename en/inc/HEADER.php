@@ -38,7 +38,7 @@
 	}
 	$current_domain = getCurrentDomain();
 
-	
+
 	session_start();
 
 	$ckType = isset($_POST['ckType']) ? htmlspecialchars($_POST['ckType'], ENT_QUOTES, 'UTF-8') : '';
@@ -51,10 +51,11 @@
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
 	
-	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en'";
+	$sql_menu = "Select * From `ows_menu_test` Where menu_class='main' and is_online=1 And lang='en' ORDER BY menu_order ASC";
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
 	$all_menu = [];
+	$all_meta = [];
 	$current_menu = null;
 
 	$Current_Menu_Id 					= null;
@@ -65,6 +66,9 @@
 	$Current_Menu_Inquiry_type 	= 1;
 	$Current_Menu_Is_Online 	= 1;
 	$first_menu = [];
+	$Current_Meta_Title = null;
+	$Current_Meta_Description = null;
+	$Current_Meta_Keywords = null;
 
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
   {
@@ -78,21 +82,19 @@
 
   }
 
-	//Menu
-
-	//Meta
-
 	if ($cfg['file_name'] == '404.php') {
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' and lang='en' And file_name = ? limit 1 ";
+	//Menu
+	$sqlM ="Select * From `ows_menu_test` Where menu_class='main' and is_online=1 And lang='en' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
 	$resultM = mysqli_stmt_get_result($stmt);
 	$menuAry = mysqli_fetch_array($resultM);
 
+	// 當前菜單
 	$Current_Menu_Id					= $menuAry['menu_id'];
 	$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
 	$Current_Menu_Order				= $menuAry['menu_order'];
@@ -101,38 +103,21 @@
 	$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
 	$Current_Menu_Is_Online = $menuAry['is_online'];
 
-// 	function get_active_menu($current_menu, $all_menu, $active_menu) {
-// 		$active = $active_menu;
-
-// 		array_push($active, $current_menu["menu_id"]);
-		
-// 		if ($current_menu['father_menu_id']){
-
-// 			$father_menu_id = $current_menu['father_menu_id'];
-
-// 			$parent_menu = array_filter($all_menu, function($item) use ($father_menu_id){
-// 				return $item['menu_id'] == $father_menu_id;
-// 			});
-			
-// 			return get_active_menu(array_values($parent_menu)[0], $all_menu, $active);
-// 		}
-// 		return $active;
-
-// 	};
-// $active_menu = get_active_menu($current_menu,$all_menu, []);
 	//Meta
-	$sqlT ="Select meta_title, meta_description, meta_keywords From `ows_meta` Where menu_id=? ";
-	$stmt = mysqli_prepare($MysqlConn, $sqlT);
-	mysqli_stmt_bind_param($stmt, "s", $Current_Menu_Id);
-	mysqli_stmt_execute($stmt);
-	$resultT = mysqli_stmt_get_result($stmt);
-	$metaAry = mysqli_fetch_array($resultT);
-	
-	$Current_Meta_Title				= $metaAry['meta_title'];
-	$Current_Meta_Description	= $metaAry['meta_description'];
-	$Current_Meta_Keywords		= $metaAry['meta_keywords'];
-	$default_meta_description	= "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
-	$Current_Meta_Description = ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
+	$sqlT ="Select * From `ows_meta` where 1=1 ";
+	$resultT = mysqli_query($MysqlConn, $sqlT);
+	while($rowT = mysqli_fetch_array($resultT, MYSQLI_ASSOC))
+	{
+		array_push($all_meta, $rowT);
+
+		if($rowT['menu_id'] == $Current_Menu_Id){
+			$Current_Meta_Title			= isset($rowT['meta_title']) ? $rowT['meta_title'] : "";
+			$Current_Meta_Description	= isset($rowT['meta_description']) ? $rowT['meta_description'] : "";
+			$Current_Meta_Keywords		= isset($rowT['meta_keywords']) ? $rowT['meta_keywords'] : "";
+			$default_meta_description	= "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
+			$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
+		}
+	}
 	
 	//判斷是否為手機
 	function isMobile() {
@@ -230,7 +215,19 @@
 	================================================== -->
 	<link rel="icon" type="image/png" href="../favicon-16x16.png">
 	
-	
+	<!-- Menu -->
+	<script type="text/javascript" src="../ext/menu_b2b/prototype.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/noconflict.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/slider.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/js.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/modernizr.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/jquery-migrate.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/jquery.appear.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/styles.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/theme.css" media="all" />
+
 	<!-- Extention -->
 	<?php if($Current_Menu_File_Name == 'index.php'){ ?>
 		<link rel="stylesheet" type="text/css" href="../ext/swiper/css/swiper.min.css">
@@ -273,147 +270,147 @@
 	<?php } ?>
 	
 	<!--json-ld start-->
-<script type='application/ld+json'>
-[{
-  "@context": "http://www.schema.org",
-  "@type": "Corporation",
-  "name": "神達數位",
-  "url": "https://www.mitacmdt.com/",
-  "logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
-  "image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
-  "description": "神達數位是一個廣受信賴的車用電子領導廠商，帶領使用者正面熱情地找尋人生方向並持續向前邁進。除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。",
-  "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "桃園市龜山區文化二路200號",
-     "addressLocality": "桃園市",
-     "postalCode": "333",
-     "addressCountry": "台灣"
-  },
-  "geo": {
-     "@type": "GeoCoordinates",
-     "latitude": "25.048009",
-     "longitude": "121.375504"
-  },
-   "openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
-},
-{
-  "@context": "http://www.schema.org",
-  "@type": "Corporation",
-  "name": "MiTAC Digital Technology Corporation",
-  "url": "https://www.mitacmdt.com/",
-  "logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
-  "image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
-  "description": "A trusted leader in automotive electronics , MiTAC Digital Technology (MDT) helps users navigate life with passion, positivity and a drive to keep moving forward. Beyond automotive electronics , MDT is at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.",
-  "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "No.200, Wen Hwa 2nd Rd., Kuei Shan Dist., Taoyuan City 33383, Taiwan(R.O.C)",
-     "addressLocality": "Taoyuan",
-     "postalCode": "333",
-     "addressCountry": "Taiwan"
-  },
-  "geo": {
-     "@type": "GeoCoordinates",
-     "latitude": "25.048009",
-     "longitude": "121.375504"
-  },
-   "openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
-  },
-  "headline": "神達投控宣布成立神達數位，聚焦互聯汽車與車用電子產業",
-  "description": "神達投資控股股份有限公司(以下簡稱神達投控，TWSE: 3706)今日(12日)代子公司神達電腦股份有限公司(以下簡稱神達電腦)，於證券交易所召開重大訊息記者會，說明今日神達電腦以及神達數位股份有限公司(以下簡稱神達數位)兩家子公司董事會決議分割受讓案，將神達電腦之行動通訊產品事業體，分割讓與新設立之神達數位，分割基準日擬訂於107年1月1日。此案為神達投控集團內的組織調整，將不會影響神達投控的股東權益。",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "MDT神達數位"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MDT神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/"
-    }
-  },
-  "datePublished": "2017-10-12",
-  "dateModified": "2019-06-12"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
-  },
-  "headline": "MiTAC Holdings Corporation Announced the Establishment of MiTAC Digital Technology Corporation",
-  "description": "MiTAC Holdings Corporation (MHC,TWSE: 3706) held a press conference of material information at the Taiwan Stock Exchange today on behalf of its subsidiary MiTAC International Corporation (MIC) announcing the Board of Directors’ approval of the spinoff of its Mobile Communication Product Business to MiTAC Digital Technology Corporation (MDT). The record date of the spinoff is set on January 1st, 2018. This spinoff is an organization re-structuring within the group and will not affect the shareholders equity of MHC.",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "MDT神達數位"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MDT神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/"
-    }
-  },
-  "datePublished": "2017-10-12",
-  "dateModified": "2019-06-12"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mio, 我們對品質的堅持",
-  "description": "Mio，世界級行車紀錄器領導品牌，精心為你。Mio行車記錄器為百分之百台灣研發設計，生產製造基地配備自動化生產設備與嚴謹管理系統。所有Mio 行車紀錄器皆通過超過50項測試，確保其最高品質與完美效能。
-Mio守護您的行車安全，並在每一次的旅途中,創造無與倫比的完美體驗。",
-  "thumbnailUrl": "https://i.ytimg.com/vi/UWX70dTajBw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCtlggVRkbB3MWo_YuEBwBI80CXmQ",
-  "uploadDate": "2019-04-02",
-  "duration": "PT3M38S",  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MiTAC神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
-    }
-  },
-  "contentUrl": "https://youtu.be/UWX70dTajBw"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mio, our commitment to quality",
-  "description": "Mio, the world leading brand of Dashcam, it’s all about you. Mio Dashcams are 100% designed in Taiwan and manufactured in a state-of-the-art factory with automated production facilities and a rigorous management system . All Mio Dashcams undergo a battery of more than 50 rigorous tests to ensure the highest performance standards. We ensures your driving safety and gives you an enjoyable experience during each of your journeys.",
-  "thumbnailUrl": "https://i.ytimg.com/vi/mSl6az1Bgiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA561iR4RrHza7gkfZC5kwhgl6oKA",
-  "uploadDate": "2019-04-02",
-  "duration": "PT3M45S",  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MiTAC神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
-    }
-  },
-  "contentUrl": "https://youtu.be/mSl6az1Bgiw"
-}]
-</script>
-<!--json-ld end-->
-	
+	<script type='application/ld+json'>
+	[{
+	"@context": "http://www.schema.org",
+	"@type": "Corporation",
+	"name": "神達數位股份有限公司",
+	"url": "https://www.mitacmdt.com/",
+	"logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
+	"image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
+	"description": "神達數位是一個廣受信賴的車用電子領導廠商，帶領使用者正面熱情地找尋人生方向並持續向前邁進。除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "桃園市龜山區文化二路200號",
+		"addressLocality": "桃園市",
+		"postalCode": "333",
+		"addressCountry": "台灣"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "25.048009",
+		"longitude": "121.375504"
+	},
+	"openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
+	},
+	{
+	"@context": "http://www.schema.org",
+	"@type": "Corporation",
+	"name": "MiTAC Digital Technology Corporation",
+	"url": "https://www.mitacmdt.com/",
+	"logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
+	"image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
+	"description": "A trusted leader in automotive electronics , MiTAC Digital Technology (MDT) helps users navigate life with passion, positivity and a drive to keep moving forward. Beyond automotive electronics , MDT is at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "No.200, Wen Hwa 2nd Rd., Kuei Shan Dist., Taoyuan City 33383, Taiwan(R.O.C)",
+		"addressLocality": "Taoyuan",
+		"postalCode": "333",
+		"addressCountry": "Taiwan"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "25.048009",
+		"longitude": "121.375504"
+	},
+	"openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "NewsArticle",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
+	},
+	"headline": "神達投控宣布成立神達數位，聚焦互聯汽車與車用電子產業",
+	"description": "神達投資控股股份有限公司(以下簡稱神達投控，TWSE: 3706)今日(12日)代子公司神達電腦股份有限公司(以下簡稱神達電腦)，於證券交易所召開重大訊息記者會，說明今日神達電腦以及神達數位股份有限公司(以下簡稱神達數位)兩家子公司董事會決議分割受讓案，將神達電腦之行動通訊產品事業體，分割讓與新設立之神達數位，分割基準日擬訂於107年1月1日。此案為神達投控集團內的組織調整，將不會影響神達投控的股東權益。",
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
+	},
+	"author": {
+		"@type": "Organization",
+		"name": "MDT 神達數位股份有限公司"
+	},  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MDT 神達數位股份有限公司",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/"
+		}
+	},
+	"datePublished": "2017-10-12",
+	"dateModified": "2019-06-12"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "NewsArticle",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
+	},
+	"headline": "MiTAC Holdings Corporation Announced the Establishment of MiTAC Digital Technology Corporation",
+	"description": "MiTAC Holdings Corporation (MHC,TWSE: 3706) held a press conference of material information at the Taiwan Stock Exchange today on behalf of its subsidiary MiTAC International Corporation (MIC) announcing the Board of Directors’ approval of the spinoff of its Mobile Communication Product Business to MiTAC Digital Technology Corporation (MDT). The record date of the spinoff is set on January 1st, 2018. This spinoff is an organization re-structuring within the group and will not affect the shareholders equity of MHC.",
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
+	},
+	"author": {
+		"@type": "Organization",
+		"name": "MDT神達數位"
+	},  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MDT神達數位",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/"
+		}
+	},
+	"datePublished": "2017-10-12",
+	"dateModified": "2019-06-12"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": "Mio, 我們對品質的堅持",
+	"description": "Mio，世界級行車紀錄器領導品牌，精心為你。Mio行車記錄器為百分之百台灣研發設計，生產製造基地配備自動化生產設備與嚴謹管理系統。所有Mio 行車紀錄器皆通過超過50項測試，確保其最高品質與完美效能。
+	Mio守護您的行車安全，並在每一次的旅途中,創造無與倫比的完美體驗。",
+	"thumbnailUrl": "https://i.ytimg.com/vi/UWX70dTajBw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCtlggVRkbB3MWo_YuEBwBI80CXmQ",
+	"uploadDate": "2019-04-02",
+	"duration": "PT3M38S",  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MiTAC神達數位",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
+		}
+	},
+	"contentUrl": "https://youtu.be/UWX70dTajBw"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": "Mio, our commitment to quality",
+	"description": "Mio, the world leading brand of Dashcam, it’s all about you. Mio Dashcams are 100% designed in Taiwan and manufactured in a state-of-the-art factory with automated production facilities and a rigorous management system . All Mio Dashcams undergo a battery of more than 50 rigorous tests to ensure the highest performance standards. We ensures your driving safety and gives you an enjoyable experience during each of your journeys.",
+	"thumbnailUrl": "https://i.ytimg.com/vi/mSl6az1Bgiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA561iR4RrHza7gkfZC5kwhgl6oKA",
+	"uploadDate": "2019-04-02",
+	"duration": "PT3M45S",  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MiTAC神達數位",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
+		}
+	},
+	"contentUrl": "https://youtu.be/mSl6az1Bgiw"
+	}]
+	</script>
+	<!--json-ld end-->
+
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -424,7 +421,7 @@ Mio守護您的行車安全，並在每一次的旅途中,創造無與倫比的�
 </head>
 <body class="royal_preloader">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPTFRWN"
+<noscript><iframe class="hidd" src="https://www.googletagmanager.com/ns.html?id=GTM-KPTFRWN"
 height="0" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 	
@@ -438,108 +435,212 @@ height="0" width="0"></iframe></noscript>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">	
-					<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
-						<!-- <?php
-							// if(isMobile()){
-							// 	echo "";
-							// }
-						?> -->
-						<button class='navbar-toggle navbar-toggler-right d-lg-none' type='button' data-target='#navbarNavMenuMain'>
-							<span class='navbar-toggle-icon'></span>
-						</button>
-						<a class="navbar-brand" href="index.php" title="神達數位股份有限公司">
-							<img src="../images/MDT_logo_light@2x.png" alt="神達數位股份有限公司" class="">
-						</a>
-						<div class="navbar-collapse" id="navbarNavMenuMain">
-							<ul class="navbar-nav">
-								<!-- get Menu -->
 
-								<?php
-									function getChildrenItems($father_menu_id, $all_menu, $render_link_el, $level = 0){
+					<header id="header" class="page-header">
+						<div class="page-header-container">
+							<a class="logo" href="./index.php">
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="large" width="165" height="40"/>
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="small"  width="165" height="40"/>
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="white"  width="165" height="40"/>
+							</a>
+							<!-- Account -->
+							<div id="header-account" class="d-none"></div>
+							<!-- Skip Links -->
+							<div class="skip-links">
+								<a href="#header-nav" class="skip-link skip-nav">
+									<span class="icon icon-menu"></span>
+									<span class="label">Menu</span>
+								</a>
+							</div>
+							<!-- Navigation -->
+							<div id="header-nav" class="skip-content sliding-menu">
+								<div class="sliding-menu-inner">
+									<nav id="nav">
+									<ol class="nav-primary">
+										<!-- get Menu -->
+										<?php
+											foreach ($first_menu as $menu) {
+												$pop = ($menu['menu_id'] == '185' || $menu['menu_id'] == '186' || $menu['menu_id'] == '187' || $menu['menu_id'] == '188' )? 'high' : '';//寫死
 
-										$class = [ 'second_menu', 'third_menu', 'fourth_menu' ];
+												echo "<li class='{$pop} megamenu level0'>
+															<a href='{$menu['file_name']}' class='level0 has-children disable ' target='{$menu['href_target']}'>
+															{$menu['menu_name']}
+															</a>";
 
-										$filterFunc = function($item) use ($father_menu_id){
-												return $item['father_menu_id'] == $father_menu_id;
-										};
+												$level_1 = getSubItems($menu['menu_id'], $all_menu);
+												if($level_1){
+													echo "<span class='more'></span>
+																<div class='sub-menu-wrapper'>
+																	<ul class='level0'>";
 
-										// $a
-										$all_children_menu = array_filter($all_menu, $filterFunc);
+																		foreach ($level_1 as $items1) {
 
-										if (count($all_children_menu) > 0) {
+																			$active = ($items1['menu_id'] == $Current_Menu_Id || $items1['menu_id'] == $Current_Menu_Father_Id) ? 'active' : '';
 
-											usort($all_children_menu, function($a, $b) {
-												return (int)$a['menu_order'] - (int)$b['menu_order'];
-											});
-											echo "<ul class='{$class[$level]}'>";
-											if ($level === 0) {
-												echo '<li class="close">X</li>';
+																			echo "<li class='level1 {$active} @{$items1['menu_id']}'>
+																						<a href='{$items1['file_name']}' class='level1 has-children' data-target-submenu='#nav-{$items1['menu_id']}-sub' target='{$items1['href_target']}'>
+																							{$items1['menu_name']}
+																						</a>";
+
+																			$level_2 = getSubItems($items1['menu_id'], $all_menu);
+																			if($level_2){
+																				echo "<span class='more'></span>
+																							<ul class='level1'>";
+																								foreach ($level_2 as $items2) {
+																									echo "<li class='level2'>
+																												<a href='{$items2['file_name']}' class='level2' target='{$items2['href_target']}'>
+																													{$items2['menu_name']}
+																												</a>
+																											</li>";
+																								}
+																				echo "</ul>";
+																			}
+
+																			echo "</li>";
+																		}
+													echo "</ul>";
+
+
+													if($pop == 'high'){
+														echo "<div id='product-submenu' class='sub-megamenu-wrapper'>";
+
+														foreach ($level_1 as $items1) {
+															echo "<div class='panel'>
+																			<div id='nav-{$items1['menu_id']}-sub' class='collapse withImg' style='display: none;'>";
+
+															$level_2 = getSubItems($items1['menu_id'], $all_menu);
+															if($level_2){
+																echo "<ul class='level1'>";
+																foreach ($level_2 as $items2) {
+																	echo "<li class='level2'>
+																				<a href='{$items2['file_name']}' class='level2 has-children' target='{$items2['href_target']}'>
+																					{$items2['menu_name']}
+																				</a>";
+
+																					$level_3 = getSubItems($items2['menu_id'], $all_menu);
+																					if($level_3){
+																						echo "<ul class='level2'>";
+																							foreach ($level_3 as $items3) {
+																								echo "<li class='level3'>
+																												<a href='{$items3['file_name']}' class='level3 ' target='{$items3['href_target']}'>
+																													{$items3['menu_name']}
+																												</a>
+																											</li>";
+																							}
+																						echo "</ul>";
+																					}
+																	echo "</li>";
+																}
+																echo "</ul>";
+															}
+
+															$og_info = getOgInfo($items1['menu_id'], $all_meta);
+															if($og_info){
+																echo "<div class='cats-info-wrapper'>
+																				<a href='#'>
+																					<img src='../images/menu/{$og_info['og_img']}' alt='{$og_info['og_title']}'>
+																				</a>
+																				<div class='cats-title mt-20'>
+																					{$og_info['og_title']}
+																				</div>
+																				<p class='mb-10'>{$og_info['og_alt']}</p>
+																				<a class='btn btn-fill-black-b btn-xs btn-round' href='{$og_info['og_url']}' target='{$items1['href_target']}'>Learn More</a>
+																			</div>";
+															}
+															echo "	</div>
+																	</div>";
+														}
+
+														echo "</div>";
+													}
+													echo "</div>";
+												}
+
+												echo "</li>";
+											}//整個menu
+
+											//取得子item
+											function getSubItems($father_menu_id, $all_menu){
+												$sub_level_arry = [];
+												foreach ($all_menu as $k=>$items) {
+													if($items['father_menu_id'] == $father_menu_id){
+														$sub_level_arry[$k]['menu_id']				= $items['menu_id'];
+														$sub_level_arry[$k]['father_menu_id']	= $items['father_menu_id'];
+														$sub_level_arry[$k]['menu_order']		= $items['menu_order'];
+														$sub_level_arry[$k]['menu_name']		= $items['menu_name'];
+														$sub_level_arry[$k]['file_name']			= ($items['file_name'])?$items['file_name'] :'javascript:void(0);' ;
+														$sub_level_arry[$k]['href_target']			= $items['href_target'];
+													}
+												}
+												return $sub_level_arry;
 											}
-											foreach ($all_children_menu as $child_menu) {
-												echo '<li>';
-												echo $render_link_el($child_menu);
-												
-												getChildrenItems($child_menu['menu_id'], $all_menu, $render_link_el, $level+1);
-								
-												echo '</li>';
+
+											function getOgInfo($menu_id, $all_meta){
+												if (count($all_meta) > 0){
+													$og_info = [];
+													foreach ($all_meta as $og) {
+														if($og['menu_id'] == $menu_id){
+															$og_info['menu_id']	= $og['menu_id'];
+															$og_info['og_title']	= $og['og_title'];
+															$og_info['og_alt']		= $og['og_alt'];
+															$og_info['og_img']	= $og['og_img'];
+															$og_info['og_url']	= $og['og_url'];
+														}
+													}
+												}
+												return $og_info;
 											}
-											echo '</ul>';
+
+											//取得他語系網頁
+											$sqlL ="Select * From `ows_menu_test` Where lang='tw' And file_name = '".$Current_Menu_File_Name."' ";
+											$resultL = mysqli_query($MysqlConn, $sqlL);
+											$tspgAry = mysqli_fetch_array($resultL);
+											if($tspgAry){
+												$transferPageUrl = "/tw/".$Current_Menu_File_Name;
+											}else{
+												$transferPageUrl = "/tw/";
+											}
+
+										?>
+
+										<li class="megamenu level0">
+											<a class="nav-link" href="#"><i class="fa fa-globe"></i></a>
+											<span class="more"></span>
+											<div class="sub-menu-wrapper">
+												<ul class="level0">
+													<li class="level1">
+														<a href="#" class="level1 ">English</a>
+													</li>
+													<li class="level1">
+														<a href="<?php echo $transferPageUrl; ?>" class="level1 ">中文</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<!-- get Menu end-->
+
+										</ol>
+									</nav>
+								</div>
+
+								<script>
+								$j(document).ready(function() {
+									$j('li.level1 a').each(function(){
+										var targetSubmenu = $j(this).attr('data-target-submenu') + " ul";
+										if($j(targetSubmenu).children().length == 0) {
+											$j(targetSubmenu).parent().parent().hide();
+											$j(this).removeClass('has-children');
 										}
+									})
+								});
+								</script>
+							</div>
 
-										return $all_children_menu;
-
-									};
-
-									$render_link_el = function ($menu) use( $Current_Menu_Id) {
-										$href = $menu['file_name'] ? $menu['file_name'] : '#';
-
-										$target = $menu['href_target'];
-										$active = $menu['menu_id'] == $Current_Menu_Id ? ' active' : '';
-										if($target == '_self') {
-											return "<a href='{$href}' class='nav-link{$active}'>{$menu['menu_name']}</a>";
-										}
-										
-										return "<a href='{$href}' class='nav-link' target='{$target}'>{$menu['menu_name']}</a>";
-
-									};
-
-									foreach($first_menu as $menu){
-										echo '<li class="first_menu">';
-										echo $render_link_el($menu);
-										getChildrenItems($menu['menu_id'], $all_menu, $render_link_el);
-										echo '</li>';
-									}
-									?>
-								<?php
-								
-								//取得他語系網頁
-								$sqlL ="Select * From `ows_menu` Where lang='en' And file_name = '".$Current_Menu_File_Name."' ";
-								$resultL = mysqli_query($MysqlConn, $sqlL);
-								$tspgAry = mysqli_fetch_array($resultL);
-								if($tspgAry && $Current_Menu_File_Name != 'cyber_security.php'){
-									$transferPageUrl = "/tw/".$Current_Menu_File_Name;
-								}else{
-									$transferPageUrl = "/tw/";
-								}
-								
-								?>
-								<li class="first_menu lang">
-									<a class="nav-link" href="#">
-										<i class="fa fa-globe"></i>
-									</a>
-									<ul class="second_menu">
-										<li class="close">X</li>
-										<li><a class="nav-link" href="<?php echo $transferPageUrl; ?>">中文</a></li>
-										<li><a class="active nav-link" href="#">English</a></li>
-									</ul>
-								</li>
-								<!--<li class="nav-item icons-item-menu modal-search">
-									<a class="nav-link" href="#" data-toggle="modal" data-target="#Modal-search"><i class="fa fa-search"></i></a>
-								</li>-->
-								<!-- get Menu end-->
-							</ul>
+							<div class="dimmer"></div>
+							<span class="dimmer-close"></span>
 						</div>
-					</nav>		
+					</header>
+
 				</div>
 			</div>	
 		</div>		

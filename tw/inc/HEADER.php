@@ -70,7 +70,6 @@
 	$Current_Meta_Description = null;
 	$Current_Meta_Keywords = null;
 
-
 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
   {
 		if ( $row['file_name'] != 'index.php') {
@@ -83,14 +82,11 @@
 
   }
 
-	//Menu
-
-	//Meta
-
 	if ($cfg['file_name'] == '404.php') {
 		$cfg['file_name'] = "index.php";
 	}
 
+	//Menu
 	$sqlM ="Select * From `ows_menu_test` Where menu_class='main' And is_online=1 And lang='tw' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
@@ -98,6 +94,7 @@
 	$resultM = mysqli_stmt_get_result($stmt);
 	$menuAry = mysqli_fetch_array($resultM);
 
+	// 當前菜單
 	$Current_Menu_Id					= $menuAry['menu_id'];
 	$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
 	$Current_Menu_Order				= $menuAry['menu_order'];
@@ -105,7 +102,6 @@
 	$Current_Menu_File_Name		= $menuAry['file_name'];
 	$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
 	$Current_Menu_Is_Online = $menuAry['is_online'];
-	// 當前菜單
 
 	//Meta
 	$sqlT ="Select * From `ows_meta` where 1=1 ";
@@ -122,8 +118,6 @@
 			$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
 		}
 	}
-
-	// mysqli_close($MysqlConn);
 
 	//判斷是否為手機
 	function isMobile() {
@@ -233,7 +227,7 @@
 	<script type="text/javascript" src="../ext/menu_b2b/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/styles.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/theme.css" media="all" />
-	
+
 	<!-- Extention -->
 	<?php if($Current_Menu_File_Name == 'index.php'){ ?>
 		<link rel="stylesheet" type="text/css" href="../ext/swiper/css/swiper.min.css">
@@ -275,148 +269,147 @@
 	
 	<?php } ?>
 	
-	
-<!--json-ld start-->
-<script type='application/ld+json'>
-[{
-  "@context": "http://www.schema.org",
-  "@type": "Corporation",
-  "name": "神達數位股份有限公司",
-  "url": "https://www.mitacmdt.com/",
-  "logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
-  "image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
-  "description": "神達數位是一個廣受信賴的車用電子領導廠商，帶領使用者正面熱情地找尋人生方向並持續向前邁進。除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。",
-  "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "桃園市龜山區文化二路200號",
-     "addressLocality": "桃園市",
-     "postalCode": "333",
-     "addressCountry": "台灣"
-  },
-  "geo": {
-     "@type": "GeoCoordinates",
-     "latitude": "25.048009",
-     "longitude": "121.375504"
-  },
-   "openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
-},
-{
-  "@context": "http://www.schema.org",
-  "@type": "Corporation",
-  "name": "MiTAC Digital Technology Corporation",
-  "url": "https://www.mitacmdt.com/",
-  "logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
-  "image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
-  "description": "A trusted leader in automotive electronics , MiTAC Digital Technology (MDT) helps users navigate life with passion, positivity and a drive to keep moving forward. Beyond automotive electronics , MDT is at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.",
-  "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "No.200, Wen Hwa 2nd Rd., Kuei Shan Dist., Taoyuan City 33383, Taiwan(R.O.C)",
-     "addressLocality": "Taoyuan",
-     "postalCode": "333",
-     "addressCountry": "Taiwan"
-  },
-  "geo": {
-     "@type": "GeoCoordinates",
-     "latitude": "25.048009",
-     "longitude": "121.375504"
-  },
-   "openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
-  },
-  "headline": "神達投控宣布成立神達數位，聚焦互聯汽車與車用電子產業",
-  "description": "神達投資控股股份有限公司(以下簡稱神達投控，TWSE: 3706)今日(12日)代子公司神達電腦股份有限公司(以下簡稱神達電腦)，於證券交易所召開重大訊息記者會，說明今日神達電腦以及神達數位股份有限公司(以下簡稱神達數位)兩家子公司董事會決議分割受讓案，將神達電腦之行動通訊產品事業體，分割讓與新設立之神達數位，分割基準日擬訂於107年1月1日。此案為神達投控集團內的組織調整，將不會影響神達投控的股東權益。",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "MDT 神達數位股份有限公司"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MDT 神達數位股份有限公司",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/"
-    }
-  },
-  "datePublished": "2017-10-12",
-  "dateModified": "2019-06-12"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
-  },
-  "headline": "MiTAC Holdings Corporation Announced the Establishment of MiTAC Digital Technology Corporation",
-  "description": "MiTAC Holdings Corporation (MHC,TWSE: 3706) held a press conference of material information at the Taiwan Stock Exchange today on behalf of its subsidiary MiTAC International Corporation (MIC) announcing the Board of Directors’ approval of the spinoff of its Mobile Communication Product Business to MiTAC Digital Technology Corporation (MDT). The record date of the spinoff is set on January 1st, 2018. This spinoff is an organization re-structuring within the group and will not affect the shareholders equity of MHC.",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "MDT神達數位"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MDT神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/"
-    }
-  },
-  "datePublished": "2017-10-12",
-  "dateModified": "2019-06-12"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mio, 我們對品質的堅持",
-  "description": "Mio，世界級行車紀錄器領導品牌，精心為你。Mio行車記錄器為百分之百台灣研發設計，生產製造基地配備自動化生產設備與嚴謹管理系統。所有Mio 行車紀錄器皆通過超過50項測試，確保其最高品質與完美效能。
-Mio守護您的行車安全，並在每一次的旅途中,創造無與倫比的完美體驗。",
-  "thumbnailUrl": "https://i.ytimg.com/vi/UWX70dTajBw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCtlggVRkbB3MWo_YuEBwBI80CXmQ",
-  "uploadDate": "2019-04-02",
-  "duration": "PT3M38S",  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MiTAC神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
-    }
-  },
-  "contentUrl": "https://youtu.be/UWX70dTajBw"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mio, our commitment to quality",
-  "description": "Mio, the world leading brand of Dashcam, it’s all about you. Mio Dashcams are 100% designed in Taiwan and manufactured in a state-of-the-art factory with automated production facilities and a rigorous management system . All Mio Dashcams undergo a battery of more than 50 rigorous tests to ensure the highest performance standards. We ensures your driving safety and gives you an enjoyable experience during each of your journeys.",
-  "thumbnailUrl": "https://i.ytimg.com/vi/mSl6az1Bgiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA561iR4RrHza7gkfZC5kwhgl6oKA",
-  "uploadDate": "2019-04-02",
-  "duration": "PT3M45S",  
-  "publisher": {
-    "@type": "Organization",
-    "name": "MiTAC神達數位",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
-    }
-  },
-  "contentUrl": "https://youtu.be/mSl6az1Bgiw"
-}]
-</script>
-<!--json-ld end-->
+	<!--json-ld start-->
+	<script type='application/ld+json'>
+	[{
+	"@context": "http://www.schema.org",
+	"@type": "Corporation",
+	"name": "神達數位股份有限公司",
+	"url": "https://www.mitacmdt.com/",
+	"logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
+	"image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
+	"description": "神達數位是一個廣受信賴的車用電子領導廠商，帶領使用者正面熱情地找尋人生方向並持續向前邁進。除了車用電子，我們也是智聯網，專業平板領域的創新先驅者，我們體貼入微的設計反映對品質的高標準及設計巧思，引領客戶朝向嶄新且引人入勝的方向前進。",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "桃園市龜山區文化二路200號",
+		"addressLocality": "桃園市",
+		"postalCode": "333",
+		"addressCountry": "台灣"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "25.048009",
+		"longitude": "121.375504"
+	},
+	"openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
+	},
+	{
+	"@context": "http://www.schema.org",
+	"@type": "Corporation",
+	"name": "MiTAC Digital Technology Corporation",
+	"url": "https://www.mitacmdt.com/",
+	"logo": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png",
+	"image": "https://www.mitacmdt.com/images/MiTAC_building.jpg",
+	"description": "A trusted leader in automotive electronics , MiTAC Digital Technology (MDT) helps users navigate life with passion, positivity and a drive to keep moving forward. Beyond automotive electronics , MDT is at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "No.200, Wen Hwa 2nd Rd., Kuei Shan Dist., Taoyuan City 33383, Taiwan(R.O.C)",
+		"addressLocality": "Taoyuan",
+		"postalCode": "333",
+		"addressCountry": "Taiwan"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "25.048009",
+		"longitude": "121.375504"
+	},
+	"openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 01:00-18:00"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "NewsArticle",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
+	},
+	"headline": "神達投控宣布成立神達數位，聚焦互聯汽車與車用電子產業",
+	"description": "神達投資控股股份有限公司(以下簡稱神達投控，TWSE: 3706)今日(12日)代子公司神達電腦股份有限公司(以下簡稱神達電腦)，於證券交易所召開重大訊息記者會，說明今日神達電腦以及神達數位股份有限公司(以下簡稱神達數位)兩家子公司董事會決議分割受讓案，將神達電腦之行動通訊產品事業體，分割讓與新設立之神達數位，分割基準日擬訂於107年1月1日。此案為神達投控集團內的組織調整，將不會影響神達投控的股東權益。",
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
+	},
+	"author": {
+		"@type": "Organization",
+		"name": "MDT 神達數位股份有限公司"
+	},  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MDT 神達數位股份有限公司",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/"
+		}
+	},
+	"datePublished": "2017-10-12",
+	"dateModified": "2019-06-12"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "NewsArticle",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.mitacmdt.com/tw/press-events-20171012.php"
+	},
+	"headline": "MiTAC Holdings Corporation Announced the Establishment of MiTAC Digital Technology Corporation",
+	"description": "MiTAC Holdings Corporation (MHC,TWSE: 3706) held a press conference of material information at the Taiwan Stock Exchange today on behalf of its subsidiary MiTAC International Corporation (MIC) announcing the Board of Directors’ approval of the spinoff of its Mobile Communication Product Business to MiTAC Digital Technology Corporation (MDT). The record date of the spinoff is set on January 1st, 2018. This spinoff is an organization re-structuring within the group and will not affect the shareholders equity of MHC.",
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/press_news/news20180902.jpg"
+	},
+	"author": {
+		"@type": "Organization",
+		"name": "MDT神達數位"
+	},  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MDT神達數位",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/"
+		}
+	},
+	"datePublished": "2017-10-12",
+	"dateModified": "2019-06-12"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": "Mio, 我們對品質的堅持",
+	"description": "Mio，世界級行車紀錄器領導品牌，精心為你。Mio行車記錄器為百分之百台灣研發設計，生產製造基地配備自動化生產設備與嚴謹管理系統。所有Mio 行車紀錄器皆通過超過50項測試，確保其最高品質與完美效能。
+	Mio守護您的行車安全，並在每一次的旅途中,創造無與倫比的完美體驗。",
+	"thumbnailUrl": "https://i.ytimg.com/vi/UWX70dTajBw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCtlggVRkbB3MWo_YuEBwBI80CXmQ",
+	"uploadDate": "2019-04-02",
+	"duration": "PT3M38S",  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MiTAC神達數位",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
+		}
+	},
+	"contentUrl": "https://youtu.be/UWX70dTajBw"
+	},
+	{
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": "Mio, our commitment to quality",
+	"description": "Mio, the world leading brand of Dashcam, it’s all about you. Mio Dashcams are 100% designed in Taiwan and manufactured in a state-of-the-art factory with automated production facilities and a rigorous management system . All Mio Dashcams undergo a battery of more than 50 rigorous tests to ensure the highest performance standards. We ensures your driving safety and gives you an enjoyable experience during each of your journeys.",
+	"thumbnailUrl": "https://i.ytimg.com/vi/mSl6az1Bgiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA561iR4RrHza7gkfZC5kwhgl6oKA",
+	"uploadDate": "2019-04-02",
+	"duration": "PT3M45S",  
+	"publisher": {
+		"@type": "Organization",
+		"name": "MiTAC神達數位",
+		"logo": {
+		"@type": "ImageObject",
+		"url": "https://www.mitacmdt.com/images/logo_MiTAC_570x180.png"
+		}
+	},
+	"contentUrl": "https://youtu.be/mSl6az1Bgiw"
+	}]
+	</script>
+	<!--json-ld end-->
 
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
