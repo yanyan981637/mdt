@@ -1,7 +1,7 @@
 /*
- * @LastEditors    : arvin arvin.duan@mic.com.tw
+ * @LastEditors    : vic
  * @Date           : 2023-04-21 11:40:27
- * @LastEditTime   : 2023-04-26 14:34:58
+ * @LastEditTime   : 2024-03-19 14:34:58
  * @FilePath       : \mitacmdt\mitacmdt\js\extra.js
  * @description    : 
  */
@@ -34,7 +34,7 @@
 			}
 
 		}
-
+		/*
 		$('#menu-wrap #navbarNavMenuMain').find('a').click(function(e){
 			
 			var a_herf = $(this).attr('href');
@@ -51,6 +51,23 @@
 				$('#menu-wrap').find('button.navbar-toggle').removeClass('collapsed');
 				$('#menu-wrap').find('div.navbar-collapse').removeClass('collapsed');
 
+			}
+		})*/
+
+		//2024 menu
+		$('#menu-wrap #header-nav').find('a').click(function(e){
+			
+			var a_herf = $(this).attr('href');
+
+			var current_page = window.location.pathname;
+			
+			var href_split = a_herf.split('#')
+
+			if (a_herf !== '#' & href_split.length == 2 & current_page.lastIndexOf(href_split[0]) > 0 & href_split[1] !== '') {
+				e.preventDefault();
+				scrollToEl('#' + href_split[1])
+
+				$('#menu-wrap').find('li.submega-on').removeClass('menu-active');
 			}
 		})
 		
