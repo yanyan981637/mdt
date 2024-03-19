@@ -91,7 +91,7 @@
 		$cfg['file_name'] = "index.php";
 	}
 
-	$sqlM ="Select * From `ows_menu_test` Where menu_class='main' And is_online=1 And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu_test` Where menu_class='main' And is_online=1 And lang='tw' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -232,6 +232,7 @@
 	<script type="text/javascript" src="../ext/menu_b2b/jquery.appear.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/styles.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/theme.css" media="all" />
 	
 	<!-- Extention -->
 	<?php if($Current_Menu_File_Name == 'index.php'){ ?>
@@ -446,7 +447,7 @@ height="0" width="0"></iframe></noscript>
 						<div class="page-header-container">
 							<a class="logo" href="./index.php">
 								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="large" width="165" height="40"/>
-								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="small"  width="67" height="25"/>
+								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="small"  width="165" height="40"/>
 								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="white"  width="165" height="40"/>
 							</a>
 							<!-- Account -->
@@ -550,7 +551,7 @@ height="0" width="0"></iframe></noscript>
 																					{$og_info['og_title']}
 																				</div>
 																				<p class='mb-10'>{$og_info['og_alt']}</p>
-																				<a class='btn btn-fill-black-b btn-xs btn-round' href='{$items1['file_name']}' target='{$items1['href_target']}'>瞭解更多</a>
+																				<a class='btn btn-fill-black-b btn-xs btn-round' href='{$og_info['og_url']}' target='{$items1['href_target']}'>瞭解更多</a>
 																			</div>";
 															}
 															echo "	</div>
@@ -590,6 +591,7 @@ height="0" width="0"></iframe></noscript>
 															$og_info['og_title']	= $og['og_title'];
 															$og_info['og_alt']		= $og['og_alt'];
 															$og_info['og_img']	= $og['og_img'];
+															$og_info['og_url']	= $og['og_url'];
 														}
 													}
 												}

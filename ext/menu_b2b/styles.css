@@ -4054,6 +4054,11 @@ a.skip-link{
         left: 140px;
     }
 }
+@media (max-width: 767px) {
+    .nav-primary li.level0.megamenu .sub-menu-wrapper li.level1.active>a{
+        background-color:#62dcff;
+    }
+}
 @media only screen and (min-width:1230px){
     .nav-primary li.megamenu{
         position:static
