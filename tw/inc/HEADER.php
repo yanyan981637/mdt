@@ -461,9 +461,10 @@ height="0" width="0"></iframe></noscript>
 										<?php
 											foreach ($first_menu as $menu) {
 												$pop = ($menu['menu_id'] == '185' || $menu['menu_id'] == '186' || $menu['menu_id'] == '187' || $menu['menu_id'] == '188' )? 'high' : '';//寫死
+												$first_menu_href = empty($menu['file_name']) ? 'javascript:void(0);' : $menu['file_name'];
 
 												echo "<li class='{$pop} megamenu level0'>
-															<a href='{$menu['file_name']}' class='level0 has-children disable ' target='{$menu['href_target']}'>
+															<a href='{$first_menu_href}' class='level0 has-children disable ' target='{$menu['href_target']}'>
 															{$menu['menu_name']}
 															</a>";
 
