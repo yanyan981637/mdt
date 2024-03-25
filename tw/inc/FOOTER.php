@@ -6,7 +6,7 @@
 				<div class='c-card-carousel__controller o-animate-in-element js-animate-in-element' style='opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);'>	
 						
 					<?php
-						$sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu_test` where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order < ? order by menu_order DESC limit 1";
+						$sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order < ? order by menu_order DESC limit 1";
 
 						$stmt = mysqli_prepare($MysqlConn, $sql);
 						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
@@ -30,7 +30,7 @@
 						}
 
 
-						$sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu_test` where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
+						$sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
 
 						$stmt = mysqli_prepare($MysqlConn, $sql);
 						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
@@ -118,7 +118,7 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
 					<?php
-						$sqlPM ="Select menu_name, file_name, href_target From `ows_menu_test` Where menu_class='policy' And father_menu_id is NULL And is_online=1 And lang='tw' Order By menu_order ASC ";
+						$sqlPM ="Select menu_name, file_name, href_target From `ows_menu` Where menu_class='policy' And father_menu_id is NULL And is_online=1 And lang='tw' Order By menu_order ASC ";
 						$resultPM = mysqli_query($MysqlConn, $sqlPM);
 						while ($menuPM = mysqli_fetch_array($resultPM, MYSQLI_ASSOC)) {
 							echo "<a href='".$menuPM['file_name']."' target='".$menuPM['href_target']."'>".$menuPM['menu_name']."</a>&nbsp;|&nbsp;.";

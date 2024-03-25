@@ -51,7 +51,7 @@
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
 	
-	$sql_menu = "Select * From `ows_menu_test` Where menu_class='main' and is_online=1 And lang='en' ORDER BY menu_order ASC";
+	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' ORDER BY menu_order ASC";
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
 	$all_menu = [];
@@ -87,7 +87,7 @@
 	}
 
 	//Menu
-	$sqlM ="Select * From `ows_menu_test` Where menu_class='main' And is_online=1 And lang='en' And file_name = ? limit 1 ";
+	$sqlM ="Select * From `ows_menu` Where menu_class='main' And is_online=1 And lang='en' And file_name = ? limit 1 ";
 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
 	mysqli_stmt_execute($stmt);
@@ -593,7 +593,7 @@ height="0" width="0"></iframe></noscript>
 											}
 
 											//取得他語系網頁
-											$sqlL ="Select * From `ows_menu_test` Where lang='tw' And file_name = '".$Current_Menu_File_Name."' ";
+											$sqlL ="Select * From `ows_menu` Where lang='tw' And file_name = '".$Current_Menu_File_Name."' ";
 											$resultL = mysqli_query($MysqlConn, $sqlL);
 											$tspgAry = mysqli_fetch_array($resultL);
 											if($tspgAry){
