@@ -167,14 +167,14 @@ function onYouTubeIframeAPIReady() {
 					<div class="item item--mizuno">
 						<a href="video-telematics.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Telematics</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Transportation</h2><span></span></h3>
 								<p class="leads">
 									<span>A pioneer in both information technology and the automotive fields, MDT continues to move ahead with connected car solution to provide users with instant information sharing, remote monitoring, cloud storage, and user behavior analysis.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Telematics"></span>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Transportation"></span>
 						</a>
 					</div>
 					
@@ -209,7 +209,7 @@ function onYouTubeIframeAPIReady() {
 				
 				<ul class="imgs">
 					<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="Smart Mobility"></span></li>
-					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/product_02.jpg" alt="Smart Telematics"></span></li>
+					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/product_02.jpg" alt="Smart Transportation"></span></li>
 					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industrialt"></span></li>
 					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span></li>
 				</ul>

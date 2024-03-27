@@ -66,34 +66,26 @@
 	<div class="section padding-top-smaller dark background-dark over-hide footer-1 z-bigger-2">
 		<div class="container">
 			<div class="row fItem">
-				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>Product & Solution</h6>
+				<div class="hidden-xs col-md-5 col-sm-5 col-6 mb-20">
+					<h6>Product</h6>
 					<ul class="list-style">
-						<li><a href="./dashcam-recorder.php" target="_bank">Smart Mobility</a></li>
-						<li><a href="./video-telematics.php">Smart Telematics</a></li>
-						<li><a href="./tablet.php">Smart Industries</a></li>
-						<li><a href="./outdoor-luminaires.php">Smart IOT</a></li>
+						<?php 
+							$m_items = getSubItems(186, $all_menu);//186:Product
+							foreach ($m_items as $it) {
+								echo "<li><a href='{$it['file_name']}' target='{$it['href_target']}'>{$it['menu_name']}</a></li>";
+							}
+						?>
 					</ul>
 				</div>
-				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>Capability</h6>
+				<div class="hidden-xs col-md-3 col-sm-3 col-6 mb-20">
+					<h6>Solution</h6>
 					<ul class="list-style">
-					  <li><a href="./core-competence.php">Core Competence</a></li>
-					  <li><a href="./innovative-engineering.php">Innvovative Engineering</a></li>
-					  <li><a href="./quality-management.php">Quality Management</a></li>
-					  <li><a href="./manufacturing-excellence.php">Manufacturing Excellence</a></li>
-					</ul>
-				</div>
-				<div class="hidden-xs col-md-3 col-sm-4 col-6 mb-20">
-					<h6>Discover MDT</h6>
-					<ul class="list-style">
-					  <li><a href="./company-overview.php">Company Overview</a></li>
-					  <li><a href="./MiTAC-holdings.php">MiTAC Holdings</a></li>
-					  <li><a href="./own-brands.php">Own Brands</a></li>
-					  <li><a href="./global-glory.php">Global Glory</a></li>
-						<li><a href="https://www.mitac.com/en-global/ir_information/index" target="_blank">Investor Information</a></li>
-					  <li><a href="./csr.php">CSR</a></li>
-					  <li><a href="./press-events-list.php">Press</a></li>
+						<?php 
+							$m_items = getSubItems(188, $all_menu);//188:Solution
+							foreach ($m_items as $it) {
+								echo "<li><a href='{$it['file_name']}' target='{$it['href_target']}'>{$it['menu_name']}</a></li>";
+							}
+						?>
 					</ul>
 				</div>
 				
