@@ -9,34 +9,34 @@
 		<div class="embed-responsive embed-responsive-16by9" id="home-slide">
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-					<!--<div class="swiper-slide">
+					<div class="swiper-slide">
 						<div class="show-pc img">
-							<img src="../images/home/2024_Automotive.jpg" alt="">
+							<img src="../images/home/MDT_2024_Automotive_Taipei.jpg" alt="">
 						</div>
 						<div class="show-tablet img">
-							<img src="../images/home/2024_Automotive.jpg" alt="">
+							<img src="../images/home/MDT_2024_Automotive_Taipei.jpg" alt="">
 							<div class="banner-text">
 								<h5></h5>
 								<p></p>
 							</div>
 						</div>
 						<div class="show-mobile img">
-							<img src="../images/home/2024_Automotive_mobile.jpg" class="show-mobile" alt="">
+							<img src="../images/home/MDT_2024_AutoTronics_Taipei_mobile.jpg" class="show-mobile" alt="">
 							<div class="banner-text">
-								<h5></h5>
-								<p></p>
+								<h5>Visit Us @ AutoTronics Taipei</h5>
+								<p>2024/04/17~04/20<br>M0409a, Nangang Exhibition Center Hall 1 (TaiNEX 1)</p>
 							</div>
 						</div>
-					</div>-->
+					</div>
 					<div class="swiper-slide">
 						<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
 
 						<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 					</div>
 				</div>
-				<!--<div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-next swiper-button-white"></div>
 				<div class="swiper-button-prev swiper-button-white"></div>
-				<div class="swiper-pagination"></div>-->
+				<div class="swiper-pagination"></div>
 			</div>
 		</div>
 	</div>
@@ -55,15 +55,15 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	/*autoplay: {
+	autoplay: {//
 		delay: 10000
-	},*/
+	},
 	autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-	//loop: true,
+	loop: true,//
 	navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
