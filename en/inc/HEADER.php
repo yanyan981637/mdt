@@ -95,13 +95,15 @@
 	$menuAry = mysqli_fetch_array($resultM);
 
 	// 當前菜單
-	$Current_Menu_Id					= $menuAry['menu_id'];
-	$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
-	$Current_Menu_Order				= $menuAry['menu_order'];
-	$Current_Menu_Name				= $menuAry['menu_name'];
-	$Current_Menu_File_Name		= $menuAry['file_name'];
-	$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
-	$Current_Menu_Is_Online = $menuAry['is_online'];
+	if(!preg_match("/press-events/i", $cfg['file_name'])) {
+		$Current_Menu_Id					= $menuAry['menu_id'];
+		$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
+		$Current_Menu_Order				= $menuAry['menu_order'];
+		$Current_Menu_Name				= $menuAry['menu_name'];
+		$Current_Menu_File_Name		= $menuAry['file_name'];
+		$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
+		$Current_Menu_Is_Online = $menuAry['is_online'];
+	}
 
 	//Meta
 	$sqlT ="Select * From `ows_meta` where 1=1 ";

@@ -18,6 +18,31 @@
 	
 	<div class="section padding-bottom-small background-white">
 		<div class="container" style="border-top: solid 4px #313139;">
+
+		<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">Press</span>
+					<p class="dat">2024.04.11</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20240411.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/MiTAC_CANGO_cover.jpg" class="" alt="MiTAC and CANGO Mobility Announce Collaboration to Transform Fleet Management with Integrated Video Telematics and CANbus Data Insight">
+								<figcaption>
+									<div class="tit h4">Read More</div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20240411.php">MiTAC and CANGO Mobility Announce Collaboration to Transform Fleet Management with Integrated Video Telematics and CANbus Data Insight</a></h5>
+					<p class="brf">CANGO Mobility, a leading provider of advanced vehicle telematics solutions, and MiTAC Digital Tehnology Corp. (MDT), a pioneer in Automative technology, are thrilled to announce their strategic collaboration to deliver cutting-edge video telematics solutions for fleet managers worldwide...</p>
+					<span class="more"><a href="press-events-20240411.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
 		
 			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
