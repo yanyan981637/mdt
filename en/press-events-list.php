@@ -19,7 +19,32 @@
 	<div class="section padding-bottom-small background-white">
 		<div class="container" style="border-top: solid 4px #313139;">
 
-		<div class="row newsGrid">
+			<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">Press</span>
+					<p class="dat">2024.04.17</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20240417.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg" class="" alt="MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei">
+								<figcaption>
+									<div class="tit h4">Read More</div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20240417.php">MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei</a></h5>
+					<p class="brf">MiTAC Digital Technology Corp. (MDT), a company with extensive experience in the automotive electronics industry, showcased a series of products and solutions at AutoTronics Taipei 2024..</p>
+					<span class="more"><a href="press-events-20240417.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
+
+			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">Press</span>
 					<p class="dat">2024.04.11</p>

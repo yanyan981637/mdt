@@ -19,7 +19,32 @@
 	<div class="section padding-bottom-small background-white">
 		<div class="container" style="border-top: solid 4px #313139;">
 
-		<div class="row newsGrid">
+			<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">新聞</span>
+					<p class="dat">202.04.17</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20240417.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg" class="" alt="神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案">
+								<figcaption>
+									<div class="tit h4">繼續閱讀 </div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20240417.php">神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案</a></h5>
+					<p class="brf">深耕車用電子產業多年的神達數位股份有限公司(MiTAC Digital Technology Corp.)於2024年台北車電展期間(04/17~04/20)展出一系列整合硬體實力及自主開發的軟體服務的產品解決方案…</p>
+					<span class="more"><a href="press-events-20240417.php">繼續閱讀  <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
+
+			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">新聞</span>
 					<p class="dat">2023.12.06</p>
