@@ -11,33 +11,32 @@ include 'inc/HEADER.php';
 	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
 		<div class="swiper mySwiper">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
+				<!--<div class="swiper-slide">
 					<div class="show-pc img">
-						<img src="../images/home/MDT_2024_Automotive_Taipei.jpg" alt="">
+						<img src="" alt="">
 					</div>
 					<div class="show-tablet img">
-						<img src="../images/home/MDT_2024_Automotive_Taipei.jpg" alt="">
+						<img src="" alt="">
 						<div class="banner-text">
 							<h5></h5>
 							<p></p>
 						</div>
 					</div>
 					<div class="show-mobile img">
-						<img src="../images/home/MDT_2024_AutoTronics_Taipei_mobile.jpg" class="show-mobile" alt="">
+						<img src="" class="show-mobile" alt="">
 						<div class="banner-text">
-							<h5>Visit Us @ AutoTronics Taipei</h5>
-							<p>2024/04/17~04/20<br>M0409a, Nangang Exhibition Center Hall 1 (TaiNEX 1)</p>
+							<h5></h5>
+							<p></p>
 						</div>
 					</div>
-				</div>
+				</div>-->
 				<div class="swiper-slide">
-					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI "
-						target="_blank">瞭解更多</a>
-						<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
+					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
+					<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 				</div>
 			</div>
-			<div class="swiper-button-next swiper-button-white"></div>
-			<div class="swiper-button-prev swiper-button-white"></div>
+			<!--<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>-->
 			<div class="swiper-pagination"></div>
 		</div>
 	</div>
@@ -59,12 +58,12 @@ swiper = new Swiper(".mySwiper", {
 	autoplay: {//
 		delay: 10000
 	},
-	autoplay: false,
+	//autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-	loop: true,//
+	//loop: true,
 	navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
@@ -160,11 +159,11 @@ function onYouTubeIframeAPIReady() {
 					<a href="dashcam-recorder.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl">
-								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧移動</h2>
+								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧移動</h2>
 								<span></span>
 							</h3>
 							<p class="leads">
-								<span>作為車用電子的領導創新者，神達數位提供駕駛及乘客舒適且安全的行車環境。</span>
+								<span>神達數位提供駕駛及乘客舒適且安全的行車環境。</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long" href="dashcam-recorder.php">瞭解更多</span>
 							<p class="more"><span></span></p>
@@ -177,10 +176,10 @@ function onYouTubeIframeAPIReady() {
 					<a href="video-telematics.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl">
-								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2><span></span>
+								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2><span></span>
 							</h3>
 							<p class="leads">
-								<span>神達數位兼具資通訊與汽車產業領導者角色，以車聯網解決方案，不斷與時並進持續創新，提供使用者即時資訊分享，遠端控制，雲端儲存，和使用者行為分析。</span>
+								<span>車聯網解決方案提供即時資訊分享，遠端控制，雲端儲存，和駕駛行為分析。</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">瞭解更多</span>
 							<p class="more"><span></span></p>
@@ -193,10 +192,10 @@ function onYouTubeIframeAPIReady() {
 					<a href="tablet.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl">
-								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧工業</h2><span></span>
+								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧工業</h2><span></span>
 							</h3>
 							<p class="leads">
-								<span>為了滿足現今商業模式之需求，神達數位開發出一系列專業平板裝置與裝置管理平台系統，適用於物流、觀光、醫療和工業領域，能節省成本並提升工作效率。</span>
+								<span>平板裝置管理平台滿足現今商業模式需求，能節省成本並提升工作效率。</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long" href="tablet.php">瞭解更多</span>
 							<p class="more"><span></span></p>
@@ -209,10 +208,10 @@ function onYouTubeIframeAPIReady() {
 					<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl">
-								<h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧物聯</h2><span></span>
+								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧物聯</h2><span></span>
 							</h3>
 							<p class="leads">
-								<span>配備了智慧控制元件、彈性靈活的傳感器和攝影機，我們的定位型戶外照明解決方案實現了照明、監控、追蹤和感測的整合。</span>
+								<span>定位型戶外照明解決方案實現照明、監控、追蹤和感測科技的整合。</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">瞭解更多</span>
 							<p class="more"><span></span></p>
@@ -220,14 +219,31 @@ function onYouTubeIframeAPIReady() {
 						<span class="img"><img src="../ext/3screen/images/product_04.jpg" alt="智慧物聯"></span>
 					</a>
 				</div>
+
+				<div class="item item--bant">
+					<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
+						<div class="txt-wrap">
+							<h3 class="FC_W ttl">
+								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧零售</h2><span></span>
+							</h3>
+							<p class="leads">
+								<span>智慧零售解決方案能提升購物體驗並優化零售業的工作效率。</span>
+							</p>
+							<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">瞭解更多</span>
+							<p class="more"><span></span></p>
+						</div>
+						<span class="img"><img src="../ext/3screen/images/product_05.jpg" alt="智慧零售"></span>
+					</a>
+				</div>
+
 			</div>
 
 			<ul class="imgs">
-				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg"
-							alt="智慧移動"></span></li>
-				<li class="img--mizuno"><span><img src="../ext/3screen/images/product_02.jpg" alt="智慧交通"></span></li>
-				<li class="img--second"><span><img src="../ext/3screen/images/product_03.jpg" alt="智慧工業"></span></li>
-				<li class="img--enfold"><span><img src="../ext/3screen/images/product_04.jpg" alt="智慧物聯"></span></li>
+				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_01.jpg" alt="智慧移動"></span></li>
+				<li class="img--mizuno"><span><img src="../ext/3screen/images/zoom/product_02.jpg" alt="智慧交通"></span></li>
+				<li class="img--second"><span><img src="../ext/3screen/images/zoom/product_03.jpg" alt="智慧工業"></span></li>
+				<li class="img--enfold"><span><img src="../ext/3screen/images/zoom/product_04.jpg" alt="智慧物聯"></span></li>
+				<li class="img--bant" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_05.jpg" alt="智慧零售"></span></li>
 			</ul>
 		</div>
 	</div>
@@ -322,7 +338,19 @@ function onYouTubeIframeAPIReady() {
 			</div>
 		</div>
 		<div class="row">
-		<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+				<div class="pricing pt_pb_1r background-white borderTop_B">
+					<div class="pn_p p">新聞</div>
+					<div class="pricing-sub p mb_1">2024.04.17</div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240417.php">神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案</a></h6>
+					<div class="pricing-img"><a href="press-events-20240417.php"><img
+								src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg"
+								alt="神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案"></a></div>
+				</div>
+			</div>
+			<div class="clearfix hidden-xs"></div>
+
+			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">新聞</div>
 					<div class="pricing-sub p mb_1">2023.12.06</div>
@@ -343,19 +371,6 @@ function onYouTubeIframeAPIReady() {
 					<div class="pricing-img"><a href="press-events-20230515.php"><img
 								src="../images/press_news/press-room-new-pic-20230515-cover.png"
 								alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850D榮獲 2023 年 iF 設計獎！"></a></div>
-				</div>
-			</div>
-			<div class="clearfix hidden-xs"></div>
-
-			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-				<div class="pricing pt_pb_1r background-white borderTop_B">
-					<div class="pn_p p">新聞</div>
-					<div class="pricing-sub p mb_1">2022.11.23</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20221123.php">MiTAC
-							車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定</a></h6>
-					<div class="pricing-img"><a href="press-events-20221123.php"><img
-								src="../images/press_news/press-room-new-pic-20221123-w920-2.jpg"
-								alt="MiTAC 車載視訊管理解決方案及全螢幕觸控式電子後視鏡型行車記錄器雙雙獲得台灣精品獎肯定"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>

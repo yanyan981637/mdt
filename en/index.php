@@ -9,30 +9,32 @@
 		<div class="embed-responsive embed-responsive-16by9" id="home-slide">
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
+
 					<div class="swiper-slide">
 						<div class="show-pc img">
-							<img src="../images/home/MDT_2024_Automotive_Taipei.jpg" alt="">
+							<img src="../images/home/slider-Automate.jpg" alt="">
 						</div>
 						<div class="show-tablet img">
-							<img src="../images/home/MDT_2024_Automotive_Taipei.jpg" alt="">
+							<img src="../images/home/slider-Automate.jpg" alt="">
 							<div class="banner-text">
 								<h5></h5>
 								<p></p>
 							</div>
 						</div>
 						<div class="show-mobile img">
-							<img src="../images/home/MDT_2024_AutoTronics_Taipei_mobile.jpg" class="show-mobile" alt="">
+							<img src="../images/home/slider-Automate_mobile.jpg" class="show-mobile" alt="">
 							<div class="banner-text">
-								<h5>Visit Us @ AutoTronics Taipei</h5>
-								<p>2024/04/17~04/20<br>M0409a, Nangang Exhibition Center Hall 1 (TaiNEX 1)</p>
+								<h5></h5>
+								<p></p>
 							</div>
 						</div>
 					</div>
+
 					<div class="swiper-slide">
 						<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">Learn More</a>
-
 						<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 					</div>
+
 				</div>
 				<div class="swiper-button-next swiper-button-white"></div>
 				<div class="swiper-button-prev swiper-button-white"></div>
@@ -153,9 +155,9 @@ function onYouTubeIframeAPIReady() {
 					<div class="item item--itokin">
 						<a href="dashcam-recorder.php" data-track-category="トップページ" data-track-action="ITOKIN CORPORATE SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Mobility</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Mobility</h2><span></span></h3>
 								<p class="leads">
-									<span>As a leading innovator in automotive electronics, MDT provides comfort and safety to drivers and their passengers.</span>
+									<span>MDT ensures driver and passenger comfort and safety.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="dashcam-recorder.php">Discover More</span>
 								<p class="more"><span></span></p>
@@ -167,9 +169,9 @@ function onYouTubeIframeAPIReady() {
 					<div class="item item--mizuno">
 						<a href="video-telematics.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Transportation</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Transportation</h2><span></span></h3>
 								<p class="leads">
-									<span>A pioneer in both information technology and the automotive fields, MDT continues to move ahead with connected car solution to provide users with instant information sharing, remote monitoring, cloud storage, and user behavior analysis.</span>
+									<span>Connected car solutions provide instant information sharing, remote monitoring, cloud storage, and driver behavior analysis.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">Discover More</span>
 								<p class="more"><span></span></p>
@@ -181,9 +183,9 @@ function onYouTubeIframeAPIReady() {
 					<div class="item item--second">
 						<a href="tablet.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  Industries</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Industries</h2><span></span></h3>
 								<p class="leads">
-									<span>To meet the demands of doing business today, MDT has developed a range devices and device management platforms that make transport, retail, hospitality, healthcare, and industrial processes more efficient and cost-effective.</span>
+									<span>Devices and management platforms meet modern business demands efficiently and cost-effectively.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="tablet.php">Discover More</span>
 								<p class="more"><span></span></p>
@@ -195,9 +197,9 @@ function onYouTubeIframeAPIReady() {
 					<div class="item item--enfold">
 						<a href="outdoor-luminaires.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
 							<div class="txt-wrap" style="opacity: 1;">
-								<h3 class="FC_W ttl"><h2 class="em h3"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart  IOT</h2><span></span></h3>
+								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart IOT</h2><span></span></h3>
 								<p class="leads">
-									<span>Equipped with a smart control unit, flexible sensors, and a camera, our location-based outdoor luminaire solution realizes the integration of lighting, monitoring, tracking, and sensing.</span>
+									<span>Outdoor luminaire solution integrates lighting, monitoring, tracking, and sensing technology.</span>
 								</p>
 								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>
@@ -205,13 +207,31 @@ function onYouTubeIframeAPIReady() {
 							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span>
 						</a>
 					</div>
+
+					<div class="item item--bant">
+						<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
+							<div class="txt-wrap" style="opacity: 1;">
+								<h3 class="FC_W ttl">
+									<h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Retail</h2><span></span>
+								</h3>
+								<p class="leads">
+									<span>Smart retail solutions enhance shopping experience and optimize efficiency in retail environments.</span>
+								</p>
+								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
+								<p class="more"><span></span></p>
+							</div>
+							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_05.jpg" alt="Smart Retail"></span>
+						</a>
+					</div>
+				
 				</div>
 				
 				<ul class="imgs">
-					<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/product_01.jpg" alt="Smart Mobility"></span></li>
-					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/product_02.jpg" alt="Smart Transportation"></span></li>
-					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industrialt"></span></li>
-					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span></li>
+					<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_01.jpg" alt="Smart Mobility"></span></li>
+					<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_02.jpg" alt="Smart Transportation"></span></li>
+					<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_03.jpg" alt="Smart Industrialt"></span></li>
+					<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_04.jpg" alt="Smart IOT"></span></li>
+					<li class="img--bant" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_05.jpg" alt="Smart Retail"></span></li>
 				</ul>
 			</div>
 		</div>
@@ -300,6 +320,16 @@ function onYouTubeIframeAPIReady() {
 				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 					<div class="pricing pt_pb_1r background-white borderTop_B">
 						<div class="pn_p p">Press</div>
+						<div class="pricing-sub p mb_1">2024.04.17</div>
+						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240417.php">MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei</a></h6>
+						<div class="pricing-img"><a href="press-events-20240417.php"><img src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg" alt="MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei"></a></div>
+					</div>
+				</div>
+				<div class="clearfix hidden-xs"></div>
+
+				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+					<div class="pricing pt_pb_1r background-white borderTop_B">
+						<div class="pn_p p">Press</div>
 						<div class="pricing-sub p mb_1">2024.04.11</div>
 						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240411.php">MiTAC and CANGO Mobility Announce Collaboration to Transform Fleet Management with Integrated Video Telematics and CANbus Data Insight</a></h6>
 						<div class="pricing-img"><a href="press-events-20240411.php"><img src="../images/press_news/MiTAC_CANGO_cover.jpg" alt="MiTAC and CANGO Mobility Announce Collaboration to Transform Fleet Management with Integrated Video Telematics and CANbus Data Insight"></a></div>
@@ -313,16 +343,6 @@ function onYouTubeIframeAPIReady() {
 						<div class="pricing-sub p mb_1">2023.12.06</div>
 						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20231211.php">MiTAC Continues Winning Streak at Taiwan Excellence Awards, Showcasing Continued Dominance in Automotive Electronics</a></h6>
 						<div class="pricing-img"><a href="press-events-20231211.php"><img src="../images/press_news/TW_excellence_2024-all_cover.jpg" alt="MiTAC Continues Winning Streak at Taiwan Excellence Awards, Showcasing Continued Dominance in Automotive Electronics"></a></div>
-					</div>
-				</div>
-				<div class="clearfix hidden-xs"></div>
-
-				<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-					<div class="pricing pt_pb_1r background-white borderTop_B">
-						<div class="pn_p p">Press</div>
-						<div class="pricing-sub p mb_1">2023.05.15</div>
-						<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20230515.php">Mio MiVue R850 Series win the iF DESIGN AWARD 2023</a></h6>
-						<div class="pricing-img"><a href="press-events-20230515.php"><img src="../images/press_news/press-room-new-pic-20230515-cover.png" alt="Mio MiVue R850 Series win the iF DESIGN AWARD 2023"></a></div>
 					</div>
 				</div>
 				<div class="clearfix hidden-xs"></div>
