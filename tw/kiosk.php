@@ -79,6 +79,11 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12 mt-30 text-center">
+          <a class="btn btn-primary btn-lg btn-round" href="https://enterprise.mio.com/en_eu/mioserv/smart-kiosks" target="_blank">瞭解更多</a>
+        </div>
+      </div>
     </div>
   </div>
 
