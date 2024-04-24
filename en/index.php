@@ -154,7 +154,7 @@ function onYouTubeIframeAPIReady() {
 				<div class="areas">
 					<div class="item item--itokin">
 						<a href="dashcam-recorder.php" data-track-category="トップページ" data-track-action="ITOKIN CORPORATE SITE">
-							<div class="txt-wrap" style="opacity: 1;">
+							<div class="txt-wrap">
 								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Mobility</h2><span></span></h3>
 								<p class="leads">
 									<span>MDT ensures driver and passenger comfort and safety.</span>
@@ -162,13 +162,13 @@ function onYouTubeIframeAPIReady() {
 								<span class="btn btn-blue btn-round btn-long" href="dashcam-recorder.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_01.jpg" alt="Smart Mobility"></span>
+							<span class="img"><img src="../ext/3screen/images/product_01.jpg" alt="Smart Mobility"></span>
 						</a>
 					</div>
 					
 					<div class="item item--mizuno">
 						<a href="video-telematics.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
-							<div class="txt-wrap" style="opacity: 1;">
+							<div class="txt-wrap"">
 								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Transportation</h2><span></span></h3>
 								<p class="leads">
 									<span>Connected car solutions provide instant information sharing, remote monitoring, cloud storage, and driver behavior analysis.</span>
@@ -176,13 +176,13 @@ function onYouTubeIframeAPIReady() {
 								<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Transportation"></span>
+							<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Transportation"></span>
 						</a>
 					</div>
 					
 					<div class="item item--second">
 						<a href="tablet.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
-							<div class="txt-wrap" style="opacity: 1;">
+							<div class="txt-wrap">
 								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Industries</h2><span></span></h3>
 								<p class="leads">
 									<span>Devices and management platforms meet modern business demands efficiently and cost-effectively.</span>
@@ -190,13 +190,13 @@ function onYouTubeIframeAPIReady() {
 								<span class="btn btn-blue btn-round btn-long" href="tablet.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industries"></span>
+							<span class="img"><img src="../ext/3screen/images/product_03.jpg" alt="Smart Industries"></span>
 						</a>
 					</div>
 
 					<div class="item item--enfold">
 						<a href="outdoor-luminaires.php" data-track-category="トップページ" data-track-action="ENFÖLD BRAND SITE / EC SITE">
-							<div class="txt-wrap" style="opacity: 1;">
+							<div class="txt-wrap">
 								<h3 class="FC_W ttl"><h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart IOT</h2><span></span></h3>
 								<p class="leads">
 									<span>Outdoor luminaire solution integrates lighting, monitoring, tracking, and sensing technology.</span>
@@ -204,23 +204,23 @@ function onYouTubeIframeAPIReady() {
 								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span>
+							<span class="img"><img src="../ext/3screen/images/product_04.jpg" alt="Smart IOT"></span>
 						</a>
 					</div>
 
 					<div class="item item--bant">
-						<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
-							<div class="txt-wrap" style="opacity: 1;">
+						<a href="kiosk.php" data-track-category="" data-track-action="">
+							<div class="txt-wrap">
 								<h3 class="FC_W ttl">
 									<h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Retail</h2><span></span>
 								</h3>
 								<p class="leads">
 									<span>Smart retail solutions enhance shopping experience and optimize efficiency in retail environments.</span>
 								</p>
-								<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">Discover More</span>
+								<span class="btn btn-blue btn-round btn-long" href="kiosk.php">Discover More</span>
 								<p class="more"><span></span></p>
 							</div>
-							<span class="img" style="opacity: 1;"><img src="../ext/3screen/images/product_05.jpg" alt="Smart Retail"></span>
+							<span class="img"><img src="../ext/3screen/images/product_05.jpg" alt="Smart Retail"></span>
 						</a>
 					</div>
 				

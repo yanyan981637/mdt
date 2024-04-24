@@ -11,32 +11,34 @@ include 'inc/HEADER.php';
 	<div class="embed-responsive embed-responsive-16by9" id="home-slide">
 		<div class="swiper mySwiper">
 			<div class="swiper-wrapper">
-				<!--<div class="swiper-slide">
+
+				<div class="swiper-slide">
 					<div class="show-pc img">
-						<img src="" alt="">
+						<img src="../images/home/slider-Automate.jpg" alt="">
 					</div>
 					<div class="show-tablet img">
-						<img src="" alt="">
+						<img src="../images/home/slider-Automate.jpg" alt="">
 						<div class="banner-text">
 							<h5></h5>
 							<p></p>
 						</div>
 					</div>
 					<div class="show-mobile img">
-						<img src="" class="show-mobile" alt="">
+						<img src="../images/home/slider-Automate_mobile.jpg" class="show-mobile" alt="">
 						<div class="banner-text">
 							<h5></h5>
 							<p></p>
 						</div>
 					</div>
-				</div>-->
+				</div>
+
 				<div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
 					<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 				</div>
 			</div>
-			<!--<div class="swiper-button-next swiper-button-white"></div>
-			<div class="swiper-button-prev swiper-button-white"></div>-->
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
 			<div class="swiper-pagination"></div>
 		</div>
 	</div>
@@ -58,12 +60,12 @@ swiper = new Swiper(".mySwiper", {
 	autoplay: {//
 		delay: 10000
 	},
-	//autoplay: false,
+	autoplay: false,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-	//loop: true,
+	loop: true,
 	navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
@@ -221,7 +223,7 @@ function onYouTubeIframeAPIReady() {
 				</div>
 
 				<div class="item item--bant">
-					<a href="outdoor-luminaires.php" data-track-category="" data-track-action="">
+					<a href="kiosk.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl">
 								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧零售</h2><span></span>
@@ -229,7 +231,7 @@ function onYouTubeIframeAPIReady() {
 							<p class="leads">
 								<span>智慧零售解決方案能提升購物體驗並優化零售業的工作效率。</span>
 							</p>
-							<span class="btn btn-blue btn-round btn-long" href="outdoor-luminaires.php">瞭解更多</span>
+							<span class="btn btn-blue btn-round btn-long" href="kiosk.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
 						<span class="img"><img src="../ext/3screen/images/product_05.jpg" alt="智慧零售"></span>
