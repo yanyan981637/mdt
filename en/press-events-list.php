@@ -53,7 +53,7 @@
 					<div class="newsCov">
 						<a href="press-events-20240425.php">
 							<figure class="image-hover3">
-								<img src="../images/press_news/20240425/001.jpg" class="" alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024">
+								<img src="../images/press_news/20240425/001.png" class="" alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024">
 								<figcaption>
 									<div class="tit h4">Read More</div>
 								</figcaption>

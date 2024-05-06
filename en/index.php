@@ -351,20 +351,10 @@ include 'inc/HEADER.php';
 
 			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
 				<div class="pricing pt_pb_1r background-white borderTop_B">
-					<div class="pn_p p">Press</div>
-					<div class="pricing-sub p mb_1">2024.04.26</div>
-					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240426.php">MiTAC present the latest Edge AI solution for factory automation industries at the Automate Show 2024</a></h6>
-					<div class="pricing-img"><a href="press-events-20240426.php"><img src="../images/press_news/automate_edge_AI_USA_20240426.jpg" alt="MiTAC present the latest Edge AI solution for factory automation industries at the Automate Show 2024"></a></div>
-				</div>
-			</div>
-			<div class="clearfix hidden-xs"></div>
-
-			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-				<div class="pricing pt_pb_1r background-white borderTop_B">
 					<div class="pn_p p">Event</div>
 					<div class="pricing-sub p mb_1">2024.04.25</div>
 					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240425.php">MiTAC's Breakthrough Innovations Shine at Embedded World 2024</a></h6>
-					<div class="pricing-img"><a href="press-events-20240425.php"><img src="../images/press_news/20240425/001.jpg" alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024"></a></div>
+					<div class="pricing-img"><a href="press-events-20240425.php"><img src="../images/press_news/20240425/001.png" alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
@@ -375,6 +365,16 @@ include 'inc/HEADER.php';
 					<div class="pricing-sub p mb_1">2024.04.17</div>
 					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240417.php">MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei</a></h6>
 					<div class="pricing-img"><a href="press-events-20240417.php"><img src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg" alt="MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei"></a></div>
+				</div>
+			</div>
+			<div class="clearfix hidden-xs"></div>
+
+			<div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+				<div class="pricing pt_pb_1r background-white borderTop_B">
+					<div class="pn_p p">Press</div>
+					<div class="pricing-sub p mb_1">2024.04.11</div>
+					<h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240411.php">MiTAC and CANGO Mobility Announce Collaboration to Transform Fleet Management with Integrated Video Telematics and CANbus Data Insight</a></h6>
+					<div class="pricing-img"><a href="press-events-20240411.php"><img src="../images/press_news/MiTAC_CANGO_cover.jpg" alt="MiTAC and CANGO Mobility Announce Collaboration to Transform Fleet Management with Integrated Video Telematics and CANbus Data Insight"></a></div>
 				</div>
 			</div>
 			<div class="clearfix hidden-xs"></div>
