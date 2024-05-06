@@ -46,6 +46,31 @@
 
 			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">Event</span>
+					<p class="dat">2024.04.25</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20240425.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/20240425/001.jpg" class="" alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024">
+								<figcaption>
+									<div class="tit h4">Read More</div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20240425.php">MiTAC's Breakthrough Innovations Shine at Embedded World 2024</a></h5>
+					<p class="brf">The 2024 Embedded World drew to a successful close on April 11th , with MiTAC making waves with our spotlight on "Edge AI" products. Throughout the three-day exhibition, a diverse range of products was showcased...</p>
+					<span class="more"><a href="press-events-20240425.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
+
+			<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">Press</span>
 					<p class="dat">2024.04.17</p>
 				</div>
