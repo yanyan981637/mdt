@@ -50,13 +50,13 @@
 
 							<p>The <a href="https://www.mitacmct.com/EmbeddedSystem_MZ1-10ADP_MZ1-10ADP" target="_blank">MZ1-10ADP</a> features a powerful Intel 12th/13th/14th Gen Core i processor and cutting-edge AI capabilities, supporting up to two 600W high-end FHFL GFX or AI cards. This revolutionary design meets the demand for intensive AI analytics, enabling no-latency inference and machine learning at the edge</p>
 
-							<p>The <span class="b FC_mdtB">MX2-10ADP</span>, powered by an Intel 12th/13th/14th Gen Core i processor, is a robust solution for industrial automation. With 4 x 2.5G LAN ports (optional PoE support), wide voltage input (9-48V DC), and extensive expansion capabilities—up to 14 LAN ports and 12 PoE ports—the device ensures top-notch performance for complex tasks. Its rugged design ensures reliability in harsh environments, making it ideal for robot control and machine vision applications in factory automation.</p>
+							<p>The <span class="b">MX2-10ADP</span>, powered by an Intel 12th/13th/14th Gen Core i processor, is a robust solution for industrial automation. With 4 x 2.5G LAN ports (optional PoE support), wide voltage input (9-48V DC), and extensive expansion capabilities—up to 14 LAN ports and 12 PoE ports—the device ensures top-notch performance for complex tasks. Its rugged design ensures reliability in harsh environments, making it ideal for robot control and machine vision applications in factory automation.</p>
 
 							<div class="tc">
 								<img src="../images/press_news/20240425/004.jpg" alt="" />
 							</div>
 
-							<p>The <span class="b FC_mdtB">MB2-10ANS</span>, an excellent option for IoT gateways and factory automation, powered by Intel Alder Lake-N processors N97 and i3-N305, ensuring high performance. With dual 2.5G LAN ports, wide voltage input range (8-26V DC), supporting up to 4 x COM ports and 8-bit GPIO, it offers versatility. Its rugged design and compact size guarantee reliability and adaptability in challenging environments, making it a robust foundation for IoT gateways and factory automation.</p>
+							<p>The <span class="b">MB2-10ANS</span>, an excellent option for IoT gateways and factory automation, powered by Intel Alder Lake-N processors N97 and i3-N305, ensuring high performance. With dual 2.5G LAN ports, wide voltage input range (8-26V DC), supporting up to 4 x COM ports and 8-bit GPIO, it offers versatility. Its rugged design and compact size guarantee reliability and adaptability in challenging environments, making it a robust foundation for IoT gateways and factory automation.</p>
 
 							<div class="tc">
 								<img src="../images/press_news/20240425/005.jpg" alt="" />
@@ -70,19 +70,19 @@
 								<img src="../images/press_news/20240425/006.jpg" alt="" />
 							</div>
 
-							<p>The <span class="b FC_mdtB">MA1 Pro</span>, engineered with an IP65/67 rating system for resilience in harsh conditions. Its rugged I/O design includes 12 GPIO, COM, LAN ports, and M20 USB3.0 connectivity, ensuring versatile and robust performance. With GMSL2 support, seamless camera connections further enhance its functionality, making it an ideal solution for demanding industrial or in-vehicle environments.</p>
+							<p>The <span class="b">MA1 Pro</span>, engineered with an IP65/67 rating system for resilience in harsh conditions. Its rugged I/O design includes 12 GPIO, COM, LAN ports, and M20 USB3.0 connectivity, ensuring versatile and robust performance. With GMSL2 support, seamless camera connections further enhance its functionality, making it an ideal solution for demanding industrial or in-vehicle environments.</p>
 
 							<div class="tc">
 								<img src="../images/press_news/20240425/007.jpg" alt="" />
 							</div>
 							<h5>OT Network Appliance Box</h5>
-							<p>The <span class="b FC_mdtB">DP1</span> is the ultimate DIN rail OT network appliance for industrial use. With cutting-edge Amston Lake x7835RE processors, it delivers unmatched processing power while conserving energy. Built tough with isolation protection for communication ports, advanced power protection, and dual power input from 9~36VDC, the DP1 thrives in any environment. Operating flawlessly from -40°C to +70°C, it guarantees uninterrupted performance, making it the ideal choice for safeguarding your network and data in harsh conditions.</p>
+							<p>The <span class="b">DP1</span> is the ultimate DIN rail OT network appliance for industrial use. With cutting-edge Amston Lake x7835RE processors, it delivers unmatched processing power while conserving energy. Built tough with isolation protection for communication ports, advanced power protection, and dual power input from 9~36VDC, the DP1 thrives in any environment. Operating flawlessly from -40°C to +70°C, it guarantees uninterrupted performance, making it the ideal choice for safeguarding your network and data in harsh conditions.</p>
 							<div class="tc">
 								<img src="../images/press_news/20240425/008.jpg" alt="" />
 							</div>
 
 							<h5>New Generation Embedded MB</h5>
-							<p>Introducing the new MB range (<span class="b FC_mdtB">uATX</span> / <span class="b FC_mdtB">Mini-ITX</span> / <span class="b FC_mdtB">3.5" SBC</span>), powered by Intel's cutting-edge 13th/14th Gen Core-i and Alder Lake-N platform. These Motherboard range provides an abundance of features including rich I/O, versatile expansions, and industrial-grade design and reliability, catering to the diverse needs of industrial computing.</p>
+							<p>Introducing the new MB range (<span class="b">uATX</span> / <span class="b">Mini-ITX</span> / <span class="b">3.5" SBC</span>), powered by Intel's cutting-edge 13th/14th Gen Core-i and Alder Lake-N platform. These Motherboard range provides an abundance of features including rich I/O, versatile expansions, and industrial-grade design and reliability, catering to the diverse needs of industrial computing.</p>
 							<div class="tc">
 								<img src="../images/press_news/20240425/009.jpg" alt="" />
 							</div>
