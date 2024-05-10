@@ -3,23 +3,23 @@
 ?>
 	<!-- Primary Page Layout
 	================================================== -->
-	<div class="section mid-height-incNav over-hide" id="manufacturing_excellence">	
+	<div class="section mid-height-incNav over-hide" id="manufacturing_excellence">
 		<div class="parallax" style="background-image: url('../images/Hero_slider/cyber_security-banner.jpg')"></div>
 		<div class="hero-center-wrap z-bigger">
 			<div class="container color-white hero-text big-text text-center">
 				<div class="row">
-					<div class="col-md-12 mg-auto">	
+					<div class="col-md-12 mg-auto">
 						<h1 class="color-white">Cyber Security</h1>
-					</div>	
-				</div>		
-			</div>			
-		</div>	
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	
-	
+
+
 	<div class="section background-white">
 		<div class="container">
-		
+
 			<div class="row policyCont">
 				<div class="col-md-12 mt-30">
 					<h3 class="FC_mdtB">Vulnerability Management = Your Security.</h3>
@@ -40,14 +40,30 @@
 					</ul>
 					<p>For the protection of our customers, MDT doesn't disclose, discuss, or confirm security issues until our investigation is complete and any necessary updates are generally available.</p>
 					<h5 class="mt_2">MDT commitment to Vulnerability Management?</h5>
-					<p>MDT commits to remediate known vulnerabilities and apply security patches to support systems or services, for a period of one calendar year from the last sell date. </p>
+					<p>MDT commits to resolve security vulnerabilities and release patches within 90 days to support systems or services, for a period of one calendar year from the last sell date.</p>
 					<ul>
 						<li>The ‘last sell date’ refers to the invoice date MDT sold to its customer.</li>
 					</ul>
+					<div class="section productDetail over-hide mt-10" id="pdt_spec">
+						<div class="data-table product-specs-table table-responsive">
+							<table>
+								<tbody>
+									<tr>
+										<th class="label">Model</th>
+										<th class="label">Deadline to guarantee receipt of security updates</th>
+									</tr>
+									<tr>
+										<td class="data tc">MioWORK F840 (N722)</td>
+										<td class="data tc">End/2030</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
 				</div>
 			</div>
-			
-		</div>		
+
+		</div>
 	</div>
 
 
