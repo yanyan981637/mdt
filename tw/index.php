@@ -12,7 +12,7 @@ include 'inc/HEADER.php';
 		<div class="swiper mySwiper">
 			<div class="swiper-wrapper">
 
-				<div class="swiper-slide">
+				<!-- <div class="swiper-slide">
 					<div class="show-pc img">
 						<img src="../images/home/slider-Automate.jpg" alt="">
 					</div>
@@ -30,16 +30,16 @@ include 'inc/HEADER.php';
 							<p></p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
 					<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 				</div>
 			</div>
-			<div class="swiper-button-next swiper-button-white"></div>
-			<div class="swiper-button-prev swiper-button-white"></div>
-			<div class="swiper-pagination"></div>
+			<!-- <div class="swiper-button-next swiper-button-white"></div> -->
+			<!-- <div class="swiper-button-prev swiper-button-white"></div> -->
+			<!-- <div class="swiper-pagination"></div> -->
 		</div>
 	</div>
 </div>
