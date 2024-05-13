@@ -3,19 +3,19 @@
 ?>
 	<!-- Primary Page Layout
 	================================================== -->
-	<div id="press_events" class="section pgHero" >	
+	<div id="press_events" class="section pgHero" >
 		<div class="hero-center-wrap move-bottom z-bigger">
 			<div class="container hero-text big-text text-center">
 				<div class="row">
-					<div class="col-md-12 mg-auto">	
+					<div class="col-md-12 mg-auto">
 						<h1 class="mb-xl-5 FC_mdtB">最新消息</h1>
-					</div>	
-				</div>		
-			</div>			
-		</div>	
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	
-	
+
+
 	<div class="section padding-bottom-small background-white">
 		<div class="container" style="border-top: solid 4px #313139;">
 
@@ -37,9 +37,9 @@
 					</div>
 				</div>
 				<div class="cont col-lg-7 col-md-5 col-sm-6">
-					<h5><a class="FC_mdtG" href="press-events-20240417.php">神達數位股份有限公司通過TUV NORD Taiwan ISO/SAE 21434認證，強化車載產品網絡安全</a></h5>
+					<h5><a class="FC_mdtG" href="press-events-20240513.php">神達數位股份有限公司通過TUV NORD Taiwan ISO/SAE 21434認證，強化車載產品網絡安全</a></h5>
 					<p class="brf">(桃園訊，2024年05月13日)神達數位股份有限公司，作為全球領先的車用電子及智聯網解決方案供應商，成功通過ISO/SAE 21434車用網絡安全管理系統認證。這項認證由國際知名的認證服務機構TUV NORD Taiwan完成評鑑…</p>
-					<span class="more"><a href="press-events-20240417.php">繼續閱讀  <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+					<span class="more"><a href="press-events-20240513.php">繼續閱讀  <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
@@ -143,7 +143,7 @@
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
-		
+
 		<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">新聞</span>
@@ -218,7 +218,7 @@
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
-		
+
 			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">新聞</span>
@@ -294,7 +294,7 @@
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
-		
+
 			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">活動</span>
@@ -344,8 +344,8 @@
 				</div>
 			</div>
 			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
-			
-			
+
+
 			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">新聞</span>
@@ -371,8 +371,8 @@
 			</div>
 			<div class="col-md-12">	<div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
 
-			
-		</div>		
+
+		</div>
 	</div>
 
 
