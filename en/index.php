@@ -181,14 +181,14 @@ include 'inc/HEADER.php';
 					<a href="video-telematics.php" data-track-category="トップページ" data-track-action="MIZUNO BEYONDMAX BRAND SITE">
 						<div class="txt-wrap"">
 								<h3 class=" FC_W ttl">
-							<h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Transportation</h2><span></span></h3>
+							<h2 class="em h4 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> Smart Telematics</h2><span></span></h3>
 							<p class="leads">
 								<span>Connected car solutions provide instant information sharing, remote monitoring, cloud storage, and driver behavior analysis.</span>
 							</p>
 							<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">Discover More</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Transportation"></span>
+						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="Smart Telematics"></span>
 					</a>
 				</div>
 
@@ -244,8 +244,8 @@ include 'inc/HEADER.php';
 
 			<ul class="imgs">
 				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_01.jpg" alt="Smart Mobility"></span></li>
-				<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_02.jpg" alt="Smart Transportation"></span></li>
-				<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_03.jpg" alt="Smart Industrialt"></span></li>
+				<li class="img--mizuno" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_02.jpg" alt="Smart Telematics"></span></li>
+				<li class="img--third" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_03.jpg" alt="Smart Industries"></span></li>
 				<li class="img--enfold" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_04.jpg" alt="Smart IOT"></span></li>
 				<li class="img--bant" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_05.jpg" alt="Smart Retail"></span></li>
 			</ul>

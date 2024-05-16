@@ -178,7 +178,7 @@ include 'inc/HEADER.php';
 					<a href="video-telematics.php" data-track-category="" data-track-action="">
 						<div class="txt-wrap">
 							<h3 class="FC_W ttl">
-								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i> 智慧交通</h2><span></span>
+								<h2 class="em h3 mb-20"><i class="fa fa-chevron-right" aria-hidden="true"></i>智慧車載資通訊</h2><span></span>
 							</h3>
 							<p class="leads">
 								<span>車聯網解決方案提供即時資訊分享，遠端控制，雲端儲存，和駕駛行為分析。</span>
@@ -186,7 +186,7 @@ include 'inc/HEADER.php';
 							<span class="btn btn-blue btn-round btn-long" href="video-telematics.php">瞭解更多</span>
 							<p class="more"><span></span></p>
 						</div>
-						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="智慧交通"></span>
+						<span class="img"><img src="../ext/3screen/images/product_02.jpg" alt="智慧車載資通訊"></span>
 					</a>
 				</div>
 
@@ -242,7 +242,7 @@ include 'inc/HEADER.php';
 
 			<ul class="imgs">
 				<li class="img--itokin" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_01.jpg" alt="智慧移動"></span></li>
-				<li class="img--mizuno"><span><img src="../ext/3screen/images/zoom/product_02.jpg" alt="智慧交通"></span></li>
+				<li class="img--mizuno"><span><img src="../ext/3screen/images/zoom/product_02.jpg" alt="智慧車載資通訊"></span></li>
 				<li class="img--second"><span><img src="../ext/3screen/images/zoom/product_03.jpg" alt="智慧工業"></span></li>
 				<li class="img--enfold"><span><img src="../ext/3screen/images/zoom/product_04.jpg" alt="智慧物聯"></span></li>
 				<li class="img--bant" style="opacity: 0;"><span><img src="../ext/3screen/images/zoom/product_05.jpg" alt="智慧零售"></span></li>
