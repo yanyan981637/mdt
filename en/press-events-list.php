@@ -19,6 +19,31 @@
 	<div class="section padding-bottom-small background-white">
 		<div class="container" style="border-top: solid 4px #313139;">
 
+		<div class="row newsGrid">
+				<div class="col-lg-2 col-md-2 col-sm-2">
+					<span class="h4">Press</span>
+					<p class="dat">2024.05.13</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+					<div class="newsCov">
+						<a href="press-events-20240513.php">
+							<figure class="image-hover3">
+								<img src="../images/press_news/20240513/TUV_NORD_ISO21434_615x410_cover.jpg" class="" alt="MiTAC Digital Technology receives ISO/SAE 21434 certification for automotive cybersecurity">
+								<figcaption>
+									<div class="tit h4">Read More</div>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="cont col-lg-7 col-md-5 col-sm-6">
+					<h5><a class="FC_mdtG" href="press-events-20240513.php">MiTAC Digital Technology receives ISO/SAE 21434 certification for automotive cybersecurity</a></h5>
+					<p class="brf">(Taoyuan, Taiwan, May 13, 2024) MiTAC Digital Technology Corp., a leading provider of automotive electronics and AIoT solutions, has been awarded the ISO/SAE 21434 certificate for automotive cybersecurity...</p>
+					<span class="more"><a href="press-events-20240513.php">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+				</div>
+			</div>
+			<div class="col-md-12"><div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div></div>
+
 			<div class="row newsGrid">
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<span class="h4">Press</span>
