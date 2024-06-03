@@ -23,18 +23,18 @@
 			}
 			return false;
 		}
-	
+
 		$current_url = is_https() ? 'https://' : 'http://';
 		$current_url .= $_SERVER['SERVER_NAME'];
-	
+
 		$CURRENT_PORT = $_SERVER['SERVER_PORT'];
-	
+
 		if(!(($CURRENT_PORT == '443' && is_https()) || ($CURRENT_PORT == '80' && !is_https()))){
 			$current_url .= $CURRENT_PORT;
 		}
-	
+
 		return $current_url;
-	
+
 	}
 	$current_domain = getCurrentDomain();
 
@@ -50,7 +50,7 @@
 	if (isset($_POST['MsgFormSend'])) {
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
-	
+
 	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='tw' ORDER BY menu_order ASC";
 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
 
@@ -126,28 +126,28 @@
 		// 若有HTTP_X_WAP_PROFILE則為移動裝置
 		if (isset($_SERVER['HTTP_X_WAP_PROFILE'])) {
 			return true;
-		} 
+		}
 		// 若via資訊含有wap則為移動裝置,部分服務商會遮蔽該資訊
 		if (isset($_SERVER['HTTP_VIA'])) {
 		// 找不到為flase,否則為true
 			return stristr($_SERVER['HTTP_VIA'], "wap") ? true : false;
-		} 
+		}
 		// 判斷手機傳送的客戶端標誌,相容性有待提高。其中'MicroMessenger'是電腦微信
 		if (isset($_SERVER['HTTP_USER_AGENT'])) {
-			$clientkeywords = array('nokia','sony','ericsson','mot','samsung','htc','sgh','lg','sharp','sie-','philips','panasonic','alcatel','lenovo','iphone','ipod','blackberry','meizu','android','netfront','symbian','ucweb','windowsce','palm','operamini','operamobi','openwave','nexusone','cldc','midp','wap','mobile','MicroMessenger'); 
+			$clientkeywords = array('nokia','sony','ericsson','mot','samsung','htc','sgh','lg','sharp','sie-','philips','panasonic','alcatel','lenovo','iphone','ipod','blackberry','meizu','android','netfront','symbian','ucweb','windowsce','palm','operamini','operamobi','openwave','nexusone','cldc','midp','wap','mobile','MicroMessenger');
 			// 從HTTP_USER_AGENT中查詢手機瀏覽器的關鍵字
 			if (preg_match("/(" . implode('|', $clientkeywords) . ")/i", strtolower($_SERVER['HTTP_USER_AGENT']))) {
 				return true;
 			}
-		} 
+		}
 		// 協議法，因為有可能不準確，放到最後判斷
 		if (isset ($_SERVER['HTTP_ACCEPT'])) {
 			// 若只支援wml並且不支援html則為移動裝置
 			// 若支援wml和html但是wml在html之前則是移動裝置
 			if ((strpos($_SERVER['HTTP_ACCEPT'], 'vnd.wap.wml') !== false) && (strpos($_SERVER['HTTP_ACCEPT'], 'text/html') === false || (strpos($_SERVER['HTTP_ACCEPT'], 'vnd.wap.wml') < strpos($_SERVER['HTTP_ACCEPT'], 'text/html')))) {
 				return true;
-			} 
-		} 
+			}
+		}
 		return false;
 	}
 ?>
@@ -180,7 +180,7 @@
 	<meta property="og:description" content="<?php echo $Current_Meta_Description; ?>" />
 	<meta property="og:url" content="<?php echo "https://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" />
 	<meta property="og:site_name" content="MiTAC Digital Technology 神達數位" />
-	
+
 	<!-- hreflang
 	================================================== -->
 	<?php
@@ -198,7 +198,7 @@
 	<meta name="theme-color" content="#212121"/>
     <meta name="msapplication-navbutton-color" content="#212121"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
-	
+
 	<!-- CSS
 	================================================== -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
@@ -216,7 +216,7 @@
 	<!-- Favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="../favicon-16x16.png">
-	
+
 	<!-- Menu -->
 	<script type="text/javascript" src="../ext/menu_b2b/prototype.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/jquery-1.11.3.min.js"></script>
@@ -241,22 +241,22 @@
 		<link href="../ext/slider_qm/styles.css" rel="stylesheet" type="text/css">
 		<script src="../js/jquery-2.1.3.min.js"></script>
 		<script src="../ext/swiper/js/swiper.min.js"></script>
-		
+
 	<?php }elseif($Current_Menu_File_Name == 'milestone.php'){ ?>
 		<!--關<link rel="stylesheet" type="text/css" href="../ext/milestone/theme.769a946fc71b22e53bc1.css">
 		<link rel="stylesheet" type="text/css" href="../ext/milestone/vendor.466c156343eadc76902d.css">-->
-	
+
 	<?php }elseif($Current_Menu_File_Name == 'quality-management.php'){ ?>
 		<link href="../ext/slider_qm/owl.carousel.css" rel="stylesheet">
 		<link href="../ext/slider_qm/owl.theme.css" rel="stylesheet">
 		<link href="../ext/slider_qm/owl.transitions.css" rel="stylesheet">
 		<link href="../ext/slider_qm/styles.css" rel="stylesheet" type="text/css">
 		<script src="../js/jquery-2.1.3.min.js"></script>
-		
+
 	<?php }elseif($Current_Menu_File_Name == 'engineering.php' || $Current_Menu_File_Name == 'services.php'){ ?>
 		<link rel="stylesheet" type="text/css" href="../ext/map_tips/css/style.css" media="screen">
 		<!--關<link href="../ext/rvslider/css/rvslider.min.css" rel="stylesheet">-->
-		
+
 	<?php }elseif($Current_Menu_File_Name == 'general-inquiry.php'){ ?>
 		<script src='https://www.google.com/recaptcha/api.js?hl=zh-tw' async defer></script>
 		<script src="../js/jquery-validation-1.14.0/jquery.js"></script>
@@ -264,13 +264,13 @@
 		<script src="../js/jquery-validation-1.14.0/messages_zh.js"></script>
 		<script type='text/javascript' src='../js/jquery.blockUI-2.70.js'></script>
 		<script src='../ext/sweetalert/sweetalert.min.js'></script>
-	
+
 	<?php }elseif(preg_match("/connected-dashcam/i", $cfg['file_name'])){ ?>
 		<link rel="stylesheet" type="text/css" href="../ext/swiper/css/swiper.min.css">
 		<link rel="stylesheet" type="text/css" href="../ext/swiper/css/style.css">
-	
+
 	<?php } ?>
-	
+
 	<!--json-ld start-->
 	<script type='application/ld+json'>
 	[{
@@ -333,7 +333,7 @@
 	"author": {
 		"@type": "Organization",
 		"name": "MDT 神達數位股份有限公司"
-	},  
+	},
 	"publisher": {
 		"@type": "Organization",
 		"name": "MDT 神達數位股份有限公司",
@@ -361,7 +361,7 @@
 	"author": {
 		"@type": "Organization",
 		"name": "MDT神達數位"
-	},  
+	},
 	"publisher": {
 		"@type": "Organization",
 		"name": "MDT神達數位",
@@ -381,7 +381,7 @@
 	Mio守護您的行車安全，並在每一次的旅途中,創造無與倫比的完美體驗。",
 	"thumbnailUrl": "https://i.ytimg.com/vi/UWX70dTajBw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCtlggVRkbB3MWo_YuEBwBI80CXmQ",
 	"uploadDate": "2019-04-02",
-	"duration": "PT3M38S",  
+	"duration": "PT3M38S",
 	"publisher": {
 		"@type": "Organization",
 		"name": "MiTAC神達數位",
@@ -399,7 +399,7 @@
 	"description": "Mio, the world leading brand of Dashcam, it’s all about you. Mio Dashcams are 100% designed in Taiwan and manufactured in a state-of-the-art factory with automated production facilities and a rigorous management system . All Mio Dashcams undergo a battery of more than 50 rigorous tests to ensure the highest performance standards. We ensures your driving safety and gives you an enjoyable experience during each of your journeys.",
 	"thumbnailUrl": "https://i.ytimg.com/vi/mSl6az1Bgiw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA561iR4RrHza7gkfZC5kwhgl6oKA",
 	"uploadDate": "2019-04-02",
-	"duration": "PT3M45S",  
+	"duration": "PT3M45S",
 	"publisher": {
 		"@type": "Organization",
 		"name": "MiTAC神達數位",
@@ -419,31 +419,31 @@
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-KPTFRWN');</script>
-	<!-- End Google Tag Manager -->	
+	<!-- End Google Tag Manager -->
 </head>
 <body class="royal_preloader">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe class="hidd" src="https://www.googletagmanager.com/ns.html?id=GTM-KPTFRWN"
 height="0" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	
+
 	<!--<div id="royal_preloader"></div>-->
 
-	
+
 	<!-- Nav and Logo
 	================================================== -->
-	
+
 	<div id="menu-wrap" class="cbp-af-header black-menu-background-1st-trans menu-fixed-padding menu-shadow">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">	
-					
+				<div class="col-md-12">
+
 					<header id="header" class="page-header">
 						<div class="page-header-container">
 							<a class="logo" href="./index.php">
-								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="large" width="165" height="40"/>
-								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="small"  width="165" height="40"/>
-								<img src="https://www.mitacmdt.com/images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="white"  width="165" height="40"/>
+								<img src="../../images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="large" width="165" height="40"/>
+								<img src="../../images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="small"  width="165" height="40"/>
+								<img src="../../images/MDT_logo_light@2x.png" alt="MiTAC神達數位" class="white"  width="165" height="40"/>
 							</a>
 							<!-- Account -->
 							<div id="header-account" class="d-none"></div>
@@ -643,12 +643,12 @@ height="0" width="0"></iframe></noscript>
 							<span class="dimmer-close"></span>
 						</div>
 					</header>
-					
+
 				</div>
-			</div>	
-		</div>		
+			</div>
+		</div>
 	</div>
-	
+
 	<!-- Search -->
 	<!--<div class="modal fade default search-modal" id="Modal-search" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog" role="document">
@@ -668,9 +668,9 @@ height="0" width="0"></iframe></noscript>
 										<i class="fa fa-search"></i>
 									</button>
 								</div>
-							</div>	
-						</div>	
-					</div>	
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
