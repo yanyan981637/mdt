@@ -39,7 +39,7 @@
         <h3 class="h4 FC_mdtB">Hardware：Connected Dashcam</h3>
         <ol>
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq1" role="button" aria-expanded="false" aria-controls="faq1">What should I do if the indicator light is not flashing properly？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq1" role="button" aria-expanded="false" aria-controls="faq1">What should I do if the indicator light is not flashing properly？</a>
               <div class="collapse"  id="faq1">
                 <ul class="card card-body">
                   <li>Normal indicator light: Blue light flashes once every minute, press the Emergency button and the red light will stay on</li>
@@ -50,7 +50,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq2" role="button" aria-expanded="false" aria-controls="faq2">What should I do if my device cannot be powered on？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq2" role="button" aria-expanded="false" aria-controls="faq2">What should I do if my device cannot be powered on？</a>
               <div class="collapse"  id="faq2">
                 <ul class="card card-body">
                   <li>Check if the power cable connector on the device side is loose</li>
@@ -60,7 +60,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq3" role="button" aria-expanded="false" aria-controls="faq3">What is the best way to install the Car Mount？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq3" role="button" aria-expanded="false" aria-controls="faq3">What is the best way to install the Car Mount？</a>
               <div class="collapse"  id="faq3">
                 <ul class="card card-body">
                   <li>After installation, it is recommended to let it sit for 24 hours before using the device (at least 1 hour).</li>
@@ -83,7 +83,7 @@
         <h3 class="h4 FC_mdtB">Software：VisionMax<sup>&trade;</sup></h3>
         <ol>
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq4" role="button" aria-expanded="false" aria-controls="faq4">What should I do if the device cannot access the internet？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq4" role="button" aria-expanded="false" aria-controls="faq4">What should I do if the device cannot access the internet？</a>
               <div class="collapse"  id="faq4">
                 <ul class="card card-body">
                   <li>Check if the SIM card is inserted</li>
@@ -94,7 +94,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq5" role="button" aria-expanded="false" aria-controls="faq5">What should I do if I cannot record video？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq5" role="button" aria-expanded="false" aria-controls="faq5">What should I do if I cannot record video？</a>
               <div class="collapse"  id="faq5">
                 <ul class="card card-body">
                   <li>Check if the SD card is installed</li>
@@ -105,7 +105,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq6" role="button" aria-expanded="false" aria-controls="faq6">What should I do if ADAS does not provide warnings？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq6" role="button" aria-expanded="false" aria-controls="faq6">What should I do if ADAS does not provide warnings？</a>
               <div class="collapse"  id="faq6">
                 <ul class="card card-body">
                   <li>Check the installation location (refer to the <a href="/Downloads/faq/VisionMax_Quick_start_Guide_English_20230218.pdf" target="_blank">Quick Start Guide</a> for the installation location)</li>
@@ -118,7 +118,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq7" role="button" aria-expanded="false" aria-controls="faq7">What should I do if DMS does not provide warnings？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq7" role="button" aria-expanded="false" aria-controls="faq7">What should I do if DMS does not provide warnings？</a>
               <div class="collapse"  id="faq7">
                 <ul class="card card-body">
                   <li>Check the installation location (refer to the <a href="/Downloads/faq/VisionMax_Quick_start_Guide_English_20230218.pdf" target="_blank">Quick Start Guide</a> for the installation location)</li>
@@ -130,7 +130,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq8" role="button" aria-expanded="false" aria-controls="faq8">How do I set up my APN？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq8" role="button" aria-expanded="false" aria-controls="faq8">How do I set up my APN？</a>
               <div class="collapse"  id="faq8">
                 <ul class="card card-body">
                   <li>Please refer to the appendix of the <a href="/Downloads/faq/VisionMax_Quick_start_Guide_English_20230218.pdf" target="_blank">Quick Start Guide</a></li>
@@ -139,7 +139,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">How do I log in to the VisionMax<sup>&trade;</sup> backend management software？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">How do I log in to the VisionMax<sup>&trade;</sup> backend management software？</a>
               <div class="collapse"  id="faq9">
                 <ul class="card card-body">
                   <li>Please refer to the appendix of the <a href="/Downloads/faq/VisionMax_Quick_start_Guide_English_20230218.pdf" target="_blank">Quick Start Guide</a></li>
@@ -148,7 +148,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq10" role="button" aria-expanded="false" aria-controls="faq10">What should be done if the machine's event recording sensitivity is too high (or too low)？</a>
+              <a data-toggle="collapsed"  href="javascript:void(0)" data-target="#faq10" role="button" aria-expanded="false" aria-controls="faq10">What should be done if the machine's event recording sensitivity is too high (or too low)？</a>
               <div class="collapse"  id="faq10">
                 <ul class="card card-body">
                   <li>Go into the settings of VisionMax<sup>&trade;</sup> and adjust the event trigger sensitivity (can be adjusted from Low to High).</li>
@@ -162,7 +162,20 @@
     </div>	
   </div>	
 </div>
+<script>
+  var collapsebtn = jQuery('a[data-toggle="collapsed"]');
+  jQuery.each(collapsebtn, function(){
+    $(this).on('click', function(){
+      var targetEl = $(this).data('target');
+      if(targetEl){
+        var newValue = $(this).attr('aria-expanded') == "true"  ?  false : true
 
+        $(this).attr('aria-expanded', newValue)
+        $(targetEl).slideToggle()
+      }
+    })
+  })
+</script>
 
 <?php
 	include 'inc/FOOTER.php';

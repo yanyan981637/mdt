@@ -40,8 +40,8 @@
         <h3 class="h4 FC_mdtB">硬體：聯網型行車記錄器</h3>
         <ol>
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq1" role="button" aria-expanded="false" aria-controls="faq1">當我看到燈號不當閃爍要如何處置 ?</a>
-              <div class="collapse"  id="faq1">
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq1" role="button" aria-expanded="false" aria-controls="faq1">當我看到燈號不當閃爍要如何處置 ?</a>
+              <div class="collapse"  id="faq1" style="display:none;">
                 <ul class="card card-body">
                   <li>燈號正常時 ：藍燈一分鐘閃爍一次、按壓Emergency Button則紅燈恆亮</li>
                   <li>機器故障時 ：藍燈一分鐘閃爍二次、No SD Card則紅燈一分鐘閃爍一次</li> 
@@ -51,7 +51,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq2" role="button" aria-expanded="false" aria-controls="faq2">我的設備無法通電該如何處置 ?</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq2" role="button" aria-expanded="false" aria-controls="faq2">我的設備無法通電該如何處置 ?</a>
               <div class="collapse"  id="faq2">
                 <ul class="card card-body">
                   <li>檢查設備端電線接頭是否鬆脫</li>
@@ -61,7 +61,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq3" role="button" aria-expanded="false" aria-controls="faq3">車架要如何安裝才是最佳方法 ?</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq3" role="button" aria-expanded="false" aria-controls="faq3">車架要如何安裝才是最佳方法 ?</a>
               <div class="collapse"  id="faq3">
                 <ul class="card card-body">
                   <li>安裝後要靜置建議24小時在安裝設備（至少1小時）</li>
@@ -84,7 +84,7 @@
         <h3 class="h4 FC_mdtB">軟體：VisionMax<sup>&trade;</sup></h3>
         <ol>
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq4" role="button" aria-expanded="false" aria-controls="faq4">當我遇到設備不能上網如何處置？</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq4" role="button" aria-expanded="false" aria-controls="#faq4">當我遇到設備不能上網如何處置？</a>
               <div class="collapse"  id="faq4">
                 <ul class="card card-body">
                   <li>檢查是否有插SIM Card</li>
@@ -95,7 +95,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq5" role="button" aria-expanded="false" aria-controls="faq5">當我遇到不能錄影如何處置？</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq5" role="button" aria-expanded="false" aria-controls="faq5">當我遇到不能錄影如何處置？</a>
               <div class="collapse"  id="faq5">
                 <ul class="card card-body">
                   <li>檢查SD Card 是否安裝</li>
@@ -106,7 +106,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq6" role="button" aria-expanded="false" aria-controls="faq6">當ADAS不提供警示該如何處置？</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq6" role="button" aria-expanded="false" aria-controls="faq6">當ADAS不提供警示該如何處置？</a>
               <div class="collapse"  id="faq6">
                 <ul class="card card-body">
                   <li>檢查安裝位置 (安裝位置請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>)</li>
@@ -119,7 +119,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq7" role="button" aria-expanded="false" aria-controls="faq7">當DMS不提供警示該如何處置？</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq7" role="button" aria-expanded="false" aria-controls="faq7">當DMS不提供警示該如何處置？</a>
               <div class="collapse"  id="faq7">
                 <ul class="card card-body">
                   <li>檢查安裝位置 (安裝位置請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>)</li>
@@ -131,7 +131,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq8" role="button" aria-expanded="false" aria-controls="faq8">我的APN要如何設定 ?</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq8" role="button" aria-expanded="false" aria-controls="faq8">我的APN要如何設定 ?</a>
               <div class="collapse"  id="faq8">
                 <ul class="card card-body">
                   <li>請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>附錄</li>
@@ -140,7 +140,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">如何登入VisionMax<sup>&trade;</sup>後台管理軟體?</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq9" role="button" aria-expanded="false" aria-controls="faq9">如何登入VisionMax<sup>&trade;</sup>後台管理軟體?</a>
               <div class="collapse"  id="faq9">
                 <ul class="card card-body">
                   <li>請參閱<a href="/Downloads/faq/VisionMax_Quick_start_Guide_20230218.pdf" target="_blank">Quick Start Guide</a>附錄</li>
@@ -149,7 +149,7 @@
           </li>
 
           <li>
-              <a data-toggle="collapse" href="javascript:void(0)" data-target="#faq10" role="button" aria-expanded="false" aria-controls="faq10">如果機器事件錄影過於敏感(或遲鈍)該如何處置 ?</a>
+              <a data-toggle="collapsed" href="javascript:void(0)" data-target="#faq10" role="button" aria-expanded="false" aria-controls="faq10">如果機器事件錄影過於敏感(或遲鈍)該如何處置 ?</a>
               <div class="collapse"  id="faq10">
                 <ul class="card card-body">
                   <li>進入VisionMax<sup>&trade;</sup>設定，將事件觸發靈敏度進行調整（可調Low到High）</li>
@@ -164,6 +164,21 @@
   </div>	
 </div>
 
+<script>
+  var collapsebtn = jQuery('a[data-toggle="collapsed"]');
+  jQuery.each(collapsebtn, function(){
+    $(this).on('click', function(){
+      var targetEl = $(this).data('target');
+      if(targetEl){
+        
+        var newValue = $(this).attr('aria-expanded') == "true"  ?  false : true
+
+        $(this).attr('aria-expanded', newValue)
+        $(targetEl).slideToggle()
+      }
+    })
+  })
+</script>
 
 <?php
 	include 'inc/FOOTER.php';
