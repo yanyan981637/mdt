@@ -219,13 +219,15 @@
 
 	<!-- Menu -->
 	<script type="text/javascript" src="../ext/menu_b2b/prototype.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/validation.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="../ext/menu_b2b/noconflict.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/slider.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/js.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/modernizr.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/jquery-migrate.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/jquery.appear.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/noconflict.js"></script>
+	<script type="text/javascript" src="../ext/menu_b2b/enquire.js"></script>
 	<script type="text/javascript" src="../ext/menu_b2b/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/styles.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="../ext/menu_b2b/theme.css" media="all" />
