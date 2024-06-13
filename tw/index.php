@@ -12,34 +12,34 @@ include 'inc/HEADER.php';
 		<div class="swiper mySwiper">
 			<div class="swiper-wrapper">
 
-				<!-- <div class="swiper-slide">
+				<div class="swiper-slide">
 					<div class="show-pc img">
-						<img src="../images/home/slider-Automate.jpg" alt="">
+						<img src="../images/home/MDT_2024_INA_PAACE.jpg" alt="">
 					</div>
 					<div class="show-tablet img">
-						<img src="../images/home/slider-Automate.jpg" alt="">
+						<img src="../images/home/MDT_2024_INA_PAACE.jpg" alt="">
 						<div class="banner-text">
 							<h5></h5>
 							<p></p>
 						</div>
 					</div>
 					<div class="show-mobile img">
-						<img src="../images/home/slider-Automate_mobile.jpg" class="show-mobile" alt="">
+						<img src="../images/home/MDT_2024_INA_PAACE_m.jpg" class="show-mobile" alt="">
 						<div class="banner-text">
 							<h5></h5>
 							<p></p>
 						</div>
 					</div>
-				</div> -->
+				</div>
 
 				<div class="swiper-slide">
 					<a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI " target="_blank">瞭解更多</a>
 					<div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
 				</div>
 			</div>
-			<!-- <div class="swiper-button-next swiper-button-white"></div> -->
-			<!-- <div class="swiper-button-prev swiper-button-white"></div> -->
-			<!-- <div class="swiper-pagination"></div> -->
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+			<div class="swiper-pagination"></div>
 		</div>
 	</div>
 </div>
@@ -60,7 +60,7 @@ include 'inc/HEADER.php';
 		autoplay: { //
 			delay: 10000
 		},
-		autoplay: false,
+		autoplay: true,
 		pagination: {
 			el: ".swiper-pagination",
 			clickable: true,
