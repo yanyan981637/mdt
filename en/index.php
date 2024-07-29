@@ -59,9 +59,9 @@ include 'inc/HEADER.php';
         </div>
 
       </div>
-      <!-- <div class="swiper-button-next swiper-button-white"></div>
-			<div class="swiper-button-prev swiper-button-white"></div>
-			<div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-prev swiper-button-white"></div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </div>
