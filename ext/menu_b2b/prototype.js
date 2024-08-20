@@ -7114,26 +7114,37 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
   }
 
 
-
+  
   function getFireTarget(element) {
-    if (element !== document) return element;
-    if (document.createEvent && !element.dispatchEvent)
+    if (element instanceof jQuery) {
+      element = element.get(0);
+    }
+  
+    // 處理 document 的情況
+    if (element === document) {
       return document.documentElement;
+    }
     return element;
   }
 
   function fire(element, eventName, memo, bubble) {
-    element = getFireTarget($(element));
+    // 確保 element 是有效的 DOM 元素
+    element = getFireTarget($(element)); // 確保轉換為原生 DOM 元素
     if (Object.isUndefined(bubble)) bubble = true;
     memo = memo || {};
-
+  
     var event = fireEvent(element, eventName, memo, bubble);
     return Event.extend(event);
   }
-
+  
   function fireEvent_DOM(element, eventName, memo, bubble) {
+    if (!(element instanceof Element)) {
+      console.error('The provided element is not a valid DOM element:', element);
+      return;
+    }
+
     var event = document.createEvent('HTMLEvents');
-    event.initEvent('dataavailable', bubble, true);
+    event.initEvent(eventName, bubble, true);
 
     event.eventName = eventName;
     event.memo = memo;
@@ -7142,19 +7153,26 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
     return event;
   }
 
+  
+  
   function fireEvent_IE(element, eventName, memo, bubble) {
+    if (!(element instanceof Element)) {
+      console.error('The provided element is not a valid DOM element:', element);
+      return;
+    }
+  
     var event = document.createEventObject();
-    event.eventType = bubble ? 'ondataavailable' : 'onlosecapture';
-
+    event.eventType = bubble ? 'on' + eventName : 'onlosecapture';
+  
     event.eventName = eventName;
     event.memo = memo;
-
+  
     element.fireEvent(event.eventType, event);
     return event;
   }
-
+  
   var fireEvent = document.createEvent ? fireEvent_DOM : fireEvent_IE;
-
+  
 
 
   Event.Handler = Class.create({
