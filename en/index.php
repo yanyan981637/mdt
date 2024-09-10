@@ -414,6 +414,21 @@ owl.owlCarousel({
       <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
         <div class="pricing pt_pb_1r background-white borderTop_B">
           <div class="pn_p p">Press</div>
+          <div class="pricing-sub p mb_1">2024.09.10</div>
+          <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240910.php">MiTAC Showcases Advanced Dashcams,
+              Rugged Tablets and Video Telematics for Fleet Management, and Award-Winning Smart Kiosk at Automechanika
+              Frankfurt 2024</a></h6>
+          <div class="pricing-img"><a href="press-events-20240910.php"><img
+                src="../images/press_news/20240910/2024_automechanika_frankfurt_615x410.jpg"
+                alt="MiTAC Showcases Advanced Dashcams, Rugged Tablets and Video Telematics for Fleet Management, and Award-Winning Smart Kiosk at Automechanika Frankfurt 2024"></a>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix hidden-xs"></div>
+
+      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+        <div class="pricing pt_pb_1r background-white borderTop_B">
+          <div class="pn_p p">Press</div>
           <div class="pricing-sub p mb_1">2024.05.13</div>
           <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240513.php">MiTAC Digital Technology receives
               ISO/SAE 21434 certification for automotive cybersecurity</a></h6>
@@ -434,20 +449,6 @@ owl.owlCarousel({
               at Embedded World 2024</a></h6>
           <div class="pricing-img"><a href="press-events-20240425.php"><img src="../images/press_news/20240425/001.png"
                 alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024"></a></div>
-        </div>
-      </div>
-      <div class="clearfix hidden-xs"></div>
-
-      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-        <div class="pricing pt_pb_1r background-white borderTop_B">
-          <div class="pn_p p">Press</div>
-          <div class="pricing-sub p mb_1">2024.04.17</div>
-          <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240417.php">MiTAC showcases a variety of integrated
-              hardware and software solutions at AutoTronics Taipei</a></h6>
-          <div class="pricing-img"><a href="press-events-20240417.php"><img
-                src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg"
-                alt="MiTAC showcases a variety of integrated hardware and software solutions at AutoTronics Taipei"></a>
-          </div>
         </div>
       </div>
       <div class="clearfix hidden-xs"></div>

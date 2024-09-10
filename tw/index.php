@@ -385,6 +385,19 @@ owl.owlCarousel({
       <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
         <div class="pricing pt_pb_1r background-white borderTop_B">
           <div class="pn_p p">新聞</div>
+          <div class="pricing-sub p mb_1">2024.09.10</div>
+          <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240910.php">神達數位於2024年法蘭克福汽配展(Automechanika
+              Frankfurt 2024) 展示最新款行車紀錄器、強固型平板電腦及車載視訊管理解決方案和智慧自助服務機</a></h6>
+          <div class="pricing-img"><a href="press-events-20240910.php"><img
+                src="../images/press_news/20240910/2024_automechanika_frankfurt_615x410.jpg"
+                alt="神達數位於2024年法蘭克福汽配展(Automechanika Frankfurt 2024) 展示最新款行車紀錄器、強固型平板電腦及車載視訊管理解決方案和智慧自助服務機"></a></div>
+        </div>
+      </div>
+      <div class="clearfix hidden-xs"></div>
+
+      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+        <div class="pricing pt_pb_1r background-white borderTop_B">
+          <div class="pn_p p">新聞</div>
           <div class="pricing-sub p mb_1">2024.05.13</div>
           <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240513.php">神達數位股份有限公司通過TUV NORD Taiwan ISO/SAE
               21434認證，強化車載產品網絡安全</a></h6>
@@ -402,18 +415,6 @@ owl.owlCarousel({
           <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240417.php">神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案</a></h6>
           <div class="pricing-img"><a href="press-events-20240417.php"><img
                 src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg" alt="神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案"></a>
-          </div>
-        </div>
-      </div>
-      <div class="clearfix hidden-xs"></div>
-
-      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-        <div class="pricing pt_pb_1r background-white borderTop_B">
-          <div class="pn_p p">新聞</div>
-          <div class="pricing-sub p mb_1">2023.12.06</div>
-          <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20231211.php">MiTAC 連續四年榮獲台灣精品獎肯定 再展車用電子領域實力</a></h6>
-          <div class="pricing-img"><a href="press-events-20231211.php"><img
-                src="../images/press_news/TW_excellence_2024-all_cover.jpg" alt="MiTAC 連續四年榮獲台灣精品獎肯定 再展車用電子領域實力"></a>
           </div>
         </div>
       </div>
