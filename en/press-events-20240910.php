@@ -2,7 +2,7 @@
 include 'inc/HEADER.php';
 ?>
 <!-- Primary Page Layout
-	================================================== -->
+  ================================================== -->
 <div id="press_events" class="section pgHero">
   <div class="hero-center-wrap move-bottom z-bigger">
     <div class="container hero-text big-text text-center parallax-fade-top">
@@ -44,7 +44,7 @@ include 'inc/HEADER.php';
               at Automechanika Frankfurt 2024 (Sep. 10th-14th). For consumers, MDT introduced 4K high-resolution dashcam
               and its dedicated apps, while for fleet management, advanced video telematics solutions and
               next-generation in-vehicle rugged tablet were unveiled.</p>
-            <h5 class="text-center mt-4">World's First 3-Channel Dashcam with Dual Processors Handling 8K Resolution
+            <h5 class="mt-4">World's First 3-Channel Dashcam with Dual Processors Handling 8K Resolution
               Video</h5>
             <div class="text-center">
               <img src="../images/press_news/20240910/Dashcam.png" style="max-width:600px;margin-top: 0;" />
