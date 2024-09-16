@@ -13,27 +13,6 @@ include 'inc/HEADER.php';
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
 
-        <?php // 9/16(一)下架 ?>
-        <div class="swiper-slide">
-          <div class="show-pc img">
-            <img src="../images/home/2024_automechanika_frankfurt.jpg" alt="">
-          </div>
-          <div class="show-tablet img">
-            <img src="../images/home/2024_automechanika_frankfurt.jpg" alt="">
-            <div class="banner-text">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-          <div class="show-mobile img">
-            <img src="../images/home/2024_automechanika_frankfurt_m.jpg" class="show-mobile" alt="">
-            <div class="banner-text">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-        </div>
-
         <?php // 9/23(一)下架 ?>
         <div class="swiper-slide">
           <div class="show-pc img">
