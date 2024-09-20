@@ -58,32 +58,21 @@
 		$_GET['MsgFormSend'] = htmlspecialchars($_POST['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
 
-	// Paths to JSON files
-	$ows_menu_JsonPath = __DIR__ . '/../../src/WebData/ows_menu_20240827.json';
-	$ows_meta_JsonPath = __DIR__ . '/../../src/WebData/ows_meta_20240827.json';
+	// Paths to CSV files
+	$combined_CSVPath = __DIR__ . '/../../src/WebData/combined.csv';
 
-	// Function to replace slashes in all string fields of an array
-	function replaceSlashes(&$array) {
-		foreach ($array as &$item) {
-			if (is_array($item)) {
-				replaceSlashes($item);
-			} elseif (is_string($item)) {
-				$item = str_replace('\/', '/', $item);
-			}
+	// Read and parse CSV data
+	$csv_data = [];
+	if (($handle = fopen($combined_CSVPath, 'r')) !== false) {
+		$header = fgetcsv($handle); // Get the header row
+		while (($row = fgetcsv($handle)) !== false) {
+			$csv_data[] = array_combine($header, $row); // Combine header with row values
 		}
-		unset($item);
+		fclose($handle);
 	}
 
-	// Read and decode JSON data
-	$ows_menu_data_Array = json_decode(file_get_contents($ows_menu_JsonPath), true)["ows_menu"];
-	$ows_meta_data_Array = json_decode(file_get_contents($ows_meta_JsonPath), true)["ows_meta"];
-
-	// Replace slashes in menu and meta data arrays
-	replaceSlashes($ows_menu_data_Array);
-	replaceSlashes($ows_meta_data_Array);
-
 	// Filter and sort menu data
-	$filteredData = array_filter($ows_menu_data_Array, function($row) {
+	$filteredData = array_filter($csv_data, function($row) {
 		return $row['menu_class'] === 'main' && $row['is_online'] == 1 && $row['lang'] === 'tw';
 	});
 
@@ -105,7 +94,7 @@
 		if ($row['file_name'] != 'index.php') {
 			$all_menu[] = $row;
 		}
-		if (is_null($row['father_menu_id']) && $row['file_name'] != 'index.php') {
+		if (empty($row['father_menu_id']) && $row['file_name'] != 'index.php') {
 			$first_menu[] = $row;
 		}
 	}
@@ -115,7 +104,7 @@
 	}
 
 	// Filter for the current menu
-	$current_menu = array_filter($ows_menu_data_Array, function($row) use ($cfg) {
+	$current_menu = array_filter($csv_data, function($row) use ($cfg) {
 		return $row['menu_class'] === 'main' && $row['is_online'] == 1 && $row['lang'] === 'tw' && $row['file_name'] === $cfg['file_name'];
 	});
 	$current_menu = reset($current_menu);
@@ -132,7 +121,7 @@
 	}
 
 	// Process meta data
-	foreach ($ows_meta_data_Array as $rowT) {
+	foreach ($csv_data as $rowT) {
 		$all_meta[] = $rowT;
 
 		if ($rowT['menu_id'] == $Current_Menu_Id) {
@@ -144,7 +133,6 @@
 			$Current_Meta_Description = $Current_Meta_Description ?: $default_meta_description;
 		}
 	}
-
 
 	//判斷是否為手機
 	function isMobile() {
@@ -476,11 +464,6 @@
 </head>
 <body class="royal_preloader">
 
-<script>
-console.log("web refresh test")
-console.log(555);
-
-</script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe class="hidd" src="https://www.googletagmanager.com/ns.html?id=GTM-KPTFRWN" height="0" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -645,7 +628,7 @@ console.log(555);
 
                                             // 語系轉換邏輯重構
                                             $tspgAry = null;
-                                            foreach ($ows_menu_data_Array as $menu_item) {
+                                            foreach ($csv_data as $menu_item) {
                                                 if ($menu_item['lang'] === 'en' && $menu_item['file_name'] === $Current_Menu_File_Name) {
                                                     $tspgAry = $menu_item;
                                                     break;
