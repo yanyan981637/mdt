@@ -8,4 +8,3 @@ nginx.htaccess
 /var
 .env
 /sitemap.xml
-/src/WebData/source
