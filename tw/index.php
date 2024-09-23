@@ -14,7 +14,7 @@ include 'inc/HEADER.php';
       <div class="swiper-wrapper">
 
         <?php // 9/23(一)下架 ?>
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
           <div class="show-pc img">
             <img src="../images/home/2024_IAA_Transportation_mdt.jpg" alt="">
           </div>
@@ -32,7 +32,7 @@ include 'inc/HEADER.php';
               <p></p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="swiper-slide">
           <a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI "
@@ -40,9 +40,9 @@ include 'inc/HEADER.php';
           <div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
         </div>
       </div>
-      <div class="swiper-button-next swiper-button-white"></div>
+      <!-- <div class="swiper-button-next swiper-button-white"></div>
       <div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination"></div> -->
     </div>
   </div>
 </div>
@@ -60,19 +60,19 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
-  autoplay: { //
-    delay: 10000
-  },
-  // autoplay: false,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  loop: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  // autoplay: { //
+  //   delay: 10000
+  // },
+  autoplay: false,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  // loop: true,
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
   on: {
 
     slideChange: function() {
