@@ -14,34 +14,34 @@ include 'inc/HEADER.php';
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
 
-        <?php // 9/23(一)下架 ?>
-        <div class="swiper-slide">
+        <!-- 9/23(一)下架 -->
+        <!-- <div class="swiper-slide">
           <div class="show-pc img">
             <img src="../images/home/2024_IAA_Transportation_mdt.jpg" alt="2024 德國商用運輸展-臺灣電動車解決方案主題館, IAA Transportation展示圖片">
           </div>
           <div class="show-tablet img">
             <img src="../images/home/2024_IAA_Transportation_mdt.jpg" alt="2024 德國商用運輸展-臺灣電動車解決方案主題館, IAA Transportation展示圖片">
-            <!-- <div class="banner-text">
+            <div class="banner-text">
               <h5></h5>
               <p></p>
-            </div> -->
+            </div>
           </div>
           <div class="show-mobile img">
             <img src="../images/home/2024_IAA_Transportation_mdt_m.jpg" class="show-mobile" alt="2024 德國商用運輸展-臺灣電動車解決方案主題館, IAA Transportation展示圖片">
-            <!-- <div class="banner-text">
+            <div class="banner-text">
               <h5></h5>
               <p></p>
-            </div> -->
+            </div>
           </div>
-        </div>
+        </div> -->
         <div class="swiper-slide">
           <a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI" target="_blank" aria-label="點擊觀看詳細影片">瞭解更多</a>
           <div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
         </div>
       </div>
-      <div class="swiper-button-next swiper-button-white"></div>
+      <!-- <div class="swiper-button-next swiper-button-white"></div>
       <div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination"></div> -->
     </div>
   </div>
 </section>
@@ -59,19 +59,19 @@ var swiper;
 
 swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
-  autoplay: { //
-    delay: 10000
-  },
-  // autoplay: false,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  loop: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  // autoplay: { //
+  //   delay: 10000
+  // },
+  autoplay: false,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  // loop: true, //
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
   on: {
 
     slideChange: function() {

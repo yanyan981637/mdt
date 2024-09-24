@@ -6,8 +6,8 @@
 	// Script root path
 	// $RootPath = App\DataAccess\Config::initRootPath();	
 	// Database singleton
-	$MysqlInstance = App\DataAccess\Mysql::getInstance();
-	$MysqlConn = $MysqlInstance->getConnection();
+	// $MysqlInstance = App\DataAccess\Mysql::getInstance();
+	// $MysqlConn = $MysqlInstance->getConnection();
 	// Script last path
 	$cfg['file_name'] = substr(strrchr($_SERVER['SCRIPT_NAME'], "/" ), 1 );
 	
