@@ -8,8 +8,8 @@
 	// Script last path
 	$cfg['file_name'] = substr(strrchr($_SERVER['SCRIPT_NAME'], "/" ), 1 );
 	// Database singleton
-	$MysqlInstance = App\DataAccess\Mysql::getInstance();
-	$MysqlConn = $MysqlInstance->getConnection();
+	// $MysqlInstance = App\DataAccess\Mysql::getInstance();
+	// $MysqlConn = $MysqlInstance->getConnection();
 
 	// youtube 參數當前域名
 	function getCurrentDomain() {
@@ -51,75 +51,151 @@
 		$_GET['MsgFormSend'] = htmlspecialchars($_GET['MsgFormSend'], ENT_QUOTES, 'UTF-8');
 	}
 
-	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' ORDER BY menu_order ASC";
-	$result_menu = mysqli_query($MysqlConn, $sql_menu);
+	// Paths to CSV files
+	$combined_CSVPath = __DIR__ . '/../../src/WebData/combined.csv';
 
+	// Read and parse CSV data
+	$csv_data = [];
+	if (($handle = fopen($combined_CSVPath, 'r')) !== false) {
+		$header = fgetcsv($handle); // Get the header row
+		while (($row = fgetcsv($handle)) !== false) {
+			$csv_data[] = array_combine($header, $row); // Combine header with row values
+		}
+		fclose($handle);
+	}
+
+	// Filter and sort menu data
+	$filteredData = array_filter($csv_data, function($row) {
+		return $row['menu_class'] === 'main' && $row['is_online'] == 1 && $row['lang'] === 'en';
+	});
+
+	usort($filteredData, function($a, $b) {
+		return $a['menu_order'] <=> $b['menu_order'];
+	});
+
+	// Initialize variables
 	$all_menu = [];
-	$all_meta = [];
-	$current_menu = null;
-
-	$Current_Menu_Id 					= null;
-	$Current_Menu_Father_Id 	= null;
-	$Current_Menu_Order		 	= null;
-	$Current_Menu_Name 			= null;
-	$Current_Menu_File_Name 	= null;
-	$Current_Menu_Inquiry_type 	= 1;
-	$Current_Menu_Is_Online 	= 1;
 	$first_menu = [];
+	$current_menu = [];
+	$all_meta = [];
 	$Current_Meta_Title = null;
 	$Current_Meta_Description = null;
 	$Current_Meta_Keywords = null;
 
-	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
-  {
-		if ( $row['file_name'] != 'index.php') {
-			array_push($all_menu, $row);
+	// Filter menus based on file name
+	foreach ($filteredData as $row) {
+		if ($row['file_name'] != 'index.php') {
+			$all_menu[] = $row;
 		}
-
-		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
-			array_push($first_menu, $row);
+		if (empty($row['father_menu_id']) && $row['file_name'] != 'index.php') {
+			$first_menu[] = $row;
 		}
-
-  }
+	}
 
 	if ($cfg['file_name'] == '404.php') {
 		$cfg['file_name'] = "index.php";
 	}
 
-	//Menu
-	$sqlM ="Select * From `ows_menu` Where menu_class='main' And is_online=1 And lang='en' And file_name = ? limit 1 ";
-	$stmt = mysqli_prepare($MysqlConn, $sqlM);
-	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
-	mysqli_stmt_execute($stmt);
-	$resultM = mysqli_stmt_get_result($stmt);
-	$menuAry = mysqli_fetch_array($resultM);
+	// Filter for the current menu
+	$current_menu = array_filter($csv_data, function($row) use ($cfg) {
+		return $row['menu_class'] === 'main' && $row['is_online'] == 1 && $row['lang'] === 'en' && $row['file_name'] === $cfg['file_name'];
+	});
+	$current_menu = reset($current_menu);
 
-	// 當前菜單
-	if(!preg_match("/press-events/i", $cfg['file_name'])) {
-		$Current_Menu_Id					= $menuAry['menu_id'];
-		$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
-		$Current_Menu_Order				= $menuAry['menu_order'];
-		$Current_Menu_Name				= $menuAry['menu_name'];
-		$Current_Menu_File_Name		= $menuAry['file_name'];
-		$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
-		$Current_Menu_Is_Online = $menuAry['is_online'];
+	// Set current menu details if found
+	if ($current_menu && !preg_match("/press-events/i", $cfg['file_name'])) {
+		$Current_Menu_Id           = $current_menu['menu_id'];
+		$Current_Menu_Father_Id    = $current_menu['father_menu_id'];
+		$Current_Menu_Order        = $current_menu['menu_order'];
+		$Current_Menu_Name         = $current_menu['menu_name'];
+		$Current_Menu_File_Name    = $current_menu['file_name'];
+		$Current_Menu_Inquiry_type = $current_menu['inquiry_type'];
+		$Current_Menu_Is_Online    = $current_menu['is_online'];
 	}
 
-	//Meta
-	$sqlT ="Select * From `ows_meta` where 1=1 ";
-	$resultT = mysqli_query($MysqlConn, $sqlT);
-	while($rowT = mysqli_fetch_array($resultT, MYSQLI_ASSOC))
-	{
-		array_push($all_meta, $rowT);
+	// Process meta data
+	foreach ($csv_data as $rowT) {
+		$all_meta[] = $rowT;
 
-		if($rowT['menu_id'] == $Current_Menu_Id){
-			$Current_Meta_Title			= isset($rowT['meta_title']) ? $rowT['meta_title'] : "";
-			$Current_Meta_Description	= isset($rowT['meta_description']) ? $rowT['meta_description'] : "";
-			$Current_Meta_Keywords		= isset($rowT['meta_keywords']) ? $rowT['meta_keywords'] : "";
-			$default_meta_description	= "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
-			$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
+		if ($rowT['menu_id'] == $Current_Menu_Id) {
+			$Current_Meta_Title       = $rowT['meta_title'] ?? "";
+			$Current_Meta_Description = $rowT['meta_description'] ?? "";
+			$Current_Meta_Keywords    = $rowT['meta_keywords'] ?? "";
+
+			$default_meta_description = "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";;
+			$Current_Meta_Description = $Current_Meta_Description ?: $default_meta_description;
 		}
 	}
+
+// 	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' ORDER BY menu_order ASC";
+// 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
+
+// 	$all_menu = [];
+// 	$all_meta = [];
+// 	$current_menu = null;
+
+// 	$Current_Menu_Id 					= null;
+// 	$Current_Menu_Father_Id 	= null;
+// 	$Current_Menu_Order		 	= null;
+// 	$Current_Menu_Name 			= null;
+// 	$Current_Menu_File_Name 	= null;
+// 	$Current_Menu_Inquiry_type 	= 1;
+// 	$Current_Menu_Is_Online 	= 1;
+// 	$first_menu = [];
+// 	$Current_Meta_Title = null;
+// 	$Current_Meta_Description = null;
+// 	$Current_Meta_Keywords = null;
+
+// 	while($row = mysqli_fetch_array($result_menu, MYSQLI_ASSOC))
+//   {
+// 		if ( $row['file_name'] != 'index.php') {
+// 			array_push($all_menu, $row);
+// 		}
+
+// 		if ($row['father_menu_id'] === null & $row['file_name'] != 'index.php') {
+// 			array_push($first_menu, $row);
+// 		}
+
+//   }
+
+// 	if ($cfg['file_name'] == '404.php') {
+// 		$cfg['file_name'] = "index.php";
+// 	}
+
+// 	//Menu
+// 	$sqlM ="Select * From `ows_menu` Where menu_class='main' And is_online=1 And lang='en' And file_name = ? limit 1 ";
+// 	$stmt = mysqli_prepare($MysqlConn, $sqlM);
+// 	mysqli_stmt_bind_param($stmt, "s", $cfg['file_name']);
+// 	mysqli_stmt_execute($stmt);
+// 	$resultM = mysqli_stmt_get_result($stmt);
+// 	$menuAry = mysqli_fetch_array($resultM);
+
+// 	// 當前菜單
+// 	if(!preg_match("/press-events/i", $cfg['file_name'])) {
+// 		$Current_Menu_Id					= $menuAry['menu_id'];
+// 		$Current_Menu_Father_Id		= $menuAry['father_menu_id'];
+// 		$Current_Menu_Order				= $menuAry['menu_order'];
+// 		$Current_Menu_Name				= $menuAry['menu_name'];
+// 		$Current_Menu_File_Name		= $menuAry['file_name'];
+// 		$Current_Menu_Inquiry_type = $menuAry['inquiry_type'];
+// 		$Current_Menu_Is_Online = $menuAry['is_online'];
+// 	}
+
+// 	//Meta
+// 	$sqlT ="Select * From `ows_meta` where 1=1 ";
+// 	$resultT = mysqli_query($MysqlConn, $sqlT);
+// 	while($rowT = mysqli_fetch_array($resultT, MYSQLI_ASSOC))
+// 	{
+// 		array_push($all_meta, $rowT);
+
+// 		if($rowT['menu_id'] == $Current_Menu_Id){
+// 			$Current_Meta_Title			= isset($rowT['meta_title']) ? $rowT['meta_title'] : "";
+// 			$Current_Meta_Description	= isset($rowT['meta_description']) ? $rowT['meta_description'] : "";
+// 			$Current_Meta_Keywords		= isset($rowT['meta_keywords']) ? $rowT['meta_keywords'] : "";
+// 			$default_meta_description	= "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
+// 			$Current_Meta_Description	= ($Current_Meta_Description)?$Current_Meta_Description:$default_meta_description;
+// 		}
+// 	}
 
 	//判斷是否為手機
 	function isMobile() {
@@ -597,14 +673,23 @@ height="0" width="0"></iframe></noscript>
 											}
 
 											//取得他語系網頁
-											$sqlL ="Select * From `ows_menu` Where lang='tw' And file_name = '".$Current_Menu_File_Name."' ";
-											$resultL = mysqli_query($MysqlConn, $sqlL);
-											$tspgAry = mysqli_fetch_array($resultL);
-											if($tspgAry){
-												$transferPageUrl = "/tw/".$Current_Menu_File_Name;
-											}else{
-												$transferPageUrl = "/tw/";
-											}
+											// $sqlL ="Select * From `ows_menu` Where lang='tw' And file_name = '".$Current_Menu_File_Name."' ";
+											// $resultL = mysqli_query($MysqlConn, $sqlL);
+											// $tspgAry = mysqli_fetch_array($resultL);
+											// if($tspgAry){
+											// 	$transferPageUrl = "/tw/".$Current_Menu_File_Name;
+											// }else{
+											// 	$transferPageUrl = "/tw/";
+											// }
+                                            $tspgAry = null;
+                                            foreach ($csv_data as $menu_item) {
+                                                if ($menu_item['lang'] === 'tw' && $menu_item['file_name'] === $Current_Menu_File_Name) {
+                                                    $tspgAry = $menu_item;
+                                                    break;
+                                                }
+                                            }
+                                            // 設定轉換頁面URL
+                                            $transferPageUrl = $tspgAry ? "/tw/{$Current_Menu_File_Name}" : "/tw/";
 
 										?>
 

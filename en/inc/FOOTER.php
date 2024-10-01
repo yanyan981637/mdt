@@ -6,13 +6,49 @@
 				<div class='c-card-carousel__controller o-animate-in-element js-animate-in-element' style='opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);'>	
 						
 					<?php
-						$sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='en' and father_menu_id=? and menu_order < ? order by menu_order DESC limit 1";
 
-						$stmt = mysqli_prepare($MysqlConn, $sql);
-						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
-						mysqli_stmt_execute($stmt);
-						$result = mysqli_stmt_get_result($stmt);
-						$prevAry = mysqli_fetch_array($result);
+						// // Filter and sort menu data
+						// $prevAry = array_filter($csv_data, function($row) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+						// 	return $row['menu_class'] === 'main' &&
+						// 		$row['is_online'] == 1 &&
+						// 		$row['lang'] === 'en' &&
+						// 		$row['father_menu_id'] == $Current_Menu_Father_Id &&
+						// 		$row['menu_order'] < $Current_Menu_Order;
+						// });
+
+						// // Sort the filtered data by menu_order in descending order
+						// usort($prevAry, function($a, $b) {
+						// 	return $b['menu_order'] <=> $a['menu_order'];
+						// });
+
+						// // Limit to 1 result
+						// $prevAry = array_slice($prevAry, 0, 1);
+
+
+						// 使用 array_filter 過濾符合條件的項目
+						$filtered_menus = array_filter($csv_data, function ($menu) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+							return $menu['menu_class'] === 'main'
+								&& $menu['is_online'] == 1
+								&& $menu['lang'] === 'en'
+								&& $menu['father_menu_id'] == $Current_Menu_Father_Id
+								&& $menu['menu_order'] < $Current_Menu_Order;
+						});
+
+						// 排序 menu_order 欄位，降序排列
+						usort($filtered_menus, function ($a, $b) {
+							return $b['menu_order'] <=> $a['menu_order'];
+						});
+
+						// 取得排序後的第一個元素（等同於 LIMIT 1）
+						$prevAry = reset($filtered_menus);
+
+						// $sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='en' and father_menu_id=? and menu_order < ? order by menu_order DESC limit 1";
+
+						// $stmt = mysqli_prepare($MysqlConn, $sql);
+						// mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
+						// mysqli_stmt_execute($stmt);
+						// $result = mysqli_stmt_get_result($stmt);
+						// $prevAry = mysqli_fetch_array($result);
 
 						if(!empty($prevAry)){
 							$prev_menu_name		= $prevAry['menu_name'];
@@ -20,23 +56,57 @@
 							$prev_href_target	= $prevAry['href_target'];
 
 							echo "<div class='proj-prev'>
-											<a href='".$prev_file_name."' target='".$prev_href_target."'>
-												<div class='l-flex l-flex--center-middle c-card-carousel__prev' style='float: left;'>
-													<img src='../images/ic_chevron_left-white.svg' alt='arrow' class='o-icon c-card-carousel__arrow'>
-												</div>
-												<div class='proj-nav-title hidden-xs'><span>".$prev_menu_name."</span></div>
-											</a>
-										</div>";
+								<a href='".$prev_file_name."' target='".$prev_href_target."'>
+									<div class='l-flex l-flex--center-middle c-card-carousel__prev' style='float: left;'>
+										<img src='../images/ic_chevron_left-white.svg' alt='arrow' class='o-icon c-card-carousel__arrow'>
+									</div>
+									<div class='proj-nav-title hidden-xs'><span>".$prev_menu_name."</span></div>
+								</a>
+							</div>";
 						}
 
+						// // Filter and sort menu data
+						// $nextAry = array_filter($csv_data, function($row) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+						// 	return $row['menu_class'] === 'main' &&
+						// 		$row['is_online'] == 1 &&
+						// 		$row['lang'] === 'en' &&
+						// 		$row['father_menu_id'] == $Current_Menu_Father_Id &&
+						// 		$row['menu_order'] > $Current_Menu_Order;
+						// });
 
-						$sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='en' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
+						// // Sort the filtered data by menu_order in ascending order
+						// usort($nextAry, function($a, $b) {
+						// 	return $a['menu_order'] <=> $b['menu_order'];
+						// });
 
-						$stmt = mysqli_prepare($MysqlConn, $sql);
-						mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
-						mysqli_stmt_execute($stmt);
-						$result = mysqli_stmt_get_result($stmt);
-						$nextAry = mysqli_fetch_array($result);
+						// // Limit to 1 result
+						// $nextAry = array_slice($nextAry, 0, 1);
+						
+
+						// 使用 array_filter 過濾符合條件的項目
+						$filtered_menus = array_filter($csv_data, function ($menu) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+							return $menu['menu_class'] === 'main'
+								&& $menu['is_online'] == 1
+								&& $menu['lang'] === 'en'
+								&& $menu['father_menu_id'] == $Current_Menu_Father_Id
+								&& $menu['menu_order'] > $Current_Menu_Order;
+						});
+
+						// 排序 menu_order 欄位，升序排列
+						usort($filtered_menus, function ($a, $b) {
+							return $a['menu_order'] <=> $b['menu_order'];
+						});
+
+						// 取得排序後的第一個元素（等同於 LIMIT 1）
+						$nextAry = reset($filtered_menus);
+
+						// $sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='en' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
+
+						// $stmt = mysqli_prepare($MysqlConn, $sql);
+						// mysqli_stmt_bind_param($stmt, "ss", $Current_Menu_Father_Id, $Current_Menu_Order);
+						// mysqli_stmt_execute($stmt);
+						// $result = mysqli_stmt_get_result($stmt);
+						// $nextAry = mysqli_fetch_array($result);
 
 						if(!empty($nextAry)){
 							$next_menu_name		= $nextAry['menu_name'];
@@ -44,13 +114,13 @@
 							$next_href_target	= $nextAry['href_target'];
 
 							echo "<div class='proj-next'>
-											<a href='".$next_file_name."' target='".$next_href_target."'>
-												<div class='l-flex l-flex--center-middle c-card-carousel__next' style='float: right;'>
-													<img src='../images/ic_chevron_right-white.svg' alt='arrow' class='o-icon c-card-carousel__arrow'>
-												</div>
-												<div class='proj-nav-title hidden-xs'><span>".$next_menu_name."</span></div>
-											</a>
-										</div>";
+								<a href='".$next_file_name."' target='".$next_href_target."'>
+									<div class='l-flex l-flex--center-middle c-card-carousel__next' style='float: right;'>
+										<img src='../images/ic_chevron_right-white.svg' alt='arrow' class='o-icon c-card-carousel__arrow'>
+									</div>
+									<div class='proj-nav-title hidden-xs'><span>".$next_menu_name."</span></div>
+								</a>
+							</div>";
 						}
 					?>
 					
@@ -110,11 +180,31 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
 					<?php
-						$sqlPM ="Select menu_name, file_name, href_target From `ows_menu` Where menu_class='policy' And father_menu_id is NULL And is_online=1 And lang='en' Order By menu_order ASC ";
-						$resultPM = mysqli_query($MysqlConn, $sqlPM);
-						while ($menuPM = mysqli_fetch_array($resultPM, MYSQLI_ASSOC)) {
-							echo "<a href='".$menuPM['file_name']."' target='".$menuPM['href_target']."'>".$menuPM['menu_name']."</a>&nbsp;|&nbsp;.";
+
+						// Filter and sort menu data
+						$menuPM = array_filter($csv_data, function($row) {
+							return $row['menu_class'] === 'policy' &&
+								empty($row['father_menu_id']) && // Checking for NULL father_menu_id
+								$row['is_online'] == 1 &&
+								$row['lang'] === 'en';
+						});
+
+						// Sort the filtered data by menu_order in ascending order
+						usort($menuPM, function($a, $b) {
+							return $a['menu_order'] <=> $b['menu_order'];
+						});
+
+
+						// Output menu items as HTML links
+						foreach ($menuPM as $menu) {
+							echo "<a href='".$menu['file_name']."' target='".$menu['href_target']."'>".$menu['menu_name']."</a>&nbsp;|&nbsp;";
 						}
+
+						// $sqlPM ="Select menu_name, file_name, href_target From `ows_menu` Where menu_class='policy' And father_menu_id is NULL And is_online=1 And lang='en' Order By menu_order ASC ";
+						// $resultPM = mysqli_query($MysqlConn, $sqlPM);
+						// while ($menuPM = mysqli_fetch_array($resultPM, MYSQLI_ASSOC)) {
+						// 	echo "<a href='".$menuPM['file_name']."' target='".$menuPM['href_target']."'>".$menuPM['menu_name']."</a>&nbsp;|&nbsp;.";
+						// }
 					?>
 				</div>
 				<div class="col-md-6 col-sm-12">

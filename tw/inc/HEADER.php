@@ -188,8 +188,8 @@
 	} elseif ($cfg['file_name'] == '404.php') {
 		$Current_Menu_Name = "404";
 	}
-
-	$metaTitle = $Current_Meta_Title ?: $Current_Menu_Name;
+	$metaTitle = ($Current_Meta_Title)?$Current_Meta_Title:$Current_Menu_Name;
+	// $metaTitle = $Current_Meta_Title ?: $Current_Menu_Name;
 	?>
 
 	<title><?php echo $metaTitle; ?></title>

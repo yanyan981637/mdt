@@ -8,22 +8,39 @@
 					<?php
 
 
-						// Filter and sort menu data
-						$prevAry = array_filter($csv_data, function($row) use ($fatherMenuId, $menuOrder) {
-							return $row['menu_class'] === 'main' &&
-								$row['is_online'] == 1 &&
-								$row['lang'] === 'tw' &&
-								$row['father_menu_id'] == $fatherMenuId &&
-								$row['menu_order'] < $menuOrder;
+						// 使用 array_filter 過濾符合條件的項目
+						$filtered_pre_menus = array_filter($csv_data, function ($menu) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+							return $menu['menu_class'] === 'main'
+								&& $menu['is_online'] == 1
+								&& $menu['lang'] === 'tw'
+								&& $menu['father_menu_id'] == $Current_Menu_Father_Id
+								&& $menu['menu_order'] < $Current_Menu_Order;
 						});
 
-						// Sort the filtered data by menu_order in descending order
-						usort($prevAry, function($a, $b) {
+						// 排序 menu_order 欄位，降序排列
+						usort($filtered_pre_menus, function ($a, $b) {
 							return $b['menu_order'] <=> $a['menu_order'];
 						});
 
-						// Limit to 1 result
-						$prevAry = array_slice($prevAry, 0, 1);
+						// 取得排序後的第一個元素（等同於 LIMIT 1）
+						$prevAry = reset($filtered_pre_menus);
+
+						// // Filter and sort menu data
+						// $prevAry = array_filter($csv_data, function($row) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+						// 	return $row['menu_class'] === 'main' &&
+						// 		$row['is_online'] == 1 &&
+						// 		$row['lang'] === 'tw' &&
+						// 		$row['father_menu_id'] == $Current_Menu_Father_Id &&
+						// 		$row['menu_order'] < $Current_Menu_Order;
+						// });
+
+						// // Sort the filtered data by menu_order in descending order
+						// usort($prevAry, function($a, $b) {
+						// 	return $b['menu_order'] <=> $a['menu_order'];
+						// });
+
+						// // Limit to 1 result
+						// $prevAry = array_slice($prevAry, 0, 1);
 
 						// $sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order < ? order by menu_order DESC limit 1";
 
@@ -49,22 +66,41 @@
 						}
 
 
-						// Filter and sort menu data
-						$nextAry = array_filter($csv_data, function($row) use ($fatherMenuId, $menuOrder) {
-							return $row['menu_class'] === 'main' &&
-								$row['is_online'] == 1 &&
-								$row['lang'] === 'tw' &&
-								$row['father_menu_id'] == $fatherMenuId &&
-								$row['menu_order'] > $menuOrder;
+						// // Filter and sort menu data
+						// $nextAry = array_filter($csv_data, function($row) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+						// 	return $row['menu_class'] === 'main' &&
+						// 		$row['is_online'] == 1 &&
+						// 		$row['lang'] === 'tw' &&
+						// 		$row['father_menu_id'] == $Current_Menu_Father_Id &&
+						// 		$row['menu_order'] > $Current_Menu_Order;
+						// });
+
+						// // Sort the filtered data by menu_order in ascending order
+						// usort($nextAry, function($a, $b) {
+						// 	return $a['menu_order'] <=> $b['menu_order'];
+						// });
+
+						// // Limit to 1 result
+						// $nextAry = array_slice($nextAry, 0, 1);
+
+
+
+						// 使用 array_filter 過濾符合條件的項目
+						$filtered_next_menus = array_filter($csv_data, function ($menu) use ($Current_Menu_Father_Id, $Current_Menu_Order) {
+							return $menu['menu_class'] === 'main'
+								&& $menu['is_online'] == 1
+								&& $menu['lang'] === 'tw'
+								&& $menu['father_menu_id'] == $Current_Menu_Father_Id
+								&& $menu['menu_order'] > $Current_Menu_Order;
 						});
 
-						// Sort the filtered data by menu_order in ascending order
-						usort($nextAry, function($a, $b) {
+						// 排序 menu_order 欄位，升序排列
+						usort($filtered_next_menus, function ($a, $b) {
 							return $a['menu_order'] <=> $b['menu_order'];
 						});
 
-						// Limit to 1 result
-						$nextAry = array_slice($nextAry, 0, 1);
+						// 取得排序後的第一個元素（等同於 LIMIT 1）
+						$nextAry = reset($filtered_next_menus);
 
 						// $sql ="SELECT menu_name ,file_name ,href_target FROM `ows_menu` where menu_class='main' and is_online=1 and lang='tw' and father_menu_id=? and menu_order > ? order by menu_order limit 1";
 
@@ -75,9 +111,9 @@
 						// $nextAry = mysqli_fetch_array($result);
 
 						if(!empty($nextAry)){
-							$next_menu_name		= $nextAry['menu_name'];
-							$next_file_name		= $nextAry['file_name'];
-							$next_href_target	= $nextAry['href_target'];
+							$next_menu_name		= $nextAry['menu_name'] ?? 'Default Menu Name';
+							$next_file_name		= $nextAry['file_name'] ?? '#';
+							$next_href_target	= $nextAry['href_target'] ?? '_self';
 
 							echo "<div class='proj-next'>
 											<a href='".$next_file_name."' target='".$next_href_target."'>
