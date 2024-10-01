@@ -71,8 +71,8 @@ menu_id,father_menu_id,menu_class,menu_order,menu_name,file_name,href_target,is_
 75,73,main,1,智能行車記錄器,smart-dashcam.php,_self,0,tw,1,智能行車記錄器,提供全方位GPS導航解決方案，範圍涵蓋一般道路導航、汽車越野導航、車隊管理導航、商用及公用車隊往返路徑管理解決方案。一般使用者或商業用途夥伴，都可以獲得滿足。,"智能行車記錄器,聯網型行車記錄器",,,,
 76,113,main,3,車隊管理,fleet-management.php,_self,1,tw,1,"車隊管理 | 智慧車載資通訊 | 神達數位",神達數位車隊平板電腦專為車隊行車環境所設計。廣泛的連網功能整合了車載資訊，確保效率的行程追蹤和數據管理。,,,,,
 77,73,main,3,強化安全,safefy-enhancement.php,_self,0,tw,1,車隊駕駛安全系統解決方案,最佳車隊駕駛安全系統解決方案，功能涵蓋：高級輔助駕駛系統（ADAS）、駕駛行為偵測系統（DMS）、遠端輔助、高級哨兵防護模式、防竄改外殼、超速拍照警示、資料呈現。,"ADAS, DMS,Safety Camera Alert,Remote Asistance",,,,
-78,73,main,4,提升效率,efficiency-improvement.php,_self,0,tw,1,駕駛行為分析系統,"神達數位擁有可有效提升效率的最佳駕駛行為分析系統，利用分析報告、GPS 追蹤、事件通知以及即時串流等工具，可有效提升車隊物流運送效率及掌握車隊駕駛即時資訊。","分析報告,GPS追蹤,即時串流,事件通知",,,,
-79,73,main,5,商業合作,business-collaboration.php,_self,0,tw,1,商業合作夥伴,神達數位是您車載視訊解決方案的最佳夥伴，可用於迅速與您現有的車隊平台進行整合、嚴格的工廠管理標準與品質管理及各類商業車隊的專業攝影機解決方案。,"車隊平台進行整合,商業車隊的專業攝影機解決方案",,,,
+78,73,main,4,提升效率,efficiency-improvement.php,_self,0,tw,1,"駕駛行為分析系統","神達數位擁有可有效提升效率的最佳駕駛行為分析系統，利用分析報告、GPS 追蹤、事件通知以及即時串流等工具，可有效提升車隊物流運送效率及掌握車隊駕駛即時資訊。","分析報告,GPS追蹤,即時串流,事件通知",,,,
+79,73,main,5,商業合作,business-collaboration.php,_self,0,tw,1,"商業合作夥伴",神達數位是您車載視訊解決方案的最佳夥伴，可用於迅速與您現有的車隊平台進行整合、嚴格的工廠管理標準與品質管理及各類商業車隊的專業攝影機解決方案。,"車隊平台進行整合,商業車隊的專業攝影機解決方案",,,,
 80,8,main,4,"Cyber Security",cyber_security.php,_self,1,en,1,,,,,,,
 81,2,main,0,"Connected Dashcam",connected-dashcam.php,_self,0,en,1,,,,,,,
 89,32,main,1,智慧車載資通訊,,_self,1,tw,1,,,,,,,
@@ -170,21 +170,19 @@ menu_id,father_menu_id,menu_class,menu_order,menu_name,file_name,href_target,is_
 188,,main,2,Solution,,_self,1,en,1,,,,,,,
 189,185,main,1,行車記錄器,dashcam-recorder.php,_self,1,tw,1,"汽車行車記錄器 | 智慧移動 | 神達數位",使用神達數位高畫質的行車記錄器記錄旅程的所有重要時刻。,,行車記錄器,安心開始您的旅程吧,189.png,https://www.mitacmdt.com/tw/dashcam-recorder.php
 190,186,main,1,"Dashcam Recorder",dashcam-recorder.php,_self,1,en,1,"Dashcam Recorder | Smart Mobility  | MiTAC","Record all your essential moments while driving with MiTAC pixel-perfect dashcams.",,"Dashcam Recorder","Begin your journey with a peace of mind",190.png,https://www.mitacmdt.com/en/dashcam-recorder.php
-191,185,main,2,車載視訊,video-telematics.php,_self,1,tw,2,"車載視訊 | 智慧車載資通訊 | 神達數位",神達數位聯網型行車記錄器系列是一體式車隊互聯鏡頭解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理,,聯網型行車記錄器,多功能車隊聯網視訊解決方案,191.png,https://www.mitacmdt.com/tw/video-telematics.php
+191,185,main,2,車載視訊,video-telematics.php,_self,1,tw,2,"車載視訊 | 智慧車載資通訊 | 神達數位","神達數位聯網型行車記錄器系列是一體式車隊互聯鏡頭解決方案，可更有前瞻性地幫助車隊經理解決視頻遠程信息處理",,聯網型行車記錄器,多功能車隊聯網視訊解決方案,191.png,https://www.mitacmdt.com/tw/video-telematics.php
 192,186,main,2,"Video Telematics",video-telematics.php,_self,1,en,2,"Video Telematics | Smart Telematics | MiTAC","MiTAC connected dashcam series can provide an all-in-one fleet connected camera solution which helps fleet managers evolve their solutions into forward-thinking video telematics.",,"Connected Dashcam","All-in-one fleet connected camera solution",192.png,https://www.mitacmdt.com/en/video-telematics.php
 193,185,main,3,導航,navigation.php,_self,1,tw,1,"導航 | 智慧移動 | 神達數位","神達數位可靠且全方位的GPS 導航系統能夠消除行車時的不確定性因素。",,導航,"可靠且全方位的GPS 導航系統協助消除行車時的不確定性因素",193.png,https://www.mitacmdt.com/tw/navigation.php
 194,186,main,3,Navigation,navigation.php,_self,1,en,1,"Navigation | Smart Telematics | MiTAC","MiTAC dependable and comprehensive GPS navigation systems for cars eliminate any uncertainty while driving.",,Navigation,"Dependable and comprehensive GPS navigation systems eliminate any uncertainty while driving",194.png,https://www.mitacmdt.com/en/navigation.php
-195,185,main,4,嵌入式系統,https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,tw,1,,,,嵌入式系統,提供計算、控制和連接功能的工業級各類型嵌入式系統，適用於嚴苛操作環境與不同場域空間大小,195.png,https://ipc.mitacmdt.com/EN/products/embedded_system/
-196,186,main,4,"Embedded System",https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,en,1,,,,"Embedded System","Versatile Embedded System for harsh environment usage on Computing, Control, and Connectivity",196.png,https://ipc.mitacmdt.com/EN/products/embedded_system/
-197,185,main,5,工業級主機板,https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search,_blank,1,tw,1,,,,工業級主機板,配有豐富接口與擴充功能的工業級嵌入式主機板，並提供搭配各式Intel最新處理器的多樣板型,197.png,https://ipc.mitacmdt.com/EN/products/industrial_motherboard/
-198,186,main,5,"Embedded Motherboard",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search,_blank,1,en,1,,,,"Embedded Motherboard","Multiple Form Factor Selections, Industrial-grade Design, Rich Expansion and Legacy I/O Connectivity",198.png,https://ipc.mitacmdt.com/EN/products/industrial_motherboard/
+195,185,main,4,嵌入式系統,embedded-system.php,_self,1,tw,1,"嵌入式系統 | 神達數位","MiTAC 的工業主板系列，包括 Micro ATX、Mini-ITX、SBC 和 COMe，具有高耐用性、強大的計算能力、豐富的 I/O 連接性和可擴展性，為各種垂直和工業應用提供了理想的解決方案。",,嵌入式系統,提供計算、控制和連接功能的工業級各類型嵌入式系統，適用於嚴苛操作環境與不同場域空間大小,195.png,https://www.mitacmdt.com/tw/embedded-system.php
+196,186,main,4,"Embedded System",embedded-system.php,_self,1,en,1,"Embedded System | MiTAC","MiTAC's industrial motherboards, ranging from Micro ATX, Mini-ITX, and SBC to COMe, feature high longevity, robust computing capability, rich I/O connectivity, expandability, and provide an ideal solution for various vertical and industrial applications.",,"Embedded System","Versatile Embedded System for harsh environment usage on Computing, Control, and Connectivity",196.png,https://www.mitacmdt.com/en/embedded-system.php
+197,185,main,5,工業級主機板,embedded-motherboard.php,_self,1,tw,1,"工業級主機板 | 神達數位",,,工業級主機板,配有豐富接口與擴充功能的工業級嵌入式主機板，並提供搭配各式Intel最新處理器的多樣板型,197.png,https://www.mitacmdt.com/tw/embedded-motherboard.php
+198,186,main,5,"Embedded Motherboard",embedded-motherboard.php,_self,1,en,1,"Embedded Motherboard | MiTAC",,,"Embedded Motherboard","Multiple Form Factor Selections, Industrial-grade Design, Rich Expansion and Legacy I/O Connectivity",198.png,https://www.mitacmdt.com/en/embedded-motherboard.php
 199,185,main,6,平板,tablet.php,_self,1,tw,1,"平板 |  智慧工業 | 神達數位",神達數位平板裝置具有堅固耐用與多功能等特點，並與全球領導的車隊管理、物流、現場服務、醫療保健和零售領域的合作夥伴緊密合作開發。,,平板,堅固、多功能且耐用的行動裝置，與全球頂尖的車隊管理、物流、現場服務、醫療及零售產業夥伴建立緊密的合作關係,199.png,https://www.mitacmdt.com/tw/tablet.php
 200,186,main,6,Tablet,tablet.php,_self,1,en,1,"Tablet | Smart Industries | MiTAC","MiTAC mobile devices are rugged, versatile, and durable, and they have been created in close partnership with global leaders in fleet management, logistics, field services, healthcare, and retail",,Tablet,"Rugged, versatile, and durable mobile devices in collaboration with leading global experts in fleet management, logistics, field services, healthcare, and retail",200.png,https://www.mitacmdt.com/en/tablet.php
-201,185,main,7,"AI 邊緣運算系統",https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,tw,1,,,,"AI 邊緣運算系統",提供各類型邊緣運算與AI運算的系統，可用於推理、機器學習和深度學習的應用,201.png,https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search
-202,186,main,7,"Edge AI System",https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,en,1,,,,"Edge AI System","Versatile AI Computing options for Inference, Machine Learning and Deep Learning at the Edge",202.png,https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search
-203,185,main,8,工業級觸控螢幕電腦,https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@92=Search,_blank,1,tw,1,,,,工業級觸控螢幕電腦,"工業等級控螢幕電腦, 具備10點觸控、無風扇和IP65防塵/防水的特色",203.png,https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC/
-204,186,main,8,"Industrial Panel PC",https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@92=Search,_blank,1,en,1,,,,"Industrial Panel PC","Industrial-grade Panel, 10 Point Touch, Fanless design and IP65 Dust/Water Resistant",204.png,https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC/
-205,185,main,9,自助服務機,kiosk.php,_self,1,tw,1,"自助服務機 |  智慧工業 | 神達數位",神達數位自助服務機是一個時尚、高度互動且先進的自助服務解決方案，提供模組化硬體設計、強大的演算平台和工業級可靠性。,,自助服務機,將您的業務提升至更高的水準,205.png,https://www.mitacmdt.com/tw/kiosk.php
+203,185,main,8,工業級觸控螢幕電腦,industrial-panel-pc.php,_self,1,tw,1,"工業級觸控螢幕電腦 | 神達數位","MiTAC 的觸控面板電腦系列結合了觸控介面與強大的計算能力，非常適合工業控制、人機介面（HMI）和自動化應用。這些耐用且多功能的設備設計易於整合到各種環境中，確保在苛刻條件下的穩定性能。",,工業級觸控螢幕電腦,"工業等級控螢幕電腦, 具備10點觸控、無風扇和IP65防塵/防水的特色",203.png,https://www.mitacmdt.com/tw/industrial-panel-pc.php
+204,186,main,8,"Industrial Panel PC",industrial-panel-pc.php,_self,1,en,1,"Industrial Panel PC | MiTAC","MiTAC's panel PC series combines touchscreen interfaces with powerful computing capabilities, making them ideal for industrial control, HMI (Human-Machine Interface), and automation applications. These durable and versatile devices are designed for easy integration into various environments, ensuring reliable performance in demanding conditions.",,"Industrial Panel PC","Industrial-grade Panel, 10 Point Touch, Fanless design and IP65 Dust/Water Resistant",204.png,https://www.mitacmdt.com/en/industrial-panel-pc.php
+205,185,main,9,自助服務機,kiosk.php,_self,1,tw,1,"自助服務機 |  智慧工業 | 神達數位","神達數位自助服務機是一個時尚、高度互動且先進的自助服務解決方案，提供模組化硬體設計、強大的演算平台和工業級可靠性。",,自助服務機,將您的業務提升至更高的水準,205.png,https://www.mitacmdt.com/tw/kiosk.php
 206,186,main,9,Kiosk,kiosk.php,_self,1,en,1,"Kiosk | Smart Industries | MiTAC","MiTAC Self-Service Kiosk is a stylish, highly interactive and state-of-the-art self-service solution that provides modular hardware design with powerful computing platform and industrial-grade reliability. ",,"Self-Service Kiosk","Take your business to the next level",206.png,https://www.mitacmdt.com/en/kiosk.php
 207,185,main,10,戶外照明,outdoor-luminaires.php,_self,1,tw,1,"戶外照明 | 智慧物聯 | 神達數位","配備了智慧控制元件、彈性靈活的傳感器和攝影機, 神達數位定位型戶外照明解決方案實現了照明、監控、追蹤和感測的整合。",,連網模組,無縫且便捷的連網,207.png,https://www.mitacmdt.com/tw/outdoor-luminaires.php
 208,186,main,10,"Outdoor Luminaires",outdoor-luminaires.php,_self,1,en,1,"Outdoor Luminaires | Smart IOT | MiTAC","Equipped with a smart control unit, flexible sensors, and a camera, MiTAC location-based outdoor luminaire solution realizes the integration of lighting, monitoring, tracking, and sensing",,"Connectivity Module","Seamless and convenient connections",208.png,https://www.mitacmdt.com/en/outdoor-luminaires.php
@@ -230,30 +228,12 @@ menu_id,father_menu_id,menu_class,menu_order,menu_name,file_name,href_target,is_
 248,194,main,1,"Car Navigation",navigation.php#car-navigation,_self,1,en,1,,,,,,,
 249,193,main,2,越野導航,navigation.php#off-road-navigation,_self,1,tw,1,,,,,,,
 250,194,main,2,"Off Road Navigation",navigation.php#off-road-navigation,_self,1,en,1,,,,,,,
-251,193,main,3,Cyclo自行車導航,outdoor-navigation.php,_self,1,tw,1,,,,,,,
-252,194,main,3,"Cyclo Cycling Computer",outdoor-navigation.php,_self,1,en,1,,,,,,,
-253,195,main,1,強固型及模組化工業電腦,https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,tw,1,,,,,,,
-254,196,main,1,"Rugged & Modularized",https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,en,1,,,,,,,
-255,195,main,2,無風扇及緊湊型工業電腦,https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search,_blank,1,tw,1,,,,,,,
-256,196,main,2,"Industrial & Compact",https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search,_blank,1,en,1,,,,,,,
-257,195,main,3,多工效及可擴充型工業電腦,https://ipc.mitacmdt.com/EN/products/embedded_system@91=Search,_blank,1,tw,1,,,,,,,
-258,196,main,3,"Performance & Multifunctional",https://ipc.mitacmdt.com/EN/products/embedded_system@91=Search,_blank,1,en,1,,,,,,,
-259,195,main,4,機架式工業電腦,https://ipc.mitacmdt.com/EN/products/embedded_system@112=Search,_blank,1,tw,1,,,,,,,
-260,196,main,4,Rackmount,https://ipc.mitacmdt.com/EN/products/embedded_system@112=Search,_blank,1,en,1,,,,,,,
-261,197,main,1,"Micro ATX",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search,_blank,1,tw,1,,,,,,,
-262,198,main,1,"Micro ATX",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search,_blank,1,en,1,,,,,,,
-263,197,main,2,"Thin Mini-iTX",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@2=Search,_blank,1,tw,1,,,,,,,
-264,198,main,2,"Thin Mini-iTX",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@2=Search,_blank,1,en,1,,,,,,,
-265,197,main,3,Mini-iTX,https://ipc.mitacmdt.com/EN/products/industrial_motherboard@3=Search,_blank,1,tw,1,,,,,,,
-266,198,main,3,Mini-iTX,https://ipc.mitacmdt.com/EN/products/industrial_motherboard@3=Search,_blank,1,en,1,,,,,,,
-267,197,main,4,"3.5” SBC",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@4=Search,_blank,1,tw,1,,,,,,,
-268,198,main,4,"3.5” SBC",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@4=Search,_blank,1,en,1,,,,,,,
-269,197,main,5,"2.5” SBC",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@5=Search,_blank,1,tw,1,,,,,,,
-270,198,main,5,"2.5” SBC",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@5=Search,_blank,1,en,1,,,,,,,
-271,197,main,6,COMe,https://ipc.mitacmdt.com/EN/products/industrial_motherboard@97=Search,_blank,1,tw,1,,,,,,,
-272,198,main,6,COMe,https://ipc.mitacmdt.com/EN/products/industrial_motherboard@97=Search,_blank,1,en,1,,,,,,,
-273,197,main,7,AI加速卡,https://ipc.mitacmdt.com/EN/products/industrial_motherboard@118=Search,_blank,1,tw,1,,,,,,,
-274,198,main,7,"AI Acceleration Card",https://ipc.mitacmdt.com/EN/products/industrial_motherboard@118=Search,_blank,1,en,1,,,,,,,
+251,193,main,3,Cyclo自行車導航,navigation.php#cyclo-cycling-computer,_self,1,tw,1,,,,,,,
+252,194,main,3,"Cyclo Cycling Computer",navigation.php#cyclo-cycling-computer,_self,1,en,1,,,,,,,
+253,195,main,1,嵌入式系統,embedded-system.php,_self,1,tw,1,"嵌入式系統 | 神達數位","MiTAC 的嵌入式系統系列提供堅固且緊湊的解決方案，專為工業應用設計，具有高性能和高可靠性，適用於惡劣環境。這些系統非常適合需要長期穩定性的任務，例如物聯網、工業自動化和邊緣 AI 計算。",,,,,
+254,196,main,1,"Embedded System",embedded-system.php,_self,1,en,1,Embedded System | MiTAC,"MiTAC's embedded system series offers robust, compact solutions designed for industrial applications, featuring high performance and reliability in harsh environments. These systems are ideal for tasks requiring long-term stability, such as in IoT, automation, and edge AI computing.",,,,,
+261,197,main,1,"工業級主機板",embedded-motherboard.php,_self,1,tw,1,,,,,,,
+262,198,main,1,"Embedded Motherboard",embedded-motherboard.php,_self,1,en,1,,,,,,,
 275,199,main,1,工業平板,tablet.php#industrial-tablet,_self,1,tw,1,,,,,,,
 276,200,main,1,"Industrial Tablet",tablet.php#industrial-tablet,_self,1,en,1,,,,,,,
 277,199,main,2,車用平板,tablet.php#fleet-tablet,_self,1,tw,1,,,,,,,
@@ -262,12 +242,8 @@ menu_id,father_menu_id,menu_class,menu_order,menu_name,file_name,href_target,is_
 280,200,main,3,"Handy Terminal",tablet.php#handy-terminal,_self,1,en,1,,,,,,,
 281,199,main,4,強固型平板電腦,https://ipc.mitacmdt.com/EN/products/Rugged_Tablet/,_blank,1,tw,1,,,,,,,
 282,200,main,4,"Rugged Tablet",https://ipc.mitacmdt.com/EN/products/Rugged_Tablet/,_blank,1,en,1,,,,,,,
-283,201,main,1,強固型及模組化工業電腦,https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,tw,1,,,,,,,
-284,202,main,1,"Rugged & Modularized",https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search,_blank,1,en,1,,,,,,,
-285,203,main,1,一體式系列,https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@92=Search,_blank,1,tw,1,,,,,,,
-286,204,main,1,"Standalone Series",https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@92=Search,_blank,1,en,1,,,,,,,
-287,203,main,2,面板安裝式系列,https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@93=Search,_blank,1,tw,1,,,,,,,
-288,204,main,2,"Panel Mount Series",https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@93=Search,_blank,1,en,1,,,,,,,
+285,203,main,1,工業級觸控螢幕電腦,industrial-panel-pc.php,_self,1,tw,1,,,,,,,
+286,204,main,1,"Industrial Panel PC",industrial-panel-pc.php,_self,1,en,1,,,,,,,
 289,211,main,1,解決方案,solution.php,_self,1,tw,1,,,,,,,
 290,212,main,1,Solution,solution.php,_self,1,en,1,,,,,,,
 291,289,main,1,車載視訊解決方案,solution.php#vt-solution,_self,1,tw,1,,,,,,,
