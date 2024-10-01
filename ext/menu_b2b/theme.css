@@ -28,7 +28,7 @@
     }
     .dimmer-close{
         display:block;
-        background-image:url(../images/close-cursor.png);
+        background-image:url("../images/close-cursor.png");
         width:0;
         height:0;
         background-position:center;
