@@ -35,7 +35,7 @@
 						<p class="ContGen">MiTAC's panel PC series combines touchscreen interfaces with powerful computing capabilities, making them ideal for industrial control, HMI (Human-Machine Interface), and automation applications. These durable and versatile devices are designed for easy integration into various environments, ensuring reliable performance in demanding conditions.</p>
 					</div>
 				</div>
-				<div class="col-md-10 mt-30">	
+				<div class="col-md-10 mt-30 pd-0">	
 					<div class="col-12 row justify-content-left call-box-4">
                         <div class="col-12">
                             <h5>Main application :</h5>
@@ -97,10 +97,14 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@92=Search" target="_blank">Standalone Series</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@93=Search" target="_blank">Panel Mount Series</a>
+      <div class="container mt-30" style="margin:0;padding:0">
+        <div class="row justify-content-center" style="margin:0;padding:0">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@92=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Standalone Series</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@93=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Panel Mount Series</a>
+          </div>
         </div>
       </div>
     </div>

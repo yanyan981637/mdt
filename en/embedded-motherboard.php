@@ -35,13 +35,13 @@
 						<p class="ContGen">MiTAC's industrial motherboards, ranging from Micro ATX, Mini-ITX, and SBC to COMe, feature high longevity, robust computing capability, rich I/O connectivity, expandability, and provide an ideal solution for various vertical and industrial applications.</p>
 					</div>
 				</div>
-				<div class="col-md-10 mt-30">	
+				<div class="col-md-10 mt-30 pd-0">	
 					<div class="col-12 row justify-content-left call-box-4">
                         <div class="col-12">
                             <h5>Main application :</h5>
                             <li>Factory automation (Control/Operation/SCADA)</li>
                             <li>Retail automation (Payment/Signage/Hospitability/Surveillance)</li>
-                            <li>Transportation System (PIS/AFC/FMS/Ticketing/Surveillance/In-vehicle control/Traffic management/Rail control)</li>
+                            <li>Transportation System<br>&emsp;&nbsp;(PIS/AFC/FMS/Ticketing/Surveillance/In-vehicle control/Traffic management/Rail control)</li>
                             <li>Medical equipment (Ultra-sound, biological analytical instruments)</li>
                         </div>
 					</div>
@@ -91,18 +91,35 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search" target="_blank">Micro ATX</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@2=Search" target="_blank">Thin Mini-iTX</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@3=Search" target="_blank">Mini-iTX</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@4=Search" target="_blank">3.5” SBC</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@5=Search" target="_blank">2.5” SBC</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@97=Search" target="_blank">COMe</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@118=Search" target="_blank">AI Acceleration Card</a>
+      
+      <div class="container mt-30" style="margin:0;padding:0">
+        <div class="row" style="margin:0;padding:0">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Micro ATX</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@2=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Thin Mini-iTX</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@3=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Mini-iTX</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@4=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">3.5” SBC</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@5=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">2.5” SBC</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@97=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">COMe</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@118=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">AI Acceleration Card</a>
+          </div>
         </div>
       </div>
+      
     </div>
+    <br>
   </div>
 
 <?php

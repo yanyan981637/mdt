@@ -35,7 +35,7 @@
 						<p class="ContGen">MiTAC 的嵌入式系統系列提供堅固且緊湊的解決方案，專為工業應用設計，具有高性能和高可靠性，適用於惡劣環境。這些系統非常適合需要長期穩定性的任務，例如物聯網、工業自動化和邊緣 AI 計算。</p>
 					</div>
 				</div>
-				<div class="col-md-10 mt-30">	
+				<div class="col-md-10 mt-30 pd-0">	
 					<div class="col-12 row justify-content-left call-box-4">
                         <div class="col-12">
                             <h5>主要應用領域 :</h5>
@@ -101,12 +101,20 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search" target="_blank">強固型及模組化工業電腦</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search" target="_blank">無風扇及緊湊型工業電腦</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@91=Search" target="_blank">多工效及可擴充型工業電腦</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@112=Search" target="_blank">機架式工業電腦</a>
+      <div class="container mt-30" style="margin:0;padding:0">
+        <div class="row" style="margin:0;padding:0">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">強固型及模組化工業電腦</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">無風扇及緊湊型工業電腦</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@91=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">多工效及可擴充型工業電腦</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@112=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">機架式工業電腦</a>
+          </div>
         </div>
       </div>
     </div>

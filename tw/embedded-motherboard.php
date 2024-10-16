@@ -35,13 +35,13 @@
 						<p class="ContGen">MiTAC 的工業主板系列，包括 Micro ATX、Mini-ITX、SBC 和 COMe，具有高耐用性、強大的計算能力、豐富的 I/O 連接性和可擴展性，為各種垂直和工業應用提供了理想的解決方案。</p>
 					</div>
 				</div>
-				<div class="col-md-10 mt-30">	
+				<div class="col-md-10 mt-30 pd-0">	
 					<div class="col-12 row justify-content-left call-box-4">
                         <div class="col-12">
                             <h5>主要應用領域 :</h5>
                             <li>工廠自動化 (控制/操作/SCADA)</li>
                             <li>零售自動化（支付系統/數位看板/服務業應用/監控）</li>
-                            <li>交通系統（乘客資訊系統/自動售檢票系統/車輛管理系統/售票/監控/車載控制/交通管理/鐵路控制）</li>
+                            <li>交通系統<br>&emsp;（乘客資訊系統/自動售檢票系統/車輛管理系統/售票/監控/車載控制/交通管理/鐵路控制）</li>
                             <li>醫療設備（超聲波、 生物分析儀器）</li>
                         </div>
 					</div>
@@ -91,15 +91,29 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search" target="_blank">Micro ATX</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@2=Search" target="_blank">Thin Mini-iTX</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@3=Search" target="_blank">Mini-iTX</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@4=Search" target="_blank">3.5” SBC</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@5=Search" target="_blank">2.5” SBC</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@97=Search" target="_blank">COMe</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@118=Search" target="_blank">AI 加速卡</a>
+      <div class="container mt-30" style="margin:0;padding:0">
+        <div class="row" style="margin:0;padding:0">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@1=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Micro ATX</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@2=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Thin Mini-iTX</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@3=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Mini-iTX</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@4=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">3.5” SBC</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@5=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">2.5” SBC</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@97=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">COMe</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/industrial_motherboard@118=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">AI 加速卡</a>
+          </div>
         </div>
       </div>
     </div>

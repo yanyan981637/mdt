@@ -35,7 +35,7 @@
 						<p class="ContGen">MiTAC 的觸控面板電腦系列結合了觸控介面與強大的計算能力，非常適合工業控制、人機介面（HMI）和自動化應用。這些耐用且多功能的設備設計易於整合到各種環境中，確保在苛刻條件下的穩定性能。</p>
 					</div>
 				</div>
-				<div class="col-md-10 mt-30">	
+				<div class="col-md-10 mt-30 pd-0">	
 					<div class="col-12 row justify-content-left call-box-4">
                         <div class="col-12">
                             <h5>主要應用領域 :</h5>
@@ -97,10 +97,14 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@92=Search" target="_blank">一體式系列</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@93=Search" target="_blank">面板安裝式系統</a>
+      <div class="container mt-30" style="margin:0;padding:0">
+        <div class="row justify-content-center" style="margin:0;padding:0">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@92=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">一體式系列</a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/Industrial_Panel_PC@93=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">面板安裝式系統</a>
+          </div>
         </div>
       </div>
     </div>

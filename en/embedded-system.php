@@ -35,7 +35,7 @@
 						<p class="ContGen">MiTAC's embedded system series offers robust, compact solutions designed for industrial applications, featuring high performance and reliability in harsh environments. These systems are ideal for tasks requiring long-term stability, such as in IoT, automation, and edge AI computing.</p>
 					</div>
 				</div>
-				<div class="col-md-10 mt-30">	
+				<div class="col-md-10 mt-30 pd-0">	
 					<div class="col-12 row justify-content-left call-box-4">
                         <div class="col-12">
                             <h5>Main application :</h5>
@@ -101,12 +101,20 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search" target="_blank">Rugged & Modularized</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search" target="_blank">Industrial & Compact</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@91=Search" target="_blank">Performance & Multifunctional</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@112=Search" target="_blank">Rackmount</a>
+      <div class="container mt-30" style="margin:0;padding:0">
+        <div class="row" style="margin:0;padding:0">
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Rugged & Modularized</a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Industrial & Compact</a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@91=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Performance & Multifunctional</a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="https://ipc.mitacmdt.com/EN/products/embedded_system@112=Search" class="btn btn-primary btn-block btn-round mt-30" target="_blank" role="button">Rackmount</a>
+          </div>
         </div>
       </div>
     </div>
