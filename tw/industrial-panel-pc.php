@@ -99,8 +99,8 @@
       </div>
       <div class="row">
         <div class="row justify-content-center col-md-12 mt-30 text-center">
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@89=Search" target="_blank">一體式系列</a>
-            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@90=Search" target="_blank">面板安裝式系統</a>
+            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@92=Search" target="_blank">一體式系列</a>
+            <a class="btn btn-primary btn-lg btn-round mt-30" href="https://ipc.mitacmdt.com/EN/products/embedded_system@93=Search" target="_blank">面板安裝式系統</a>
         </div>
       </div>
     </div>
