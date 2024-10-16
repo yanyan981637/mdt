@@ -62,13 +62,13 @@
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/embedded/AI_Performance_new.png" alt="多點觸控螢幕">
+            <img class="rounded img-fluid" src="../images/embedded/P-cap_Touch_Panel.png" alt="多點觸控螢幕">
             <p>多點觸控螢幕</p>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/embedded/Intel_vPro.png" alt="前IP65防塵防水">
+            <img class="rounded img-fluid" src="../images/embedded/IP65_Resistence.png" alt="前IP65防塵防水">
             <p>前IP65防塵防水</p>
           </div>
         </div>
@@ -92,7 +92,7 @@
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mt-30">
           <div class="dashcam-recorder-icon text-center">
-            <img class="rounded img-fluid" src="../images/embedded/Modular_IO.png" alt="雙網路埠">
+            <img class="rounded img-fluid" src="../images/embedded/Dual_LAN.png" alt="雙網路埠">
             <p>雙網路埠</p>
           </div>
         </div>
