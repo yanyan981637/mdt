@@ -32,7 +32,7 @@
 					<p>The risks of ignoring Vulnerability management can include exposure to leaks and breaches, loss of productivity, and loss of reputation.</p>
 					<h5 class="mt_2">How do I report a vulnerability to MDT?</h5>
 					<p>If you believe you have discovered a security or privacy vulnerability that affects MDT systems or services, please report it to us. We welcome reports from everyone, including security researchers, developers, and customers. </p>
-					<p>To report a security or privacy vulnerability, please send an email to <a href="mailto:SWsecurity@mic.com.tw">SWsecurity@mic.com.tw</a> that includes:</p>
+					<p>To report a security or privacy vulnerability, please send an email to <a href="mailto:SWsecurity@mitacmdt.com">SWsecurity@mitacmdt.com</a> that includes:</p>
 					<ul>
 						<li>The specific product and software version(s) which you believe are affected.</li>
 						<li>Description of the behavior observed as well as the behavior that you expected.</li>
