@@ -107,7 +107,7 @@
 				<div class="col-md-6">	
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K145/K245</h2> -->
 					<div class="pdt_name pt_pb_1r">
-						<h2 class="FC_mdtB">K145/K245</h2>
+						<h1 class="FC_mdtB h2">K145/K245</h1>
 						<p>Exquisite Appearance Model</p>
 					</div>
 					<ul class="mt_2">

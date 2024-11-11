@@ -103,7 +103,7 @@
 				<div class="col-md-6">	
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K220</h2> -->
 					<div class="pdt_name pt_pb_1r">
-						<h2 class="FC_mdtB">K220</h2>
+						<h1 class="FC_mdtB h2">K220</h1>
 						<p>經濟實惠的選擇</p>
 					</div>
 					<ul class="mt_2">

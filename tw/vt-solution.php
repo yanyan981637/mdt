@@ -34,7 +34,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10 hr">	
-					  <h3 class="mb-20 text-center">車載視訊解決方案 - VisionMax<sup>&trade;</sup></h3>
+					  <h1 class="mb-20 text-center h3">車載視訊解決方案 - VisionMax<sup>&trade;</sup></h1>
 						<p class="ContGen">VisionMax<sup>&trade;</sup>著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
 						<div class="text-center mt-30">
 							<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">

@@ -107,7 +107,7 @@
 				<div class="col-md-6">	
 					<!-- <h2 class="FC_mdtB mt_mb_3 pt_pb_1r pdt_name">K165/K265</h2> -->
 					<div class="pdt_name  pt_pb_1r">
-						<h2 class="FC_mdtB">K165/K265</h2>
+						<h1 class="FC_mdtB h2">K165/K265</h1>
 						<p>Non-box Type 7-channel MDVR</p>
 					</div>
 					<ul class="mt_2">
