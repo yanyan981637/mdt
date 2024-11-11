@@ -105,7 +105,7 @@
 
 	// Filter for the current menu
 	$current_menu = array_filter($csv_data, function($row) use ($cfg) {
-		return $row['menu_class'] === 'main' && $row['is_online'] == 1 && $row['lang'] === 'tw' && $row['file_name'] === $cfg['file_name'];
+		return $row['is_online'] == 1 && $row['lang'] === 'tw' && $row['file_name'] === $cfg['file_name'];
 	});
 	$current_menu = reset($current_menu);
 
