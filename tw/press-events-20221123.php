@@ -55,7 +55,8 @@
 						<p>鏡面防眩四重優化，MiVue R850D搭配業界最高亮度1000尼特IPS螢幕、高穿透鏡面以及螢幕自動平順調光功能，有效降低螢幕反光與疊影，提升開車安全。其前後雙鏡頭搭載星光級感光元件與HDR技術，錄影品質最高可達2K+1080P，無論是在任何光源下都能清晰記錄影像。搭配更多便利實用功能-獨家安全預警六合一測速提醒、最新WiFi 5功能以及SuperMP4格式，為消費性行車記錄器市場注入一款高規格的指定新品！</p>
 						
 						<p class="mt_2">得獎產品詳細資訊:</p>
-						<p>車載視訊管理解決方案: <a href="https://www.mitacmdt.com/en/connected-dashcam.php" target="_target">https://www.mitacmdt.com/en/connected-dashcam.php</a></p>
+						<!-- <p>車載視訊管理解決方案: <a href="https://www.mitacmdt.com/en/connected-dashcam.php" target="_target">https://www.mitacmdt.com/en/connected-dashcam.php</a></p> -->
+						<p>車載視訊管理解決方案: <a href="https://www.mitacmdt.com/en/video-telematics.php" target="_target">https://www.mitacmdt.com/en/video-telematics.php</a></p>
 						<p>Mio MiVue R850D: <a href="https://www.mio.com/tw/mivue-r850d" target="_target">https://www.mio.com/tw/mivue-r850d</a></p>
 					</div>
 

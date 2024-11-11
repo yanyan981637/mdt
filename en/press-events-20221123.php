@@ -57,7 +57,8 @@
 						<p>The MiVue R850D comes with the industry's highest-grade IPS screen with 1000 nits of brightness, a spacious rearview mirror, and an automatic smooth dimming function, effectively reducing screen glare and overlapping shadows to enhance driving safety.</p>
 						<p>The dual front and rear cameras are equipped with Sony’s STARVIS CMOS sensor and HDR technology, offering a recording quality of up to 2K+1080P for perfect clarity regardless of the light source. The R850D offers additional convenient and practical functions, including exclusive safety warning 6-in-1 speeding detection alert, WiFi 5 and SuperMP4 format, a premium flagship product with leading specifications for the consumer dashcam market!</p>
 						<p class="mt_2">For details on the award-winning products:</p>
-						<p>MiTAC Video Telematics Management Solutions: <a href="https://www.mitacmdt.com/en/connected-dashcam.php" target="_target">https://www.mitacmdt.com/en/connected-dashcam.php</a></p>
+						<!-- <p>MiTAC Video Telematics Management Solutions: <a href="https://www.mitacmdt.com/en/connected-dashcam.php" target="_target">https://www.mitacmdt.com/en/connected-dashcam.php</a></p> -->
+						<p>MiTAC Video Telematics Management Solutions: <a href="https://www.mitacmdt.com/en/video-telematics.php" target="_target">https://www.mitacmdt.com/en/video-telematics.php</a></p>
 						<p>Mio MiVue R850D: <a href="https://www.mio.com/tw/mivue-r850d" target="_target">https://www.mio.com/tw/mivue-r850d</a></p>
 					</div>
 

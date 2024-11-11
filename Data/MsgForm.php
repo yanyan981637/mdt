@@ -1,6 +1,12 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
+// 檢查請求的來源是否為 AJAX 請求
+if ($_SERVER['HTTP_X_REQUESTED_WITH'] != 'XMLHttpRequest') {
+    header("Location: https://www.mitacmdt.com/"); // 指定要重定向的頁面 URL
+    exit();
+}
+
 use App\DataAccess\Config;
 use App\Logger\Log;
 use App\Mail\MailSender;

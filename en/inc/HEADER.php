@@ -98,7 +98,7 @@
 
 	// Filter for the current menu
 	$current_menu = array_filter($csv_data, function($row) use ($cfg) {
-		return $row['menu_class'] === 'main' && $row['is_online'] == 1 && $row['lang'] === 'en' && $row['file_name'] === $cfg['file_name'];
+		return $row['is_online'] == 1 && $row['lang'] === 'en' && $row['file_name'] === $cfg['file_name'];
 	});
 	$current_menu = reset($current_menu);
 
@@ -116,7 +116,7 @@
 	// Process meta data
 	foreach ($csv_data as $rowT) {
 		$all_meta[] = $rowT;
-
+		
 		if ($rowT['menu_id'] == $Current_Menu_Id) {
 			$Current_Meta_Title       = $rowT['meta_title'] ?? "";
 			$Current_Meta_Description = $rowT['meta_description'] ?? "";
@@ -260,8 +260,8 @@
 	<!-- hreflang
 	================================================== -->
 	<?php
-		$urlISO=array('x-default','zh-Hant','en');
-		$urlLang=array('tw','tw','en');
+		$urlISO=array('x-default','zh-Hant','zh-TW','en');
+		$urlLang=array('tw','tw','tw','en');
 		$i=count($urlLang);
 		for($j=0 ; $j<$i ; $j++){
 			echo "<link rel='alternate' hreflang='".$urlISO[$j]."' href='https://www.mitacmdt.com/".$urlLang[$j]."/".$Current_Menu_File_Name."' />";
@@ -330,11 +330,12 @@
 		<link href="../ext/slider_qm/styles.css" rel="stylesheet" type="text/css">
 		<script src="../js/jquery-2.1.3.min.js"></script>
 
-	<?php }elseif($Current_Menu_File_Name == 'engineering.php' || $Current_Menu_File_Name == 'services.php'){ ?>
+	<?php }elseif($Current_Menu_File_Name == 'innovative-engineering.php' || $Current_Menu_File_Name == 'services.php'){ ?>
 		<link rel="stylesheet" type="text/css" href="../ext/map_tips/css/style.css" media="screen">
 		<!--關<link href="../ext/rvslider/css/rvslider.min.css" rel="stylesheet">-->
 
 	<?php }elseif($Current_Menu_File_Name == 'general-inquiry.php'){ ?>
+		<link rel="canonical" href="https://www.mitacmdt.com/en/general-inquiry.php">
 		<script src='https://www.google.com/recaptcha/api.js?hl=en' async defer></script>
 		<script src="../js/jquery-validation-1.14.0/jquery.js"></script>
 		<script src="../js/jquery-validation-1.14.0/jquery.validate.min.js"></script>

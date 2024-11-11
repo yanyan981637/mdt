@@ -13,11 +13,15 @@
         <div class="bg"></div>
         </div>
 				<ul class="col-12">
-					<li><a href="smart-dashcam.php">Smart Dash Cam</a></li>
+					<!-- <li><a href="smart-dashcam.php">Smart Dash Cam</a></li> -->
+					<li><a href="video-telematics.php">Smart Dash Cam</a></li>
 					<li><a href="fleet-management.php">Fleet Management</a></li>
-					<li><a href="safefy-enhancement.php" class="active">Safety Enhancement</a></li>
-					<li><a href="efficiency-improvement.php">Efficiency Improvement</a></li>
-					<li><a href="business-collaboration.php">Business Collaboration</a></li>
+					<!-- <li><a href="safefy-enhancement.php" class="active">Safety Enhancement</a></li> -->
+					<li><a href="vt-solution.php.php" class="active">Safety Enhancement</a></li>
+					<!-- <li><a href="efficiency-improvement.php">Efficiency Improvement</a></li> -->
+					<li><a href="vt-solution.php">Efficiency Improvement</a></li>
+					<!-- <li><a href="business-collaboration.php">Business Collaboration</a></li> -->
+					<li><a href="vt-solution.php">Business Collaboration</a></li>
         </ul>
 			</div>
 		</div>
