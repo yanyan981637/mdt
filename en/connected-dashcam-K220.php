@@ -96,7 +96,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202402/Mitac_K220_datasheet_20240206.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202411/Mitac K220_datasheet_20241113.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
