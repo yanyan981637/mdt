@@ -100,7 +100,7 @@
 
 					</div>
 					<div class="pdt_btn tc">
-						<a href="../Downloads/202304/Mitac_K165-K265_datasheet_20230714.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
+						<a href="../Downloads/202411/Mitac K165-K265_datasheet_20241111.pdf" target="_blank" class="btn-long btn-fill-lightBlue btn-round mb-10" style="">Download Datasheet</a>
 						<a href="./general-inquiry.php?class=2" class="btn-long btn-fill-black btn-round mb-10" style="">Contact Us</a>
 					</div>
 				</div>
@@ -125,6 +125,7 @@
 						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
 						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
 						<img src="../images/connected_dashcam/verizon.jpg" alt="Verizon Certification" />
+						<img src="../images/connected_dashcam/ico_T_Mobile.jpg" alt="ICO T Mobile" />
 						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 
@@ -162,8 +163,8 @@
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_01.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K165-K265_detailed_views_m_01.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+					<img src="../images/video-telematics/K165-K265_detailed_views_01_1TB.png" class="img-fluid mx-auto rounded d-none d-md-block" />
+					<img src="../images/video-telematics/K165-K265_detailed_views_01_1TB.png" class="img-fluid mx-auto rounded d-block d-md-none" />
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
@@ -212,7 +213,7 @@
 						</tr>
 						<tr>
 							<th class="label">Memory</th>
-							<td class="data tc" colspan="2">3GB RAM/ 32GB Internal Storage</td>
+							<td class="data tc" colspan="2">4GB RAM/32GB Internal Storage</td>
 						</tr>
 						<tr>
 							<th class="label">Storage</th>
@@ -258,7 +259,7 @@
 							<th class="label">Physical Interface</th>
 							<td class="data tc" colspan="2">
 								<ul>
-									<li>Dual Micro SD Slots (Support up to 512 GB/slot)</li>
+									<li>Dual Micro SD Slots  (Support up to 1TB /Slot)</li>
 									<li>Nano SIM Slot (SIM 1) and eSIM** (SIM 2)</li>
 									<li>Mini USB x 1 (for Ext. Cameras), USB Type C x 1 (for de-bug)</li>
 									<li>Build-in microphone x 2</li>
@@ -282,7 +283,7 @@
 						</tr>
 						<tr>
 							<th class="label">Certification*</th>
-							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon, WEEE, ROHS</td>
+							<td class="data tc" colspan="2">CE,CB, FCC/IC, UKCA, RCM, BQB, PTCRB, AT&T, Verizon, T-Mobile, WEEE, ROHS</td>
 						</tr>
 						<tr>
 							<th class="label">Dimensions</th>
