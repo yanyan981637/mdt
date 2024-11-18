@@ -64,7 +64,7 @@
 						<h2 class="FC_mdtB">K165/K265</h2>
 						<p>Non-box Type 7-channel MDVR</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>One device supports up to 7 channels of video recording</li>
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>High storage capacity (up to 2TB with dual Micro SD)</li>
@@ -107,7 +107,7 @@
 						<h2 class="FC_mdtB">K145C/K245C</h2>
 						<p>The Best Choice with Carrier Certifications</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 					<li>Always connected via the built-in 4G LTE modem</li>
 					<li>Multiple Certifications - Verizon, AT&T, FirstNET, T-Mobile, Telstra, AWS, Rogers, Telus</li>
 					<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
@@ -150,7 +150,7 @@
 						<h2 class="FC_mdtB">K145/K245</h2>
 						<p>Exquisite Appearance Model</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>
 						<li>Flexible platform - open APIs & SDK for seamless integration</li>
@@ -186,7 +186,7 @@
 						<h2 class="FC_mdtB">K220</h2>
 						<p>Affordable Solution</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>AT&amp;T and AWS certified</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>

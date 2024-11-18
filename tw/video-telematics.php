@@ -64,7 +64,7 @@
 						<h2 class="FC_mdtB">K165/K265</h2>
 						<p>一體式7路攝影聯網型行車記錄器</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>最高支援同時7路錄影</li>
 						<li>4G LTE聯網</li>
 						<li>高存儲容量 (最高支援共2TB存儲空間)</li>
@@ -108,7 +108,7 @@
 						<h2 class="FC_mdtB">K145C/K245C</h2>
 						<p>電信商認證的最佳選擇方案</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>4G LTE 聯網</li>
 						<li>Verizon, AT&T, FirstNET, T-Mobile, Telstra, Rogers, Telus等電信商與AWS認證</li>
 						<li>資料同步儲存於本機SD卡和雲端</li>
@@ -152,7 +152,7 @@
 						<h2 class="FC_mdtB">K145/K245</h2>
 						<p>精緻的外觀</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>4G LTE 聯網</li>
 						<li>資料同步儲存於本機SD卡和雲端</li>
 						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>
@@ -189,7 +189,7 @@
 						<h2 class="FC_mdtB">K220</h2>
 						<p>經濟實惠的選擇</p>
 					</div>
-					<ul>
+					<ul class="pl-30">
 						<li>4G LTE 聯網</li>
 						<li>AT&amp;T 電信商與 AWS認證</li>
 						<li>資料同步儲存於本機SD 卡和雲端</li>
