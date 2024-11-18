@@ -106,7 +106,7 @@
 						<h1 class="FC_mdtB h2">K220</h1>
 						<p>Affordable Solution</p>
 					</div>
-					<ul class="mt_2 pl-4">
+					<ul class="mt_2 pl-30">
 						<li>Always connected via the built-in 4G LTE modem</li>
 						<li>AT&amp;T and AWS certified</li>
 						<li>Data redundancy - video clips are stored in parallel on SD card and Cloud</li>

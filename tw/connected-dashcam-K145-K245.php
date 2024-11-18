@@ -110,7 +110,7 @@
 						<h1 class="FC_mdtB h2">K145/K245</h1>
 						<p>精緻的外觀</p>
 					</div>
-					<ul class="mt_2 pl-4">
+					<ul class="mt_2 pl-30">
 						<li>4G LTE 聯網</li>
 						<li>資料同步儲存於本機SD卡和雲端</li>
 						<li>提供開放式API與SDK，協助客戶輕鬆整合至各種平台</li>

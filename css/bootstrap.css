@@ -7779,6 +7779,10 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   padding-left: 1.5rem !important;
 }
 
+.pl-30 {
+  padding-left: 2.4rem !important;
+}
+
 .px-4 {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
