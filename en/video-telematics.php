@@ -79,6 +79,7 @@
 						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
 						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
 						<img src="../images/connected_dashcam/verizon.jpg" alt="Verizon Certification" />
+						<img src="../images/connected_dashcam/ico_T_Mobile.jpg" alt="T-Mobile" />
 						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 
