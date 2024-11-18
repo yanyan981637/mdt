@@ -22,7 +22,7 @@ include 'inc/HEADER.php';
 		<div class="row newsGrid">
 			<div class="col-lg-2 col-md-2 col-sm-2">
 				<span class="h4">新聞</span>
-				<p class="dat">202.09.10</p>
+				<p class="dat">2024.09.10</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
 				<div class="newsCov">
@@ -53,7 +53,7 @@ include 'inc/HEADER.php';
 		<div class="row newsGrid">
 			<div class="col-lg-2 col-md-2 col-sm-2">
 				<span class="h4">新聞</span>
-				<p class="dat">202.05.13</p>
+				<p class="dat">2024.05.13</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
 				<div class="newsCov">
@@ -84,7 +84,7 @@ include 'inc/HEADER.php';
 		<div class="row newsGrid">
 			<div class="col-lg-2 col-md-2 col-sm-2">
 				<span class="h4">新聞</span>
-				<p class="dat">202.04.17</p>
+				<p class="dat">2024.04.17</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
 				<div class="newsCov">
