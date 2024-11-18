@@ -19,10 +19,10 @@
 				<div class="row">
 					<div class="col-md-3"></div>
 					<div class="col-md-3 col-12">
-						<a href="en/general-inquiry.php" class="btn btn-fill-black btn-round mb-20" style="width: 225px;">Contact us</a>
+						<a href="/en/general-inquiry.php" class="btn btn-fill-black btn-round mb-20" style="width: 225px;">Contact us</a>
 					</div>
 					<div class="col-md-3 col-12">
-						<a href="en/index.php" class="btn btn-black btn-round" style="width: 225px;">Go back to Homepage</a>
+						<a href="/en/index.php" class="btn btn-black btn-round" style="width: 225px;">Go back to Homepage</a>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
