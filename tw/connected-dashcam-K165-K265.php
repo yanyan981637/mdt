@@ -110,7 +110,7 @@
 						<h1 class="FC_mdtB h1">K165/K265</h1>
 						<p>一體式7路攝影聯網型行車記錄器</p>
 					</div>
-					<ul class="mt_2 pl-4">
+					<ul class="mt_2 pl-30">
 						<li>最高支援同時7路錄影</li>
 						<li>4G LTE聯網</li>
 						<li>高存儲容量 (最高支援共2TB存儲空間)</li>
@@ -126,7 +126,7 @@
 						<img src="../images/connected_dashcam/ATT.jpg" alt="AT&amp;T Network Ready Device" />
 						<img src="../images/connected_dashcam/PTCRB.jpg" alt="PCTRB Certification" />
 						<img src="../images/connected_dashcam/verizon.jpg" alt="Verizon Certification" />
-						<img src="../images/connected_dashcam/ico_T_Mobile.jpg" alt="ICO T Mobile" />
+						<img src="../images/connected_dashcam/ico_T_Mobile.jpg" alt="T-Mobile" />
 						<img src="../images/connected_dashcam/aws.jpg" alt="AWS Certification" />
 					</div>
 				</div>
@@ -164,20 +164,20 @@
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_01_1TB.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K165-K265_detailed_views_01_1TB.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_01_1TB.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K165/K265-1"/>
+						<img src="../images/video-telematics/K165-K265_detailed_views_m_0620_01_1tb.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K165/K265-1"/>
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K165-K265_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K165/K265-2"/>
+						<img src="../images/video-telematics/K165-K265_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K165/K265-2"/>
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K165-K265_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K165-K265_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K165-K265_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K165/K265-3"/>
+						<img src="../images/video-telematics/K165-K265_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K165/K265-3"/>
 					</div>
 				</div>
 			</div>
