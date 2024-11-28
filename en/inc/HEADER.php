@@ -2,6 +2,8 @@
 	require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 	// Cookie http only
+	ini_set('display_errors', 1);
+
 	ini_set("session.cookie_httponly", 1);
 	// Script root path
 	// $RootPath = App\DataAccess\Config::initRootPath();
@@ -102,30 +104,63 @@
 	});
 	$current_menu = reset($current_menu);
 
-	// Set current menu details if found
-	if ($current_menu && !preg_match("/press-events/i", $cfg['file_name'])) {
-		$Current_Menu_Id           = $current_menu['menu_id'];
-		$Current_Menu_Father_Id    = $current_menu['father_menu_id'];
-		$Current_Menu_Order        = $current_menu['menu_order'];
-		$Current_Menu_Name         = $current_menu['menu_name'];
-		$Current_Menu_File_Name    = $current_menu['file_name'];
-		$Current_Menu_Inquiry_type = $current_menu['inquiry_type'];
-		$Current_Menu_Is_Online    = $current_menu['is_online'];
+	// 初始化所有相關變數以避免未定義警告
+	$Current_Menu_Id = $Current_Menu_Father_Id = $Current_Menu_Order = $Current_Menu_Name = $Current_Menu_File_Name = $Current_Menu_Inquiry_type = $Current_Menu_Is_Online = "";
+	$Current_Meta_Title = $Current_Meta_Description = $Current_Meta_Keywords = "";
+	$default_meta_description = "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";
+	$all_meta = []; // 確保 $all_meta 被初始化為空陣列
+
+	// 判斷 current_menu 是否存在並且符合條件
+	if (isset($current_menu) && !empty($current_menu) && !preg_match("/press-events/i", $cfg['file_name'])) {
+		$Current_Menu_Id           = $current_menu['menu_id'] ?? "";
+		$Current_Menu_Father_Id    = $current_menu['father_menu_id'] ?? "";
+		$Current_Menu_Order        = $current_menu['menu_order'] ?? "";
+		$Current_Menu_Name         = $current_menu['menu_name'] ?? "";
+		$Current_Menu_File_Name    = $current_menu['file_name'] ?? "";
+		$Current_Menu_Inquiry_type = $current_menu['inquiry_type'] ?? "";
+		$Current_Menu_Is_Online    = $current_menu['is_online'] ?? "";
 	}
 
-	// Process meta data
-	foreach ($csv_data as $rowT) {
-		$all_meta[] = $rowT;
-		
-		if ($rowT['menu_id'] == $Current_Menu_Id) {
-			$Current_Meta_Title       = $rowT['meta_title'] ?? "";
-			$Current_Meta_Description = $rowT['meta_description'] ?? "";
-			$Current_Meta_Keywords    = $rowT['meta_keywords'] ?? "";
+	// 處理 Meta 資料
+	if (!empty($csv_data)) {
+		foreach ($csv_data as $rowT) {
+			$all_meta[] = $rowT;
 
-			$default_meta_description = "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";;
-			$Current_Meta_Description = $Current_Meta_Description ?: $default_meta_description;
+			if (isset($rowT['menu_id']) && $rowT['menu_id'] == $Current_Menu_Id) {
+				$Current_Meta_Title       = $rowT['meta_title'] ?? "";
+				$Current_Meta_Description = $rowT['meta_description'] ?? $default_meta_description;
+				$Current_Meta_Keywords    = $rowT['meta_keywords'] ?? "";
+			}
 		}
 	}
+
+	// 確保 Meta Description 至少有預設值
+	$Current_Meta_Description = $Current_Meta_Description ?: $default_meta_description;
+
+	// // Set current menu details if found
+	// if ($current_menu && !preg_match("/press-events/i", $cfg['file_name'])) {
+	// 	$Current_Menu_Id           = $current_menu['menu_id'];
+	// 	$Current_Menu_Father_Id    = $current_menu['father_menu_id'];
+	// 	$Current_Menu_Order        = $current_menu['menu_order'];
+	// 	$Current_Menu_Name         = $current_menu['menu_name'];
+	// 	$Current_Menu_File_Name    = $current_menu['file_name'];
+	// 	$Current_Menu_Inquiry_type = $current_menu['inquiry_type'];
+	// 	$Current_Menu_Is_Online    = $current_menu['is_online'];
+	// }
+
+	// // Process meta data
+	// foreach ($csv_data as $rowT) {
+	// 	$all_meta[] = $rowT;
+		
+	// 	if ($rowT['menu_id'] == $Current_Menu_Id) {
+	// 		$Current_Meta_Title       = $rowT['meta_title'] ?? "";
+	// 		$Current_Meta_Description = $rowT['meta_description'] ?? "";
+	// 		$Current_Meta_Keywords    = $rowT['meta_keywords'] ?? "";
+
+	// 		$default_meta_description = "MiTAC Digital Technology (MDT) helps users navigate life with passion in automotive electronics. MDT is also at the forefront of innovation in the fields of AIoT and industrial tablets. We take our customer in new and exciting directions with thoughtful designs that reflect highest principles of quality and ingenuity.";;
+	// 		$Current_Meta_Description = $Current_Meta_Description ?: $default_meta_description;
+	// 	}
+	// }
 
 // 	$sql_menu = "Select * From `ows_menu` Where menu_class='main' and is_online=1 And lang='en' ORDER BY menu_order ASC";
 // 	$result_menu = mysqli_query($MysqlConn, $sql_menu);
