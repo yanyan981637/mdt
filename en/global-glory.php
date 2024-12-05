@@ -58,7 +58,8 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award26.png" alt="DVR award record"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award27.png" alt="PND award record"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award28.png" alt="DVR award record"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2024_taiwan_excellence.png" alt="DVR得獎紀錄"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2024_taiwan_excellence.png" alt="Taiwan Excellence 2024"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2025_taiwan_excellence.png" alt="Taiwan Excellence 2025"></div>
 				</div>
 			</div>
 		</div>
