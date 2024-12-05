@@ -56,7 +56,7 @@
         <div class="container text-left color-white center">
           <div class="row column-2-no-position align-content-center">
             <div class="col-md-5 img mg-auto order-2 order-md-1">
-            <img src="../images/smart_telematics_solution/VT_Solution-banner-product.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax<sup>&trade;</sup>">
+            <img src="../images/smart_telematics_solution/VT_Solution-banner-product_en.png" class="img-fluid mx-auto d-block rounded" alt="VisonMax<sup>&trade;</sup>">
             </div>
             <div class="col-md-7 align-self-center mg-auto order-1 order-md-2">	
               <h2>VT Solution - VisionMax<sup>&trade;</sup></h2>
