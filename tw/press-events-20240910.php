@@ -35,7 +35,7 @@ include 'inc/HEADER.php';
             </p>
             <h5 class="mt-4">全球首款最高可同時處理到8K解析度的三鏡頭行車記錄器</h5>
             <div class="text-center">
-              <img src="../images/press_news/20240910/Dashcam.png" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20240910/Dashcam.png" alt="全球首款最高可同時處理到8K解析度的三鏡頭行車記錄器" style="max-width:600px;margin-top: 0;" />
             </div>
             <p>
               MDT持續創新引領行車紀錄器領域，推出全球首款配備雙處理器的三鏡頭行車紀錄器，能夠同時處理8K解析度影片。此革命性技術支援對外4K攝影機，以及內建和後鏡頭攝影機的2K影片解析度，全部搭載Sony的STARVIS™
@@ -50,7 +50,7 @@ include 'inc/HEADER.php';
 
             <p class="mt-4"><strong>360° 全方位車載視訊管理解決方案 (MiTAC K系列+ VisionMax)：</strong></p>
             <div class="text-center">
-              <img src="../images/press_news/20240910/MiTAC_K_series+VisionMax.jpg"
+              <img src="../images/press_news/20240910/MiTAC_K_series+VisionMax.jpg" alt="360° 全方位車載視訊管理解決方案 (MiTAC K系列+ VisionMax)"
                 style="max-width:600px;margin-top: 0;" />
             </div>
             <p>MiTAC的4G LTE 行車記錄器 - MiTAC
@@ -60,7 +60,7 @@ include 'inc/HEADER.php';
 
             <p class="mt-4"><strong>新一代8英寸車隊平板電腦 - MioWORK F840：</strong></p>
             <div class="text-center">
-              <img src="../images/press_news/20240910/MioWORK_F840.png" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20240910/MioWORK_F840.png" alt="新一代8英寸車隊平板電腦 - MioWORK F840" style="max-width:600px;margin-top: 0;" />
             </div>
             <p>專為車隊管理設計的MioWORK F840平板電腦搭載了最新的Android
               13作業系統和先進的Qualcomm處理器，相較於前代F700系列效能提升了80%。與F700系列相比，其外觀高度不變、螢幕解析度與尺寸升級可視範圍更大範圍增加35%，大大提升螢幕的可視性和資訊顯示效果。</p>
@@ -70,7 +70,7 @@ include 'inc/HEADER.php';
 
             <p class="mt-4"><strong>MioSERV S270：用於室內設施的智慧自助服務解決方案：</strong></p>
             <div class="text-center">
-              <img src="../images/press_news/20240910/MioSERV_S270.png" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20240910/MioSERV_S270.png" alt="MioSERV S270 用於室內設施的智慧自助服務解決方案" style="max-width:600px;margin-top: 0;" />
             </div>
             <p>榮獲2024年iF設計獎的MioSERV
               S270是一款多功能解決方案，專為停車場、機場、火車站等各種室內設施提升使用者體驗。提供Windows/Android雙OS系統選擇，配有27英吋互動式觸控螢幕，提供簡潔直觀的介面，適用於資訊櫃檯、找車功能等自助終端的使用情境。

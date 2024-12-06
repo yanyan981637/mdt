@@ -19,7 +19,7 @@
             <h3 class="h4">Take your business to the next level</h3>
 					</div>	
           <div class="col-md-4 align-self-center">
-            <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="">
+            <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="Kiosk Product">
           </div>
 				</div>		
 			</div>			

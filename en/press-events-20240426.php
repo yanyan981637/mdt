@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/automate_edge_AI_USA_20240426.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/automate_edge_AI_USA_20240426.jpg" alt="automate edge AI USA" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>MiTAC Digital Technology (MDT), the trusted leader in automotive electronics and AIoT solutions, is proud to showcase our latest Edge AI solution for factory automation industries at the Automate Show 2024. This year the show will be held in McCormick, Chicago, USA from May 6th to 9th.</p>

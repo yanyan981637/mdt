@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/20240513/iso-Press.png" style="max-width:100%;" />
+							<img src="../images/press_news/20240513/iso-Press.png" alt="神達數位股份有限公司通過TUV NORD Taiwan ISO/SAE 21434認證，強化車載產品網絡安全" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(桃園訊，2024年05月13日)神達數位股份有限公司，作為全球領先的車用電子及智聯網解決方案供應商，成功通過ISO/SAE 21434車用網絡安全管理系統認證。這項認證由國際知名的認證服務機構TUV NORD Taiwan完成評鑑，標誌著神達數位在車用產品網絡安全領域的專業和承諾再次得到國際認可，此項標準將有效確保汽車車輛於現代網路環境中的安全性，防範潛在的網絡攻擊和數據外洩風險。</p>

@@ -37,7 +37,7 @@
 					  <h1 class="mb-20 text-center h3">車載視訊解決方案 - VisionMax<sup>&trade;</sup></h1>
 						<p class="ContGen">VisionMax<sup>&trade;</sup>著重於駕駛安全事件監控及資料管理存儲，提供第一時間安全事件提醒及事後安全事件重建，以確保駕駛及車隊獲的最佳安全保障及全天候防護。</p>
 						<div class="text-center mt-30">
-							<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" target="_blank">
+							<a class="btn btn-fill-black-b btn-lg btn-round" href="https://www.visionmaxfleet.com/login" aria-label="點擊登入VisionMax管理系統" target="_blank">
 							<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="17px" xmlns="http://www.w3.org/2000/svg">
 								<g transform="matrix(1 0 0 1 -597 -811 )">
 									<path d="M 14.410807291666666 7.90234375  C 14.567491319444446 8.070572916666666  14.645833333333334 8.269791666666666  14.645833333333334 8.5  C 14.645833333333334 8.730208333333332  14.567491319444446 8.929427083333332  14.410807291666666 9.09765625  L 7.681640625 16.32265625  C 7.524956597222223 16.490885416666668  7.339409722222223 16.575  7.125 16.575  C 6.9105902777777795 16.575  6.7250434027777795 16.490885416666668  6.568359375 16.32265625  C 6.411675347222223 16.15442708333333  6.333333333333333 15.955208333333331  6.333333333333333 15.725000000000001  L 6.333333333333333 11.899999999999999  L 0.7916666666666666 11.899999999999999  C 0.5772569444444445 11.899999999999999  0.3917100694444444 11.815885416666667  0.23502604166666666 11.64765625  C 0.0783420138888889 11.479427083333333  0 11.280208333333333  0 11.05  L 0 5.949999999999999  C 0 5.719791666666664  0.0783420138888889 5.520572916666664  0.23502604166666666 5.352343749999999  C 0.3917100694444444 5.184114583333333  0.5772569444444445 5.1000000000000005  0.7916666666666666 5.1000000000000005  L 6.333333333333333 5.1000000000000005  L 6.333333333333333 1.2749999999999992  C 6.333333333333333 1.044791666666664  6.411675347222223 0.8455729166666639  6.568359375 0.6773437499999992  C 6.7250434027777795 0.5091145833333327  6.9105902777777795 0.4250000000000004  7.125 0.4250000000000004  C 7.339409722222223 0.4250000000000004  7.524956597222223 0.5091145833333327  7.681640625 0.6773437499999992  L 14.410807291666666 7.90234375  Z M 17.954752604166664 1.1222656250000003  C 18.65158420138889 1.8704427083333326  19 2.771354166666664  19 3.8249999999999997  L 19 13.175  C 19 14.228645833333331  18.65158420138889 15.129557291666668  17.954752604166664 15.877734375  C 17.257921006944446 16.62591145833333  16.418836805555557 17  15.4375 17  L 11.479166666666666 17  C 11.371961805555559 17  11.279188368055559 16.95794270833333  11.200846354166666 16.873828125  C 11.122504340277779 16.789713541666668  11.083333333333334 16.690104166666668  11.083333333333334 16.575  C 11.083333333333334 16.539583333333333  11.079210069444446 16.45104166666667  11.070963541666666 16.309375  C 11.06271701388889 16.16770833333333  11.060655381944446 16.050390625  11.064778645833334 15.957421875000001  C 11.068901909722221 15.864453125  11.08127170138889 15.760416666666668  11.101888020833334 15.6453125  C 11.122504340277779 15.530208333333333  11.163736979166668 15.443880208333333  11.2255859375 15.386328124999999  C 11.287434895833334 15.328776041666668  11.371961805555559 15.3  11.479166666666666 15.3  L 15.4375 15.3  C 15.981770833333334 15.3  16.44769965277778 15.091927083333331  16.835286458333336 14.67578125  C 17.22287326388889 14.259635416666663  17.416666666666664 13.759374999999999  17.416666666666664 13.175  L 17.416666666666664 3.8249999999999997  C 17.416666666666664 3.2406250000000005  17.22287326388889 2.7403645833333323  16.835286458333336 2.32421875  C 16.44769965277778 1.908072916666664  15.981770833333334 1.6999999999999997  15.4375 1.6999999999999997  L 11.875 1.6999999999999997  L 11.738932291666666 1.6999999999999997  L 11.578125 1.6999999999999997  C 11.578125000000002 1.6999999999999997  11.530707465277779 1.6955729166666647  11.435872395833334 1.6867187500000003  C 11.34103732638889 1.6778645833333323  11.293619791666666 1.664583333333333  11.293619791666666 1.6468750000000008  C 11.293619791666666 1.6291666666666647  11.260633680555555 1.6048177083333326  11.194661458333334 1.5738281249999992  C 11.128689236111112 1.542838541666664  11.09982638888889 1.5029947916666644  11.108072916666666 1.4542968750000003  C 11.116319444444446 1.4055989583333326  11.108072916666666 1.3458333333333323  11.083333333333334 1.2749999999999992  C 11.083333333333334 1.2395833333333326  11.079210069444446 1.1510416666666654  11.070963541666666 1.0093749999999992  C 11.06271701388889 0.8677083333333331  11.060655381944446 0.7503906250000008  11.064778645833334 0.6574218750000004  C 11.068901909722221 0.564453125  11.08127170138889 0.46041666666666503  11.101888020833334 0.34531249999999925  C 11.122504340277779 0.23020833333333157  11.163736979166668 0.1438802083333327  11.2255859375 0.08632812500000075  C 11.287434895833334 0.02877604166666503  11.371961805555559 0  11.479166666666666 0  L 15.4375 0  C 16.418836805555557 0  17.257921006944446 0.3740885416666643  17.954752604166664 1.1222656250000003  Z " fill-rule="nonzero" fill="currentColor" stroke="none" transform="matrix(1 0 0 1 597 811 )"/>
@@ -186,7 +186,7 @@
 				  <h3 class="mb-40">可支援VisionMax<sup>&trade;</sup>相關設備</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div>
-						<img src="../images/smart_telematics_solution/product-info_ch.png" class_alias="d-lg-block"  alt="" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
+						<img src="../images/smart_telematics_solution/product-info_ch.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
 					</div>
 					<map name="product-info-xl">
 						<area shape="rect" coords="18,129,163,149" alt="" href="#connected_CDR"></area>
@@ -204,7 +204,7 @@
 
 					<!-- md 尺寸的屏幕上显示 -->
 					<div>
-						<img src="../images/smart_telematics_solution/product-info_ch.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
+						<img src="../images/smart_telematics_solution/product-info_ch.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
 					</div>
 					<map name="product-info-md">
 						<area shape="rect" coords="16,106, 130, 120" alt="" href="#connected_CDR"></area>
@@ -221,8 +221,8 @@
 					</map>
            <!-- 在手机端显示 -->
 					<div>
-						<img src="../images/smart_telematics_solution/product-info_ch_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-block d-sm-none">
-						<img src="../images/smart_telematics_solution/product-info_ch_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
+						<img src="../images/smart_telematics_solution/product-info_ch_m.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid 	d-block d-sm-none">
+						<img src="../images/smart_telematics_solution/product-info_ch_m.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid 	d-none d-sm-block d-md-none" >
 					</div>
 				</div>
 			</div>
@@ -245,7 +245,7 @@
 							<div class="product_desc">
 								<h5>K265(雙鏡頭)/K165(單鏡頭)</h5>
 								<p>一體式7路攝影聯網型行車記錄器</p>
-								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230714.pdf" target="_bank">
+								<a href="/Downloads/202304/Mitac_K165-K265_datasheet_20230714.pdf" aria-label="點擊下載K265(雙鏡頭)/K165(單鏡頭)Datasheet" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -269,7 +269,7 @@
 							<div class="product_desc">
 								<h5>K245C(Dual cam)/K145C(Single cam)</h5>
 								<p>電信商認證的最佳選擇方案</p>
-								<a href="/Downloads/202312/Mitac_K145C_245C_Datasheet_20231208.pdf" target="_bank">
+								<a href="/Downloads/202312/Mitac_K145C_245C_Datasheet_20231208.pdf" aria-label="點擊下載K245C(Dual cam)/K145C(Single cam)Datasheet" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -293,7 +293,7 @@
 							<div class="product_desc">
 								<h5>K245(雙鏡頭)/K145(單鏡頭)</h5>
 								<p>精緻的外觀</p>
-								<a href="/Downloads/202402/Mitac_K145-245_datasheet_20240207.pdf" target="_bank">
+								<a href="/Downloads/202402/Mitac_K145-245_datasheet_20240207.pdf" aria-label="點擊下載K245(雙鏡頭)/K145(單鏡頭)Datasheet" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -317,7 +317,7 @@
 							<div class="product_desc">
 								<h5>K220(雙鏡頭)</h5>
 								<p>經濟實惠的選擇</p>
-								<a href="/Downloads/202402/Mitac_K220_datasheet_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/Mitac_K220_datasheet_20240206.pdf" aria-label="點擊下載K220(雙鏡頭)Datasheet" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -350,7 +350,7 @@
 							<div class="product_desc">
 								<h5>i15</h5>
 								<p>智慧警示鏡頭</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載智慧警示鏡頭配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -374,7 +374,7 @@
 							<div class="product_desc">
 								<h5>i25</h5>
 								<p>廣角式貨艙鏡頭</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載廣角式貨艙鏡頭配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -407,7 +407,7 @@
 							<div class="product_desc">
 								<h5>A50</h5>
 								<p>後鏡頭(車內)</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載後鏡頭(車內)配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -431,7 +431,7 @@
 							<div class="product_desc">
 								<h5>A60</h5>
 								<p>後鏡頭(車內)</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載後鏡頭(車內)配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -464,7 +464,7 @@
 							<div class="product_desc">
 								<h5>S10</h5>
 								<p>TVI, IP69K</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載TVI, IP69K配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -497,7 +497,7 @@
 							<div class="product_desc">
 								<h5>改良式供電車載資料傳輸接頭</h5>
 								<p>供電, 車載資料傳送,可支援緊急按鈕</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載改良式供電車載資料傳輸接頭配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">
@@ -521,7 +521,7 @@
 							<div class="product_desc">
 								<h5>緊急按鈕</h5>
 								<p>觸發求救需求</p>
-								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" target="_bank">
+								<a href="/Downloads/202402/CDR_Accessory_brochure_20240206.pdf" aria-label="點擊下載緊急按鈕配件" target="_bank">
 									<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="18px" xmlns="http://www.w3.org/2000/svg">
 										<defs>
 											<mask fill="white" id="clip3">

@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/20240513/TUV_NORD_ISO21434_920.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/20240513/TUV_NORD_ISO21434_920.jpg" alt="MiTAC Digital Technology receives ISO/SAE 21434 certification for automotive cybersecurity" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(Taoyuan, Taiwan, May 13, 2024) MiTAC Digital Technology Corp., a leading provider of automotive electronics and AIoT solutions, has been awarded the ISO/SAE 21434 certificate for automotive cybersecurity. This certification underscores MDT’s professional expertise and unwavering commitment to securing automotive vehicles in today’s networked environments, mitigating the risks of network attacks and data breaches.</p>

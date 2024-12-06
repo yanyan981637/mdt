@@ -181,7 +181,7 @@
 					</div>
         </div>
 				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
-					<img src="../images/auxiliary_software/MiVue_Manager-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_">
+					<img src="../images/auxiliary_software/MiVue_Manager-banner.png" alt="MiVue Manager Banner" class="rounded mx-auto d-block img-fluid mt_10_">
 			  </div>	
 			</div>
 			<div class="col-md-12 mt-30">
@@ -260,7 +260,7 @@
 					</div>
         </div>
 				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
-					<img src="../images/auxiliary_software/MioNext-banner_ch.png" alt="" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
+					<img src="../images/auxiliary_software/MioNext-banner_ch.png" alt="MioNext Banner" class="rounded mx-auto d-block img-fluid auxiliary_software_img">
 			  </div>	
 			</div>
 			<div class="col-md-12 mt-30">
@@ -339,7 +339,7 @@
 					</div>
         </div>
 				<div class="col-md-6 col-lg-5 order-1 order-md-2 mb-20">
-					<img src="../images/auxiliary_software/MioShare-banner.png" alt="" class="rounded mx-auto d-block img-fluid mt_10_" style="width:87%">
+					<img src="../images/auxiliary_software/MioShare-banner.png" alt="MioShare Banner" class="rounded mx-auto d-block img-fluid mt_10_" style="width:87%">
 			  </div>	
 			</div>
 			<div class="col-md-12 mt-30">

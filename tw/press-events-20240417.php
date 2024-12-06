@@ -30,7 +30,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/AutoTronics_Taipei_2024_w920.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/AutoTronics_Taipei_2024_w920.jpg" alt="神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(台北訊，2024年04月17日) – 深耕車用電子產業多年的神達數位股份有限公司(MiTAC Digital Technology Corp.)於2024年台北車電展期間(04/17~04/20)展出一系列整合硬體實力及自主開發的軟體服務的產品解決方案：針對消費者推出更高畫質並結合專屬App的行車記錄器、針對車隊管理業者提供進階版的車載視訊管理解決方案以及新一代的車用平板裝置、神達數位也跨足智慧零售領域，推出搭載雙系統的27吋自助服務機。另外，也在展場中展示最新嵌入式電腦設備。</p>

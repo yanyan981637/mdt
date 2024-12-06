@@ -30,7 +30,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC.png" style="max-width:100%;" />
+							<img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC.png" alt="神達數位車載視訊管理解決方案獲Computex Best Choice Award肯定" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(台北訊，2022年05月24日)專注於車用電子及物聯網領域的神達數位股份有限公司(MiTAC Digital Technology Corporation，以下簡稱：神達數位)旗下劃時代的物聯網解決方案-車載視訊管理解決方案今(24)榮獲2022 Computex大會Best Choice類別獎肯定。</p>

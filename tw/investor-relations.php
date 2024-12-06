@@ -79,17 +79,17 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-6 col-sm-12 mb_1">
 							<div class="dl_li">
-								<img src="../images/icons/pdf-48.png" alt="檔案下載"><a href="https://www.mitacmdt.com/Downloads/202205/%E3%80%90%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E3%80%91111%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E9%96%8B%E6%9C%83%E9%80%9A%E7%9F%A5%E6%9B%B8.pdf" target="_blank">開會通知書</a>
+								<img src="../images/icons/pdf-48.png" alt="股東常會 開會通知書 檔案下載"><a href="https://www.mitacmdt.com/Downloads/202205/%E3%80%90%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E3%80%91111%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E9%96%8B%E6%9C%83%E9%80%9A%E7%9F%A5%E6%9B%B8.pdf" target="_blank">開會通知書</a>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12 mb_1">
 							<div class="dl_li">
-								<img src="../images/icons/pdf-48.png" alt="檔案下載"><a href="https://www.mitacmdt.com/Downloads/202205/%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8111%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf" target="_blank">股東會議事手冊</a>
+								<img src="../images/icons/pdf-48.png" alt="股東常會 股東會議事手冊 檔案下載"><a href="https://www.mitacmdt.com/Downloads/202205/%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8111%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf" target="_blank">股東會議事手冊</a>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12 mb_1">
 							<div class="dl_li">
-								<img src="../images/icons/pdf-48.png" alt="檔案下載"><a href="https://www.mitacmdt.com/Downloads/202206/%E3%80%90%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E3%80%91111%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84(111.5.11).pdf" target="_blank">股東常會議事錄</a>
+								<img src="../images/icons/pdf-48.png" alt="股東常會 股東常會議事錄 檔案下載"><a href="https://www.mitacmdt.com/Downloads/202206/%E3%80%90%E7%A5%9E%E9%81%94%E6%95%B8%E4%BD%8D%E3%80%91111%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84(111.5.11).pdf" target="_blank">股東常會議事錄</a>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12 mb_1">

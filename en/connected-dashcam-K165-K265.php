@@ -317,7 +317,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>EXTERNAL CAMERA</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-5.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-5.png" alt="Accessories EXTERNAL CAMERA"/>
 						<p class="st2">
 							Sold separately
 						</p>
@@ -326,7 +326,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>EXTERNAL CAMERA</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-6.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-6.png" alt="Accessories EXTERNAL CAMERA" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -335,7 +335,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>SmartGO</h5>
-						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<img src="../images/connected_dashcam/pdt/smart_cable.png" alt="Accessories SmartGO" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -346,7 +346,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PANIC BUTTON</h5>
-						<img src="../images/connected_dashcam/pdt/P.27-1.png" />
+						<img src="../images/connected_dashcam/pdt/P.27-1.png" alt="Accessories PANIC BUTTON" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -355,7 +355,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/K165_Entry_cable.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Entry_cable.png" alt="Accessories ENTRY CABLE" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -364,7 +364,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>OBD POWER CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/obd_cable.png" />
+						<img src="../images/connected_dashcam/pdt/obd_cable.png" alt="Accessories OBD POWER CABLE" />
 						<p class="st2">
 							Standard accessory
 						</p>
@@ -376,7 +376,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PREMIUM CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/K165_Preminum_new.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Preminum_new.png" alt="Accessories PREMIUM CABLE" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -385,7 +385,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>CABLE CAP</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-4.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-4.png" alt="Accessories CABLE CAP" />
 						<p class="st2">
 							Sold separately
 						</p>

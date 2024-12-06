@@ -47,7 +47,7 @@
 				<div class="col-12">
 					<h3>產品環境友善化策略</h3>
 					<p>面對全球暖化與能資源匱乏挑戰日益嚴峻，為降低產品對環境的衝擊，神達產品設計就環境友善性為考量，依據國際環保法規及客戶要求，在研發設計將節能、材料減量化、產品的易拆解和簡化廢棄回收等列入產品設計；針對有害化學物質管控，設定有害物質減量短、中期目標；減少製造過程對環境的衝擊，建立環境管理系統，明訂各項環境管理的作業流程，以落實管控在製造過程中所產生廢棄物與能資源使用。</p>
-					<img src="../images/csr/CSR_image_ch.jpg" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/csr/CSR_image_ch.jpg" class="img-fluid rounded mx-auto d-block" alt="神達 CSR 產品環境友善化策略">
 				</div>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 					</ul>
 				</div>
 				<div class="mt-30 col-md-6 ">
-					<img src="../images/csr/img_eco-friendly_product_strategies_ch.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/csr/img_eco-friendly_product_strategies_ch.jpg" alt="神數ESG施行項目 包裝材料" class="img-fluid rounded mx-auto d-block">
 				</div>
 			</div>
 		</div>
@@ -154,12 +154,12 @@
 					</ul>
 				</div>
 				<div class="col-12">
-					<img src="../images/csr/img_customer_satisfaction_survey_ch.png" alt="" class="img-fluid rounded mx-auto  d-none d-md-none d-md-block">
+					<img src="../images/csr/img_customer_satisfaction_survey_ch.png" alt="客戶滿意度調查" class="img-fluid rounded mx-auto  d-none d-md-none d-md-block">
 				</div>
 				<!-- 手机端 -->
 				<div style="position: relative;">
-				  <img src="../images/csr/img_customer_satisfaction_survey_m_ch.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-block d-sm-none">
-					<img src="../images/csr/img_customer_satisfaction_survey_m_ch.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
+				  <img src="../images/csr/img_customer_satisfaction_survey_m_ch.png" class_alias="d-lg-block" alt="客戶滿意度調查" class="img-fluid d-block d-sm-none">
+					<img src="../images/csr/img_customer_satisfaction_survey_m_ch.png" class_alias="d-lg-block" alt="客戶滿意度調查" class="img-fluid d-none d-sm-block d-md-none" >
 			  </div>
 			</div>
 		</div>
@@ -179,7 +179,7 @@
 					</ul>
 				</div>
 				<div class="col-md-6 mt-30">
-					<img src="../images/csr/Mio_sponser.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/csr/Mio_sponser.jpg" alt="Mio公益贊助活動" class="img-fluid rounded mx-auto d-block">
 				</div>
 			</div>
 		</div>
@@ -211,7 +211,7 @@
 						<div class="card-body card-body-h">
 							<h5 class="card-title">轉型讀書會</h5>			
 							<div class="text-center csr_des">
-								<img src="../images/csr/ico_5_modules.png" alt="ico_5_modules">
+								<img src="../images/csr/ico_5_modules.png" alt="建立轉型思維五大模組">
 								<span>五大模組</span>
 							</div>
 							<div class="csr_content mt-20">
@@ -235,7 +235,7 @@
 						<div class="card-body">
 						  <h5 class="card-title">研討工作坊</h5>
 							<div class="text-center csr_des">
-								<img src="../images/csr/ico_6_topics.png" alt="ico_6_topics">
+								<img src="../images/csr/ico_6_topics.png" alt="開展數位策略六大議題">
 								<span>六大議題</span>
 							</div>
 							<div class="csr_content mt-20">

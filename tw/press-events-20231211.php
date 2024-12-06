@@ -30,7 +30,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/TW_excellence_2024-all_20231211.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/TW_excellence_2024-all_20231211.jpg" alt="MiTAC 連續四年榮獲台灣精品獎肯定再展車用電子領域實力" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(桃園訊，2023年12月06日) – 深耕車用電子產業多年的神達數位電腦(MiTAC Digital Technology Corp.) 宣布旗下：<strong>進階版車載視訊管理解決方案 – MioEYE K series + VisionMax、聯網型行車記錄器 – Mio MiSentry 12T 以及機車用分離式行車記錄器 – Mio MiVue M820WD</strong>三項年度新品，獲得第32屆台灣精品獎肯定。</p>

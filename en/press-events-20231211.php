@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/TW_excellence_2024-all_20231211.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/TW_excellence_2024-all_20231211.jpg" alt="TW Excellence 2024 Awards" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(Taoyuan, December 6, 2023) - MiTAC Digital Technology Corp., a long-standing player in the automotive electronics industry, proudly announces three new annual products that have received recognition at the 32nd Taiwan Excellence Awards: the Enhanced Video Telermatic Management Solution - MioEYE K series + VisionMax, the 4TG LTE Connected Dashcam - Mio MiSentry 12T, and the Separated Type Motorcycle Dashcam - Mio MiVue M820WD.</p>

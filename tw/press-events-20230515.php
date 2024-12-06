@@ -30,7 +30,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/press-room-new-pic-20230515.png" style="max-width:100%;" />
+							<img src="../images/press_news/press-room-new-pic-20230515.png" alt="神達數位旗下電子後視鏡型行車記錄器 – Mio MiVue R850 系列榮獲 2023 年 iF 設計獎！" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(桃園訊，2023年05月15日) – 神達數位旗下車用電子產品品牌 – Ｍio以其品牌核心“體貼入微的設計”的精神，推出跨時代的Mio MiVue R850 系列後視鏡型行車記錄器，該產品榮獲全球知名的設計競賽－2023 年 iF 設計獎產品介面項目介面設計類 (UI)類別的肯定。iF國際設計論壇有限公司 (iF Design) 每年舉辦 iF 設計獎 —— iF Design 總部位於漢諾威，為德國歷史最悠久的獨立設計機構。</p>

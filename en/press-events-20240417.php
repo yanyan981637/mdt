@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/AutoTronics_Taipei_2024_w920.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/AutoTronics_Taipei_2024_w920.jpg" alt="AutoTronics Taipei 2024 w920" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12 mb-20">
 							<ul class="pl-30">

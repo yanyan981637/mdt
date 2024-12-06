@@ -47,7 +47,7 @@
 				<div class="col-12">
 					<h3>Green Product</h3>
 					<p>Faced with increasingly severe challenges of global warming and energy and resource depletion, MiTAC is committed to product eco-design to reduce the environmental impact of our products. We base our design principles on international environmental protection laws and regulations, as well as customer requirements. Our eco-design approach includes energy conservation, materials reduction, ease of disassembly, and waste recovery simplification. To control hazardous chemical substances, we set short- and medium-term goals for their reduction, and strive to reduce environmental impacts during the manufacturing process. We have established an environmental management system and various environmental management SOPs to control waste production, as well as energy and material consumption during the manufacturing process. </p>
-					<img src="../images/csr/CSR_image_en.jpg" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/csr/CSR_image_en.jpg" class="img-fluid rounded mx-auto d-block" alt="CSR Green Product EN">
 				</div>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 					</ul>
 				</div>
 				<div class="mt-30 col-md-6 ">
-					<img src="../images/csr/img_eco-friendly_product_strategies.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/csr/img_eco-friendly_product_strategies.jpg" alt="eco friendly product strategies" class="img-fluid rounded mx-auto d-block">
 				</div>
 			</div>
 		</div>
@@ -154,12 +154,12 @@
 					</ul>
 				</div>
 				<div class="col-12">
-					<img src="../images/csr/img_customer_satisfaction_survey.png" alt="" class="img-fluid rounded mx-auto  d-none d-md-none d-md-block">
+					<img src="../images/csr/img_customer_satisfaction_survey.png" alt="customer satisfaction survey" class="img-fluid rounded mx-auto  d-none d-md-none d-md-block">
 				</div>
 				<!-- 手机端 -->
 				<div style="position: relative;">
-				  <img src="../images/csr/img_customer_satisfaction_survey_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-block d-sm-none">
-					<img src="../images/csr/img_customer_satisfaction_survey_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
+				  <img src="../images/csr/img_customer_satisfaction_survey_m.png" alt="customer satisfaction survey" class_alias="d-lg-block"  alt="" class="img-fluid 	d-block d-sm-none">
+					<img src="../images/csr/img_customer_satisfaction_survey_m.png" alt="customer satisfaction survey" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
 			  </div>
 			</div>
 		</div>
@@ -179,7 +179,7 @@
 					</ul>
 				</div>
 				<div class="col-md-6 mt-30">
-					<img src="../images/csr/Mio_sponser.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+					<img src="../images/csr/Mio_sponser.jpg" alt="Mio Sponser" class="img-fluid rounded mx-auto d-block">
 				</div>
 			</div>
 		</div>

@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC.png" style="max-width:100%;" />
+							<img src="../images/press_news/2022BC Award_ProductImage_EVO_with_BC.png" alt="Award ProductImage EVO with BC" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(Taipei, Taiwan, May 24th, 2022) A trusted leader in automotive electronics and the AIoT industry, MiTAC Digital Technology Corporation (MDT) announced today it was named winner of the 2022 Computex Best Choice Award. MDT’s video telematics and management solution (the MioEYE K series and VisionMax platform) was recognized in the "IoT Applications" category.</p>

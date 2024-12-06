@@ -82,7 +82,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://www.youtube.com/watch?v=6zBMLzcV02c" target="_blank">
-							<img src="/images/innovative-engineering/camera_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
+							<img src="/images/innovative-engineering/camera_tech_video_screenshot.jpg" alt="神達數位影像處理技術" class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	
@@ -120,7 +120,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://www.youtube.com/watch?v=ar_BvaA9WRo&t=31s" target="_blank">
-							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
+							<img src="/images/innovative-engineering/ai_tech_video_screenshot.jpg" alt="神達數位AI技術" class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	
@@ -158,7 +158,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://youtu.be/ar_BvaA9WRo" target="_blank">
-							<img src="/images/innovative-engineering/software_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
+							<img src="/images/innovative-engineering/software_video_screenshot.jpg" alt="神達數位軟體開發" class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	

@@ -184,7 +184,7 @@
 				  <h3 class="mb-40">VisionMax<sup>&trade;</sup> Supported Devices</h3>
 					<!-- 在 xl 尺寸的屏幕上显示 -->
 					<div>
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
+						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid max-850 d-none mg-auto d-lg-block" usemap="#product-info-xl">
 					</div>
 					<map name="product-info-xl">
 						<area shape="rect" coords="18,129,163,149" alt="" href="#connected_CDR"></area>
@@ -201,7 +201,7 @@
 					</map>
 					<!-- md 尺寸的屏幕上显示 -->
 					<div>
-						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
+						<img src="../images/smart_telematics_solution/product-info.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid 	d-none d-md-block d-lg-none" usemap="#product-info-md">
 					</div>
 					<map name="product-info-md">
 						<area shape="rect" coords="16,106, 130, 120" alt="" href="#connected_CDR"></area>
@@ -218,8 +218,8 @@
 					</map>
            <!-- 在手机端显示 -->
 					<div style="position: relative;">
-						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-block d-sm-none">
-						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block"  alt="" class="img-fluid 	d-none d-sm-block d-md-none" >
+						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid 	d-block d-sm-none">
+						<img src="../images/smart_telematics_solution/product-info_m.png" class_alias="d-lg-block"  alt="VisionMax Product Info" class="img-fluid 	d-none d-sm-block d-md-none" >
 					</div>
 				</div>
 			</div>

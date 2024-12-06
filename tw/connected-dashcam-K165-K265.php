@@ -318,7 +318,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>外接鏡頭</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-5.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-5.png" alt="配件 外接鏡頭" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -327,7 +327,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>外接鏡頭</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-6.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-6.png" alt="配件 外接鏡頭" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -336,7 +336,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>改良式供電車載資料傳輸接頭</h5>
-						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<img src="../images/connected_dashcam/pdt/smart_cable.png" alt="配件 改良式供電車載資料傳輸接頭" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -347,7 +347,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>遠端手動錄影觸發按鈕</h5>
-						<img src="../images/connected_dashcam/pdt/P.27-1.png" />
+						<img src="../images/connected_dashcam/pdt/P.27-1.png" alt="配件 遠端手動錄影觸發按鈕" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -356,7 +356,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>電源線 (含ACC訊號)</h5>
-						<img src="../images/connected_dashcam/pdt/K165_Entry_cable.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Entry_cable.png" alt="配件 電源線 (含ACC訊號)" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -365,7 +365,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>OBD電源供應線</h5>
-						<img src="../images/connected_dashcam/pdt/obd_cable.png" />
+						<img src="../images/connected_dashcam/pdt/obd_cable.png" alt="配件 OBD電源供應線" />
 						<p class="st2">
 							標準配件
 						</p>
@@ -377,7 +377,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>全功能線 (含所有功能訊號與電源) </h5>
-						<img src="../images/connected_dashcam/pdt/K165_Preminum_new.png" />
+						<img src="../images/connected_dashcam/pdt/K165_Preminum_new.png" alt="配件 全功能線 (含所有功能訊號與電源)" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -386,7 +386,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>集線套</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-4.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-4.png" alt="配件 集線套" />
 						<p class="st2">
 							需另外購買
 						</p>

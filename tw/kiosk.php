@@ -18,7 +18,7 @@
             <h3 class="h4">將您的業務提升至更高的水準</h3>
 					</div>	
           <div class="col-md-4 align-self-center">
-            <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="">
+            <img class="img-fluid mx-auto d-block rounded" src="../images/kiosk/Kiosk-product.png" alt="Kiosk 自助服務機">
           </div>
 				</div>		
 			</div>			

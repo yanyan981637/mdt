@@ -30,7 +30,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/press-room-new-pic-20220124-1-w920.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/press-room-new-pic-20220124-1-w920.jpg" alt="神達投控與神達數位Mio捐贈桃園市政府警察局龜山分局行車記錄器" style="max-width:100%;" />
 						</div>
 						<div class="col-md-6">
 							<p>【111年1月24日，桃園】有鑑於警察勤務繁忙，除了日常查察、巡邏、臨檢、守望與值班外，還有犯罪偵查等，加上值勤期間每每遇到各種動態狀況，需要即時影音記錄與應變，神達投資控股股份有限公司(TWSE: 3706)子公司神達數位旗下行車記錄器領導品牌Mio，落實關懷社區與地方回饋，在即將到來的春節連假前夕，與總部所在的桃園市政府警察局龜山分局聯繫，捐贈Mio高科技雙鏡頭行車記錄器，協助警方在繁重的重要節日安全維護工作中更有力，並向第一線警察為了大家能安居樂業所做的辛勞表達支持與感謝。</p>
@@ -38,7 +38,7 @@
 							<p>神達數位Mio張樂羣總經理表示：「道路的日常就是層出不窮的狀況，科技不斷的日新月異，我們也不斷地與時俱進提供最新科技及體貼入微的設計，協助改善開車安全問題，因此Mio能再度以高品質行車記錄器穩站2021年台灣市佔率第一，我們也一直在尋找適當機會可以貢獻我們的專業，又可以回饋給社會，於是我們從捐贈到總部所在地的警分局開始，期望這份心意可以拋磚引玉，為社會帶來良善正向的循環。」</p>
 						</div>
 						<div class="col-md-6">
-							<img src="../images/press_news/press-room-new-pic-20220124-2.jpg" style="max-width:100%;margin-top: 0;" />
+							<img src="../images/press_news/press-room-new-pic-20220124-2.jpg" alt="神達投控與神達數位Mio捐贈桃園市政府警察局龜山分局行車記錄器" style="max-width:100%;margin-top: 0;" />
 						</div>
 					</div>
 					<div>
@@ -46,10 +46,10 @@
 					</div>
 					<div class="row">
 						<div class="col-md-6">
-							<img src="../images/press_news/press-room-new-pic-20220124-3.jpg" style="max-width:100%;margin-top: 0;" />
+							<img src="../images/press_news/press-room-new-pic-20220124-3.jpg" alt="神達投控總經理暨神達數位董事長何繼武表示：「作為重視ESG永續發展企業，神達投控以實現智能、互聯與環境永續發展為目標，追求企業成長同時，也以自身科技與能力持續投入社會公益活動，新的一年開始，在社會公益上我們有許多期許，捐贈行車記錄器是個開始，我們將持續累積無數個行動力，將企業的正向影響力持續擴散出去。" style="max-width:100%;margin-top: 0;" />
 						</div>
 						<div class="col-md-6">
-							<img src="../images/press_news/press-room-new-pic-20220124-4.jpg" style="max-width:100%;margin-top: 0;" />
+							<img src="../images/press_news/press-room-new-pic-20220124-4.jpg" alt="神達投控總經理暨神達數位董事長何繼武表示：「作為重視ESG永續發展企業，神達投控以實現智能、互聯與環境永續發展為目標，追求企業成長同時，也以自身科技與能力持續投入社會公益活動，新的一年開始，在社會公益上我們有許多期許，捐贈行車記錄器是個開始，我們將持續累積無數個行動力，將企業的正向影響力持續擴散出去。" style="max-width:100%;margin-top: 0;" />
 						</div>
 					</div>
 

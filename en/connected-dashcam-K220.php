@@ -158,20 +158,20 @@
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K220_detailed_views_01.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K220_detailed_views_m_01.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K220_detailed_views_01.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K220 Detailed" />
+						<img src="../images/video-telematics/K220_detailed_views_m_01.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K220 Detailed"/>
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K220_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K220_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K220_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K220 Detailed"/>
+						<img src="../images/video-telematics/K220_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K220 Detailed"/>
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K220_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K220_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K220_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K220 Detailed"/>
+						<img src="../images/video-telematics/K220_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K220 Detailed"/>
 					</div>
 				</div>
 			</div>
@@ -278,7 +278,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>EXTERNAL CAMERA</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
+						<img src="../images/connected_dashcam/pdt/P.23-4.png" alt="Accessories EXTERNAL CAMERA"/>
 						<p class="st2">
 							Sold separately
 						</p>
@@ -287,7 +287,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>EXTERNAL CAMERA</h5>
-						<img src="../images/video-telematics/P.26-5.png" />
+						<img src="../images/video-telematics/P.26-5.png" alt="Accessories EXTERNAL CAMERA" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -296,7 +296,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>SmartGO</h5>
-						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<img src="../images/connected_dashcam/pdt/smart_cable.png" alt="Accessories SmartGO" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -309,7 +309,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>PANIC BUTTON</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-5.png" />
+						<img src="../images/connected_dashcam/pdt/P.23-5.png" alt="Accessories PANIC BUTTON" />
 						<p class="st2">
 							Sold separately
 						</p>
@@ -318,7 +318,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>OBD POWER CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-1.png" />
+						<img src="../images/connected_dashcam/pdt/P.23-1.png" alt="Accessories OBD POWER CABLE" />
 						<p class="st2">
 						  Standard accessory
 						</p>
@@ -327,7 +327,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>ENTRY CABLE</h5>
-						<img src="../images/connected_dashcam/pdt/p23-2.png" />
+						<img src="../images/connected_dashcam/pdt/p23-2.png" alt="Accessories ENTRY CABLE" />
 						<p class="st2">
 							Sold separately
 						</p>

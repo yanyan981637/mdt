@@ -47,7 +47,8 @@ include 'inc/HEADER.php';
             <h5 class="mt-4">World's First 3-Channel Dashcam with Dual Processors Handling 8K Resolution
               Video</h5>
             <div class="text-center">
-              <img src="../images/press_news/20240910/Dashcam.png" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20240910/Dashcam.png" alt="World's First 3-Channel Dashcam with Dual Processors Handling 8K Resolution
+              Video" style="max-width:600px;margin-top: 0;" />
             </div>
             <p>MDT continues to lead the way in dashcam innovation by introducing the world’s first 3-channel dashcam
               equipped with dual processors capable of simultaneously handling 8K resolution video. This groundbreaking
@@ -76,7 +77,7 @@ include 'inc/HEADER.php';
 
             <p class="mt-4"><strong>360° Intelligent Video Telematics Solution (MiTAC K series+ VisionMax):</strong></p>
             <div class="text-center">
-              <img src="../images/press_news/20240910/MiTAC_K_series+VisionMax.jpg"
+              <img src="../images/press_news/20240910/MiTAC_K_series+VisionMax.jpg" alt="360° Intelligent Video Telematics Solution (MiTAC K series+ VisionMax)"
                 style="max-width:600px;margin-top: 0;" />
             </div>
             <p>Recognized with the Taiwan Excellence Award for three consecutive years, MiTAC’s 4G LTE Smart Camera K
@@ -89,7 +90,7 @@ include 'inc/HEADER.php';
 
             <p class="mt-4"><strong>Next-Generation 8-Inch Fleet Tablet - MioWORK F840: </strong></p>
             <div class="text-center">
-              <img src="../images/press_news/20240910/MioWORK_F840.png" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20240910/MioWORK_F840.png" style="max-width:600px;margin-top: 0;" alt="Next-Generation 8-Inch Fleet Tablet - MioWORK F840" />
             </div>
             <p>Designed specifically for fleet management, the MioWORK F840 tablet features the latest Android 13 OS and
               a cutting-edge Qualcomm processor, offering an 80% performance boost over previous models F700 series.
@@ -105,7 +106,7 @@ include 'inc/HEADER.php';
 
             <p class="mt-4"><strong>MioSERV S270: Smart Self-Service Solution for Indoor Facilities:</strong></p>
             <div class="text-center">
-              <img src="../images/press_news/20240910/MioSERV_S270.png" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20240910/MioSERV_S270.png" style="max-width:600px;margin-top: 0;" alt="MioSERV S270: Smart Self-Service Solution for Indoor Facilities"/>
             </div>
             <p>Winner of the 2024 iF Design Award, the MioSERV S270 is a versatile solution designed to enhance user
               experiences in various indoor facilities such as parking lots, airports, and train stations. This dual OS

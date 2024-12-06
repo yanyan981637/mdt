@@ -96,7 +96,7 @@
 							<div class="txtBox mt-60">
 								<div class="row">
 									<div class="col-3 col-md-3 pt_pb_1r tc">
-										<img class="ico" src="../images/connected_dashcam/ico_cold_thermometer.png">
+										<img class="ico" src="../images/connected_dashcam/ico_cold_thermometer.png" alt="ico cold thermometer">
 									</div>
 									<div class="col-9 col-md-9 pt_pb_1r">
 										<h5>-20°C to +60°C Endurance</h5>
@@ -108,7 +108,7 @@
 							<div class="txtBox mt_2">
 								<div class="row">
 									<div class="col-3 col-md-3 pt_pb_1r tc">
-										<img class="ico" src="../images/connected_dashcam/ico_nfc.png">
+										<img class="ico" src="../images/connected_dashcam/ico_nfc.png" alt="ico nfc"/>
 									</div>
 									<div class="col-9 col-md-9 pt_pb_1r">
 										<h5>Built-in NFC</h5>
@@ -120,7 +120,7 @@
 							<div class="txtBox mt_2">
 								<div class="row">
 									<div class="col-3 col-md-3 pt_pb_1r tc">
-										<img class="ico" src="../images/connected_dashcam/ico_bluetooth_data_transfer.png">
+										<img class="ico" src="../images/connected_dashcam/ico_bluetooth_data_transfer.png" alt="ico bluetooth data transfer">
 									</div>
 									<div class="col-9 col-md-9 pt_pb_1r">
 										<h5>Integrated Bluetooth</h5>
@@ -132,7 +132,7 @@
 							<div class="txtBox mt_2">
 								<div class="row">
 									<div class="col-3 col-md-3 pt_pb_1r tc">
-										<img class="ico" src="../images/connected_dashcam/ico_battery_protection.png">
+										<img class="ico" src="../images/connected_dashcam/ico_battery_protection.png" alt="ico battery protection">
 									</div>
 									<div class="col-9 col-md-9 pt_pb_1r">
 										<h5>Vehicle Battery Protection</h5>
@@ -157,7 +157,7 @@
 				<div class="col-md-12 align-items-stretch background-grey mb-30 tc">
 					<h2 class="FC_mdt1">K220</h2>
 					<div class="pdtBox section justify-content-center rwd-padding-on-grid mb-30">
-						<a href="connected-dashcam-K220.php"><img class="border_W" src="../images/connected_dashcam/pdt/K220.png" /></a>
+						<a href="connected-dashcam-K220.php"><img class="border_W" src="../images/connected_dashcam/pdt/K220.png" alt="K220" /></a>
 					</div>
 					<a href="connected-dashcam-K220.php" class="btn btn-fill-black-b btn-lg btn-round mb-20">View More Details <i class="fa fa-external-link" aria-hidden="true" style="margin-left:15px;"></i></a>
 				</div>
@@ -305,13 +305,13 @@
 				<div class="col-md-4 align-items-stretch background-grey mb-30 tc">	
 					<h2 class="FC_mdt1">K145C</h2>
 					<div class="pdtBox section justify-content-center rwd-padding-on-grid mb-30">
-						<a href="connected-dashcam-K145C-K245C.php"><img class="border_W" src="../images/connected_dashcam/pdt/K145c.png" /></a>
+						<a href="connected-dashcam-K145C-K245C.php"><img class="border_W" src="../images/connected_dashcam/pdt/K145c.png" alt="K145c"/></a>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch background-grey mb-30 tc">	
 					<h2 class="FC_mdt1">K245C</h2>
 					<div class="pdtBox section justify-content-center rwd-padding-on-grid">
-						<a href="connected-dashcam-K145C-K245C.php"><img class="border_W" src="../images/connected_dashcam/pdt/K245c.png" /></a>
+						<a href="connected-dashcam-K145C-K245C.php"><img class="border_W" src="../images/connected_dashcam/pdt/K245c.png" alt="K245c"/></a>
 					</div>
 				</div>
 				<div class="col-md-2"></div>
@@ -379,13 +379,13 @@
 				<div class="col-md-4 align-items-stretch background-white mb-30 tc">	
 					<h2 class="FC_mdt1">K165</h2>
 					<div class="pdtBox section justify-content-center rwd-padding-on-grid mb-30">
-						<a href="connected-dashcam-K165-K265.php"><img class="border_Gray" src="../images/connected_dashcam/pdt/K165.png" /></a>
+						<a href="connected-dashcam-K165-K265.php"><img class="border_Gray" src="../images/connected_dashcam/pdt/K165.png" alt="K165" /></a>
 					</div>
 				</div>
 				<div class="col-md-4 align-items-stretch background-white mb-30 tc">	
 					<h2 class="FC_mdt1">K265</h2>
 					<div class="pdtBox section justify-content-center rwd-padding-on-grid">
-						<a href="connected-dashcam-K165-K265.php"><img class="border_Gray" src="../images/connected_dashcam/pdt/K265.png" /></a>
+						<a href="connected-dashcam-K165-K265.php"><img class="border_Gray" src="../images/connected_dashcam/pdt/K265.png" alt="K265" /></a>
 					</div>
 				</div>
 				<div class="col-md-1"></div>

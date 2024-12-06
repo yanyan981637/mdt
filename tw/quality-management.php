@@ -55,7 +55,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 						<a href="https://youtu.be/Nip7oQ1-bVw" target="_blank">
-							<img src="/images/innovative-engineering/quality_management_video_screenshot.jpg"  class="img-fluid rounded mx-auto d-block video_img">
+							<img src="/images/innovative-engineering/quality_management_video_screenshot.jpg" alt="我們將DQ、CE、SQA、PQA、OQA和服務等六個流程應用於我們嚴格的品質管理，以確保所有神達數位的產品在交付給客戶之前都符合最嚴格的標準。" class="img-fluid rounded mx-auto d-block video_img">
 						</a>
 				</div>
 			</div>	

@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/MiTAC_CANGO.jpg" style="max-width:100%;" />
+							<img src="../images/press_news/MiTAC_CANGO.jpg" alert="MiTAC CANGO" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>CANGO Mobility, a leading provider of advanced vehicle telematics solutions, and MiTAC Digital Tehnology Corp. (MDT), a pioneer in Automative technology, are thrilled to announce their strategic collaboration to deliver cutting-edge video telematics solutions for fleet managers worldwide.</p>

@@ -160,20 +160,20 @@
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K145_K245_detailed_views_01.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K145_K245_detailed_views_m_01.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K145_K245_detailed_views_01.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K145 K245 Detailed" />
+						<img src="../images/video-telematics/K145_K245_detailed_views_m_01.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K145 K245 Detailed" />
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K145_K245_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K145_K245_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K145_K245_detailed_views_02.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K145 K245 Detailed" />
+						<img src="../images/video-telematics/K145_K245_detailed_views_m_02.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K145 K245 Detailed" />
 					</div>
 				</div>
 				<div class="col-md-12 align-items-stretch padding-bottom-small background-grey">	
 					<div class="productGrid section justify-content-center text-left rwd-padding-on-grid pdt_img">
-						<img src="../images/video-telematics/K145_K245_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" />
-						<img src="../images/video-telematics/K145_K245_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" />
+						<img src="../images/video-telematics/K145_K245_detailed_views_03.png" class="img-fluid mx-auto rounded d-none d-md-block" alt="K145 K245 Detailed" />
+						<img src="../images/video-telematics/K145_K245_detailed_views_m_03.png" class="img-fluid mx-auto rounded d-block d-md-none" alt="K145 K245 Detailed" />
 					</div>
 				</div>
 			</div>
@@ -317,7 +317,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>外接鏡頭</h5>
-						<img src="../images/connected_dashcam/pdt/P.23-4.png" />
+						<img src="../images/connected_dashcam/pdt/P.23-4.png" alt="配件 外接鏡頭" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -326,7 +326,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>外接鏡頭</h5>
-						<img src="../images/connected_dashcam/pdt/P.26-5.png" />
+						<img src="../images/connected_dashcam/pdt/P.26-5.png" alt="配件 外接鏡頭" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -335,7 +335,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>改良式供電車載資料傳輸接頭</h5>
-						<img src="../images/connected_dashcam/pdt/smart_cable.png" />
+						<img src="../images/connected_dashcam/pdt/smart_cable.png" alt="配件 改良式供電車載資料傳輸接頭" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -346,7 +346,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>OBD電源供應線</h5>
-						<img src="../images/video-telematics/P.24-1.png" />
+						<img src="../images/video-telematics/P.24-1.png" alt="配件 OBD電源供應線" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -355,7 +355,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>電源線 (含ACC訊號)</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-2.png" />
+						<img src="../images/connected_dashcam/pdt/P.24-2.png" alt="配件 電源線 (含ACC訊號)" />
 						<p class="st2">
 						 標準配件
 						</p>
@@ -364,7 +364,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>全功能線 (含所有功能訊號與電源)</h5>
-						<img src="../images/video-telematics/Premium_Cable_20230524.png" />
+						<img src="../images/video-telematics/Premium_Cable_20230524.png" alt="配件 全功能線 (含所有功能訊號與電源)" />
 						<p class="st2">
 							需另外購買
 						</p>
@@ -375,7 +375,7 @@
 			  <div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>集線套</h5>
-						<img src="../images/video-telematics/P.24-5.png" />
+						<img src="../images/video-telematics/P.24-5.png" alt="配件 集線套" />
 						<p class="st2"> 
 							需另外購買
 						</p>
@@ -385,7 +385,7 @@
 				<div class="col-md-4 align-items-stretch tc">	
 					<div class="accsBox">	
 						<h5>遠端手動錄影觸發按鈕</h5>
-						<img src="../images/connected_dashcam/pdt/P.24-6.png" />
+						<img src="../images/connected_dashcam/pdt/P.24-6.png" alt="配件 遠端手動錄影觸發按鈕"/>
 						<p class="st2">
 							需另外購買
 						</p>

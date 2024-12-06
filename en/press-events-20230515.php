@@ -29,7 +29,7 @@
 					<!--start-->
 					<div class="row">
 						<div class="col-md-12">
-							<img src="../images/press_news/press-room-new-pic-20230515.png" style="max-width:100%;" />
+							<img src="../images/press_news/press-room-new-pic-20230515.png" alt="Press Room" style="max-width:100%;" />
 						</div>
 						<div class="col-md-12">
 							<p>(Taoyuan, May 15, 2023) – MiTAC Digital Technology Corp., announced its revolutionary e-mirror type rearview mirror dashcam – Mio MiVue R850 Series has been recognized in the User Interface (UI) category of the 2023 iF DESIGN AWARD, a globally renowned design competition.</p>
