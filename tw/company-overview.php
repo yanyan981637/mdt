@@ -134,9 +134,9 @@
 				<div class="col-md-3 col-6 mt-30">	
 					<h5>員工</h5>
 					<ul class="list-style">
-						<li>全球：2400+</li>
-						<li>全球營運人數：800+</li>
-						<li>全球研發人員：400+</li>
+						<li>全球：2800+</li>
+						<li>全球營運人數：700+</li>
+						<li>全球研發人員：450+</li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-6 mt-30">	

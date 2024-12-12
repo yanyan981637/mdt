@@ -134,9 +134,9 @@
 				<div class="col-md-3 col-6 mt-30">	
 					<h5>Employees</h5>
 					<ul class="list-style">
-						<li>Grand Total: 2400+</li>
-						<li>Global Operation Member: 800+</li>
-						<li>Global Engineer Resources: 400+</li>
+						<li>Grand Total: 2800+</li>
+						<li>Global Operation Member: 700+</li>
+						<li>Global Engineer Resources: 450+</li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-6 mt-30">	
