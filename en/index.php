@@ -140,7 +140,7 @@ function onYouTubeIframeAPIReady() {
         <div class="call-box-4">
           <h1 class="h2 tc mb-20">Innovative Pioneer in Automotive Electronic and AIOT Industry</h1>
           <p class="ContImp">As a pioneering force in the automotive electronics and AIoT industries, MiTAC Digital
-            Technology (MDT) has integrated its expertise in the Mobility as a Service (MaaS) domain with innovative
+            Technology (MDT) has integrated its expertise in the AI as a Service (AIaaS) domain with innovative
             edge-computing platform design capabilities to provide industrial and automotive grade product solutions for
             enterprise and consumer applications.</p>
 
