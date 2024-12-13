@@ -385,7 +385,7 @@ span.more a{
 	color:#fff !important;
 }
 .paraDiscov h2, .paraDiscov h5{color:#62dcff;padding-bottom: 15px;}
-.paraDiscov ul{margin-left: -40px;}
+/* .paraDiscov ul{margin-left: -40px;} */
 .paraDiscov li.s_logo{height: 60px;list-style: none;}
 .paraDiscov li.s_logo img{width:130px;}
 .paraDiscov ul.list-style li{color:#fff;padding-bottom:5px;}
