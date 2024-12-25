@@ -899,7 +899,7 @@ span.underline{
   text-align: center;     /* 文字內容水平置中 */
 }
 #home-slide .swiper-slide .show-mobile .banner-text {
-  width: 283px;
+  width: 305px;
   padding: 20px;
   /* position: absolute;
   left: 50%;
@@ -912,13 +912,13 @@ span.underline{
   transform: translate(-50%, -50%);
 }
 #home-slide .swiper-slide .show-mobile .banner-text h5 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.5;
   color: #ffffff;
   font-weight: bold;
 }
 #home-slide .swiper-slide .show-mobile .banner-text p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   font-weight: bold;
@@ -928,7 +928,7 @@ span.underline{
   border-left: #29c0ff 5px solid;
 }
 #home-slide .swiper-slide .show-mobile .banner-text span {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   color: #ffffff;
   font-weight: normal;
