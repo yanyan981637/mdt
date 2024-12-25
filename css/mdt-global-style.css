@@ -819,7 +819,6 @@ span.underline{
   margin: 175px 0;
 }
 
-
 #home-slide .swiper-slide .show-pc .banner-text-xl {
   width: 60%;
   padding: 20px;
@@ -857,12 +856,11 @@ span.underline{
   caret-color: transparent;
 }
 
-
 #home-slide .swiper-slide .show-tablet .banner-text {
   width: 70%;
   padding: 20px;
   position: absolute;
-  left: 35%;
+  left: 40%;
   top: 15%;
   -o-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -894,13 +892,19 @@ span.underline{
   margin: 0;
   caret-color: transparent;
 }
-
+#home-slide .swiper-slide .show-mobile{
+  display: flex;
+  flex-direction: column; /* 如果需要讓文字和圖片按垂直排列 */
+  align-items: center;    /* 水平置中 */
+  text-align: center;     /* 文字內容水平置中 */
+}
 #home-slide .swiper-slide .show-mobile .banner-text {
-  width: 90%;
+  width: 281px;
   padding: 20px;
-  position: absolute;
+  /* position: absolute;
   left: 50%;
-  top: 25%;
+  top: 25%; */
+  margin-top: -10px;
   -o-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
