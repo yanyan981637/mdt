@@ -899,11 +899,13 @@ span.underline{
   text-align: center;     /* 文字內容水平置中 */
 }
 #home-slide .swiper-slide .show-mobile .banner-text {
-  width: 305px;
+  /* width: 305px; */
+  display: inline-block;
+  width: max-content;
   padding: 20px;
-  /* position: absolute;
+  position: absolute;
   left: 50%;
-  top: 25%; */
+  top: 30%;
   margin-top: -10px;
   -o-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
