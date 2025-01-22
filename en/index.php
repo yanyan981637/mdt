@@ -388,6 +388,19 @@ owl.owlCarousel({
       <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
         <div class="pricing pt_pb_1r background-white borderTop_B">
           <div class="pn_p p">Press</div>
+          <div class="pricing-sub p mb_1">2025.01.22</div>
+          <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20250122.php">MiTAC Showcases Its Automotive Product Solutions at Automotive World Japan 2025</a></h6>
+          <div class="pricing-img"><a href="press-events-20250122.php"><img
+                src="../images/press_news/20250122/20250122_615x410.jpg"
+                alt="MiTAC Showcases Its Automotive Product Solutions at Automotive World Japan 2025"></a>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix hidden-xs"></div>
+
+      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+        <div class="pricing pt_pb_1r background-white borderTop_B">
+          <div class="pn_p p">Press</div>
           <div class="pricing-sub p mb_1">2024.09.10</div>
           <h6 class="tit-H"><a class="FC_mdtG" href="press-events-20240910.php">MiTAC Showcases Advanced Dashcams,
               Rugged Tablets and Video Telematics for Fleet Management, and Award-Winning Smart Kiosk at Automechanika
@@ -414,8 +427,7 @@ owl.owlCarousel({
       </div>
       <div class="clearfix hidden-xs"></div>
 
-
-      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+      <!-- <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
         <div class="pricing pt_pb_1r background-white borderTop_B">
           <div class="pn_p p">Event</div>
           <div class="pricing-sub p mb_1">2024.04.25</div>
@@ -425,7 +437,7 @@ owl.owlCarousel({
                 alt="MiTAC's Breakthrough Innovations Shine at Embedded World 2024"></a></div>
         </div>
       </div>
-      <div class="clearfix hidden-xs"></div>
+      <div class="clearfix hidden-xs"></div> -->
 
     </div>
     <div class="row justify-content-center mt_6">

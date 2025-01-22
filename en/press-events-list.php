@@ -19,6 +19,38 @@
 <div class="section padding-bottom-small background-white">
   <div class="container" style="border-top: solid 4px #313139;">
 
+  <div class="row newsGrid">
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <span class="h4">Press</span>
+        <p class="dat">2025.01.22</p>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+        <div class="newsCov">
+          <a href="press-events-20250122.php">
+            <figure class="image-hover3">
+              <img src="../images/press_news/20250122/20250122_615x410.jpg" class=""
+                alt="MiTAC Showcases Its Automotive Product Solutions at Automotive World Japan 2025">
+              <figcaption>
+                <div class="tit h4">Read More</div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+      <div class="cont col-lg-7 col-md-5 col-sm-6">
+        <h5><a class="FC_mdtG" href="press-events-20250122.php">MiTAC Showcases Its Automotive Product Solutions at Automotive World Japan 2025</a>
+        </h5>
+        <p class="brf">(Tokyo, Japan, January 22, 2025) – MiTAC Digital Technology Corp. (MDT),
+           a leader in automotive electronics, is proud to present its latest innovations at Automotive World Japan 2025 (January 22–24).
+            Highlighted products include the cutting-edge VisionMax™...</p>
+        <span class="more"><a href="press-events-20250122.php">Read More <i class="fa fa-angle-right"
+              aria-hidden="true"></i></a></span>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div>
+    </div>
+
     <div class="row newsGrid">
       <div class="col-lg-2 col-md-2 col-sm-2">
         <span class="h4">Press</span>
