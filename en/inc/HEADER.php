@@ -137,6 +137,13 @@
 	// 確保 Meta Description 至少有預設值
 	$Current_Meta_Description = $Current_Meta_Description ?: $default_meta_description;
 
+	// nginx error log 變數未進行賦值或宣告
+	$Current_Menu_Id = isset($Current_Menu_Id) ? $Current_Menu_Id : 0;
+	$Current_Menu_Father_Id = isset($Current_Menu_Father_Id) ? $Current_Menu_Father_Id : 0;
+	$Current_Menu_File_Name = $Current_Menu_File_Name ?? '';
+	$Current_Menu_Inquiry_type = $Current_Menu_Inquiry_type ?? '';
+
+
 	// // Set current menu details if found
 	// if ($current_menu && !preg_match("/press-events/i", $cfg['file_name'])) {
 	// 	$Current_Menu_Id           = $current_menu['menu_id'];

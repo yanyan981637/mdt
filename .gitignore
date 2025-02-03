@@ -8,3 +8,4 @@ nginx.htaccess
 /var
 .env
 /sitemap.xml
+test_error.php

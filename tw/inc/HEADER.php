@@ -134,6 +134,13 @@
 		}
 	}
 
+	// nginx error log 變數未進行賦值或宣告
+	$Current_Menu_Id = isset($Current_Menu_Id) ? $Current_Menu_Id : 0;
+	$Current_Menu_Father_Id = isset($Current_Menu_Father_Id) ? $Current_Menu_Father_Id : 0;
+	$Current_Menu_File_Name = $Current_Menu_File_Name ?? '';
+	$Current_Menu_Inquiry_type = $Current_Menu_Inquiry_type ?? '';
+
+
 	//判斷是否為手機
 	function isMobile() {
 		// 檢查 HTTP_X_WAP_PROFILE 頭信息
