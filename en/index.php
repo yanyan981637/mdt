@@ -11,7 +11,7 @@ include 'inc/HEADER.php';
       <div class="swiper-wrapper">
 
         <!-- 2025/01/24(一)下架 -->
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
           <div class="show-pc img">
             <img src="../images/home/MDT_banner_2025AWJP_1980x825.png" alt="Automotive World 2025でお待ちしております！">
             <div class="banner-text-xl text-left">
@@ -34,16 +34,16 @@ include 'inc/HEADER.php';
             </div>
           </div>
           <a class="btn btn-round btn-youtube absolute inline" href="https://www.nepconjapan.jp/tokyo/en-gb/search/2025/directory/directory-details.mitac%20digital%20technology%20corporation.org-0b02d677-9e6e-466f-82ea-6cbaad463322.html#/" target="_blank" aria-label="點擊觀看詳細影片">Learn More</a>
-        </div>
+        </div> -->
         <div class="swiper-slide">
           <a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI "
             target="_blank">Learn More</a>
           <div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
         </div>
       </div>
-      <div class="swiper-button-next swiper-button-white"></div>
+      <!-- <div class="swiper-button-next swiper-button-white"></div>
       <div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination"></div> -->
     </div>
   </div>
 </div>
@@ -58,19 +58,19 @@ var youtube_prefix = 'slide_youtubr_'
 var swiper;
 swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
-    autoplay: { //
-      delay: 10000
-    },
+    // autoplay: { //
+    //   delay: 10000
+    // },
   autoplay: false,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    loop: true, //
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+    // loop: true, //
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
   on: {
 
     slideChange: function() {
