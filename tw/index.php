@@ -39,14 +39,28 @@ include 'inc/HEADER.php';
           </div>
           <a class="btn btn-round btn-youtube absolute inline" href="https://www.nepconjapan.jp/tokyo/en-gb/search/2025/directory/directory-details.mitac%20digital%20technology%20corporation.org-0b02d677-9e6e-466f-82ea-6cbaad463322.html#/" target="_blank" aria-label="點擊觀看詳細影片">瞭解更多</a>
         </div> -->
+
+        <!-- Embedded World -->
+        <div class="swiper-slide">
+          <div class="show-pc img">
+            <img src="../images/home/2025_Embedded_World_Include_Text.jpg" alt="2025 Embedded World MDT">
+          </div>
+          <div class="show-tablet img">
+            <img src="../images/home/2025_Embedded_World_Include_Text.jpg" alt="2025 Embedded World MDT">
+          </div>
+          <div class="show-mobile img">
+            <img src="../images/home/2025_Embedded_World_m.jpg" class="show-mobile" alt="2025 Embedded World MDT">
+          </div>
+          <a class="btn btn-round btn-youtube absolute inline" href="https://www.embedded-world.de/en/exhibitors-products/m/mitac-digital-technology-corporation" target="_blank" aria-label="點擊觀看詳細影片">瞭解更多</a>
+        </div>
         <div class="swiper-slide">
           <a class="btn btn-round btn-youtube absolute inline" href="https://www.youtube.com/watch?v=ppfIsR6fDqI" target="_blank" aria-label="點擊觀看詳細影片">瞭解更多</a>
           <div class="youtube_iframe" data-youtube="rnKZS2D-2HA"></div>
         </div>
       </div>
-      <!-- <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
       <div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div> -->
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </section>
@@ -61,19 +75,19 @@ var youtube_prefix = 'slide_youtubr_'
 var swiper;
 swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
-    // autoplay: { //
-    //   delay: 10000
-    // },
+    autoplay: { //
+      delay: 10000
+    },
   autoplay: false,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
-    // loop: true, //
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop: true, //
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   on: {
 
     slideChange: function() {
