@@ -47,7 +47,7 @@ include 'inc/HEADER.php';
           <div class="show-mobile img">
             <img src="../images/home/2025_Embedded_World_m.jpg" class="show-mobile" alt="2025 Embedded World MDT">
           </div>
-          <a class="btn btn-round btn-youtube absolute inline" href="https://www.embedded-world.de/en/exhibitors-products/m/mitac-digital-technology-corporation" target="_blank" aria-label="點擊觀看詳細影片">瞭解更多</a>
+          <a class="btn btn-round btn-youtube absolute inline" href="https://www.embedded-world.de/en/exhibitors-products/m/mitac-digital-technology-corporation" target="_blank" aria-label="Learn More">Learn More</a>
         </div>
 
         <div class="swiper-slide">
