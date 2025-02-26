@@ -261,6 +261,7 @@
 				<div class="col-12">
 					<h3>下載神達永續報告書</h3>
 					<p>
+						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_Sustainability_2023_CH.pdf" target="_blank">2023</a>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_Sustainability_2022_CH.pdf" target="_blank">2022</a>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_Sustainability_2021_EN_Final-AA1000-update.pdf" target="_blank">2021</a>
 						<a class="btn btn-blue1 btn-lg btn-round" href="/Downloads/csr/MiTAC_CSR_2020_TW_final_Eng.pdf" target="_blank">2020</a>
