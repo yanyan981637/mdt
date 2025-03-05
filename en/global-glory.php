@@ -25,12 +25,17 @@
 		<div class="container ">
 			<div class="awd padding-top">
 				<div class="row">
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award32.png" alt="Computex BC Award"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/iF_award_2025_220x220.png" alt="iF Award 2025"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2025_taiwan_excellence.png" alt="Taiwan Excellence 2025"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/iF_award_2024_220x220.png" alt="iF Award 2024"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2024_taiwan_excellence.png" alt="Taiwan Excellence 2024"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/iF_award_2023_220x220.png" alt="iF Award 2023"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award25.png" alt="Taiwan Excellence 2023"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award31.png" alt="2022 Taiwan Excellence Award"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award30.png" alt="110 Taiwan i Sports"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award29-1.png" alt="2021 Taiwan Excellence Award"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award32.png" alt="Computex BC Award"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award30.png" alt="110 Taiwan i Sports"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award29.png" alt="AWS Award"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award01.png" alt="iF Award"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award02.png" alt="PCHOME Award"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award03.png" alt="PC today Award"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award04.png" alt="Product of the year"></div>
@@ -54,12 +59,9 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award22.png" alt="DVR award record"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award23.png" alt="PND award record"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award24.png" alt="PND award record"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award25.png" alt="Computex _ Best Choice Award"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award26.png" alt="DVR award record"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award27.png" alt="PND award record"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award28.png" alt="DVR award record"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2024_taiwan_excellence.png" alt="Taiwan Excellence 2024"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2025_taiwan_excellence.png" alt="Taiwan Excellence 2025"></div>
 				</div>
 			</div>
 		</div>

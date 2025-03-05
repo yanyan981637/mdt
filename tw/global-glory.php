@@ -25,12 +25,17 @@
 		<div class="container ">
 			<div class="awd padding-top">
 				<div class="row">
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award32.png" alt="Computex BC獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/iF_award_2025_220x220.png" alt="iF 2025年設計大獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2025_taiwan_excellence.png" alt="2025台灣精品獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/iF_award_2024_220x220.png" alt="iF 2024年設計大獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2024_taiwan_excellence.png" alt="2024台灣精品獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/iF_award_2023_220x220.png" alt="iF 2023年設計大獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award25.png" alt="Taiwan Excellence 2023"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award31.png" alt="2022台灣精品獎"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award30.png" alt="110年度運動企業認證標章"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award29-1.png" alt="2021台灣精品獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award32.png" alt="Computex BC獎"></div>
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award30.png" alt="110年度運動企業認證標章"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award29.png" alt="AWS認證"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award01.png" alt="iF設計大獎"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award02.png" alt="PCMOHE通路推薦大賞"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award03.png" alt="PC TODAY大獎"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award04.png" alt="Product of the Year"></div>
@@ -54,12 +59,9 @@
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award22.png" alt="DVR得獎紀錄"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award23.png" alt="PND得獎紀錄"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award24.png" alt="PND得獎紀錄"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award25.png" alt="Computex _ Best Choice獎"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award26.png" alt="DVR得獎紀錄"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award27.png" alt="PND得獎紀錄"></div>
 					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award28.png" alt="DVR得獎紀錄"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2024_taiwan_excellence.png" alt="2024年台灣精品獎"></div>
-					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4"><img src="../images/awards/award_2025_taiwan_excellence.png" alt="2025年台灣精品獎"></div>
 				</div>
 			</div>
 		</div>
