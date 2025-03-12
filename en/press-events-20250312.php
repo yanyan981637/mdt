@@ -36,7 +36,7 @@ include 'inc/HEADER.php';
             <p>Additionally, MDT’s <strong>ARM-based Industrial Panel PCs</strong>, featuring the <strong>i.MX8M Quad-core platform</strong>, offer <strong>IP65-rated durability, wide voltage input, and multi-OS support (Yocto, Ubuntu, Android)</strong>, making them ideal for <strong>smart manufacturing and logistics.</strong></p>
             <p>Completing the lineup, MDT’s <strong>next-gen industrial motherboards</strong> support <strong>Intel Meteor Lake-U, Arrow Lake-S/U, , Raptor Lake-S Refresh, Alder Lake-N, and Twin Lake platforms</strong>, providing <strong>long-term reliability</strong> for <strong>embedded AI computing and automation</strong>.</p>
             <div class="text-center">
-              <img src="../images/press_news/20250312/cover-IMG_1480-615X410-MDT.png" alt="MiTAC Digital Technology Showcases AI-Powered Edge Computing and Intelligent Solutions at Embedded World 2025" style="max-width:600px;margin-top: 0;" />
+              <img src="../images/press_news/20250312/1-1.jpg" alt="MiTAC Digital Technology Showcases AI-Powered Edge Computing and Intelligent Solutions at Embedded World 2025" style="max-width:600px;margin-top: 0;" />
             </div>
             <div class="text-center">
               <img src="../images/press_news/20250312/1-2-IMG_1501-800.png" alt="MiTAC Digital Technology Showcases AI-Powered Edge Computing and Intelligent Solutions at Embedded World 2025" style="max-width:600px;margin-top: 0;" />
