@@ -19,7 +19,39 @@
 <div class="section padding-bottom-small background-white">
   <div class="container" style="border-top: solid 4px #313139;">
 
-  <div class="row newsGrid">
+    <div class="row newsGrid">
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <span class="h4">Press</span>
+        <p class="dat">2025.03.12</p>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+        <div class="newsCov">
+          <a href="press-events-20250312.php">
+            <figure class="image-hover3">
+              <img src="../images/press_news/20250312/cover-IMG_1480-615X410-MDT.png" class=""
+                alt="MiTAC Digital Technology Showcases AI-Powered Edge Computing and Intelligent Solutions at Embedded World 2025">
+              <figcaption>
+                <div class="tit h4">Read More</div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+      <div class="cont col-lg-7 col-md-5 col-sm-6">
+        <h5><a class="FC_mdtG" href="press-events-20250312.php">MiTAC Digital Technology Showcases AI-Powered Edge Computing and Intelligent Solutions at Embedded World 2025</a>
+        </h5>
+        <p class="brf">Nuremberg, Germany – March 11, 2025 – MiTAC Digital Technology (MDT), 
+          a leader in embedded solutions, automotive electronics, and AIoT solutions, 
+          is excited to unveil its latest innovations at Embedded World 2025 (March 11th–13th)...</p>
+        <span class="more"><a href="press-events-20250312.php">Read More <i class="fa fa-angle-right"
+              aria-hidden="true"></i></a></span>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div>
+    </div>
+
+    <div class="row newsGrid">
       <div class="col-lg-2 col-md-2 col-sm-2">
         <span class="h4">Press</span>
         <p class="dat">2025.01.22</p>
