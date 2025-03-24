@@ -824,7 +824,8 @@ span.underline{
   padding: 20px;
   position: absolute;
   left: 45%;
-  top: 30%;
+  /* top: 30%; */
+  top: 45%;
   -o-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -861,7 +862,8 @@ span.underline{
   padding: 20px;
   position: absolute;
   left: 40%;
-  top: 15%;
+  /* top: 15%; */
+  top: 20%;
   -o-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);

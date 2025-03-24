@@ -10,31 +10,31 @@ include 'inc/HEADER.php';
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
 
-        <!-- 2025/01/24(一)下架 -->
-        <!-- <div class="swiper-slide">
+        <!-- AutoTronics Taipei -->
+        <div class="swiper-slide">
           <div class="show-pc img">
-            <img src="../images/home/MDT_banner_2025AWJP_1980x825.png" alt="Automotive World 2025でお待ちしております！">
+            <img src="../images/home/2025_AutoTronics_Taipei.jpg" alt="2025 AutoTronics Taipei">
             <div class="banner-text-xl text-left">
-              <h5>Automotive World 2025<br>でお待ちしております！</h5>
-              <p><span>Date:</span> 01/22~01/24<br><span>Booth No:</span> Hall 東5 E49-8</p>
+              <h5>AutoTronics Taipei</h5>
+              <p><span>Date:</span> 2025 04/23~04/26<br><span>Booth No:</span> L0306, Nangang Exhibition <br>&emsp;&emsp;&nbsp;&nbsp;&nbsp;Center Hall 1 (TaiNEX)</p>
             </div>
           </div>
           <div class="show-tablet img">
-            <img src="../images/home/MDT_banner_2025AWJP_1980x825.png" alt="Automotive World 2025でお待ちしております！">
+            <img src="../images/home/2025_AutoTronics_Taipei.jpg" alt="2025 AutoTronics Taipei">
             <div class="banner-text text-left">
-              <h5>Automotive World 2025<br>でお待ちしております！</h5>
-              <p><span>Date:</span> 01/22~01/24<br><span>Booth No:</span> Hall 東5 E49-8</p>
+              <h5>AutoTronics Taipei</h5>
+              <p><span>Date:</span> 2025 04/23~04/26<br><span>Booth No:</span> L0306, Nangang Exhibition <br>&emsp;&emsp;&nbsp;&nbsp;&nbsp;Center Hall 1 (TaiNEX)</p>
             </div>
           </div>
           <div class="show-mobile img">
-            <img src="../images/home/MDT_banner_2025AWJP.png" class="show-mobile" alt="Automotive World 2025でお待ちしております！">
+            <img src="../images/home/2025_AutoTronics_Taipei_m.jpg" class="show-mobile" alt="2025 AutoTronics Taipei">
             <div class="banner-text text-left">
-              <h5>Automotive World 2025<br>でお待ちしております！</h5>
-              <p><span>Date:</span> 01/22~01/24<br><span>Booth No:</span> Hall 東5 E49-8</p>
+              <h5>AutoTronics Taipei</h5>
+              <p><span>Date:</span> 2025 04/23~04/26<br><span>Booth No:</span> L0306, Nangang Exhibition <br>&emsp;&emsp;&emsp;&nbsp;&nbsp;Center Hall 1 (TaiNEX)</p>
             </div>
           </div>
-          <a class="btn btn-round btn-youtube absolute inline" href="https://www.nepconjapan.jp/tokyo/en-gb/search/2025/directory/directory-details.mitac%20digital%20technology%20corporation.org-0b02d677-9e6e-466f-82ea-6cbaad463322.html#/" target="_blank" aria-label="點擊觀看詳細影片">Learn More</a>
-        </div> -->
+          <!-- <a class="btn btn-round btn-youtube absolute inline" href="https://www.taipeiampa.com.tw/zh-tw/index.html" target="_blank" aria-label="點擊觀看詳細影片">Learn More</a> -->
+        </div>
 
         <!-- Embedded World 2005/3/18(二)下架-->
         <!-- <div class="swiper-slide">
@@ -57,9 +57,9 @@ include 'inc/HEADER.php';
         </div>
       </div>
 
-      <!-- <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
       <div class="swiper-button-prev swiper-button-white"></div>
-      <div class="swiper-pagination"></div> -->
+      <div class="swiper-pagination"></div>
 
     </div>
   </div>
@@ -75,19 +75,19 @@ var youtube_prefix = 'slide_youtubr_'
 var swiper;
 swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
-    // autoplay: { //
-    //   delay: 10000
-    // },
+    autoplay: { //
+      delay: 10000
+    },
   autoplay: false,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
-    // loop: true, //
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop: true, //
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   on: {
 
     slideChange: function() {
