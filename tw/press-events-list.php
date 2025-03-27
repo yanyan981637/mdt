@@ -22,6 +22,37 @@ include 'inc/HEADER.php';
 		<div class="row newsGrid">
 			<div class="col-lg-2 col-md-2 col-sm-2">
 				<span class="h4">新聞</span>
+				<p class="dat">2025.03.27</p>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
+				<div class="newsCov">
+					<a href="press-events-20250327.php">
+						<figure class="image-hover3">
+							<img src="../images/press_news/20250327/MDT法說會01-615x410.jpg" class=""
+								alt="車用電子及智聯網解决方案之領導廠商—神達數位(7821)將於2025/3/31登錄興櫃">
+							<figcaption>
+								<div class="tit h4">繼續閱讀 </div>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="cont col-lg-7 col-md-5 col-sm-6">
+				<h5><a class="FC_mdtG" href="press-events-20250327.php">車用電子及智聯網解决方案之領導廠商—神達數位(7821)
+				將於2025/3/31登錄興櫃</a></h5>
+				<p class="brf">(桃園訊，2025年03月27日)神達數位股份有限公司（以下簡稱神達數位）將於3/31興櫃掛牌(7821)，正式進入資本市場。
+					神達數位成立於2017年9月，並於2018年正式營運，目前資本額為新台幣10.94億元，公司前身是神達電腦的行動通訊產品事業體…</p>
+				<span class="more"><a href="press-events-20250327.php">繼續閱讀 <i class="fa fa-angle-right"
+							aria-hidden="true"></i></a></span>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="separator-wrap"><span class="separator-f"><span class="separator-line"></span></span></div>
+		</div>
+
+		<div class="row newsGrid">
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<span class="h4">新聞</span>
 				<p class="dat">2024.09.10</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 portfolio-box">
