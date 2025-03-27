@@ -372,12 +372,28 @@ owl.owlCarousel({
       <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
         <div class="pricing pt_pb_1r background-white borderTop_B">
           <div class="pn_p p">新聞</div>
-          <div class="pricing-sub p mb_1">2024.09.10</div>
+          <div class="pricing-sub p mb_1">2025.03.27</div>
           <h6 class="tit-H">
-            <a class="FC_mdtG" href="press-events-20240910.php" aria-label="點擊進入達數位於2024年法蘭克福汽配展的詳細介紹頁面">神達數位於2024年法蘭克福汽配展(Automechanika Frankfurt 2024) 展示最新款行車紀錄器、強固型平板電腦及車載視訊管理解決方案和智慧自助服務機</a>
+            <a class="FC_mdtG" href="press-events-20250327.php" aria-label="點擊進入神達數位於2025興櫃新聞稿">車用電子及智聯網解决方案之領導廠商—神達數位(7821)將於2025/3/31登錄興櫃</a>
           </h6>
           <div class="pricing-img">
-            <a href="press-events-20240910.php" aria-label="點擊進入達數位於2024年法蘭克福汽配展的詳細介紹頁面">
+            <a href="press-events-20250327.php" aria-label="點擊進入神達數位於2025興櫃新聞稿">
+              <img src="../images/press_news/20250327/MDT法說會01-615x410.jpg" loading="lazy" alt="車用電子及智聯網解决方案之領導廠商—神達數位(7821)將於2025/3/31登錄興櫃">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix hidden-xs"></div>
+
+      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
+        <div class="pricing pt_pb_1r background-white borderTop_B">
+          <div class="pn_p p">新聞</div>
+          <div class="pricing-sub p mb_1">2024.09.10</div>
+          <h6 class="tit-H">
+            <a class="FC_mdtG" href="press-events-20240910.php" aria-label="點擊進入神達數位於2024年法蘭克福汽配展的詳細介紹頁面">神達數位於2024年法蘭克福汽配展(Automechanika Frankfurt 2024) 展示最新款行車紀錄器、強固型平板電腦及車載視訊管理解決方案和智慧自助服務機</a>
+          </h6>
+          <div class="pricing-img">
+            <a href="press-events-20240910.php" aria-label="點擊進入神達數位於2024年法蘭克福汽配展的詳細介紹頁面">
               <img src="../images/press_news/20240910/2024_automechanika_frankfurt_615x410.jpg" loading="lazy" alt="神達數位於2024年法蘭克福汽配展(Automechanika Frankfurt 2024) 展示最新款行車紀錄器、強固型平板電腦及車載視訊管理解決方案和智慧自助服務機">
             </a>
           </div>
@@ -398,23 +414,7 @@ owl.owlCarousel({
         </div>
       </div>
       <div class="clearfix hidden-xs"></div>
-
-      <div class="col-lg-4 col-sm-6 mb-30" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-        <div class="pricing pt_pb_1r background-white borderTop_B">
-          <div class="pn_p p">新聞</div>
-          <div class="pricing-sub p mb_1">2024.04.17</div>
-          <h6 class="tit-H">
-            <a class="FC_mdtG" href="press-events-20240417.php" aria-label="點擊進入神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案詳細介紹頁面">神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案</a>
-          </h6>
-          <div class="pricing-img">
-            <a href="press-events-20240417.php" aria-label="點擊進入神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案詳細介紹頁面">
-              <img loading="lazy" src="../images/press_news/AutoTronics_Taipei_2024_cover.jpg" alt="神達數位於台北車電展展出多樣整合軟硬體實力的產品解決方案">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="clearfix hidden-xs"></div>
-
+      
     </div>
     <div class="row justify-content-center mt_6">
       <div class="col-md-6">
