@@ -40,6 +40,32 @@ include 'inc/HEADER.php';
           <!-- <a class="btn btn-round btn-youtube absolute inline" href="https://www.taipeiampa.com.tw/zh-tw/index.html" target="_blank" aria-label="點擊觀看詳細影片">瞭解更多</a> -->
         </div>
 
+        <!-- AutoTronics Taipei -->
+        <div class="swiper-slide">
+          <div class="show-pc img">
+            <img src="../images/home/2025_automateShow.jpg" alt="2025 Automate Show">
+            <!-- <div class="banner-text-xl text-left">
+              <h5>AutoTronics Taipei</h5>
+              <p><span>Date:</span> 2025 04/23~04/26<br><span>Booth No:</span> L0306, Nangang Exhibition <br>&emsp;&emsp;&nbsp;&nbsp;&nbsp;Center Hall 1 (TaiNEX)</p>
+            </div> -->
+          </div>
+          <div class="show-tablet img">
+            <img src="../images/home/2025_automateShow.jpg" alt="2025 Automate Show">
+            <!-- <div class="banner-text text-left">
+              <h5>AutoTronics Taipei</h5>
+              <p><span>Date:</span> 2025 04/23~04/26<br><span>Booth No:</span> L0306, Nangang Exhibition <br>&emsp;&emsp;&nbsp;&nbsp;&nbsp;Center Hall 1 (TaiNEX)</p>
+            </div> -->
+          </div>
+          <div class="show-mobile img">
+            <img src="../images/home/2025_automateShow_m.jpg" class="show-mobile" alt="2025 Automate Show">
+            <!-- <div class="banner-text text-left">
+              <h5>AutoTronics Taipei</h5>
+              <p><span>Date:</span> 2025 04/23~04/26<br><span>Booth No:</span> L0306, Nangang Exhibition <br>&emsp;&emsp;&emsp;&nbsp;&nbsp;Center Hall 1 (TaiNEX)</p>
+            </div> -->
+          </div>
+          <!-- <a class="btn btn-round btn-youtube absolute inline" href="https://www.taipeiampa.com.tw/zh-tw/index.html" target="_blank" aria-label="點擊觀看詳細影片">Learn More</a> -->
+        </div>
+
         <!-- Embedded World 3/18(二)下架 -->
         <!-- <div class="swiper-slide">
           <div class="show-pc img">
