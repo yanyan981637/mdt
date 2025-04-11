@@ -184,9 +184,9 @@ function onYouTubeIframeAPIReady() {
 
 
 
-          <p class="ContImp">Our commitment to innovation extends to versatile processor development, supporting Intel
-            x86, ARM, and Linux architectures to craft industrial computer solutions compatible with Windows or Android
-            systems. Leveraging Edge AI alongside VisionAI technology and cloud computing, we propel our customers
+          <p class="ContImp">Our commitment to innovation extends to versatile processor development, supporting Intel 
+            x86 and ARM architectures to craft industrial computer solutions compatible with Windows, Android, Linux or RTOS systems. 
+            Leveraging Edge AI alongside VisionAI technology and cloud computing, we propel our customers
             towards new and exciting directions in industrial computing solutions, reflecting the highest standards of
             quality and ingenuity.</p>
 
